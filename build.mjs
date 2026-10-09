@@ -11,7 +11,7 @@ const config = {version:3,routes:[
   {src:'/data/batchc/(.*)',headers:{'Cache-Control':'public, max-age=31536000, immutable'},continue:true},
   {src:'/data/(?:manifest|bootset|bootset_low)\\.json',headers:{'Cache-Control':'no-cache'},continue:true},
   {handle:'filesystem'},
-  {src:'/data/(.*)',dest:'/data'},
+  {src:'/data/(.*)',dest:'/data?file=$1'},
   {src:'/log',status:204},
 ]};
 await writeFile(out + '/config.json', JSON.stringify(config, null, 2));

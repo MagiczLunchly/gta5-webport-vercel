@@ -80,22 +80,37 @@ export function createDataServer(index, fetcher = fetch) {
         last.end = Math.max(last.end, run.end); last.runs.push(run);
       } else groups.push({pack:run.pack,start:run.start,end:run.end,runs:[run]});
     }
+    // Send the first requested group as soon as it arrives, rather than waiting
+    // for the entire batch before starting Vercel's streaming response.
+    groups.sort((a,b) => Math.min(...a.runs.map(r=>r.order)) - Math.min(...b.runs.map(r=>r.order)));
     const pieces = new Map();
+    for (const group of groups) {
+      group.promise = new Promise((resolve,reject) => {group.resolve=resolve;group.reject=reject;});
+      group.promise.catch(()=>{});
+      for (const run of group.runs) pieces.set(run.order,{group,run});
+    }
     let next = 0;
-    await Promise.all(Array.from({length:Math.min(4,groups.length)},async () => {
+    const workers = Promise.all(Array.from({length:Math.min(4,groups.length)},async () => {
       while (next < groups.length) {
         const group = groups[next++];
-        const response = await upstream(group.pack,group.start,group.end,request.signal);
-        const bytes = new Uint8Array(await response.arrayBuffer());
-        if (bytes.length !== group.end - group.start + 1) throw new Error('Short game-data batch');
-        for (const run of group.runs) pieces.set(run.order,bytes.subarray(run.start - group.start,run.end - group.start + 1));
+        try {
+          const response = await upstream(group.pack,group.start,group.end,request.signal);
+          const bytes = new Uint8Array(await response.arrayBuffer());
+          if (bytes.length !== group.end - group.start + 1) throw new Error('Short game-data batch');
+          group.resolve(bytes);
+        } catch (error) {group.reject(error);throw error;}
       }
     }));
+    workers.catch(error => {for (const group of groups) group.reject(error);});
     let order = 0;
-    const stream = new ReadableStream({pull(controller) {
+    const stream = new ReadableStream({async pull(controller) {
       while (order < lengths.length) {
-        const bytes = pieces.get(order++);
-        if (bytes) {controller.enqueue(bytes); return;}
+        const piece = pieces.get(order++);
+        if (piece) {
+          const {group,run} = piece;
+          const bytes = await group.promise;
+          controller.enqueue(bytes.subarray(run.start - group.start,run.end - group.start + 1));return;
+        }
       }
       controller.close();
     }});
@@ -104,7 +119,10 @@ export function createDataServer(index, fetcher = fetch) {
   }
   return async function handle(request) {
     let name;
-    try { name = decodeURIComponent(new URL(request.url).pathname.replace(/^\/data\//, '')); }
+    try {
+      const url = new URL(request.url);
+      name = url.searchParams.get('file') ?? decodeURIComponent(url.pathname.replace(/^\/data\//, ''));
+    }
     catch { return new Response('Invalid path', {status:400}); }
     try {
       if (name === 'batch') {
@@ -115,6 +133,7 @@ export function createDataServer(index, fetcher = fetch) {
       const record = file(name);
       if (!record) return new Response('File not found', {status:404});
       const [pack, offset, size] = record;
+      if (size === 0 && !request.headers.has('Range')) return new Response(null,{headers:{...BASE_HEADERS,'Content-Length':'0'}});
       let start, end;
       try { [start,end] = parseRange(request.headers.get('Range'),size); }
       catch { return new Response('Invalid range', {status:416,headers:{...BASE_HEADERS,'Content-Range':`bytes */${size}`}}); }
