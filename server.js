@@ -140,7 +140,9 @@ export function createDataServer(index, fetcher = fetch) {
       const partial = request.headers.has('Range');
       const length = end - start + 1;
       const headers = {...BASE_HEADERS,'Content-Type':TYPES[name.split('.').at(-1)] || 'application/octet-stream',
-        'Content-Length':String(length),'Cache-Control':'public, max-age=86400','Vercel-CDN-Cache-Control':'public, max-age=86400'};
+        'Content-Length':String(length),'Vary':'Range',
+        'Cache-Control':partial ? 'no-store' : 'public, max-age=86400',
+        'Vercel-CDN-Cache-Control':partial ? 'no-store' : 'public, max-age=86400'};
       if (partial) headers['Content-Range'] = `bytes ${start}-${end}/${size}`;
       if (request.method === 'HEAD') return new Response(null,{status:partial ? 206 : 200,headers});
       if (length > 8 * MiB) return new Response('Read this file in byte ranges of at most 8 MiB.',{status:416,headers:{...BASE_HEADERS,'Content-Range':`bytes */${size}`}});

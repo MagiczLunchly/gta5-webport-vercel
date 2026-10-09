@@ -21,6 +21,9 @@ test('translates file ranges to pack offsets and keeps responses same-origin',as
   assert.equal(response.status,206);
   assert.equal(response.headers.get('Content-Range'),'bytes 2-5/10');
   assert.equal(response.headers.get('Location'),null);
+  assert.equal(response.headers.get('Cache-Control'),'no-store');
+  assert.equal(response.headers.get('Vercel-CDN-Cache-Control'),'no-store');
+  assert.equal(response.headers.get('Vary'),'Range');
   assert.deepEqual([...new Uint8Array(await response.arrayBuffer())],[12,13,14,15]);
   await handle(new Request('https://game.example/data/two.rpf',{headers:{Range:'bytes=0-1'}}));
   assert.equal(mock.calls.filter(c=>c.url.startsWith('https://github.com/')).length,1);
