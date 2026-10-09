@@ -72,3 +72,32 @@ test('upstream errors and incorrect ranges are retryable without leaking signed 
   assert.equal(response.headers.get('Retry-After'),'2');
   assert.doesNotMatch(await response.text(),/signed-value/);
 });
+test('supports Vercel destination query parameters without losing the requested file',async () => {
+  const {createDataServer} = await library;
+  const mock = upstreamMock();
+  const response = await createDataServer(index,mock.fetcher)(new Request('https://game.example/data?file=one.rpf',{headers:{Range:'bytes=0-1'}}));
+  assert.equal(response.status,206);
+  assert.deepEqual([...new Uint8Array(await response.arrayBuffer())],[10,11]);
+});
+test('batch streams its first file while a later source is still loading',{timeout:3000},async () => {
+  const {createDataServer} = await library;
+  const twoPacks = {packs:[{name:'game-data-00.bin',size:100},{name:'game-data-01.bin',size:100}],files:{'first':[0,10,2],'second':[1,30,2]}};
+  let unblock;
+  const gate = new Promise(resolve=>unblock=resolve);
+  let waiting = false;
+  const fetcher = async (url,options) => {
+    if (url.startsWith('https://github.com/')) return new Response(null,{status:302,headers:{Location:'https://release-assets.githubusercontent.com/' + url.split('/').at(-1)}});
+    if (url.endsWith('01.bin')) {waiting=true;await gate;}
+    const [start,end] = options.headers.Range.slice(6).split('-').map(Number);
+    return new Response(bytes.slice(start,end+1),{status:206,headers:{'Content-Range':`bytes ${start}-${end}/100`}});
+  };
+  try {
+    const response = await createDataServer(twoPacks,fetcher)(new Request('https://game.example/data/batch',{method:'POST',body:JSON.stringify([['first',0,1],['second',0,1]])}));
+    const reader=response.body.getReader();
+    assert.deepEqual([...(await reader.read()).value],[10,11]);
+    assert.equal(waiting,true);
+    unblock();
+    assert.deepEqual([...(await reader.read()).value],[30,31]);
+    assert.equal((await reader.read()).done,true);
+  } finally {unblock();}
+});
