@@ -1,0 +1,1 @@
+shader cloth_default 

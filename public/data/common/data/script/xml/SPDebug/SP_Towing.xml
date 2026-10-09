@@ -1,0 +1,41 @@
+<?xml version='1.0'?>
+<DebugMenuItems>	
+	
+	<!-- Towing RC missions -->
+
+	<warpItem title="Tonya1" file="Tonya1.sc" author="SI_DS" percentage="0" highlight="FALSE"
+	x="16.2028" y="-1478.8540" z="29.3900" heading="2.8958"
+	codeID="SPCID_RANDOM_CHAR" preCodeID="SPCID_RANDOM_CHAR_PRE_LAUNCH" labelID="LABEL_RC_TONYA_1" character="CHAR_FRANKLIN"/>
+	
+	<warpItem title="Tonya2" file="Tonya2.sc" author="SI_DS" percentage="0" highlight="FALSE"
+	x="16.2028" y="-1478.8540" z="29.3900" heading="2.8958"
+	codeID="SPCID_RANDOM_CHAR" preCodeID="SPCID_RANDOM_CHAR_PRE_LAUNCH" labelID="LABEL_RC_TONYA_1" character="CHAR_FRANKLIN"/>
+
+	<warpItem title="Tonya3" file="Tonya3.sc" author="SI_DS" percentage="0" highlight="FALSE"
+	x="16.2028" y="-1478.8540" z="29.3900" heading="2.8958"
+	codeID="SPCID_RANDOM_CHAR" preCodeID="SPCID_RANDOM_CHAR_PRE_LAUNCH" labelID="LABEL_RC_TONYA_1" character="CHAR_FRANKLIN"/>
+
+	<warpItem title="Tonya4" file="Tonya4.sc" author="SI_DS" percentage="0" highlight="FALSE"
+	x="16.2028" y="-1478.8540" z="29.3900" heading="2.8958"
+	codeID="SPCID_RANDOM_CHAR" preCodeID="SPCID_RANDOM_CHAR_PRE_LAUNCH" labelID="LABEL_RC_TONYA_1" character="CHAR_FRANKLIN"/>
+	
+	<warpItem title="Tonya5" file="Tonya5.sc" author="SI_DS" percentage="0" highlight="FALSE"
+	x="16.2028" y="-1478.8540" z="29.3900" heading="2.8958"
+	codeID="SPCID_RANDOM_CHAR" preCodeID="SPCID_RANDOM_CHAR_PRE_LAUNCH" labelID="LABEL_RC_TONYA_1" character="CHAR_FRANKLIN"/>
+	<breakItem/>
+	
+	<missionItem title="Unlock Towing Procedural - Complete All Tonya RCMs" codeID="SPCID_UNLOCK_TOWING_ODDJOB" labelID="LABEL_RC_TONYA_1" character="CHAR_FRANKLIN"/>
+	<breakItem/>
+	
+	<launcherItem missionID="OJTCgfP" 	x="368.5731" y="-1547.4130" z="28.3398" heading="52.0678"	file="not_needed.sc" 	author="SI_RP"	highlight="FALSE" character="CHAR_FRANKLIN"	codeID="SPCID_TOWING" labelID="LABEL_MINIGAME_TOWING" enableID="SPEID_GAMEFLOW_ONLY"/>
+	<launcherItem missionID="TOWT"  	file="not_needed.sc" author="SI_RP" 	percentage="0" highlight="FALSE" info="OJ_INFO_TOW" codeID="SPCID_TOWING"/>
+	<breakItem/>
+	
+	<!-- Towing oddjob missions -->
+	<launcherItem missionID="OJTWA" file="not_needed.sc" 	author="SI_STM" percentage="0" highlight="FALSE" info="OJ_INFO_TOW" character="CHAR_FRANKLIN"	codeID="SPCID_TOWING" enableID="SPEID_GAMEFLOW_ONLY" labelID="LABEL_MINIGAME_TOWING"/>
+	<launcherItem missionID="OJTWH" file="not_needed.sc" 	author="SI_STM" percentage="0" highlight="FALSE" info="OJ_INFO_TOW" character="CHAR_FRANKLIN"	codeID="SPCID_TOWING" enableID="SPEID_GAMEFLOW_ONLY" labelID="LABEL_MINIGAME_TOWING"/>
+	<launcherItem missionID="OJTWT" file="not_needed.sc" 	author="SI_STM" percentage="0" highlight="FALSE" info="OJ_INFO_TOW" character="CHAR_FRANKLIN"	codeID="SPCID_TOWING" enableID="SPEID_GAMEFLOW_ONLY" labelID="LABEL_MINIGAME_TOWING"/>
+	<launcherItem missionID="OJTWB" file="not_needed.sc" 	author="SI_STM" percentage="0" highlight="FALSE" info="OJ_INFO_TOW" character="CHAR_FRANKLIN"	codeID="SPCID_TOWING" enableID="SPEID_GAMEFLOW_ONLY" labelID="LABEL_MINIGAME_TOWING"/>
+	<launcherItem missionID="OJTWN" file="not_needed.sc" 	author="SI_STM" percentage="0" highlight="FALSE" info="OJ_INFO_TOW" character="CHAR_FRANKLIN"	codeID="SPCID_TOWING" enableID="SPEID_GAMEFLOW_ONLY" labelID="LABEL_MINIGAME_TOWING"/>
+	<launcherItem missionID="OJTWS" file="not_needed.sc" 	author="SI_STM" percentage="0" highlight="FALSE" info="OJ_INFO_TOW" character="CHAR_FRANKLIN"	codeID="SPCID_TOWING" enableID="SPEID_GAMEFLOW_ONLY" labelID="LABEL_MINIGAME_TOWING"/>
+</DebugMenuItems>

@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+<DebugMenuItems>
+	
+	<warpItem missionID="EPS1" title="Epsilon1 - Initiation" file="Epsilon1.sc" author="SI_DR" percentage="0" highlight="FALSE"
+	x="-1719.5901" y="4321.9380" z="64.6391" heading="224.6123"
+	x1="-1506.8883" y1="4223.9624" z1="60.1745" heading1="118.2185"
+	codeID="SPCID_RANDOM_CHAR" preCodeID="SPCID_RANDOM_CHAR_PRE_LAUNCH" labelID="LABEL_RC_EPSILON_1" character="CHAR_MICHAEL" vehicleWarp="TRUE"/>
+
+	<warpItem missionID="EPS2" title="Epsilon2 - Donation" file="Epsilon2.sc" author="SI_DR" percentage="0" highlight="FALSE"
+	x="119.9566" y="348.6701" z="111.3238" heading="294.2145"
+	x1="237.4374" y1="271.5344" z1="104.5350" heading1="339.3831"
+	x2="238.4968" y2="461.1495" z2="122.5261" heading2="181.2016"
+	codeID="SPCID_RANDOM_CHAR" preCodeID="SPCID_RANDOM_CHAR_PRE_LAUNCH" labelID="LABEL_RC_EPSILON_1" character="CHAR_MICHAEL" vehicleWarp="TRUE"/>
+
+	<warpItem missionID="EPS3" title="Epsilon3 - Collect Cars" file="Epsilon3.sc" author="SI_DR" percentage="0" highlight="FALSE"
+	x="1706.8949" y="4701.4453" z="41.6454" heading="271.0469"
+	x1="1947.7726" y1="4671.5342" z1="39.6506" heading1="60.9903"
+	x2="1951.7184" y2="4757.1743" z2="40.7088" heading2="130.7111"
+	codeID="SPCID_RANDOM_CHAR" preCodeID="SPCID_RANDOM_CHAR_PRE_LAUNCH" labelID="LABEL_RC_EPSILON_1" character="CHAR_MICHAEL" vehicleWarp="TRUE"/>
+
+	<warpItem missionID="EPS4" title="Epsilon4 - Artefact Hunt" file="Epsilon4.sc" author="SI_SH" percentage="0" highlight="FALSE"
+	x="1732.9688" y="4567.2578" z="38.8686" heading="288.0831"
+	x1="1708.1555" y1="4700.5166" z1="41.6763" heading1="270.4782"
+	x2="1798.1528" y2="4897.1841" z2="40.7632" heading2="208.1925"
+	codeID="SPCID_RANDOM_CHAR" preCodeID="SPCID_RANDOM_CHAR_PRE_LAUNCH" labelID="LABEL_RC_EPSILON_1" character="CHAR_MICHAEL" vehicleWarp="TRUE"/>
+
+	<warpItem missionID="EPS5" title="Epsilon5 - Robes (50 days)" file="Epsilon5.sc" author="SI_DR" percentage="0" highlight="FALSE"
+	x="638.9914" y="219.8152" z="97.6538" heading="252.2573"
+	x1="666.9231" y1="37.5667" z1="84.0667" heading1="72.8440"
+	x2="534.4466" y2="40.9948" z2="93.7550" heading2="285.2201"
+	codeID="SPCID_RANDOM_CHAR" preCodeID="SPCID_RANDOM_CHAR_PRE_LAUNCH" labelID="LABEL_RC_EPSILON_1" character="CHAR_MICHAEL" vehicleWarp="TRUE"/>
+
+	<warpItem missionID="EPS6" title="Epsilon6 - Collect Plane" file="Epsilon6.sc" author="SI_IG" percentage="0" highlight="FALSE"
+	x="-3017.4714" y="3364.8093" z="9.5592" heading="193.5579"
+	x1="-2667.6055" y1="3006.3787" z1="8.1298" heading1="47.7215"
+	codeID="SPCID_RANDOM_CHAR" preCodeID="SPCID_RANDOM_CHAR_PRE_LAUNCH" labelID="LABEL_RC_EPSILON_1" character="CHAR_MICHAEL" vehicleWarp="TRUE"/>
+
+	<warpItem missionID="EPS7" title="Epsilon7 - Robes (50 miles)" file="Epsilon7.sc" author="SI_DR" percentage="0" highlight="FALSE"
+	x="641.2905" y="3075.3176" z="42.6805" heading="107.7852"
+	x1="597.1217" y1="2977.2996" z1="39.9749" heading1="65.1056"
+	x2="353.8499" y2="3118.2834" z2="40.8733" heading2="240.5884"
+	codeID="SPCID_RANDOM_CHAR" preCodeID="SPCID_RANDOM_CHAR_PRE_LAUNCH" labelID="LABEL_RC_EPSILON_1" character="CHAR_MICHAEL" vehicleWarp="TRUE"/>
+
+	<warpItem missionID="EPS8" title="Epsilon8 - Steal/Deliver Cash" file="Epsilon8.sc" author="SI_TK" percentage="0" highlight="FALSE"
+	x="-689.5863" y="-55.1324" z="36.6914" heading="26.5462"
+ 	x1="-767.2725" y1="98.8704" z1="54.1614" heading1="273.4538"
+	x2="-655.2463" y2="117.2513" z2="56.1451" heading2="179.3738"
+	codeID="SPCID_RANDOM_CHAR" preCodeID="SPCID_RANDOM_CHAR_PRE_LAUNCH" labelID="LABEL_RC_EPSILON_1" character="CHAR_MICHAEL" vehicleWarp="TRUE"/>
+	<breakItem/>
+	
+	<scriptItem missionID="RC5I" title="Epsilon Tract - Enable Ambient Script" 
+	file="epsilonTract.sc" author="SI_JW" character="CHAR_MICHAEL" codeID="SPCID_RESET_EPSILON_TRACT"/>
+	<breakItem/>
+	
+</DebugMenuItems>

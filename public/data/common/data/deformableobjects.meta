@@ -1,0 +1,1704 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CDeformableObjectManager>
+  <DeformableObjects>
+   <Item key="P_Dumpster_SDT">
+      
+      <objectName>P_Dumpster_SDT</objectName>
+      <objectStrength value="300.0" />
+      <DeformableBones>
+        <Item>
+          <boneName>P_Dumpster_1</boneName>
+          <strength value="1.0" />
+	  <radius value="0.5" />
+	  <damageVelThreshold value="1.5" />
+        </Item>
+        <Item>
+          <boneName>P_Dumpster_2</boneName>
+          <strength value="1.0" />
+	  <radius value="0.5" />
+	  <damageVelThreshold value="1.5" />
+        </Item>
+        <Item>
+          <boneName>P_Dumpster_3</boneName>
+          <strength value="1.0" />
+	  <radius value="0.5" />
+	  <damageVelThreshold value="1.5" />
+        </Item>
+        <Item>
+          <boneName>P_Dumpster_4</boneName>
+          <strength value="1.0" />
+	  <radius value="0.5" />
+	  <damageVelThreshold value="1.5" />
+        </Item>
+        <Item>
+          <boneName>P_Dumpster_5</boneName>
+          <strength value="1.0" />
+	  <radius value="0.5" />
+	  <damageVelThreshold value="1.5" />
+        </Item>
+        <Item>
+          <boneName>P_Dumpster_6</boneName>
+          <strength value="1.0" />
+	  <radius value="0.5" />
+	  <damageVelThreshold value="1.5" />
+        </Item>
+      </DeformableBones>
+    </Item>
+    <Item key="P_Barrel_SDT">
+      <objectName>P_Barrel_SDT</objectName>
+      <objectStrength value="500.0" />
+      <DeformableBones>
+        <Item>
+          <boneName>P_Barrel_1</boneName>
+          <strength value="1.0" />
+	  <radius value="0.3" />
+	  <damageVelThreshold value="2.0" />
+        </Item>
+        <Item>
+          <boneName>P_Barrel_2</boneName>
+          <strength value="1.0" />
+	  <radius value="0.3" />
+	  <damageVelThreshold value="2.0" />
+        </Item>
+        <Item>
+          <boneName>P_Barrel_3</boneName>
+          <strength value="1.0" />
+	  <radius value="0.3" />
+	  <damageVelThreshold value="2.0" />
+        </Item>
+      </DeformableBones>
+    </Item>
+    <Item key="rickdamage_s">
+      <objectName>rickdamage_s</objectName>
+      <objectStrength value="10" />
+      <DeformableBones>
+        <Item>
+          <boneName>rickdamage_s_Bone_1</boneName>
+          <strength value="0.1" />
+	  <radius value="0.5" />
+	  <damageVelThreshold value="1.5" />
+        </Item>
+        <Item>
+          <boneName>rickdamage_s_Bone_2</boneName>
+          <strength value="0.1" />
+	  <radius value="0.5" />
+	  <damageVelThreshold value="1.5" />
+        </Item>
+        <Item>
+          <boneName>rickdamage_s_Bone_3</boneName>
+          <strength value="0.1" />
+	  <radius value="0.5" />
+	  <damageVelThreshold value="1.5" />
+        </Item>
+        <Item>
+          <boneName>rickdamage_s_Bone_4</boneName>
+          <strength value="0.1" />
+	  <radius value="0.5" />
+	  <damageVelThreshold value="1.5" />
+        </Item>
+      </DeformableBones>
+    </Item>
+<Item key="Prop_Fnc_OMesh_01a">
+	<objectName>Prop_Fnc_OMesh_01a</objectName>
+	<objectStrength value="10.0" />
+		<DeformableBones>
+			<Item>
+				<boneName>Prop_Fnc_OMesh_01a_Bone_1</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_Fnc_OMesh_01a_Bone_2</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_Fnc_OMesh_01a_Bone_3</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_Fnc_OMesh_01a_Bone_4</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_Fnc_OMesh_01a_Bone_5</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+		</DeformableBones>
+</Item>
+<Item key="Prop_FncLink_01a">
+	<objectName>Prop_FncLink_01a</objectName>
+	<objectStrength value="10.0" />
+		<DeformableBones>
+			<Item>
+				<boneName>Prop_FncLink_01a_frag__Bone_1</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_01a_frag__Bone_2</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_01a_frag__Bone_3</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+		</DeformableBones>
+</Item>
+<Item key="Prop_FncLink_01c">
+	<objectName>Prop_FncLink_01c</objectName>
+	<objectStrength value="10.0" />
+		<DeformableBones>
+			<Item>
+				<boneName>Prop_FncLink_01c_frag__Bone_3</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_01c_frag__Bone_1</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_01c_frag__Bone_2</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+		</DeformableBones>
+</Item>
+<Item key="Prop_FncLink_01d">
+	<objectName>Prop_FncLink_01d</objectName>
+	<objectStrength value="10.0" />
+		<DeformableBones>
+			<Item>
+				<boneName>Prop_FncLink_01d_frag__Bone_3</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_01d_frag__Bone_2</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_01d_frag__Bone_1</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_01d_frag__Bone_4</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_01d_frag__Bone_5</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+		</DeformableBones>
+</Item>
+
+<Item key="Prop_FncLink_02b">
+	<objectName>Prop_FncLink_02b</objectName>
+	<objectStrength value="10.0" />
+		<DeformableBones>
+			<Item>
+				<boneName>Prop_FncLink_02b_Bone_1</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_02b_Bone_2</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_02b_Bone_3</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+		</DeformableBones>
+</Item>
+<Item key="Prop_FncLink_02c">
+	<objectName>Prop_FncLink_02c</objectName>
+	<objectStrength value="10.0" />
+		<DeformableBones>
+			<Item>
+				<boneName>Prop_FncLink_02c_frag__Bone_2</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_02c_frag__Bone_1</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_02c_frag__Bone_3</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+		</DeformableBones>
+</Item>
+<Item key="Prop_FncLink_02f">
+	<objectName>Prop_FncLink_02f</objectName>
+	<objectStrength value="10.0" />
+		<DeformableBones>
+			<Item>
+				<boneName>Prop_FncLink_02f_frag__Bone_1</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_02f_frag__Bone_2</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_02f_frag__Bone_3</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+		</DeformableBones>
+</Item>
+<Item key="Prop_FncLink_02g">
+	<objectName>Prop_FncLink_02g</objectName>
+	<objectStrength value="10.0" />
+		<DeformableBones>
+			<Item>
+				<boneName>Prop_FncLink_02g_frag__Bone_2</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_02g_frag__Bone_1</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+		</DeformableBones>
+</Item>
+<Item key="Prop_FncLink_02h">
+	<objectName>Prop_FncLink_02h</objectName>
+	<objectStrength value="10.0" />
+		<DeformableBones>
+			<Item>
+				<boneName>Prop_FncLink_02h_frag__Bone_1</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_02h_frag__Bone_2</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_02h_frag__Bone_3</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+		</DeformableBones>
+</Item>
+<Item key="Prop_FncLink_02m">
+	<objectName>Prop_FncLink_02m</objectName>
+	<objectStrength value="10.0" />
+		<DeformableBones>
+			<Item>
+				<boneName>Prop_FncLink_02m_Bone_1</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_02m_Bone_2</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_02m_Bone_3</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+		</DeformableBones>
+</Item>
+<Item key="Prop_FncLink_02n">
+	<objectName>Prop_FncLink_02n</objectName>
+	<objectStrength value="10.0" />
+		<DeformableBones>
+			<Item>
+				<boneName>Prop_FncLink_02n_frag__Bone_2</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_02n_frag__Bone_3</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_02n_frag__Bone_4</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_02n_frag__Bone_1</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+		</DeformableBones>
+</Item>
+<Item key="Prop_FncLink_02a_SDT">
+	<objectName>Prop_FncLink_02a_SDT</objectName>
+	<objectStrength value="10.0" />
+		<DeformableBones>
+			<Item>
+				<boneName>Prop_FncLink_02a_SDT_Bone_3</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_02a_SDT_Bone_1</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_02a_SDT_Bone_2</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+		</DeformableBones>
+</Item>
+<Item key="Prop_FncLink_03a">
+	<objectName>Prop_FncLink_03a</objectName>
+	<objectStrength value="10.0" />
+		<DeformableBones>
+			<Item>
+				<boneName>Prop_FncLink_03a_frag__Bone_1</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_03a_frag__Bone_2</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_03a_frag__Bone_3</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+		</DeformableBones>
+</Item>
+<Item key="Prop_FncLink_03b">
+	<objectName>Prop_FncLink_03b</objectName>
+	<objectStrength value="10.0" />
+		<DeformableBones>
+			<Item>
+				<boneName>Prop_FncLink_03b_frag__Bone_1</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_03b_frag__Bone_2</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_03b_frag__Bone_3</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+		</DeformableBones>
+</Item>
+<Item key="Prop_FncLink_03d">
+	<objectName>Prop_FncLink_03d</objectName>
+	<objectStrength value="10.0" />
+		<DeformableBones>
+			<Item>
+				<boneName>Prop_FncLink_03d_frag__Bone_2</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_03d_frag__Bone_1</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+		</DeformableBones>
+</Item>
+<Item key="Prop_FncLink_03f">
+	<objectName>Prop_FncLink_03f</objectName>
+	<objectStrength value="10.0" />
+		<DeformableBones>
+			<Item>
+				<boneName>Prop_FncLink_03f_frag__Bone_1</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_03f_frag__Bone_3</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_03f_frag__Bone_2</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+		</DeformableBones>
+</Item>
+<Item key="Prop_FncLink_03e">
+	<objectName>Prop_FncLink_03e</objectName>
+	<objectStrength value="10.0" />
+		<DeformableBones>
+			<Item>
+				<boneName>Prop_FncLink_03e_frag__Bone_1</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_03e_frag__Bone_2</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_03e_frag__Bone_3</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+		</DeformableBones>
+</Item>
+<Item key="Prop_FncLink_03g">
+	<objectName>Prop_FncLink_03g</objectName>
+	<objectStrength value="10.0" />
+		<DeformableBones>
+			<Item>
+				<boneName>Prop_FncLink_03g_frag__Bone_3</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_03g_frag__Bone_2</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_03g_frag__Bone_1</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_03g_frag__Bone_4</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_03g_frag__Bone_5</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+		</DeformableBones>
+</Item>
+<Item key="Prop_FncLink_03Gate3">
+	<objectName>Prop_FncLink_03Gate3</objectName>
+	<objectStrength value="10.0" />
+		<DeformableBones>
+			<Item>
+				<boneName>Prop_FncLink_03Gate3_Bone_1</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_03Gate3_Bone_2</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+		</DeformableBones>
+</Item>
+<Item key="Prop_FncLink_04a">
+	<objectName>Prop_FncLink_04a</objectName>
+	<objectStrength value="10.0" />
+		<DeformableBones>
+			<Item>
+				<boneName>Prop_FncLink_04a_frag__Bone_3</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_04a_frag__Bone_2</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_04a_frag__Bone_1</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_04a_frag__Bone_4</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+		</DeformableBones>
+</Item>
+<Item key="Prop_FncLink_04b">
+	<objectName>Prop_FncLink_04b</objectName>
+	<objectStrength value="10.0" />
+		<DeformableBones>
+			<Item>
+				<boneName>Prop_FncLink_04b_frag__Bone_4</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_04b_frag__Bone_3</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_04b_frag__Bone_2</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_04b_frag__Bone_1</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_04b_frag__Bone_5</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+		</DeformableBones>
+</Item>
+<Item key="Prop_FncLink_04c">
+	<objectName>Prop_FncLink_04c</objectName>
+	<objectStrength value="10.0" />
+		<DeformableBones>
+			<Item>
+				<boneName>Prop_FncLink_04c_frag__Bone_3</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_04c_frag__Bone_2</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_04c_frag__Bone_1</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+		</DeformableBones>
+</Item>
+<Item key="Prop_FncLink_04f_frag_">
+	<objectName>Prop_FncLink_04f_frag_</objectName>
+	<objectStrength value="10.0" />
+		<DeformableBones>
+			<Item>
+				<boneName>Prop_FncLink_04f_frag__Bone_1</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+		</DeformableBones>
+</Item>
+<Item key="Prop_FncLink_04g">
+	<objectName>Prop_FncLink_04g</objectName>
+	<objectStrength value="10.0" />
+		<DeformableBones>
+			<Item>
+				<boneName>Prop_FncLink_04g_frag__Bone_2</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_04g_frag__Bone_1</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+		</DeformableBones>
+</Item>
+<Item key="Prop_FncLink_04h">
+	<objectName>Prop_FncLink_04h</objectName>
+	<objectStrength value="10.0" />
+		<DeformableBones>
+			<Item>
+				<boneName>Prop_FncLink_04h_frag__Bone_1</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_04h_frag__Bone_2</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+		</DeformableBones>
+</Item>
+<Item key="Prop_FncLink_05a">
+	<objectName>Prop_FncLink_05a</objectName>
+	<objectStrength value="10.0" />
+		<DeformableBones>
+			<Item>
+				<boneName>Prop_FncLink_05a_frag__Bone_2</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_05a_frag__Bone_1</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_05a_frag__Bone_3</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_05a_frag__Bone_4</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+		</DeformableBones>
+</Item>
+<Item key="Prop_FncLink_05b">
+	<objectName>Prop_FncLink_05b</objectName>
+	<objectStrength value="10.0" />
+		<DeformableBones>
+			<Item>
+				<boneName>Prop_FncLink_05b_frag__Bone_2</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_05b_frag__Bone_1</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_05b_frag__Bone_3</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_05b_frag__Bone_4</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+		</DeformableBones>
+</Item>
+<Item key="Prop_FncLink_06a">
+	<objectName>Prop_FncLink_06a</objectName>
+	<objectStrength value="10.0" />
+		<DeformableBones>
+			<Item>
+				<boneName>Prop_FncLink_06a_frag__Bone_3</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_06a_frag__Bone_2</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_06a_frag__Bone_1</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_06a_frag__Bone_4</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_06a_frag__Bone_5</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+		</DeformableBones>
+</Item>
+<Item key="Prop_FncLink_06b">
+	<objectName>Prop_FncLink_06b</objectName>
+	<objectStrength value="10.0" />
+		<DeformableBones>
+			<Item>
+				<boneName>Prop_FncLink_06b_frag__Bone_4</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_06b_frag__Bone_3</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_06b_frag__Bone_2</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_06b_frag__Bone_1</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_06b_frag__Bone_5</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+		</DeformableBones>
+</Item>
+<Item key="Prop_FncLink_06c">
+	<objectName>Prop_FncLink_06c</objectName>
+	<objectStrength value="10.0" />
+		<DeformableBones>
+			<Item>
+				<boneName>Prop_FncLink_06c_frag__Bone_3</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_06c_frag__Bone_2</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_06c_frag__Bone_1</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_06c_frag__Bone_4</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_06c_frag__Bone_5</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+		</DeformableBones>
+</Item>
+<Item key="Prop_FncLink_06d">
+	<objectName>Prop_FncLink_06d</objectName>
+	<objectStrength value="10.0" />
+		<DeformableBones>
+			<Item>
+				<boneName>Prop_FncLink_06d_frag__Bone_5</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_06d_frag__Bone_3</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_06d_frag__Bone_2</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_06d_frag__Bone_1</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_06d_frag__Bone_4</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+		</DeformableBones>
+</Item>
+<Item key="Prop_FncLink_07a">
+	<objectName>Prop_FncLink_07a</objectName>
+	<objectStrength value="10.0" />
+		<DeformableBones>
+			<Item>
+				<boneName>Prop_FncLink_07a_frag__Bone_1</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_07a_frag__Bone_2</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_07a_frag__Bone_3</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+		</DeformableBones>
+</Item>
+<Item key="Prop_FncLink_07b">
+	<objectName>Prop_FncLink_07b</objectName>
+	<objectStrength value="10.0" />
+		<DeformableBones>
+			<Item>
+				<boneName>Prop_FncLink_07b_frag__Bone_1</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_07b_frag__Bone_2</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_07b_frag__Bone_3</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+		</DeformableBones>
+</Item>
+<Item key="Prop_FncLink_07c">
+	<objectName>Prop_FncLink_07c</objectName>
+	<objectStrength value="10.0" />
+		<DeformableBones>
+			<Item>
+				<boneName>Prop_FncLink_07c_frag__Bone_1</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_07c_frag__Bone_2</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_07c_frag__Bone_3</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+		</DeformableBones>
+</Item>
+<Item key="Prop_FncLink_07d">
+	<objectName>Prop_FncLink_07d</objectName>
+	<objectStrength value="10.0" />
+		<DeformableBones>
+			<Item>
+				<boneName>Prop_FncLink_07d_frag__Bone_4</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_07d_frag__Bone_3</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_07d_frag__Bone_2</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_07d_frag__Bone_1</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_07d_frag__Bone_5</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+		</DeformableBones>
+</Item>
+<Item key="Prop_FncLink_09a">
+	<objectName>Prop_FncLink_09a</objectName>
+	<objectStrength value="10.0" />
+		<DeformableBones>
+			<Item>
+				<boneName>Prop_FncLink_09a_frag__Bone_5</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_09a_frag__Bone_4</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_09a_frag__Bone_3</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_09a_frag__Bone_2</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_09a_frag__Bone_1</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+		</DeformableBones>
+</Item>
+<Item key="Prop_FncLink_09b">
+	<objectName>Prop_FncLink_09b</objectName>
+	<objectStrength value="10.0" />
+		<DeformableBones>
+			<Item>
+				<boneName>Prop_FncLink_09b_frag__Bone_4</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_09b_frag__Bone_1</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_09b_frag__Bone_5</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_09b_frag__Bone_2</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_FncLink_09b_frag__Bone_3</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+		</DeformableBones>
+</Item>
+<Item key="Prop_Rub_Binbag_SD_01">
+	<objectName>Prop_Rub_Binbag_SD_01</objectName>
+	<objectStrength value="10.0" />
+		<DeformableBones>
+			<Item>
+				<boneName>Prop_Rub_Binbag_01_Bone_2</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_Rub_Binbag_01_Bone_1</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_Rub_Binbag_01_Bone_1</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_Rub_Binbag_01_Bone_3</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+		</DeformableBones>
+</Item>
+<Item key="Prop_Fnc_OMesh_01a">
+	<objectName>Prop_Fnc_OMesh_01a</objectName>
+	<objectStrength value="10.0" />
+		<DeformableBones>
+			<Item>
+				<boneName>Prop_Fnc_OMesh_01a_Bone_3</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_Fnc_OMesh_01a_Bone_4</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_Fnc_OMesh_01a_Bone_5</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_Fnc_OMesh_01a_Bone_1</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_Fnc_OMesh_01a_Bone_2</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+		</DeformableBones>
+</Item>
+<Item key="Prop_Rub_Binbag_SD_02">
+	<objectName>Prop_Rub_Binbag_SD_02</objectName>
+	<objectStrength value="10.0" />
+		<DeformableBones>
+			<Item>
+				<boneName>Binbag_Top_Bone</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Binbag_Bottom_Bone</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+		</DeformableBones>
+</Item>
+<Item key="P_DefDump_01_S">
+	<objectName>P_DefDump_01_S</objectName>
+	<objectStrength value="300.0" />
+		<DeformableBones>
+			<Item>
+				<boneName>Prop_Dumpster_01a_Bone_2</boneName>
+				<strength value="0.1" />
+				<radius value="1.0" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_Dumpster_01a_Bone_1</boneName>
+				<strength value="0.1" />
+				<radius value="1.0" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_Dumpster_01a_Bone_6</boneName>
+				<strength value="0.1" />
+				<radius value="1.0" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_Dumpster_01a_Bone_4</boneName>
+				<strength value="0.1" />
+				<radius value="1.0" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_Dumpster_01a_Bone_5</boneName>
+				<strength value="0.1" />
+				<radius value="1.0" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>Prop_Dumpster_01a_Bone_3</boneName>
+				<strength value="0.1" />
+				<radius value="1.0" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+		</DeformableBones>
+</Item>
+<Item key="P_DefDump_02_S">
+	<objectName>P_DefDump_02_S</objectName>
+	<objectStrength value="300.0" />
+		<DeformableBones>
+			<Item>
+				<boneName>P_DefDump_02_S_Bone_010</boneName>
+				<strength value="0.1" />
+				<radius value="1.0" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>P_DefDump_02_S_Bone_009</boneName>
+				<strength value="0.1" />
+				<radius value="1.0" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>P_DefDump_02_S_Bone_007</boneName>
+				<strength value="0.1" />
+				<radius value="1.0" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>P_DefDump_02_S_Bone_012</boneName>
+				<strength value="0.1" />
+				<radius value="1.0" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>P_DefDump_02_S_Bone_008</boneName>
+				<strength value="0.1" />
+				<radius value="1.0" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>P_DefDump_02_S_Bone_011</boneName>
+				<strength value="0.1" />
+				<radius value="1.0" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+		</DeformableBones>
+</Item>
+<Item key="P_DefDump_03_S">
+	<objectName>P_DefDump_03_S</objectName>
+	<objectStrength value="300.0" />
+		<DeformableBones>
+			<Item>
+				<boneName>P_DefDump_03_S_Bone_020</boneName>
+				<strength value="0.1" />
+				<radius value="1.0" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>P_DefDump_03_S_Bone_018</boneName>
+				<strength value="0.1" />
+				<radius value="1.0" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>P_DefDump_03_S_Bone_016</boneName>
+				<strength value="0.1" />
+				<radius value="1.0" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>P_DefDump_03_S_Bone_022</boneName>
+				<strength value="0.1" />
+				<radius value="1.0" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>P_DefDump_03_S_Bone_017</boneName>
+				<strength value="0.1" />
+				<radius value="1.0" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>P_DefDump_03_S_Bone_021</boneName>
+				<strength value="0.1" />
+				<radius value="1.0" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+		</DeformableBones>
+</Item>
+<Item key="P_DefDump_04_S">
+	<objectName>P_DefDump_04_S</objectName>
+	<objectStrength value="300.0" />
+		<DeformableBones>
+			<Item>
+				<boneName> P_DefDump_04_S_Bone_019</boneName>
+				<strength value="0.1" />
+				<radius value="1.0" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName> P_DefDump_04_S_Bone_015</boneName>
+				<strength value="0.1" />
+				<radius value="1.0" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>P_DefDump_04_S_Bone_013</boneName>
+				<strength value="0.1" />
+				<radius value="1.0" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>P_DefDump_04_S_Bone_024</boneName>
+				<strength value="0.1" />
+				<radius value="1.0" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>P_DefDump_04_S_Bone_014</boneName>
+				<strength value="0.1" />
+				<radius value="1.0" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>P_DefDump_04_S_Bone_023</boneName>
+				<strength value="0.1" />
+				<radius value="1.0" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+		</DeformableBones>
+</Item>
+<Item key="P_DefDump_05_S">
+	<objectName>P_DefDump_05_S</objectName>
+	<objectStrength value="300.0" />
+		<DeformableBones>
+			<Item>
+				<boneName>P_DefDump_05_S_Bone_032</boneName>
+				<strength value="0.1" />
+				<radius value="1.0" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>P_DefDump_05_S_Bone_030</boneName>
+				<strength value="0.1" />
+				<radius value="1.0" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>P_DefDump_05_S_Bone_028</boneName>
+				<strength value="0.1" />
+				<radius value="1.0" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>P_DefDump_05_S_Bone_034</boneName>
+				<strength value="0.1" />
+				<radius value="1.0" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>P_DefDump_05_S_Bone_029</boneName>
+				<strength value="0.1" />
+				<radius value="1.0" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>P_DefDump_05_S_Bone_033</boneName>
+				<strength value="0.1" />
+				<radius value="1.0" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+		</DeformableBones>
+</Item>
+<Item key="P_DefDump_06_S">
+	<objectName>P_DefDump_06_S</objectName>
+	<objectStrength value="300.0" />
+		<DeformableBones>
+			<Item>
+				<boneName>P_DefDump_06_S_Bone_031</boneName>
+				<strength value="0.1" />
+				<radius value="1.0" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>P_DefDump_06_S_Bone_027</boneName>
+				<strength value="0.1" />
+				<radius value="1.0" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>P_DefDump_06_S_Bone_025</boneName>
+				<strength value="0.1" />
+				<radius value="1.0" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>P_DefDump_06_S_Bone_036</boneName>
+				<strength value="0.1" />
+				<radius value="1.0" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>P_DefDump_06_S_Bone_026</boneName>
+				<strength value="0.1" />
+				<radius value="1.0" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>P_DefDump_06_S_Bone_035</boneName>
+				<strength value="0.1" />
+				<radius value="1.0" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+		</DeformableBones>
+</Item>
+	<Item key="Prop_Container_LD_D">
+	<objectName>Prop_Container_LD_D</objectName>
+	<objectStrength value="10.0" />
+	<DeformableBones>
+		<Item>
+			<boneName>Prop_Cont_LD_D_B_00</boneName>
+			<strength value="10" />
+			<radius value="0.5" />
+			<damageVelThreshold value="1.5" />
+		</Item>
+		<Item>
+			<boneName>Prop_Cont_LD_D_B_01</boneName>
+			<strength value="10" />
+			<radius value="0.75" />
+			<damageVelThreshold value="1.5" />
+		</Item>
+		<Item>
+			<boneName>Prop_Cont_LD_D_B_02</boneName>
+			<strength value="10" />
+			<radius value="0.75" />
+			<damageVelThreshold value="1.5" />
+		</Item>
+		<Item>
+			<boneName>Prop_Cont_LD_D_B_03</boneName>
+			<strength value="10" />
+			<radius value="0.75" />
+			<damageVelThreshold value="1.5" />
+		</Item>
+		<Item>
+			<boneName>Prop_Cont_LD_D_B_04</boneName>
+			<strength value="10" />
+			<radius value="0.75" />
+			<damageVelThreshold value="1.5" />
+		</Item>
+		<Item>
+			<boneName>Prop_Cont_LD_D_B_05</boneName>
+			<strength value="10" />
+			<radius value="0.75" />
+			<damageVelThreshold value="1.5" />
+		</Item>
+		<Item>
+			<boneName>Prop_Cont_LD_D_B_06</boneName>
+			<strength value="10" />
+			<radius value="0.75" />
+			<damageVelThreshold value="1.5" />
+		</Item>
+		<Item>
+			<boneName>Prop_Cont_LD_D_B_07</boneName>
+			<strength value="10" />
+			<radius value="0.75" />
+			<damageVelThreshold value="1.5" />
+		</Item>
+		<Item>
+			<boneName>Prop_Cont_LD_D_B_08</boneName>
+			<strength value="10" />
+			<radius value="0.75" />
+			<damageVelThreshold value="1.5" />
+		</Item>
+		<Item>
+			<boneName>Prop_Cont_LD_D_B_09</boneName>
+			<strength value="10" />
+			<radius value="0.75" />
+			<damageVelThreshold value="1.5" />
+		</Item>
+		<Item>
+			<boneName>Prop_Cont_LD_D_B_10</boneName>
+			<strength value="10" />
+			<radius value="0.75" />
+			<damageVelThreshold value="1.5" />
+		</Item>
+		<Item>
+			<boneName>Prop_Cont_LD_D_B_11</boneName>
+			<strength value="10" />
+			<radius value="0.75" />
+			<damageVelThreshold value="1.5" />
+		</Item>
+		<Item>
+			<boneName>Prop_Cont_LD_D_B_12</boneName>
+			<strength value="10" />
+			<radius value="0.75" />
+			<damageVelThreshold value="1.5" />
+		</Item>
+		<Item>
+			<boneName>Prop_Cont_LD_D_B_13</boneName>
+			<strength value="10" />
+			<radius value="0.75" />
+			<damageVelThreshold value="1.5" />
+		</Item>
+
+		</DeformableBones>
+	</Item>		
+<Item key="P_Rub_Binbag_TEST">
+	<objectName>P_Rub_Binbag_TEST</objectName>
+	<objectStrength value="1.0" />
+		<DeformableBones>
+			<Item>
+				<boneName>P_Rub_Binbag_TEST_bone1</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>P_Rub_Binbag_TEST_bone2</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>P_Rub_Binbag_TEST_bone3</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>P_Rub_Binbag_TEST_bone4</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>P_Rub_Binbag_TEST_bone5</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>P_Rub_Binbag_TEST_bone6</boneName>
+				<strength value="0.1" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+		</DeformableBones>
+</Item>	
+<Item key="P_ccar_dmg_S">
+	<objectName>P_ccar_dmg_S</objectName>
+	<objectStrength value="1.0" />
+		<DeformableBones>
+			<Item>
+				<boneName>P_ccar_dmg_S_bone01</boneName>
+				<strength value="0.05" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>P_ccar_dmg_S_bone02</boneName>
+				<strength value="0.05" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>P_ccar_dmg_S_bone03</boneName>
+				<strength value="0.05" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>P_ccar_dmg_S_bone04</boneName>
+				<strength value="0.05" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>P_ccar_dmg_S_bone05</boneName>
+				<strength value="0.05" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>P_ccar_dmg_S_bone06</boneName>
+				<strength value="0.05" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>P_ccar_dmg_S_bone07</boneName>
+				<strength value="0.05" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>P_ccar_dmg_S_bone08</boneName>
+				<strength value="0.05" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>P_ccar_dmg_S_bone09</boneName>
+				<strength value="0.05" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>P_ccar_dmg_S_bone10</boneName>
+				<strength value="0.05" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>P_ccar_dmg_S_bone11</boneName>
+				<strength value="0.05" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>P_ccar_dmg_S_bone13</boneName>
+				<strength value="0.05" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>P_ccar_dmg_S_bone14</boneName>
+				<strength value="0.05" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>P_ccar_dmg_S_bone15</boneName>
+				<strength value="0.05" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>P_ccar_dmg_S_bone16</boneName>
+				<strength value="0.05" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>P_ccar_dmg_S_bone17</boneName>
+				<strength value="0.05" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>P_ccar_dmg_S_bone18</boneName>
+				<strength value="0.05" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>P_ccar_dmg_S_bone19</boneName>
+				<strength value="0.05" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>P_ccar_dmg_S_bone20</boneName>
+				<strength value="0.05" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>
+			<Item>
+				<boneName>P_ccar_dmg_S_bone21</boneName>
+				<strength value="0.05" />
+				<radius value="0.5" />
+				<damageVelThreshold value="1.5" />
+			</Item>			
+		</DeformableBones>
+</Item>	
+
+
+
+  </DeformableObjects>
+</CDeformableObjectManager>

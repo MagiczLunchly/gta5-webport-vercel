@@ -1,0 +1,74 @@
+		<?xml version='1.0'?>
+<DebugMenuItems>
+
+	<warpItem missionID="RE8A" title="Abandoned Vehicle Attack 1"	file="re_abandonedcar.sc"	author="SI_KW"	percentage="0"	highlight="FALSE" character="CHAR_FRANKLIN"
+	x="1578.3907" y="3105.4678" z="39.9703" heading="114.7514"
+	info="DM_INFO_A51"	codeID="SPCID_RANDOM_EVENT" 	labelID="LABEL_RE_BATCH_POST_TREV1" hour="22"vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE8B" title="Abandoned Vehicle Attack 2"	file="re_abandonedcar.sc"	author="SI_TSS"	percentage="0"	highlight="FALSE" character="CHAR_TREVOR"
+	x="2292.8677" y="1984.7748" z="130.6635" heading="34.3603"
+	info="DM_INFO_A51"	codeID="SPCID_RANDOM_EVENT" 	labelID="LABEL_RE_BATCH_POST_TREV1" hour="22"vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="" title="Altruist Cult - Shootout"	file="altruist_cult.sc"	author="SI_TSS"	percentage="0"	highlight="FALSE" character="CHAR_TREVOR"
+	x="-1035.4225" y="4916.1860" z="205.4046" heading="126.1338"
+	info=""	codeID="SPCID_RANDOM_EVENT" 	labelID="LABEL_RE_BATCH_POST_TREV1" hour="22"vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE1A" title="Arrests1"			file="re_arrests.sc"	author="SI_CF"	percentage="0"	highlight="FALSE"
+	x="2365.8325" y="4851.9263" z="40.0265" heading="322.6556"
+	x1="2528.4883" y1="4892.4326" z1="36.6062" heading1="37.6335"
+	info="DM_INFO_A01"	codeID="SPCID_RANDOM_EVENT" 	labelID="LABEL_RE_BATCH_POST_TREV1" vehicleWarp="TRUE"/>
+
+	<warpItem missionID="RE1B" title="Arrests2"	file="re_arrests.sc"	author="SI_ChM"	percentage="0"	highlight="FALSE"	
+	x="2611.3289" y="2405.9836" z="21.8069" heading="2.9804"
+	x1="2545.65723" y1="2686.5513" z1="40.4115" heading1="200.1235"
+	info="DM_INFO_A01"	codeID="SPCID_RANDOM_EVENT" 	labelID="LABEL_RE_BATCH_POST_TREV1" vehicleWarp="TRUE"/>
+
+	<warpItem missionID="RE3A" title="Bike Thief (City) 1"  file="re_bikethief"   author="SI_KW"	percentage="0"	highlight="FALSE" 
+	x="313.7896" y="-1988.5701" z="21.0404" heading="321.2153"
+	x1="583.8931" y1="-1824.4592" z1="23.3142" heading1="165.4313"
+	info="DM_INFO_A75" codeID="SPCID_RANDOM_EVENT" 		labelID="LABEL_RE_BATCH_POST_TONYA1" vehicleWarp="TRUE" Rank = "1"/>
+
+	<warpItem missionID="RE3B" title="Bike Thief (City) 2"  file="re_bikethief"   author="SI_KW"	percentage="0"	highlight="FALSE" 
+	x="908.6469" y="-243.1988" z="68.2351" heading="56.0731" 
+	x1="638.4969" y1="-87.3331" z1="73.6243" heading1="229.5736" 
+	info="DM_INFO_A75" codeID="SPCID_RANDOM_EVENT" 		labelID="LABEL_RE_BATCH_POST_TONYA1"  vehicleWarp="TRUE" Rank = "2"/>
+	
+	<warpItem missionID="RE15A" title="Border Patrol 1"  file="re_border" 
+	x="833.1902" y="1705.5031" z="171.2187" heading="272.1670"
+	codeID="SPCID_RANDOM_EVENT" labelID="LABEL_RE_BATCH_POST_TREV1" vehicleWarp="TRUE"/>
+
+	<warpItem missionID="RE15B" title="Border Patrol 2"  file="re_border" 
+	x="2346.8679" y="243.1587" z="192.8458" heading="316.4366"
+	codeID="SPCID_RANDOM_EVENT" labelID="LABEL_RE_BATCH_POST_TREV1" vehicleWarp="TRUE"/>
+
+	<warpItem missionID="RE15C" title="Border Patrol 3"  file="re_border" 
+	x="-875.4720" y="4086.0815" z="163.2885" heading="245.5902"
+	codeID="SPCID_RANDOM_EVENT" labelID="LABEL_RE_BATCH_POST_TREV1" vehicleWarp="TRUE"/>
+
+	<warpItem missionID="RE6" title="Burial"   file="re_burials"   author="SI_VE"	percentage="0"	 highlight="FALSE"  
+	x="0.7094" y="6731.1812" z="19.7074" heading="313.2816"
+	x1="296.5550" y1="6738.3276" z1="14.2897" heading1="74.9337"
+	info="DM_INFO_A13"  codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TREV1" vehicleWarp="TRUE"/>
+
+	<warpItem missionID="RE7" title="Bus Tour"	file="re_bus_tours.sc"	author="SI_CF"	percentage="0"	highlight="FALSE" 
+	x="221.4794" y="202.3937" z="104.4149" heading="70.7889"
+	x1="-29.2078" y1="253.7259" z1="107.2477" heading1="270.5472"
+	info="DM_INFO_A43"	codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TONYA1" hour="14" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE11A" title="Car Thief 1"	file="re_carTheft.sc" 	author="SI_BC"	percentage="0"	highlight="FALSE"	
+	x="-2178.6938" y="4441.1377" z="60.7262" heading="145.6574"
+	x1="-2323.2051" y1="4094.9282" z1="33.3520" heading1="342.1575"	
+
+	info="DM_INFO_A39" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TREV1" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE11B" title="Car Thief 2"	file="re_carTheft.sc" 	author="SI_BC"	percentage="0"	highlight="FALSE"	
+	x="-616.9125" y="-2018.1324" z="5.1960" heading="225.0901"
+	x1="-317.7578" y1="-2152.9343" z1="9.3217" heading1="72.6127"
+	x2="-627.0545" y2="-2289.5554" z2="4.8096" heading2="319.7386"
+	info="DM_INFO_A39" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TREV1" vehicleWarp="TRUE"/>
+		
+
+</DebugMenuItems>
+
+
+

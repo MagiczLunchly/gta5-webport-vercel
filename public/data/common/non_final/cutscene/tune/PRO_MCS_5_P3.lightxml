@@ -1,0 +1,1698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rage__cutfCutsceneFile2 v="1.0">
+  <fTotalDuration value="17.166666" />
+  <cFaceDir />
+  <iCutsceneFlags content="int_array">
+    0 
+    0 
+    0 
+    0 
+  </iCutsceneFlags>
+  <vOffset x="0.000000" y="0.000000" z="0.000000" />
+  <fRotation value="0.000000" />
+  <vTriggerOffset x="0.000000" y="0.000000" z="0.000000" />
+  <pCutsceneObjects>
+    <Item type="rage__cutfLightObject">
+      <iObjectId value="0" />
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+        <maxrelposition type="0">-4276.193359,5072.497070,-130.846893</maxrelposition>
+        <maxrelrotation type="0">-0.317903,-0.540219,-0.391283,0.673794</maxrelrotation>
+        <bonename type="0">policeold2:seat_dside_f</bonename>
+        <camera type="0">AutoClip13_PRO_MCS_5_P3</camera>
+      </attributeList>
+      <cutfAttributes>
+        <Items>
+          <Item type="cutf_string">
+            <Name>maxrelposition</Name>
+            <Value>-4276.193359,5072.497070,-130.846893</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>maxrelrotation</Name>
+            <Value>-0.317903,-0.540219,-0.391283,0.673794</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>bonename</Name>
+            <Value>policeold2:seat_dside_f</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>camera</Name>
+            <Value>AutoClip13_PRO_MCS_5_P3</Value>
+          </Item>
+        </Items>
+      </cutfAttributes>
+      <cName>D_PED_AC13_PRO_MCS_5_P3_08</cName>
+      <vDirection x="0.479213" y="-0.851160" z="-0.214202" />
+      <vColour x="0.882353" y="0.929412" z="1.000000" />
+      <vPosition x="-4276.193359" y="5072.497070" z="-130.846893" />
+      <fIntensity value="1.500000" />
+      <fFallOff value="2.400001" />
+      <fConeAngle value="50.000000" />
+      <fVolumeIntensity value="1.000000" />
+      <fVolumeSizeScale value="1.000000" />
+      <fCoronaSize value="0.000000" />
+      <fCoronaIntensity value="1.000000" />
+      <fCoronaZBias value="0.100000" />
+      <fInnerConeAngle value="0.000000" />
+      <fExponentialFallOff value="1.000000" />
+      <iLightType value="2" />
+      <iLightProperty value="0" />
+      <TextureDictID value="0" />
+      <TextureKey value="0" />
+      <uLightFlags value="4194817" />
+      <uHourFlags value="1048512" />
+      <bStatic value="true" />
+    </Item>
+    <Item type="rage__cutfLightObject">
+      <iObjectId value="1" />
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+        <maxrelposition type="0">-4284.750000,5073.292969,-129.525146</maxrelposition>
+        <maxrelrotation type="0">0.029916,0.912254,0.157496,-0.376952</maxrelrotation>
+        <bonename type="0">rancherxl:seat_dside_f</bonename>
+        <camera type="0">AutoClip2_PRO_MCS_5_P3</camera>
+      </attributeList>
+      <cutfAttributes>
+        <Items>
+          <Item type="cutf_string">
+            <Name>maxrelposition</Name>
+            <Value>-4284.750000,5073.292969,-129.525146</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>maxrelrotation</Name>
+            <Value>0.029916,0.912254,0.157496,-0.376952</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>bonename</Name>
+            <Value>rancherxl:seat_dside_f</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>camera</Name>
+            <Value>AutoClip2_PRO_MCS_5_P3</Value>
+          </Item>
+        </Items>
+      </cutfAttributes>
+      <cName>D_PED_AC2_PRO_MCS_5_P3_00</cName>
+      <vDirection x="0.678328" y="-0.309906" z="0.666205" />
+      <vColour x="1.000000" y="0.917647" z="0.784314" />
+      <vPosition x="-4284.750000" y="5073.292969" z="-129.525146" />
+      <fIntensity value="0.500000" />
+      <fFallOff value="2.400001" />
+      <fConeAngle value="20.000000" />
+      <fVolumeIntensity value="1.000000" />
+      <fVolumeSizeScale value="1.000000" />
+      <fCoronaSize value="0.000000" />
+      <fCoronaIntensity value="1.000000" />
+      <fCoronaZBias value="0.100000" />
+      <fInnerConeAngle value="0.000000" />
+      <fExponentialFallOff value="1.000000" />
+      <iLightType value="2" />
+      <iLightProperty value="0" />
+      <TextureDictID value="0" />
+      <TextureKey value="0" />
+      <uLightFlags value="4194817" />
+      <uHourFlags value="1048512" />
+      <bStatic value="true" />
+    </Item>
+    <Item type="rage__cutfLightObject">
+      <iObjectId value="2" />
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+        <maxrelposition type="0">-4282.413086,5077.524902,-129.525146</maxrelposition>
+        <maxrelrotation type="0">0.489994,0.367312,0.624544,-0.484698</maxrelrotation>
+        <bonename type="0">rancherxl:seat_dside_f</bonename>
+        <camera type="0">AutoClip2_PRO_MCS_5_P3</camera>
+      </attributeList>
+      <cutfAttributes>
+        <Items>
+          <Item type="cutf_string">
+            <Name>maxrelposition</Name>
+            <Value>-4282.413086,5077.524902,-129.525146</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>maxrelrotation</Name>
+            <Value>0.489994,0.367312,0.624544,-0.484698</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>bonename</Name>
+            <Value>rancherxl:seat_dside_f</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>camera</Name>
+            <Value>AutoClip2_PRO_MCS_5_P3</Value>
+          </Item>
+        </Items>
+      </cutfAttributes>
+      <cName>D_AC2_PRO_MCS_5_P3_069</cName>
+      <vDirection x="-0.255975" y="-0.933804" z="-0.249975" />
+      <vColour x="1.000000" y="0.917647" z="0.784314" />
+      <vPosition x="-4282.413086" y="5077.524902" z="-129.525146" />
+      <fIntensity value="0.400000" />
+      <fFallOff value="2.200001" />
+      <fConeAngle value="40.000000" />
+      <fVolumeIntensity value="1.000000" />
+      <fVolumeSizeScale value="1.000000" />
+      <fCoronaSize value="0.000000" />
+      <fCoronaIntensity value="1.000000" />
+      <fCoronaZBias value="0.100000" />
+      <fInnerConeAngle value="0.000000" />
+      <fExponentialFallOff value="1.000000" />
+      <iLightType value="2" />
+      <iLightProperty value="0" />
+      <TextureDictID value="0" />
+      <TextureKey value="0" />
+      <uLightFlags value="769" />
+      <uHourFlags value="15729663" />
+      <bStatic value="true" />
+    </Item>
+    <Item type="rage__cutfLightObject">
+      <iObjectId value="3" />
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+        <maxrelposition type="0">-4283.446777,5073.894043,-129.525146</maxrelposition>
+        <maxrelrotation type="0">0.375100,-0.484058,0.494622,0.616715</maxrelrotation>
+        <bonename type="0">rancherxl:seat_dside_f</bonename>
+        <camera type="0">AutoClip2_PRO_MCS_5_P3</camera>
+      </attributeList>
+      <cutfAttributes>
+        <Items>
+          <Item type="cutf_string">
+            <Name>maxrelposition</Name>
+            <Value>-4283.446777,5073.894043,-129.525146</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>maxrelrotation</Name>
+            <Value>0.375100,-0.484058,0.494622,0.616715</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>bonename</Name>
+            <Value>rancherxl:seat_dside_f</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>camera</Name>
+            <Value>AutoClip2_PRO_MCS_5_P3</Value>
+          </Item>
+        </Items>
+      </cutfAttributes>
+      <cName>D_AC2_PRO_MCS_5_P3_070</cName>
+      <vDirection x="0.225986" y="0.941511" z="-0.249976" />
+      <vColour x="0.611765" y="0.694118" z="1.000000" />
+      <vPosition x="-4283.446777" y="5073.894043" z="-129.525146" />
+      <fIntensity value="2.000000" />
+      <fFallOff value="2.200001" />
+      <fConeAngle value="40.000000" />
+      <fVolumeIntensity value="1.000000" />
+      <fVolumeSizeScale value="1.000000" />
+      <fCoronaSize value="0.000000" />
+      <fCoronaIntensity value="1.000000" />
+      <fCoronaZBias value="0.100000" />
+      <fInnerConeAngle value="0.000000" />
+      <fExponentialFallOff value="1.000000" />
+      <iLightType value="2" />
+      <iLightProperty value="0" />
+      <TextureDictID value="0" />
+      <TextureKey value="0" />
+      <uLightFlags value="769" />
+      <uHourFlags value="15729663" />
+      <bStatic value="true" />
+    </Item>
+    <Item type="rage__cutfLightObject">
+      <iObjectId value="4" />
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+        <maxrelposition type="0">-4282.122070,5075.948730,-129.672241</maxrelposition>
+        <maxrelrotation type="0">0.582217,0.189831,0.747415,-0.257600</maxrelrotation>
+        <bonename type="0">rancherxl:seat_dside_f</bonename>
+        <camera type="0">AutoClip2_PRO_MCS_5_P3</camera>
+      </attributeList>
+      <cutfAttributes>
+        <Items>
+          <Item type="cutf_string">
+            <Name>maxrelposition</Name>
+            <Value>-4282.122070,5075.948730,-129.672241</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>maxrelrotation</Name>
+            <Value>0.582217,0.189831,0.747415,-0.257600</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>bonename</Name>
+            <Value>rancherxl:seat_dside_f</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>camera</Name>
+            <Value>AutoClip2_PRO_MCS_5_P3</Value>
+          </Item>
+        </Items>
+      </cutfAttributes>
+      <cName>D_AC2_PRO_MCS_5_P3_071</cName>
+      <vDirection x="-0.772515" y="-0.583723" z="-0.249975" />
+      <vColour x="1.000000" y="0.768628" z="0.611765" />
+      <vPosition x="-4282.122070" y="5075.948730" z="-129.672241" />
+      <fIntensity value="2.000000" />
+      <fFallOff value="1.000000" />
+      <fConeAngle value="40.000000" />
+      <fVolumeIntensity value="1.000000" />
+      <fVolumeSizeScale value="1.000000" />
+      <fCoronaSize value="0.000000" />
+      <fCoronaIntensity value="1.000000" />
+      <fCoronaZBias value="0.100000" />
+      <fInnerConeAngle value="0.000000" />
+      <fExponentialFallOff value="1.000000" />
+      <iLightType value="2" />
+      <iLightProperty value="0" />
+      <TextureDictID value="0" />
+      <TextureKey value="0" />
+      <uLightFlags value="769" />
+      <uHourFlags value="15729663" />
+      <bStatic value="true" />
+    </Item>
+    <Item type="rage__cutfLightObject">
+      <iObjectId value="5" />
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+        <maxrelposition type="0">-4282.237793,5076.607910,-129.781281</maxrelposition>
+        <maxrelrotation type="0">-0.376409,-0.585001,-0.322182,0.642097</maxrelrotation>
+        <bonename type="0">rancherxl:seat_dside_f</bonename>
+        <camera type="0">AutoClip4_PRO_MCS_5_P3</camera>
+      </attributeList>
+      <cutfAttributes>
+        <Items>
+          <Item type="cutf_string">
+            <Name>maxrelposition</Name>
+            <Value>-4282.237793,5076.607910,-129.781281</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>maxrelrotation</Name>
+            <Value>-0.376409,-0.585001,-0.322182,0.642097</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>bonename</Name>
+            <Value>rancherxl:seat_dside_f</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>camera</Name>
+            <Value>AutoClip4_PRO_MCS_5_P3</Value>
+          </Item>
+        </Items>
+      </cutfAttributes>
+      <cName>D_AC4_PRO_MCS_5_P3_03</cName>
+      <vDirection x="0.508711" y="-0.860336" z="-0.032180" />
+      <vColour x="0.882353" y="0.929412" z="1.000000" />
+      <vPosition x="-4282.237793" y="5076.607910" z="-129.781281" />
+      <fIntensity value="1.000000" />
+      <fFallOff value="1.000001" />
+      <fConeAngle value="20.000000" />
+      <fVolumeIntensity value="1.000000" />
+      <fVolumeSizeScale value="1.000000" />
+      <fCoronaSize value="0.000000" />
+      <fCoronaIntensity value="1.000000" />
+      <fCoronaZBias value="0.100000" />
+      <fInnerConeAngle value="0.000000" />
+      <fExponentialFallOff value="0.100000" />
+      <iLightType value="2" />
+      <iLightProperty value="0" />
+      <TextureDictID value="0" />
+      <TextureKey value="0" />
+      <uLightFlags value="66049" />
+      <uHourFlags value="1048512" />
+      <bStatic value="true" />
+    </Item>
+    <Item type="rage__cutfLightObject">
+      <iObjectId value="6" />
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+        <maxrelposition type="0">-4283.280273,5076.591309,-129.673843</maxrelposition>
+        <maxrelrotation type="0">-0.156193,-0.626100,-0.353753,0.677098</maxrelrotation>
+        <bonename type="0">rancherxl:seat_dside_f</bonename>
+        <camera type="0">AutoClip4_PRO_MCS_5_P3</camera>
+      </attributeList>
+      <cutfAttributes>
+        <Items>
+          <Item type="cutf_string">
+            <Name>maxrelposition</Name>
+            <Value>-4283.280273,5076.591309,-129.673843</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>maxrelrotation</Name>
+            <Value>-0.156193,-0.626100,-0.353753,0.677098</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>bonename</Name>
+            <Value>rancherxl:seat_dside_f</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>camera</Name>
+            <Value>AutoClip4_PRO_MCS_5_P3</Value>
+          </Item>
+        </Items>
+      </cutfAttributes>
+      <cName>D_AC4_PRO_MCS_5_P3_04</cName>
+      <vDirection x="0.737354" y="-0.654486" z="-0.167205" />
+      <vColour x="0.882353" y="0.929412" z="1.000000" />
+      <vPosition x="-4283.280273" y="5076.591309" z="-129.673843" />
+      <fIntensity value="1.000000" />
+      <fFallOff value="1.000001" />
+      <fConeAngle value="40.000000" />
+      <fVolumeIntensity value="1.000000" />
+      <fVolumeSizeScale value="1.000000" />
+      <fCoronaSize value="0.000000" />
+      <fCoronaIntensity value="1.000000" />
+      <fCoronaZBias value="0.100000" />
+      <fInnerConeAngle value="0.000000" />
+      <fExponentialFallOff value="1.000000" />
+      <iLightType value="2" />
+      <iLightProperty value="0" />
+      <TextureDictID value="0" />
+      <TextureKey value="0" />
+      <uLightFlags value="66049" />
+      <uHourFlags value="1048512" />
+      <bStatic value="true" />
+    </Item>
+    <Item type="rage__cutfLightObject">
+      <iObjectId value="7" />
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+        <maxrelposition type="0">-4278.616699,5075.221680,-129.186676</maxrelposition>
+        <maxrelrotation type="0">-0.029030,0.932589,-0.152322,-0.325934</maxrelrotation>
+        <bonename type="0">rancherxl:seat_dside_f</bonename>
+        <camera type="0">AutoClip4_PRO_MCS_5_P3</camera>
+      </attributeList>
+      <cutfAttributes>
+        <Items>
+          <Item type="cutf_string">
+            <Name>maxrelposition</Name>
+            <Value>-4278.616699,5075.221680,-129.186676</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>maxrelrotation</Name>
+            <Value>-0.029030,0.932589,-0.152322,-0.325934</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>bonename</Name>
+            <Value>rancherxl:seat_dside_f</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>camera</Name>
+            <Value>AutoClip4_PRO_MCS_5_P3</Value>
+          </Item>
+        </Items>
+      </cutfAttributes>
+      <cName>D_PED_AC4_PRO_MCS_5_P3_07</cName>
+      <vDirection x="0.599081" y="0.303031" z="0.741130" />
+      <vColour x="0.882353" y="0.929412" z="1.000000" />
+      <vPosition x="-4278.616699" y="5075.221680" z="-129.186676" />
+      <fIntensity value="1.000000" />
+      <fFallOff value="0.800001" />
+      <fConeAngle value="20.000000" />
+      <fVolumeIntensity value="1.000000" />
+      <fVolumeSizeScale value="1.000000" />
+      <fCoronaSize value="0.000000" />
+      <fCoronaIntensity value="1.000000" />
+      <fCoronaZBias value="0.100000" />
+      <fInnerConeAngle value="0.000000" />
+      <fExponentialFallOff value="1.000000" />
+      <iLightType value="2" />
+      <iLightProperty value="0" />
+      <TextureDictID value="0" />
+      <TextureKey value="0" />
+      <uLightFlags value="4260353" />
+      <uHourFlags value="1048512" />
+      <bStatic value="true" />
+    </Item>
+    <Item type="rage__cutfLightObject">
+      <iObjectId value="8" />
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+        <maxrelposition type="0">-4282.614746,5075.510254,-129.616791</maxrelposition>
+        <maxrelrotation type="0">0.430308,-0.273261,0.781458,0.359844</maxrelrotation>
+        <bonename type="0">rancherxl:seat_dside_f</bonename>
+        <camera type="0">AutoClip4_PRO_MCS_5_P3</camera>
+      </attributeList>
+      <cutfAttributes>
+        <Items>
+          <Item type="cutf_string">
+            <Name>maxrelposition</Name>
+            <Value>-4282.614746,5075.510254,-129.616791</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>maxrelrotation</Name>
+            <Value>0.430308,-0.273261,0.781458,0.359844</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>bonename</Name>
+            <Value>rancherxl:seat_dside_f</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>camera</Name>
+            <Value>AutoClip4_PRO_MCS_5_P3</Value>
+          </Item>
+        </Items>
+      </cutfAttributes>
+      <cName>D_AC4_PRO_MCS_5_P3_02</cName>
+      <vDirection x="-0.475872" y="0.736771" z="-0.480327" />
+      <vColour x="0.619608" y="0.772549" z="1.000000" />
+      <vPosition x="-4282.614746" y="5075.510254" z="-129.616791" />
+      <fIntensity value="0.050000" />
+      <fFallOff value="1.000000" />
+      <fConeAngle value="40.000000" />
+      <fVolumeIntensity value="1.000000" />
+      <fVolumeSizeScale value="1.000000" />
+      <fCoronaSize value="0.000000" />
+      <fCoronaIntensity value="1.000000" />
+      <fCoronaZBias value="0.100000" />
+      <fInnerConeAngle value="0.000000" />
+      <fExponentialFallOff value="1.000000" />
+      <iLightType value="2" />
+      <iLightProperty value="0" />
+      <TextureDictID value="0" />
+      <TextureKey value="0" />
+      <uLightFlags value="66049" />
+      <uHourFlags value="1048512" />
+      <bStatic value="true" />
+    </Item>
+    <Item type="rage__cutfLightObject">
+      <iObjectId value="9" />
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+        <maxrelposition type="0">-4283.653320,5075.758301,-129.673843</maxrelposition>
+        <maxrelrotation type="0">-0.156193,-0.626100,-0.353753,0.677098</maxrelrotation>
+        <bonename type="0">rancherxl:seat_dside_f</bonename>
+        <camera type="0">AutoClip4_PRO_MCS_5_P3</camera>
+      </attributeList>
+      <cutfAttributes>
+        <Items>
+          <Item type="cutf_string">
+            <Name>maxrelposition</Name>
+            <Value>-4283.653320,5075.758301,-129.673843</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>maxrelrotation</Name>
+            <Value>-0.156193,-0.626100,-0.353753,0.677098</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>bonename</Name>
+            <Value>rancherxl:seat_dside_f</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>camera</Name>
+            <Value>AutoClip4_PRO_MCS_5_P3</Value>
+          </Item>
+        </Items>
+      </cutfAttributes>
+      <cName>D_AC4_PRO_MCS_5_P3_005</cName>
+      <vDirection x="0.737354" y="-0.654486" z="-0.167205" />
+      <vColour x="0.882353" y="0.929412" z="1.000000" />
+      <vPosition x="-4283.653320" y="5075.758301" z="-129.673843" />
+      <fIntensity value="1.000000" />
+      <fFallOff value="1.000001" />
+      <fConeAngle value="40.000000" />
+      <fVolumeIntensity value="1.000000" />
+      <fVolumeSizeScale value="1.000000" />
+      <fCoronaSize value="0.000000" />
+      <fCoronaIntensity value="1.000000" />
+      <fCoronaZBias value="0.100000" />
+      <fInnerConeAngle value="0.000000" />
+      <fExponentialFallOff value="1.000000" />
+      <iLightType value="2" />
+      <iLightProperty value="0" />
+      <TextureDictID value="0" />
+      <TextureKey value="0" />
+      <uLightFlags value="66049" />
+      <uHourFlags value="1048512" />
+      <bStatic value="true" />
+    </Item>
+    <Item type="rage__cutfLightObject">
+      <iObjectId value="10" />
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+        <maxrelposition type="0">-4278.649414,5074.605469,-128.154083</maxrelposition>
+        <maxrelrotation type="0">0.376116,-0.189477,-0.426972,0.800206</maxrelrotation>
+        <bonename type="0">rancherxl:seat_dside_f</bonename>
+        <camera type="0">AutoClip5_PRO_MCS_5_P3</camera>
+      </attributeList>
+      <cutfAttributes>
+        <Items>
+          <Item type="cutf_string">
+            <Name>maxrelposition</Name>
+            <Value>-4278.649414,5074.605469,-128.154083</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>maxrelrotation</Name>
+            <Value>0.376116,-0.189477,-0.426972,0.800206</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>bonename</Name>
+            <Value>rancherxl:seat_dside_f</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>camera</Name>
+            <Value>AutoClip5_PRO_MCS_5_P3</Value>
+          </Item>
+        </Items>
+      </cutfAttributes>
+      <cName>D_PED_AC5_PRO_MCS_5_P3_05</cName>
+      <vDirection x="0.624423" y="0.440138" z="-0.645271" />
+      <vColour x="0.882353" y="0.929412" z="1.000000" />
+      <vPosition x="-4278.649414" y="5074.605469" z="-128.154083" />
+      <fIntensity value="2.000000" />
+      <fFallOff value="3.899999" />
+      <fConeAngle value="80.000000" />
+      <fVolumeIntensity value="1.000000" />
+      <fVolumeSizeScale value="1.000000" />
+      <fCoronaSize value="0.000000" />
+      <fCoronaIntensity value="1.000000" />
+      <fCoronaZBias value="0.100000" />
+      <fInnerConeAngle value="0.000000" />
+      <fExponentialFallOff value="1.000000" />
+      <iLightType value="2" />
+      <iLightProperty value="0" />
+      <TextureDictID value="0" />
+      <TextureKey value="0" />
+      <uLightFlags value="4260353" />
+      <uHourFlags value="1048512" />
+      <bStatic value="true" />
+    </Item>
+    <Item type="rage__cutfLightObject">
+      <iObjectId value="11" />
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+        <maxrelposition type="0">-4281.606934,5076.666992,-129.743805</maxrelposition>
+        <maxrelrotation type="0">0.541663,0.412155,0.583206,-0.443396</maxrelrotation>
+        <bonename type="0">rancherxl:seat_dside_f</bonename>
+        <camera type="0">AutoClip5_PRO_MCS_5_P3</camera>
+      </attributeList>
+      <cutfAttributes>
+        <Items>
+          <Item type="cutf_string">
+            <Name>maxrelposition</Name>
+            <Value>-4281.606934,5076.666992,-129.743805</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>maxrelrotation</Name>
+            <Value>0.541663,0.412155,0.583206,-0.443396</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>bonename</Name>
+            <Value>rancherxl:seat_dside_f</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>camera</Name>
+            <Value>AutoClip5_PRO_MCS_5_P3</Value>
+          </Item>
+        </Items>
+      </cutfAttributes>
+      <cName>D_AC5_PRO_MCS_5_P3_06</cName>
+      <vDirection x="-0.266306" y="-0.961085" z="-0.073459" />
+      <vColour x="0.882353" y="0.929412" z="1.000000" />
+      <vPosition x="-4281.606934" y="5076.666992" z="-129.743805" />
+      <fIntensity value="5.000000" />
+      <fFallOff value="2.400001" />
+      <fConeAngle value="20.000000" />
+      <fVolumeIntensity value="1.000000" />
+      <fVolumeSizeScale value="1.000000" />
+      <fCoronaSize value="0.000000" />
+      <fCoronaIntensity value="1.000000" />
+      <fCoronaZBias value="0.100000" />
+      <fInnerConeAngle value="0.000000" />
+      <fExponentialFallOff value="1.000000" />
+      <iLightType value="2" />
+      <iLightProperty value="0" />
+      <TextureDictID value="0" />
+      <TextureKey value="0" />
+      <uLightFlags value="66049" />
+      <uHourFlags value="1048512" />
+      <bStatic value="true" />
+    </Item>
+    <Item type="rage__cutfLightObject">
+      <iObjectId value="12" />
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+        <maxrelposition type="0">-4282.932129,5076.171875,-129.509613</maxrelposition>
+        <maxrelrotation type="0">0.413539,0.394652,0.588245,-0.572017</maxrelrotation>
+        <bonename type="0">rancherxl:seat_dside_f</bonename>
+        <camera type="0">AutoClip5_PRO_MCS_5_P3</camera>
+      </attributeList>
+      <cutfAttributes>
+        <Items>
+          <Item type="cutf_string">
+            <Name>maxrelposition</Name>
+            <Value>-4282.932129,5076.171875,-129.509613</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>maxrelrotation</Name>
+            <Value>0.413539,0.394652,0.588245,-0.572017</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>bonename</Name>
+            <Value>rancherxl:seat_dside_f</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>camera</Name>
+            <Value>AutoClip5_PRO_MCS_5_P3</Value>
+          </Item>
+        </Items>
+      </cutfAttributes>
+      <cName>D_AC5_PRO_MCS_5_P3_02</cName>
+      <vDirection x="-0.035029" y="-0.937406" z="-0.346471" />
+      <vColour x="0.882353" y="0.929412" z="1.000000" />
+      <vPosition x="-4282.932129" y="5076.171875" z="-129.509613" />
+      <fIntensity value="20.000000" />
+      <fFallOff value="2.500000" />
+      <fConeAngle value="20.000000" />
+      <fVolumeIntensity value="1.000000" />
+      <fVolumeSizeScale value="1.000000" />
+      <fCoronaSize value="0.000000" />
+      <fCoronaIntensity value="1.000000" />
+      <fCoronaZBias value="0.100000" />
+      <fInnerConeAngle value="0.000000" />
+      <fExponentialFallOff value="2.000000" />
+      <iLightType value="2" />
+      <iLightProperty value="0" />
+      <TextureDictID value="0" />
+      <TextureKey value="0" />
+      <uLightFlags value="66049" />
+      <uHourFlags value="1048512" />
+      <bStatic value="true" />
+    </Item>
+    <Item type="rage__cutfLightObject">
+      <iObjectId value="13" />
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+        <maxrelposition type="0">-4278.616699,5074.395020,-129.186676</maxrelposition>
+        <maxrelrotation type="0">-0.067978,-0.614156,-0.109933,0.778528</maxrelrotation>
+        <bonename type="0">rancherxl:seat_dside_f</bonename>
+        <camera type="0">AutoClip6_PRO_MCS_5_P3</camera>
+      </attributeList>
+      <cutfAttributes>
+        <Items>
+          <Item type="cutf_string">
+            <Name>maxrelposition</Name>
+            <Value>-4278.616699,5074.395020,-129.186676</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>maxrelrotation</Name>
+            <Value>-0.067978,-0.614156,-0.109933,0.778528</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>bonename</Name>
+            <Value>rancherxl:seat_dside_f</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>camera</Name>
+            <Value>AutoClip6_PRO_MCS_5_P3</Value>
+          </Item>
+        </Items>
+      </cutfAttributes>
+      <cName>D_PED_AC6_PRO_MCS_5_P3_04</cName>
+      <vDirection x="0.941329" y="-0.240878" z="-0.236383" />
+      <vColour x="0.882353" y="0.929412" z="1.000000" />
+      <vPosition x="-4278.616699" y="5074.395020" z="-129.186676" />
+      <fIntensity value="0.500000" />
+      <fFallOff value="0.800001" />
+      <fConeAngle value="20.000000" />
+      <fVolumeIntensity value="1.000000" />
+      <fVolumeSizeScale value="1.000000" />
+      <fCoronaSize value="0.000000" />
+      <fCoronaIntensity value="1.000000" />
+      <fCoronaZBias value="0.100000" />
+      <fInnerConeAngle value="0.000000" />
+      <fExponentialFallOff value="1.000000" />
+      <iLightType value="2" />
+      <iLightProperty value="0" />
+      <TextureDictID value="0" />
+      <TextureKey value="0" />
+      <uLightFlags value="4260353" />
+      <uHourFlags value="1048512" />
+      <bStatic value="true" />
+    </Item>
+    <Item type="rage__cutfLightObject">
+      <iObjectId value="14" />
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+        <maxrelposition type="0">-4283.531738,5075.668945,-129.870575</maxrelposition>
+        <maxrelrotation type="0">0.234066,0.781468,0.273042,-0.509871</maxrelrotation>
+        <bonename type="0">rancherxl:seat_dside_f</bonename>
+        <camera type="0">AutoClip6_PRO_MCS_5_P3</camera>
+      </attributeList>
+      <cutfAttributes>
+        <Items>
+          <Item type="cutf_string">
+            <Name>maxrelposition</Name>
+            <Value>-4283.531738,5075.668945,-129.870575</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>maxrelrotation</Name>
+            <Value>0.234066,0.781468,0.273042,-0.509871</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>bonename</Name>
+            <Value>rancherxl:seat_dside_f</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>camera</Name>
+            <Value>AutoClip6_PRO_MCS_5_P3</Value>
+          </Item>
+        </Items>
+      </cutfAttributes>
+      <cName>D_AC6_PRO_MCS_5_P3_02</cName>
+      <vDirection x="0.669076" y="-0.665434" z="0.330959" />
+      <vColour x="0.980392" y="0.913726" z="0.796079" />
+      <vPosition x="-4283.531738" y="5075.668945" z="-129.870575" />
+      <fIntensity value="0.700000" />
+      <fFallOff value="0.900000" />
+      <fConeAngle value="55.000000" />
+      <fVolumeIntensity value="1.000000" />
+      <fVolumeSizeScale value="1.000000" />
+      <fCoronaSize value="0.000000" />
+      <fCoronaIntensity value="1.000000" />
+      <fCoronaZBias value="0.100000" />
+      <fInnerConeAngle value="0.000000" />
+      <fExponentialFallOff value="1.000000" />
+      <iLightType value="2" />
+      <iLightProperty value="0" />
+      <TextureDictID value="0" />
+      <TextureKey value="0" />
+      <uLightFlags value="66305" />
+      <uHourFlags value="1048512" />
+      <bStatic value="true" />
+    </Item>
+    <Item type="rage__cutfLightObject">
+      <iObjectId value="15" />
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+        <maxrelposition type="0">-4285.668457,5078.428711,-129.197678</maxrelposition>
+        <maxrelrotation type="0">-0.397415,-0.605875,-0.327687,0.606298</maxrelrotation>
+        <bonename type="0">rancherxl:seat_dside_f</bonename>
+        <camera type="0">AutoClip7_PRO_MCS_5_P3</camera>
+      </attributeList>
+      <cutfAttributes>
+        <Items>
+          <Item type="cutf_string">
+            <Name>maxrelposition</Name>
+            <Value>-4285.668457,5078.428711,-129.197678</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>maxrelrotation</Name>
+            <Value>-0.397415,-0.605875,-0.327687,0.606298</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>bonename</Name>
+            <Value>rancherxl:seat_dside_f</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>camera</Name>
+            <Value>AutoClip7_PRO_MCS_5_P3</Value>
+          </Item>
+        </Items>
+      </cutfAttributes>
+      <cName>D_AC7_PRO_MCS_5_P3_06</cName>
+      <vDirection x="0.474227" y="-0.878979" z="0.050047" />
+      <vColour x="1.000000" y="0.898039" z="0.807843" />
+      <vPosition x="-4285.668457" y="5078.428711" z="-129.197678" />
+      <fIntensity value="0.500000" />
+      <fFallOff value="7.000000" />
+      <fConeAngle value="90.000000" />
+      <fVolumeIntensity value="1.000000" />
+      <fVolumeSizeScale value="1.000000" />
+      <fCoronaSize value="0.000000" />
+      <fCoronaIntensity value="1.000000" />
+      <fCoronaZBias value="0.100000" />
+      <fInnerConeAngle value="0.000000" />
+      <fExponentialFallOff value="1.000000" />
+      <iLightType value="2" />
+      <iLightProperty value="0" />
+      <TextureDictID value="0" />
+      <TextureKey value="0" />
+      <uLightFlags value="66305" />
+      <uHourFlags value="1048512" />
+      <bStatic value="true" />
+    </Item>
+    <Item type="rage__cutfLightObject">
+      <iObjectId value="16" />
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+        <maxrelposition type="0">-4281.408203,5075.625488,-129.642365</maxrelposition>
+        <maxrelrotation type="0">0.541598,0.003742,0.839412,-0.045222</maxrelrotation>
+        <bonename type="0">rancherxl:seat_dside_f</bonename>
+        <camera type="0">AutoClip7_PRO_MCS_5_P3</camera>
+      </attributeList>
+      <cutfAttributes>
+        <Items>
+          <Item type="cutf_string">
+            <Name>maxrelposition</Name>
+            <Value>-4281.408203,5075.625488,-129.642365</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>maxrelrotation</Name>
+            <Value>0.541598,0.003742,0.839412,-0.045222</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>bonename</Name>
+            <Value>rancherxl:seat_dside_f</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>camera</Name>
+            <Value>AutoClip7_PRO_MCS_5_P3</Value>
+          </Item>
+        </Items>
+      </cutfAttributes>
+      <cName>D_AC7_PRO_MCS_5_P3_07</cName>
+      <vDirection x="-0.908909" y="-0.055266" z="-0.413315" />
+      <vColour x="0.882353" y="0.929412" z="1.000000" />
+      <vPosition x="-4281.408203" y="5075.625488" z="-129.642365" />
+      <fIntensity value="2.000000" />
+      <fFallOff value="1.900001" />
+      <fConeAngle value="40.000000" />
+      <fVolumeIntensity value="1.000000" />
+      <fVolumeSizeScale value="1.000000" />
+      <fCoronaSize value="0.000000" />
+      <fCoronaIntensity value="1.000000" />
+      <fCoronaZBias value="0.100000" />
+      <fInnerConeAngle value="0.000000" />
+      <fExponentialFallOff value="0.100000" />
+      <iLightType value="2" />
+      <iLightProperty value="0" />
+      <TextureDictID value="0" />
+      <TextureKey value="0" />
+      <uLightFlags value="66049" />
+      <uHourFlags value="1048512" />
+      <bStatic value="true" />
+    </Item>
+    <Item type="rage__cutfLightObject">
+      <iObjectId value="17" />
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+        <maxrelposition type="0">-4274.082031,5072.346680,-129.300171</maxrelposition>
+        <maxrelrotation type="0">0.129551,0.683050,0.711559,0.101702</maxrelrotation>
+        <bonename type="0">policeold2:seat_dside_f</bonename>
+        <camera type="0">AutoClip7_PRO_MCS_5_P3</camera>
+      </attributeList>
+      <cutfAttributes>
+        <Items>
+          <Item type="cutf_string">
+            <Name>maxrelposition</Name>
+            <Value>-4274.082031,5072.346680,-129.300171</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>maxrelrotation</Name>
+            <Value>0.129551,0.683050,0.711559,0.101702</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>bonename</Name>
+            <Value>policeold2:seat_dside_f</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>camera</Name>
+            <Value>AutoClip7_PRO_MCS_5_P3</Value>
+          </Item>
+        </Items>
+      </cutfAttributes>
+      <cName>D_PED_AC8_PRO_MCS_5_P3_005</cName>
+      <vDirection x="-0.323301" y="-0.945709" z="-0.033319" />
+      <vColour x="0.882353" y="0.929412" z="1.000000" />
+      <vPosition x="-4274.082031" y="5072.346680" z="-129.300171" />
+      <fIntensity value="2.000000" />
+      <fFallOff value="2.400001" />
+      <fConeAngle value="60.000000" />
+      <fVolumeIntensity value="1.000000" />
+      <fVolumeSizeScale value="1.000000" />
+      <fCoronaSize value="0.000000" />
+      <fCoronaIntensity value="1.000000" />
+      <fCoronaZBias value="0.100000" />
+      <fInnerConeAngle value="0.000000" />
+      <fExponentialFallOff value="1.000000" />
+      <iLightType value="2" />
+      <iLightProperty value="0" />
+      <TextureDictID value="0" />
+      <TextureKey value="0" />
+      <uLightFlags value="4260353" />
+      <uHourFlags value="1048512" />
+      <bStatic value="true" />
+    </Item>
+    <Item type="rage__cutfLightObject">
+      <iObjectId value="18" />
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+        <maxrelposition type="0">-4282.161621,5074.523438,-130.300629</maxrelposition>
+        <maxrelrotation type="0">-0.429503,-0.545851,-0.436886,0.571580</maxrelrotation>
+        <bonename type="0">policeold2:seat_dside_f</bonename>
+        <camera type="0">AutoClip8_PRO_MCS_5_P3</camera>
+      </attributeList>
+      <cutfAttributes>
+        <Items>
+          <Item type="cutf_string">
+            <Name>maxrelposition</Name>
+            <Value>-4282.161621,5074.523438,-130.300629</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>maxrelrotation</Name>
+            <Value>-0.429503,-0.545851,-0.436886,0.571580</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>bonename</Name>
+            <Value>policeold2:seat_dside_f</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>camera</Name>
+            <Value>AutoClip8_PRO_MCS_5_P3</Value>
+          </Item>
+        </Items>
+      </cutfAttributes>
+      <cName>D_AC8_PRO_MCS_5_P3_00</cName>
+      <vDirection x="0.248706" y="-0.967941" z="-0.035147" />
+      <vColour x="0.988235" y="0.882353" z="0.749020" />
+      <vPosition x="-4282.161621" y="5074.523438" z="-130.300629" />
+      <fIntensity value="2.000000" />
+      <fFallOff value="2.000001" />
+      <fConeAngle value="30.000000" />
+      <fVolumeIntensity value="1.000000" />
+      <fVolumeSizeScale value="1.000000" />
+      <fCoronaSize value="0.000000" />
+      <fCoronaIntensity value="1.000000" />
+      <fCoronaZBias value="0.100000" />
+      <fInnerConeAngle value="0.000000" />
+      <fExponentialFallOff value="0.010000" />
+      <iLightType value="2" />
+      <iLightProperty value="0" />
+      <TextureDictID value="0" />
+      <TextureKey value="0" />
+      <uLightFlags value="66305" />
+      <uHourFlags value="1048512" />
+      <bStatic value="true" />
+    </Item>
+    <Item type="rage__cutfLightObject">
+      <iObjectId value="19" />
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+        <maxrelposition type="0">-4276.460449,5071.795898,-129.118271</maxrelposition>
+        <maxrelrotation type="0">0.648618,-0.147650,-0.212076,0.715904</maxrelrotation>
+        <bonename type="0">policeold2:seat_dside_f</bonename>
+        <camera type="0">AutoClip8_PRO_MCS_5_P3</camera>
+      </attributeList>
+      <cutfAttributes>
+        <Items>
+          <Item type="cutf_string">
+            <Name>maxrelposition</Name>
+            <Value>-4276.460449,5071.795898,-129.118271</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>maxrelrotation</Name>
+            <Value>0.648618,-0.147650,-0.212076,0.715904</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>bonename</Name>
+            <Value>policeold2:seat_dside_f</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>camera</Name>
+            <Value>AutoClip8_PRO_MCS_5_P3</Value>
+          </Item>
+        </Items>
+      </cutfAttributes>
+      <cName>D_PED_AC8_PRO_MCS_5_P3_01</cName>
+      <vDirection x="0.486519" y="0.866070" z="-0.114988" />
+      <vColour x="0.882353" y="0.929412" z="1.000000" />
+      <vPosition x="-4276.460449" y="5071.795898" z="-129.118271" />
+      <fIntensity value="1.000000" />
+      <fFallOff value="3.000000" />
+      <fConeAngle value="60.000000" />
+      <fVolumeIntensity value="1.000000" />
+      <fVolumeSizeScale value="1.000000" />
+      <fCoronaSize value="0.000000" />
+      <fCoronaIntensity value="1.000000" />
+      <fCoronaZBias value="0.100000" />
+      <fInnerConeAngle value="0.000000" />
+      <fExponentialFallOff value="1.000000" />
+      <iLightType value="2" />
+      <iLightProperty value="0" />
+      <TextureDictID value="0" />
+      <TextureKey value="0" />
+      <uLightFlags value="4260609" />
+      <uHourFlags value="1048512" />
+      <bStatic value="true" />
+    </Item>
+    <Item type="rage__cutfLightObject">
+      <iObjectId value="20" />
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+        <maxrelposition type="0">-4275.809570,5068.707520,-128.770935</maxrelposition>
+        <maxrelrotation type="0">-0.499103,0.561812,0.506219,-0.423091</maxrelrotation>
+        <bonename type="0">policeold2:seat_dside_f</bonename>
+        <camera type="0">AutoClip12_PRO_MCS_5_P3</camera>
+      </attributeList>
+      <cutfAttributes>
+        <Items>
+          <Item type="cutf_string">
+            <Name>maxrelposition</Name>
+            <Value>-4275.809570,5068.707520,-128.770935</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>maxrelrotation</Name>
+            <Value>-0.499103,0.561812,0.506219,-0.423091</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>bonename</Name>
+            <Value>policeold2:seat_dside_f</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>camera</Name>
+            <Value>AutoClip12_PRO_MCS_5_P3</Value>
+          </Item>
+        </Items>
+      </cutfAttributes>
+      <cName>D_PED_AC12_PRO_MCS_5_P3_00</cName>
+      <vDirection x="0.980706" y="-0.146468" z="0.129473" />
+      <vColour x="0.996079" y="0.823530" z="0.549020" />
+      <vPosition x="-4275.809570" y="5068.707520" z="-128.770935" />
+      <fIntensity value="5.000000" />
+      <fFallOff value="2.400001" />
+      <fConeAngle value="60.000000" />
+      <fVolumeIntensity value="1.000000" />
+      <fVolumeSizeScale value="1.000000" />
+      <fCoronaSize value="0.000000" />
+      <fCoronaIntensity value="1.000000" />
+      <fCoronaZBias value="0.100000" />
+      <fInnerConeAngle value="0.000000" />
+      <fExponentialFallOff value="1.000000" />
+      <iLightType value="2" />
+      <iLightProperty value="0" />
+      <TextureDictID value="0" />
+      <TextureKey value="0" />
+      <uLightFlags value="4260353" />
+      <uHourFlags value="1048512" />
+      <bStatic value="true" />
+    </Item>
+    <Item type="rage__cutfLightObject">
+      <iObjectId value="21" />
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+        <maxrelposition type="0">-4287.186035,5078.501465,-130.170837</maxrelposition>
+        <maxrelrotation type="0">-0.242609,0.711250,0.630560,-0.194056</maxrelrotation>
+        <bonename type="0">rancherxl:seat_dside_f</bonename>
+        <camera type="0">AutoClip10_PRO_MCS_5_P3</camera>
+      </attributeList>
+      <cutfAttributes>
+        <Items>
+          <Item type="cutf_string">
+            <Name>maxrelposition</Name>
+            <Value>-4287.186035,5078.501465,-130.170837</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>maxrelrotation</Name>
+            <Value>-0.242609,0.711250,0.630560,-0.194056</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>bonename</Name>
+            <Value>rancherxl:seat_dside_f</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>camera</Name>
+            <Value>AutoClip10_PRO_MCS_5_P3</Value>
+          </Item>
+        </Items>
+      </cutfAttributes>
+      <cName>D_PED_AC10_PRO_MCS_5_P3_001</cName>
+      <vDirection x="0.582004" y="-0.802813" z="0.129472" />
+      <vColour x="0.996079" y="0.823530" z="0.549020" />
+      <vPosition x="-4287.186035" y="5078.501465" z="-130.170837" />
+      <fIntensity value="0.400000" />
+      <fFallOff value="2.400001" />
+      <fConeAngle value="60.000000" />
+      <fVolumeIntensity value="1.000000" />
+      <fVolumeSizeScale value="1.000000" />
+      <fCoronaSize value="0.000000" />
+      <fCoronaIntensity value="1.000000" />
+      <fCoronaZBias value="0.100000" />
+      <fInnerConeAngle value="0.000000" />
+      <fExponentialFallOff value="1.000000" />
+      <iLightType value="2" />
+      <iLightProperty value="0" />
+      <TextureDictID value="0" />
+      <TextureKey value="0" />
+      <uLightFlags value="4260353" />
+      <uHourFlags value="1048512" />
+      <bStatic value="true" />
+    </Item>
+  </pCutsceneObjects>
+  <pCutsceneLoadEventList />
+  <pCutsceneEventList>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="0.000000" />
+      <iEventId value="74" />
+      <iEventArgsIndex value="0" />
+      <iObjectId value="0" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="1.616667" />
+      <iEventId value="75" />
+      <iEventArgsIndex value="-1" />
+      <iObjectId value="0" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="1.616667" />
+      <iEventId value="74" />
+      <iEventArgsIndex value="1" />
+      <iObjectId value="1" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="1.616667" />
+      <iEventId value="74" />
+      <iEventArgsIndex value="2" />
+      <iObjectId value="2" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="1.616667" />
+      <iEventId value="74" />
+      <iEventArgsIndex value="3" />
+      <iObjectId value="3" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="1.616667" />
+      <iEventId value="74" />
+      <iEventArgsIndex value="4" />
+      <iObjectId value="4" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="3.083333" />
+      <iEventId value="75" />
+      <iEventArgsIndex value="-1" />
+      <iObjectId value="1" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="3.083333" />
+      <iEventId value="75" />
+      <iEventArgsIndex value="-1" />
+      <iObjectId value="2" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="3.083333" />
+      <iEventId value="75" />
+      <iEventArgsIndex value="-1" />
+      <iObjectId value="3" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="3.083333" />
+      <iEventId value="75" />
+      <iEventArgsIndex value="-1" />
+      <iObjectId value="4" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="3.083333" />
+      <iEventId value="74" />
+      <iEventArgsIndex value="5" />
+      <iObjectId value="5" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="3.083333" />
+      <iEventId value="74" />
+      <iEventArgsIndex value="6" />
+      <iObjectId value="6" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="3.083333" />
+      <iEventId value="74" />
+      <iEventArgsIndex value="7" />
+      <iObjectId value="7" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="3.083333" />
+      <iEventId value="74" />
+      <iEventArgsIndex value="8" />
+      <iObjectId value="8" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="3.083333" />
+      <iEventId value="74" />
+      <iEventArgsIndex value="9" />
+      <iObjectId value="9" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="5.016666" />
+      <iEventId value="75" />
+      <iEventArgsIndex value="-1" />
+      <iObjectId value="5" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="5.016666" />
+      <iEventId value="75" />
+      <iEventArgsIndex value="-1" />
+      <iObjectId value="6" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="5.016666" />
+      <iEventId value="75" />
+      <iEventArgsIndex value="-1" />
+      <iObjectId value="7" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="5.016666" />
+      <iEventId value="75" />
+      <iEventArgsIndex value="-1" />
+      <iObjectId value="8" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="5.016666" />
+      <iEventId value="75" />
+      <iEventArgsIndex value="-1" />
+      <iObjectId value="9" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="5.016666" />
+      <iEventId value="74" />
+      <iEventArgsIndex value="10" />
+      <iObjectId value="10" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="5.016666" />
+      <iEventId value="74" />
+      <iEventArgsIndex value="11" />
+      <iObjectId value="11" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="5.016666" />
+      <iEventId value="74" />
+      <iEventArgsIndex value="12" />
+      <iObjectId value="12" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="7.083333" />
+      <iEventId value="75" />
+      <iEventArgsIndex value="-1" />
+      <iObjectId value="10" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="7.083333" />
+      <iEventId value="75" />
+      <iEventArgsIndex value="-1" />
+      <iObjectId value="11" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="7.083333" />
+      <iEventId value="75" />
+      <iEventArgsIndex value="-1" />
+      <iObjectId value="12" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="7.083333" />
+      <iEventId value="74" />
+      <iEventArgsIndex value="13" />
+      <iObjectId value="13" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="7.083333" />
+      <iEventId value="74" />
+      <iEventArgsIndex value="14" />
+      <iObjectId value="14" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="10.350000" />
+      <iEventId value="75" />
+      <iEventArgsIndex value="-1" />
+      <iObjectId value="13" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="10.350000" />
+      <iEventId value="75" />
+      <iEventArgsIndex value="-1" />
+      <iObjectId value="14" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="10.350000" />
+      <iEventId value="74" />
+      <iEventArgsIndex value="15" />
+      <iObjectId value="15" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="10.350000" />
+      <iEventId value="74" />
+      <iEventArgsIndex value="16" />
+      <iObjectId value="16" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="10.350000" />
+      <iEventId value="74" />
+      <iEventArgsIndex value="17" />
+      <iObjectId value="17" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="11.283334" />
+      <iEventId value="75" />
+      <iEventArgsIndex value="-1" />
+      <iObjectId value="15" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="11.283334" />
+      <iEventId value="75" />
+      <iEventArgsIndex value="-1" />
+      <iObjectId value="16" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="11.283334" />
+      <iEventId value="75" />
+      <iEventArgsIndex value="-1" />
+      <iObjectId value="17" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="11.283334" />
+      <iEventId value="74" />
+      <iEventArgsIndex value="18" />
+      <iObjectId value="18" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="11.283334" />
+      <iEventId value="74" />
+      <iEventArgsIndex value="19" />
+      <iObjectId value="19" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="11.950000" />
+      <iEventId value="75" />
+      <iEventArgsIndex value="-1" />
+      <iObjectId value="18" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="11.950000" />
+      <iEventId value="75" />
+      <iEventArgsIndex value="-1" />
+      <iObjectId value="19" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="11.950000" />
+      <iEventId value="74" />
+      <iEventArgsIndex value="20" />
+      <iObjectId value="20" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="13.650001" />
+      <iEventId value="75" />
+      <iEventArgsIndex value="-1" />
+      <iObjectId value="20" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="13.650001" />
+      <iEventId value="74" />
+      <iEventArgsIndex value="21" />
+      <iObjectId value="21" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="17.166666" />
+      <iEventId value="75" />
+      <iEventArgsIndex value="-1" />
+      <iObjectId value="21" />
+    </Item>
+  </pCutsceneEventList>
+  <pCutsceneEventArgsList>
+    <Item type="rage__cutfTriggerLightEffectEventArgs">
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+      </attributeList>
+      <cutfAttributes type="NULL" />
+      <iAttachParentId value="9" />
+      <iAttachBoneHash value="20012" />
+      <AttachedParentName>policeold2</AttachedParentName>
+    </Item>
+    <Item type="rage__cutfTriggerLightEffectEventArgs">
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+      </attributeList>
+      <cutfAttributes type="NULL" />
+      <iAttachParentId value="8" />
+      <iAttachBoneHash value="20012" />
+      <AttachedParentName>rancherxl</AttachedParentName>
+    </Item>
+    <Item type="rage__cutfTriggerLightEffectEventArgs">
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+      </attributeList>
+      <cutfAttributes type="NULL" />
+      <iAttachParentId value="8" />
+      <iAttachBoneHash value="20012" />
+      <AttachedParentName>rancherxl</AttachedParentName>
+    </Item>
+    <Item type="rage__cutfTriggerLightEffectEventArgs">
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+      </attributeList>
+      <cutfAttributes type="NULL" />
+      <iAttachParentId value="8" />
+      <iAttachBoneHash value="20012" />
+      <AttachedParentName>rancherxl</AttachedParentName>
+    </Item>
+    <Item type="rage__cutfTriggerLightEffectEventArgs">
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+      </attributeList>
+      <cutfAttributes type="NULL" />
+      <iAttachParentId value="8" />
+      <iAttachBoneHash value="20012" />
+      <AttachedParentName>rancherxl</AttachedParentName>
+    </Item>
+    <Item type="rage__cutfTriggerLightEffectEventArgs">
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+      </attributeList>
+      <cutfAttributes type="NULL" />
+      <iAttachParentId value="8" />
+      <iAttachBoneHash value="20012" />
+      <AttachedParentName>rancherxl</AttachedParentName>
+    </Item>
+    <Item type="rage__cutfTriggerLightEffectEventArgs">
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+      </attributeList>
+      <cutfAttributes type="NULL" />
+      <iAttachParentId value="8" />
+      <iAttachBoneHash value="20012" />
+      <AttachedParentName>rancherxl</AttachedParentName>
+    </Item>
+    <Item type="rage__cutfTriggerLightEffectEventArgs">
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+      </attributeList>
+      <cutfAttributes type="NULL" />
+      <iAttachParentId value="8" />
+      <iAttachBoneHash value="20012" />
+      <AttachedParentName>rancherxl</AttachedParentName>
+    </Item>
+    <Item type="rage__cutfTriggerLightEffectEventArgs">
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+      </attributeList>
+      <cutfAttributes type="NULL" />
+      <iAttachParentId value="8" />
+      <iAttachBoneHash value="20012" />
+      <AttachedParentName>rancherxl</AttachedParentName>
+    </Item>
+    <Item type="rage__cutfTriggerLightEffectEventArgs">
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+      </attributeList>
+      <cutfAttributes type="NULL" />
+      <iAttachParentId value="8" />
+      <iAttachBoneHash value="20012" />
+      <AttachedParentName>rancherxl</AttachedParentName>
+    </Item>
+    <Item type="rage__cutfTriggerLightEffectEventArgs">
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+      </attributeList>
+      <cutfAttributes type="NULL" />
+      <iAttachParentId value="8" />
+      <iAttachBoneHash value="20012" />
+      <AttachedParentName>rancherxl</AttachedParentName>
+    </Item>
+    <Item type="rage__cutfTriggerLightEffectEventArgs">
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+      </attributeList>
+      <cutfAttributes type="NULL" />
+      <iAttachParentId value="8" />
+      <iAttachBoneHash value="20012" />
+      <AttachedParentName>rancherxl</AttachedParentName>
+    </Item>
+    <Item type="rage__cutfTriggerLightEffectEventArgs">
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+      </attributeList>
+      <cutfAttributes type="NULL" />
+      <iAttachParentId value="8" />
+      <iAttachBoneHash value="20012" />
+      <AttachedParentName>rancherxl</AttachedParentName>
+    </Item>
+    <Item type="rage__cutfTriggerLightEffectEventArgs">
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+      </attributeList>
+      <cutfAttributes type="NULL" />
+      <iAttachParentId value="8" />
+      <iAttachBoneHash value="20012" />
+      <AttachedParentName>rancherxl</AttachedParentName>
+    </Item>
+    <Item type="rage__cutfTriggerLightEffectEventArgs">
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+      </attributeList>
+      <cutfAttributes type="NULL" />
+      <iAttachParentId value="8" />
+      <iAttachBoneHash value="20012" />
+      <AttachedParentName>rancherxl</AttachedParentName>
+    </Item>
+    <Item type="rage__cutfTriggerLightEffectEventArgs">
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+      </attributeList>
+      <cutfAttributes type="NULL" />
+      <iAttachParentId value="8" />
+      <iAttachBoneHash value="20012" />
+      <AttachedParentName>rancherxl</AttachedParentName>
+    </Item>
+    <Item type="rage__cutfTriggerLightEffectEventArgs">
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+      </attributeList>
+      <cutfAttributes type="NULL" />
+      <iAttachParentId value="8" />
+      <iAttachBoneHash value="20012" />
+      <AttachedParentName>rancherxl</AttachedParentName>
+    </Item>
+    <Item type="rage__cutfTriggerLightEffectEventArgs">
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+      </attributeList>
+      <cutfAttributes type="NULL" />
+      <iAttachParentId value="9" />
+      <iAttachBoneHash value="20012" />
+      <AttachedParentName>policeold2</AttachedParentName>
+    </Item>
+    <Item type="rage__cutfTriggerLightEffectEventArgs">
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+      </attributeList>
+      <cutfAttributes type="NULL" />
+      <iAttachParentId value="9" />
+      <iAttachBoneHash value="20012" />
+      <AttachedParentName>policeold2</AttachedParentName>
+    </Item>
+    <Item type="rage__cutfTriggerLightEffectEventArgs">
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+      </attributeList>
+      <cutfAttributes type="NULL" />
+      <iAttachParentId value="9" />
+      <iAttachBoneHash value="20012" />
+      <AttachedParentName>policeold2</AttachedParentName>
+    </Item>
+    <Item type="rage__cutfTriggerLightEffectEventArgs">
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+      </attributeList>
+      <cutfAttributes type="NULL" />
+      <iAttachParentId value="9" />
+      <iAttachBoneHash value="20012" />
+      <AttachedParentName>policeold2</AttachedParentName>
+    </Item>
+    <Item type="rage__cutfTriggerLightEffectEventArgs">
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+      </attributeList>
+      <cutfAttributes type="NULL" />
+      <iAttachParentId value="8" />
+      <iAttachBoneHash value="20012" />
+      <AttachedParentName>rancherxl</AttachedParentName>
+    </Item>
+  </pCutsceneEventArgsList>
+  <attributes>
+    <UserData1 value="0" />
+    <UserData2 value="0" />
+  </attributes>
+  <cutfAttributes type="NULL" />
+  <iRangeStart value="0" />
+  <iRangeEnd value="514" />
+  <iAltRangeEnd value="0" />
+  <fSectionByTimeSliceDuration value="4.000000" />
+  <fFadeOutCutsceneDuration value="0.800000" />
+  <fFadeInGameDuration value="0.800000" />
+  <fadeInColor value="0xFF000000" />
+  <iBlendOutCutsceneDuration value="0" />
+  <iBlendOutCutsceneOffset value="0" />
+  <fFadeOutGameDuration value="0.800000" />
+  <fFadeInCutsceneDuration value="0.800000" />
+  <fadeOutColor value="0xFF000000" />
+  <DayCoCHours value="2097088" />
+  <cameraCutList content="float_array" />
+  <sectionSplitList content="float_array" />
+  <concatDataList>
+    <Item>
+      <cSceneName>Shot_1</cSceneName>
+      <vOffset x="4727.979980" y="-5088.779785" z="106.709999" />
+      <fStartTime value="0.000000" />
+      <fRotation value="0.000000" />
+      <fPitch value="0.000000" />
+      <fRoll value="0.000000" />
+      <iRangeStart value="557" />
+      <iRangeEnd value="1071" />
+      <bValidForPlayBack value="true" />
+    </Item>
+  </concatDataList>
+  <discardFrameList>
+    <Item>
+      <cSceneName>Shot_1</cSceneName>
+      <frames content="int_array">
+        650 
+        901 
+        959 
+        966 
+        1126 
+        1179 
+        1278 
+        1279 
+      </frames>
+    </Item>
+  </discardFrameList>
+</rage__cutfCutsceneFile2>

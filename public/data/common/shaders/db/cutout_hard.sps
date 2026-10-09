@@ -1,0 +1,1 @@
+shader cutout_hard

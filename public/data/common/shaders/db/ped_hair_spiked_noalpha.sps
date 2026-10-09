@@ -1,0 +1,1 @@
+shader ped_hair_spiked

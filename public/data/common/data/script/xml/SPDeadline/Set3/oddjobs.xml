@@ -1,0 +1,104 @@
+<?xml version='1.0'?>
+<DebugMenuItems>
+
+	<!-- Oddjobs -->
+	<warpItem missionID="OJBB3" 	x="2889.4595" y="2819.9895" z="54.6389" heading="254.0687"
+									x1="3013.4905" y1="2746.6177" z1="53.0019" heading1="51.9380"
+									x2="2947.7007" y2="2707.3320" z2="53.5062" heading2="347.0967"
+	codeID="SPCID_BAILBOND_DEBUG_QUARRY" 	author="SI_AZ"	highlight="FALSE" character="CHAR_TREVOR" />
+
+	<warpItem missionID="OJBB5" 	x="218.3949" y="2358.4243" z="71.4309" heading="153.1951"		
+									x1="66.1601" y1="2290.0396" z1="103.4405" heading1="278.1958"
+									x2="154.8699" y2="2149.3481" z2="127.0593" heading2="357.5687"
+	codeID="SPCID_BAILBOND_DEBUG_FARM" 		author="SI_AZ"	highlight="FALSE" character="CHAR_TREVOR" />
+
+	<warpItem missionID="OJBB7" 	x="464.8429" y="5561.0508" z="780.1656" heading="214.5507"		
+									x1="492.3004" y1="5578.6606" z1="790.9697" heading1="214.3397"
+									x2="528.1546" y2="5630.2373" z2="778.5972" heading2="175.4927"
+	codeID="SPCID_BAILBOND_DEBUG_MOUNTAIN" 	author="SI_AZ"	highlight="FALSE" character="CHAR_TREVOR" />
+	
+	<warpItem missionID="OJBB6" 	x="1492.5496," y="6422.1748" z="21.3730" heading="145.5471"
+									x1="1571.1493" y1="6351.1948" z1="30.6543" heading1="83.0290"
+									x2="1316.5837" y2="6341.8594" z2="41.1207" heading2="276.0323"
+	codeID="SPCID_BAILBOND_DEBUG_HOBO" 		author="SI_AZ"	highlight="FALSE" character="CHAR_TREVOR" />
+	<breakItem/> 
+	
+	<missionItem missionID="ASS2" file="Assassin_Multi.sc" 			author="SI_DS" percentage="0" highlight="FALSE" info="OJ_INFO_ASml" character="CHAR_FRANKLIN" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER" />
+	<missionItem missionID="DRF4" file="drf4.sc" author="SI_DJ" percentage="0" highlight="FALSE" info="FuckedUp"     codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER"/>
+	<missionItem missionID="DRF5" file="drf5.sc" author="SI_DJ" percentage="0" highlight="FALSE" info="Abandonment"  codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER"/>
+	
+	<launcherItem missionID="MGGFgf" 	x="-1376.96" y="56.21" z="52.67" heading="271.36"	file="not_needed.sc" 	author="SI_RP"	highlight="FALSE" 	labelID="LABEL_MINIGAME_GOLF" enableID="SPEID_GAMEFLOW_ONLY" />
+	<missionItem  missionID="MGGF"   	info="MG_INFO_GF"     	file="Golf.sc" 		  	author="SI_AB"  percentage="0" 		highlight="FALSE" codeID="SPCID_GOLF" enableID="SPEID_DEBUG_ONLY"/>
+
+	<breakItem/>
+	<warpItem title="Sea Race - North Coast" author="SI_DR" percentage="0" highlight="FALSE" x="3059.0986" y="605.4885" z="-8.2918" heading="359.7318" 
+	labelID="LABEL_MINIGAME_SEA_RACES" enableID="SPEID_GAMEFLOW_ONLY" codeID="SPCID_SEA_RACE" character="CHAR_FRANKLIN"/>
+
+	<warpItem title="Sea Race - Canyon" author="SI_DR" percentage="0" highlight="FALSE" x="143.8059" y="3422.7373" z="27.4370" heading="344.0415"
+	labelID="LABEL_MINIGAME_SEA_RACES" enableID="SPEID_GAMEFLOW_ONLY" codeID="SPCID_SEA_RACE" character="CHAR_FRANKLIN"/>
+	 
+	<warpItem title="Sea Race - Los Santos" author="SI_DR" percentage="0" highlight="FALSE" x="611.1664" y="-2118.1318" z="0.000" heading="213.6850"
+	labelID="LABEL_MINIGAME_SEA_RACES" enableID="SPEID_GAMEFLOW_ONLY" codeID="SPCID_SEA_RACE" character="CHAR_FRANKLIN"/>
+	<breakItem/>
+	
+	<warpItem missionID="MGSR1" title="Street Race - South Los Santos" author="SI_JB" percentage="0" highlight="FALSE"
+	x="-67.3329" y="-1763.4592" z="28.2867" heading="160.4339" labelID="LABEL_MINIGAME_STREET_RACES"
+	vehicleWarp="TRUE" enableID="SPEID_GAMEFLOW_ONLY" codeID="SPCID_STREET_RACE" character="CHAR_FRANKLIN"/> 
+	
+	<warpItem missionID="MGSR2" title="Street Race - City Circuit" author="SI_DR" percentage="0" highlight="FALSE"
+	x="443.5404" y="298.5740" z="102.0106" heading="73.4642" labelID="LABEL_MINIGAME_STREET_RACES"
+	vehicleWarp="TRUE" enableID="SPEID_GAMEFLOW_ONLY" codeID="SPCID_STREET_RACE" character="CHAR_FRANKLIN"/>
+	 
+	<warpItem missionID="MGSR4" title="Street Race - Airport" author="SI_DR" percentage="0" highlight="FALSE"
+	x="-838.1106" y="-2584.7192" z="12.9600" heading="328.3694" labelID="LABEL_MINIGAME_STREET_RACES"
+	vehicleWarp="TRUE" enableID="SPEID_GAMEFLOW_ONLY" codeID="SPCID_STREET_RACE" character="CHAR_FRANKLIN"/>
+	
+	<warpItem missionID="MGSR5" title="Street Race - Freeway" author="SI_DR" percentage="0" highlight="FALSE"
+	x="818.0818" y="-1161.5356" z="27.3080" heading="76.4342" labelID="LABEL_MINIGAME_STREET_RACES"
+	vehicleWarp="TRUE" enableID="SPEID_GAMEFLOW_ONLY" codeID="SPCID_STREET_RACE" character="CHAR_FRANKLIN"/>
+	
+	<warpItem missionID="MGSR6" title="Street Race - Vespucci Canals" author="SI_DR" percentage="0" highlight="FALSE"
+	x="-1062.7417" y="-1153.1715" z="1.1387" heading="276.9149" labelID="LABEL_MINIGAME_STREET_RACES"
+	enableID="SPEID_GAMEFLOW_ONLY" codeID="SPCID_STREET_RACE" character="CHAR_FRANKLIN"/> 
+	<breakItem/> 
+	 
+	<launcherItem missionID="MGDT1"  	file="not_needed.sc" 		author="SI_LM"  	percentage="0" highlight="FALSE" info="MG_INFO_DT" codeID="SPCID_DARTS" labelID="LABEL_MINIGAME_DARTS" enableID="SPEID_GAMEFLOW_ONLY" />
+	<launcherItem missionID="MGDT2"  	file="not_needed.sc" 		author="SI_LM"  	percentage="0" highlight="FALSE" info="MG_INFO_DT" codeID="SPCID_DARTS" labelID="LABEL_MINIGAME_DARTS2" enableID="SPEID_GAMEFLOW_ONLY" />
+
+	<launcherItem missionID="MGSRgf" 	x="15.6037" y="-1121.0293" z="27.8195" heading="337.2046"	file="not_needed.sc" 	author="SI_RP"	highlight="FALSE" 	labelID="LABEL_MINIGAME_SHOOTING_RANGE" enableID="SPEID_GAMEFLOW_ONLY" />
+	<missionItem  missionID="MGSRm" 	file="Range_Modern.sc" 	author="SI_RP"  percentage="0" highlight="FALSE" info="MG_INFO_SRm" enableID="SPEID_DEBUG_ONLY"/>
+	
+	
+	<launcherItem 	missionID="MGTNv"  file="not_needed.sc"  info="MG_INFO_TNv"	author="SI_RP"  percentage="0" x="-1175.9517" y="-1603.3643" z="3.3739" heading="203.1405" highlight="FALSE" labelID="LABEL_MINIGAME_TENNIS" enableID="SPEID_GAMEFLOW_ONLY"/>
+	<launcherItem 	missionID="MGTNm"  file="not_needed.sc"  info="MG_INFO_TNm"	author="SI_RP"  percentage="0" x="-780.9269" y="155.9547" z="66.4748"   heading="254.1454" highlight="FALSE" labelID="LABEL_MINIGAME_TENNIS" enableID="SPEID_GAMEFLOW_ONLY"/>
+	<launcherItem 	missionID="MGTN3"  file="not_needed.sc"  info="MG_INFO_TN3"	author="SI_RP"  percentage="0" x="-49.9120" y="942.5634" z="231.1741"   heading="254.1454" highlight="FALSE" labelID="LABEL_MINIGAME_TENNIS" enableID="SPEID_GAMEFLOW_ONLY"/>
+	<launcherItem 	missionID="MGTN4"  file="not_needed.sc"  info="MG_INFO_TN4"	author="SI_RP"  percentage="0" x="487.5186" y="-217.7697" z="52.7864"   heading="254.1454" highlight="FALSE" labelID="LABEL_MINIGAME_TENNIS" enableID="SPEID_GAMEFLOW_ONLY"/>
+	<launcherItem 	missionID="MGTN5"  file="not_needed.sc"  info="MG_INFO_TN5"	author="SI_RP"  percentage="0" x="-1513.0581" y="-68.1384" z="53.6964"   heading="254.1454" highlight="FALSE" labelID="LABEL_MINIGAME_TENNIS" enableID="SPEID_GAMEFLOW_ONLY"/>
+	<launcherItem 	missionID="MGTN6"  file="not_needed.sc"  info="MG_INFO_TN6"	author="SI_RP"  percentage="0" x="-1225.4536" y="344.8268" z="78.9859"   heading="254.1454" highlight="FALSE" labelID="LABEL_MINIGAME_TENNIS" enableID="SPEID_GAMEFLOW_ONLY"/>
+	<launcherItem 	missionID="MGTN7"  file="not_needed.sc"  info="MG_INFO_TN7"	author="SI_RP"  percentage="0" x="-1623.4541" y="257.1566" z="58.5552"   heading="254.1454" highlight="FALSE" labelID="LABEL_MINIGAME_TENNIS" enableID="SPEID_GAMEFLOW_ONLY"/>
+	<launcherItem 	missionID="MGTN8"  file="not_needed.sc"  info="MG_INFO_TN8"	author="SI_RP"  percentage="0" x="-1938.7014" y="479.8535" z="101.6915"   heading="254.1454" highlight="FALSE" labelID="LABEL_MINIGAME_TENNIS" enableID="SPEID_GAMEFLOW_ONLY"/>
+	<launcherItem 	missionID="MGTN9"  file="not_needed.sc"  info="MG_INFO_TN9"	author="SI_RP"  percentage="0" x="-939.6168" y="-1255.7323" z="6.9773"   heading="254.1454" highlight="FALSE" labelID="LABEL_MINIGAME_TENNIS" enableID="SPEID_GAMEFLOW_ONLY"/>
+	<launcherItem 	missionID="MGTN10"  file="not_needed.sc"  info="MG_INFO_TN10"	author="SI_RP"  percentage="0" x="-974.1231" y="218.4792" z="65.7561"   heading="254.1454" highlight="FALSE" labelID="LABEL_MINIGAME_TENNIS" enableID="SPEID_GAMEFLOW_ONLY"/>
+	<launcherItem 	missionID="MGTN11"  file="not_needed.sc"  info="MG_INFO_TN11"	author="SI_RP"  percentage="0" x="-1619.8748" y="-348.7769" z="48.2146"   heading="254.1454" highlight="FALSE" labelID="LABEL_MINIGAME_TENNIS" enableID="SPEID_GAMEFLOW_ONLY"/>
+	<launcherItem 	missionID="MGTN12"  file="not_needed.sc"  info="MG_INFO_TN12"	author="SI_RP"  percentage="0" x="-1371.2748" y="-107.9437" z="49.7046"   heading="254.1454" highlight="FALSE" labelID="LABEL_MINIGAME_TENNIS" enableID="SPEID_GAMEFLOW_ONLY"/>
+	<launcherItem 	missionID="MGTN13"  file="not_needed.sc"  info="MG_INFO_TN13"	author="SI_RP"  percentage="0" x="-1011.9330" y="181.4188" z="60.6592"   heading="254.1454" highlight="FALSE" labelID="LABEL_MINIGAME_TENNIS" enableID="SPEID_GAMEFLOW_ONLY"/>
+	<launcherItem 	missionID="MGTNgf" file="not_needed.sc"  info="MG_INFO_TNgf"author="SI_RP"  highlight="FALSE" labelID="LABEL_MINIGAME_TENNIS" enableID="SPEID_GAMEFLOW_ONLY"/>
+	<launcherItem 	missionID="MGTNw"  file="not_needed.sc"  info="MG_INFO_TNw"	author="SI_RP"  highlight="FALSE" codeID="SPCID_TENNIS"/>
+	
+	<launcherItem title="Unlock Yoga in Gameflow (Michael's House)" 
+	x="-786.7537" y="186.6408" z="71.8350" heading="91.6296"
+	character="CHAR_MICHAEL" labelID="LABEL_MINIGAME_YOGA"/>
+	
+	<launcherItem title="Unlock Yoga in Gameflow (North Coast)" 
+	x="2865.5635" y="5952.8232" z="356.4003" heading="168.6966"
+	character="CHAR_MICHAEL" labelID="LABEL_MINIGAME_YOGA"/>
+
+	<scriptItem title="Ambient Script: Spaceship Parts" file="spaceshipParts.sc" author="SI_JW" 
+	codeID="SPCID_RESET_SPACESHIP_FLAGS" labelID="LABEL_RC_OMEGA_1"/>
+
+	<scriptItem title="Ambient Script: Letter Scraps" file="letterScraps.sc" author="SI_JW" codeID="SPCID_RESET_LETTER_FLAGS" labelID="LABEL_RC_DREYFUSS_1"/>
+
+	<scriptItem title="Ambient Sonar - Activate Script" file="ambient_Sonar.sc" author="SI_JW"
+	codeID="SPCID_RESET_SUBMARINE_FLAGS" labelID="LABEL_RC_ABIGAIL_1" character="CHAR_TREVOR"/>
+
+</DebugMenuItems>

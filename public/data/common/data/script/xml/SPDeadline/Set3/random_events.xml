@@ -1,0 +1,112 @@
+<?xml version='1.0'?>
+<DebugMenuItems>
+
+	<!-- Random Events -->
+	<warpItem missionID="RE36" title="Mountain Dancer"  file="re_mountdance"   author="SI_VE"	percentage="0"	highlight="FALSE" 
+	x="-1190.8994" y="3856.0476" z="489.1959" heading="87.5059"
+	info="DM_INFO_A66" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TREV1"/>
+	
+	<warpItem missionID="RE3A" title="Bike Thief (City) 1"  file="re_bikethief"   author="SI_KW"	percentage="0"	highlight="FALSE" 
+	x="330.5388" y="-1969.9453" z="22.8103" heading="321.8943"
+	x1="496.5964" y1="-1902.7623" z1="24.3515" heading1="115.0293"
+	info="DM_INFO_A75" codeID="SPCID_RANDOM_EVENT" 		labelID="LABEL_RE_BATCH_POST_ARM1" vehicleWarp="TRUE" Rank = "0"/>
+
+	<warpItem missionID="RE3B" title="Bike Thief (City) 2"  file="re_bikethief"   author="SI_KW"	percentage="0"	highlight="FALSE" 
+	x="720.0248" y="-142.0129" z="73.7672" heading="239.1590" 
+	x1="843.4587" y1="-199.0707" z1="71.3486" heading1="52.5713" 
+	info="DM_INFO_A75" codeID="SPCID_RANDOM_EVENT" 		labelID="LABEL_RE_BATCH_POST_ARM1"  vehicleWarp="TRUE" Rank = "1"/> 
+	
+	
+	<warpItem missionID="RE15" title="Border Patrol 1"  file="re_border" 
+	x="860.7132" y="1707.1492" z="169.1528" heading="280.5070"
+	codeID="SPCID_RANDOM_EVENT" labelID="LABEL_RE_BATCH_POST_TREV1" vehicleWarp="TRUE"/>
+
+	<warpItem missionID="RE15" title="Border Patrol 2"  file="re_border" 
+	x="2346.4705" y="252.5111" z="191.5442" heading="320.5728"
+	codeID="SPCID_RANDOM_EVENT" labelID="LABEL_RE_BATCH_POST_TREV1" vehicleWarp="TRUE"/>
+
+	<warpItem missionID="RE15" title="Border Patrol 3"  file="re_border" 
+	x="-875.4720" y="4086.0815" z="163.2885" heading="245.5902"
+	codeID="SPCID_RANDOM_EVENT" labelID="LABEL_RE_BATCH_POST_TREV1" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE5B" title="Broken Down 2 - Hot Chick" file="re_broken_down.sc" author="SI_BC" percentage="0" highlight="FALSE" 
+	x="-3105.4231" y="1262.1960" z="19.2409" heading="171.2437"
+	x1="-3105.4231" y1="1262.1960" z1="19.2409" heading1="171.2437"
+	x2="-3105.4231" y2="1262.1960" z2="19.2409" heading2="171.2437"
+	info="DM_INFO_A06"  codeID="SPCID_RANDOM_EVENT" 	labelID="LABEL_RE_BATCH_POST_ARM1" vehicleWarp="TRUE" character="CHAR_FRANKLIN"/>
+	
+	<warpItem missionID="RE5C" title="Broken Down 3" file="re_broken_down.sc" author="SI_BC" percentage="0" highlight="FALSE" 
+	x="-60.1601" y="-2063.7732" z="20.6696" heading="291.4446"
+	x1="122.6035" y1="-2032.7609" z1="17.3163" heading1="87.0749"
+	info="DM_INFO_A06"  codeID="SPCID_RANDOM_EVENT" 	labelID="LABEL_RE_BATCH_POST_ARM1"  vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE5D" title="Broken Down 4 - Golfer" file="re_broken_down.sc" author="SI_BC" percentage="0" highlight="FALSE" 
+	x="-1330.1367" y="-476.0452" z="32.5141" heading="215.4173"
+	x1="-1114.8959" y1="-714.1924" z1="19.6286" heading1="42.3705"
+	info="DM_INFO_A06"  codeID="SPCID_RANDOM_EVENT" 	labelID="LABEL_RE_BATCH_POST_ARM1"  vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE5F" title="Broken Down 6" file="re_broken_down.sc" author="SI_BC" percentage="0" highlight="FALSE" 
+	x="-984.6228" y="-1220.5605" z="4.2862" heading="106.8426"
+	x1="-1053.7089" y1="-1262.6960" z1="5.2020" heading1="298.0623"
+	info="DM_INFO_A06"  codeID="SPCID_RANDOM_EVENT" 	labelID="LABEL_RE_BATCH_POST_ARM1"  keepVehicle = "FALSE"/>
+	
+	<warpItem missionID="RE5G" title="Broken Down 7" file="re_broken_down.sc" author="SI_BC" percentage="0" highlight="FALSE" 
+	x="1983.6670" y="5141.8481" z="42.8378" heading="310.3447"
+	x1="2263.2727" y1="5188.1079" z1="59.1620" heading1="58.6403"
+	info="DM_INFO_A06"  codeID="SPCID_RANDOM_EVENT" 	labelID="LABEL_RE_BATCH_POST_ARM1"  vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE5H" title="Broken Down 8" file="re_broken_down.sc" author="SI_BC" percentage="0" highlight="FALSE" 
+	x="1228.4181" y="-358.8329" z="68.0811" heading="0.2754"
+	x1="1221.0944" y1="-296.3031" z1="68.0764" heading1="202.6653"
+	info="DM_INFO_A06"  codeID="SPCID_RANDOM_EVENT" 	labelID="LABEL_RE_BATCH_POST_ARM1"  keepVehicle = "FALSE"/>
+	
+	<warpItem missionID="RE5I" title="Broken Down 9" file="re_broken_down.sc" author="SI_BC" percentage="0" highlight="FALSE" 
+	x="341.5835" y="3454.9480" z="34.8785" heading="122.8325"
+	x1="218.9714" y1="3162.3579" z1="41.4582" heading1="1.1533"
+	info="DM_INFO_A06"  codeID="SPCID_RANDOM_EVENT" 	labelID="LABEL_RE_BATCH_POST_ARM1"  vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE5J" title="Broken Down 10" file="re_broken_down.sc" author="SI_BC" percentage="0" highlight="FALSE" 
+ 	x="-1533.8136" y="1431.9116" z="121.1753" heading="139.1440"
+	info="DM_INFO_A06"  codeID="SPCID_RANDOM_EVENT" 	labelID="LABEL_RE_BATCH_POST_ARM1"  vehicleWarp="TRUE"/>
+	
+	
+	
+ 
+	<warpItem missionID="RE66" title="Countryside Gang Fight" file="re_gangfight.sc" author="SI_TSS" percentage="0" highlight="FALSE" 
+	x="1153.7574" y="3627.1550" z="32.8333" heading="89.6296"
+	x1="800.4419" y1="3528.8171" z1="33.2163" heading1="275.0445"
+	codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TREV3" vehicleWarp="TRUE" character="CHAR_FRANKLIN"/>
+	
+	<warpItem missionID="RE20" title="Drug Shootout"	file="re_cultshootout.sc" 	author="SI_CF"	percentage="0"	highlight="FALSE"	
+	x="2289.3049" y="5534.3633" z="50.0388" heading="71.8174"
+	info="DM_INFO_A73" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TREV1" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE28" title="Gang Intimidation" file="re_Gang_Intimidation.sc" author="SI_BC" percentage="0" highlight="FALSE" character="CHAR_TREVOR"
+	x="1355.0490" y="-1587.2616" z="51.6515" heading="127.8524"
+	x1="1269.6730" y1="-1497.2966" z1="37.8864" heading1="198.2027"
+	info="DM_INFO_A61" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TREV1" vehicleWarp="TRUE"/> 
+	
+	
+	<warpItem missionID="RE41" title="Pick Pocket"  file="re_PickPocket"   author="SI_BC"	percentage="0"	highlight="FALSE" character="CHAR_FRANKLIN"
+	x="70.2165" y="222.8130" z="107.8996" heading="251.3448"
+	x1="317.1009" y1="198.4954" z1="103.3168" heading1="109.2458"
+	x2="-1813.4905" y2="-1190.0203" z2="13.0271" heading2="309.3584"
+	x3="-1221.7401" y3="-1522.5793" z3="3.2976" heading3="16.3055"
+	x4="-1360.6868" y4="-1226.4692" z4="3.6355" heading4="202.2207"
+	x5="-255.6691" y5="-297.4773" z5="19.0881" heading5="37.0097"
+	info="DM_INFO_A59" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_ARM1"/>
+	
+	<warpItem missionID="RE44A" title="Prisoner Lift1" file="re_prisonerlift"  author="SI_VE"	percentage="0"	highlight="FALSE" character="CHAR_FRANKLIN"
+	x="1497.2091" y="1949.0706" z="103.4079" heading="344.3534"
+	info="DM_INFO_A54" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TREV3" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE44B" title="Prisoner Lift2" file="re_prisonerlift"  author="SI_VE"	percentage="0"	highlight="FALSE" character="CHAR_TREVOR"
+	x="1270.8925" y="2637.0723" z="36.6391" heading="210.5237"
+	x1="1407.8574" y1="2332.5771" z1="73.5784" heading1="27.6345"
+	info="DM_INFO_A54" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TREV3" vehicleWarp="TRUE"/>
+	 
+
+
+
+
+</DebugMenuItems>

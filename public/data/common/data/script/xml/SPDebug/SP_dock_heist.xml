@@ -1,0 +1,11 @@
+<?xml version='1.0'?>
+<DebugMenuItems>
+	<missionItem missionID="DH1" file="docks_setup.sc" codeID="SPCID_HEIST" author="SI_AW" percentage="0" highlight="FALSE" info="DM_INFO_077" character="CHAR_TREVOR" interior="V_Trevors" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER"/>
+	<!--<warpItem title="Port of LS Planning Board" x="-1153.9448" y="-1518.2571" z="9.6327" heading="118.7286" interior="v_trevors" file="not_needed.sc" labelID="LABEL_HEIST_DOCKS_SELECT_CHOICE" codeID="SPCID_SET_ROOM_FOR_GAME_VIEWPORT" enableID="SPEID_GAMEFLOW_ONLY" character="CHAR_TREVOR" author="SI_BR"/>-->
+	<missionItem missionID="DHP1" file="docks_prep1.sc" preCodeID="SPCID_H_DOCKS_DEEP_SEA" author="SI_BR" percentage="0" highlight="FALSE" info="DM_INFO_079" character="CHAR_TREVOR" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER"/>
+	<missionItem missionID="DHP2B" file="docks_prep2B.sc" preCodeID="SPCID_H_DOCKS_DEEP_SEA" author="SI_BR" percentage="0" highlight="FALSE" info="DM_INFO_079" character="CHAR_TREVOR" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER"/>	
+	<missionItem missionID="DH2A" file="docks_heistA.sc" preCodeID="SPCID_H_DOCKS_BLOW_UP_BOAT_CR" author="SI_AW" percentage="0" highlight="FALSE" info="DM_INFO_079" character="CHAR_MICHAEL" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER"/>
+	<missionItem missionID="DH2B" file="docks_heistB.sc" preCodeID="SPCID_H_DOCKS_DEEP_SEA_CR" author="SI_AW" percentage="0" highlight="FALSE" info="DM_INFO_079" character="CHAR_TREVOR" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER"/>
+</DebugMenuItems>
+
+<<, , >>, 

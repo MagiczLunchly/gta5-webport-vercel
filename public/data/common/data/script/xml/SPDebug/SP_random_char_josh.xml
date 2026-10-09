@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<DebugMenuItems>
+
+	<scriptItem title="For Sale Signs - Activate Script" file="forSaleSigns.sc" author="SI_IG"
+	x="-1063.8308" y="195.1921" z="59.7526" heading="20.6971"
+	codeID="SPCID_RESET_SIGN_FLAGS" labelID="LABEL_RC_JOSH_1" character="CHAR_TREVOR" keepVehicle="FALSE"/>
+	<breakItem/>
+	
+	<warpItem missionID="JOS1" title="Josh1" file="Josh1.sc" author="SI_IG" percentage="0" highlight="FALSE"
+	x="-1063.8308" y="195.1921" z="59.7526" heading="20.6971"
+	x1="-955.6879" y1="267.4033" z1="68.6737" heading1="84.3377"
+	x2="-1192.7546" y2="232.7974" z2="66.7017" heading2="286.1224"
+	codeID="SPCID_RANDOM_CHAR" preCodeID="SPCID_RANDOM_CHAR_PRE_LAUNCH" labelID="LABEL_RC_JOSH_1" character="CHAR_TREVOR" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="JOS2" title="Josh2" file="Josh2.sc" author="SI_TK" percentage="0" highlight="FALSE"
+	x="669.5829" y="-1725.7343" z="28.2980" heading="87.8326"
+	x1="544.1844" y1="-1665.9531" z1="28.1874" heading1="142.5817"
+	x2="476.8707" y2="-1658.1838" z2="28.1781" heading2="231.4832"
+	codeID="SPCID_JOSH1_SIGNS_DESTROYED" preCodeID="SPCID_RANDOM_CHAR_PRE_LAUNCH" labelID="LABEL_RC_JOSH_1" character="CHAR_TREVOR" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="JOS3" title="Josh3" file="Josh3.sc" author="SI_KE" percentage="0" highlight="FALSE"
+	x="669.5829" y="-1725.7343" z="28.2980" heading="87.8326"
+	x1="544.1844" y1="-1665.9531" z1="28.1874" heading1="142.5817"
+	x2="476.8707" y2="-1658.1838" z2="28.1781" heading2="231.4832"
+	codeID="SPCID_RANDOM_CHAR" preCodeID="SPCID_RANDOM_CHAR_PRE_LAUNCH" labelID="LABEL_RC_JOSH_1" character="CHAR_TREVOR" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="JOS4" title="Josh4" file="Josh4.sc" author="SI_IG"	percentage="0"	highlight="FALSE"
+	x="-1063.8308" y="195.1921" z="59.7526" heading="20.6971"
+	x1="-955.6879" y1="267.4033" z1="68.6737" heading1="84.3377"
+	x2="-1192.7546" y2="232.7974" z2="66.7017" heading2="286.1224"
+	codeID="SPCID_RANDOM_CHAR" preCodeID="SPCID_RANDOM_CHAR_PRE_LAUNCH" labelID="LABEL_RC_JOSH_1" character="CHAR_TREVOR" vehicleWarp="TRUE"/>
+	
+</DebugMenuItems>

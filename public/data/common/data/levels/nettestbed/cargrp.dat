@@ -1,0 +1,69 @@
+//
+// file: cargrp.dat
+// description: For each type of ped (worker, clubber etc) we maintain a list of the cars they might drive.
+// This list is used to pick cars in a very similar way we pick peds.
+//
+
+POP_GROUP:
+GROUP_A
+empty
+END_POP_GROUP
+
+POP_GROUP:
+VEH_BOATS
+empty
+END_POP_GROUP
+
+POP_GROUP:
+VEH_BORING
+empty
+END_POP_GROUP
+
+// These cars will only appear in the zones that they belong in.
+POP_GROUP:
+NATIVE_ZON_ONLY
+empty
+END_POP_GROUP
+
+POP_GROUP:
+COPS keepMemberOrder
+empty
+END_POP_GROUP
+
+POP_GROUP:
+NET_COMMON keepMemberOrder
+issi
+penumbra
+phoenix
+dominator
+tailgater
+jackal
+bjxl
+radi
+pyxis
+mesa
+fq2
+tornado
+picador
+stinger
+sxr
+END_POP_GROUP
+
+POP_GROUP:
+NET_UNCOMMON keepMemberOrder
+infernus
+firetruk
+taco
+journey
+camper
+towtruck
+cheetah
+cog55
+monroe
+ninef2
+ztype
+entityxf
+bus
+bodhi2
+END_POP_GROUP
+

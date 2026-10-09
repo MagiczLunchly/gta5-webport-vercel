@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<DebugMenuItems>
+	<menuTitle	title="DM_MP"/>
+	<bugstarFile file="SPDebug/bugstar.xml"/>
+	<menuItem	title="Activities"   	file="MPDebug/MP_Freemode/Activities.xml" />
+	<menuItem	title="CnC"  			file="MPDebug/MP_Freemode/CnC.xml" />
+	<menuItem	title="Crew Locations"  file="MPDebug/MP_Freemode/CrewLocations.xml" />
+	<menuItem	title="Events"   		file="MPDebug/MP_Freemode/Events.xml" />
+	<menuItem	title="Heists" 			file="MPDebug/MP_Freemode/Heists.xml" />
+	<menuItem	title="Hidden Packages" file="MPDebug\MP_Freemode\Packages.xml" />
+	<menuItem	title="Holdups"   		file="MPDebug/MP_AmbientCrim/HoldUp.xml" />
+	<menuItem	title="Locations"   	file="MPDebug/MP_Freemode/Locations.xml" />
+	<menuItem	title="Mag Demo"   		file="MPDebug/MP_Freemode/Magdemo.xml" />
+	<menuItem	title="Mini-Games"   	file="MPDebug/MP_Freemode/MiniGames.xml" />
+	<menuItem	title="Property"  		file="MPDebug/MP_Freemode/PropertyOptions.xml" />
+	<menuItem	title="Respawn Pickups"  	file="MPDebug/MP_Freemode/RespawnPack.xml" />
+	<menuItem	title="Tutorial"  		file="MPDebug/MP_Freemode/Tutorial.xml" />
+	<menuItem	title="Vending Machines"   	file="MPDebug/MP_Freemode/VendingMachines.xml" />
+	<menuItem	title="Prostitute"   	file="SPDebug/SP_PB_Prostitute.xml" />
+	<menuItem	title="Unique Stunt Jumps 1" file="SPDebug/SP_stunt_jumps.xml" />
+	<menuItem	title="Unique Stunt Jumps 2" file="SPDebug/SP_stunt_jumps2.xml" />
+	<menuItem	title="**Property Test**(DEV ONLY)" file="MPDebug/MP_Freemode/TestPropertyInts.xml" />
+</DebugMenuItems>

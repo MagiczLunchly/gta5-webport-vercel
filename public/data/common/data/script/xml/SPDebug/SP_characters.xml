@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<DebugMenuItems>
+	<codeItem title="Set player to Michael" character="CHAR_MICHAEL" displayID="SPDID_PED_MICHAEL"/>
+	<codeItem title="Set player to Trevor" character="CHAR_TREVOR" displayID="SPDID_PED_TREVOR"/>
+	<codeItem title="Set player to Franklin" character="CHAR_FRANKLIN" displayID="SPDID_PED_FRANKLIN"/>
+	<breakItem/>
+	<menuItem title="DM_CHARAFTA" file="SPDebug/SP_char_after_scene.xml" />
+	<menuItem title="DM_CHARAFTB" file="SPDebug/SP_char_after_b_scene.xml" />
+	<menuItem title="DM_CHARMaSCN" file="SPDebug/SP_char_m_a_scene.xml" />
+	<menuItem title="DM_CHARMbSCN" file="SPDebug/SP_char_m_b_scene.xml" />
+	<menuItem title="DM_CHARMcSCN" file="SPDebug/SP_char_m_c_scene.xml" />
+	<menuItem title="DM_CHARMdSCN" file="SPDebug/SP_char_m_d_scene.xml" />
+	
+	<menuItem title="DM_CHARFaSCN" file="SPDebug/SP_char_f_a_scene.xml" />
+	<menuItem title="DM_CHARFbSCN" file="SPDebug/SP_char_f_b_scene.xml" />
+	<menuItem title="DM_CHARTaSCN" file="SPDebug/SP_char_t_a_scene.xml" />
+	<menuItem title="DM_CHARTbSCN" file="SPDebug/SP_char_t_b_scene.xml" />
+	<breakItem/>
+	<menuItem title="DM_CHARFRIE" file="SPDebug/SP_friends.xml" />
+	<breakItem/>
+	<menuItem title="DM_CHARFAMa" file="SPDebug/SP_family_a_timetable.xml" />
+	<menuItem title="DM_CHARFAMb" file="SPDebug/SP_family_b_timetable.xml" />
+	<menuItem title="DM_CHARFAMc" file="SPDebug/SP_family_c_timetable.xml" />
+	<menuItem title="DM_CHARFAMf" file="SPDebug/SP_family_f_timetable.xml" />
+	<menuItem title="DM_CHARFAMt" file="SPDebug/SP_family_t_timetable.xml" />
+	<breakItem/>
+	<menuItem title="DM_CHARPOL" file="SPDebug/SP_characters_polish.xml" highlight="TRUE" />
+	<scriptItem title="Player Switch Test" file="playerswitchtest.sc"/>
+</DebugMenuItems>
+

@@ -1,0 +1,1588 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CActionBranchSetContainer>
+  <aActionBranchSets>
+    <Item type="CActionBranchSet">
+      <Name>ABS_dodge_right</Name>
+      <aActionBranches>
+        <Item type="CActionBranch">
+          <Name>ACT_counter_right</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+      </aActionBranches>
+    </Item>
+    <Item type="CActionBranchSet">
+      <Name>ABS_dodge_left</Name>
+      <aActionBranches>
+        <Item type="CActionBranch">
+          <Name>ACT_counter_left</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+      </aActionBranches>
+    </Item>
+    <Item type="CActionBranchSet">
+      <Name>ABS_taunt</Name>
+      <aActionBranches>
+        <Item type="CActionBranch">
+          <Name>ACT_dodge_left</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_dodge_right</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+      </aActionBranches>
+    </Item>
+    <Item type="CActionBranchSet">
+      <Name>ABS_standard</Name>
+      <aActionBranches>
+        <Item type="CActionBranch">
+          <Name>ACT_shove</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_knife_a</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_b</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_knife_b</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_c</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_knife_c</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_d</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_e</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_g</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_h</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_psycho</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_psycho_b</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_psycho_c</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_armed_short</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_armed_long</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_a</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_knife_a</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_b</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_knife_b</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_c</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_knife_c</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_psycho</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_psycho_b</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_armed_short</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_armed_long</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_armed_short</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_armed_long</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_short</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_short_no_target</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_long_mid</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_medium</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_very_close_low</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_very_close_low_var_a</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_very_close_low_psycho_a</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_very_close_low_psycho_b</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_very_close_low_psycho_c</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_close_low_psycho</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_close_low</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_close_mid</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_medium_armed</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_medium_low</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_medium_low_psycho</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_short_armed</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_left_medium</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_left_close</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_left_close_mid</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_left_close_low</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_right_medium</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_right_close</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_right_close_mid</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_right_close_low</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_left_medium</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_left_close</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_left_close_mid</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_left_close_low</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_right_medium</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_right_close</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_right_close_mid</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_right_close_low</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_heavy_1a</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_heavy_1b</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_kick_close</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_kick_close_b</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_kick_close_heavy</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_kick_close_b_heavy</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_kick</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_left_kick</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_right_kick</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_left_kick</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_right_kick</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_surface_breakable</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_surface_side_a</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_surface_side_b</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_surface_down</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_vehicle_below</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+      </aActionBranches>
+    </Item>
+    <Item type="CActionBranchSet">
+      <Name>ABS_standard_armed</Name>
+      <aActionBranches>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_armed_short</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_armed_long</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_armed_short</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_armed_long</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_armed_melee_aiming_player</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_armed_melee_idle_player</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_armed_melee_aiming_ai</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_armed_melee_idle_ai</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_armed_melee_aiming_no_target</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_armed_melee_idle_no_target</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+      </aActionBranches>
+    </Item>
+    <Item type="CActionBranchSet">
+      <Name>ABS_counter_hit_reaction</Name>
+      <aActionBranches>
+        <Item type="CActionBranch">
+          <Name>ACT_shove</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_hitby_daze_a</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_hitby_daze_b</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_hitby_daze_c</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_hitby_daze_d</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_left_close</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_left_close</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_right_close</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_right_close</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_heavy_1a</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_heavy_1b</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_dodge_left</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_dodge_right</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_kick_close</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_kick_close_b</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_kick_close_heavy</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_kick_close_b_heavy</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_kick</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_left_kick</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_right_kick</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_left_kick</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_right_kick</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+      </aActionBranches>
+    </Item>
+    <Item type="CActionBranchSet">
+      <Name>ABS_standard_heavy_combo_2a</Name>
+      <aActionBranches>
+        <Item type="CActionBranch">
+          <Name>ACT_shove</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_heavy_2a</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_heavy_2b</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_heavy_2c</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_kick_close</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_kick_close_b</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_kick_close_heavy</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_kick_close_b_heavy</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_kick</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_left_kick</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_right_kick</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_left_kick</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_right_kick</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_left_medium</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_left_close</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_left_close_mid</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_left_close_low</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_right_medium</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_right_close</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_right_close_mid</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_right_close_low</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_left_medium</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_left_close</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_left_close_mid</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_left_close_low</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_right_medium</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_right_close</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_right_close_mid</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_right_close_low</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_a</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_knife_a</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_b</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_knife_b</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_c</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_knife_c</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_d</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_e</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_g</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_h</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_psycho</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_psycho_b</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_psycho_c</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_armed_short</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_armed_long</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_a</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_knife_a</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_b</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_knife_b</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_c</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_knife_c</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_psycho</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_psycho_b</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_armed_short</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_armed_long</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+      </aActionBranches>
+    </Item>
+    <Item type="CActionBranchSet">
+      <Name>ABS_standard_heavy_combo_2b</Name>
+      <aActionBranches>
+        <Item type="CActionBranch">
+          <Name>ACT_shove</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_heavy_2b</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_heavy_2a</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_heavy_2c</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_kick_close</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_kick_close_b</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_kick</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_kick_close_heavy</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_kick_close_b_heavy</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_left_kick</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_right_kick</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_left_kick</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_right_kick</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_left_medium</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_left_close</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_left_close_mid</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_left_close_low</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_right_medium</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_right_close</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_right_close_mid</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_right_close_low</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_left_medium</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_left_close</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_left_close_mid</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_left_close_low</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_right_medium</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_right_close</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_right_close_mid</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_right_close_low</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_a</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_knife_a</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_b</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_knife_b</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_c</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_knife_c</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_d</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_e</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_g</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_h</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_psycho</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_psycho_b</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_psycho_c</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_armed_short</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_armed_long</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_a</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_knife_a</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_b</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_knife_b</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_c</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_knife_c</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_psycho</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_psycho_b</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_armed_short</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_armed_long</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+      </aActionBranches>
+    </Item>
+    <Item type="CActionBranchSet">
+      <Name>ABS_standard_heavy_combo_3a</Name>
+      <aActionBranches>
+        <Item type="CActionBranch">
+          <Name>ACT_shove</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_heavy_3a</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_light_finish</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_heavy_finish</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_kick_close</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_kick_close_b</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_kick</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_kick_close_heavy</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_kick_close_b_heavy</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_left_kick</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_right_kick</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_left_kick</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_right_kick</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_left_medium</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_left_close</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_left_close_mid</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_left_close_low</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_right_medium</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_right_close</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_right_close_mid</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_right_close_low</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_left_medium</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_left_close</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_left_close_mid</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_left_close_low</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_right_medium</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_right_close</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_right_close_mid</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_right_close_low</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_a</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_knife_a</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_b</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_knife_b</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_c</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_knife_c</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_d</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_e</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_g</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_h</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_psycho</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_psycho_b</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_psycho_c</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_armed_short</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_armed_long</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_a</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_knife_a</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_b</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_knife_b</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_c</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_knife_c</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_psycho</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_psycho_b</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_armed_short</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_armed_long</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+      </aActionBranches>
+    </Item>
+    <Item type="CActionBranchSet">
+      <Name>ABS_standard_heavy_combo_3b</Name>
+      <aActionBranches>
+        <Item type="CActionBranch">
+          <Name>ACT_shove</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_heavy_3b</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_light_finish</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_heavy_finish</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_kick_close</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_kick_close_b</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_kick</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_kick_close_heavy</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_forward_kick_close_b_heavy</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_left_kick</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_right_kick</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_left_kick</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_right_kick</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_left_medium</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_left_close</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_left_close_mid</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_left_close_low</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_right_medium</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_right_close</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_right_close_mid</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_rear_right_close_low</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_left_medium</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_left_close</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_left_close_mid</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_left_close_low</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_right_medium</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_right_close</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_right_close_mid</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_right_close_low</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_a</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_knife_a</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_b</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_knife_b</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_c</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_knife_c</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_d</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_e</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_g</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_h</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_psycho</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_psycho_b</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_psycho_c</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_armed_short</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_armed_long</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_a</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_knife_a</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_b</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_knife_b</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_c</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_knife_c</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_psycho</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_psycho_b</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_armed_short</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_armed_long</Name>
+          <Filter>PAFT_PLAYER_SP PAFT_PLAYER_MP</Filter>
+        </Item>
+      </aActionBranches>
+    </Item>
+    <Item type="CActionBranchSet">
+      <Name>ABS_swim_surface</Name>
+      <aActionBranches>
+        <Item type="CActionBranch">
+          <Name>ACT_swim_surface_still</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_swim_surface_still_var_b</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_swim_surface_moving</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_swim_surface_moving_var_b</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+      </aActionBranches>
+    </Item>
+    <Item type="CActionBranchSet">
+      <Name>ABS_swim_dive</Name>
+      <aActionBranches>
+        <Item type="CActionBranch">
+          <Name>ACT_swim_dive_still</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_swim_dive_still_var_b</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_swim_dive_moving</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_swim_dive_moving_var_b</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+      </aActionBranches>
+    </Item>
+    <Item type="CActionBranchSet">
+      <Name>ABS_dog</Name>
+      <aActionBranches>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_dog</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_dog</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_dog_forward_close_low</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_dog_attack</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_dog_taunt_a</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_dog_taunt_b</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+      </aActionBranches>
+    </Item>
+    <Item type="CActionBranchSet">
+      <Name>ABS_cougar</Name>
+      <aActionBranches>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_cougar</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_cougar</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_cougar_forward_close_low</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_cougar_attack</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_cougar_taunt_a</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+      </aActionBranches>
+    </Item>
+    <Item type="CActionBranchSet">
+      <Name>ABS_dog_retriever</Name>
+      <aActionBranches>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_front_dog_retriever</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_takedown_rear_dog_retriever</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_dog_retriever_forward_close_low</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+        <Item type="CActionBranch">
+          <Name>ACT_dog_retriever_attack</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+      </aActionBranches>
+    </Item>
+    <Item type="CActionBranchSet">
+      <Name>ABS_dog_small</Name>
+      <aActionBranches>
+        <Item type="CActionBranch">
+          <Name>ACT_dog_small_attack</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+      </aActionBranches>
+    </Item>
+    <Item type="CActionBranchSet">
+      <Name>ABS_tiger_shark</Name>
+      <aActionBranches>
+        <Item type="CActionBranch">
+          <Name>ACT_tiger_shark_attack</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+      </aActionBranches>
+    </Item>
+    <Item type="CActionBranchSet">
+      <Name>ABS_hammerhead_shark</Name>
+      <aActionBranches>
+        <Item type="CActionBranch">
+          <Name>ACT_hammerhead_shark_attack</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+      </aActionBranches>
+    </Item>
+    <Item type="CActionBranchSet">
+      <Name>ABS_killer_whale</Name>
+      <aActionBranches>
+        <Item type="CActionBranch">
+          <Name>ACT_killer_whale_attack</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+      </aActionBranches>
+    </Item>
+    <Item type="CActionBranchSet">
+      <Name>ABS_boar</Name>
+      <aActionBranches>
+        <Item type="CActionBranch">
+          <Name>ACT_boar_attack</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+      </aActionBranches>
+    </Item>
+    <Item type="CActionBranchSet">
+      <Name>ABS_pig</Name>
+      <aActionBranches>
+        <Item type="CActionBranch">
+          <Name>ACT_pig_attack</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+      </aActionBranches>
+    </Item>
+    <Item type="CActionBranchSet">
+      <Name>ABS_coyote</Name>
+      <aActionBranches>
+        <Item type="CActionBranch">
+          <Name>ACT_coyote_attack</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+      </aActionBranches>
+    </Item>
+    <Item type="CActionBranchSet">
+      <Name>ABS_deer</Name>
+      <aActionBranches>
+        <Item type="CActionBranch">
+          <Name>ACT_deer_attack</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+      </aActionBranches>
+    </Item>
+    <Item type="CActionBranchSet">
+      <Name>ABS_hen</Name>
+      <aActionBranches>
+        <Item type="CActionBranch">
+          <Name>ACT_hen_flap</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+      </aActionBranches>
+    </Item>
+    <Item type="CActionBranchSet">
+      <Name>ABS_rabbit</Name>
+      <aActionBranches>
+        <Item type="CActionBranch">
+          <Name>ACT_rabbit_scratch</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+      </aActionBranches>
+    </Item>
+    <Item type="CActionBranchSet">
+      <Name>ABS_cat</Name>
+      <aActionBranches>
+        <Item type="CActionBranch">
+          <Name>ACT_cat_scratch</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+      </aActionBranches>
+    </Item>
+    <Item type="CActionBranchSet">
+      <Name>ABS_cow</Name>
+      <aActionBranches>
+        <Item type="CActionBranch">
+          <Name>ACT_cow_moo</Name>
+          <Filter>PAFT_ANY</Filter>
+        </Item>
+      </aActionBranches>
+    </Item>
+  </aActionBranchSets>
+</CActionBranchSetContainer>

@@ -1,0 +1,34 @@
+<?xml version='1.0'?>
+<DebugMenuItems>
+
+	<!-- Missions -->
+	<missionItem missionID="CAR1" file="carsteal1.sc" author="SI_AL" percentage="50" highlight="FALSE" info="DM_INFO_060" character="CHAR_FRANKLIN" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER" />
+	<missionItem missionID="MIC2" file="Michael2.sc" author="SI_DW" percentage="50" highlight="FALSE" info="DM_INFO_086" character="CHAR_FRANKLIN" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER" />
+	<missionItem missionID="TRV2" file="Trevor2.sc" author="SI_RC" percentage="0" highlight="FALSE" info="DM_INFO_099" 	character="CHAR_TREVOR" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER"/>
+	<missionItem missionID="DHP2B" file="docks_prep2B.sc" preCodeID="SPCID_H_DOCKS_DEEP_SEA" author="SI_BR" percentage="0" highlight="FALSE" info="DM_INFO_079" character="CHAR_TREVOR" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER"/>	
+	<missionItem missionID="DHP1" file="docks_prep1.sc" preCodeID="SPCID_H_DOCKS_DEEP_SEA" author="SI_BR" percentage="0" highlight="FALSE" info="DM_INFO_079" character="CHAR_TREVOR" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER"/>
+	<missionItem missionID="RHP1" file="rural_bank_prep1.sc" preCodeID="SPCID_H_RURAL_NO_TANK" author="SI_KB" percentage="0" highlight="FALSE" info="DM_INFO_033" character="CHAR_MICHAEL" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER"/>
+	<missionItem missionID="CAR2" file="carsteal2.sc" author="SI_KB" percentage="50" highlight="FALSE" info="DM_INFO_058" character="CHAR_FRANKLIN" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER" />
+	<missionItem missionID="AH3a"  file="agency_heist3A.sc"  preCodeID="SPCID_H_AGENCY_FIRETRUCK_CR" author="SI_LK" percentage="0" highlight="FALSE"  x="97.6772" y="-1290.7390" z="28.2688" heading="300.0000" interior="v_strip3" info="DM_INFO_006" character="CHAR_MICHAEL" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER"/>
+	<missionItem missionID="CHN1" file="chinese1.sc" author="SI_LK" percentage="0" highlight="FALSE" info="DM_INFO_087" character="CHAR_TREVOR" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER" />
+	<missionItem missionID="MIC1" file="Michael1.sc" author="SI_BR" percentage="0" highlight="FALSE" info="DM_INFO_123" character="CHAR_MICHAEL" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER" />
+	<missionItem missionID="FAM3" file="Family3.sc" author="SI_JM" percentage="25" highlight="FALSE" info="DM_INFO_075" character="CHAR_MICHAEL" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER" />
+	<missionItem missionID="LM1" file="Lamar1.sc" author="SI_MB" percentage="0" highlight="FALSE" info="DM_INFO_100" character="CHAR_FRANKLIN" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER" />
+	<missionItem missionID="FH2A" file="finale_heist2A.sc"  preCodeID="SPCID_H_FINALE_TRAFFIC_CR" author="SI_TBC" percentage="0" highlight="FALSE" info="DM_INFO_136" character="CHAR_MICHAEL" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER"/>
+	<missionItem missionID="AH3b"  file="agency_heist3B.sc" preCodeID="SPCID_H_AGENCY_HELICOPTER_CR" author="SI_MW" percentage="0" highlight="FALSE" x="97.6772" y="-1290.7390" z="28.2688" heading="300.0000" interior="v_strip3" character="CHAR_MICHAEL" info="DM_INFO_154" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER"/>
+	<missionItem missionID="JHP1a" 	file="jewelry_prep1a.sc" preCodeID="SPCID_H_JEWEL_STEALTH" author="SI_MW" percentage="0" highlight="FALSE" character="CHAR_MICHAEL" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER"/>
+	<missionItem missionID="RH1" file="rural_bank_setup.sc" codeID="SPCID_HEIST" author="SI_BR" percentage="0" highlight="FALSE" info="DM_INFO_138" character="CHAR_MICHAEL" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER"/>
+	<missionItem missionID="AH1"  file="agency_heist1.sc"  codeID="SPCID_HEIST" author="SI_PD" percentage="0" highlight="FALSE" info="DM_INFO_001" x="97.6772" y="-1290.7390" z="28.2688" heading="300.0000" interior="v_strip3" character="CHAR_MICHAEL" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER"/>
+	<missionItem missionID="EXL1" file="Exile1.sc" author="SI_BR" percentage="0" highlight="FALSE" info="DM_INFO_116" character="CHAR_FRANKLIN" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER" />
+	<missionItem missionID="FIB2" file="FBI2.sc" author="SI_RoB" percentage="50" highlight="FALSE" info="DM_INFO_034" character="CHAR_MICHAEL" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER" />
+	<missionItem missionID="FB4P2" file="FBI4_Prep2.sc" author="SI_SK" percentage="50" highlight="FALSE" info="DM_INFO_032" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER" />
+	<launcherItem missionID="FB4P3" file="not_needed.sc" author="SI_SK" percentage="50" highlight="FALSE" info="DM_INFO_032" labelID="LABEL_MISS_FBI_4_PREP_1" />
+	<missionItem missionID="LS1B" file="Lester1B.sc" author="SI_JM" percentage="0" highlight="FALSE" info="DM_INFO_109" character="CHAR_MICHAEL" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER" />
+	<missionItem missionID="RH2A" file="rural_bank_heist.sc" preCodeID="SPCID_H_RURAL_NO_TANK_CR" author="SI_RW" percentage="0" highlight="FALSE" info="DM_INFO_033" character="CHAR_MICHAEL" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER"/>
+	<warpItem title="Jewel Store Planning Board" x="719.0668" y="-980.8349" z="23.1264" heading="358.9550" file="not_needed.sc" labelID="LABEL_HEIST_JEWEL_SELECT_CHOICE" codeID="SPCID_SET_ROOM_FOR_GAME_VIEWPORT" enableID="SPEID_GAMEFLOW_ONLY" character="CHAR_MICHAEL" author="SI_BR"/>
+	<missionItem missionID="DHB" file="docks_board.sc" author="SI_BR" percentage="0" highlight="FALSE" info="DM_INFO_079" character="CHAR_TREVOR" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER"/>
+	<warpItem title="Paleto Score Planning Board" x="1391.7867" y="3614.4548" z="37.9704" heading="243.1685" interior="v_methlab" file="not_needed.sc" labelID="LABEL_HEIST_RURAL_SELECT_CREW" codeID="SPCID_SET_ROOM_FOR_GAME_VIEWPORT" enableID="SPEID_GAMEFLOW_ONLY" character="CHAR_MICHAEL" author="SI_BR"/>
+	<missionItem missionID="AH3i"  file="agency_heist3_intro.sc"  codeID="SPCID_HEIST" author="SI_BR" percentage="0" highlight="FALSE" info="DM_INFO_135" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER"/>
+	<missionItem missionID="FH2I"  file="finale_heist2_intro.sc"  codeID="SPCID_HEIST" author="SI_BR" percentage="0" highlight="FALSE" info="DM_INFO_135" character="CHAR_MICHAEL" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER"/>
+
+</DebugMenuItems>

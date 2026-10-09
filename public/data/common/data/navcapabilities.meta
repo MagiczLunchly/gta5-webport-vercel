@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CPedNavCapabilityInfoManager>
+  <aPedNavCapabilities>
+    <Item>
+      <Name>STANDARD_PED</Name>
+      <BitFlags>MayClimb MayDrop MayJump MayEnterWater MayUseLadders AvoidObjects PreferToAvoidWater AvoidFire</BitFlags>
+      <MaxClimbHeight value="1.000000" />
+      <MaxDropHeight value="1.000000" />
+      <IgnoreObjectMass value="10.000000" />
+      <fClimbCostModifier value="1.000000" />
+      <GotoTargetLookAheadDistance value="1.500000" />
+      <GotoTargetInitialLookAheadDistance value="0.250000" />
+      <GotoTargetLookAheadDistanceIncrement value="4.000000" />
+      <DefaultMoveFollowLeaderRunDistance value="6.000000" />
+      <DefaultMoveFollowLeaderSprintDistance value="9.000000" />
+      <DesiredMbrLowerBoundInMoveFollowLeader value="1.000000" />
+      <FollowLeaderSeekEntityWalkSpeedRange value="10.000000" />
+      <LooseFormationTargetRadiusOverride value="-1.000000" />
+      <FollowLeaderResetTargetDistanceSquaredOverride value="-1.000000" />
+      <FollowLeaderSeekEntityRunSpeedRange value="20.000000" />
+      <DefaultMaxSlopeNavigable value="0.000000" />
+      <StillLeaderSpacingEpsilon value="0.000000" />
+      <MoveFollowLeaderHeadingTolerance value="0.000000" />
+      <NonGroupMinDistToAdjustSpeed value="3.000000" />
+      <NonGroupMaxDistToAdjustSpeed value="16.000000" />
+      <CanSprintInFollowLeaderSeekEntity value="false" />
+      <UseAdaptiveMbrInMoveFollowLeader value="false" />
+      <AlwaysKeepMovingWhilstFollowingLeaderPath value="false" />
+      <IgnoreMovingTowardsLeaderTargetRadiusExpansion value="false" />
+    </Item>
+    <Item>
+      <Name>STANDARD_QUADRUPED</Name>
+      <BitFlags>AvoidObjects PreferToAvoidWater AvoidFire NeverStopNavmeshTaskEarlyInFollowLeader</BitFlags>
+      <MaxClimbHeight value="0.000000" />
+      <MaxDropHeight value="0.000000" />
+      <IgnoreObjectMass value="0.000000" />
+      <fClimbCostModifier value="1.000000" />
+      <GotoTargetLookAheadDistance value="1.800000" />
+      <GotoTargetInitialLookAheadDistance value="0.400000" />
+      <GotoTargetLookAheadDistanceIncrement value="4.000000" />
+      <DefaultMoveFollowLeaderRunDistance value="6.000000" />
+      <DefaultMoveFollowLeaderSprintDistance value="9.000000" />
+      <DesiredMbrLowerBoundInMoveFollowLeader value="0.750000" />
+      <FollowLeaderSeekEntityWalkSpeedRange value="8.000000" />
+      <LooseFormationTargetRadiusOverride value="0.200000" />
+      <FollowLeaderResetTargetDistanceSquaredOverride value="0.250000" />
+      <FollowLeaderSeekEntityRunSpeedRange value="15.000000" />
+      <DefaultMaxSlopeNavigable value="0.000000" />
+      <StillLeaderSpacingEpsilon value="0.800000" />
+      <MoveFollowLeaderHeadingTolerance value="40.000000" />
+      <NonGroupMinDistToAdjustSpeed value="1.250000" />
+      <NonGroupMaxDistToAdjustSpeed value="4.000000" />
+      <CanSprintInFollowLeaderSeekEntity value="true" />
+      <UseAdaptiveMbrInMoveFollowLeader value="true" />
+      <AlwaysKeepMovingWhilstFollowingLeaderPath value="true" />
+      <IgnoreMovingTowardsLeaderTargetRadiusExpansion value="true" />
+    </Item>
+    <Item>
+      <Name>WILD_ANIMAL</Name>
+      <BitFlags>AvoidObjects PreferToAvoidWater AvoidFire NeverStopNavmeshTaskEarlyInFollowLeader</BitFlags>
+      <MaxClimbHeight value="0.000000" />
+      <MaxDropHeight value="0.000000" />
+      <IgnoreObjectMass value="0.000000" />
+      <fClimbCostModifier value="1.000000" />
+      <GotoTargetLookAheadDistance value="4.000000" />
+      <GotoTargetInitialLookAheadDistance value="2.500000" />
+      <GotoTargetLookAheadDistanceIncrement value="5.000000" />
+      <DefaultMoveFollowLeaderRunDistance value="6.000000" />
+      <DefaultMoveFollowLeaderSprintDistance value="9.000000" />
+      <DesiredMbrLowerBoundInMoveFollowLeader value="1.000000" />
+      <FollowLeaderSeekEntityWalkSpeedRange value="8.000000" />
+      <LooseFormationTargetRadiusOverride value="-1.000000" />
+      <FollowLeaderResetTargetDistanceSquaredOverride value="-1.000000" />
+      <FollowLeaderSeekEntityRunSpeedRange value="15.000000" />
+      <DefaultMaxSlopeNavigable value="0.785390" />
+      <StillLeaderSpacingEpsilon value="0.000000" />
+      <MoveFollowLeaderHeadingTolerance value="0.000000" />
+      <NonGroupMinDistToAdjustSpeed value="3.000000" />
+      <NonGroupMaxDistToAdjustSpeed value="16.000000" />
+      <CanSprintInFollowLeaderSeekEntity value="true" />
+      <UseAdaptiveMbrInMoveFollowLeader value="false" />
+      <AlwaysKeepMovingWhilstFollowingLeaderPath value="false" />
+      <IgnoreMovingTowardsLeaderTargetRadiusExpansion value="false" />
+    </Item>
+    <Item>
+      <Name>COUGAR</Name>
+      <BitFlags>AvoidObjects PreferToAvoidWater AvoidFire NeverStopNavmeshTaskEarlyInFollowLeader</BitFlags>
+      <MaxClimbHeight value="0.000000" />
+      <MaxDropHeight value="0.000000" />
+      <IgnoreObjectMass value="0.000000" />
+      <fClimbCostModifier value="1.000000" />
+      <GotoTargetLookAheadDistance value="4.000000" />
+      <GotoTargetInitialLookAheadDistance value="2.500000" />
+      <GotoTargetLookAheadDistanceIncrement value="5.000000" />
+      <DefaultMoveFollowLeaderRunDistance value="6.000000" />
+      <DefaultMoveFollowLeaderSprintDistance value="9.000000" />
+      <DesiredMbrLowerBoundInMoveFollowLeader value="1.000000" />
+      <FollowLeaderSeekEntityWalkSpeedRange value="8.000000" />
+      <LooseFormationTargetRadiusOverride value="-1.000000" />
+      <FollowLeaderResetTargetDistanceSquaredOverride value="-1.000000" />
+      <FollowLeaderSeekEntityRunSpeedRange value="15.000000" />
+      <DefaultMaxSlopeNavigable value="0.000000" />
+      <StillLeaderSpacingEpsilon value="0.000000" />
+      <MoveFollowLeaderHeadingTolerance value="0.000000" />
+      <NonGroupMinDistToAdjustSpeed value="3.000000" />
+      <NonGroupMaxDistToAdjustSpeed value="16.000000" />
+      <CanSprintInFollowLeaderSeekEntity value="true" />
+      <UseAdaptiveMbrInMoveFollowLeader value="false" />
+      <AlwaysKeepMovingWhilstFollowingLeaderPath value="false" />
+      <IgnoreMovingTowardsLeaderTargetRadiusExpansion value="false" />
+    </Item>
+    <Item>
+      <Name>SIMPLE</Name>
+      <BitFlags>AvoidObjects AvoidFire</BitFlags>
+      <MaxClimbHeight value="0.000000" />
+      <MaxDropHeight value="0.000000" />
+      <IgnoreObjectMass value="0.000000" />
+      <fClimbCostModifier value="1.000000" />
+      <GotoTargetLookAheadDistance value="1.500000" />
+      <GotoTargetInitialLookAheadDistance value="0.250000" />
+      <GotoTargetLookAheadDistanceIncrement value="4.000000" />
+      <DefaultMoveFollowLeaderRunDistance value="6.000000" />
+      <DefaultMoveFollowLeaderSprintDistance value="9.000000" />
+      <DesiredMbrLowerBoundInMoveFollowLeader value="1.000000" />
+      <FollowLeaderSeekEntityWalkSpeedRange value="10.000000" />
+      <LooseFormationTargetRadiusOverride value="-1.000000" />
+      <FollowLeaderResetTargetDistanceSquaredOverride value="-1.000000" />
+      <FollowLeaderSeekEntityRunSpeedRange value="20.000000" />
+      <DefaultMaxSlopeNavigable value="0.000000" />
+      <StillLeaderSpacingEpsilon value="0.000000" />
+      <MoveFollowLeaderHeadingTolerance value="0.000000" />
+      <NonGroupMinDistToAdjustSpeed value="3.000000" />
+      <NonGroupMaxDistToAdjustSpeed value="16.000000" />
+      <CanSprintInFollowLeaderSeekEntity value="false" />
+      <UseAdaptiveMbrInMoveFollowLeader value="false" />
+      <AlwaysKeepMovingWhilstFollowingLeaderPath value="false" />
+      <IgnoreMovingTowardsLeaderTargetRadiusExpansion value="false" />
+    </Item>
+    <Item>
+      <Name>SIMPLE_NO_AVOIDANCE</Name>
+      <BitFlags />
+      <MaxClimbHeight value="0.000000" />
+      <MaxDropHeight value="0.000000" />
+      <IgnoreObjectMass value="0.000000" />
+      <fClimbCostModifier value="1.000000" />
+      <GotoTargetLookAheadDistance value="1.500000" />
+      <GotoTargetInitialLookAheadDistance value="0.250000" />
+      <GotoTargetLookAheadDistanceIncrement value="4.000000" />
+      <DefaultMoveFollowLeaderRunDistance value="6.000000" />
+      <DefaultMoveFollowLeaderSprintDistance value="9.000000" />
+      <DesiredMbrLowerBoundInMoveFollowLeader value="1.000000" />
+      <FollowLeaderSeekEntityWalkSpeedRange value="10.000000" />
+      <LooseFormationTargetRadiusOverride value="-1.000000" />
+      <FollowLeaderResetTargetDistanceSquaredOverride value="-1.000000" />
+      <FollowLeaderSeekEntityRunSpeedRange value="20.000000" />
+      <DefaultMaxSlopeNavigable value="0.000000" />
+      <StillLeaderSpacingEpsilon value="0.000000" />
+      <MoveFollowLeaderHeadingTolerance value="0.000000" />
+      <NonGroupMinDistToAdjustSpeed value="3.000000" />
+      <NonGroupMaxDistToAdjustSpeed value="16.000000" />
+      <CanSprintInFollowLeaderSeekEntity value="false" />
+      <UseAdaptiveMbrInMoveFollowLeader value="false" />
+      <AlwaysKeepMovingWhilstFollowingLeaderPath value="false" />
+      <IgnoreMovingTowardsLeaderTargetRadiusExpansion value="false" />
+    </Item>
+    <Item>
+      <Name>WATER_ONLY</Name>
+      <BitFlags>MayEnterWater SearchForPathsAbovePed</BitFlags>
+      <MaxClimbHeight value="0.000000" />
+      <MaxDropHeight value="0.000000" />
+      <IgnoreObjectMass value="0.000000" />
+      <fClimbCostModifier value="1.000000" />
+      <GotoTargetLookAheadDistance value="1.500000" />
+      <GotoTargetInitialLookAheadDistance value="0.250000" />
+      <GotoTargetLookAheadDistanceIncrement value="4.000000" />
+      <DefaultMoveFollowLeaderRunDistance value="6.000000" />
+      <DefaultMoveFollowLeaderSprintDistance value="9.000000" />
+      <DesiredMbrLowerBoundInMoveFollowLeader value="1.000000" />
+      <FollowLeaderSeekEntityWalkSpeedRange value="10.000000" />
+      <LooseFormationTargetRadiusOverride value="-1.000000" />
+      <FollowLeaderResetTargetDistanceSquaredOverride value="-1.000000" />
+      <FollowLeaderSeekEntityRunSpeedRange value="20.000000" />
+      <DefaultMaxSlopeNavigable value="0.000000" />
+      <StillLeaderSpacingEpsilon value="0.000000" />
+      <MoveFollowLeaderHeadingTolerance value="0.000000" />
+      <NonGroupMinDistToAdjustSpeed value="3.000000" />
+      <NonGroupMaxDistToAdjustSpeed value="16.000000" />
+      <CanSprintInFollowLeaderSeekEntity value="false" />
+      <UseAdaptiveMbrInMoveFollowLeader value="false" />
+      <AlwaysKeepMovingWhilstFollowingLeaderPath value="false" />
+      <IgnoreMovingTowardsLeaderTargetRadiusExpansion value="false" />
+    </Item>
+    <Item>
+      <Name>FLIGHT_CAPABLE</Name>
+      <BitFlags>MayFly</BitFlags>
+      <MaxClimbHeight value="0.000000" />
+      <MaxDropHeight value="0.000000" />
+      <IgnoreObjectMass value="0.000000" />
+      <fClimbCostModifier value="1.000000" />
+      <GotoTargetLookAheadDistance value="1.500000" />
+      <GotoTargetInitialLookAheadDistance value="0.250000" />
+      <GotoTargetLookAheadDistanceIncrement value="4.000000" />
+      <DefaultMoveFollowLeaderRunDistance value="6.000000" />
+      <DefaultMoveFollowLeaderSprintDistance value="9.000000" />
+      <DesiredMbrLowerBoundInMoveFollowLeader value="1.000000" />
+      <FollowLeaderSeekEntityWalkSpeedRange value="10.000000" />
+      <LooseFormationTargetRadiusOverride value="-1.000000" />
+      <FollowLeaderResetTargetDistanceSquaredOverride value="-1.000000" />
+      <FollowLeaderSeekEntityRunSpeedRange value="20.000000" />
+      <DefaultMaxSlopeNavigable value="0.000000" />
+      <StillLeaderSpacingEpsilon value="0.000000" />
+      <MoveFollowLeaderHeadingTolerance value="0.000000" />
+      <NonGroupMinDistToAdjustSpeed value="3.000000" />
+      <NonGroupMaxDistToAdjustSpeed value="16.000000" />
+      <CanSprintInFollowLeaderSeekEntity value="false" />
+      <UseAdaptiveMbrInMoveFollowLeader value="false" />
+      <AlwaysKeepMovingWhilstFollowingLeaderPath value="false" />
+      <IgnoreMovingTowardsLeaderTargetRadiusExpansion value="false" />
+    </Item>
+    <Item>
+      <Name>SURFACE_SKIMMER</Name>
+      <BitFlags>MayEnterWater PreferNearWaterSurface SearchForPathsAbovePed</BitFlags>
+      <MaxClimbHeight value="0.000000" />
+      <MaxDropHeight value="0.000000" />
+      <IgnoreObjectMass value="0.000000" />
+      <fClimbCostModifier value="1.000000" />
+      <GotoTargetLookAheadDistance value="1.500000" />
+      <GotoTargetInitialLookAheadDistance value="0.250000" />
+      <GotoTargetLookAheadDistanceIncrement value="4.000000" />
+      <DefaultMoveFollowLeaderRunDistance value="6.000000" />
+      <DefaultMoveFollowLeaderSprintDistance value="9.000000" />
+      <DesiredMbrLowerBoundInMoveFollowLeader value="1.000000" />
+      <FollowLeaderSeekEntityWalkSpeedRange value="10.000000" />
+      <LooseFormationTargetRadiusOverride value="-1.000000" />
+      <FollowLeaderResetTargetDistanceSquaredOverride value="-1.000000" />
+      <FollowLeaderSeekEntityRunSpeedRange value="20.000000" />
+      <DefaultMaxSlopeNavigable value="0.000000" />
+      <StillLeaderSpacingEpsilon value="0.000000" />
+      <MoveFollowLeaderHeadingTolerance value="0.000000" />
+      <NonGroupMinDistToAdjustSpeed value="3.000000" />
+      <NonGroupMaxDistToAdjustSpeed value="16.000000" />
+      <CanSprintInFollowLeaderSeekEntity value="false" />
+      <UseAdaptiveMbrInMoveFollowLeader value="false" />
+      <AlwaysKeepMovingWhilstFollowingLeaderPath value="false" />
+      <IgnoreMovingTowardsLeaderTargetRadiusExpansion value="false" />
+    </Item>
+  </aPedNavCapabilities>
+</CPedNavCapabilityInfoManager>

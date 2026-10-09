@@ -1,0 +1,1713 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rage__cutfCutsceneFile2 v="1.0">
+  <fTotalDuration value="13.799999" />
+  <cFaceDir />
+  <iCutsceneFlags content="int_array">
+    0 
+    0 
+    0 
+    0 
+  </iCutsceneFlags>
+  <vOffset x="0.000000" y="0.000000" z="0.000000" />
+  <fRotation value="0.000000" />
+  <vTriggerOffset x="0.000000" y="0.000000" z="0.000000" />
+  <pCutsceneObjects>
+    <Item type="rage__cutfLightObject">
+      <iObjectId value="0" />
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+        <maxrelposition type="0">-15.757568,-16.377777,-2.923725</maxrelposition>
+        <maxrelrotation type="0">-0.033864,0.499330,0.865324,-0.027165</maxrelrotation>
+        <camera type="0">AutoClip1_MIC_3_EXT_P2</camera>
+      </attributeList>
+      <cutfAttributes>
+        <Items>
+          <Item type="cutf_string">
+            <Name>maxrelposition</Name>
+            <Value>-15.757568,-16.377777,-2.923725</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>maxrelrotation</Name>
+            <Value>-0.033864,0.499330,0.865324,-0.027165</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>camera</Name>
+            <Value>AutoClip1_MIC_3_EXT_P2</Value>
+          </Item>
+        </Items>
+      </cutfAttributes>
+      <cName>n_AC1_MIC_3_EXT_P2_00</cName>
+      <vDirection x="0.085735" y="-0.862324" z="-0.499046" />
+      <vColour x="0.811765" y="0.698039" z="0.941177" />
+      <vPosition x="-15.757568" y="-16.377777" z="-2.923725" />
+      <fIntensity value="0.250000" />
+      <fFallOff value="2.500000" />
+      <fConeAngle value="30.000000" />
+      <fVolumeIntensity value="1.000000" />
+      <fVolumeSizeScale value="1.000000" />
+      <fCoronaSize value="0.000000" />
+      <fCoronaIntensity value="1.000000" />
+      <fCoronaZBias value="0.100000" />
+      <fInnerConeAngle value="0.000000" />
+      <fExponentialFallOff value="0.500000" />
+      <fShadowBlur value="0.000000" />
+      <iLightType value="2" />
+      <iLightProperty value="0" />
+      <TextureDictID value="0" />
+      <TextureKey value="0" />
+      <uLightFlags value="257" />
+      <uHourFlags value="15728703" />
+      <bStatic value="true" />
+    </Item>
+    <Item type="rage__cutfLightObject">
+      <iObjectId value="1" />
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+        <maxrelposition type="0">-16.520508,-16.482758,-2.634735</maxrelposition>
+        <maxrelrotation type="0">0.286550,-0.290744,-0.606424,0.682354</maxrelrotation>
+        <camera type="0">AutoClip1_MIC_3_EXT_P2</camera>
+      </attributeList>
+      <cutfAttributes>
+        <Items>
+          <Item type="cutf_string">
+            <Name>maxrelposition</Name>
+            <Value>-16.520508,-16.482758,-2.634735</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>maxrelrotation</Name>
+            <Value>0.286550,-0.290744,-0.606424,0.682354</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>camera</Name>
+            <Value>AutoClip1_MIC_3_EXT_P2</Value>
+          </Item>
+        </Items>
+      </cutfAttributes>
+      <cName>n_AC1_MIC_3_EXT_P2_01</cName>
+      <vDirection x="0.744322" y="0.038429" z="-0.666714" />
+      <vColour x="0.231373" y="0.752941" z="0.949020" />
+      <vPosition x="-16.520508" y="-16.482758" z="-2.634735" />
+      <fIntensity value="5.000000" />
+      <fFallOff value="1.250000" />
+      <fConeAngle value="20.000000" />
+      <fVolumeIntensity value="1.000000" />
+      <fVolumeSizeScale value="1.000000" />
+      <fCoronaSize value="0.000000" />
+      <fCoronaIntensity value="1.000000" />
+      <fCoronaZBias value="0.100000" />
+      <fInnerConeAngle value="0.000000" />
+      <fExponentialFallOff value="1.720000" />
+      <fShadowBlur value="0.000000" />
+      <iLightType value="2" />
+      <iLightProperty value="0" />
+      <TextureDictID value="0" />
+      <TextureKey value="0" />
+      <uLightFlags value="1" />
+      <uHourFlags value="15728703" />
+      <bStatic value="true" />
+    </Item>
+    <Item type="rage__cutfLightObject">
+      <iObjectId value="2" />
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+        <maxrelposition type="0">-16.912720,-15.937775,-2.120708</maxrelposition>
+        <maxrelrotation type="0">0.390937,-0.353397,-0.480383,0.701078</maxrelrotation>
+        <camera type="0">AutoClip1_MIC_3_EXT_P2</camera>
+      </attributeList>
+      <cutfAttributes>
+        <Items>
+          <Item type="cutf_string">
+            <Name>maxrelposition</Name>
+            <Value>-16.912720,-15.937775,-2.120708</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>maxrelrotation</Name>
+            <Value>0.390937,-0.353397,-0.480383,0.701078</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>camera</Name>
+            <Value>AutoClip1_MIC_3_EXT_P2</Value>
+          </Item>
+        </Items>
+      </cutfAttributes>
+      <cName>n_AC1_MIC_3_EXT_P2_02</cName>
+      <vDirection x="0.871117" y="0.208623" z="-0.444557" />
+      <vColour x="0.788235" y="0.698039" z="0.968628" />
+      <vPosition x="-16.912720" y="-15.937775" z="-2.120708" />
+      <fIntensity value="0.200000" />
+      <fFallOff value="2.500000" />
+      <fConeAngle value="30.000000" />
+      <fVolumeIntensity value="1.000000" />
+      <fVolumeSizeScale value="1.000000" />
+      <fCoronaSize value="0.000000" />
+      <fCoronaIntensity value="1.000000" />
+      <fCoronaZBias value="0.100000" />
+      <fInnerConeAngle value="0.000000" />
+      <fExponentialFallOff value="0.500000" />
+      <fShadowBlur value="0.000000" />
+      <iLightType value="2" />
+      <iLightProperty value="0" />
+      <TextureDictID value="0" />
+      <TextureKey value="0" />
+      <uLightFlags value="257" />
+      <uHourFlags value="15728703" />
+      <bStatic value="true" />
+    </Item>
+    <Item type="rage__cutfLightObject">
+      <iObjectId value="3" />
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+        <maxrelposition type="0">-16.232056,-17.410919,2.458179</maxrelposition>
+        <maxrelrotation type="0">0.628684,0.323660,0.320694,0.630203</maxrelrotation>
+        <camera type="0">AutoClip1_MIC_3_EXT_P2</camera>
+      </attributeList>
+      <cutfAttributes>
+        <Items>
+          <Item type="cutf_string">
+            <Name>maxrelposition</Name>
+            <Value>-16.232056,-17.410919,2.458179</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>maxrelrotation</Name>
+            <Value>0.628684,0.323660,0.320694,0.630203</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>camera</Name>
+            <Value>AutoClip1_MIC_3_EXT_P2</Value>
+          </Item>
+        </Items>
+      </cutfAttributes>
+      <cName>PED_AC1_MIC_3_EXT_P2_00</cName>
+      <vDirection x="-0.811173" y="0.584806" z="-0.000002" />
+      <vColour x="0.764706" y="0.894118" z="0.956863" />
+      <vPosition x="-16.232056" y="-17.410919" z="2.458179" />
+      <fIntensity value="0.025000" />
+      <fFallOff value="6.000000" />
+      <fConeAngle value="40.000000" />
+      <fVolumeIntensity value="1.000000" />
+      <fVolumeSizeScale value="1.000000" />
+      <fCoronaSize value="0.025000" />
+      <fCoronaIntensity value="1.000000" />
+      <fCoronaZBias value="0.100000" />
+      <fInnerConeAngle value="0.000000" />
+      <fExponentialFallOff value="3.000000" />
+      <fShadowBlur value="0.000000" />
+      <iLightType value="2" />
+      <iLightProperty value="0" />
+      <TextureDictID value="0" />
+      <TextureKey value="0" />
+      <uLightFlags value="4194304" />
+      <uHourFlags value="16777215" />
+      <bStatic value="true" />
+    </Item>
+    <Item type="rage__cutfLightObject">
+      <iObjectId value="4" />
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+        <maxrelposition type="0">-19.673950,-16.410583,-0.516315</maxrelposition>
+        <maxrelrotation type="0">-0.300362,0.394492,0.659740,-0.564714</maxrelrotation>
+        <camera type="0">AutoClip1_MIC_3_EXT_P2</camera>
+      </attributeList>
+      <cutfAttributes>
+        <Items>
+          <Item type="cutf_string">
+            <Name>maxrelposition</Name>
+            <Value>-19.673950,-16.410583,-0.516315</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>maxrelrotation</Name>
+            <Value>-0.300362,0.394492,0.659740,-0.564714</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>camera</Name>
+            <Value>AutoClip1_MIC_3_EXT_P2</Value>
+          </Item>
+        </Items>
+      </cutfAttributes>
+      <cName>d_AC1_MIC_3_EXT_P2_00</cName>
+      <vDirection x="0.841872" y="-0.181287" z="-0.508317" />
+      <vColour x="0.976471" y="0.917647" z="0.764706" />
+      <vPosition x="-19.673950" y="-16.410583" z="-0.516315" />
+      <fIntensity value="0.010000" />
+      <fFallOff value="6.500000" />
+      <fConeAngle value="25.000000" />
+      <fVolumeIntensity value="1.000000" />
+      <fVolumeSizeScale value="1.000000" />
+      <fCoronaSize value="0.000000" />
+      <fCoronaIntensity value="1.000000" />
+      <fCoronaZBias value="0.100000" />
+      <fInnerConeAngle value="0.000000" />
+      <fExponentialFallOff value="2.030000" />
+      <fShadowBlur value="0.000000" />
+      <iLightType value="2" />
+      <iLightProperty value="0" />
+      <TextureDictID value="0" />
+      <TextureKey value="0" />
+      <uLightFlags value="769" />
+      <uHourFlags value="1048512" />
+      <bStatic value="true" />
+    </Item>
+    <Item type="rage__cutfLightObject">
+      <iObjectId value="5" />
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+        <maxrelposition type="0">-15.055176,-14.631226,-1.772675</maxrelposition>
+        <maxrelrotation type="0">-0.038584,0.454086,0.889900,-0.019898</maxrelrotation>
+        <camera type="0">AutoClip1_MIC_3_EXT_P2</camera>
+      </attributeList>
+      <cutfAttributes>
+        <Items>
+          <Item type="cutf_string">
+            <Name>maxrelposition</Name>
+            <Value>-15.055176,-14.631226,-1.772675</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>maxrelrotation</Name>
+            <Value>-0.038584,0.454086,0.889900,-0.019898</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>camera</Name>
+            <Value>AutoClip1_MIC_3_EXT_P2</Value>
+          </Item>
+        </Items>
+      </cutfAttributes>
+      <cName>d_AC1_MIC_3_EXT_P2_01</cName>
+      <vDirection x="0.086742" y="-0.806646" z="-0.584635" />
+      <vColour x="0.976471" y="0.917647" z="0.764706" />
+      <vPosition x="-15.055176" y="-14.631226" z="-1.772675" />
+      <fIntensity value="0.200000" />
+      <fFallOff value="3.000000" />
+      <fConeAngle value="25.000000" />
+      <fVolumeIntensity value="1.000000" />
+      <fVolumeSizeScale value="1.000000" />
+      <fCoronaSize value="0.000000" />
+      <fCoronaIntensity value="1.000000" />
+      <fCoronaZBias value="0.100000" />
+      <fInnerConeAngle value="0.000000" />
+      <fExponentialFallOff value="0.500000" />
+      <fShadowBlur value="0.000000" />
+      <iLightType value="2" />
+      <iLightProperty value="0" />
+      <TextureDictID value="0" />
+      <TextureKey value="0" />
+      <uLightFlags value="769" />
+      <uHourFlags value="1048512" />
+      <bStatic value="true" />
+    </Item>
+    <Item type="rage__cutfLightObject">
+      <iObjectId value="6" />
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+        <maxrelposition type="0">-16.439819,-18.056580,-1.441444</maxrelposition>
+        <maxrelrotation type="0">0.239273,-0.081276,0.311191,0.916135</maxrelrotation>
+        <camera type="0">AutoClip1_MIC_3_EXT_P2</camera>
+      </attributeList>
+      <cutfAttributes>
+        <Items>
+          <Item type="cutf_string">
+            <Name>maxrelposition</Name>
+            <Value>-16.439819,-18.056580,-1.441444</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>maxrelrotation</Name>
+            <Value>0.239273,-0.081276,0.311191,0.916135</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>camera</Name>
+            <Value>AutoClip1_MIC_3_EXT_P2</Value>
+          </Item>
+        </Items>
+      </cutfAttributes>
+      <cName>n_AC1_MIC_3_EXT_P2_03</cName>
+      <vDirection x="0.000000" y="0.488997" z="-0.872285" />
+      <vColour x="0.976471" y="0.917647" z="0.764706" />
+      <vPosition x="-16.439819" y="-18.056580" z="-1.441444" />
+      <fIntensity value="0.300000" />
+      <fFallOff value="3.550000" />
+      <fConeAngle value="63.599998" />
+      <fVolumeIntensity value="1.000000" />
+      <fVolumeSizeScale value="1.000000" />
+      <fCoronaSize value="0.000000" />
+      <fCoronaIntensity value="1.000000" />
+      <fCoronaZBias value="0.100000" />
+      <fInnerConeAngle value="0.000000" />
+      <fExponentialFallOff value="2.950000" />
+      <fShadowBlur value="0.000000" />
+      <iLightType value="2" />
+      <iLightProperty value="0" />
+      <TextureDictID value="0" />
+      <TextureKey value="0" />
+      <uLightFlags value="256" />
+      <uHourFlags value="15728703" />
+      <bStatic value="true" />
+    </Item>
+    <Item type="rage__cutfLightObject">
+      <iObjectId value="7" />
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+        <maxrelposition type="0">-15.757568,-16.377777,-2.923725</maxrelposition>
+        <maxrelrotation type="0">-0.033864,0.499330,0.865324,-0.027165</maxrelrotation>
+        <camera type="0">AutoClip2_MIC_3_EXT_P2</camera>
+      </attributeList>
+      <cutfAttributes>
+        <Items>
+          <Item type="cutf_string">
+            <Name>maxrelposition</Name>
+            <Value>-15.757568,-16.377777,-2.923725</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>maxrelrotation</Name>
+            <Value>-0.033864,0.499330,0.865324,-0.027165</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>camera</Name>
+            <Value>AutoClip2_MIC_3_EXT_P2</Value>
+          </Item>
+        </Items>
+      </cutfAttributes>
+      <cName>n_AC2_MIC_3_EXT_P2_00</cName>
+      <vDirection x="0.085735" y="-0.862324" z="-0.499046" />
+      <vColour x="0.811765" y="0.698039" z="0.941177" />
+      <vPosition x="-15.757568" y="-16.377777" z="-2.923725" />
+      <fIntensity value="0.250000" />
+      <fFallOff value="2.500000" />
+      <fConeAngle value="30.000000" />
+      <fVolumeIntensity value="1.000000" />
+      <fVolumeSizeScale value="1.000000" />
+      <fCoronaSize value="0.000000" />
+      <fCoronaIntensity value="1.000000" />
+      <fCoronaZBias value="0.100000" />
+      <fInnerConeAngle value="0.000000" />
+      <fExponentialFallOff value="0.500000" />
+      <fShadowBlur value="0.000000" />
+      <iLightType value="2" />
+      <iLightProperty value="0" />
+      <TextureDictID value="0" />
+      <TextureKey value="0" />
+      <uLightFlags value="257" />
+      <uHourFlags value="15728703" />
+      <bStatic value="true" />
+    </Item>
+    <Item type="rage__cutfLightObject">
+      <iObjectId value="8" />
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+        <maxrelposition type="0">-13.875854,-15.940826,-2.714642</maxrelposition>
+        <maxrelrotation type="0">0.376584,0.356185,0.662869,0.540298</maxrelrotation>
+        <camera type="0">AutoClip2_MIC_3_EXT_P2</camera>
+      </attributeList>
+      <cutfAttributes>
+        <Items>
+          <Item type="cutf_string">
+            <Name>maxrelposition</Name>
+            <Value>-13.875854,-15.940826,-2.714642</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>maxrelrotation</Name>
+            <Value>0.376584,0.356185,0.662869,0.540298</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>camera</Name>
+            <Value>AutoClip2_MIC_3_EXT_P2</Value>
+          </Item>
+        </Items>
+      </cutfAttributes>
+      <cName>n_AC2_MIC_3_EXT_P2_01</cName>
+      <vDirection x="-0.884144" y="-0.065273" z="-0.462634" />
+      <vColour x="0.972549" y="0.858824" z="0.619608" />
+      <vPosition x="-13.875854" y="-15.940826" z="-2.714642" />
+      <fIntensity value="2.000000" />
+      <fFallOff value="2.000000" />
+      <fConeAngle value="30.000000" />
+      <fVolumeIntensity value="1.000000" />
+      <fVolumeSizeScale value="1.000000" />
+      <fCoronaSize value="0.000000" />
+      <fCoronaIntensity value="1.000000" />
+      <fCoronaZBias value="0.100000" />
+      <fInnerConeAngle value="0.000000" />
+      <fExponentialFallOff value="1.720000" />
+      <fShadowBlur value="0.000000" />
+      <iLightType value="2" />
+      <iLightProperty value="0" />
+      <TextureDictID value="0" />
+      <TextureKey value="0" />
+      <uLightFlags value="257" />
+      <uHourFlags value="15728703" />
+      <bStatic value="true" />
+    </Item>
+    <Item type="rage__cutfLightObject">
+      <iObjectId value="9" />
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+        <maxrelposition type="0">-15.055298,-14.394501,-2.099300</maxrelposition>
+        <maxrelrotation type="0">-0.024591,0.455058,0.890091,0.007499</maxrelrotation>
+        <camera type="0">AutoClip2_MIC_3_EXT_P2</camera>
+      </attributeList>
+      <cutfAttributes>
+        <Items>
+          <Item type="cutf_string">
+            <Name>maxrelposition</Name>
+            <Value>-15.055298,-14.394501,-2.099300</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>maxrelrotation</Name>
+            <Value>-0.024591,0.455058,0.890091,0.007499</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>camera</Name>
+            <Value>AutoClip2_MIC_3_EXT_P2</Value>
+          </Item>
+        </Items>
+      </cutfAttributes>
+      <cName>n_AC2_MIC_3_EXT_P2_02</cName>
+      <vDirection x="0.036952" y="-0.810454" z="-0.584635" />
+      <vColour x="0.976471" y="0.917647" z="0.764706" />
+      <vPosition x="-15.055298" y="-14.394501" z="-2.099300" />
+      <fIntensity value="1.000000" />
+      <fFallOff value="3.000000" />
+      <fConeAngle value="35.500000" />
+      <fVolumeIntensity value="1.000000" />
+      <fVolumeSizeScale value="1.000000" />
+      <fCoronaSize value="0.000000" />
+      <fCoronaIntensity value="1.000000" />
+      <fCoronaZBias value="0.100000" />
+      <fInnerConeAngle value="0.000000" />
+      <fExponentialFallOff value="2.460000" />
+      <fShadowBlur value="0.000000" />
+      <iLightType value="2" />
+      <iLightProperty value="0" />
+      <TextureDictID value="0" />
+      <TextureKey value="0" />
+      <uLightFlags value="257" />
+      <uHourFlags value="15728703" />
+      <bStatic value="true" />
+    </Item>
+    <Item type="rage__cutfLightObject">
+      <iObjectId value="10" />
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+        <maxrelposition type="0">-16.865601,-16.092865,-2.101128</maxrelposition>
+        <maxrelrotation type="0">0.390937,-0.353397,-0.480383,0.701078</maxrelrotation>
+        <camera type="0">AutoClip2_MIC_3_EXT_P2</camera>
+      </attributeList>
+      <cutfAttributes>
+        <Items>
+          <Item type="cutf_string">
+            <Name>maxrelposition</Name>
+            <Value>-16.865601,-16.092865,-2.101128</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>maxrelrotation</Name>
+            <Value>0.390937,-0.353397,-0.480383,0.701078</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>camera</Name>
+            <Value>AutoClip2_MIC_3_EXT_P2</Value>
+          </Item>
+        </Items>
+      </cutfAttributes>
+      <cName>n_AC2_MIC_3_EXT_P2_03</cName>
+      <vDirection x="0.871117" y="0.208623" z="-0.444557" />
+      <vColour x="0.788235" y="0.698039" z="0.968628" />
+      <vPosition x="-16.865601" y="-16.092865" z="-2.101128" />
+      <fIntensity value="0.200000" />
+      <fFallOff value="2.500000" />
+      <fConeAngle value="30.000000" />
+      <fVolumeIntensity value="1.000000" />
+      <fVolumeSizeScale value="1.000000" />
+      <fCoronaSize value="0.000000" />
+      <fCoronaIntensity value="1.000000" />
+      <fCoronaZBias value="0.100000" />
+      <fInnerConeAngle value="0.000000" />
+      <fExponentialFallOff value="0.500000" />
+      <fShadowBlur value="0.000000" />
+      <iLightType value="2" />
+      <iLightProperty value="0" />
+      <TextureDictID value="0" />
+      <TextureKey value="0" />
+      <uLightFlags value="257" />
+      <uHourFlags value="15728703" />
+      <bStatic value="true" />
+    </Item>
+    <Item type="rage__cutfLightObject">
+      <iObjectId value="11" />
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+        <maxrelposition type="0">-16.439819,-18.056580,-1.441444</maxrelposition>
+        <maxrelrotation type="0">0.239274,-0.081276,0.311191,0.916134</maxrelrotation>
+        <camera type="0">AutoClip2_MIC_3_EXT_P2</camera>
+      </attributeList>
+      <cutfAttributes>
+        <Items>
+          <Item type="cutf_string">
+            <Name>maxrelposition</Name>
+            <Value>-16.439819,-18.056580,-1.441444</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>maxrelrotation</Name>
+            <Value>0.239274,-0.081276,0.311191,0.916134</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>camera</Name>
+            <Value>AutoClip2_MIC_3_EXT_P2</Value>
+          </Item>
+        </Items>
+      </cutfAttributes>
+      <cName>n_AC2_MIC_3_EXT_P2_04</cName>
+      <vDirection x="-0.000000" y="0.488999" z="-0.872284" />
+      <vColour x="0.976471" y="0.917647" z="0.764706" />
+      <vPosition x="-16.439819" y="-18.056580" z="-1.441444" />
+      <fIntensity value="0.300000" />
+      <fFallOff value="3.550000" />
+      <fConeAngle value="63.599998" />
+      <fVolumeIntensity value="1.000000" />
+      <fVolumeSizeScale value="1.000000" />
+      <fCoronaSize value="0.000000" />
+      <fCoronaIntensity value="1.000000" />
+      <fCoronaZBias value="0.100000" />
+      <fInnerConeAngle value="0.000000" />
+      <fExponentialFallOff value="2.950000" />
+      <fShadowBlur value="0.000000" />
+      <iLightType value="2" />
+      <iLightProperty value="0" />
+      <TextureDictID value="0" />
+      <TextureKey value="0" />
+      <uLightFlags value="257" />
+      <uHourFlags value="15728703" />
+      <bStatic value="true" />
+    </Item>
+    <Item type="rage__cutfLightObject">
+      <iObjectId value="12" />
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+        <maxrelposition type="0">-16.232056,-17.410919,2.458179</maxrelposition>
+        <maxrelrotation type="0">0.628684,0.323660,0.320694,0.630203</maxrelrotation>
+        <camera type="0">AutoClip2_MIC_3_EXT_P2</camera>
+      </attributeList>
+      <cutfAttributes>
+        <Items>
+          <Item type="cutf_string">
+            <Name>maxrelposition</Name>
+            <Value>-16.232056,-17.410919,2.458179</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>maxrelrotation</Name>
+            <Value>0.628684,0.323660,0.320694,0.630203</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>camera</Name>
+            <Value>AutoClip2_MIC_3_EXT_P2</Value>
+          </Item>
+        </Items>
+      </cutfAttributes>
+      <cName>PED_AC2_MIC_3_EXT_P2_00</cName>
+      <vDirection x="-0.811173" y="0.584806" z="-0.000002" />
+      <vColour x="0.764706" y="0.894118" z="0.956863" />
+      <vPosition x="-16.232056" y="-17.410919" z="2.458179" />
+      <fIntensity value="0.025000" />
+      <fFallOff value="6.000000" />
+      <fConeAngle value="40.000000" />
+      <fVolumeIntensity value="1.000000" />
+      <fVolumeSizeScale value="1.000000" />
+      <fCoronaSize value="0.025000" />
+      <fCoronaIntensity value="1.000000" />
+      <fCoronaZBias value="0.100000" />
+      <fInnerConeAngle value="0.000000" />
+      <fExponentialFallOff value="3.000000" />
+      <fShadowBlur value="0.000000" />
+      <iLightType value="2" />
+      <iLightProperty value="0" />
+      <TextureDictID value="0" />
+      <TextureKey value="0" />
+      <uLightFlags value="4194305" />
+      <uHourFlags value="16777215" />
+      <bStatic value="true" />
+    </Item>
+    <Item type="rage__cutfLightObject">
+      <iObjectId value="13" />
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+        <maxrelposition type="0">-14.368286,-15.221588,-2.452263</maxrelposition>
+        <maxrelrotation type="0">0.127006,0.511459,0.844815,0.092554</maxrelrotation>
+        <camera type="0">AutoClip2_MIC_3_EXT_P2</camera>
+      </attributeList>
+      <cutfAttributes>
+        <Items>
+          <Item type="cutf_string">
+            <Name>maxrelposition</Name>
+            <Value>-14.368286,-15.221588,-2.452263</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>maxrelrotation</Name>
+            <Value>0.127006,0.511459,0.844815,0.092554</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>camera</Name>
+            <Value>AutoClip2_MIC_3_EXT_P2</Value>
+          </Item>
+        </Items>
+      </cutfAttributes>
+      <cName>d_AC2_MIC_3_EXT_P2_00</cName>
+      <vDirection x="-0.309269" y="-0.840667" z="-0.444558" />
+      <vColour x="0.788235" y="0.698039" z="0.968628" />
+      <vPosition x="-14.368286" y="-15.221588" z="-2.452263" />
+      <fIntensity value="0.200000" />
+      <fFallOff value="2.500000" />
+      <fConeAngle value="30.000000" />
+      <fVolumeIntensity value="1.000000" />
+      <fVolumeSizeScale value="1.000000" />
+      <fCoronaSize value="0.000000" />
+      <fCoronaIntensity value="1.000000" />
+      <fCoronaZBias value="0.100000" />
+      <fInnerConeAngle value="0.000000" />
+      <fExponentialFallOff value="0.500000" />
+      <fShadowBlur value="0.000000" />
+      <iLightType value="2" />
+      <iLightProperty value="0" />
+      <TextureDictID value="0" />
+      <TextureKey value="0" />
+      <uLightFlags value="768" />
+      <uHourFlags value="1048512" />
+      <bStatic value="true" />
+    </Item>
+    <Item type="rage__cutfLightObject">
+      <iObjectId value="14" />
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+        <maxrelposition type="0">-13.875854,-15.940826,-2.714642</maxrelposition>
+        <maxrelrotation type="0">0.376584,0.356185,0.662869,0.540298</maxrelrotation>
+        <camera type="0">AutoClip2_MIC_3_EXT_P2</camera>
+      </attributeList>
+      <cutfAttributes>
+        <Items>
+          <Item type="cutf_string">
+            <Name>maxrelposition</Name>
+            <Value>-13.875854,-15.940826,-2.714642</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>maxrelrotation</Name>
+            <Value>0.376584,0.356185,0.662869,0.540298</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>camera</Name>
+            <Value>AutoClip2_MIC_3_EXT_P2</Value>
+          </Item>
+        </Items>
+      </cutfAttributes>
+      <cName>d_AC2_MIC_3_EXT_P2_01</cName>
+      <vDirection x="-0.884144" y="-0.065273" z="-0.462634" />
+      <vColour x="0.972549" y="0.858824" z="0.619608" />
+      <vPosition x="-13.875854" y="-15.940826" z="-2.714642" />
+      <fIntensity value="0.350000" />
+      <fFallOff value="2.000000" />
+      <fConeAngle value="30.000000" />
+      <fVolumeIntensity value="1.000000" />
+      <fVolumeSizeScale value="1.000000" />
+      <fCoronaSize value="0.000000" />
+      <fCoronaIntensity value="1.000000" />
+      <fCoronaZBias value="0.100000" />
+      <fInnerConeAngle value="0.000000" />
+      <fExponentialFallOff value="1.720000" />
+      <fShadowBlur value="0.000000" />
+      <iLightType value="2" />
+      <iLightProperty value="0" />
+      <TextureDictID value="0" />
+      <TextureKey value="0" />
+      <uLightFlags value="768" />
+      <uHourFlags value="1048512" />
+      <bStatic value="true" />
+    </Item>
+    <Item type="rage__cutfLightObject">
+      <iObjectId value="15" />
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+        <maxrelposition type="0">-15.757568,-16.377777,-2.923725</maxrelposition>
+        <maxrelrotation type="0">-0.033864,0.499330,0.865324,-0.027165</maxrelrotation>
+        <camera type="0">AutoClip3_MIC_3_EXT_P2</camera>
+      </attributeList>
+      <cutfAttributes>
+        <Items>
+          <Item type="cutf_string">
+            <Name>maxrelposition</Name>
+            <Value>-15.757568,-16.377777,-2.923725</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>maxrelrotation</Name>
+            <Value>-0.033864,0.499330,0.865324,-0.027165</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>camera</Name>
+            <Value>AutoClip3_MIC_3_EXT_P2</Value>
+          </Item>
+        </Items>
+      </cutfAttributes>
+      <cName>n_AC3_MIC_3_EXT_P2_00</cName>
+      <vDirection x="0.085735" y="-0.862324" z="-0.499046" />
+      <vColour x="0.811765" y="0.698039" z="0.941177" />
+      <vPosition x="-15.757568" y="-16.377777" z="-2.923725" />
+      <fIntensity value="0.250000" />
+      <fFallOff value="2.500000" />
+      <fConeAngle value="30.000000" />
+      <fVolumeIntensity value="1.000000" />
+      <fVolumeSizeScale value="1.000000" />
+      <fCoronaSize value="0.000000" />
+      <fCoronaIntensity value="1.000000" />
+      <fCoronaZBias value="0.100000" />
+      <fInnerConeAngle value="0.000000" />
+      <fExponentialFallOff value="0.500000" />
+      <fShadowBlur value="0.000000" />
+      <iLightType value="2" />
+      <iLightProperty value="0" />
+      <TextureDictID value="0" />
+      <TextureKey value="0" />
+      <uLightFlags value="257" />
+      <uHourFlags value="15728703" />
+      <bStatic value="true" />
+    </Item>
+    <Item type="rage__cutfLightObject">
+      <iObjectId value="16" />
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+        <maxrelposition type="0">-15.055298,-14.394501,-2.099300</maxrelposition>
+        <maxrelrotation type="0">-0.024591,0.455058,0.890091,0.007499</maxrelrotation>
+        <camera type="0">AutoClip3_MIC_3_EXT_P2</camera>
+      </attributeList>
+      <cutfAttributes>
+        <Items>
+          <Item type="cutf_string">
+            <Name>maxrelposition</Name>
+            <Value>-15.055298,-14.394501,-2.099300</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>maxrelrotation</Name>
+            <Value>-0.024591,0.455058,0.890091,0.007499</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>camera</Name>
+            <Value>AutoClip3_MIC_3_EXT_P2</Value>
+          </Item>
+        </Items>
+      </cutfAttributes>
+      <cName>n_AC3_MIC_3_EXT_P2_01</cName>
+      <vDirection x="0.036952" y="-0.810454" z="-0.584635" />
+      <vColour x="0.976471" y="0.917647" z="0.764706" />
+      <vPosition x="-15.055298" y="-14.394501" z="-2.099300" />
+      <fIntensity value="1.000000" />
+      <fFallOff value="3.500000" />
+      <fConeAngle value="35.500000" />
+      <fVolumeIntensity value="1.000000" />
+      <fVolumeSizeScale value="1.000000" />
+      <fCoronaSize value="0.000000" />
+      <fCoronaIntensity value="1.000000" />
+      <fCoronaZBias value="0.100000" />
+      <fInnerConeAngle value="0.000000" />
+      <fExponentialFallOff value="2.460000" />
+      <fShadowBlur value="0.000000" />
+      <iLightType value="2" />
+      <iLightProperty value="0" />
+      <TextureDictID value="0" />
+      <TextureKey value="0" />
+      <uLightFlags value="257" />
+      <uHourFlags value="15728703" />
+      <bStatic value="true" />
+    </Item>
+    <Item type="rage__cutfLightObject">
+      <iObjectId value="17" />
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+        <maxrelposition type="0">-16.439819,-18.056580,-1.441444</maxrelposition>
+        <maxrelrotation type="0">0.239274,-0.081276,0.311191,0.916134</maxrelrotation>
+        <camera type="0">AutoClip3_MIC_3_EXT_P2</camera>
+      </attributeList>
+      <cutfAttributes>
+        <Items>
+          <Item type="cutf_string">
+            <Name>maxrelposition</Name>
+            <Value>-16.439819,-18.056580,-1.441444</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>maxrelrotation</Name>
+            <Value>0.239274,-0.081276,0.311191,0.916134</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>camera</Name>
+            <Value>AutoClip3_MIC_3_EXT_P2</Value>
+          </Item>
+        </Items>
+      </cutfAttributes>
+      <cName>n_AC3_MIC_3_EXT_P2_02</cName>
+      <vDirection x="-0.000000" y="0.488999" z="-0.872284" />
+      <vColour x="0.976471" y="0.917647" z="0.764706" />
+      <vPosition x="-16.439819" y="-18.056580" z="-1.441444" />
+      <fIntensity value="0.300000" />
+      <fFallOff value="3.550000" />
+      <fConeAngle value="63.599998" />
+      <fVolumeIntensity value="1.000000" />
+      <fVolumeSizeScale value="1.000000" />
+      <fCoronaSize value="0.000000" />
+      <fCoronaIntensity value="1.000000" />
+      <fCoronaZBias value="0.100000" />
+      <fInnerConeAngle value="0.000000" />
+      <fExponentialFallOff value="2.950000" />
+      <fShadowBlur value="0.000000" />
+      <iLightType value="2" />
+      <iLightProperty value="0" />
+      <TextureDictID value="0" />
+      <TextureKey value="0" />
+      <uLightFlags value="257" />
+      <uHourFlags value="15728703" />
+      <bStatic value="true" />
+    </Item>
+    <Item type="rage__cutfLightObject">
+      <iObjectId value="18" />
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+        <maxrelposition type="0">-16.232056,-17.410919,2.458179</maxrelposition>
+        <maxrelrotation type="0">-0.089776,0.701384,0.701800,-0.086470</maxrelrotation>
+        <camera type="0">AutoClip3_MIC_3_EXT_P2</camera>
+      </attributeList>
+      <cutfAttributes>
+        <Items>
+          <Item type="cutf_string">
+            <Name>maxrelposition</Name>
+            <Value>-16.232056,-17.410919,2.458179</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>maxrelrotation</Name>
+            <Value>-0.089776,0.701384,0.701800,-0.086470</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>camera</Name>
+            <Value>AutoClip3_MIC_3_EXT_P2</Value>
+          </Item>
+        </Items>
+      </cutfAttributes>
+      <cName>PED_AC3_MIC_3_EXT_P2_00</cName>
+      <vDirection x="0.247307" y="-0.968937" z="-0.000001" />
+      <vColour x="0.764706" y="0.894118" z="0.956863" />
+      <vPosition x="-16.232056" y="-17.410919" z="2.458179" />
+      <fIntensity value="0.010000" />
+      <fFallOff value="6.000000" />
+      <fConeAngle value="40.000000" />
+      <fVolumeIntensity value="1.000000" />
+      <fVolumeSizeScale value="1.000000" />
+      <fCoronaSize value="0.000000" />
+      <fCoronaIntensity value="1.000000" />
+      <fCoronaZBias value="0.100000" />
+      <fInnerConeAngle value="0.000000" />
+      <fExponentialFallOff value="3.000000" />
+      <fShadowBlur value="0.000000" />
+      <iLightType value="2" />
+      <iLightProperty value="0" />
+      <TextureDictID value="0" />
+      <TextureKey value="0" />
+      <uLightFlags value="4194304" />
+      <uHourFlags value="16777215" />
+      <bStatic value="true" />
+    </Item>
+    <Item type="rage__cutfLightObject">
+      <iObjectId value="19" />
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+        <maxrelposition type="0">-12.872192,-13.944977,-1.677811</maxrelposition>
+        <maxrelrotation type="0">-0.024591,0.455058,0.890091,0.007499</maxrelrotation>
+        <camera type="0">AutoClip3_MIC_3_EXT_P2</camera>
+      </attributeList>
+      <cutfAttributes>
+        <Items>
+          <Item type="cutf_string">
+            <Name>maxrelposition</Name>
+            <Value>-12.872192,-13.944977,-1.677811</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>maxrelrotation</Name>
+            <Value>-0.024591,0.455058,0.890091,0.007499</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>camera</Name>
+            <Value>AutoClip3_MIC_3_EXT_P2</Value>
+          </Item>
+        </Items>
+      </cutfAttributes>
+      <cName>d_AC3_MIC_3_EXT_P2_00</cName>
+      <vDirection x="0.036952" y="-0.810454" z="-0.584635" />
+      <vColour x="0.976471" y="0.917647" z="0.764706" />
+      <vPosition x="-12.872192" y="-13.944977" z="-1.677811" />
+      <fIntensity value="0.150000" />
+      <fFallOff value="5.000000" />
+      <fConeAngle value="35.500000" />
+      <fVolumeIntensity value="1.000000" />
+      <fVolumeSizeScale value="1.000000" />
+      <fCoronaSize value="0.000000" />
+      <fCoronaIntensity value="1.000000" />
+      <fCoronaZBias value="0.100000" />
+      <fInnerConeAngle value="0.000000" />
+      <fExponentialFallOff value="2.460000" />
+      <fShadowBlur value="0.000000" />
+      <iLightType value="2" />
+      <iLightProperty value="0" />
+      <TextureDictID value="0" />
+      <TextureKey value="0" />
+      <uLightFlags value="768" />
+      <uHourFlags value="1048512" />
+      <bStatic value="true" />
+    </Item>
+    <Item type="rage__cutfLightObject">
+      <iObjectId value="20" />
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+        <maxrelposition type="0">-19.673950,-16.410583,-1.085033</maxrelposition>
+        <maxrelrotation type="0">-0.300362,0.394492,0.659740,-0.564714</maxrelrotation>
+        <camera type="0">AutoClip4_MIC_3_EXT_P2</camera>
+      </attributeList>
+      <cutfAttributes>
+        <Items>
+          <Item type="cutf_string">
+            <Name>maxrelposition</Name>
+            <Value>-19.673950,-16.410583,-1.085033</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>maxrelrotation</Name>
+            <Value>-0.300362,0.394492,0.659740,-0.564714</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>camera</Name>
+            <Value>AutoClip4_MIC_3_EXT_P2</Value>
+          </Item>
+        </Items>
+      </cutfAttributes>
+      <cName>n_AC4_MIC_3_EXT_P2_01</cName>
+      <vDirection x="0.841872" y="-0.181287" z="-0.508317" />
+      <vColour x="0.317647" y="0.564706" z="0.933334" />
+      <vPosition x="-19.673950" y="-16.410583" z="-1.085033" />
+      <fIntensity value="1.000000" />
+      <fFallOff value="6.000000" />
+      <fConeAngle value="25.000000" />
+      <fVolumeIntensity value="1.000000" />
+      <fVolumeSizeScale value="1.000000" />
+      <fCoronaSize value="0.000000" />
+      <fCoronaIntensity value="1.000000" />
+      <fCoronaZBias value="0.100000" />
+      <fInnerConeAngle value="0.000000" />
+      <fExponentialFallOff value="0.500000" />
+      <fShadowBlur value="0.000000" />
+      <iLightType value="2" />
+      <iLightProperty value="0" />
+      <TextureDictID value="0" />
+      <TextureKey value="0" />
+      <uLightFlags value="257" />
+      <uHourFlags value="15728703" />
+      <bStatic value="true" />
+    </Item>
+    <Item type="rage__cutfLightObject">
+      <iObjectId value="21" />
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+        <maxrelposition type="0">-15.055298,-14.394501,-2.099300</maxrelposition>
+        <maxrelrotation type="0">-0.038584,0.454086,0.889900,-0.019898</maxrelrotation>
+        <camera type="0">AutoClip4_MIC_3_EXT_P2</camera>
+      </attributeList>
+      <cutfAttributes>
+        <Items>
+          <Item type="cutf_string">
+            <Name>maxrelposition</Name>
+            <Value>-15.055298,-14.394501,-2.099300</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>maxrelrotation</Name>
+            <Value>-0.038584,0.454086,0.889900,-0.019898</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>camera</Name>
+            <Value>AutoClip4_MIC_3_EXT_P2</Value>
+          </Item>
+        </Items>
+      </cutfAttributes>
+      <cName>n_AC4_MIC_3_EXT_P2_02</cName>
+      <vDirection x="0.086742" y="-0.806646" z="-0.584635" />
+      <vColour x="0.976471" y="0.917647" z="0.764706" />
+      <vPosition x="-15.055298" y="-14.394501" z="-2.099300" />
+      <fIntensity value="1.000000" />
+      <fFallOff value="3.000000" />
+      <fConeAngle value="25.000000" />
+      <fVolumeIntensity value="1.000000" />
+      <fVolumeSizeScale value="1.000000" />
+      <fCoronaSize value="0.000000" />
+      <fCoronaIntensity value="1.000000" />
+      <fCoronaZBias value="0.100000" />
+      <fInnerConeAngle value="0.000000" />
+      <fExponentialFallOff value="0.500000" />
+      <fShadowBlur value="0.000000" />
+      <iLightType value="2" />
+      <iLightProperty value="0" />
+      <TextureDictID value="0" />
+      <TextureKey value="0" />
+      <uLightFlags value="257" />
+      <uHourFlags value="15728703" />
+      <bStatic value="true" />
+    </Item>
+    <Item type="rage__cutfLightObject">
+      <iObjectId value="22" />
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+        <maxrelposition type="0">-19.673950,-16.410583,-0.516315</maxrelposition>
+        <maxrelrotation type="0">-0.290252,0.401989,0.673861,-0.547787</maxrelrotation>
+        <camera type="0">AutoClip4_MIC_3_EXT_P2</camera>
+      </attributeList>
+      <cutfAttributes>
+        <Items>
+          <Item type="cutf_string">
+            <Name>maxrelposition</Name>
+            <Value>-19.673950,-16.410583,-0.516315</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>maxrelrotation</Name>
+            <Value>-0.290252,0.401989,0.673861,-0.547787</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>camera</Name>
+            <Value>AutoClip4_MIC_3_EXT_P2</Value>
+          </Item>
+        </Items>
+      </cutfAttributes>
+      <cName>n_AC4_MIC_3_EXT_P2_00</cName>
+      <vDirection x="0.831587" y="-0.223777" z="-0.508317" />
+      <vColour x="0.976471" y="0.917647" z="0.764706" />
+      <vPosition x="-19.673950" y="-16.410583" z="-0.516315" />
+      <fIntensity value="0.900000" />
+      <fFallOff value="6.500000" />
+      <fConeAngle value="25.000000" />
+      <fVolumeIntensity value="1.000000" />
+      <fVolumeSizeScale value="1.000000" />
+      <fCoronaSize value="0.000000" />
+      <fCoronaIntensity value="1.000000" />
+      <fCoronaZBias value="0.100000" />
+      <fInnerConeAngle value="0.000000" />
+      <fExponentialFallOff value="2.030000" />
+      <fShadowBlur value="0.000000" />
+      <iLightType value="2" />
+      <iLightProperty value="0" />
+      <TextureDictID value="0" />
+      <TextureKey value="0" />
+      <uLightFlags value="257" />
+      <uHourFlags value="15728703" />
+      <bStatic value="true" />
+    </Item>
+    <Item type="rage__cutfLightObject">
+      <iObjectId value="23" />
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+        <maxrelposition type="0">-17.365479,-17.867065,-1.441444</maxrelposition>
+        <maxrelrotation type="0">0.000000,0.000000,0.096252,0.995357</maxrelrotation>
+        <camera type="0">OnAllTime</camera>
+      </attributeList>
+      <cutfAttributes>
+        <Items>
+          <Item type="cutf_string">
+            <Name>maxrelposition</Name>
+            <Value>-17.365479,-17.867065,-1.441444</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>maxrelrotation</Name>
+            <Value>0.000000,0.000000,0.096252,0.995357</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>camera</Name>
+            <Value>OnAllTime</Value>
+          </Item>
+        </Items>
+      </cutfAttributes>
+      <cName>ONAT_MIC_3_EXT_P2_00</cName>
+      <vDirection x="0.000000" y="0.000000" z="-1.000000" />
+      <vColour x="0.976471" y="0.917647" z="0.764706" />
+      <vPosition x="-17.365479" y="-17.867065" z="-1.441444" />
+      <fIntensity value="0.300000" />
+      <fFallOff value="3.500000" />
+      <fConeAngle value="63.599998" />
+      <fVolumeIntensity value="1.000000" />
+      <fVolumeSizeScale value="1.000000" />
+      <fCoronaSize value="0.000000" />
+      <fCoronaIntensity value="1.000000" />
+      <fCoronaZBias value="0.100000" />
+      <fInnerConeAngle value="0.000000" />
+      <fExponentialFallOff value="2.950000" />
+      <fShadowBlur value="0.000000" />
+      <iLightType value="2" />
+      <iLightProperty value="0" />
+      <TextureDictID value="0" />
+      <TextureKey value="0" />
+      <uLightFlags value="0" />
+      <uHourFlags value="15728703" />
+      <bStatic value="true" />
+    </Item>
+    <Item type="rage__cutfLightObject">
+      <iObjectId value="24" />
+      <attributeList>
+        <UserData1 value="0" />
+        <UserData2 value="0" />
+        <maxrelposition type="0">-14.725586,-7.015228,-1.653687</maxrelposition>
+        <maxrelrotation type="0">0.000000,-0.234112,0.000000,0.972210</maxrelrotation>
+        <camera type="0">OnAllTime</camera>
+      </attributeList>
+      <cutfAttributes>
+        <Items>
+          <Item type="cutf_string">
+            <Name>maxrelposition</Name>
+            <Value>-14.725586,-7.015228,-1.653687</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>maxrelrotation</Name>
+            <Value>0.000000,-0.234112,0.000000,0.972210</Value>
+          </Item>
+          <Item type="cutf_string">
+            <Name>camera</Name>
+            <Value>OnAllTime</Value>
+          </Item>
+        </Items>
+      </cutfAttributes>
+      <cName>ONAT_MIC_3_EXT_P2_01</cName>
+      <vDirection x="0.455212" y="0.000000" z="-0.890383" />
+      <vColour x="0.956863" y="0.862745" z="0.776471" />
+      <vPosition x="-14.725586" y="-7.015228" z="-1.653687" />
+      <fIntensity value="0.200000" />
+      <fFallOff value="9.100000" />
+      <fConeAngle value="59.000000" />
+      <fVolumeIntensity value="1.000000" />
+      <fVolumeSizeScale value="1.000000" />
+      <fCoronaSize value="0.000000" />
+      <fCoronaIntensity value="1.000000" />
+      <fCoronaZBias value="0.100000" />
+      <fInnerConeAngle value="0.000000" />
+      <fExponentialFallOff value="1.880000" />
+      <fShadowBlur value="0.000000" />
+      <iLightType value="2" />
+      <iLightProperty value="0" />
+      <TextureDictID value="0" />
+      <TextureKey value="0" />
+      <uLightFlags value="0" />
+      <uHourFlags value="15728703" />
+      <bStatic value="true" />
+    </Item>
+  </pCutsceneObjects>
+  <pCutsceneLoadEventList />
+  <pCutsceneEventList>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="0.000000" />
+      <iEventId value="74" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="0" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="0.000000" />
+      <iEventId value="74" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="1" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="0.000000" />
+      <iEventId value="74" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="2" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="0.000000" />
+      <iEventId value="74" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="3" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="0.000000" />
+      <iEventId value="74" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="4" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="0.000000" />
+      <iEventId value="74" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="5" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="0.000000" />
+      <iEventId value="74" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="6" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="0.000000" />
+      <iEventId value="74" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="23" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="0.000000" />
+      <iEventId value="74" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="24" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="2.650000" />
+      <iEventId value="75" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="0" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="2.650000" />
+      <iEventId value="75" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="1" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="2.650000" />
+      <iEventId value="75" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="2" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="2.650000" />
+      <iEventId value="75" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="3" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="2.650000" />
+      <iEventId value="75" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="4" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="2.650000" />
+      <iEventId value="75" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="5" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="2.650000" />
+      <iEventId value="75" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="6" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="2.650000" />
+      <iEventId value="74" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="7" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="2.650000" />
+      <iEventId value="74" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="8" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="2.650000" />
+      <iEventId value="74" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="9" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="2.650000" />
+      <iEventId value="74" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="10" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="2.650000" />
+      <iEventId value="74" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="11" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="2.650000" />
+      <iEventId value="74" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="12" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="2.650000" />
+      <iEventId value="74" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="13" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="2.650000" />
+      <iEventId value="74" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="14" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="4.983333" />
+      <iEventId value="75" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="7" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="4.983333" />
+      <iEventId value="75" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="8" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="4.983333" />
+      <iEventId value="75" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="9" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="4.983333" />
+      <iEventId value="75" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="10" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="4.983333" />
+      <iEventId value="75" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="11" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="4.983333" />
+      <iEventId value="75" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="12" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="4.983333" />
+      <iEventId value="75" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="13" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="4.983333" />
+      <iEventId value="75" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="14" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="4.983333" />
+      <iEventId value="74" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="15" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="4.983333" />
+      <iEventId value="74" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="16" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="4.983333" />
+      <iEventId value="74" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="17" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="4.983333" />
+      <iEventId value="74" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="18" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="4.983333" />
+      <iEventId value="74" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="19" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="8.083334" />
+      <iEventId value="75" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="15" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="8.083334" />
+      <iEventId value="75" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="16" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="8.083334" />
+      <iEventId value="75" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="17" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="8.083334" />
+      <iEventId value="75" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="18" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="8.083334" />
+      <iEventId value="75" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="19" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="8.083334" />
+      <iEventId value="74" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="20" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="8.083334" />
+      <iEventId value="74" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="21" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="8.083334" />
+      <iEventId value="74" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="22" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="13.799999" />
+      <iEventId value="75" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="23" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="13.799999" />
+      <iEventId value="75" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="24" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="13.800000" />
+      <iEventId value="75" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="20" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="13.800000" />
+      <iEventId value="75" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="21" />
+    </Item>
+    <Item type="rage__cutfObjectIdEvent">
+      <fTime value="13.800000" />
+      <iEventId value="75" />
+      <iEventArgsIndex value="-1" />
+      <pChildEvents type="NULL" />
+      <StickyId value="0" />
+      <IsChild value="false" />
+      <iObjectId value="22" />
+    </Item>
+  </pCutsceneEventList>
+  <pCutsceneEventArgsList />
+  <attributes>
+    <UserData1 value="0" />
+    <UserData2 value="0" />
+  </attributes>
+  <cutfAttributes type="NULL" />
+  <iRangeStart value="0" />
+  <iRangeEnd value="413" />
+  <iAltRangeEnd value="0" />
+  <fSectionByTimeSliceDuration value="4.000000" />
+  <fFadeOutCutsceneDuration value="0.800000" />
+  <fFadeInGameDuration value="0.800000" />
+  <fadeInColor value="0xFF000000" />
+  <iBlendOutCutsceneDuration value="0" />
+  <iBlendOutCutsceneOffset value="0" />
+  <fFadeOutGameDuration value="0.800000" />
+  <fFadeInCutsceneDuration value="0.800000" />
+  <fadeOutColor value="0xFF000000" />
+  <DayCoCHours value="2097088" />
+  <cameraCutList content="float_array" />
+  <sectionSplitList content="float_array" />
+  <concatDataList>
+    <Item>
+      <cSceneName>Shot_1</cSceneName>
+      <vOffset x="-1445.140015" y="-364.130005" z="42.590000" />
+      <fStartTime value="0.000000" />
+      <fRotation value="0.000000" />
+      <fPitch value="0.000000" />
+      <fRoll value="0.000000" />
+      <iRangeStart value="165" />
+      <iRangeEnd value="578" />
+      <bValidForPlayBack value="true" />
+    </Item>
+  </concatDataList>
+  <discardFrameList>
+    <Item>
+      <cSceneName>Shot_1</cSceneName>
+      <frames content="int_array">
+        245 
+        260 
+      </frames>
+    </Item>
+  </discardFrameList>
+</rage__cutfCutsceneFile2>

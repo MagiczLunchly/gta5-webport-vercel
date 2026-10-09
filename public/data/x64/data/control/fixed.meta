@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rage__ControlInput__ControlSettings>
+	<Mappings>
+		<!--    ON FOOT MOUSE -->
+
+		<Item>
+			<Input>INPUT_WEAPON_WHEEL_LR</Input>
+			<Source>IOMS_MOUSE_NORMALIZED</Source>
+			<Parameters>
+				<Item>IOM_AXIS_X</Item>
+			</Parameters>
+		</Item>
+
+		<Item>
+			<Input>INPUT_WEAPON_WHEEL_UD</Input>
+			<Source>IOMS_MOUSE_NORMALIZED</Source>
+			<Parameters>
+				<Item>IOM_AXIS_Y</Item>
+			</Parameters>
+		</Item>
+
+		<Item>
+			<Input>INPUT_LOOK_LEFT_ONLY</Input>
+			<Source>IOMS_MOUSE_SCALEDAXIS</Source>
+			<Parameters>
+				<Item>IOM_AXIS_X_LEFT</Item>
+			</Parameters>
+		</Item>
+
+		<Item>
+			<Input>INPUT_LOOK_RIGHT_ONLY</Input>
+			<Source>IOMS_MOUSE_SCALEDAXIS</Source>
+			<Parameters>
+				<Item>IOM_AXIS_X_RIGHT</Item>
+			</Parameters>
+		</Item>
+
+		<!-- IN PLANE / CHOPPER -->
+
+		<!-- IN_VEHICLE GENERAL KEYBOARD -->
+
+		<!-- IN_VEHICLE GENERAL MOUSE -->
+		<Item>
+			<Input>INPUT_VEH_GUN_LR</Input>
+			<Source>IOMS_MOUSE_SCALEDAXIS</Source>
+			<Parameters>
+				<Item>IOM_AXIS_X</Item>
+			</Parameters>
+		</Item>
+
+		<!-- FRONTEND -->
+		<Item>
+			<Input>INPUT_FRONTEND_PAUSE</Input>
+			<Source>IOMS_KEYBOARD</Source>
+			<Parameters>
+				<Item>KEY_ESCAPE</Item>
+			</Parameters>
+		</Item>
+
+		<Item>
+			<Input>INPUT_FRONTEND_SELECT</Input>
+			<Source>IOMS_KEYBOARD</Source>
+			<Parameters>
+				<Item>KEY_CAPITAL</Item>
+			</Parameters>
+		</Item>
+
+
+		<Item>
+			<Input>INPUT_FRONTEND_UP</Input>
+			<Source>IOMS_KEYBOARD</Source>
+			<Parameters>
+				<Item>KEY_UP</Item>
+			</Parameters>
+		</Item>
+
+		<Item>
+			<Input>INPUT_FRONTEND_DOWN</Input>
+			<Source>IOMS_KEYBOARD</Source>
+			<Parameters>
+				<Item>KEY_DOWN</Item>
+			</Parameters>
+		</Item>
+
+		<Item>
+			<Input>INPUT_FRONTEND_LEFT</Input>
+			<Source>IOMS_KEYBOARD</Source>
+			<Parameters>
+				<Item>KEY_LEFT</Item>
+			</Parameters>
+		</Item>
+
+		<Item>
+			<Input>INPUT_FRONTEND_RIGHT</Input>
+			<Source>IOMS_KEYBOARD</Source>
+			<Parameters>
+				<Item>KEY_RIGHT</Item>
+			</Parameters>
+		</Item>
+
+		<Item>
+			<Input>INPUT_FRONTEND_ACCEPT</Input>
+			<Source>IOMS_KEYBOARD</Source>
+			<Parameters>
+				<Item>KEY_RETURN</Item>
+			</Parameters>
+		</Item>
+
+		<Item>
+			<Input>INPUT_FRONTEND_CANCEL</Input>
+			<Source>IOMS_KEYBOARD</Source>
+			<Parameters>
+				<Item>KEY_BACK</Item>
+			</Parameters>
+		</Item>
+		<Item>
+			<Input>INPUT_FRONTEND_CANCEL</Input>
+			<Source>IOMS_KEYBOARD</Source>
+			<Parameters>
+				<Item>KEY_ESCAPE</Item>
+			</Parameters>
+		</Item>
+
+		<Item>
+			<Input>INPUT_FRONTEND_X</Input>
+			<Source>IOMS_KEYBOARD</Source>
+			<Parameters>
+				<Item>KEY_SPACE</Item>
+			</Parameters>
+		</Item>
+
+		<Item>
+			<Input>INPUT_FRONTEND_Y</Input>
+			<Source>IOMS_KEYBOARD</Source>
+			<Parameters>
+				<Item>KEY_TAB</Item>
+			</Parameters>
+		</Item>
+
+		<Item>
+			<Input>INPUT_FRONTEND_LT</Input>
+			<Source>IOMS_KEYBOARD</Source>
+			<Parameters>
+				<Item>KEY_PAGEDOWN</Item>
+			</Parameters>
+		</Item>
+
+		<Item>
+			<Input>INPUT_FRONTEND_RT</Input>
+			<Source>IOMS_KEYBOARD</Source>
+			<Parameters>
+				<Item>KEY_PAGEUP</Item>
+			</Parameters>
+		</Item>
+
+		<Item>
+			<Input>INPUT_FRONTEND_LB</Input>
+			<Source>IOMS_KEYBOARD</Source>
+			<Parameters>
+				<Item>KEY_Q</Item>
+			</Parameters>
+		</Item>
+
+		<Item>
+			<Input>INPUT_FRONTEND_RB</Input>
+			<Source>IOMS_KEYBOARD</Source>
+			<Parameters>
+				<Item>KEY_E</Item>
+			</Parameters>
+		</Item>
+
+		<Item>
+			<Input>INPUT_FRONTEND_LS</Input>
+			<Source>IOMS_KEYBOARD</Source>
+			<Parameters>
+				<Item>KEY_LSHIFT</Item>
+			</Parameters>
+		</Item>
+
+		<Item>
+			<Input>INPUT_FRONTEND_RS</Input>
+			<Source>IOMS_KEYBOARD</Source>
+			<Parameters>
+				<Item>KEY_LCONTROL</Item>
+			</Parameters>
+		</Item>
+
+		<Item>
+
+			<Input>INPUT_FRONTEND_AXIS_X</Input>
+			<Source>IOMS_MKB_AXIS</Source>
+			<Parameters>
+				<Item>KEY_D</Item>
+				<Item>KEY_A</Item>
+			</Parameters>
+		</Item>
+
+		<Item>
+			<Input>INPUT_FRONTEND_AXIS_Y</Input>
+			<Source>IOMS_MKB_AXIS</Source>
+			<Parameters>
+				<Item>KEY_S</Item>
+				<Item>KEY_W</Item>
+			</Parameters>
+		</Item>
+
+		<Item>
+			<Input>INPUT_CURSOR_ACCEPT</Input>
+			<Source>IOMS_MOUSE_BUTTON</Source>
+			<Parameters>
+				<Item>MOUSE_LEFT</Item>
+			</Parameters>
+		 </Item>
+		 <Item>
+			<Input>INPUT_CURSOR_CANCEL</Input>
+			<Source>IOMS_MOUSE_BUTTON</Source>
+			<Parameters>
+				<Item>MOUSE_RIGHT</Item>
+			</Parameters>
+		 </Item>
+		<Item>
+			<Input>INPUT_CURSOR_X</Input>
+			<Source>IOMS_MOUSE_ABSOLUTEAXIS</Source>
+			<Parameters>
+				<Item>IOM_AXIS_X</Item>
+			</Parameters>
+		 </Item>
+		<Item>
+			<Input>INPUT_CURSOR_Y</Input>
+			<Source>IOMS_MOUSE_ABSOLUTEAXIS</Source>
+			<Parameters>
+				<Item>IOM_AXIS_Y</Item>
+			</Parameters>
+		 </Item>
+		 <Item>
+			<Input>INPUT_CURSOR_SCROLL_UP</Input>
+			<Source>IOMS_MOUSE_WHEEL</Source>
+			<Parameters>
+				<Item>IOM_WHEEL_UP</Item>
+			</Parameters>
+		 </Item>
+		  <Item>
+			<Input>INPUT_CURSOR_SCROLL_DOWN</Input>
+			<Source>IOMS_MOUSE_WHEEL</Source>
+			<Parameters>
+				<Item>IOM_WHEEL_DOWN</Item>
+			</Parameters>
+		 </Item>
+		 <Item>
+		<Input>INPUT_FRONTEND_RIGHT_AXIS_Y</Input>
+			<Source>IOMS_MOUSE_WHEEL</Source>
+			<Parameters>
+				<Item>IOM_AXIS_WHEEL_DELTA</Item>
+			</Parameters>
+		 </Item>
+		 <Item>
+		 <Input>INPUT_FRONTEND_RIGHT_AXIS_X</Input>
+			<Source>IOMS_MKB_AXIS</Source>
+			<Parameters>
+				<Item>KEY_RBRACKET</Item>
+				<Item>KEY_LBRACKET</Item>
+			</Parameters>
+		 </Item>
+
+		<!-- Cutscene skipping.	All the controls normally used to skip cutscenes covered -->
+
+		<Item>
+			<Input>INPUT_SKIP_CUTSCENE</Input>
+			<Source>IOMS_MOUSE_BUTTON</Source>
+			<Parameters>
+				<Item>MOUSE_LEFT</Item>
+			</Parameters>
+		 </Item>
+
+		<Item>
+			<Input>INPUT_SKIP_CUTSCENE</Input>
+			<Source>IOMS_KEYBOARD</Source>
+			<Parameters>
+				<Item>KEY_SPACE</Item>
+			</Parameters>
+		</Item>
+
+		<Item>
+			<Input>INPUT_SKIP_CUTSCENE</Input>
+			<Source>IOMS_KEYBOARD</Source>
+			<Parameters>
+				<Item>KEY_RETURN</Item>
+			</Parameters>
+		</Item>
+
+		<!-- Replay Editor Keyboard inputs -->
+		<Item>
+			<Input>INPUT_REPLAY_MARKER_DELETE</Input>
+			<Source>IOMS_KEYBOARD</Source>
+			<Parameters>
+				<Item>KEY_DELETE</Item>
+			</Parameters>
+		</Item>
+
+		<Item>
+			<Input>INPUT_REPLAY_PAUSE</Input>
+			<Source>IOMS_KEYBOARD</Source>
+			<Parameters>
+				<Item>KEY_SPACE</Item>
+			</Parameters>
+		</Item>
+
+		<Item>
+			<Input>INPUT_REPLAY_REWIND</Input>
+			<Source>IOMS_KEYBOARD</Source>
+			<Parameters>
+				<Item>KEY_LEFT</Item>
+			</Parameters>
+		</Item>
+
+
+		<Item>
+			<Input>INPUT_REPLAY_FFWD</Input>
+			<Source>IOMS_KEYBOARD</Source>
+			<Parameters>
+				<Item>KEY_RIGHT</Item>
+			</Parameters>
+		</Item>
+
+		<Item>
+			<Input>INPUT_REPLAY_NEWMARKER</Input>
+			<Source>IOMS_KEYBOARD</Source>
+			<Parameters>
+				<Item>KEY_M</Item>
+			</Parameters>
+		</Item>
+
+		<Item>
+			<Input>INPUT_REPLAY_RECORD</Input>
+			<Source>IOMS_KEYBOARD</Source>
+			<Parameters>
+				<Item>KEY_S</Item>
+			</Parameters>
+		</Item>
+
+		<Item>
+			<Input>INPUT_REPLAY_SCREENSHOT</Input>
+			<Source>IOMS_KEYBOARD</Source>
+			<Parameters>
+				<Item>KEY_U</Item>
+			</Parameters>
+		</Item>
+
+		<Item>
+			<Input>INPUT_REPLAY_HIDEHUD</Input>
+			<Source>IOMS_KEYBOARD</Source>
+			<Parameters>
+				<Item>KEY_H</Item>
+			</Parameters>
+		</Item>
+
+
+		<Item>
+			<Input>INPUT_REPLAY_STARTPOINT</Input>
+			<Source>IOMS_KEYBOARD</Source>
+			<Parameters>
+				<Item>KEY_LBRACKET</Item>
+			</Parameters>
+		</Item>
+
+		<Item>
+			<Input>INPUT_REPLAY_ENDPOINT</Input>
+			<Source>IOMS_KEYBOARD</Source>
+			<Parameters>
+				<Item>KEY_RBRACKET</Item>
+			</Parameters>
+		</Item>
+
+		<Item>
+			<Input>INPUT_REPLAY_ADVANCE</Input>
+			<Source>IOMS_KEYBOARD</Source>
+			<Parameters>
+				<Item>KEY_UP</Item>
+			</Parameters>
+		</Item>
+
+		<Item>
+			<Input>INPUT_REPLAY_BACK</Input>
+			<Source>IOMS_KEYBOARD</Source>
+			<Parameters>
+				<Item>KEY_DOWN</Item>
+			</Parameters>
+		</Item>
+
+		<Item>
+			<Input>INPUT_REPLAY_TOOLS</Input>
+			<Source>IOMS_KEYBOARD</Source>
+			<Parameters>
+				<Item>KEY_T</Item>
+			</Parameters>
+		</Item>
+
+		<Item>
+			<Input>INPUT_REPLAY_RESTART</Input>
+			<Source>IOMS_KEYBOARD</Source>
+			<Parameters>
+				<Item>KEY_B</Item>
+			</Parameters>
+		</Item>
+
+		<Item>
+			<Input>INPUT_REPLAY_SHOWHOTKEY</Input>
+			<Source>IOMS_KEYBOARD</Source>
+			<Parameters>
+				<Item>KEY_K</Item>
+			</Parameters>
+		</Item>
+
+		<Item>
+			<Input>INPUT_REPLAY_CYCLEMARKERLEFT</Input>
+			<Source>IOMS_KEYBOARD</Source>
+			<Parameters>
+				<Item>KEY_COMMA</Item>
+			</Parameters>
+		</Item>
+
+		<Item>
+			<Input>INPUT_REPLAY_CYCLEMARKERRIGHT</Input>
+			<Source>IOMS_KEYBOARD</Source>
+			<Parameters>
+				<Item>KEY_PERIOD</Item>
+			</Parameters>
+		</Item>
+
+		<Item>
+			<Input>INPUT_REPLAY_FOVINCREASE</Input>
+			<Source>IOMS_KEYBOARD</Source>
+			<Parameters>
+				<Item>KEY_ADD</Item>
+			</Parameters>
+		</Item>
+
+		<Item>
+			<Input>INPUT_REPLAY_FOVDECREASE</Input>
+			<Source>IOMS_KEYBOARD</Source>
+			<Parameters>
+				<Item>KEY_SUBTRACT</Item>
+			</Parameters>
+		</Item>
+
+		<Item>
+			<Input>INPUT_REPLAY_CAMERAUP</Input>
+			<Source>IOMS_KEYBOARD</Source>
+			<Parameters>
+				<Item>KEY_PAGEUP</Item>
+			</Parameters>
+		</Item>
+
+		<Item>
+			<Input>INPUT_REPLAY_CAMERADOWN</Input>
+			<Source>IOMS_KEYBOARD</Source>
+			<Parameters>
+				<Item>KEY_PAGEDOWN</Item>
+			</Parameters>
+		</Item>
+
+		<Item>
+			<Input>INPUT_REPLAY_SAVE</Input>
+			<Source>IOMS_KEYBOARD</Source>
+			<Parameters>
+				<Item>KEY_F5</Item>
+			</Parameters>
+		</Item>
+
+		<!--m_FrontendMap.Map(IOMS_PAD_DIGITALBUTTON,	ioPad::RLEFT,		m_inputs[INPUT_REPLAY_PREVIEW]); -->
+		<Item>
+			<Input>INPUT_REPLAY_PREVIEW</Input>
+			<Source>IOMS_KEYBOARD</Source>
+			<Parameters>
+				<Item>KEY_SPACE</Item>
+			</Parameters>
+		</Item>
+
+		<Item>
+			<Input>INPUT_REPLAY_TOGGLETIME</Input>
+			<Source>IOMS_KEYBOARD</Source>
+			<Parameters>
+				<Item>KEY_C</Item>
+			</Parameters>
+		</Item>
+
+		<Item>
+			<Input>INPUT_REPLAY_TOGGLETIPS</Input>
+			<Source>IOMS_KEYBOARD</Source>
+			<Parameters>
+				<Item>KEY_V</Item>
+			</Parameters>
+		</Item>
+
+		<Item>
+			<Input>INPUT_ENTER_CHEAT_CODE</Input>
+			<Source>IOMS_KEYBOARD</Source>
+			<Parameters>
+				<Item>KEY_GRAVE</Item>
+			</Parameters>
+		</Item>
+
+	</Mappings>
+</rage__ControlInput__ControlSettings>

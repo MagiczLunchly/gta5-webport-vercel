@@ -1,0 +1,21 @@
+##########################################################
+## IMPORTANT                                            ##
+##########################################################
+## THIS DATA FILE IS FORMATTED WITH TABS OF SIZE 4		##
+## AND SHOULD BE VIEWED IN VISUAL STUDIO OR NOTEPAD++	##
+##########################################################
+
+# FIRST MATERIAL			name of the first material in the pair
+# SECOND MATERIAL			name of the second material in the pair
+
+# COMBINED FRICTION			the final friction of contacts between objects of the first and second material 
+# COMBINED ELASTICITY		the final elasticity of contacts between objects of the first and second material
+
+# NOTES:
+#	The order of the names doesn't matter.
+#	Friction or elasticity of -1 means the value will be calculated in game normally, based on the LOAD TIME properties of the two materials. 
+
+#
+# FIRST MATERIAL					SECOND MATERIAL								COMBINED FRICTION		COMBINED ELASTICITY			
+# -------------------------------------------------------------------------------------------------------------------------
+#CAR_METAL							CONCRETE									-1						0.9	

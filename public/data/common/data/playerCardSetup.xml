@@ -1,0 +1,352 @@
+<PlayerCardSetup version="1">
+
+	<SP_Friend_Stats>
+	  <stat name="TOTAL_PROGRESS_MADE"/>
+	  <stat name="NUM_MISSIONS_AVAILABLE"/>
+	  <stat name="NUM_MISSIONS_COMPLETED"/>
+	  <stat name="NUM_MINIGAMES_AVAILABLE"/>
+	  <stat name="NUM_MINIGAMES_COMPLETED"/>
+	  <stat name="NUM_RNDPEOPLE_AVAILABLE"/>
+	  <stat name="NUM_RNDPEOPLE_COMPLETED"/>
+	  <stat name="NUM_RNDEVENTS_AVAILABLE"/>
+	  <stat name="NUM_RNDEVENTS_COMPLETED"/>
+	  <stat name="NUM_MISC_AVAILABLE"/>
+	  <stat name="NUM_MISC_COMPLETED"/>
+
+	  <stat name="SP_PSTAT_INT0"/>
+	  <stat name="SP_PSTAT_INT1"/>
+	  <stat name="SP_PSTAT_INT2"/>
+	  <stat name="SP_PSTAT_INT3"/>
+	  <stat name="SP_PSTAT_INT4"/>
+	  <stat name="SP_PSTAT_INT5"/>
+	  <stat name="SP_PSTAT_INT6"/>
+	
+	  <stat name="FL_CO_ARM1"/>
+	  <stat name="FL_CO_ARM2"/>
+	  
+	  <stat name="CLO_STORED_INITIAL"/>
+
+	  <stat name="_SaveSpTimestamp"/>
+	  <stat name="MPPLY_LAST_MP_CHAR"/>
+	  <multiStat name="FRONT_END_JIP_UNLOCKED" isMP="true"/>
+      <stat name="MPPLY_CAN_SPECTATE" isMP="true"/>
+      <stat name="MPPLY_IS_CHAR_SPECTATING" isMP="true"/>
+    
+	</SP_Friend_Stats>
+
+	<MP_Friend_Stats>
+	  <stat name="MPPLY_LAST_MP_CHAR"/>
+	  <stat name="MPPLY_CURRENT_CREW_RANK"/>
+	  <stat name="MPPLY_CREW_CHALLENGE_WIN"/>
+	  <stat name="_SaveMpTimestamp_0"/>
+
+	  <stat name="MPPLY_KILLS_PLAYERS"/>
+	  <stat name="MPPLY_DEATHS_PLAYER"/>
+	  <stat name="MPPLY_OVERALL_BADSPORT"/>
+      <stat name="MPPLY_CAN_SPECTATE"/>
+      <stat name="MPPLY_IS_CHAR_SPECTATING"/>
+
+	  <multiStat name="FRONT_END_JIP_UNLOCKED"/>
+	  <multiStat name="CHAR_RANK_FM"/>
+
+	  <multiStat name="WHEELIE_ABILITY"/>
+	  <multiStat name="SHOOTING_ABILITY"/>
+	  <multiStat name="FLYING_ABILITY"/>
+	  <multiStat name="STEALTH_ABILITY"/>
+	  <multiStat name="STAMINA"/>
+	  <multiStat name="PLAYER_MENTAL_STATE"/>
+	  <multiStat name="CHAR_IS_NG_VERSION"/>
+		
+	  <multiStat name="PLANE_ACCESS"/>
+	  <multiStat name="BOAT_ACCESS"/>
+	  <multiStat name="HELI_ACCESS"/>
+	  <multiStat name="DOES_PLAYER_HAVE_VEH_ACCESS"/>
+
+	<!-- Character creation -->
+
+	  <multiStat name="HEADBLEND_OVER_BLEMISH_PC"/>
+	  <multiStat name="HEADBLEND_OVERLAY_BEARD_PC"/>
+	  <multiStat name="HEADBLEND_OVERLAY_EYEBRW_PC"/>
+	  <multiStat name="HEADBLEND_OVERLAY_WETHR_PC"/>
+	  <multiStat name="HEADBLEND_OVERLAY_MAKEUP_PC"/>
+	  <multiStat name="HEADBLEND_OVERLAY_DAMAGE_PC"/>
+	  <multiStat name="HEADBLEND_OVERLAY_BASE_PC"/>
+	  <multiStat name="HEADBLEND_DOM"/>
+	  
+	  
+	  
+	  <multiStat name="HEADBLEND_GEOM_BLEND"/>
+	  <multiStat name="HEADBLEND_TEX_BLEND"/>
+	  <multiStat name="HEADBLEND_VAR_BLEND"/>
+
+	  <multiStat name="TATTOO_FM_CURRENT_0"/>
+	  <multiStat name="TATTOO_FM_CURRENT_1"/>
+	  <multiStat name="TATTOO_FM_CURRENT_2"/>
+	  <multiStat name="TATTOO_FM_CURRENT_3"/>
+	  <multiStat name="TATTOO_FM_CURRENT_4"/>
+	  <multiStat name="TATTOO_FM_CURRENT_5"/>
+	  <multiStat name="TATTOO_FM_CURRENT_6"/>
+	  <multiStat name="TATTOO_FM_CURRENT_7"/>
+	  <multiStat name="TATTOO_FM_CURRENT_8"/>
+	  <multiStat name="TATTOO_FM_CURRENT_9"/>
+	  <multiStat name="TATTOO_FM_CURRENT_10"/>
+	  <multiStat name="TATTOO_FM_CURRENT_11"/>
+	  <multiStat name="TATTOO_FM_CURRENT_12"/>
+
+	  <multiStat name="PSTAT_INT0"/>
+	  <multiStat name="PSTAT_INT1"/>
+	  <multiStat name="PSTAT_INT2"/>
+	  <multiStat name="PSTAT_INT3"/>
+	  <multiStat name="PSTAT_INT4"/>
+	  <multiStat name="PSTAT_INT5"/>
+	  <multiStat name="PSTAT_INT6"/>
+	  <multiStat name="PSTAT_INT7"/>
+	  <multiStat name="PSTAT_INT8"/>	   
+	  <multiStat name="PSTAT_INT9"/>
+	  <multiStat name="PSTAT_INT10"/>
+
+	  <multiStat name="TUPSTAT_INT0"/>
+	  <multiStat name="TUPSTAT_INT1"/>
+	  
+	  <multiStat name="FEATURE_0"/>
+	  <multiStat name="FEATURE_1"/>
+	  <multiStat name="FEATURE_2"/>
+	  <multiStat name="FEATURE_3"/>
+	  <multiStat name="FEATURE_4"/>
+	  <multiStat name="FEATURE_5"/>
+	  <multiStat name="FEATURE_6"/>
+	  <multiStat name="FEATURE_7"/>
+	  <multiStat name="FEATURE_8"/>	   
+	  <multiStat name="FEATURE_9"/>
+	  <multiStat name="FEATURE_10"/>
+	  <multiStat name="FEATURE_11"/>
+	  <multiStat name="FEATURE_12"/>
+	  <multiStat name="FEATURE_13"/>
+	  <multiStat name="FEATURE_14"/>
+	  <multiStat name="FEATURE_15"/>
+	  <multiStat name="FEATURE_16"/>
+	  <multiStat name="FEATURE_17"/>
+	  <multiStat name="FEATURE_18"/>
+	  <multiStat name="FEATURE_19"/>
+	  <multiStat name="FEATURE_20"/>
+	  
+	  
+	</MP_Friend_Stats>
+
+	<!-- Character creation stats only -->
+	<SP_Crew_Stats>
+	  <stat name="MPPLY_CURRENT_CREW_RANK"/>
+	  <stat name="MPPLY_LAST_MP_CHAR"/>
+
+      <stat name="MPPLY_CAN_SPECTATE" isMP="true"/>
+      <stat name="MPPLY_IS_CHAR_SPECTATING" isMP="true"/>
+	  <multiStat name="FRONT_END_JIP_UNLOCKED" isMP="true"/>
+	
+	  <stat name="_SaveSpTimestamp"/>
+
+	  <stat name="SP_PSTAT_INT0"/>
+	  <stat name="SP_PSTAT_INT1"/>
+	  <stat name="SP_PSTAT_INT2"/>
+	  <stat name="SP_PSTAT_INT3"/>
+	  <stat name="SP_PSTAT_INT4"/>
+	  <stat name="SP_PSTAT_INT5"/>
+	  <stat name="SP_PSTAT_INT6"/>
+		
+	  <stat name="FL_CO_ARM1"/>
+	  <stat name="FL_CO_ARM2"/>
+	  <stat name="CLO_STORED_INITIAL"/>
+	</SP_Crew_Stats>
+	
+	
+	<!-- Character creation stats only -->
+	<MP_Crew_Stats>
+	  <stat name="MPPLY_LAST_MP_CHAR"/>
+	  <stat name="MPPLY_CURRENT_CREW_RANK"/>
+	  <stat name="_SaveMpTimestamp_0"/>
+	  
+	  <multiStat name="CHAR_RANK_FM"/>
+
+      <stat name="MPPLY_CAN_SPECTATE"/>
+      <stat name="MPPLY_IS_CHAR_SPECTATING"/>
+	  <multiStat name="FRONT_END_JIP_UNLOCKED" isMP="true"/>
+	  
+	  <multiStat name="PLANE_ACCESS"/>
+	  <multiStat name="BOAT_ACCESS"/>
+	  <multiStat name="HELI_ACCESS"/>
+	  <multiStat name="DOES_PLAYER_HAVE_VEH_ACCESS"/>
+	  <multiStat name="CHAR_IS_NG_VERSION"/>
+
+	  <multiStat name="HEADBLEND_OVER_BLEMISH_PC"/>
+	  <multiStat name="HEADBLEND_OVERLAY_BEARD_PC"/>
+	  <multiStat name="HEADBLEND_OVERLAY_EYEBRW_PC"/>
+	  <multiStat name="HEADBLEND_OVERLAY_WETHR_PC"/>
+	  <multiStat name="HEADBLEND_OVERLAY_MAKEUP_PC"/>
+	  <multiStat name="HEADBLEND_OVERLAY_DAMAGE_PC"/>
+	  <multiStat name="HEADBLEND_OVERLAY_BASE_PC"/>
+	  <multiStat name="HEADBLEND_OVERLAY_BLUSHER"/>
+
+	  <multiStat name="HEADBLEND_DOM"/>
+	  
+	  <multiStat name="HEADBLEND_GEOM_BLEND"/>
+	  <multiStat name="HEADBLEND_TEX_BLEND"/>
+	  <multiStat name="HEADBLEND_VAR_BLEND"/>
+
+	  <multiStat name="TATTOO_FM_CURRENT_0"/>
+	  <multiStat name="TATTOO_FM_CURRENT_1"/>
+	  <multiStat name="TATTOO_FM_CURRENT_2"/>
+	  <multiStat name="TATTOO_FM_CURRENT_3"/>
+	  <multiStat name="TATTOO_FM_CURRENT_4"/>
+	  <multiStat name="TATTOO_FM_CURRENT_5"/>	
+	  <multiStat name="TATTOO_FM_CURRENT_6"/>
+	  <multiStat name="TATTOO_FM_CURRENT_7"/>
+	  <multiStat name="TATTOO_FM_CURRENT_8"/>
+	  <multiStat name="TATTOO_FM_CURRENT_9"/>
+	  <multiStat name="TATTOO_FM_CURRENT_10"/>
+	  <multiStat name="TATTOO_FM_CURRENT_11"/>
+	  <multiStat name="TATTOO_FM_CURRENT_12"/>
+	  
+	  <multiStat name="PSTAT_INT0"/>
+	  <multiStat name="PSTAT_INT1"/>
+	  <multiStat name="PSTAT_INT2"/>
+	  <multiStat name="PSTAT_INT3"/>
+	  <multiStat name="PSTAT_INT4"/>
+	  <multiStat name="PSTAT_INT5"/>
+	  <multiStat name="PSTAT_INT6"/>
+	  <multiStat name="PSTAT_INT7"/>
+	  <multiStat name="PSTAT_INT8"/>
+	  <multiStat name="PSTAT_INT9"/>
+	  <multiStat name="PSTAT_INT10"/>
+		
+	  <multiStat name="TUPSTAT_INT0"/>
+	  <multiStat name="TUPSTAT_INT1"/>	
+	</MP_Crew_Stats>
+	
+	
+	
+	<SP_PACKED_STATS>
+	</SP_PACKED_STATS>
+	
+	<MP_PACKED_STATS>
+		<multiStat name="HEADBLEND_HEAD_0" type="int" index="1" realName="PSTAT_INT7"/>
+		<multiStat name="HEADBLEND_HEAD_1" type="int" index="2" realName="PSTAT_INT7"/>
+		<multiStat name="HEADBLEND_HEAD_2" type="int" index="3" realName="PSTAT_INT7"/>
+
+		<multiStat name="HEADBLEND_TEX_0" type="int" index="4" realName="PSTAT_INT7"/>
+		<multiStat name="HEADBLEND_TEX_1" type="int" index="5" realName="PSTAT_INT7"/>
+		<multiStat name="HEADBLEND_TEX_2" type="int" index="6" realName="PSTAT_INT7"/>
+
+		<multiStat name="HEADBLEND_OVERLAY_BLEMISH" type="int" index="7" realName="PSTAT_INT7"/>
+		<multiStat name="HEADBLEND_OVERLAY_BEARD" type="int" index="0" realName="PSTAT_INT8"/>
+		<multiStat name="HEADBLEND_OVERLAY_EYEBRW" type="int" index="1" realName="PSTAT_INT8"/>
+		<multiStat name="HEADBLEND_OVERLAY_WETHR" type="int" index="2" realName="PSTAT_INT8"/>
+		<multiStat name="HEADBLEND_OVERLAY_MAKEUP" type="int" index="3" realName="PSTAT_INT8"/>
+		<multiStat name="HEADBLEND_OVERLAY_DAMAGE" type="int" index="4" realName="PSTAT_INT8"/>
+		
+		<multiStat name="CHAR_CURRENT_HAIRCUT" type="int" index="7" realName="PSTAT_INT0"/>
+
+		
+	</MP_PACKED_STATS>
+
+	<Mission_Creator icon="87">
+	  <rank value="0" color="HUD_COLOUR_WHITE"/>
+	  <rank value="1" color="HUD_COLOUR_BRONZE"/>
+	  <rank value="26" color="HUD_COLOUR_SILVER"/>
+	  <rank value="51" color="HUD_COLOUR_GOLD"/>
+	  <rank value="76" color="HUD_COLOUR_PLATINUM"/>
+	</Mission_Creator>
+
+	<Photography icon="85">
+	  <rank value="0" color="HUD_COLOUR_WHITE"/>
+	  <rank value="1" color="HUD_COLOUR_BRONZE"/>
+	  <rank value="26" color="HUD_COLOUR_SILVER"/>
+	  <rank value="51" color="HUD_COLOUR_GOLD"/>
+	  <rank value="76" color="HUD_COLOUR_PLATINUM"/>
+	</Photography>
+
+	<SP_Card title="PCARD_SP" isSP="true" color="HUD_COLOUR_PAUSE_SINGLEPLAYER" timestamp="_SaveSpTimestamp">
+		<slot stat="NUM_MISSIONS_COMPLETED" text="NUM_MISSIONS_COMPLETED" compareText="PCARD_CMP_MISSION" extraStat="NUM_MISSIONS_AVAILABLE" isRatioStr="true" color="HUD_COLOUR_YELLOW"/>
+		<slot stat="NUM_MINIGAMES_COMPLETED" text="NUM_MINIGAMES_COMPLETED" compareText="PCARD_CMP_MINI" extraStat="NUM_MINIGAMES_AVAILABLE" isRatioStr="true" color="HUD_COLOUR_GREEN"/>
+		<slot stat="NUM_RNDPEOPLE_COMPLETED" text="NUM_RNDPEOPLE_COMPLETED" compareText="PCARD_CMP_RNDPL" extraStat="NUM_RNDPEOPLE_AVAILABLE" isRatioStr="true" color="HUD_COLOUR_BLUE"/>
+		<slot stat="NUM_RNDEVENTS_COMPLETED" text="NUM_RNDEVENTS_COMPLETED" compareText="PCARD_CMP_RNDEVT" extraStat="NUM_RNDEVENTS_AVAILABLE" isRatioStr="true" color="HUD_COLOUR_ORANGE"/>
+		<slot stat="NUM_MISC_COMPLETED" text="NUM_MISC_COMPLETED" compareText="PCARD_CMP_MISC" extraStat="NUM_MISC_AVAILABLE" isRatioStr="true" color="HUD_COLOUR_RED"/>
+	</SP_Card>
+	
+	<Freemode_Card title="PCARD_Freemode" teamId="4" color="HUD_COLOUR_FREEMODE" rankIcon="65" rankStat="CHAR_RANK_FM" timestamp="_SaveMpTimestamp_0" carStat="DOES_PLAYER_HAVE_VEH_ACCESS" boatStat="BOAT_ACCESS" heliStat="HELI_ACCESS" planeStat="PLANE_ACCESS">
+
+    <stat name="MPPLY_CAN_SPECTATE"/>
+    <stat name="MPPLY_IS_CHAR_SPECTATING"/>
+    
+    <titleSlot stat="MPPLY_KILLS_PLAYERS" text="PCARD_KD_RATIO" extraStat="MPPLY_DEATHS_PLAYER" isRatioStr="true"/>
+		<slot multiStat="STAMINA" text="PCARD_STAMINA" showPercentBar="true" titleList="StamTitles"/>
+		<slot multiStat="SHOOTING_ABILITY" text="PCARD_SHOOTING" showPercentBar="true" titleList="ShootingTitles"/>
+		<slot multiStat="STEALTH_ABILITY" text="PCARD_STEALTH" showPercentBar="true" titleList="StealthTitles"/>
+		<slot multiStat="FLYING_ABILITY" text="PCARD_FLYING" showPercentBar="true" titleList="FlyingTitles"/>
+		<slot multiStat="WHEELIE_ABILITY" text="PCARD_DRIVING" showPercentBar="true" titleList="DrivingTitles"/>
+		<slot multiStat="PLAYER_MENTAL_STATE" text="PCARD_MENTAL_STATE" showPercentBar="true" titleList="MentalStateTitles" />
+	</Freemode_Card>
+	
+	<TitleLists>
+		<TitleList name="MentalStateTitles">
+			<title name="PCARD_MENTAL_STATE_0" value="0"/>
+			<title name="PCARD_MENTAL_STATE_1" value="20"/>
+			<title name="PCARD_MENTAL_STATE_2" value="40"/>
+			<title name="PCARD_MENTAL_STATE_3" value="60"/>
+			<title name="PCARD_MENTAL_STATE_4" value="80"/>
+		</TitleList>
+		<TitleList name="DrivingTitles">
+			<title name="PCARD_DRIVE_0" value="0"/>
+			<title name="PCARD_DRIVE_1" value="20"/>
+			<title name="PCARD_DRIVE_2" value="40"/>
+			<title name="PCARD_DRIVE_3" value="60"/>
+			<title name="PCARD_DRIVE_4" value="80"/>
+		</TitleList>
+		<TitleList name="ShootingTitles">
+			<title name="PCARD_SHOOT_0" value="0"/>
+			<title name="PCARD_SHOOT_1" value="20"/>
+			<title name="PCARD_SHOOT_2" value="40"/>
+			<title name="PCARD_SHOOT_3" value="60"/>
+			<title name="PCARD_SHOOT_4" value="80"/>
+		</TitleList>
+		<TitleList name="FlyingTitles">
+			<title name="PCARD_FLYING_0" value="0"/>
+			<title name="PCARD_FLYING_1" value="20"/>
+			<title name="PCARD_FLYING_2" value="40"/>
+			<title name="PCARD_FLYING_3" value="60"/>
+			<title name="PCARD_FLYING_4" value="80"/>
+		</TitleList>
+		<TitleList name="StealthTitles">
+			<title name="PCARD_STEALTH_0" value="0"/>
+			<title name="PCARD_STEALTH_1" value="20"/>
+			<title name="PCARD_STEALTH_2" value="40"/>
+			<title name="PCARD_STEALTH_3" value="60"/>
+			<title name="PCARD_STEALTH_4" value="80"/>
+		</TitleList>
+		<TitleList name="StamTitles">
+			<title name="PCARD_STAM_0" value="0"/>
+			<title name="PCARD_STAM_1" value="20"/>
+			<title name="PCARD_STAM_2" value="40"/>
+			<title name="PCARD_STAM_3" value="60"/>
+			<title name="PCARD_STAM_4" value="80"/>
+		</TitleList>
+		<TitleList name="RankTitles">
+			<title name="RANK_Gfm_3" value="0"/>
+			<title name="RANK_Gfm_5" value="11"/>
+			<title name="RANK_Gfm_7" value="21"/>
+			<title name="RANK_Gfm_9" value="31"/>
+			<title name="RANK_Gfm_11" value="41"/>
+			<title name="RANK_Gfm_13" value="51"/>
+			<title name="RANK_Gfm_15" value="61"/>
+			<title name="RANK_Gfm_17" value="71"/>
+			<title name="RANK_Gfm_19" value="81"/>
+			<title name="RANK_Gfm_21" value="91"/>
+		</TitleList>
+	</TitleLists>
+	
+	<MiscData charSlotStat="MPPLY_LAST_MP_CHAR" maxPlayers="16" playingGTASPIcon="54" jipUnlocked="FRONT_END_JIP_UNLOCKED" gameCompletion="TOTAL_PROGRESS_MADE"
+			    kickIcon="64" bountyIcon="64" playingGTAMPIcon="63" playingGTAMPWithRankIcon="65" deathmatchIcon="62" raceIcon="60" activeHeadsetIcon="47" inactiveHeadsetIcon="48"
+				mutedHeadsetIcon="49" spectatingIcon="66" inviteIcon="69" inviteAcceptedIcon="70" spectTeam="3" bitTag="MPBitset" bountyBit="2" spectatingBit="1"
+				teamIdTag="TeamId" tutorialMissionType="16" spSlotColor="HUD_COLOUR_PAUSE_SINGLEPLAYER" allowsSpectatingStat="MPPLY_CAN_SPECTATE" isSpectatingStat="MPPLY_IS_CHAR_SPECTATING" crewRankStat="MPPLY_CURRENT_CREW_RANK" 
+				emptySlotColor="-1" offlineSlotColor="HUD_COLOUR_GREY" localPlayerSlotColor="HUD_COLOUR_BLUE" freemodeSlotColor="HUD_COLOUR_FREEMODE" inMatchSlotColor="HUD_COLOUR_RED"
+			    badSportStat="MPPLY_OVERALL_BADSPORT" defaultDirtyPlayerLimit="45.0" defaultBadSportLimit="50.0" dirtyPlayerTunable="BADSPORT_THRESHOLD_NOTCHEATER" badSportTunable="BADSPORT_THRESHOLD"/>
+			
+</PlayerCardSetup>                                                                                                                                                                    

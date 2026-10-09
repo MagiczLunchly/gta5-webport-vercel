@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Temporarily commend out new page flow until flash gets done -->
+<CReportArray v="1.0">
+  <ReportLists>
+
+  <!-- Root Menu -->
+    <ReportList>
+      <ReportLinkId>ReportLink_ReportRoot</ReportLinkId>
+      <ReportOptions>
+        <ReportOption> <LabelHash>RP_VC_ANNOY</LabelHash> <ReportLink>ReportLink_Confirmation</ReportLink> <ReportType>ReportType_VoiceChat_Annoying</ReportType> </ReportOption>
+        <ReportOption> <LabelHash>RP_VC_HATE</LabelHash> <ReportLink>ReportLink_Confirmation</ReportLink> <ReportType>ReportType_VoiceChat_Hate</ReportType> </ReportOption>
+        <ReportOption> <LabelHash>CWS_GRIEFING</LabelHash> <ReportLink>ReportLink_Confirmation</ReportLink> <ReportType>ReportType_Griefing</ReportType> </ReportOption>
+        <ReportOption> <LabelHash>RP_EXPLOITS</LabelHash> <ReportLink>ReportLink_Confirmation</ReportLink> <ReportType>ReportType_Exploit</ReportType> </ReportOption>
+        <ReportOption> <LabelHash>RP_GAME_EXPLOIT</LabelHash> <ReportLink>ReportLink_Confirmation</ReportLink> <ReportType>ReportType_GameExploit</ReportType> </ReportOption>
+        <ReportOption> <LabelHash>RP_NET_OTHER</LabelHash> <ReportLink>ReportLink_Other</ReportLink> <ReportType>ReportType_Exploit</ReportType> </ReportOption>
+        <ReportOption> <LabelHash>RP_CREW</LabelHash> <ReportLink>ReportLink_Crew</ReportLink> <ReportType>ReportType_VoiceChat_None</ReportType></ReportOption>
+      </ReportOptions>
+    </ReportList>
+
+    <!-- PlayerMadeMissions Menu -->
+    <ReportList>
+      <ReportLinkId>ReportLink_PlayerMadeMissions</ReportLinkId>
+	  <SubtitleHash>RP_MISSION</SubtitleHash>
+      <ReportOptions>
+        <ReportOption> <LabelHash>RP_PLAYER_MADE_TITLE</LabelHash> <ReportLink>ReportLink_Confirmation</ReportLink> <ReportType>ReportType_PlayerMade_Title</ReportType> </ReportOption>
+        <ReportOption> <LabelHash>RP_PLAYER_MADE_DESC</LabelHash> <ReportLink>ReportLink_Confirmation</ReportLink> <ReportType>ReportType_PlayerMade_Description</ReportType> </ReportOption>
+        <ReportOption> <LabelHash>RP_PLAYER_MADE_CONTENT</LabelHash> <ReportLink>ReportLink_Content</ReportLink> <ReportType>ReportType_PlayerMade_Content</ReportType> </ReportOption>
+      </ReportOptions>
+    </ReportList>
+
+    <!-- Crew Menu -->
+    <ReportList>
+      <ReportLinkId>ReportLink_Crew</ReportLinkId>
+      <ReportOptions>
+        <ReportOption> <LabelHash>RP_CREW_NAME</LabelHash> <ReportLink>ReportLink_Confirmation</ReportLink> <ReportType>ReportType_OffensiveCrewName</ReportType> </ReportOption>
+        <ReportOption> <LabelHash>RP_MOTTO</LabelHash> <ReportLink>ReportLink_Confirmation</ReportLink> <ReportType>ReportType_OffensiveCrewMotto</ReportType> </ReportOption>
+        <ReportOption> <LabelHash>RP_STATUS</LabelHash> <ReportLink>ReportLink_Confirmation</ReportLink> <ReportType>ReportType_OffensiveCrewStatus</ReportType> </ReportOption>
+        <ReportOption> <LabelHash>RP_EMBLEM</LabelHash> <ReportLink>ReportLink_Confirmation</ReportLink> <ReportType>ReportType_OffensiveCrewEmblem</ReportType> </ReportOption>
+      </ReportOptions>
+    </ReportList>
+
+    <!-- Confirmation Menu -->
+    <ReportList>
+      <ReportLinkId>ReportLink_Confirmation</ReportLinkId>
+      <ReportOptions>
+        <ReportOption> <LabelHash>RP_WARNING</LabelHash> <ReportLink>ReportLink_Successful</ReportLink> </ReportOption>
+      </ReportOptions>
+    </ReportList>
+
+    <!-- Confirmation Menu -->
+    <ReportList>
+      <ReportLinkId>ReportLink_Successful</ReportLinkId>
+      <ReportOptions>
+        <ReportOption> <LabelHash>RP_WARNING</LabelHash> </ReportOption>
+      </ReportOptions>
+    </ReportList>
+
+
+    <!-- Commend menu -->
+    <ReportList>
+      <ReportLinkId>ReportLink_CommendRoot</ReportLinkId>
+      <SubtitleHash>CWS_COMMEND_DESC</SubtitleHash>
+      <ReportOptions>
+        <ReportOption> <LabelHash>CWS_FRIENDLY</LabelHash> <ReportLink>ReportLink_Successful</ReportLink> <ReportType>ReportType_Friendly</ReportType></ReportOption>
+        <ReportOption> <LabelHash>CWS_HELPFUL</LabelHash> <ReportLink>ReportLink_Successful</ReportLink><ReportType>ReportType_Helpful</ReportType></ReportOption>
+      </ReportOptions>
+    </ReportList>
+
+    <!-- ReportUGC menu -->
+    <ReportList>
+      <ReportLinkId>ReportLink_UGCReportRoot</ReportLinkId>
+      <SubtitleHash>CWS_REPORTMISSION</SubtitleHash>
+      <ReportOptions>
+      </ReportOptions>
+    </ReportList>
+
+  </ReportLists>
+</CReportArray>

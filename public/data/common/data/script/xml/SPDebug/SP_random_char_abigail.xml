@@ -1,0 +1,22 @@
+<?xml version='1.0'?>
+<DebugMenuItems>
+
+	<scriptItem title="Sonar Collections - Activate Script" file="ambient_Sonar.sc" author="SI_JW"
+	x="-1598.5974" y="5274.9160" z="-3.7906" heading="32.3013"
+	codeID="SPCID_RESET_SUBMARINE_FLAGS" character="CHAR_MICHAEL" keepVehicle="FALSE"/>
+	<breakItem/>
+	
+	<warpItem missionID="ABI1" title="Abigail 1" file="Abigail1.sc" author="SI_JW" percentage="0" highlight="FALSE"  
+	x="-1581.0953" y="5198.5298" z="3.0091" heading="33.1718"
+	codeID="SPCID_RANDOM_CHAR" preCodeID="SPCID_RANDOM_CHAR_PRE_LAUNCH" labelID="LABEL_RC_ABIGAIL_1" character="CHAR_MICHAEL" keepVehicle="FALSE"/>
+	<breakItem/>
+	
+	<scriptItem title="Submarine Wreckage - Activate Script" file="ambient_Diving.sc" author="SI_JW"
+	x="-1599.5260" y="5262.9805" z="0.9996" heading="17.4564"
+	codeID="SPCID_RESET_DIVING_FLAGS" character="CHAR_MICHAEL" keepVehicle="FALSE"/>
+	<breakItem/>
+	
+	<warpItem missionID="ABI2" title="Abigail 2" file="Abigail2.sc" author="SI_JW" percentage="0" highlight="FALSE"  
+	x="-1581.0953" y="5198.5298" z="3.0091" heading="33.1718"
+	codeID="SPCID_RANDOM_CHAR" preCodeID="SPCID_RANDOM_CHAR_PRE_LAUNCH" labelID="LABEL_RC_ABIGAIL_1" character="CHAR_MICHAEL" keepVehicle="FALSE"/>
+</DebugMenuItems>

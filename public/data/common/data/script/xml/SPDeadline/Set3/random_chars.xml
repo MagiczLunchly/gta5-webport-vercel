@@ -1,0 +1,94 @@
+<?xml version='1.0'?>
+<DebugMenuItems>
+
+	<!-- Random Characters -->
+	<warpItem missionID="EPS6" title="Epsilon6 - Collect Plane" file="Epsilon6.sc" author="SI_IG" percentage="0" highlight="FALSE"
+	x="-3017.4714" y="3364.8093" z="9.5592" heading="193.5579"
+	x1="-2667.6055" y1="3006.3787" z1="8.1298" heading1="47.7215"
+	codeID="SPCID_RANDOM_CHAR" preCodeID="SPCID_RANDOM_CHAR_PRE_LAUNCH" labelID="LABEL_RC_EPSILON_1" character="CHAR_MICHAEL" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="JOS1" title="Josh1" file="Josh1.sc" author="SI_DR" percentage="0" highlight="FALSE"
+	x="-1063.8308" y="195.1921" z="59.7526" heading="20.6971"
+	x1="-955.6879" y1="267.4033" z1="68.6737" heading1="84.3377"
+	x2="-1192.7546" y2="232.7974" z2="66.7017" heading2="286.1224"
+	codeID="SPCID_RANDOM_CHAR" preCodeID="SPCID_RANDOM_CHAR_PRE_LAUNCH" labelID="LABEL_RC_JOSH_1" character="CHAR_TREVOR" vehicleWarp="TRUE"/>
+	<scriptItem title="Ambient Script: For Sale Signs" file="forSaleSigns.sc" author="SI_IG" codeID="SPCID_RESET_SIGN_FLAGS" enableID="SPEID_DEBUG_ONLY"/>
+	
+	<warpItem missionID="NI1D" title="Nigel1D - Golf club" file="Nigel1D.sc" author="SI_JW" percentage="0" highlight="FALSE"
+	x="-1355.3588" y="-62.0260" z="50.1790" heading="270.1672"
+	x1="-1328.0651" y1="-79.8318" z1="48.1744" heading1="338.5170"
+	codeID="SPCID_RANDOM_CHAR" preCodeID="SPCID_RANDOM_CHAR_PRE_LAUNCH" labelID="LABEL_RC_NIGEL_1" character="CHAR_TREVOR" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="PA3B" title="Paparazzo3B" file="Paparazzo3B.sc" author="SI_BH" percentage="0" highlight="FALSE"
+	x="1071.5621" y="-472.3399" z="63.3838" heading="169.7782"
+	x1="1152.1949" y1="-508.3087" z1="63.8488" heading1="95.6676"
+	x2="1018.7300" y2="-638.5622" z2="57.7546" heading2="353.2039"
+	codeID="SPCID_RANDOM_CHAR" preCodeID="SPCID_RANDOM_CHAR_PRE_LAUNCH" labelID="LABEL_RC_PAPARAZZO_3" character="CHAR_FRANKLIN" vehicleWarp="TRUE"/>
+
+	<scriptItem title="Ambient Script: Letter Scraps" file="letterScraps.sc" author="SI_JW" codeID="SPCID_RESET_LETTER_FLAGS" labelID="LABEL_RC_DREYFUSS_1"/>
+	<warpItem missionID="DRE1" title="Dreyfuss 1" file="Dreyfuss1.sc" author="SI_JW" percentage="0" highlight="FALSE"
+	x="-1531.5356"  y="439.6095" z="107.6110" heading="289.4781"
+	x1="-1399.3680" y1="470.9296" z1="105.8406" heading1="66.8837"
+	x2="-1422.2521" y2="596.6983" z2="127.0982" heading2="164.0892"
+	codeID="SPCID_DREYFUSS1_COMPLETE_LETTER_SCRAPS" preCodeID="SPCID_RANDOM_CHAR_PRE_LAUNCH" labelID="LABEL_RC_DREYFUSS_1" character="CHAR_FRANKLIN" vehicleWarp="TRUE"/>
+
+	<scriptItem missionID="RC5I" title="Epsilon Tract - Enable Ambient Script" 
+	file="epsilonTract.sc" author="SI_JW" character="CHAR_MICHAEL" codeID="SPCID_RESET_EPSILON_TRACT"/>
+	
+	<warpItem missionID="OME1" title="Omega 1" file="Omega1.sc" author="SI_JW" percentage="0" highlight="FALSE"
+	x="2553.0493" y="3361.2175" z="51.8207" heading="85.5443"
+	x1="2397.4714" y1="3512.3621" z1="68.5765" heading1="208.0732"
+	preCodeID="SPCID_RANDOM_CHAR_PRE_LAUNCH" codeID="SPCID_RANDOM_CHAR" character="CHAR_FRANKLIN" vehicleWarp="TRUE" labelID="LABEL_RC_OMEGA_1"/>
+
+	<warpItem missionID="OME2" title="Omega 2" file="Omega2.sc" author="SI_JW" percentage="0" highlight="FALSE"
+	x="2345.1045"  y="2642.8276"  z="45.6819"  heading="117.5815"
+	x1="2396.3840" y1="2522.1985" z1="45.6775" heading1="70.8874"
+	preCodeID="SPCID_RANDOM_CHAR_PRE_LAUNCH" codeID="SPCID_OMEGA1_COMPLETE_SPACESHIP_PARTS" character="CHAR_FRANKLIN" vehicleWarp="TRUE" labelID="LABEL_RC_OMEGA_1"/>
+	
+	<warpItem missionID="EXT3" title="Extreme3" file="Extreme3.sc" author="SI_AM" percentage="0" highlight="FALSE"
+	x="-69.1566" y="-811.6671" z="320.4972" heading="296.3401" 
+	codeID="SPCID_EXTREME2_ACQUIRE_OUTFIT" preCodeID="SPCID_RANDOM_CHAR_PRE_LAUNCH" labelID="LABEL_RC_EXTREME_1" character="CHAR_FRANKLIN"/>
+	
+	<warpItem missionID="HUN1" title="Hunting1" file="Hunting1.sc" author="SI_RT" percentage="0" highlight="FALSE"  
+	x="1706.5957" y="3899.7498" z="33.8843" heading="301.5335"
+	x1="1897.4658" y1="3952.0876" z1="31.7969" heading1="95.1507"
+	x2="1876.7009" y2="3874.3542" z2="31.9328" heading2="14.4896"
+	codeID="SPCID_RANDOM_CHAR" preCodeID="SPCID_RANDOM_CHAR_PRE_LAUNCH" labelID="LABEL_RC_HUNTING_1" character="CHAR_TREVOR" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="HUN2" title="Hunting2" file="Hunting2.sc" author="SI_RT" percentage="0" highlight="FALSE"
+	x="-677.2579" y="5956.4673" z="14.0935" heading="178.9531"
+	x1="-766.1754" y1="5676.9219" z1="21.5180" heading1="340.5947"
+	codeID="SPCID_RANDOM_CHAR" preCodeID="SPCID_RANDOM_CHAR_PRE_LAUNCH" labelID="LABEL_RC_HUNTING_1" character="CHAR_TREVOR" vehicleWarp="TRUE"/>
+
+	<warpItem missionID="PA3A" title="Paparazzo3A" file="Paparazzo3A.sc" author="SI_BH" percentage="0" highlight="FALSE"
+	x="179.5541" y="193.0514" z="104.6327" heading="254.5780"
+	x1="394.3549" y1="245.8184" z1="101.9800" heading1="161.5434"
+	x2="473.1588" y2="106.1729" z2="96.9649" heading2="69.2403"
+	codeID="SPCID_RANDOM_CHAR" preCodeID="SPCID_RANDOM_CHAR_PRE_LAUNCH" labelID="LABEL_RC_PAPARAZZO_3" character="CHAR_FRANKLIN" vehicleWarp="TRUE"/>
+
+	<warpItem missionID="BA3C" title="Barry3C - Scrap car" file="Barry3C.sc" author="SI_TW" percentage="0" highlight="FALSE"
+	x="-368.0889" y="-1660.3004" z="17.9633" heading="151.6843"
+	x1="-384.9530" y1="-1811.9163" z1="20.5750" heading1="23.5123"
+	x2="-507.8626" y2="-1803.1462" z2="21.1558" heading2="332.1714"
+	codeID="SPCID_RANDOM_CHAR" preCodeID="SPCID_RANDOM_CHAR_PRE_LAUNCH" labelID="LABEL_RC_BARRY_3" character="CHAR_FRANKLIN" vehicleWarp="TRUE"/>
+
+	<warpItem missionID="ABI1" title="Abigail 1" file="Abigail1.sc" author="SI_JW" percentage="0" highlight="FALSE"  
+	x="-1002.6891"  y="-1559.0521"  z="3.9829"  heading="312.9039"
+	x1="-886.8702"  y1="-1488.7762" z1="4.0243" heading1="111.9435"
+	x2="-1018.2323" y2="-1452.8646" z2="4.0160" heading2="290.0202"
+	codeID="SPCID_RANDOM_CHAR" preCodeID="SPCID_RANDOM_CHAR_PRE_LAUNCH" labelID="LABEL_RC_ABIGAIL_1" character="CHAR_TREVOR" vehicleWarp="TRUE"/>
+	
+	<warpItem  missionID="HAO1" title="Hao 1" file="Hao1.sc" author="SI_JB" percentage="0" highlight="FALSE"  
+	x="-112.0763"  y="-1284.2404"  z="28.2935"  heading="182.8516"
+	x1="-41.0244"  y1="-1357.9857" z1="28.2537" heading1="93.7784"
+	x2="-124.8866" y2="-1375.7645" z2="28.4485" heading2="292.5526"
+	codeID="SPCID_RANDOM_CHAR" preCodeID="SPCID_RANDOM_CHAR_PRE_LAUNCH" labelID="LABEL_RC_HAO_1" character="CHAR_FRANKLIN" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="MAU1" title="Maude 1" file="Maude1.sc" author="SI_AZ" percentage="0" highlight="FALSE"  
+	x="2698.6213" y="4229.7402" z="43.6148" heading="192.8066"
+	codeID="SPCID_RANDOM_CHAR" preCodeID="SPCID_RANDOM_CHAR_PRE_LAUNCH" labelID="LABEL_RC_MAUDE_1" character="CHAR_TREVOR" vehicleWarp="TRUE"/>
+ 	
+	<warpItem missionID="MRS1" title="Mrs Philips 1" file="MrsPhilips1.sc" author="SI_KE" percentage="0" highlight="FALSE"  
+	x="1986.4666" y="3812.9858" z="31.1442" heading="32.6996"
+	codeID="SPCID_RANDOM_CHAR" preCodeID="SPCID_RANDOM_CHAR_PRE_LAUNCH" labelID="LABEL_RC_MRS_PHILIPS_1" character="CHAR_TREVOR"/>
+</DebugMenuItems>

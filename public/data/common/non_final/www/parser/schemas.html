@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<title>Object Layout</title>
+<meta name="description" content="">
+<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body id="schemasApp">
+  
+  <div id="wrapper">
+	  <div id="menu">
+		<!-- no <form> around the <input> here means no submitting... client side processing only --> 
+		Search: <input type="text" id="classNameInput" placeholder="CMyClass" list="datalistSchemas"/><br/>
+		<datalist id="datalistSchemas"><!-- dynamic content goes here --></datalist>
+		<div id="schemaList"><!-- dynamic content goes here --></div>
+	  </div>
+  
+	  <div id="mainArea">
+		<button type="button" id="clearDrawingArea">Clear</button>
+		<div id="drawingArea"><!-- dynamic content goes here --></div>
+	  </div>
+  </div>
+
+  <!-- Comments and suggestions are from http://html5boilerplate.com/ -->
+  <!-- JavaScript at the bottom for fast page loading -->
+
+  <!-- Load some libraries from external sources -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.3.0/handlebars.min.js"></script>
+  <!-- Could fall back to a local verion if the CDN isn't available... no fallback for now 
+	<script>window.jQuery || document.write('<script src="js/libs/jquery-2.0.2.min.js"><\/script>')</script>
+	-->
+  <script src="js/common.js"></script>
+  <script src="js/schemas.js"></script>
+
+  <!-- These are some handlebars templates that are used to generate the HTML. 
+		I was using just raw string concatenation in the javascript before, but I'm using templates now to 
+		keep the page structure in the .html, and have the JS just handle the data.
+		A heavier-weight framework would work here too, like Angular.js (?). 
+		I'm not doing a full on MVVM thing, but basically I want JS to interact with HTML, and HTML with CSS, 
+		but JS and CSS shouldn't need to know anything about one another -->
+  
+  <script id="structdefSchemaTable" class="hbtemplate" type="text/x-handlebars-template">
+	<table class='schema structdef' >
+		<caption><div class='schemaTitle'>{{name}}</div><div><a href='#' class='closeSchema'>[X]</a></div></caption>
+		<thead>
+			<tr>
+				<th></th> 
+				<th>0</th><th>1</th><th>2</th><th>3</th>
+				<th>4</th><th>5</th><th>6</th><th>7</th>
+				<th>8</th><th>9</th><th>a</th><th>b</th>
+				<th>c</th><th>d</th><th>e</th><th>f</th>
+			</tr>
+		</thead>
+		<tbody>
+		{{#each rows}}
+			<tr><td class='rowNum'>{{toHex rowAddr}}</td>
+			{{#each spans}}
+				<td title='{{title}}' colspan='{{numColumns}}' class='
+					{{~#ifEq colStart 0}}startOfRow {{/ifEq~}} 
+					{{~#ifEq colEnd 15}}endOfRow {{/ifEq~}}
+					{{~#ifEq spanStart realStart}}firstSpan {{/ifEq~}}
+					{{~#ifEq spanEnd realEnd}}lastSpan {{/ifEq~}}
+					{{type}}'>
+				{{#if link}}
+					<a href="{{link}}" class='schemaLink'>{{name}}</a>
+				{{else}}
+					{{name}}
+				{{/if}}
+				</td>
+			{{/each}}
+			</tr>
+		{{/each}}
+		</tbody>
+	</table>
+  </script>
+
+</body>
+</html>

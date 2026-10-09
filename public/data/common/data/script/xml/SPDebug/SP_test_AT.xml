@@ -1,0 +1,13 @@
+<!-- 
+	Use the toolItem node to start a script using the mission stack.
+	Make sure to add appropriate checks to your scripts so that they cleanup
+	as only one thread with the mission stack size is allowed.
+-->
+
+<?xml version='1.0'?>
+<DebugMenuItems>
+	<missionItem title="Fishing test" file="fishingTest.sc" author="SI_MW"/>
+	<codeItem	 title="Spear Fishing test"  codeID="SPCID_SPEARED" displayID="SPDID_SPEARED" />
+	<missionItem title="Satellite test" file="satelliteTest.sc" author="SI_MW"/>
+	<missionItem title="Convoy test" file="jetpackOddjob.sc" author="SI_OD"/>
+</DebugMenuItems>

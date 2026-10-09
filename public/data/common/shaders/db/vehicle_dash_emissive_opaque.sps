@@ -1,0 +1,1 @@
+shader vehicle_dash_emissive_opaque

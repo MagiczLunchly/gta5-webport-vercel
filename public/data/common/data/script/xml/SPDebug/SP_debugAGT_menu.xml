@@ -1,0 +1,73 @@
+<?xml version='1.0'?>
+<DebugMenuItems>
+	<menuTitle	 title="DM_SP"/>
+	<bugstarFile file="SPDebug/bugstar.xml"/>
+	
+	<menuItem	title="DM_OPTIONS"  		file="SPDebug/SP_options.xml" />
+	<menuItem	title="DM_OPT_AT"  		file="SPDebug/SP_optionsAGT.xml" />
+	<menuItem	title="DM_MISSIONS" 		file="SPDebug/SP_missions_AT.xml" />
+	<menuItem	title="DM_RNDCHARS" 		file="SPDebug/SP_AGT_RC1.xml" />
+	<menuItem	title="DM_PLAYTHRU" 		file="SPPlaythrough/SP_playthroughCLF.xml" />
+	<menuItem	title="DM_DEMO" 			file="SPDebug/SP_demo.xml" />
+	<menuItem	title="DM_SHOPS"    		file="SPDebug/SP_shops.xml" />
+	<menuItem	title="DM_MINI"		 		file="SPDebug/SP_minigames_AT.xml" />
+	<menuItem	title="DM_MISC"     		file="SPDebug/SP_misc.xml" />
+	<menuItem	title="DM_TOOLS"    		file="SPDebug/SP_script_toolsAGT.xml" />
+	<menuItem	title="DM_LOCS" 			file="SPDebug/SP_locations.xml" />	
+	<menuItem 	title="DM_KEYS" 			file="SPDebug/SP_debug_keys.xml"/>
+	<menuItem	title="Art Junctions"		file="SPDebug/SP_art_junctions.xml" />
+	<menuItem	title="Test Scripts"		file="SPDebug/SP_test_AT.xml" />
+</DebugMenuItems>
+
+
+<!--	NODE/ATTRIBUTE LIST
+
+Note: Refer to SP_MENU_DISPLAY_ID_ENUM in SP_Debug_Menu.sch for available displayID's
+	  and SP_MENU_CODE_ID_ENUM in SP_Debug_Menu.sch for available codeID's.
+	  The title and author attributes can link to text labels in the american.gxt.
+	  
+	  
+Title
+-	Description: The name that will appear at the top of the debug menu.
+-	Node: menuTitle
+-	Attributes: title
+-	Example: <menuTitle title="SP Debug Menu"/>
+
+Menu
+-	Description: Opens up a sub level for the user to browse. Sub items stored in additional xml file.
+-	Node: menuItem
+-	Attributes: title, file, displayID(optional)
+-	Example: <menuItem title="DM_HEISTS" file="SPDebug/SP_heists.xml"/>
+
+Mission
+-	Description: Displays all the info on a mission and can launch the script with optional player warp/heading.
+-	Node: missionItem
+-	Attributes: missionID, title, file, author, percentage, infoLine1(optional), infoLine2(optional), x(optional), y(optional), z(optional), heading(optional), highlight(optional), codeID(optional), displayID(optional), character(optiona), codeID1-4(optional)
+-	Example: <missionItem missionID="TM_01" file="SniperSwap.sc" author="SI_DW" percentage="30" highlight="FALSE" x="870.6724" y="-2095.0288" z="29.4596" character="CHAR_TREVOR" heading="180.0" info="DM_INFO_001"/>
+
+Script
+-	Description: Launch the specified script with optional player warp/heading.
+-	Node: scriptItem
+-	Attributes: title, file, x(optional), y(optional), z(optional), heading(optional), author(optional) , codeID(optional), displayID(optional)
+-	Example: <scriptItem title="Clothes Shop" file="shop_Example.sc" x="-1249.6451" y="-1141.2218" z="6.7833" author="SI_KR"/>
+
+Warp
+-	Description: Sets the players coordinates with optional heading.
+-	Node: warpItem
+-	Attributes: title, x, y, z, author(optional), percentage(optional), highlight(optional), heading(optional), codeID(optional), displayID(optional) 
+-	Example: <warpItem title="Wardrobe" x="-1245.552" y="-1139.976" z="6.7876" author="SI_KR" percentage="10%" highlight=TRUE/>
+
+Code
+-	Description: Runs a piece of hardcoded script in **_Debug_Menu.sch.
+-	Node: codeItem
+-	Attributes: title, codeID, displayID(optional)
+-	Example: <codeItem title="Start Last Failed Stage" codeID="SPCID_CHEM_HEIST_FAILED" displayID="SPDID_CHEM_FAILED"/>
+
+Break
+-	Description: Puts a non-selectable break line in the menu.
+-	Node: breakItem
+-	Attributes: none
+-	Example: <breakItem/>
+
+
+-->

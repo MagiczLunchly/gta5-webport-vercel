@@ -1,0 +1,42 @@
+<?xml version='1.0'?>
+<DebugMenuItems>
+
+	<warpItem missionID="BA1" title="Barry1 - Aliens" file="Barry1.sc" author="SI_AG" percentage="0" highlight="FALSE"
+	 x="132.6470" y="-961.0826" z="28.4994" heading="338.5417"
+	 x1="168.2501"  y1="-1026.9404" z1="28.3765" heading1="255.1656" 
+	 x2="290.5841" y2="-949.2094" z2="28.3892" heading2="98.0710"
+	 codeID="SPCID_RANDOM_CHAR" preCodeID="SPCID_RANDOM_CHAR_PRE_LAUNCH" labelID="LABEL_RC_BARRY_1" character="CHAR_MICHAEL" vehicleWarp="TRUE"/>
+
+	<warpItem missionID="BA2" title="Barry2 - Clowns" file="Barry2.sc" author="SI_AG" percentage="0" highlight="FALSE"
+	 x="132.6470" y="-961.0826" z="28.4994" heading="338.5417"
+	 x1="168.2501"  y1="-1026.9404" z1="28.3765" heading1="255.1656" 
+	 x2="290.5841" y2="-949.2094" z2="28.3892" heading2="98.0710"
+	 codeID="SPCID_RANDOM_CHAR" preCodeID="SPCID_RANDOM_CHAR_PRE_LAUNCH" labelID="LABEL_RC_BARRY_2" character="CHAR_TREVOR" vehicleWarp="TRUE"/>
+
+	<warpItem missionID="BA3" title="Barry3 - Bad Drugs" file="Barry3.sc" author="SI_TW" percentage="0" highlight="FALSE"
+	x="378.0690" y="-678.3141" z="28.2497" heading="261.1378"
+	x1="405.6122" y1="-944.5574" z1="28.4158" heading1="358.6944"
+	x2="342.7603" y2="-864.2013" z2="28.3179" heading2="270.5148"
+	codeID="SPCID_RANDOM_CHAR" preCodeID="SPCID_RANDOM_CHAR_PRE_LAUNCH" labelID="LABEL_RC_BARRY_3" character="CHAR_FRANKLIN" vehicleWarp="TRUE"/>
+	<breakItem/>
+	
+	<warpItem missionID="BA3A" title="Barry3A - Truck" file="Barry3A.sc" author="SI_TW" percentage="0" highlight="FALSE"
+	x="1248.5946" y="-1341.5417" z="34.2637" heading="354.2983"
+	x1="1189.6757" y1="-1384.2632" z1="34.1139" heading1="356.5330"
+	x2="1227.0414" y2="-1182.4824" z2="35.5193" heading2="197.0735"
+	codeID="SPCID_RANDOM_CHAR" preCodeID="SPCID_RANDOM_CHAR_PRE_LAUNCH" labelID="LABEL_RC_BARRY_3" character="CHAR_FRANKLIN" vehicleWarp="TRUE"/>
+
+	<warpItem missionID="BA3C" title="Barry3C - Scrap car" file="Barry3C.sc" author="SI_TW" percentage="0" highlight="FALSE"
+	x="-368.0889" y="-1660.3004" z="17.9633" heading="151.6843"
+	x1="-384.9530" y1="-1811.9163" z1="20.5750" heading1="23.5123"
+	x2="-507.8626" y2="-1803.1462" z2="21.1558" heading2="332.1714"
+	codeID="SPCID_RANDOM_CHAR" preCodeID="SPCID_RANDOM_CHAR_PRE_LAUNCH" labelID="LABEL_RC_BARRY_3" character="CHAR_FRANKLIN" vehicleWarp="TRUE"/>
+	<breakItem/>
+
+	<warpItem missionID="BA4" title="Barry4 - Smoke out" file="Barry4.sc" author="SI_SF" percentage="0" highlight="FALSE"
+	x="330.5150" y="-305.9838" z="51.8320" heading="161.7724"
+	x1="117.6981" y1="-322.1017" z1="44.4529" heading1="249.6681"
+	x2="142.0980" y2="-492.1425" z2="42.1857" heading2="343.3273"
+	codeID="SPCID_RANDOM_CHAR" preCodeID="SPCID_RANDOM_CHAR_PRE_LAUNCH" labelID="LABEL_RC_BARRY_3" character="CHAR_FRANKLIN" vehicleWarp="TRUE"/>
+	
+</DebugMenuItems>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GameRecorder__FilterInfo>
+  <Filters>
+    <Item>EntityAttachmentUpdate</Item>
+    <Item>PedAnimatedVelocityEvent</Item>
+    <Item>PedCapsuleInfoEvent</Item>
+    <Item>PedDesiredVelocityEvent</Item>
+    <Item>PedGroundInstanceEvent</Item>
+    <Item>PedSpringEvent</Item>
+    <Item>QPedSpringEvent</Item>
+    <Item>StoreSkeletonPostUpdate</Item>
+    <Item>RecordedContactWithMatrices</Item>
+    <Item>NMImpacts</Item>
+    <Item>RecordedContact</Item>
+    <Item>InstLabelEvent</Item>
+    <Item>UpdateLocation</Item>
+    <Item>SetTaggedDataCollectionEvent</Item>
+    <Item>SetMatrixEvent</Item>
+    <Item>SetAngularVelocityEvent</Item>
+    <Item>SetVelocityEvent</Item>
+    <Item>ApplyTorqueEvent</Item>
+    <Item>ApplyForceCGEvent</Item>
+    <Item>ApplyImpulseCGEvent</Item>
+    <Item>ApplyImpulseEvent</Item>
+    <Item>ApplyForceEvent</Item>
+    <Item>PhysicsFrame</Item>
+  </Filters>
+  <bRecordSkeletonsEveryFrame value="true" />
+  <bPosePedsIfPossible value="true" />
+</GameRecorder__FilterInfo>

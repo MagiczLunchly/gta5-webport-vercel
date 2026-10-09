@@ -1,0 +1,257 @@
+<?xml version='1.0'?>
+
+<!--
+---------------------------------------------------------------
+			AVAILABLE MISSION NODES
+---------------------------------------------------------------
+   
+   <missionItem file="prologue1.sc"/>
+   <missionItem file="armenian1.sc"/>
+   <missionItem file="armenian2.sc"/>
+   <missionItem file="franklin0.sc"/>
+   <missionItem file="lamar1.sc"/>
+   <missionItem file="armenian3.sc"/>
+   <missionItem file="family1.sc"/>
+   <missionItem file="family3.sc"/>
+   <missionItem file="family2.sc"/>
+   <missionItem file="lester1a.sc"/>
+   <missionItem file="drf1.sc"/>
+   <missionItem file="lester1b.sc"/>
+   <missionItem file="me_amanda1.sc"/>
+   <missionItem file="jewelry_setup1.sc"/>
+   <missionItem file="jewelry_prep1A.sc"/>
+   <missionItem file="jewelry_prep2A.sc"/>
+   <missionItem file="jewelry_heist.sc"/>
+   <missionItem file="trevor1.sc"/>
+   <missionItem file="trevor2.sc"/>
+   <missionItem file="chinese1.sc"/>
+   <missionItem file="chinese2.sc"/>
+   <missionItem file="trevor3.sc"/>
+   <missionItem file="family4.sc"/>
+   <missionItem file="fbi1.sc"/>
+   <missionItem file="drf2.sc"/>
+   <missionItem file="docks_setup.sc"/>
+   <missionItem file="fbi1_end.sc"/>
+   <missionItem file="Assassin_Valet.sc"/>
+   <missionItem file="fbi2.sc"/>
+   <missionItem file="franklin1.sc"/>
+   <missionItem file="family5.sc"/>
+   <missionItem file="Assassin_Multi.sc"/>
+   <missionItem file="docks_board.sc"/>
+   <missionItem file="fbi3.sc"/>
+   <missionItem file="docks_prep2B.sc"/>
+   <missionItem file="docks_prep1.sc"/>
+   <missionItem file="fbi4_intro.sc"/>
+   <missionItem file="fbi4_prep2.sc"/>
+   <missionItem file="docks_heistB.sc"/>
+   <missionItem file="fbi4_prep1.sc"/>
+   <missionItem file="fbi4_prep4.sc"/>
+   <missionItem file="fbi4_prep5.sc"/>
+   <missionItem file="fbi4.sc"/>
+   <missionItem file="solomon1.sc"/>
+   <missionItem file="carsteal1.sc"/>
+   <missionItem file="carsteal2.sc"/>
+   <missionItem file="drf3.sc"/>
+   <missionItem file="martin1.sc"/>
+   <missionItem file="Assassin_Hooker.sc"/>
+   <missionItem file="Assassin_Bus.sc"/>
+   <missionItem file="Assassin_Construction.sc"/>
+   <missionItem file="exile1.sc"/>
+   <missionItem file="drf4.sc"/>
+   <missionItem file="carsteal3.sc"/>
+   <missionItem file="rural_bank_setup.sc"/>
+   <missionItem file="rural_bank_prep1.sc"/>
+   <missionItem file="exile2.sc"/>
+   <missionItem file="rural_bank_heist.sc"/>
+   <missionItem file="exile3.sc"/>
+   <missionItem file="fbi5A.sc"/>
+   <missionItem file="trevor4.sc"/>
+   <missionItem file="finale_heist1.sc"/>
+   <missionItem file="michael1.sc"/>
+   <missionItem file="carsteal4.sc"/>
+   <missionItem file="michael2.sc"/>
+   <missionItem file="solomon2.sc"/>
+   <missionItem file="agency_heist1.sc"/>
+   <missionItem file="family6.sc"/>
+   <missionItem file="agency_heist2.sc"/>
+   <missionItem file="me_jimmy1.sc"/>
+   <missionItem file="drf5.sc"/>
+   <missionItem file="me_tracey1.sc"/>
+   <missionItem file="agency_heist3_intro.sc"/>
+   <missionItem file="agency_prep1.sc"/>
+   <missionItem file="agency_heist3A.sc"/>
+   <missionItem file="michael3.sc"/>
+   <missionItem file="solomon3.sc"/>
+   <missionItem file="franklin2.sc"/>
+   <missionItem file="michael4.sc"/>
+   <missionItem file="finale_heist2_intro.sc"/>
+   <missionItem file="finale_heist_prepA.sc"/>
+   <missionItem file="finale_heist_prepC.sc"/>
+   <missionItem file="finale_heist_prepC.sc"/>
+   <missionItem file="finale_heist_prepC.sc"/>
+   <missionItem file="finale_heist2A.sc"/>
+   <missionItem file="finale_intro.sc"/>
+   <missionItem file="finaleA.sc"/>
+   <missionItem file="finaleB.sc"/>
+   <missionItem file="finaleC1.sc"/>
+   <missionItem file="finaleC2.sc"/>
+   <missionItem file="finale_credits.sc"/>
+		
+---------------------------------------------------------------
+Define your own groups in the <MissionGroups> block below.
+	
+To run group <Group_GameStart> run game with commandline args:
+	-nopopups
+	-missiongroup=Group_GameStart
+---------------------------------------------------------------
+-->
+
+<MissionGroups>
+
+	<!------------------------------>
+	<!-- PLAYTHROUGH ORDER GROUPS -->
+	<!------------------------------>
+
+	<Group_Playthrough_1>
+		<missionItem file="prologue1.sc"/>
+		<missionItem file="armenian1.sc"/>
+		<missionItem file="armenian2.sc"/>
+		<missionItem file="franklin0.sc"/>
+		<missionItem file="lamar1.sc"/>
+		<missionItem file="armenian3.sc"/>
+	</Group_Playthrough_1>		
+		
+	<Group_Playthrough_2>		
+		<missionItem file="family1.sc"/>
+		<missionItem file="family3.sc"/>
+		<missionItem file="family2.sc"/>
+		<missionItem file="lester1a.sc"/>
+		<missionItem file="drf1.sc"/>
+		<missionItem file="lester1b.sc"/>
+	</Group_Playthrough_2>			
+		
+	<Group_Playthrough_3>
+		<missionItem file="me_amanda1.sc"/>
+		<missionItem file="jewelry_setup1.sc"/>
+		<missionItem file="jewelry_prep1A.sc"/>
+		<missionItem file="jewelry_prep2A.sc"/>
+		<missionItem file="jewelry_heist.sc"/>
+		<missionItem file="trevor1.sc"/>	
+	</Group_Playthrough_3>			
+		
+	<Group_Playthrough_4>
+		<missionItem file="trevor2.sc"/>
+		<missionItem file="chinese1.sc"/>
+		<missionItem file="chinese2.sc"/>
+		<missionItem file="trevor3.sc"/>
+		<missionItem file="family4.sc"/>
+		<missionItem file="fbi1.sc"/>
+	</Group_Playthrough_4>			
+		
+	<Group_Playthrough_5>
+		<missionItem file="drf2.sc"/>
+		<missionItem file="docks_setup.sc"/>
+		<missionItem file="fbi1_end.sc"/>
+		<missionItem file="Assassin_Valet.sc"/>
+		<missionItem file="fbi2.sc"/>
+		<missionItem file="franklin1.sc"/>
+	</Group_Playthrough_5>			
+		
+	<Group_Playthrough_6>
+		<missionItem file="family5.sc"/>
+		<missionItem file="Assassin_Multi.sc"/>
+		<missionItem file="docks_board.sc"/>
+		<missionItem file="fbi3.sc"/>
+		<missionItem file="docks_prep2B.sc"/>
+		<missionItem file="docks_prep1.sc"/>
+	</Group_Playthrough_6>			
+		
+	<Group_Playthrough_7>
+		<missionItem file="fbi4_intro.sc"/>
+		<missionItem file="fbi4_prep2.sc"/>
+		<missionItem file="docks_heistB.sc"/>
+		<missionItem file="fbi4_prep1.sc"/>
+		<missionItem file="fbi4_prep4.sc"/>
+		<missionItem file="fbi4_prep5.sc"/>
+	</Group_Playthrough_7>			
+		
+	<Group_Playthrough_8>
+		<missionItem file="fbi4.sc"/>
+		<missionItem file="solomon1.sc"/>
+		<missionItem file="carsteal1.sc"/>
+		<missionItem file="carsteal2.sc"/>
+		<missionItem file="drf3.sc"/>
+		<missionItem file="martin1.sc"/>
+	</Group_Playthrough_8>	
+		
+	<Group_Playthrough_9>	
+		<missionItem file="Assassin_Hooker.sc"/>
+		<missionItem file="Assassin_Bus.sc"/>
+		<missionItem file="Assassin_Construction.sc"/>
+		<missionItem file="exile1.sc"/>
+		<missionItem file="drf4.sc"/>
+		<missionItem file="carsteal3.sc"/>
+		<missionItem file="carsteal3.sc"/>
+	</Group_Playthrough_9>		
+		
+	<Group_Playthrough_10>
+		<missionItem file="rural_bank_setup.sc"/>
+		<missionItem file="rural_bank_prep1.sc"/>
+		<missionItem file="exile2.sc"/>
+		<missionItem file="rural_bank_heist.sc"/>
+		<missionItem file="exile3.sc"/>
+		<missionItem file="rural_bank_setup.sc"/>
+		<missionItem file="rural_bank_prep1.sc"/>
+	</Group_Playthrough_10>			
+		
+	<Group_Playthrough_11>
+		<missionItem file="exile2.sc"/>
+		<missionItem file="rural_bank_heist.sc"/>
+		<missionItem file="exile3.sc"/>
+		<missionItem file="fbi5A.sc"/>
+		<missionItem file="trevor4.sc"/>
+		<missionItem file="finale_heist1.sc"/>
+		<missionItem file="michael1.sc"/>
+	</Group_Playthrough_11>			
+		
+	<Group_Playthrough_12>
+		<missionItem file="carsteal4.sc"/>
+		<missionItem file="michael2.sc"/>
+		<missionItem file="solomon2.sc"/>
+		<missionItem file="agency_heist1.sc"/>
+		<missionItem file="family6.sc"/>
+		<missionItem file="agency_heist2.sc"/>
+		<missionItem file="me_jimmy1.sc"/>
+	</Group_Playthrough_12>			
+		
+	<Group_Playthrough_13>
+		<missionItem file="drf5.sc"/>
+		<missionItem file="me_tracey1.sc"/>
+		<missionItem file="agency_heist3_intro.sc"/>
+		<missionItem file="agency_prep1.sc"/>
+		<missionItem file="agency_heist3A.sc"/>
+		<missionItem file="michael3.sc"/>
+		<missionItem file="solomon3.sc"/>
+	</Group_Playthrough_13>			
+		
+	<Group_Playthrough_14>
+		<missionItem file="franklin2.sc"/>
+		<missionItem file="michael4.sc"/>
+		<missionItem file="finale_heist2_intro.sc"/>
+		<missionItem file="finale_heist_prepA.sc"/>
+		<missionItem file="finale_heist_prepC.sc"/>
+		<missionItem file="finale_heist_prepC.sc"/>
+		<missionItem file="finale_heist_prepC.sc"/>
+	</Group_Playthrough_14>			
+		
+	<Group_Playthrough_15>
+		<missionItem file="finale_heist2A.sc"/>
+		<missionItem file="finale_intro.sc"/>
+		<missionItem file="finaleA.sc"/>
+		<missionItem file="finaleB.sc"/>
+		<missionItem file="finaleC1.sc"/>
+		<missionItem file="finaleC2.sc"/>
+		<missionItem file="finale_credits.sc"/>
+	</Group_Playthrough_15>			
+
+</MissionGroups>

@@ -1,0 +1,1 @@
+shader weapon_emissive_tnt

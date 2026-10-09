@@ -1,0 +1,457 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<NodeMap>
+  <debugNames>
+    <names>__Restart_AI_Alternate_Walk</names>
+    <names>__Restart_AlternateWalk</names>
+    <names>0</names>
+    <names>0_000</names>
+    <names>180</names>
+    <names>-180</names>
+    <names>180_000</names>
+    <names>-180_000</names>
+    <names>180Turn</names>
+    <names>180TurnL</names>
+    <names>180TurnR</names>
+    <names>90</names>
+    <names>-90</names>
+    <names>90_000</names>
+    <names>-90_000</names>
+    <names>AEF_FOOT_HEEL_L</names>
+    <names>AEF_FOOT_HEEL_R</names>
+    <names>AI_Alternate_Walk</names>
+    <names>AI_Run</names>
+    <names>AI_Run_Start</names>
+    <names>AI_Slope_Run</names>
+    <names>AI_Slope_Walk</names>
+    <names>AI_Stairs_Run</names>
+    <names>AI_Stairs_Walk</names>
+    <names>AI_Walk</names>
+    <names>AI_Walk_Start</names>
+    <names>AiWalkRun</names>
+    <names>AiWalkRun Forward runs</names>
+    <names>AiWalkRun Forward walks</names>
+    <names>Allow_Direction_Change</names>
+    <names>Alternate walk</names>
+    <names>Alternate_Walk_Finished</names>
+    <names>AlternateWalk</names>
+    <names>alternatewalk_000</names>
+    <names>AlternateWalkChanged</names>
+    <names>AlternateWalkClip</names>
+    <names>AlternateWalkCrossBlend</names>
+    <names>AlternateWalkLooped</names>
+    <names>Blend 2</names>
+    <names>blend 2_000</names>
+    <names>Blend N</names>
+    <names>blend n_000</names>
+    <names>blend n_001</names>
+    <names>blend n_002</names>
+    <names>blend n_003</names>
+    <names>blend n_004</names>
+    <names>blend n_005</names>
+    <names>blend n_006</names>
+    <names>blend n_007</names>
+    <names>blend n_008</names>
+    <names>blend n_009</names>
+    <names>blend n_010</names>
+    <names>blend n_011</names>
+    <names>blend n_012</names>
+    <names>blend n_013</names>
+    <names>blend n_014</names>
+    <names>blend n_015</names>
+    <names>Block180RunTurns</names>
+    <names>BlockAllRunAnims</names>
+    <names>BlockMoveStop</names>
+    <names>BlockRunStarts</names>
+    <names>BlockRunStops</names>
+    <names>BlockRunTransitionAnims</names>
+    <names>CAN_BLEND_TO_IDLE</names>
+    <names>CAN_EARLY_OUT_FOR_MOVEMENT</names>
+    <names>centre</names>
+    <names>centre_000</names>
+    <names>Clip</names>
+    <names>clip_000</names>
+    <names>clip_001</names>
+    <names>clip_002</names>
+    <names>clip_003</names>
+    <names>clip_004</names>
+    <names>clip_005</names>
+    <names>clip_006</names>
+    <names>clip_007</names>
+    <names>clip_008</names>
+    <names>clip_009</names>
+    <names>Curve</names>
+    <names>Default</names>
+    <names>DesiredDirection</names>
+    <names>DesiredSpeed</names>
+    <names>Direction</names>
+    <names>Disable</names>
+    <names>DoNothing</names>
+    <names>End_Idle_Turn</names>
+    <names>End_Idle_Turn_l</names>
+    <names>End_Locomotion</names>
+    <names>End_Move_Stop</names>
+    <names>EndAlternateWalk</names>
+    <names>EndDirection</names>
+    <names>Filter</names>
+    <names>filter_000</names>
+    <names>filter_001</names>
+    <names>filter_002</names>
+    <names>filter_003</names>
+    <names>filter_004</names>
+    <names>filter_005</names>
+    <names>filter_006</names>
+    <names>filter_007</names>
+    <names>filter_008</names>
+    <names>filter_009</names>
+    <names>filter_010</names>
+    <names>filter_011</names>
+    <names>filter_012</names>
+    <names>filter_013</names>
+    <names>filter_014</names>
+    <names>filter_015</names>
+    <names>filter_016</names>
+    <names>filter_017</names>
+    <names>filter_018</names>
+    <names>filter_019</names>
+    <names>filter_020</names>
+    <names>filter_021</names>
+    <names>Finished_Idle_Turn</names>
+    <names>Finished_Move_Turn</names>
+    <names>Finished_Slow_Down</names>
+    <names>forward</names>
+    <names>forward_000</names>
+    <names>forward_001</names>
+    <names>HardLeft</names>
+    <names>HardRight</names>
+    <names>HasDesiredVelocity</names>
+    <names>Idle</names>
+    <names>Idle_Intro</names>
+    <names>idle_turn_l_0</names>
+    <names>idle_turn_l_180</names>
+    <names>idle_turn_l_-180</names>
+    <names>idle_turn_l_90</names>
+    <names>idle_turn_l_-90</names>
+    <names>idle_turn_r_0</names>
+    <names>idle_turn_r_180</names>
+    <names>idle_turn_r_-180</names>
+    <names>idle_turn_r_90</names>
+    <names>idle_turn_r_-90</names>
+    <names>IdleClip</names>
+    <names>Idles</names>
+    <names>IdleTurnClip0</names>
+    <names>IdleTurnClip0L</names>
+    <names>IdleTurnClip1</names>
+    <names>IdleTurnClip1L</names>
+    <names>IdleTurnClip2</names>
+    <names>IdleTurnClip2L</names>
+    <names>IdleTurnClip3</names>
+    <names>IdleTurnClip3L</names>
+    <names>IdleTurnClip4</names>
+    <names>IdleTurnClip4L</names>
+    <names>IdleTurnLeftVisible</names>
+    <names>IdleTurnPhase0</names>
+    <names>IdleTurnPhase0L</names>
+    <names>IdleTurnPhase1</names>
+    <names>IdleTurnPhase1L</names>
+    <names>IdleTurnPhase2</names>
+    <names>IdleTurnPhase2L</names>
+    <names>IdleTurnPhase3</names>
+    <names>IdleTurnPhase3L</names>
+    <names>IdleTurnPhase4</names>
+    <names>IdleTurnPhase4L</names>
+    <names>IdleTurnRightVisible</names>
+    <names>IdleTurnWeight0</names>
+    <names>IdleTurnWeight0L</names>
+    <names>IdleTurnWeight1</names>
+    <names>IdleTurnWeight1L</names>
+    <names>IdleTurnWeight2</names>
+    <names>IdleTurnWeight2L</names>
+    <names>IdleTurnWeight3</names>
+    <names>IdleTurnWeight3L</names>
+    <names>IdleTurnWeight4</names>
+    <names>IdleTurnWeight4L</names>
+    <names>IntroIdle</names>
+    <names>IntroIdlePhase</names>
+    <names>Invalid</names>
+    <names>invalid_000</names>
+    <names>invalid_001</names>
+    <names>invalid_002</names>
+    <names>invalid_003</names>
+    <names>invalid_004</names>
+    <names>invalid_005</names>
+    <names>invalid_006</names>
+    <names>invalid_007</names>
+    <names>invalid_008</names>
+    <names>IsPlayer</names>
+    <names>LastFootRight</names>
+    <names>Left</names>
+    <names>left180</names>
+    <names>left180_000</names>
+    <names>left180_001</names>
+    <names>left180_002</names>
+    <names>left180_003</names>
+    <names>left90</names>
+    <names>left90_000</names>
+    <names>left90_001</names>
+    <names>left90_002</names>
+    <names>left90_003</names>
+    <names>Locomotion</names>
+    <names>Locomotion walking</names>
+    <names>Locomotion walking forward walks</names>
+    <names>LocomotionVisible</names>
+    <names>Merge 2</names>
+    <names>merge 2_000</names>
+    <names>merge 2_001</names>
+    <names>merge 2_002</names>
+    <names>merge 2_003</names>
+    <names>merge 2_004</names>
+    <names>merge 2_005</names>
+    <names>merge 2_006</names>
+    <names>merge 2_007</names>
+    <names>merge 2_008</names>
+    <names>merge 2_009</names>
+    <names>merge 2_010</names>
+    <names>merge 2_011</names>
+    <names>merge 2_012</names>
+    <names>merge 2_013</names>
+    <names>merge 2_014</names>
+    <names>merge 2_015</names>
+    <names>merge 2_016</names>
+    <names>merge 2_017</names>
+    <names>merge 2_018</names>
+    <names>merge 2_019</names>
+    <names>merge 2_020</names>
+    <names>merge 2_021</names>
+    <names>MoveRateOverride</names>
+    <names>MoveStartLeftVisible</names>
+    <names>MoveStartRightVisible</names>
+    <names>MoveStartVisible</names>
+    <names>MoveStopClip</names>
+    <names>MoveStopPhase</names>
+    <names>MoveStopVisible</names>
+    <names>MoveTurnVisible</names>
+    <names>OnEnterChangeDirection</names>
+    <names>OnEnterIdle</names>
+    <names>OnEnterIdleTurn</names>
+    <names>OnEnterLocomotion</names>
+    <names>OnEnterMoveStartL</names>
+    <names>OnEnterMoveStartR</names>
+    <names>OnEnterMoveStopL</names>
+    <names>OnEnterMoveStopR</names>
+    <names>OnEnterMoveTurn</names>
+    <names>OnEnterStrafing</names>
+    <names>OnExitIdle</names>
+    <names>OnExitLocomotion</names>
+    <names>OnExitMoveStartL</names>
+    <names>OnExitMoveStartR</names>
+    <names>OnExitMoveStop</names>
+    <names>OnExitMoveStopL</names>
+    <names>OnExitMoveTurn</names>
+    <names>Output</names>
+    <names>ResetTransitionTimer</names>
+    <names>Right</names>
+    <names>right180</names>
+    <names>right180_000</names>
+    <names>right180_001</names>
+    <names>right180_002</names>
+    <names>right180_003</names>
+    <names>right90</names>
+    <names>right90_000</names>
+    <names>right90_001</names>
+    <names>right90_002</names>
+    <names>right90_003</names>
+    <names>rstart_l_0</names>
+    <names>rstart_l_180</names>
+    <names>rstart_l_-180</names>
+    <names>rstart_l_90</names>
+    <names>rstart_l_-90</names>
+    <names>rstart_r_0</names>
+    <names>rstart_r_180</names>
+    <names>rstart_r_-180</names>
+    <names>rstart_r_90</names>
+    <names>rstart_r_-90</names>
+    <names>rstop_l</names>
+    <names>rstop_r</names>
+    <names>run</names>
+    <names>run_000</names>
+    <names>run_001</names>
+    <names>run_002</names>
+    <names>run_down</names>
+    <names>run_down_slope</names>
+    <names>run_down_slope_000</names>
+    <names>Run_Turn_180_LF_R</names>
+    <names>run_turn_180_lf_r_000</names>
+    <names>Run_Turn_180_RF_L</names>
+    <names>run_turn_180_rf_l_000</names>
+    <names>run_turn_l2</names>
+    <names>run_turn_L3</names>
+    <names>run_turn_l3_000</names>
+    <names>run_turn_r2</names>
+    <names>run_turn_R3</names>
+    <names>run_turn_r3_000</names>
+    <names>run_up</names>
+    <names>run_up_slope</names>
+    <names>run_up_slope_000</names>
+    <names>RunBlendLeft</names>
+    <names>RunBlendRight</names>
+    <names>RunClip</names>
+    <names>RunForward</names>
+    <names>RunForwardAnim</names>
+    <names>RunHardLeft</names>
+    <names>runhardleft_000</names>
+    <names>RunHardRight</names>
+    <names>runhardright_000</names>
+    <names>RunLeft</names>
+    <names>runleft_000</names>
+    <names>RunRight</names>
+    <names>runright_000</names>
+    <names>RunSlope</names>
+    <names>RunSlopeAnim</names>
+    <names>RunSprint</names>
+    <names>RunStairsAnim</names>
+    <names>RunStairsDown</names>
+    <names>RunStairsDownClip</names>
+    <names>RunStairsStart</names>
+    <names>RunStairsUp</names>
+    <names>RunStairsUpClip</names>
+    <names>RunStop_Left</names>
+    <names>RunStop_Right</names>
+    <names>RunToWalk_Left</names>
+    <names>runtowalk_left_000</names>
+    <names>RunToWalk_Right</names>
+    <names>runtowalk_right_000</names>
+    <names>RunToWalkTimer</names>
+    <names>RunTurn180_Phase</names>
+    <names>SelectSpeedLeft</names>
+    <names>SelectSpeedRight</names>
+    <names>SlopeDirection</names>
+    <names>SlopeWalk</names>
+    <names>SlopeWalkAnim</names>
+    <names>Speed</names>
+    <names>Sprint</names>
+    <names>sprint_turn_l</names>
+    <names>sprint_turn_r</names>
+    <names>SprintLeft</names>
+    <names>SprintRight</names>
+    <names>Stairs Walk Down</names>
+    <names>Stairs Walk Start</names>
+    <names>Stairs Walk Up</names>
+    <names>StairsWalk</names>
+    <names>standard walk_000</names>
+    <names>StandardWalk</names>
+    <names>standardwalk_000</names>
+    <names>Start Walking</names>
+    <names>Start_Left</names>
+    <names>Start_Left Run</names>
+    <names>Start_Left turn</names>
+    <names>Start_Left walk</names>
+    <names>Start_Locomotion</names>
+    <names>Start_Right</names>
+    <names>Start_Right run</names>
+    <names>Start_Right turn</names>
+    <names>Start_Right walk</names>
+    <names>Start180Turn</names>
+    <names>StartDirection</names>
+    <names>StartDirectionLeft</names>
+    <names>StartDirectionToDesiredDirection</names>
+    <names>StartDirectionToDesiredDirectionLeft</names>
+    <names>StartLocomotion</names>
+    <names>StartMoving</names>
+    <names>StartRunning</names>
+    <names>StateMachine</names>
+    <names>Stop_Left</names>
+    <names>Stop_Left walking</names>
+    <names>Stop_Right</names>
+    <names>Stop_Right Walking</names>
+    <names>StopLocomotion</names>
+    <names>SwapToLeftFoot</names>
+    <names>SwapToRightFoot</names>
+    <names>TargetDifference</names>
+    <names>TRANSITION_DISABLED</names>
+    <names>TransitionTimer</names>
+    <names>TriggerPhase</names>
+    <names>TriggerPhaseLeft</names>
+    <names>TurnBlendLeft</names>
+    <names>TurnBlendRight</names>
+    <names>USE_LEFT_FOOT_TRANSITION</names>
+    <names>UseAlternateWalk</names>
+    <names>UseSlopeWalk</names>
+    <names>UseStairWalk</names>
+    <names>walk</names>
+    <names>walk_000</names>
+    <names>walk_001</names>
+    <names>walk_down</names>
+    <names>walk_down_slope</names>
+    <names>walk_down_slope_000</names>
+    <names>walk_turn_180_l</names>
+    <names>walk_turn_180_r</names>
+    <names>walk_turn_l3</names>
+    <names>walk_turn_l3_000</names>
+    <names>walk_turn_l4</names>
+    <names>walk_turn_r3</names>
+    <names>walk_turn_r3_000</names>
+    <names>walk_turn_r4</names>
+    <names>walk_up</names>
+    <names>walk_up_slope</names>
+    <names>walk_up_slope_000</names>
+    <names>WalkBlendLeft</names>
+    <names>WalkBlendRight</names>
+    <names>WalkHardLeft</names>
+    <names>WalkHardRight</names>
+    <names>WalkLeft</names>
+    <names>WalkRight</names>
+    <names>WalkStopPhase</names>
+    <names>WalkStopRate</names>
+    <names>WalkToRun_Left</names>
+    <names>walktorun_left_000</names>
+    <names>WalkToRun_Right</names>
+    <names>walktorun_right_000</names>
+    <names>WalkToRunTimer</names>
+    <names>weaponanim</names>
+    <names>weaponanim_000</names>
+    <names>weaponanim_001</names>
+    <names>weaponanim_002</names>
+    <names>weaponanim_003</names>
+    <names>weaponanim_004</names>
+    <names>weaponanim_005</names>
+    <names>weaponanim_006</names>
+    <names>WeaponAnimFilter</names>
+    <names>WeaponAnimWeight</names>
+    <names>weaponclip</names>
+    <names>weaponclip_000</names>
+    <names>weaponclip_001</names>
+    <names>weaponclip_002</names>
+    <names>weaponclip_003</names>
+    <names>weaponclip_004</names>
+    <names>weaponclip_005</names>
+    <names>weaponclip_006</names>
+    <names>WeaponIdleClip</names>
+    <names>WeaponRunClip</names>
+    <names>WeaponRunPlayer</names>
+    <names>WeaponWalk</names>
+    <names>WeaponWalkClip</names>
+    <names>WeaponWalkPlayer</names>
+    <names>weaponwalkplayer_000</names>
+    <names>weaponwalkplayer_001</names>
+    <names>wstart_l_0</names>
+    <names>wstart_l_180</names>
+    <names>wstart_l_-180</names>
+    <names>wstart_l_90</names>
+    <names>wstart_l_-90</names>
+    <names>wstart_r_0</names>
+    <names>wstart_r_180</names>
+    <names>wstart_r_-180</names>
+    <names>wstart_r_90</names>
+    <names>wstart_r_-90</names>
+    <names>wstop_l_0</names>
+    <names>wstop_l_180</names>
+    <names>wstop_l_-180</names>
+    <names>wstop_l_90</names>
+    <names>wstop_l_-90</names>
+    <names>wstop_r_0</names>
+    <names>wstop_r_180</names>
+    <names>wstop_r_-180</names>
+    <names>wstop_r_90</names>
+    <names>wstop_r_-90</names>
+  </debugNames>
+</NodeMap>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!-- 
+xml menu system - Parent / Child
+simon lashley
+-->
+
+<!-- root node must be called child for scripts to recognise it -->
+<child>
+
+	<!-- 
+	example menuItem node will all options available to script
+	NOT all options can be used together, eg a menu item can't
+	load both a parent and child xml script,
+	-->
+
+	<!--
+	<exampleMenuItem>
+		<title 			string="Text that appears on the menu screen" />
+		<scFile 		string="Script Name" />
+		<warpPos 		x="1000.0" y="1000.0" z="1000.0" />
+		<warpHeading 	float="180.0" />
+		<weapon 		stringHash="MP5" />
+		<model 			stringHash="M_Y_COP" />
+		<closeMenu 		bool="true" />
+		<textColour 	r="255" g="0" b="0" a="200" />
+		<xmlParent 		string="parent.xml" />
+		<xmlChild 		string="child1.xml" />
+		<defaultChild 	int="0" />
+		<canTagItem 	bool="false" />
+		<itemIsTagged	bool="false" />
+		<gotoNextTab 	bool="false" />
+		<uniqueID		int="1" />
+	</exampleMenuItem>
+	-->
+
+    <settings>
+		<titleColour r="200" g="200" b="200" a="200" />
+		<title string="Script Launcher" />
+	</settings>
+
+	<menuItem><title string="Test Item 0" /></menuItem>
+	<menuItem><title string="Test Item 1" /></menuItem>
+	<menuItem><title string="Test Item 2" /></menuItem>
+	<menuItem><title string="Test Item 3" /></menuItem>
+	<menuItem><title string="Test Item 4" /></menuItem>
+	<menuItem><title string="Test Item 5" /></menuItem>
+	<menuItem><title string="Test Item 6" /></menuItem>
+	<menuItem><title string="Test Item 7" /></menuItem>
+	<menuItem><title string="Test Item 8" /></menuItem>
+	<menuItem><title string="Test Item 9" /></menuItem>
+	<menuItem><title string="Test Item 10" /></menuItem>
+	<menuItem><title string="Test Item 11" /></menuItem>
+	<menuItem><title string="Test Item 12" /></menuItem>
+	<menuItem><title string="Test Item 13" /></menuItem>
+	<menuItem><title string="Test Item 14" /></menuItem>
+	<menuItem><title string="Test Item 15" /></menuItem>
+	<menuItem><title string="Test Item 16" /></menuItem>
+	<menuItem><title string="Test Item 17" /></menuItem>
+	<menuItem><title string="Test Item 18" /></menuItem>
+	<menuItem><title string="Test Item 19" /></menuItem>
+
+</child>

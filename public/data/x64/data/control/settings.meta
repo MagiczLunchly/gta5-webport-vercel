@@ -1,0 +1,769 @@
+<?xml version="1.0"	encoding="UTF-8"?>
+
+<rage__ControlInput__MappingSettings>
+
+		<!-- === INPUT CATEGORIES MAPPINGS ========================================================== -->
+	
+	<Categories>
+		<Item key="GENERAL">
+			<Inputs>
+				<Item>INPUT_HUD_SPECIAL</Item>
+				<Item>INPUT_NEXT_CAMERA</Item>
+				<Item>INPUT_CHARACTER_WHEEL</Item>
+				<Item>INPUT_SPECIAL_ABILITY_PC</Item>
+				<Item>INPUT_SELECT_CHARACTER_MICHAEL</Item>
+				<Item>INPUT_SELECT_CHARACTER_FRANKLIN</Item>
+				<Item>INPUT_SELECT_CHARACTER_TREVOR</Item>
+				<Item>INPUT_SELECT_CHARACTER_MULTIPLAYER</Item>
+				<Item>INPUT_PHONE</Item>
+				<Item>INPUT_INTERACTION_MENU</Item>
+				<Item>INPUT_SAVE_REPLAY_CLIP</Item>
+				<Item>INPUT_REPLAY_START_STOP_RECORDING</Item>
+			</Inputs>
+		</Item>
+
+		<Item key="CELLPHONE">
+			<Inputs>
+				<Item>INPUT_CELLPHONE_LEFT</Item>
+				<Item>INPUT_CELLPHONE_RIGHT</Item>
+				<Item>INPUT_CELLPHONE_UP</Item>
+				<Item>INPUT_CELLPHONE_DOWN</Item>
+				<Item>INPUT_CELLPHONE_SELECT</Item>
+				<Item>INPUT_CELLPHONE_CANCEL</Item>
+				<Item>INPUT_CELLPHONE_OPTION</Item>
+				<Item>INPUT_CELLPHONE_EXTRA_OPTION</Item>
+				<Item>INPUT_CELLPHONE_SCROLL_FORWARD</Item>
+				<Item>INPUT_CELLPHONE_SCROLL_BACKWARD</Item>
+			</Inputs>
+		</Item>
+		
+		<Item key="CELLPHONE_CAMERA">
+			<Inputs>
+				<Item>INPUT_CELLPHONE_CAMERA_SELFIE </Item>
+				<Item>INPUT_CELLPHONE_CAMERA_EXPRESSION</Item>
+				<Item>INPUT_CELLPHONE_CAMERA_GRID</Item>
+				<Item>INPUT_CELLPHONE_CAMERA_DOF</Item>
+				<Item>INPUT_CELLPHONE_CAMERA_FOCUS_LOCK</Item>
+			</Inputs>
+		</Item>
+				
+					
+		<Item key="ON_FOOT_GENERAL">
+			<Inputs>
+				<Item>INPUT_LOOK_BEHIND</Item>
+				<Item>INPUT_MOVE_UP_ONLY</Item>
+				<Item>INPUT_MOVE_DOWN_ONLY</Item>
+				<Item>INPUT_MOVE_LEFT_ONLY</Item>
+				<Item>INPUT_MOVE_RIGHT_ONLY</Item>
+				<Item>INPUT_JUMP</Item>
+				<Item>INPUT_SPRINT</Item>
+				<Item>INPUT_ENTER</Item>
+				<Item>INPUT_CONTEXT</Item>
+				<Item>INPUT_DUCK</Item>
+				<Item>INPUT_AIM</Item>
+				<Item>INPUT_COVER</Item>
+				<Item>INPUT_DETONATE</Item>
+				<Item>INPUT_SELECT_WEAPON</Item>
+				<Item>INPUT_SELECT_WEAPON_UNARMED</Item>
+				<Item>INPUT_SELECT_WEAPON_MELEE</Item>
+				<Item>INPUT_SELECT_WEAPON_HANDGUN</Item>
+				<Item>INPUT_SELECT_WEAPON_SHOTGUN</Item>
+				<Item>INPUT_SELECT_WEAPON_SMG</Item>
+				<Item>INPUT_SELECT_WEAPON_AUTO_RIFLE</Item>
+				<Item>INPUT_SELECT_WEAPON_SNIPER</Item>
+				<Item>INPUT_SELECT_WEAPON_HEAVY</Item>
+				<Item>INPUT_SELECT_WEAPON_SPECIAL</Item>
+				<Item>INPUT_WEAPON_WHEEL_NEXT</Item>
+				<Item>INPUT_WEAPON_WHEEL_PREV</Item>
+				<Item>INPUT_SELECT_NEXT_WEAPON</Item>
+				<Item>INPUT_SELECT_PREV_WEAPON</Item>
+			</Inputs>
+		</Item>
+		
+		<Item key="ON_FOOT_MELEE">
+			<Inputs>
+				<Item>INPUT_MELEE_ATTACK_LIGHT</Item>
+				<Item>INPUT_MELEE_ATTACK_HEAVY</Item>
+			</Inputs>
+		</Item>
+
+		<Item key="ON_FOOT_SHOOTING">
+			<Inputs>
+				<Item>INPUT_ATTACK</Item>
+				<Item>INPUT_RELOAD</Item>
+				<Item>INPUT_ACCURATE_AIM</Item>
+				<Item>INPUT_WEAPON_SPECIAL_TWO</Item>
+			</Inputs>
+		</Item>
+		
+		<Item key="ON_FOOT_SNIPER_ZOOM">
+			<Inputs>
+				<Item>INPUT_SNIPER_ZOOM_IN_ONLY</Item>
+				<Item>INPUT_SNIPER_ZOOM_OUT_ONLY</Item>
+			</Inputs>
+		</Item>
+				
+		<Item key="VEHICLE_GENERAL">
+			<Inputs>
+				<Item>INPUT_VEH_EXIT</Item>
+				<Item>INPUT_VEH_LOOK_BEHIND</Item>
+				<Item>INPUT_VEH_NEXT_RADIO</Item>
+				<Item>INPUT_VEH_PREV_RADIO</Item>
+				<Item>INPUT_VEH_CIN_CAM</Item>
+				<Item>INPUT_VEH_RADIO_WHEEL</Item>
+				<Item>INPUT_CINEMATIC_SLOWMO</Item>
+				<Item>INPUT_VEH_DUCK</Item>
+			</Inputs>
+		</Item>
+
+		<Item key="VEHICLE_GROUND">
+			<Inputs>
+				<Item>INPUT_VEH_ACCELERATE</Item>
+				<Item>INPUT_VEH_BRAKE</Item>
+				<Item>INPUT_VEH_MOVE_LEFT_ONLY</Item>
+				<Item>INPUT_VEH_MOVE_RIGHT_ONLY</Item>
+				<Item>INPUT_VEH_HEADLIGHT</Item>
+				<Item>INPUT_VEH_HANDBRAKE</Item>
+				<Item>INPUT_VEH_AIM</Item>
+				<Item>INPUT_VEH_HORN</Item>
+				<Item>INPUT_VEH_MOVE_UP_ONLY</Item>
+				<Item>INPUT_VEH_MOVE_DOWN_ONLY</Item>
+				<Item>INPUT_VEH_ROOF</Item>
+				<Item>INPUT_VEH_PUSHBIKE_SPRINT</Item>
+				<Item>INPUT_VEH_PUSHBIKE_FRONT_BRAKE</Item>
+				<Item>INPUT_VEH_SELECT_NEXT_WEAPON</Item>
+				<Item>INPUT_VEH_SELECT_PREV_WEAPON</Item>
+			</Inputs>
+		</Item>
+
+		<Item key="VEHICLE_FLY">
+			<Inputs>
+				<Item>INPUT_VEH_FLY_THROTTLE_UP</Item>
+				<Item>INPUT_VEH_FLY_THROTTLE_DOWN</Item>
+				<Item>INPUT_VEH_FLY_YAW_LEFT</Item>
+				<Item>INPUT_VEH_FLY_YAW_RIGHT</Item>
+				<Item>INPUT_VEH_FLY_ROLL_LEFT_ONLY</Item>
+				<Item>INPUT_VEH_FLY_ROLL_RIGHT_ONLY</Item>
+				<Item>INPUT_VEH_FLY_PITCH_UP_ONLY</Item>
+				<Item>INPUT_VEH_FLY_PITCH_DOWN_ONLY</Item>
+				<Item>INPUT_VEH_FLY_UNDERCARRIAGE</Item>
+				<Item>INPUT_VEH_FLY_ATTACK</Item>
+				<Item>INPUT_VEH_FLY_SELECT_NEXT_WEAPON</Item>
+				<Item>INPUT_VEH_FLY_SELECT_PREV_WEAPON</Item>
+				<Item>INPUT_VEH_FLY_SELECT_TARGET_LEFT</Item>
+				<Item>INPUT_VEH_FLY_SELECT_TARGET_RIGHT</Item>
+				<Item>INPUT_VEH_GRAPPLING_HOOK</Item>
+			</Inputs>
+		</Item>
+
+		<Item key="VEHICLE_SUB">
+			<Inputs>
+				<Item>INPUT_VEH_SUB_THROTTLE_UP</Item>
+				<Item>INPUT_VEH_SUB_THROTTLE_DOWN</Item>
+				<Item>INPUT_VEH_SUB_TURN_LEFT_ONLY</Item>
+				<Item>INPUT_VEH_SUB_TURN_RIGHT_ONLY</Item>
+				<Item>INPUT_VEH_SUB_TURN_HARD_LEFT</Item>
+				<Item>INPUT_VEH_SUB_TURN_HARD_RIGHT</Item>
+				<Item>INPUT_VEH_SUB_PITCH_UP_ONLY</Item>
+				<Item>INPUT_VEH_SUB_PITCH_DOWN_ONLY</Item>
+				<Item>INPUT_VEH_SUB_ASCEND</Item>
+				<Item>INPUT_VEH_SUB_DESCEND</Item>
+			</Inputs>
+		</Item>
+
+
+		<Item key="PARACHUTE">
+			<Inputs>
+				<Item>INPUT_PARACHUTE_TURN_LEFT_ONLY</Item>
+				<Item>INPUT_PARACHUTE_TURN_RIGHT_ONLY</Item>
+				<Item>INPUT_PARACHUTE_PITCH_UP_ONLY</Item>
+				<Item>INPUT_PARACHUTE_PITCH_DOWN_ONLY</Item>
+				<Item>INPUT_PARACHUTE_BRAKE_LEFT</Item>
+				<Item>INPUT_PARACHUTE_BRAKE_RIGHT</Item>
+				<Item>INPUT_PARACHUTE_PRECISION_LANDING</Item>
+				<Item>INPUT_PARACHUTE_DEPLOY</Item>
+				<Item>INPUT_PARACHUTE_DETACH</Item>
+				<Item>INPUT_PARACHUTE_SMOKE</Item>
+			</Inputs>
+		</Item>
+		
+		
+		<Item key="MULTIPLAYER">
+			<Inputs>
+				<Item>INPUT_MULTIPLAYER_INFO</Item>
+				<Item>INPUT_MP_TEXT_CHAT_ALL</Item>
+				<Item>INPUT_MP_TEXT_CHAT_TEAM</Item>
+				<Item>INPUT_MP_TEXT_CHAT_FRIENDS</Item>
+				<Item>INPUT_MP_TEXT_CHAT_CREW</Item>
+			</Inputs>
+		</Item>
+		
+		<Item key="MULTIPLAYER_DROP">
+			<Inputs>
+				<Item>INPUT_DROP_WEAPON</Item>
+				<Item>INPUT_DROP_AMMO</Item>
+			</Inputs>
+		</Item>
+					
+		
+		<!--
+			TODO: These inputs need to be paced in categories. Some will be unused whilst overs will need
+				  placing into their correct categories.
+		-->
+		
+		
+		<Item key="TODO">
+			<Inputs>
+				<Item>INPUT_MELEE_BLOCK</Item>
+				<Item>INPUT_VEH_FLY_VERTICAL_FLIGHT_MODE</Item>
+				<Item>INPUT_SNIPER_ZOOM</Item>
+				<Item>INPUT_VEH_JUMP</Item>
+				<Item>INPUT_ENTER_CHEAT_CODE</Item>
+				<Item>INPUT_CURSOR_CANCEL></Item>
+				<Item>INPUT_CURSOR_SCROLL_UP></Item>
+				<Item>INPUT_CURSOR_SCROLL_DOWN></Item>
+				<Item>INPUT_DIVE</Item>
+				<Item>INPUT_SPECIAL_ABILITY</Item>
+				<Item>INPUT_SPECIAL_ABILITY_SECONDARY</Item>
+				<Item>INPUT_LOOK_LR</Item>
+				<Item>INPUT_LOOK_UD</Item>
+				<Item>INPUT_LOOK_UP_ONLY</Item>
+				<Item>INPUT_LOOK_DOWN_ONLY</Item>
+				<Item>INPUT_LOOK_LEFT_ONLY</Item>
+				<Item>INPUT_LOOK_RIGHT_ONLY</Item>
+				<Item>INPUT_SCRIPTED_FLY_UD</Item>
+				<Item>INPUT_SCRIPTED_FLY_LR</Item>
+				<Item>INPUT_SCRIPTED_FLY_ZUP</Item>
+				<Item>INPUT_SCRIPTED_FLY_ZDOWN</Item>
+				<Item>INPUT_WEAPON_WHEEL_UD</Item>
+				<Item>INPUT_WEAPON_WHEEL_LR</Item>
+				<Item>INPUT_SKIP_CUTSCENE</Item>
+				<Item>INPUT_WEAPON_SPECIAL</Item>
+				<Item>INPUT_MOVE_LR</Item>
+				<Item>INPUT_MOVE_UD</Item>
+				<Item>INPUT_ARREST</Item>
+				<Item>INPUT_VEH_MOVE_LR</Item>
+				<Item>INPUT_VEH_MOVE_UD</Item>
+				<Item>INPUT_VEH_SPECIAL</Item>
+				<Item>INPUT_VEH_GUN_LR</Item>
+				<Item>INPUT_VEH_GUN_UD</Item>
+				<Item>INPUT_VEH_ATTACK</Item>
+				<Item>INPUT_VEH_ATTACK2</Item>
+				<Item>INPUT_VEH_HOTWIRE_LEFT</Item>
+				<Item>INPUT_VEH_HOTWIRE_RIGHT</Item>
+				<Item>INPUT_VEH_PASSENGER_AIM</Item>
+				<Item>INPUT_VEH_PASSENGER_ATTACK</Item>
+				<Item>INPUT_VEH_SPECIAL_ABILITY_FRANKLIN</Item>
+				<Item>INPUT_VEH_STUNT_UD</Item>
+				<Item>INPUT_VEH_CINEMATIC_UD</Item>
+				<Item>INPUT_VEH_CINEMATIC_UP_ONLY</Item>
+				<Item>INPUT_VEH_CINEMATIC_DOWN_ONLY</Item>
+				<Item>INPUT_VEH_CINEMATIC_LR</Item>
+				<Item>INPUT_VEH_FLY_ROLL_LR</Item>
+				<Item>INPUT_VEH_FLY_PITCH_UD</Item>
+				<Item>INPUT_VEH_SUB_TURN_LR</Item>
+				<Item>INPUT_VEH_SUB_PITCH_UD</Item>
+				<Item>INPUT_VEH_SHUFFLE</Item>
+				<Item>INPUT_MELEE_ATTACK_ALTERNATE</Item>
+				<Item>INPUT_PARACHUTE_TURN_LR</Item>
+				<Item>INPUT_PARACHUTE_PITCH_UD</Item>
+				<Item>INPUT_MAP</Item>
+				<Item>INPUT_FRONTEND_DOWN</Item>
+				<Item>INPUT_FRONTEND_UP</Item>
+				<Item>INPUT_FRONTEND_LEFT</Item>
+				<Item>INPUT_FRONTEND_RIGHT</Item>
+				<Item>INPUT_FRONTEND_RDOWN</Item>
+				<Item>INPUT_FRONTEND_RUP</Item>
+				<Item>INPUT_FRONTEND_RLEFT</Item>
+				<Item>INPUT_FRONTEND_RRIGHT</Item>
+				<Item>INPUT_FRONTEND_AXIS_X</Item>
+				<Item>INPUT_FRONTEND_AXIS_Y</Item>
+				<Item>INPUT_FRONTEND_RIGHT_AXIS_X</Item>
+				<Item>INPUT_FRONTEND_RIGHT_AXIS_Y</Item>
+				<Item>INPUT_FRONTEND_PAUSE</Item>
+				<Item>INPUT_FRONTEND_ACCEPT</Item>
+				<Item>INPUT_FRONTEND_CANCEL</Item>
+				<Item>INPUT_FRONTEND_X</Item>
+				<Item>INPUT_FRONTEND_Y</Item>
+				<Item>INPUT_FRONTEND_LB</Item>
+				<Item>INPUT_FRONTEND_RB</Item>
+				<Item>INPUT_FRONTEND_LT</Item>
+				<Item>INPUT_FRONTEND_RT</Item>
+				<Item>INPUT_FRONTEND_LS</Item>
+				<Item>INPUT_FRONTEND_RS</Item>
+				<Item>INPUT_FRONTEND_SELECT</Item>
+				<Item>INPUT_SCRIPT_LEFT_AXIS_X</Item>
+				<Item>INPUT_SCRIPT_LEFT_AXIS_Y</Item>
+				<Item>INPUT_SCRIPT_RIGHT_AXIS_X</Item>
+				<Item>INPUT_SCRIPT_RIGHT_AXIS_Y</Item>
+				<Item>INPUT_SCRIPT_RUP</Item>
+				<Item>INPUT_SCRIPT_RDOWN</Item>
+				<Item>INPUT_SCRIPT_RLEFT</Item>
+				<Item>INPUT_SCRIPT_RRIGHT</Item>
+				<Item>INPUT_SCRIPT_LB</Item>
+				<Item>INPUT_SCRIPT_RB</Item>
+				<Item>INPUT_SCRIPT_LT</Item>
+				<Item>INPUT_SCRIPT_RT</Item>
+				<Item>INPUT_SCRIPT_LS</Item>
+				<Item>INPUT_SCRIPT_RS</Item>
+				<Item>INPUT_SCRIPT_PAD_UP</Item>
+				<Item>INPUT_SCRIPT_PAD_DOWN</Item>
+				<Item>INPUT_SCRIPT_PAD_LEFT</Item>
+				<Item>INPUT_SCRIPT_PAD_RIGHT</Item>
+				<Item>INPUT_SCRIPT_SELECT</Item>
+				<Item>INPUT_ATTACK2</Item>
+				<Item>INPUT_RAPPEL_JUMP</Item>
+				<Item>INPUT_RAPPEL_LONG_JUMP</Item>
+				<Item>INPUT_RAPPEL_SMASH_WINDOW</Item>
+				<Item>INPUT_PREV_WEAPON</Item>
+				<Item>INPUT_NEXT_WEAPON</Item>
+				<Item>INPUT_MELEE_ATTACK1</Item>
+				<Item>INPUT_MELEE_ATTACK2</Item>
+				<Item>INPUT_WHISTLE</Item>
+				<Item>INPUT_MOVE_LEFT</Item>
+				<Item>INPUT_MOVE_RIGHT</Item>
+				<Item>INPUT_MOVE_UP</Item>
+				<Item>INPUT_MOVE_DOWN</Item>
+				<Item>INPUT_LOOK_LEFT</Item>
+				<Item>INPUT_LOOK_RIGHT</Item>
+				<Item>INPUT_LOOK_UP</Item>
+				<Item>INPUT_LOOK_DOWN</Item>
+				<Item>INPUT_SNIPER_ZOOM_IN</Item>
+				<Item>INPUT_SNIPER_ZOOM_OUT</Item>
+				<Item>INPUT_SNIPER_ZOOM_IN_ALTERNATE</Item>
+				<Item>INPUT_SNIPER_ZOOM_OUT_ALTERNATE</Item>
+				<Item>INPUT_SNIPER_ZOOM_IN_SECONDARY</Item>
+				<Item>INPUT_SNIPER_ZOOM_OUT_SECONDARY</Item>
+				<Item>INPUT_VEH_MOVE_LEFT</Item>
+				<Item>INPUT_VEH_MOVE_RIGHT</Item>
+				<Item>INPUT_VEH_MOVE_UP</Item>
+				<Item>INPUT_VEH_MOVE_DOWN</Item>
+				<Item>INPUT_VEH_GUN_LEFT</Item>
+				<Item>INPUT_VEH_GUN_RIGHT</Item>
+				<Item>INPUT_VEH_GUN_UP</Item>
+				<Item>INPUT_VEH_GUN_DOWN</Item>
+				<Item>INPUT_VEH_LOOK_LEFT</Item>
+				<Item>INPUT_VEH_LOOK_RIGHT</Item>
+				<Item>INPUT_REPLAY_MARKER_DELETE</Item>
+				<Item>INPUT_REPLAY_PAUSE</Item>
+				<Item>INPUT_REPLAY_REWIND</Item>
+				<Item>INPUT_REPLAY_FFWD</Item>
+				<Item>INPUT_REPLAY_NEWMARKER</Item>
+				<Item>INPUT_REPLAY_RECORD</Item>
+				<Item>INPUT_REPLAY_SCREENSHOT</Item>
+				<Item>INPUT_REPLAY_HIDEHUD</Item>
+				<Item>INPUT_REPLAY_STARTPOINT</Item>
+				<Item>INPUT_REPLAY_ENDPOINT</Item>
+				<Item>INPUT_REPLAY_ADVANCE</Item>
+				<Item>INPUT_REPLAY_BACK</Item>
+				<Item>INPUT_REPLAY_TOOLS</Item>
+				<Item>INPUT_REPLAY_RESTART</Item>
+				<Item>INPUT_REPLAY_SHOWHOTKEY</Item>
+				<Item>INPUT_REPLAY_CYCLEMARKERLEFT</Item>
+				<Item>INPUT_REPLAY_CYCLEMARKERRIGHT</Item>
+				<Item>INPUT_REPLAY_FOVINCREASE</Item>
+				<Item>INPUT_REPLAY_FOVDECREASE</Item>
+				<Item>INPUT_REPLAY_CAMERAUP</Item>
+				<Item>INPUT_REPLAY_CAMERADOWN</Item>
+				<Item>INPUT_REPLAY_SAVE</Item>
+				<Item>INPUT_REPLAY_TOGGLETIME</Item>
+				<Item>INPUT_REPLAY_TOGGLETIPS</Item>
+				<Item>INPUT_REPLAY_PREVIEW</Item>
+				<Item>INPUT_CURSOR_ACCEPT</Item>
+				<Item>INPUT_CURSOR_X</Item>
+				<Item>INPUT_CURSOR_Y</Item>
+				<Item>INPUT_VEH_PUSHBIKE_PEDAL</Item>
+				<Item>INPUT_PICKUP</Item>
+				<Item>INPUT_TALK</Item>
+				<Item>INPUT_VEH_PUSHBIKE_REAR_BRAKE</Item>
+				<Item>INPUT_REPLAY_START_STOP_RECORDING_SECONDARY</Item>
+				<Item>INPUT_THROW_GRENADE</Item>
+				<Item>INPUT_VEH_FLY_DUCK</Item>
+			</Inputs>
+		</Item>
+		
+
+		
+	</Categories>
+
+		<!-- === CONFLICT LIST ========================================================== -->
+	
+	<ConflictList>
+
+
+		<!-- Driving -->
+		<Item>
+			<Categories>
+				<Item>VEHICLE_GROUND</Item>
+				<Item>VEHICLE_GENERAL</Item>
+				<Item>CELLPHONE</Item>
+				<Item>MULTIPLAYER</Item>
+				<Item>GENERAL</Item>
+			</Categories>
+		</Item>
+
+		<!-- Flying -->
+		<Item>
+			<Categories>
+				<Item>VEHICLE_FLY</Item>
+				<Item>VEHICLE_GENERAL</Item>
+				<Item>CELLPHONE</Item>
+				<Item>MULTIPLAYER</Item>
+				<Item>GENERAL</Item>
+			</Categories>
+		</Item>
+
+		<!-- Submarine -->
+		<Item>
+			<Categories>
+				<Item>VEHICLE_SUB</Item>
+				<Item>VEHICLE_GENERAL</Item>
+				<Item>CELLPHONE</Item>
+				<Item>MULTIPLAYER</Item>
+				<Item>GENERAL</Item>
+			</Categories>
+		</Item>
+
+		<!-- On Foot -->
+		<Item>
+			<Categories>
+				<Item>ON_FOOT_GENERAL</Item>
+				<Item>ON_FOOT_MELEE</Item>
+				<Item>ON_FOOT_SHOOTING</Item>
+				<Item>CELLPHONE</Item>
+				<Item>MULTIPLAYER</Item>
+				<Item>MULTIPLAYER_DROP</Item>
+				<Item>GENERAL</Item>
+			</Categories>
+		</Item>
+		
+		
+		<!-- Sniper Zoom -->
+		<Item>
+			<Categories>
+				<Item>ON_FOOT_SNIPER_ZOOM</Item>
+				<Item>CELLPHONE_CAMERA</Item>
+				<Item>CELLPHONE</Item>
+				<Item>MULTIPLAYER</Item>
+				<Item>GENERAL</Item>
+			</Categories>
+		</Item>
+		
+		<!-- Parachute -->
+		<Item>
+			<Categories>
+				<Item>PARACHUTE</Item>
+				<Item>ON_FOOT_SHOOTING</Item>
+				<Item>CELLPHONE</Item>
+				<Item>MULTIPLAYER</Item>
+				<Item>GENERAL</Item>
+			</Categories>
+		</Item>
+		
+	</ConflictList>
+	
+	<!-- === CONFLICT EXCEPTION LIST ========================================================== -->
+	
+	<ConflictExceptions>
+		
+		<Item>
+			<Inputs>
+				<Item>INPUT_SNIPER_ZOOM_OUT_ONLY</Item>
+				<Item>INPUT_ACCURATE_AIM</Item>
+				<Item>INPUT_CELLPHONE_SCROLL_FORWARD</Item>
+				<Item>INPUT_SELECT_PREV_WEAPON</Item>
+				<Item>INPUT_VEH_NEXT_RADIO</Item>
+				<Item>INPUT_WEAPON_WHEEL_PREV</Item>
+			</Inputs>
+		</Item>
+
+		<Item>
+			<Inputs>
+				<Item>INPUT_SNIPER_ZOOM_IN_ONLY</Item>
+				<Item>INPUT_ACCURATE_AIM</Item>
+				<Item>INPUT_CELLPHONE_SCROLL_BACKWARD</Item>
+				<Item>INPUT_SELECT_NEXT_WEAPON</Item>
+				<Item>INPUT_WEAPON_WHEEL_NEXT</Item>
+				<Item>INPUT_VEH_SELECT_NEXT_WEAPON</Item>
+			</Inputs>
+		</Item>
+		
+		<Item>
+			<Inputs>
+				<Item>INPUT_PHONE</Item>
+				<Item>INPUT_CELLPHONE_UP</Item>
+			</Inputs>
+		</Item>
+		
+		<Item>
+			<Inputs>
+				<Item>INPUT_VEH_CIN_CAM</Item>
+				<Item>INPUT_RELOAD</Item>
+				<Item>INPUT_MELEE_ATTACK_LIGHT</Item>
+			</Inputs>
+		</Item>
+		
+		<Item>
+			<Inputs>
+				<Item>INPUT_CONTEXT</Item>
+				<Item>INPUT_WEAPON_SPECIAL_TWO</Item>
+				<Item>INPUT_PHONE</Item>
+			</Inputs>
+		</Item>
+				
+		<Item>
+			<Inputs>
+				<Item>INPUT_CHARACTER_WHEEL</Item>
+				<Item>INPUT_PARACHUTE_SMOKE</Item>
+			</Inputs>
+		</Item>
+		
+		
+		<Item>
+			<Inputs>
+				<Item>INPUT_ATTACK</Item>
+				<Item>INPUT_PARACHUTE_DEPLOY</Item>
+				<Item>INPUT_MELEE_ATTACK_ALTERNATE</Item>
+				<Item>INPUT_CELLPHONE_SELECT</Item>
+				<Item>INPUT_VEH_AIM</Item>
+				<Item>INPUT_VEH_FLY_ATTACK</Item>
+			</Inputs>
+		</Item>
+		
+		<Item>
+			<Inputs>
+				<Item>INPUT_CELLPHONE_CANCEL</Item>
+				<Item>INPUT_AIM</Item>
+			</Inputs>
+		</Item>
+		
+		
+		<Item>
+			<Inputs>
+				<Item>INPUT_CELLPHONE_EXTRA_OPTION</Item>
+				<Item>INPUT_JUMP</Item>
+				<Item>INPUT_PHONE</Item>
+				<Item>INPUT_CELLPHONE_CAMERA_SELFIE</Item>
+				<Item>INPUT_CELLPHONE_CAMERA_DOF</Item>
+				<Item>INPUT_CELLPHONE_CAMERA_EXPRESSION</Item>
+				<Item>INPUT_CELLPHONE_CAMERA_GRID</Item>
+				<Item>INPUT_CELLPHONE_CAMERA_FOCUS_LOCK</Item>
+			</Inputs>
+		</Item>
+		
+		<Item>
+			<Inputs>
+				<Item>INPUT_JUMP</Item>
+				<Item>INPUT_MELEE_ATTACK_HEAVY</Item>
+			</Inputs>
+		</Item>
+		
+		<Item>
+			<Inputs>
+				<Item>INPUT_PARACHUTE_DEPLOY</Item>
+				<Item>INPUT_PARACHUTE_DETACH</Item>
+			</Inputs>
+		</Item>
+		
+
+		
+		<Item>
+			<Inputs>
+				<Item>INPUT_VEH_ROOF</Item>
+				<Item>INPUT_VEH_PUSHBIKE_FRONT_BRAKE</Item>
+			</Inputs>
+		</Item>
+		
+		<Item>
+			<Inputs>
+				<Item>INPUT_VEH_HEADLIGHT</Item>
+				<Item>INPUT_VEH_SHUFFLE</Item>
+			</Inputs>
+		</Item>
+		
+		<Item>
+			<Inputs>
+				<Item>INPUT_VEH_PUSHBIKE_SPRINT</Item>
+				<Item>INPUT_SPECIAL_ABILITY_PC</Item>
+			</Inputs>
+		</Item>
+			
+	</ConflictExceptions>
+	
+	
+	<!-- === MAPPING LIST ========================================================== -->
+		
+	<MappingList>
+		<Item>
+			<Name>General</Name>
+			<Categories>
+				<Item>GENERAL</Item>
+			</Categories>
+		</Item>
+		
+		<Item>
+			<Name>Cellphone</Name>
+			<Categories>
+				<Item>CELLPHONE</Item>
+				<Item>CELLPHONE_CAMERA</Item>
+			</Categories>
+		</Item>
+
+		<Item>
+			<Name>On Foot</Name>
+			<Categories>
+				<Item>ON_FOOT_GENERAL</Item>
+				<Item>ON_FOOT_MELEE</Item>
+				<Item>ON_FOOT_SHOOTING</Item>
+				<Item>ON_FOOT_SNIPER_ZOOM</Item>
+			</Categories>
+		</Item>
+
+		<Item>
+			<Name>Vehicle</Name>
+			<Categories>
+				<Item>VEHICLE_GENERAL</Item>
+			</Categories>
+		</Item>
+
+		<Item>
+			<Name>Driving</Name>
+			<Categories>
+				<Item>VEHICLE_GROUND</Item>
+				<Item>VEHICLE_SUB</Item>
+			</Categories>
+		</Item>
+
+		<Item>
+			<Name>Flying</Name>
+			<Categories>
+				<Item>VEHICLE_FLY</Item>
+				<Item>PARACHUTE</Item>
+			</Categories>
+		</Item>
+		
+		<Item>
+			<Name>Multiplayer</Name>
+			<Categories>
+				<Item>MULTIPLAYER</Item>
+				<Item>MULTIPLAYER_DROP</Item>
+				</Categories>
+		</Item>
+		
+	</MappingList>
+	
+	<!-- === IDENTICAL MAPPINGS ========================================================== -->
+
+
+	<IdenticalMappingLists>
+		<Item>
+			<Inputs>
+				<Item>INPUT_CONTEXT</Item>
+				<Item>INPUT_PICKUP</Item>
+				<Item>INPUT_TALK</Item>
+			</Inputs>
+		</Item>
+		<Item>
+			<Inputs>
+				<Item>INPUT_VEH_ACCELERATE</Item>
+				<Item>INPUT_VEH_PUSHBIKE_PEDAL</Item>
+			</Inputs>
+		</Item>
+		<Item>
+			<Inputs>
+				<Item>INPUT_VEH_BRAKE</Item>
+				<Item>INPUT_VEH_PUSHBIKE_REAR_BRAKE</Item>
+			</Inputs>
+		</Item>
+		<Item>
+			<Inputs>
+				<Item>INPUT_AIM</Item>
+				<Item>INPUT_VEH_PASSENGER_AIM</Item>
+			</Inputs>
+		</Item>
+		<Item>
+			<Inputs>
+				<Item>INPUT_VEH_AIM</Item>
+				<Item>INPUT_VEH_PASSENGER_ATTACK</Item>
+			</Inputs>
+		</Item>
+		<Item>
+			<Inputs>
+				<Item>INPUT_ATTACK</Item>
+				<Item>INPUT_ATTACK2</Item>
+				<Item>INPUT_MELEE_ATTACK_ALTERNATE</Item>
+			</Inputs>
+		</Item>
+		<Item>
+			<Inputs>
+				<Item>INPUT_JUMP</Item>
+				<Item>INPUT_DIVE</Item>
+			</Inputs>
+		</Item>
+		<Item>
+			<Inputs>
+				<Item>INPUT_VEH_HANDBRAKE</Item>
+				<Item>INPUT_VEH_JUMP</Item>
+			</Inputs>
+		</Item>
+		
+		<Item>
+			<Inputs>
+				<Item>INPUT_VEH_GRAPPLING_HOOK</Item>
+				<Item>INPUT_VEH_FLY_VERTICAL_FLIGHT_MODE</Item>
+			</Inputs>
+		</Item>
+		
+		<Item>
+			<Inputs>
+				<Item>INPUT_DETONATE</Item>
+				<Item>INPUT_THROW_GRENADE</Item>
+			</Inputs>
+		</Item>	
+			
+		<Item>
+			<Inputs>
+				<Item>INPUT_VEH_DUCK</Item>
+				<Item>INPUT_VEH_FLY_DUCK</Item>
+			</Inputs>
+		</Item>
+		
+		
+		<Item>
+			<Inputs>
+				<Item>INPUT_SNIPER_ZOOM_IN_ONLY</Item>
+				<Item>INPUT_SNIPER_ZOOM_IN_SECONDARY</Item>
+			</Inputs>
+		</Item>
+	
+		<Item>
+			<Inputs>
+				<Item>INPUT_SNIPER_ZOOM_OUT_ONLY</Item>
+				<Item>INPUT_SNIPER_ZOOM_OUT_SECONDARY</Item>
+			</Inputs>
+		</Item>
+		
+	</IdenticalMappingLists>
+
+	<!-- === RELATED INPUTS ========================================================== -->
+	
+	<RelatedInputs>
+		<Item>
+			<Inputs>
+				<Item>INPUT_SELECT_WEAPON</Item>
+				<Item>INPUT_LOOK_UD</Item>
+			</Inputs>
+		</Item>
+
+	</RelatedInputs>
+	
+	<MouseSettings>
+		<OnFootMinMouseSensitivity value="0.1" />
+		<OnFootMaxMouseSensitivity value="5.0" />
+		<OnFootMouseSensitivityPower value="1.0" />
+		<InVehicleMinMouseSensitivity value="1.0" />
+		<InVehicleMaxMouseSensitivity value="5.0" />
+		<InVehicleMouseSensitivityPower value="1.0" />
+	</MouseSettings>
+
+</rage__ControlInput__MappingSettings>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CNetworkShoppingMgr>
+
+	<services>
+		<item> <key>SERVICE_INVALID</key> </item>
+		<item> <key>SERVICE_SPEND_MECHANIC_WAGE</key> </item>
+		<item> <key>SERVICE_SPEND_UTILITY_BILLS</key> </item>
+		<item> <key>SERVICE_SPEND_PROSTITUTES</key> </item>
+		<item> <key>SERVICE_SPEND_STRIP_CLUB</key> </item>
+		<item> <key>SERVICE_SPEND_CINEMA</key> </item>
+		<item> <key>SERVICE_SPEND_FAIRGROUND</key> </item>
+		<item> <key>SERVICE_SPEND_LOTTERY</key> </item>
+		<item> <key>SERVICE_SPEND_TELESCOPE</key> </item>
+		<item> <key>SERVICE_SPEND_CALL_PLAYER</key> </item>
+		<item> <key>SERVICE_SPEND_VEHICLE_INSURANCE</key> </item>
+		<item> <key>SERVICE_SPEND_VEHICLE_INSURANCE_PREMIUM</key> </item>
+		<item> <key>SERVICE_SPEND_CAR_REPAIR</key> </item>
+		<item> <key>SERVICE_SPEND_PERSONAL_VEHICLE_DROPOFF</key> </item>
+		<item> <key>SERVICE_SPEND_PEGASUS_DELIVERY</key> </item>
+		<item> <key>SERVICE_SPEND_CAR_IMPOUND</key> </item>
+		<item> <key>SERVICE_SPEND_CARWASH</key> </item>
+		<item> <key>SERVICE_SPEND_HEALTHCARE</key> </item>
+		<item> <key>SERVICE_SPEND_OTHER_PLAYER_HEALTHCARE</key> </item>
+		<item> <key>SERVICE_SPEND_ARREST_BAIL</key> </item>
+		<item> <key>SERVICE_SPEND_CASH_DROP</key> </item>
+		<item> <key>SERVICE_SPEND_ROBBED_BY_MUGGER</key> </item>
+		<item> <key>SERVICE_SPEND_CASH_DROP_HOLDUP</key> </item>
+		<item> <key>SERVICE_SPEND_MATCH_ENTRY_FEE</key> </item>
+		<item> <key>SERVICE_SPEND_RACE_VEHICLE_RENTAL</key> </item>
+		<item> <key>SERVICE_SPEND_CHALLENGE_WAGER</key> </item>
+		<item> <key>SERVICE_SPEND_BETTING</key> </item>
+		<item> <key>SERVICE_SPEND_AIRSTRIKE</key> </item>
+		<item> <key>SERVICE_SPEND_AMMO_DROP</key> </item>
+		<item> <key>SERVICE_SPEND_BACKUP_GANG</key> </item>
+		<item> <key>SERVICE_SPEND_BACKUP_HELI</key> </item>
+		<item> <key>SERVICE_SPEND_BOAT_PICKUP</key> </item>
+		<item> <key>SERVICE_SPEND_BOUNTY</key> </item>
+		<item> <key>SERVICE_SPEND_BULL_SHARK</key> </item>
+		<item> <key>SERVICE_SPEND_COPS_TURN_EYE</key> </item>
+		<item> <key>SERVICE_SPEND_HELI_PICKUP</key> </item>
+		<item> <key>SERVICE_SPEND_HIRE_MERCENARY</key> </item>
+		<item> <key>SERVICE_SPEND_HIRE_MUGGER</key> </item>
+		<item> <key>SERVICE_SPEND_LOCATE_VEHICLE</key> </item>
+		<item> <key>SERVICE_SPEND_LOSE_WANTED_LEVEL</key> </item>
+		<item> <key>SERVICE_SPEND_OFF_THE_RADAR</key> </item>
+		<item> <key>SERVICE_SPEND_PASSIVE</key> </item>
+		<item> <key>SERVICE_SPEND_REQUEST_HEIST</key> </item>
+		<item> <key>SERVICE_SPEND_REQUEST_JOB</key> </item>
+		<item> <key>SERVICE_SPEND_REVEAL_PLAYERS</key> </item>
+		<item> <key>SERVICE_SPEND_TAXI</key> </item>
+		<item> <key>SERVICE_SPEND_BANK_INTEREST</key> </item>
+		<item> <key>SERVICE_SPEND_CASH_GIFT</key> </item>
+		<item> <key>SERVICE_SPEND_CASH_SHARED</key> </item>
+		<item> <key>SERVICE_EARN_PICKUP</key> </item>
+		<item> <key>SERVICE_EARN_INITIAL_CASH</key> </item>
+		<item> <key>SERVICE_EARN_JOBS</key> </item>
+		<item> <key>SERVICE_EARN_BETTING</key> </item>
+		<item> <key>SERVICE_EARN_LOTTERY</key> </item>
+		<item> <key>SERVICE_EARN_CHALLENGE_WIN</key> </item>
+		<item> <key>SERVICE_EARN_PROPERTY_SALES</key> </item>
+		<item> <key>SERVICE_EARN_VEHICLE_SALES</key> </item>
+		<item> <key>SERVICE_EARN_LESTER_TARGET_KILL</key> </item>
+		<item> <key>SERVICE_EARN_BOUNTY_COLLECTED</key> </item>
+		<item> <key>SERVICE_EARN_CRATE_DROP</key> </item>
+		<item> <key>SERVICE_EARN_HOLDUPS</key> </item>
+		<item> <key>SERVICE_EARN_IMPORT_EXPORT</key> </item>
+		<item> <key>SERVICE_EARN_ARMORED_TRUCKS</key> </item>
+		<item> <key>SERVICE_EARN_JOBSHARE_CASH</key> </item>
+		<item> <key>SERVICE_EARN_NOT_BADSPORT</key> </item>
+		<item> <key>SERVICE_EARN_BANK_INTEREST</key> </item>
+		<item> <key>SERVICE_EARN_ROCKSTAR</key> </item>
+		<item> <key>SERVICE_EARN_DEBUG</key> </item>
+		<item> <key>SERVICE_EARN_CNCW</key> </item>
+		<item> <key>SERVICE_EARN_CNCB</key> </item>
+	</services>
+    
+	<categories>
+		<item> <key>CATEGORY_CLOTH</key> </item>
+		<item> <key>CATEGORY_WEAPON</key> </item>
+		<item> <key>CATEGORY_WEAPON_MOD</key> </item>
+		<item> <key>CATEGORY_MART</key> </item>
+		<item> <key>CATEGORY_VEHICLE</key> </item>
+		<item> <key>CATEGORY_INVENTORY_VEHICLE</key> </item>
+		<item> <key>CATEGORY_VEHICLE_MOD</key> </item>
+		<item> <key>CATEGORY_INVENTORY_VEHICLE_MOD</key> </item>
+		<item> <key>CATEGORY_PROPERTIE</key> </item>
+		<item> <key>CATEGORY_INVENTORY_PROPERTIE</key> </item>
+		<item> <key>CATEGORY_HAIRTAT</key> </item>
+		<item> <key>CATEGORY_SERVICE</key> </item>
+		<item> <key>CATEGORY_SERVICE_WITH_THRESHOLD</key> </item>		
+	</categories>
+
+	<transactiontypes>
+		<item> <key>NET_SHOP_TTYPE_INVALID</key> </item>
+		<item> <key>NET_SHOP_TTYPE_BASKET</key> </item>
+		<item> <key>NET_SHOP_TTYPE_SERVICE</key> </item>
+	</transactiontypes>
+
+	<actiontypes>
+		<item> <key>NET_SHOP_ACTION_INVALID</key> </item>
+		<item> <key>NET_SHOP_ACTION_ALLOT</key> </item>
+		<item> <key>NET_SHOP_ACTION_RECOUP</key> </item>
+		<item> <key>NET_SHOP_ACTION_EARN</key> </item>
+		<item> <key>NET_SHOP_ACTION_SPEND</key> </item>
+		<item> <key>NET_SHOP_ACTION_PURCH</key> </item>
+		<item> <key>NET_SHOP_ACTION_GIVE</key> </item>
+		<item> <key>NET_SHOP_ACTION_USE</key> </item>
+		<item> <key>NET_SHOP_ACTION_DELETE_CHAR</key> </item>
+		<item> <key>NET_SHOP_ACTION_ACQUIRE</key> </item>
+		<item> <key>NET_SHOP_ACTION_BUY_VEHICLE</key> </item>
+	</actiontypes>
+
+</CNetworkShoppingMgr>
+
+

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<hrsSimTuneMgr>
+  <SimTune>
+    <Item>
+      <HrsTypeName>default</HrsTypeName>
+      <SpeedTune>
+        <TopSpeed value="15.500000" />
+        <bInstantaneousAccel value="false" />
+        <fCollisionDecelRate value="0.100000" />
+        <fCollisionDecelRateFixed value="0.500000" />
+        <fDecayDelay value="0.750000" />
+        <AimSpeedFactor value="0.750000" />
+        <fSpeedGainFactorDelay value="0.100000" />
+        <fMtlWaterMult_Human value="0.550000" />
+        <fMtlWaterMult_AI value="0.550000" />
+        <fMtlWaterApproachRate value="1.000000" />
+        <fMtlOffPathMult_Human value="0.790000" />
+        <fMtlOffPathMult_AI value="0.790000" />
+        <fMtlOffPathApproachRate value="0.100000" />
+        <fMtlRecoveryApproachRate value="1.000000" />
+        <KFByFreshness>
+          <keyData>
+            <numKeyEntries value="2" />
+            <keyEntryData content="float_array">
+              0.000000	0.000000	1.000000	0.000000	0.000000	
+              1.000000	0.100000	1.000000	0.000000	0.000000	
+            </keyEntryData>
+          </keyData>
+        </KFByFreshness>
+        <KFBySpeed>
+          <keyData>
+            <numKeyEntries value="4" />
+            <keyEntryData content="float_array">
+              0.000000	0.500000	0.100000	0.010000	0.000000	
+              0.200000	0.500000	0.100000	0.007323	0.000000	
+              0.747170	0.500000	0.261724	0.000000	0.000000	
+              1.000000	0.500000	0.400000	0.000000	0.000000	
+            </keyEntryData>
+          </keyData>
+        </KFBySpeed>
+        <KFByStickMag>
+          <keyData>
+            <numKeyEntries value="2" />
+            <keyEntryData content="float_array">
+              0.000000	0.000000	0.000000	0.000000	0.000000	
+              0.996124	0.101293	0.000000	0.000000	0.000000	
+            </keyEntryData>
+          </keyData>
+        </KFByStickMag>
+        <KFByStickY>
+          <keyData>
+            <numKeyEntries value="3" />
+            <keyEntryData content="float_array">
+              0.000000	0.000000	1.000000	0.000000	0.000000	
+              0.500000	0.075000	1.000000	0.050177	0.000000	
+              0.996466	0.100000	1.000000	0.100000	0.000000	
+            </keyEntryData>
+          </keyData>
+        </KFByStickY>
+      </SpeedTune>
+      <FreshTune>
+        <KFBySpeed>
+          <keyData>
+            <numKeyEntries value="4" />
+            <keyEntryData content="float_array">
+              0.000000	1.000000	0.800000	0.018000	0.000000	
+              0.390000	1.000000	0.400000	0.018000	0.000000	
+              0.500000	1.000000	0.400000	0.018000	0.000000	
+              1.000000	1.000000	0.150000	0.018000	0.000000	
+            </keyEntryData>
+          </keyData>
+        </KFBySpeed>
+        <fReplenishDelay value="1.000000" />
+      </FreshTune>
+      <AgitationTune>
+        <fBaselineAgitation value="0.000000" />
+        <fDecayRate value="0.750000" />
+        <KFByRiderMountSpeed>
+          <keyData>
+            <numKeyEntries value="1" />
+            <keyEntryData content="float_array">
+              0.000000	0.100000	0.000000	0.000000	0.000000	
+            </keyEntryData>
+          </keyData>
+        </KFByRiderMountSpeed>
+        <KFByFreshness>
+          <keyData>
+            <numKeyEntries value="2" />
+            <keyEntryData content="float_array">
+              0.000000	0.200000	0.000000	0.000000	0.000000	
+              1.000000	0.200000	0.000000	0.000000	0.000000	
+            </keyEntryData>
+          </keyData>
+        </KFByFreshness>
+      </AgitationTune>
+      <BrakeTune>
+        <fSoftBrakeDecel value="0.700000" />
+        <fHardBrakeDecel value="1.000000" />
+      </BrakeTune>
+    </Item>
+  </SimTune>
+</hrsSimTuneMgr>

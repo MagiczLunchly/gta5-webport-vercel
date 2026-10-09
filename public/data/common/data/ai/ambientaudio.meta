@@ -1,0 +1,1055 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CAmbientAudios>
+	<Exchanges>
+		<Item key="BumSpareChange">
+			<Initial>
+				<Context>BUM_SPARE_CHANGE</Context>
+			</Initial>
+		</Item>
+		<Item key="ChatAcrossStreet">
+			<Initial>
+				<Context>CHAT_ACROSS_STREET_STATE</Context>
+			</Initial>
+			<Response>
+				<Context>CHAT_ACROSS_STREET_RESP</Context>
+			</Response>
+		</Item>
+		<Item key="FriendFollowed">
+			<Initial>
+				<Context>FRIEND_FOLLOWED_BY_PLAYER</Context>
+			</Initial>
+		</Item>
+		<Item key="FuckYouHostile">
+			<Initial>
+				<Context>GENERIC_FUCK_YOU</Context>
+				<Flags>IsHostile</Flags>
+			</Initial>
+			<Response>
+				<Context>GENERIC_FUCK_YOU</Context>
+				<Flags>IsHostile</Flags>
+			</Response>
+		</Item>
+		<Item key="GreetAcrossStreet">
+			<Initial>
+				<Context>GREET_ACROSS_STREET</Context>
+			</Initial>
+			<Response>
+				<Context>GREET_ACROSS_STREET</Context>
+			</Response>
+		</Item>
+		<Item key="Hi">
+			<Initial>
+				<Context>GENERIC_HI</Context>
+			</Initial>
+			<Response>
+				<Context>GENERIC_HI</Context>
+			</Response>
+		</Item>
+		<Item key="HowsItGoing">
+			<Initial>
+				<Context>HOWS_IT_GOING_GENERIC</Context>
+				<Flags>IsHarassing</Flags>
+			</Initial>
+		</Item>
+		<Item key="Insult">
+			<Initial>
+				<Context>GENERIC_INSULT_MED</Context>
+				<Flags>IsInsulting</Flags>
+			</Initial>
+			<Response>
+				<Context>GENERIC_INSULT_MED</Context>
+				<Flags>IsInsulting</Flags>
+			</Response>
+		</Item>
+		<Item key="InsultBum">
+			<Initial>
+				<Context>INSULT_PED_BUM</Context>
+				<Flags>IsInsulting IsConversation</Flags>
+			</Initial>
+			<Response>
+				<Context>GENERIC_INSULT_MED</Context>
+				<Flags>IsInsulting</Flags>
+			</Response>
+		</Item>
+		<Item key="InsultCop">
+			<Initial>
+				<Context>INSULT_PED_COP</Context>
+				<Flags>IsInsulting IsConversation</Flags>
+			</Initial>
+			<Response>
+				<Context>GENERIC_INSULT_MED</Context>
+				<Flags>IsInsulting</Flags>
+			</Response>
+		</Item>
+		<Item key="InsultDead">
+			<Initial>
+				<Context>INSULT_DEAD_PED</Context>
+				<Flags>IsInsulting</Flags>
+			</Initial>
+		</Item>
+		<Item key="InsultFat">
+			<Initial>
+				<Context>INSULT_PED_FAT</Context>
+				<Flags>IsInsulting IsConversation</Flags>
+			</Initial>
+			<Response>
+				<Context>GENERIC_INSULT_MED</Context>
+				<Flags>IsInsulting</Flags>
+			</Response>
+		</Item>
+		<Item key="InsultGang">
+			<Initial>
+				<Context>INSULT_PED_GANG</Context>
+				<Flags>IsInsulting IsConversation</Flags>
+			</Initial>
+			<Response>
+				<Context>GENERIC_INSULT_MED</Context>
+				<Flags>IsInsulting</Flags>
+			</Response>
+		</Item>
+		<Item key="InsultHipster">
+			<Initial>
+				<Context>INSULT_PED_HIPSTER</Context>
+				<Flags>IsInsulting IsConversation</Flags>
+			</Initial>
+			<Response>
+				<Context>GENERIC_INSULT_MED</Context>
+				<Flags>IsInsulting</Flags>
+			</Response>
+		</Item>
+		<Item key="InsultJunkie">
+			<Initial>
+				<Context>INSULT_PED_JUNKIE</Context>
+				<Flags>IsInsulting IsConversation</Flags>
+			</Initial>
+			<Response>
+				<Context>GENERIC_INSULT_MED</Context>
+				<Flags>IsInsulting</Flags>
+			</Response>
+		</Item>
+		<Item key="InsultKnockedDown">
+			<Initial>
+				<Context>MELEE_KNOCK_DOWN</Context>
+				<Flags>IsInsulting</Flags>
+			</Initial>
+		</Item>
+		<Item key="InsultOld">
+			<Initial>
+				<Context>INSULT_PED_OLD</Context>
+				<Flags>IsInsulting IsConversation</Flags>
+			</Initial>
+			<Response>
+				<Context>GENERIC_INSULT_MED</Context>
+				<Flags>IsInsulting</Flags>
+			</Response>
+		</Item>
+		<Item key="InsultTough">
+			<Initial>
+				<Context>INSULT_PED_TOUGH</Context>
+				<Flags>IsInsulting IsConversation</Flags>
+			</Initial>
+			<Response>
+				<Context>GENERIC_INSULT_MED</Context>
+				<Flags>IsInsulting</Flags>
+			</Response>
+		</Item>
+		<Item key="Jeer">
+			<Initial>
+				<Context>SHOUT_PERV_AT_WOMAN_PERV</Context>
+			</Initial>
+			<Response>
+				<Context>JEERING_RESP</Context>
+			</Response>
+		</Item>
+		<Item key="RantFemale">
+			<Initial>
+				<Context>HOWS_IT_GOING_FEMALE</Context>
+			</Initial>
+			<Response>
+				<Context>PED_RANT</Context>
+				<Flags>IsRant</Flags>
+			</Response>
+		</Item>
+		<Item key="RantMale">
+			<Initial>
+				<Context>HOWS_IT_GOING_MALE</Context>
+			</Initial>
+			<Response>
+				<Context>PED_RANT</Context>
+				<Flags>IsRant</Flags>
+			</Response>
+		</Item>
+		<Item key="SeeFranklin">
+			<Initial>
+				<Context>SEE_FRANKLIN</Context>
+			</Initial>
+			<Response>
+				<Context>GENERIC_HI</Context>
+			</Response>
+		</Item>
+		<Item key="SeeLamar">
+			<Initial>
+				<Context>SEE_LAMAR</Context>
+			</Initial>
+			<Response>
+				<Context>GENERIC_HI</Context>
+			</Response>
+		</Item>
+		<Item key="SeeWeirdo">
+			<Initial>
+				<Context>SEE_WEIRDO</Context>
+				<Flags>IsInsulting</Flags>
+			</Initial>
+			<Response>
+				<Context>GENERIC_INSULT_MED</Context>
+				<Flags>IsInsulting</Flags>
+			</Response>
+		</Item>
+		<Item key="ShoutInsult">
+			<Initial>
+				<Context>SHOUT_INSULT</Context>
+				<Flags>IsInsulting</Flags>
+			</Initial>
+		</Item>
+		<Item key="ShoutInsultWithResponseInsult">
+			<Initial>
+				<Context>SHOUT_INSULT</Context>
+				<Flags>IsInsulting</Flags>
+			</Initial>
+			<Response>
+				<Context>GENERIC_INSULT_HIGH</Context>
+				<Flags>IsInsulting</Flags>
+			</Response>
+		</Item>
+		<Item key="ShoutInsultWithResponseWhatever">
+			<Initial>
+				<Context>SHOUT_INSULT</Context>
+				<Flags>IsInsulting</Flags>
+			</Initial>
+			<Response>
+				<Context>GENERIC_WHATEVER</Context>
+			</Response>
+		</Item>
+		<Item key="ShoutInsultHipster">
+			<Initial>
+				<Context>SHOUT_INSULT_HIPSTER</Context>
+				<Flags>IsInsulting</Flags>
+			</Initial>
+		</Item>
+		<Item key="ShoutInsultHipsterWithResponseInsult">
+			<Initial>
+				<Context>SHOUT_INSULT_HIPSTER</Context>
+				<Flags>IsInsulting</Flags>
+			</Initial>
+			<Response>
+				<Context>GENERIC_INSULT_HIGH</Context>
+				<Flags>IsInsulting</Flags>
+			</Response>
+		</Item>
+		<Item key="ShoutInsultHipsterWithResponseWhatever">
+			<Initial>
+				<Context>SHOUT_INSULT_HIPSTER</Context>
+				<Flags>IsInsulting</Flags>
+			</Initial>
+			<Response>
+				<Context>GENERIC_WHATEVER</Context>
+			</Response>
+		</Item>
+		<Item key="ShoutThreatenCop">
+			<Initial>
+				<Context>SHOUT_THREATEN_COP</Context>
+				<Flags>IsInsulting</Flags>
+			</Initial>
+			<Response>
+				<Context>GENERIC_FUCK_YOU</Context>
+				<Flags>IsInsulting</Flags>
+			</Response>
+		</Item>
+		<Item key="ShoutThreatenGang">
+			<Initial>
+				<Context>SHOUT_THREATEN_GANG</Context>
+				<Flags>IsInsulting</Flags>
+			</Initial>
+			<Response>
+				<Context>GENERIC_FUCK_YOU</Context>
+				<Flags>IsInsulting</Flags>
+			</Response>
+		</Item>
+		<Item key="ShoutThreatenPed">
+			<Initial>
+				<Context>SHOUT_THREATEN_PED</Context>
+				<Flags>IsInsulting</Flags>
+			</Initial>
+			<Response>
+				<Context>GENERIC_FUCK_YOU</Context>
+				<Flags>IsInsulting</Flags>
+			</Response>
+		</Item>
+		<Item key="ShoutWeirdo">
+			<Initial>
+				<Context>SHOUT_WEIRDO</Context>
+				<Flags>IsInsulting</Flags>
+			</Initial>
+		</Item>
+		<Item key="ShoutWeirdoWithResponseInsult">
+			<Initial>
+				<Context>SHOUT_WEIRDO</Context>
+				<Flags>IsInsulting</Flags>
+			</Initial>
+			<Response>
+				<Context>GENERIC_INSULT_HIGH</Context>
+				<Flags>IsInsulting</Flags>
+			</Response>
+		</Item>
+		<Item key="ShoutWeirdoWithResponseWhatever">
+			<Initial>
+				<Context>SHOUT_WEIRDO</Context>
+				<Flags>IsInsulting</Flags>
+			</Initial>
+			<Response>
+				<Context>GENERIC_WHATEVER</Context>
+			</Response>
+		</Item>
+		<Item key="Unfit">
+			<Initial>
+				<Context>GENERIC_UNFIT</Context>
+				<Flags>IsInsulting</Flags>
+			</Initial>
+			<Response>
+				<Context>GENERIC_INSULT_MED</Context>
+				<Flags>IsInsulting</Flags>
+			</Response>
+		</Item>
+	</Exchanges>
+	<Sets>
+		<Item key="Default">
+			<Triggers>
+				<Item>
+					<Conditions>
+						<MaxDistance value="10.0" />
+						<Flags>IsTargetPlayer IsFriendFollowedByPlayer</Flags>
+					</Conditions>
+					<Exchange>FriendFollowed</Exchange>
+				</Item>
+				<Item>
+					<Conditions>
+						<PedTypes>
+							<Item>PLAYER_0</Item>
+						</PedTypes>
+						<MaxDistance value="10.0" />
+						<Flags>IsExercising DidNotTalkToTargetLast</Flags>
+					</Conditions>
+					<Exchange>Unfit</Exchange>
+				</Item>
+				<Item>
+					<Conditions>
+						<PedTypes>
+							<Item>PLAYER_1</Item>
+						</PedTypes>
+						<MaxDistance value="10.0" />
+						<Flags>IsExercising DidNotTalkToTargetLast IsUsingScenario</Flags>
+						<Friends>
+							<Max value="0" />
+							<MaxDistance value="5.0" />
+						</Friends>
+					</Conditions>
+					<Exchange>Hi</Exchange>
+				</Item>
+				<Item>
+					<Conditions>
+						<PedTypes>
+							<Item>PLAYER_2</Item>
+						</PedTypes>
+						<MaxDistance value="10.0" />
+						<Flags>IsExercising DidNotTalkToTargetLast</Flags>
+					</Conditions>
+					<Exchanges>
+						<Item>SeeWeirdo</Item>
+					</Exchanges>
+				</Item>
+				<Item>
+					<Conditions>
+						<MaxDistance value="10.0" />
+						<Flags>WillJeerAtHotPeds IsTargetHot DidNotTalkToTargetLast</Flags>
+					</Conditions>
+					<Exchange>Jeer</Exchange>
+				</Item>
+				<Item>
+					<Conditions>
+						<Chances value="0.1" />
+						<MinDistance value="10.0" />
+						<MaxDistance value="25.0" />
+						<MinDistanceFromPlayer value="15.0" />
+						<MaxDistanceFromPlayer value="30.0" />
+						<Flags>IsNotFriendlyWithTarget IsTargetNotPlayer DidNotTalkToTargetLast</Flags>
+					</Conditions>
+					<ConditionalExchanges>
+						<Item>
+							<Conditions>
+								<ModelNames>
+									<Item>A_F_Y_Hipster_01</Item>
+									<Item>A_F_Y_Hipster_02</Item>
+									<Item>A_F_Y_Hipster_03</Item>
+									<Item>A_F_Y_Hipster_04</Item>
+									<Item>A_M_Y_Hipster_01</Item>
+									<Item>A_M_Y_Hipster_02</Item>
+									<Item>A_M_Y_Hipster_03</Item>
+								</ModelNames>
+							</Conditions>
+							<Exchanges>
+								<Item>ShoutInsultHipster</Item>
+								<Item>ShoutInsultHipsterWithResponseInsult</Item>
+								<Item>ShoutInsultHipsterWithResponseWhatever</Item>
+							</Exchanges>
+						</Item>
+						<Item>
+							<Exchanges>
+								<Item>ShoutInsult</Item>
+								<Item>ShoutInsultWithResponseInsult</Item>
+								<Item>ShoutInsultWithResponseWhatever</Item>
+							</Exchanges>
+						</Item>
+					</ConditionalExchanges>
+				</Item>
+				<Item>
+					<Conditions>
+						<MinDistance value="10.0" />
+						<MaxDistance value="25.0" />
+						<MinDistanceFromPlayer value="15.0" />
+						<MaxDistanceFromPlayer value="30.0" />
+						<Flags>IsNotThreatenedByTarget IsTargetNotPlayer DidNotTalkToTargetLast</Flags>
+					</Conditions>
+					<Exchanges>
+						<Item>ChatAcrossStreet</Item>
+						<Item>GreetAcrossStreet</Item>
+					</Exchanges>
+				</Item>
+			</Triggers>
+		</Item>
+		<Item key="Player">
+			<Triggers>
+				<Item>
+					<Conditions>
+						<MaxDistance value="20.0" />
+						<Flags>HasTargetAchievedCombatVictory</Flags>
+					</Conditions>
+					<Exchange>FuckYouHostile</Exchange>
+				</Item>
+				<Item>
+					<Conditions>
+						<MaxDistance value="20.0" />
+						<Flags>IsTargetNotFriendlyWithUs</Flags>
+						<WeSaid>
+							<Context>GENERIC_HI</Context>
+							<MaxTime value="30.0" />
+						</WeSaid>
+					</Conditions>
+					<Exchange>HowsItGoing</Exchange>
+				</Item>
+				<Item>
+					<Conditions>
+						<Chances value="0.2" />
+						<MaxDistance value="20.0" />
+						<Flags>TargetMustHaveResponse IsTargetOnFoot</Flags>
+					</Conditions>
+					<ConditionalExchanges>
+						<Item>
+							<Conditions>
+								<Flags>IsTargetMale</Flags>
+							</Conditions>
+							<Exchange>RantMale</Exchange>
+						</Item>
+						<Item>
+							<Conditions>
+								<Flags>IsTargetNotMale</Flags>
+							</Conditions>
+							<Exchange>RantFemale</Exchange>
+						</Item>
+					</ConditionalExchanges>
+				</Item>
+				<Item>
+					<Conditions>
+						<MaxDistance value="20.0" />
+						<NoRepeat value="30.0" />
+					</Conditions>
+					<ConditionalExchanges>
+						<Item>
+							<Conditions>
+								<Flags>IsTargetOnFoot</Flags>
+							</Conditions>
+							<Exchange>Hi</Exchange>
+						</Item>
+						<Item>
+							<Exchange>Insult</Exchange>
+						</Item>
+					</ConditionalExchanges>
+				</Item>
+				<Item>
+					<Conditions>
+						<MaxDistance value="20.0" />
+						<Flags>TargetMustBeDead</Flags>
+					</Conditions>
+					<Exchange>InsultDead</Exchange>
+				</Item>
+				<Item>
+					<Conditions>
+						<MaxDistance value="20.0" />
+						<Flags>TargetMustBeInCombat TargetMustBeKnockedDown</Flags>
+					</Conditions>
+					<Exchange>InsultKnockedDown</Exchange>
+				</Item>
+			</Triggers>
+		</Item>
+		<Item key="FriendlyPlayer">
+			<Parent>Player</Parent>
+			<Triggers>
+				<Item>
+					<Conditions>
+						<MaxDistance value="20.0" />
+						<Flags>IsThreatenedByTarget</Flags>
+					</Conditions>
+					<Exchange>Insult</Exchange>
+				</Item>
+			</Triggers>
+		</Item>
+		<Item key="UnfriendlyPlayer">
+			<Parent>Player</Parent>
+			<Triggers>
+				<Item>
+					<Conditions>
+						<MaxDistance value="20.0" />
+						<Flags>IsNotFriendlyWithTarget</Flags>
+					</Conditions>
+					<Exchange>Insult</Exchange>
+				</Item>
+			</Triggers>
+		</Item>
+		<Item key="Michael">
+			<Parent>FriendlyPlayer</Parent>
+		</Item>
+		<Item key="Franklin">
+			<Parent>FriendlyPlayer</Parent>
+		</Item>
+		<Item key="Trevor">
+			<Parent>UnfriendlyPlayer</Parent>
+			<Triggers>
+				<Item>
+					<Conditions>
+						<MaxDistance value="20.0" />
+						<Flags>IsNotFriendlyWithTarget</Flags>
+					</Conditions>
+					<ConditionalExchanges>
+						<Item>
+							<Conditions>
+								<PedPersonalities>
+									<Item>Bumsmale</Item>
+									<Item>Bumsfemale</Item>
+								</PedPersonalities>
+							</Conditions>
+							<Exchange>InsultBum</Exchange>
+						</Item>
+						<Item>
+							<Conditions>
+								<Flags>IsTargetCop</Flags>
+							</Conditions>
+							<Exchange>InsultCop</Exchange>
+						</Item>
+						<Item>
+							<Conditions>
+								<Flags>IsTargetFat</Flags>
+							</Conditions>
+							<Exchange>InsultFat</Exchange>
+						</Item>
+						<Item>
+							<Conditions>
+								<Flags>IsTargetGang</Flags>
+							</Conditions>
+							<Exchange>InsultGang</Exchange>
+						</Item>
+						<Item>
+							<Conditions>
+								<ModelNames>
+									<Item>A_F_Y_Hipster_01</Item>
+									<Item>A_F_Y_Hipster_02</Item>
+									<Item>A_F_Y_Hipster_03</Item>
+									<Item>A_F_Y_Hipster_04</Item>
+									<Item>A_M_Y_Hipster_01</Item>
+									<Item>A_M_Y_Hipster_02</Item>
+									<Item>A_M_Y_Hipster_03</Item>
+								</ModelNames>
+							</Conditions>
+							<Exchange>InsultHipster</Exchange>
+						</Item>
+						<Item>
+							<Conditions>
+								<PedPersonalities>
+									<Item>METHHEAD</Item>
+								</PedPersonalities>
+							</Conditions>
+							<Exchange>InsultJunkie</Exchange>
+						</Item>
+						<Item>
+							<Conditions>
+								<PedPersonalities>
+									<Item>OldPoorMan</Item>
+									<Item>OldPoorWoman</Item>
+									<Item>OldMediumMan</Item>
+									<Item>OldMediumWoman</Item>
+									<Item>OldRichMan</Item>
+									<Item>OldRichWoman</Item>
+								</PedPersonalities>
+							</Conditions>
+							<Exchange>InsultOld</Exchange>
+						</Item>
+						<Item>
+							<Conditions>
+								<PedPersonalities>
+									<Item>YoungAverageToughMan</Item>
+									<Item>YoungAverageToughWoman</Item>
+								</PedPersonalities>
+							</Conditions>
+							<Exchange>InsultTough</Exchange>
+						</Item>
+					</ConditionalExchanges>
+				</Item>
+			</Triggers>
+		</Item>
+		<Item key="Gang">
+			<Parent>Default</Parent>
+			<Triggers>
+				<Item>
+					<Conditions>
+						<MaxDistance value="10.0" />
+						<Flags>IsTargetPlayer IsFriendFollowedByPlayer</Flags>
+					</Conditions>
+					<Exchange>FriendFollowed</Exchange>
+				</Item>
+				<Item>
+					<Conditions>
+						<Chances value="0.5" />
+						<MaxDistance value="10.0" />
+						<Flags>IsFriendlyWithTarget DidNotTalkToTargetLast IsUsingScenario</Flags>
+						<Friends>
+							<Max value="0" />
+							<MaxDistance value="5.0" />
+						</Friends>
+					</Conditions>
+					<Exchange>Hi</Exchange>
+				</Item>
+				<Item>
+					<Conditions>
+						<Chances value="0.25" />
+						<MaxDistance value="10.0" />
+						<Flags>IsNotFriendlyWithTarget DidNotTalkToTargetLast</Flags>
+					</Conditions>
+					<Exchange>Insult</Exchange>
+				</Item>
+				<Item>
+					<Conditions>
+						<MinDistance value="10.0" />
+						<MaxDistance value="25.0" />
+						<MinDistanceFromPlayer value="15.0" />
+						<MaxDistanceFromPlayer value="30.0" />
+						<Flags>DidNotTalkToTargetLast IsNotFriendlyWithTarget</Flags>
+					</Conditions>
+					<ConditionalExchanges>
+						<Item>
+							<Conditions>
+								<PedTypes>
+									<Item>PLAYER_1</Item>
+								</PedTypes>
+								<ModelNames>
+									<Item>IG_LamarDavis</Item>
+								</ModelNames>
+								<Flags>IsInGangTerritory</Flags>
+							</Conditions>
+							<Exchange>ShoutThreatenGang</Exchange>
+						</Item>
+						<Item>
+							<Conditions>
+								<Flags>IsTargetGang IsInGangTerritory</Flags>
+							</Conditions>
+							<Exchange>ShoutThreatenGang</Exchange>
+						</Item>
+						<Item>
+							<Conditions>
+								<Flags>IsTargetCop</Flags>
+							</Conditions>
+							<Exchange>ShoutThreatenCop</Exchange>
+						</Item>
+						<Item>
+							<Conditions>
+								<Flags>IsInGangTerritory</Flags>
+							</Conditions>
+							<Exchange>ShoutThreatenPed</Exchange>
+						</Item>
+					</ConditionalExchanges>
+				</Item>
+			</Triggers>
+		</Item>
+		<Item key="Family">
+			<Parent>Gang</Parent>
+			<Triggers>
+				<Item>
+					<Conditions>
+						<MaxDistance value="10.0" />
+						<Flags>IsTargetPlayer IsFriendFollowedByPlayer</Flags>
+					</Conditions>
+					<Exchange>FriendFollowed</Exchange>
+				</Item>
+				<Item>
+					<Conditions>
+						<PedTypes>
+							<Item>PLAYER_1</Item>
+						</PedTypes>
+						<MaxDistance value="10.0" />
+						<Flags>DidNotTalkToTargetLast</Flags>
+					</Conditions>
+					<Exchange>SeeFranklin</Exchange>
+				</Item>
+				<Item>
+					<Conditions>
+						<ModelNames>
+							<Item>IG_LamarDavis</Item>
+						</ModelNames>
+						<MaxDistance value="10.0" />
+						<Flags>DidNotTalkToTargetLast</Flags>
+					</Conditions>
+					<Exchange>SeeLamar</Exchange>
+				</Item>
+			</Triggers>
+		</Item>
+		<Item key="LawEnforcement">
+			<Parent>Default</Parent>
+			<Triggers>
+				<Item>
+					<Conditions>
+						<PedTypes>
+							<Item>PLAYER_0</Item>
+						</PedTypes>
+						<MaxDistance value="10.0" />
+						<Flags>DidNotTalkToTargetLast IsUsingScenario</Flags>
+						<Friends>
+							<Max value="0" />
+							<MaxDistance value="5.0" />
+						</Friends>
+					</Conditions>
+					<Exchange>Hi</Exchange>
+				</Item>
+			</Triggers>
+		</Item>
+		<Item key="Posh">
+			<Parent>Default</Parent>
+			<Triggers>
+				<Item>
+					<Conditions>
+						<PedTypes>
+							<Item>PLAYER_0</Item>
+						</PedTypes>
+						<MaxDistance value="10.0" />
+						<Flags>DidNotTalkToTargetLast IsUsingScenario</Flags>
+						<Friends>
+							<Max value="0" />
+							<MaxDistance value="5.0" />
+						</Friends>
+					</Conditions>
+					<Exchange>Hi</Exchange>
+				</Item>
+				<Item>
+					<Conditions>
+						<PedTypes>
+							<Item>PLAYER_2</Item>
+						</PedTypes>
+						<MaxDistance value="10.0" />
+						<Flags>DidNotTalkToTargetLast</Flags>
+					</Conditions>
+					<Exchanges>
+						<Item>SeeWeirdo</Item>
+					</Exchanges>
+				</Item>
+			</Triggers>
+		</Item>
+		<Item key="Poor">
+			<Parent>Default</Parent>
+			<Triggers>
+				<Item>
+					<Conditions>
+						<PedTypes>
+							<Item>PLAYER_1</Item>
+						</PedTypes>
+						<MaxDistance value="10.0" />
+						<Flags>DidNotTalkToTargetLast IsUsingScenario</Flags>
+						<Friends>
+							<Max value="0" />
+							<MaxDistance value="5.0" />
+						</Friends>
+					</Conditions>
+					<Exchange>Hi</Exchange>
+				</Item>
+				<Item>
+					<Conditions>
+						<PedTypes>
+							<Item>PLAYER_2</Item>
+						</PedTypes>
+						<MaxDistance value="10.0" />
+						<Flags>DidNotTalkToTargetLast</Flags>
+					</Conditions>
+					<Exchanges>
+						<Item>SeeWeirdo</Item>
+					</Exchanges>
+				</Item>
+			</Triggers>
+		</Item>
+		<Item key="YoungMale">
+			<Parent>Default</Parent>
+			<Triggers>
+				<Item>
+					<Conditions>
+						<MaxDistance value="10.0" />
+						<Flags>IsTargetPlayer IsFriendFollowedByPlayer</Flags>
+					</Conditions>
+					<Exchange>FriendFollowed</Exchange>
+				</Item>
+				<Item>
+					<Conditions>
+						<PedTypes>
+							<Item>PLAYER_1</Item>
+						</PedTypes>
+						<MaxDistance value="10.0" />
+						<Flags>DidNotTalkToTargetLast IsUsingScenario</Flags>
+						<Friends>
+							<Max value="0" />
+							<MaxDistance value="5.0" />
+						</Friends>
+					</Conditions>
+					<Exchange>Hi</Exchange>
+				</Item>
+				<Item>
+					<Conditions>
+						<PedTypes>
+							<Item>PLAYER_2</Item>
+						</PedTypes>
+						<MaxDistance value="10.0" />
+						<Flags>DidNotTalkToTargetLast</Flags>
+					</Conditions>
+					<Exchanges>
+						<Item>SeeWeirdo</Item>
+					</Exchanges>
+				</Item>
+			</Triggers>
+		</Item>
+		<Item key="YoungFemale">
+			<Parent>Default</Parent>
+			<Triggers>
+				<Item>
+					<Conditions>
+						<MaxDistance value="10.0" />
+						<Flags>IsTargetPlayer IsFriendFollowedByPlayer</Flags>
+					</Conditions>
+					<Exchange>FriendFollowed</Exchange>
+				</Item>
+				<Item>
+					<Conditions>
+						<PedTypes>
+							<Item>PLAYER_1</Item>
+						</PedTypes>
+						<MaxDistance value="10.0" />
+						<Flags>DidNotTalkToTargetLast IsUsingScenario</Flags>
+						<Friends>
+							<Max value="0" />
+							<MaxDistance value="5.0" />
+						</Friends>
+					</Conditions>
+					<Exchange>Hi</Exchange>
+				</Item>
+				<Item>
+					<Conditions>
+						<PedTypes>
+							<Item>PLAYER_2</Item>
+						</PedTypes>
+						<MaxDistance value="10.0" />
+						<Flags>DidNotTalkToTargetLast</Flags>
+					</Conditions>
+					<Exchanges>
+						<Item>SeeWeirdo</Item>
+					</Exchanges>
+				</Item>
+			</Triggers>
+		</Item>
+		<Item key="Bum">
+			<Parent>Default</Parent>
+			<Triggers>
+				<Item>
+					<Conditions>
+						<PedTypes>
+							<Item>PLAYER_0</Item>
+							<Item>PLAYER_1</Item>
+						</PedTypes>
+						<MaxDistance value="10.0" />
+						<Flags>DidNotTalkToTargetLast</Flags>
+					</Conditions>
+					<Exchanges>
+						<Item>Insult</Item>
+						<Item>BumSpareChange</Item>
+					</Exchanges>
+				</Item>
+				<Item>
+					<Conditions>
+						<PedTypes>
+							<Item>PLAYER_2</Item>
+						</PedTypes>
+						<MaxDistance value="10.0" />
+						<Flags>DidNotTalkToTargetLast IsUsingScenario</Flags>
+						<Friends>
+							<Max value="0" />
+							<MaxDistance value="5.0" />
+						</Friends>
+					</Conditions>
+					<Exchanges>
+						<Item>Hi</Item>
+						<Item>BumSpareChange</Item>
+					</Exchanges>
+				</Item>
+				<Item>
+					<Conditions>
+						<MaxDistance value="5.0" />
+						<Flags>DidNotTalkToTargetLast IsUsingScenario</Flags>
+					</Conditions>
+					<Exchange>BumSpareChange</Exchange>
+				</Item>
+				<Item>
+					<Conditions>
+						<MinDistance value="10.0" />
+						<MaxDistance value="25.0" />
+						<MinDistanceFromPlayer value="15.0" />
+						<MaxDistanceFromPlayer value="30.0" />
+						<Flags>IsNotFriendlyWithTarget IsTargetNotPlayer DidNotTalkToTargetLast</Flags>
+					</Conditions>
+					<Exchanges>
+						<Item>ShoutWeirdo</Item>
+						<Item>ShoutWeirdoWithResponseInsult</Item>
+						<Item>ShoutWeirdoWithResponseWhatever</Item>
+					</Exchanges>
+				</Item>
+			</Triggers>
+		</Item>
+		<Item key="Muscle">
+			<Parent>Default</Parent>
+			<Triggers>
+				<Item>
+					<Conditions>
+						<MaxDistance value="10.0" />
+						<Flags>IsTargetPlayer IsFriendFollowedByPlayer</Flags>
+					</Conditions>
+					<Exchange>FriendFollowed</Exchange>
+				</Item>
+				<Item>
+					<Conditions>
+						<PedTypes>
+							<Item>PLAYER_0</Item>
+						</PedTypes>
+						<MaxDistance value="10.0" />
+						<Flags>DidNotTalkToTargetLast</Flags>
+					</Conditions>
+					<Exchange>Unfit</Exchange>
+				</Item>
+				<Item>
+					<Conditions>
+						<PedTypes>
+							<Item>PLAYER_1</Item>
+						</PedTypes>
+						<MaxDistance value="10.0" />
+						<Flags>DidNotTalkToTargetLast IsUsingScenario</Flags>
+						<Friends>
+							<Max value="0" />
+							<MaxDistance value="5.0" />
+						</Friends>
+					</Conditions>
+					<Exchange>Hi</Exchange>
+				</Item>
+				<Item>
+					<Conditions>
+						<PedTypes>
+							<Item>PLAYER_2</Item>
+						</PedTypes>
+						<MaxDistance value="10.0" />
+						<Flags>DidNotTalkToTargetLast</Flags>
+					</Conditions>
+					<Exchanges>
+						<Item>SeeWeirdo</Item>
+					</Exchanges>
+				</Item>
+			</Triggers>
+		</Item>
+		<Item key="Prostitute">
+			<Parent>Default</Parent>
+			<Triggers>
+				<Item>
+					<Conditions>
+						<PedTypes>
+							<Item>PLAYER_0</Item>
+							<Item>PLAYER_1</Item>
+						</PedTypes>
+						<MaxDistance value="10.0" />
+						<Flags>DidNotTalkToTargetLast IsUsingScenario</Flags>
+						<Friends>
+							<Max value="0" />
+							<MaxDistance value="5.0" />
+						</Friends>
+					</Conditions>
+					<Exchange>Hi</Exchange>
+				</Item>
+				<Item>
+					<Conditions>
+						<PedTypes>
+							<Item>PLAYER_2</Item>
+						</PedTypes>
+						<MaxDistance value="10.0" />
+						<Flags>DidNotTalkToTargetLast</Flags>
+					</Conditions>
+					<Exchanges>
+						<Item>SeeWeirdo</Item>
+					</Exchanges>
+				</Item>
+			</Triggers>
+		</Item>
+		<Item key="Medic">
+			<Parent>Default</Parent>
+			<Triggers>
+				<Item>
+					<Conditions>
+						<PedTypes>
+							<Item>PLAYER_0</Item>
+						</PedTypes>
+						<MaxDistance value="10.0" />
+						<Flags>DidNotTalkToTargetLast IsUsingScenario</Flags>
+						<Friends>
+							<Max value="0" />
+							<MaxDistance value="5.0" />
+						</Friends>
+					</Conditions>
+					<Exchange>Hi</Exchange>
+				</Item>
+			</Triggers>
+		</Item>
+		<Item key="Fireman">
+			<Parent>Default</Parent>
+			<Triggers>
+				<Item>
+					<Conditions>
+						<PedTypes>
+							<Item>PLAYER_0</Item>
+						</PedTypes>
+						<MaxDistance value="10.0" />
+						<Flags>DidNotTalkToTargetLast IsUsingScenario</Flags>
+						<Friends>
+							<Max value="0" />
+							<MaxDistance value="5.0" />
+						</Friends>
+					</Conditions>
+					<Exchange>Hi</Exchange>
+				</Item>
+			</Triggers>
+		</Item>
+	</Sets>
+</CAmbientAudios>

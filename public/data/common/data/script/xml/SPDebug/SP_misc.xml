@@ -1,0 +1,67 @@
+<?xml version='1.0'?>
+<DebugMenuItems>
+	<menuItem title="Respawn Cutscenes" file="SPDebug/SP_respawn.xml"/>
+	<breakItem />
+	
+	<codeItem title="Unlock Blimp Contact" codeID="SPCID_UNLOCK_BLIMP_CONTACT" />
+	<scriptItem title="Battle Buddy Controller" file="battlebuddycontroller.sc" author="SI_AG"/>
+	<warpItem title="Carwash" x="60.8464" y="-1392.2551" z="28.3855" heading = "90.0114" vehicleWarp="TRUE" labelID="LABEL_CARWASH"/>
+	<warpItem title="Carwash 2" x="-699.5" y="-945.5275" z="18.6198" heading = "3.4146" vehicleWarp="TRUE" labelID="LABEL_CARWASH"/>
+	<warpItem title="Fairground" x="-1658.7" y="-1101.7" z="13.5" heading = "0.0" codeID="SPCID_ACTIVATE_FAIRGROUND"/>
+	<scriptItem title="SWITCH Test" file="selector_example.sc" author="SI_KR" codeID="SPCID_GAMEFLOW_OFF"/>
+	<scriptItem title="Bail Bonds Cloud Data Output" file="bailBondsCloudLink.sc" author="SI_AM"/>
+	<scriptItem title="Blimp Test" file="blimpTest.sc" author="SI_DR"/>
+	<scriptItem title="Underbelly TV capture" file="UTVC.sc" author="SI_SR_F"/>
+	<scriptItem title="FPS test" file="fps_test_mag.sc" author="SI_SR_F"/>
+	<toolItem   title="Character Anim Test" file="charAnimTest.sc" author="SI_DR" x="2016.1606" y="2854.1006" z="49.2162" heading="149.7406" />
+	<toolItem   title="Pickup Placement Helper" file="pickupTest.sc" author="SI_DR"/>
+	<scriptItem title="Shrink Letter Test" file="shrinkLetter.sc" author="SI_DR"/>
+	<scriptItem title="Convoy Test" file="convoytest.sc" author="SI_CV"/>
+	<missionItem title="Selling Short (Part1 - Normal)" file="selling_short_1.sc"/>
+	<missionItem title="Selling Short (Part2 - Interrupt)" file="selling_short_2.sc"/>
+	<missionItem title="Fame or Shame P1" file="FameOrShame_eps_1.sc"/>
+	<missionItem title="Fame or Shame - Ballard" file="FameOrShame_eps.sc"/>
+	
+	<codeItem title="Bank Account (toggle)" codeID="SPCID_BANK_DISPLAY" />
+	<codeItem title="Email Account (toggle)" codeID="SPCID_EMAIL_DISPLAY" />
+	<warpItem title="Wardrobe - Michael" x="-811.8103" y="175.1544" z="75.7407" heading="290.0840" codeID="SPCID_ACTIVATE_SAVEHOUSES" character="CHAR_MICHAEL"/>
+	<warpItem title="Wardrobe - Franklin" x="-17.9973" y="-1438.9110" z="30.1015" heading="208.0875" codeID="SPCID_ACTIVATE_SAVEHOUSES" character="CHAR_FRANKLIN"/>
+	<warpItem title="Wardrobe - Trevor" x="92.8287" y="-1292.0266" z="28.2688" codeID="SPCID_ACTIVATE_SAVEHOUSES" character="CHAR_TREVOR"/>
+	<warpItem title="Save Bed"  x="-812.8173" y="181.6804" z="75.7409" heading="87.4688" interior="V_Michael" character="CHAR_MICHAEL" codeID="SPCID_SAVEGAME_BED_ON"/>
+	
+	<codeItem title="Unlock all Chop tricks" codeID="SPCID_UNLOCK_CHOP_TRICKS" />
+	<warpItem title="Chop" x="-14.8330" y="-1424.2474" z="29.6676" heading="251.8593" character="CHAR_FRANKLIN"/>
+	
+	<warpItem title="Test Area"  x="201.3993" y="-924.1564" z="29.6919" heading="159.6765" info="DM_INFO_M01" />
+	<warpItem title="Strip Club" x="127.4747"  y="-1314.5795" z="28.1418" heading="1.00" codeID="SPCID_ACTIVITY_STRIPCLUB" />
+	<warpItem title="Bank ATM" x="-31.6487" y="-728.5772" z="43.2728" heading="356.3943" />
+	<warpItem title="Boxing Club" x="-72.6590" y="-1272.4755" z="32.5336" heading="105.5156" interior="V_Boxing" codeID="SPCID_RANDOM_EVENT"/>
+	<warpItem title="Therapist" x="-1900.1770" y="-559.7668" z="10.7915" heading="137.3846"/>
+	<scriptItem title="Exile city denial" file="exile_city_denial.sc" />
+	<scriptItem title="App select screen" file="debug_app_select_screen.sc" />
+	<breakItem />
+	<scriptItem title="Key Test" file="keyTest.sc" author="SI_KR"/>
+	<scriptItem title="Digger Test" file="digger_test.sc" author="SI_KR" />
+	<scriptItem title="Ped Cloth Test" file="ped_cloth_test.sc" author="SI_KR"/>
+	<scriptItem title="Ped Scar/Tattoo Test" file="scar_tattoo_test.sc" author="SI_KR"/>
+	<scriptItem title="Rayfire Test - Gas Station" file="gasstation.sc" author="SI_RW" x="-116.3278" y="6428.5869" z="30.4210" heading="245.8547"/>
+	<scriptItem title="Fat Test" file="fat_test.sc" author="SI_KR"/>
+	<scriptItem title="Reward Car" file="reward_car.sc" author="SI_KR"/>
+	<scriptItem title="CoOp Mission Test" file="tempCoOpTest" x="529.97" y="-1738.09" z="29.23" heading="55.28" author="AH"/>
+	<scriptItem title="Basejump Test" file="sp_baseJump" x="-1192.1221" y="-1238.5963" z="5.8344" heading="9.8"/>
+	<scriptItem title="Locates Tester" file="locates_tester" x="-1233.4377" y="-1139.0764" z="6.7659" heading="320.0"/>
+	<scriptItem title="Object Line Test" file="LineActivationTest.sc" author="SI_BC" highlight="FALSE" info="DM_INFO_054" />
+	<scriptItem title="Audio Test Script" file="AudioTest.sc" />
+	<scriptItem title="Gun Fight Test Script" file="GunFightTest.sc" x="-1513.11" y="-2665.22" z="13.95" heading="1.0" />	
+	<scriptItem title="Convertible Roof Test" file="car_roof_test.sc" author="SI_MB"/>
+	<scriptItem title="Streaming" file="streaming.sc" author="SI_TBC"/>
+	<scriptItem title="Streaming imap test" file="heli_streaming.sc" author="SI_CF"/>
+	<toolitem title="Cutscene metric tester" 		file="cutscenemetrics.sc" 			author="AK" />
+	<scriptItem title="Plane Warp Test" file="planeWarpTest.sc" author="SI_BR" />
+	<breakItem />
+	<menuItem title="Scaleform Tests" file="SPDebug/SP_scaleform_tests.xml"/>
+	
+</DebugMenuItems>
+
+
+

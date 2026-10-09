@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CPedClothCollision>
+  <CollisionData>
+    <Item>
+      <Rotation x="-0.495857" y="0.485115" z="0.520945" w="0.497399" />
+      <CapsuleRadius value="0.150000" />
+      <CapsuleLen value="0.200000" />
+      <BoneIndex value="-1" />
+      <BoneName>SKEL_Head</BoneName>
+      <Enabled value="true" />
+    </Item>
+    <Item>
+      <Rotation x="-0.495857" y="0.485115" z="0.520945" w="0.497399" />
+      <CapsuleRadius value="0.120000" />
+      <CapsuleLen value="0.300000" />
+      <BoneIndex value="-1" />
+      <BoneName>SKEL_L_Calf</BoneName>
+      <Enabled value="true" />
+    </Item>
+    <Item>
+      <Rotation x="0.511034" y="-0.490256" z="-0.506627" w="-0.491755" />
+      <CapsuleRadius value="0.120000" />
+      <CapsuleLen value="0.300000" />
+      <BoneIndex value="-1" />
+      <BoneName>SKEL_R_Calf</BoneName>
+      <Enabled value="true" />
+    </Item>
+    <Item>
+      <Rotation x="-0.495857" y="0.485115" z="0.520945" w="0.497399" />
+      <CapsuleRadius value="0.130000" />
+      <CapsuleLen value="0.500000" />
+      <BoneIndex value="-1" />
+      <BoneName>SKEL_L_Forearm</BoneName>
+      <Enabled value="true" />
+    </Item>
+    <Item>
+      <Rotation x="0.511034" y="-0.490256" z="-0.506627" w="-0.491755" />
+      <CapsuleRadius value="0.130000" />
+      <CapsuleLen value="0.500000" />
+      <BoneIndex value="-1" />
+      <BoneName>SKEL_R_Forearm</BoneName>
+      <Enabled value="true" />
+    </Item>
+    <Item>
+      <Rotation x="-0.495857" y="0.485115" z="0.520945" w="0.497399" />
+      <CapsuleRadius value="0.220000" />
+      <CapsuleLen value="0.500000" />
+      <BoneIndex value="-1" />
+      <BoneName>SKEL_Spine3</BoneName>
+      <Enabled value="true" />
+    </Item>
+  </CollisionData>
+</CPedClothCollision>

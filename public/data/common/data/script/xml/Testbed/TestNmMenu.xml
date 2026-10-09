@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<testbedCode title="Natural Motion Test Menu">
+
+	<!-- add some code options france"-->
+	<menuItem name="Shot" value="0" />
+	<menuItem name="Run Shot" value="1" />
+    <menuItem name="Shot Underwater" value="3" />
+	<menuItem name="Bumped by player" value="4" />
+	<menuItem name="Bumped by vehicle" value="5" />
+	<menuItem name="Fall from height" value="6" />
+	<menuItem name="Standing on moving vehicle" value="7" />
+	<menuItem name="Jumping out of vehicle" value="8" />
+	<menuItem name="Grabbing vehicle door" value="9" />
+	<menuItem name="Explosion" value="10" />
+	<menuItem name="On fire" value="11" />
+	<menuItem name="Relax behaviour" value="14" />
+	<menuItem name="Dying" value="15" />
+	<menuItem name="Flinch" value="16" />
+	<menuItem name="Shot over rail 5m" value="17" />
+	<menuItem name="Shot over rail 10m" value="18" />
+	<menuItem name="Shot over rail 15m" value="19" />
+	<menuItem name="Shot over rail 20m" value="20" />
+	<menuItem name="Shot fall 2m" value="21" />
+	<menuItem name="Shot fall 5m" value="22" />
+	<menuItem name="Shot fall 10m" value="23" />
+	<menuItem name="Shot fall 15m" value="24" />
+	<menuItem name="Shot fall 20m" value="25" />
+	<menuItem name="Shot slope" value="26" />
+	<menuItem name="Slide grab" value="27" />
+	<menuItem name="Balance Default" value="28" />
+	<menuItem name="Bind pose transition test" value="29" />
+	<menuItem name="Walking down hill" value="36" />
+	<menuItem name="Teeter 20m" value="38" />
+	<menuItem name="Attach Idle" value="39" />
+	<menuItem name="Attach Underneath" value="40" />
+	<menuItem name="Shot over rail 2m" value="42" />
+	<menuItem name="Dangle From Meathook" value="43" />
+	<menuItem name="Slung Over Shoulder" value="44" />
+	<menuItem name="Shot against wall" value="45" />
+	<menuItem name="Slide test" value="47" />
+	<menuItem name="Warp to interior" value="48" />
+	<menuItem name="Player bumped by vehicle" value="49" />
+  <menuItem name="Truck bed" value="50" />
+  <menuItem name="Cover" value="51" />
+	<menuItem name="Quit" value="52" />
+</testbedCode>

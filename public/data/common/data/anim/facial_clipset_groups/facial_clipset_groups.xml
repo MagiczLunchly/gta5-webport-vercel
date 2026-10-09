@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<fwFacialClipSetGroupManager>
+  <facialClipSetGroups>
+    <Item type="fwFacialClipSetGroup" key="facial_clipset_group_gen_female">
+      <baseClipSet>facials@gen_female@base</baseClipSet>
+      <Variations>
+        <Item>
+          <mood>MoodAiming</mood>
+          <clipSet>facials@gen_female@variations@aiming</clipSet>
+          <minimumResidentTime value="10.000000" />
+          <baseMinimumPlaybackTime value="4.000000" />
+          <baseMaximumPlaybackTime value="8.000000" />
+          <minimumPlaybackTime value="4.000000" />
+          <maximumPlaybackTime value="8.000000" />
+          <blendInTime value="0.250000" />
+          <blendOutTime value="0.250000" />
+        </Item>
+        <Item>
+          <mood>MoodAngry</mood>
+          <clipSet>facials@gen_female@variations@angry</clipSet>
+          <minimumResidentTime value="10.000000" />
+          <baseMinimumPlaybackTime value="4.000000" />
+          <baseMaximumPlaybackTime value="8.000000" />
+          <minimumPlaybackTime value="4.000000" />
+          <maximumPlaybackTime value="8.000000" />
+          <blendInTime value="0.250000" />
+          <blendOutTime value="0.250000" />
+        </Item>
+        <Item>
+          <mood>MoodHappy</mood>
+          <clipSet>facials@gen_female@variations@happy</clipSet>
+          <minimumResidentTime value="10.000000" />
+          <baseMinimumPlaybackTime value="4.000000" />
+          <baseMaximumPlaybackTime value="8.000000" />
+          <minimumPlaybackTime value="4.000000" />
+          <maximumPlaybackTime value="8.000000" />
+          <blendInTime value="0.250000" />
+          <blendOutTime value="0.250000" />
+        </Item>
+        <Item>
+          <mood>MoodInjured</mood>
+          <clipSet>facials@gen_female@variations@injured</clipSet>
+          <minimumResidentTime value="10.000000" />
+          <baseMinimumPlaybackTime value="4.000000" />
+          <baseMaximumPlaybackTime value="8.000000" />
+          <minimumPlaybackTime value="4.000000" />
+          <maximumPlaybackTime value="8.000000" />
+          <blendInTime value="0.250000" />
+          <blendOutTime value="0.250000" />
+        </Item>
+        <Item>
+          <mood>MoodNormal</mood>
+          <clipSet>facials@gen_female@variations@normal</clipSet>
+          <minimumResidentTime value="10.000000" />
+          <baseMinimumPlaybackTime value="4.000000" />
+          <baseMaximumPlaybackTime value="8.000000" />
+          <minimumPlaybackTime value="4.000000" />
+          <maximumPlaybackTime value="8.000000" />
+          <blendInTime value="0.250000" />
+          <blendOutTime value="0.350000" />
+        </Item>
+        <Item>
+          <mood>MoodStressed</mood>
+          <clipSet>facials@gen_female@variations@stressed</clipSet>
+          <minimumResidentTime value="10.000000" />
+          <baseMinimumPlaybackTime value="4.000000" />
+          <baseMaximumPlaybackTime value="8.000000" />
+          <minimumPlaybackTime value="4.000000" />
+          <maximumPlaybackTime value="8.000000" />
+          <blendInTime value="0.250000" />
+          <blendOutTime value="0.250000" />
+        </Item>
+      </Variations>
+    </Item>
+	<Item type="fwFacialClipSetGroup" key="facial_clipset_group_mime">
+      <baseClipSet>facials@mime@base</baseClipSet>
+      <Variations>
+        <Item>
+          <mood>MoodNormal</mood>
+          <clipSet>facials@mime@variations@normal</clipSet>
+          <minimumResidentTime value="10.000000" />
+          <baseMinimumPlaybackTime value="4.000000" />
+          <baseMaximumPlaybackTime value="8.000000" />
+          <minimumPlaybackTime value="4.000000" />
+          <maximumPlaybackTime value="8.000000" />
+          <blendInTime value="0.250000" />
+          <blendOutTime value="0.350000" />
+        </Item>
+      </Variations>
+    </Item>
+	<Item type="fwFacialClipSetGroup" key="facial_clipset_group_u_m_y_zombie_01">
+      <baseClipSet>facials@u_m_y_zombie_01@base</baseClipSet>
+      <Variations>
+        <Item />
+      </Variations>
+    </Item>
+    <Item type="fwFacialClipSetGroup" key="facial_clipset_group_gen_male">
+      <baseClipSet>facials@gen_male@base</baseClipSet>
+      <Variations>
+        <Item>
+          <mood>MoodAiming</mood>
+          <clipSet>facials@gen_male@variations@aiming</clipSet>
+          <minimumResidentTime value="10.000000" />
+          <baseMinimumPlaybackTime value="4.000000" />
+          <baseMaximumPlaybackTime value="8.000000" />
+          <minimumPlaybackTime value="4.000000" />
+          <maximumPlaybackTime value="8.000000" />
+          <blendInTime value="0.250000" />
+          <blendOutTime value="0.250000" />
+        </Item>
+        <Item>
+          <mood>MoodAngry</mood>
+          <clipSet>facials@gen_male@variations@angry</clipSet>
+          <minimumResidentTime value="10.000000" />
+          <baseMinimumPlaybackTime value="4.000000" />
+          <baseMaximumPlaybackTime value="8.000000" />
+          <minimumPlaybackTime value="4.000000" />
+          <maximumPlaybackTime value="8.000000" />
+          <blendInTime value="0.250000" />
+          <blendOutTime value="0.250000" />
+        </Item>
+        <Item>
+          <mood>MoodHappy</mood>
+          <clipSet>facials@gen_male@variations@happy</clipSet>
+          <minimumResidentTime value="10.000000" />
+          <baseMinimumPlaybackTime value="4.000000" />
+          <baseMaximumPlaybackTime value="8.000000" />
+          <minimumPlaybackTime value="4.000000" />
+          <maximumPlaybackTime value="8.000000" />
+          <blendInTime value="0.250000" />
+          <blendOutTime value="0.250000" />
+        </Item>
+        <Item>
+          <mood>MoodInjured</mood>
+          <clipSet>facials@gen_male@variations@injured</clipSet>
+          <minimumResidentTime value="10.000000" />
+          <baseMinimumPlaybackTime value="4.000000" />
+          <baseMaximumPlaybackTime value="8.000000" />
+          <minimumPlaybackTime value="4.000000" />
+          <maximumPlaybackTime value="8.000000" />
+          <blendInTime value="0.250000" />
+          <blendOutTime value="0.250000" />
+        </Item>
+        <Item>
+          <mood>MoodNormal</mood>
+          <clipSet>facials@gen_male@variations@normal</clipSet>
+          <minimumResidentTime value="10.000000" />
+          <baseMinimumPlaybackTime value="4.000000" />
+          <baseMaximumPlaybackTime value="8.000000" />
+          <minimumPlaybackTime value="4.000000" />
+          <maximumPlaybackTime value="8.000000" />
+          <blendInTime value="0.250000" />
+          <blendOutTime value="0.350000" />
+        </Item>
+        <Item>
+          <mood>MoodStressed</mood>
+          <clipSet>facials@gen_male@variations@stressed</clipSet>
+          <minimumResidentTime value="10.000000" />
+          <baseMinimumPlaybackTime value="4.000000" />
+          <baseMaximumPlaybackTime value="8.000000" />
+          <minimumPlaybackTime value="4.000000" />
+          <maximumPlaybackTime value="8.000000" />
+          <blendInTime value="0.250000" />
+          <blendOutTime value="0.250000" />
+        </Item>
+      </Variations>
+    </Item>
+    <Item type="fwFacialClipSetGroup" key="facial_clipset_group_p_m_one">
+      <baseClipSet>facials@p_m_one@base</baseClipSet>
+      <Variations>
+        <Item>
+          <mood>MoodAiming</mood>
+          <clipSet>facials@p_m_one@variations@aiming</clipSet>
+          <minimumResidentTime value="10.000000" />
+          <baseMinimumPlaybackTime value="4.000000" />
+          <baseMaximumPlaybackTime value="8.000000" />
+          <minimumPlaybackTime value="4.000000" />
+          <maximumPlaybackTime value="8.000000" />
+          <blendInTime value="0.250000" />
+          <blendOutTime value="0.250000" />
+        </Item>
+        <Item>
+          <mood>MoodAngry</mood>
+          <clipSet>facials@p_m_one@variations@angry</clipSet>
+          <minimumResidentTime value="10.000000" />
+          <baseMinimumPlaybackTime value="4.000000" />
+          <baseMaximumPlaybackTime value="8.000000" />
+          <minimumPlaybackTime value="4.000000" />
+          <maximumPlaybackTime value="8.000000" />
+          <blendInTime value="0.250000" />
+          <blendOutTime value="0.250000" />
+        </Item>
+        <Item>
+          <mood>MoodHappy</mood>
+          <clipSet>facials@p_m_one@variations@happy</clipSet>
+          <minimumResidentTime value="10.000000" />
+          <baseMinimumPlaybackTime value="4.000000" />
+          <baseMaximumPlaybackTime value="8.000000" />
+          <minimumPlaybackTime value="4.000000" />
+          <maximumPlaybackTime value="8.000000" />
+          <blendInTime value="0.250000" />
+          <blendOutTime value="0.250000" />
+        </Item>
+        <Item>
+          <mood>MoodInjured</mood>
+          <clipSet>facials@p_m_one@variations@injured</clipSet>
+          <minimumResidentTime value="10.000000" />
+          <baseMinimumPlaybackTime value="4.000000" />
+          <baseMaximumPlaybackTime value="8.000000" />
+          <minimumPlaybackTime value="4.000000" />
+          <maximumPlaybackTime value="8.000000" />
+          <blendInTime value="0.250000" />
+          <blendOutTime value="0.250000" />
+        </Item>
+        <Item>
+          <mood>MoodNormal</mood>
+          <clipSet>facials@p_m_one@variations@normal</clipSet>
+          <minimumResidentTime value="10.000000" />
+          <baseMinimumPlaybackTime value="4.000000" />
+          <baseMaximumPlaybackTime value="8.000000" />
+          <minimumPlaybackTime value="4.000000" />
+          <maximumPlaybackTime value="8.000000" />
+          <blendInTime value="0.250000" />
+          <blendOutTime value="0.350000" />
+        </Item>
+        <Item>
+          <mood>MoodStressed</mood>
+          <clipSet>facials@p_m_one@variations@stressed</clipSet>
+          <minimumResidentTime value="10.000000" />
+          <baseMinimumPlaybackTime value="4.000000" />
+          <baseMaximumPlaybackTime value="8.000000" />
+          <minimumPlaybackTime value="4.000000" />
+          <maximumPlaybackTime value="8.000000" />
+          <blendInTime value="0.250000" />
+          <blendOutTime value="0.250000" />
+        </Item>
+      </Variations>
+    </Item>
+    <Item type="fwFacialClipSetGroup" key="facial_clipset_group_p_m_two">
+      <baseClipSet>facials@p_m_two@base</baseClipSet>
+      <Variations>
+        <Item>
+          <mood>MoodAiming</mood>
+          <clipSet>facials@p_m_two@variations@aiming</clipSet>
+          <minimumResidentTime value="10.000000" />
+          <baseMinimumPlaybackTime value="4.000000" />
+          <baseMaximumPlaybackTime value="8.000000" />
+          <minimumPlaybackTime value="4.000000" />
+          <maximumPlaybackTime value="8.000000" />
+          <blendInTime value="0.250000" />
+          <blendOutTime value="0.250000" />
+        </Item>
+        <Item>
+          <mood>MoodAngry</mood>
+          <clipSet>facials@p_m_two@variations@angry</clipSet>
+          <minimumResidentTime value="10.000000" />
+          <baseMinimumPlaybackTime value="4.000000" />
+          <baseMaximumPlaybackTime value="8.000000" />
+          <minimumPlaybackTime value="4.000000" />
+          <maximumPlaybackTime value="8.000000" />
+          <blendInTime value="0.250000" />
+          <blendOutTime value="0.250000" />
+        </Item>
+        <Item>
+          <mood>MoodHappy</mood>
+          <clipSet>facials@p_m_two@variations@happy</clipSet>
+          <minimumResidentTime value="10.000000" />
+          <baseMinimumPlaybackTime value="4.000000" />
+          <baseMaximumPlaybackTime value="8.000000" />
+          <minimumPlaybackTime value="4.000000" />
+          <maximumPlaybackTime value="8.000000" />
+          <blendInTime value="0.250000" />
+          <blendOutTime value="0.250000" />
+        </Item>
+        <Item>
+          <mood>MoodInjured</mood>
+          <clipSet>facials@p_m_two@variations@injured</clipSet>
+          <minimumResidentTime value="10.000000" />
+          <baseMinimumPlaybackTime value="4.000000" />
+          <baseMaximumPlaybackTime value="8.000000" />
+          <minimumPlaybackTime value="4.000000" />
+          <maximumPlaybackTime value="8.000000" />
+          <blendInTime value="0.250000" />
+          <blendOutTime value="0.250000" />
+        </Item>
+        <Item>
+          <mood>MoodNormal</mood>
+          <clipSet>facials@p_m_two@variations@normal</clipSet>
+          <minimumResidentTime value="10.000000" />
+          <baseMinimumPlaybackTime value="4.000000" />
+          <baseMaximumPlaybackTime value="8.000000" />
+          <minimumPlaybackTime value="4.000000" />
+          <maximumPlaybackTime value="8.000000" />
+          <blendInTime value="0.250000" />
+          <blendOutTime value="0.350000" />
+        </Item>
+        <Item>
+          <mood>MoodStressed</mood>
+          <clipSet>facials@p_m_two@variations@stressed</clipSet>
+          <minimumResidentTime value="10.000000" />
+          <baseMinimumPlaybackTime value="4.000000" />
+          <baseMaximumPlaybackTime value="8.000000" />
+          <minimumPlaybackTime value="4.000000" />
+          <maximumPlaybackTime value="8.000000" />
+          <blendInTime value="0.250000" />
+          <blendOutTime value="0.250000" />
+        </Item>
+      </Variations>
+    </Item>
+    <Item type="fwFacialClipSetGroup" key="facial_clipset_group_p_m_zero">
+      <baseClipSet>facials@p_m_zero@base</baseClipSet>
+      <Variations>
+        <Item>
+          <mood>MoodAiming</mood>
+          <clipSet>facials@p_m_zero@variations@aiming</clipSet>
+          <minimumResidentTime value="10.000000" />
+          <baseMinimumPlaybackTime value="4.000000" />
+          <baseMaximumPlaybackTime value="8.000000" />
+          <minimumPlaybackTime value="4.000000" />
+          <maximumPlaybackTime value="8.000000" />
+          <blendInTime value="0.250000" />
+          <blendOutTime value="0.250000" />
+        </Item>
+        <Item>
+          <mood>MoodAngry</mood>
+          <clipSet>facials@p_m_zero@variations@angry</clipSet>
+          <minimumResidentTime value="10.000000" />
+          <baseMinimumPlaybackTime value="4.000000" />
+          <baseMaximumPlaybackTime value="8.000000" />
+          <minimumPlaybackTime value="4.000000" />
+          <maximumPlaybackTime value="8.000000" />
+          <blendInTime value="0.250000" />
+          <blendOutTime value="0.250000" />
+        </Item>
+        <Item>
+          <mood>MoodHappy</mood>
+          <clipSet>facials@p_m_zero@variations@happy</clipSet>
+          <minimumResidentTime value="10.000000" />
+          <baseMinimumPlaybackTime value="4.000000" />
+          <baseMaximumPlaybackTime value="8.000000" />
+          <minimumPlaybackTime value="4.000000" />
+          <maximumPlaybackTime value="8.000000" />
+          <blendInTime value="0.250000" />
+          <blendOutTime value="0.250000" />
+        </Item>
+        <Item>
+          <mood>MoodInjured</mood>
+          <clipSet>facials@p_m_zero@variations@injured</clipSet>
+          <minimumResidentTime value="10.000000" />
+          <baseMinimumPlaybackTime value="4.000000" />
+          <baseMaximumPlaybackTime value="8.000000" />
+          <minimumPlaybackTime value="4.000000" />
+          <maximumPlaybackTime value="8.000000" />
+          <blendInTime value="0.250000" />
+          <blendOutTime value="0.250000" />
+        </Item>
+        <Item>
+          <mood>MoodNormal</mood>
+          <clipSet>facials@p_m_zero@variations@normal</clipSet>
+          <minimumResidentTime value="10.000000" />
+          <baseMinimumPlaybackTime value="4.000000" />
+          <baseMaximumPlaybackTime value="8.000000" />
+          <minimumPlaybackTime value="4.000000" />
+          <maximumPlaybackTime value="8.000000" />
+          <blendInTime value="0.250000" />
+          <blendOutTime value="0.350000" />
+        </Item>
+        <Item>
+          <mood>MoodStressed</mood>
+          <clipSet>facials@p_m_zero@variations@stressed</clipSet>
+          <minimumResidentTime value="10.000000" />
+          <baseMinimumPlaybackTime value="4.000000" />
+          <baseMaximumPlaybackTime value="8.000000" />
+          <minimumPlaybackTime value="4.000000" />
+          <maximumPlaybackTime value="8.000000" />
+          <blendInTime value="0.250000" />
+          <blendOutTime value="0.250000" />
+        </Item>
+      </Variations>
+    </Item>
+  </facialClipSetGroups>
+</fwFacialClipSetGroupManager>

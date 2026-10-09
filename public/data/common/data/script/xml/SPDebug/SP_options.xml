@@ -1,0 +1,34 @@
+<?xml version='1.0'?>
+<DebugMenuItems>
+	
+	<codeItem	 title="Give player all (health/armour/invincibility/weapons/parachute)"  codeID="SPCID_GIVE_PLAYER_EVERYTHING" />
+	
+	<scriptItem title="Idle Warper Trigger" 		file="idlewarper.sc" 			author="AK" />
+	<codeItem	 title="Start Playthrough"  codeID="SPCID_DO_PLAYTHROUGH" />
+	<codeItem	 title="Switch to Gameflow Mode"  codeID="SPCID_GAMEFLOW_ON" displayID="SPDID_GAMEFLOW_ON" />
+	<codeItem	 title="Switch to Debug Mode"  codeID="SPCID_GAMEFLOW_OFF" displayID="SPDID_GAMEFLOW_OFF" />
+	<codeItem	 title="Switch to Prologue map"  codeID="SPCID_LOAD_PROLOGUE_MAP" displayID="SPDID_LOAD_PROLOGUE_MAP" x="5349.6118" y="-5189.7031" z="81.7737" heading="87.5129" />
+	<codeItem	 title="Switch to Main map"  codeID="SPCID_LOAD_MAIN_MAP" displayID="SPDID_LOAD_MAIN_MAP" x="-825.3413" y="178.5676" z="70.3229" heading="255.7303" />
+	<codeItem	 title="Switch off Random Events"  codeID="SPCID_RANDOM_EVENTS_OFF" displayID="SPDID_RANDOM_EVENTS_OFF" />
+	<codeItem	 title="Switch on Random Events"  codeID="SPCID_RANDOM_EVENTS_ON" displayID="SPDID_RANDOM_EVENTS_ON" />
+	<codeItem	 title="Switch on CH bug summary"  codeID="SPCID_LBDBUGS_ON" displayID="SPDID_LBDBUGS_ON" />
+	<codeItem	 title="Switch off CH bug summary"  codeID="SPCID_LBDBUGS_OFF" displayID="SPDID_LBDBUGS_OFF" />
+	
+	<codeItem	 title="Switch Japanese Special Edition on"  codeID="SPCID_JAPANESE_SE_ON" displayID="SPDID_JAPANESE_SE_ON" />
+	<codeItem	 title="Switch Japanese Special Edition off"  codeID="SPCID_JAPANESE_SE_OFF" displayID="SPDID_JAPANESE_SE_OFF" />
+	
+	<codeItem	 title="Switch Preorder on"  codeID="SPCID_PREORDER_ON" displayID="SPDID_PREORDER_ON" />
+	<codeItem	 title="Switch Preorder off"  codeID="SPCID_PREORDER_OFF" displayID="SPDID_PREORDER_OFF" />
+	
+	<codeItem	 title="Switch Preorder NG on"  codeID="SPCID_PREORDER_NG_ON" displayID="SPDID_PREORDER_NG_ON" />
+	<codeItem	 title="Switch Preorder NG off"  codeID="SPCID_PREORDER_NG_OFF" displayID="SPDID_PREORDER_NG_OFF" />
+	
+	<codeItem	 title="Switch Last Gen Player on"  codeID="SPCID_LAST_GEN_PLAYER_ON" displayID="SPDID_LAST_GEN_PLAYER_ON" />
+	<codeItem	 title="Switch Last Gen Player off"  codeID="SPCID_LAST_GEN_PLAYER_OFF" displayID="SPDID_LAST_GEN_PLAYER_OFF" />
+	
+	<codeItem	 title="Give player a parachute"  codeID="SPCID_GIVE_PARACHUTE" />
+	<codeItem	 title="Give player $10,000,000"  codeID="SPCID_MILLIONAIRE" />
+	<codeItem 	 title="Give player full stats" codeID="SPCID_FULL_PLAYER_STATS"/>
+	<codeItem	 title="Reset ammo for new game"  codeID="SPCID_RESET_AMMO" displayID="SPDID_KEEP_AMMO" />
+	<codeItem	 title="Keep ammo for new game"  codeID="SPCID_KEEP_AMMO" displayID="SPDID_RESET_AMMO" />
+</DebugMenuItems>

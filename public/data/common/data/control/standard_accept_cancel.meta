@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rage__ControlInput__ControlSettings>
+    <Mappings>
+        <Item>
+            <Input>INPUT_FRONTEND_ACCEPT</Input>
+            <Source>IOMS_PAD_DIGITALBUTTON</Source>
+            <Parameters>
+                <Item>RDOWN</Item>
+            </Parameters>
+        </Item>
+        <Item>
+            <Input>INPUT_FRONTEND_CANCEL</Input>
+            <Source>IOMS_PAD_DIGITALBUTTON</Source>
+            <Parameters>
+                <Item>RRIGHT</Item>
+            </Parameters>
+        </Item>
+		<Item>
+            <Input>INPUT_CELLPHONE_SELECT</Input>
+            <Source>IOMS_PAD_DIGITALBUTTON</Source>
+            <Parameters>
+                <Item>RDOWN</Item>
+            </Parameters>
+        </Item>
+		<Item>
+            <Input>INPUT_CELLPHONE_CANCEL</Input>
+            <Source>IOMS_PAD_DIGITALBUTTON</Source>
+            <Parameters>
+                <Item>RRIGHT</Item>
+            </Parameters>
+        </Item>
+		<Item>
+            <Input>INPUT_SKIP_CUTSCENE</Input>
+            <Source>IOMS_PAD_DIGITALBUTTON</Source>
+            <Parameters>
+                <Item>RDOWN</Item>
+            </Parameters>
+        </Item>
+    </Mappings>
+</rage__ControlInput__ControlSettings>

@@ -1,0 +1,41 @@
+<!-- 	
+	This is the file we use to specify which files to search through when generating the playthrough mission list.					
+	The node and attribute names are specifically for the playthrough_builder.sc script, not the debug menu. 						
+		menuFile:  		This will be the playthrough order menu that lists the playthrough pages we generate.						
+		pageFile:  		The mission pages that we generate - The playthrough builder will replace XXX with the actual page number.	
+		orederFile:  	The file that stores the order of missions by file name. This is the file that is generated using the mid-flow launcher tool.
+		file0-file22: 	The files that we grab the missions from.																	
+		listSize:	 	The amount of missions we can have in each playthrough page.												
+-->		
+
+<?xml version='1.0'?>
+<DebugMenuItems>
+	<listItem	listSize="22"
+				
+				menuFile="SPPlaythrough/SP_playthrough.xml"
+				pageFile="SPPlaythrough/SP_playthrough_XXX.xml"
+				orderFile="SPPlaythrough/SP_playthrough_order.xml"
+				
+				file0="SPDebug/SP_prologue_strand.xml"
+				file1="SPDebug/SP_armenian_strand.xml"
+				file2="SPDebug/SP_family_strand.xml"
+				file3="SPDebug/SP_lamar_strand.xml"
+				file4="SPDebug/SP_lester_strand.xml"
+				file5="SPDebug/SP_jewl_heist.xml"
+				file6="SPDebug/SP_trevor_strand.xml"
+				file7="SPDebug/SP_chinese_strand.xml"
+				file8="SPDebug/SP_franklin_strand.xml"
+				file9="SPDebug/SP_fbi_strand.xml"
+				file10="SPDebug/SP_dock_heist.xml"
+				file11="SPDebug/SP_car_steal_strand.xml"
+				file12="SPDebug/SP_solomon_strand.xml"
+				file13="SPDebug/SP_exile_strand.xml"
+				file14="SPDebug/SP_rurl_heist.xml"
+				file15="SPDebug/SP_martin_strand.xml"
+				file16="SPDebug/SP_michael_strand.xml"
+				file17="SPDebug/SP_michael_events.xml"
+				file18="SPDebug/SP_agency_heist.xml"
+				file19="SPDebug/SP_finale_heist.xml"
+				file20="SPDebug/SP_finale_strand.xml"
+				file21="SPDebug/SP_Shrink.xml" />
+</DebugMenuItems>

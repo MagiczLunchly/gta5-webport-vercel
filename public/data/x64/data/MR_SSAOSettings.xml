@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MR_SSAO_AllScenePresets>
+  <SceneType>
+    <Item>
+      <Resolutions>
+        <Item>
+          <Dim x="800.000000" y="600.000000" />
+          <FallOffRadius value="1.000000" />
+          <KernelSizePercentage value="1.000000" />
+          <MaxKernel_Lod0 value="1" />
+          <MaxKernel_Lod1 value="1" />
+          <LodToApply value="2" />
+          <BottomLod value="5" />
+          <NormalWeightPower value="4" />
+          <DepthWeightPower value="4.000000" />
+          <Strength value="1.500000" />
+          <KernelType value="0" />
+        </Item>
+        <Item>
+          <Dim x="1280.000000" y="800.000000" />
+          <FallOffRadius value="4.000000" />
+          <KernelSizePercentage value="1.000000" />
+          <MaxKernel_Lod0 value="1" />
+          <MaxKernel_Lod1 value="7" />
+          <LodToApply value="1" />
+          <BottomLod value="8" />
+          <NormalWeightPower value="4" />
+          <DepthWeightPower value="16.000000" />
+          <Strength value="1.000000" />
+          <KernelType value="2" />
+        </Item>
+        <Item>
+          <Dim x="1920.000000" y="1080.000000" />
+          <FallOffRadius value="1.000000" />
+          <KernelSizePercentage value="1.000000" />
+          <MaxKernel_Lod0 value="1" />
+          <MaxKernel_Lod1 value="1" />
+          <LodToApply value="2" />
+          <BottomLod value="6" />
+          <NormalWeightPower value="4" />
+          <DepthWeightPower value="4.000000" />
+          <Strength value="1.500000" />
+          <KernelType value="0" />
+        </Item>
+      </Resolutions>
+    </Item>
+    <Item>
+      <Resolutions>
+        <Item>
+          <Dim x="800.000000" y="600.000000" />
+          <FallOffRadius value="1.000000" />
+          <KernelSizePercentage value="1.000000" />
+          <MaxKernel_Lod0 value="1" />
+          <MaxKernel_Lod1 value="1" />
+          <LodToApply value="3" />
+          <BottomLod value="5" />
+          <NormalWeightPower value="4" />
+          <DepthWeightPower value="4.000000" />
+          <Strength value="1.500000" />
+          <KernelType value="0" />
+        </Item>
+        <Item>
+          <Dim x="0.000000" y="0.000000" />
+          <FallOffRadius value="1.050000" />
+          <KernelSizePercentage value="1.015550" />
+          <MaxKernel_Lod0 value="1" />
+          <MaxKernel_Lod1 value="1" />
+          <LodToApply value="0" />
+          <BottomLod value="8" />
+          <NormalWeightPower value="4" />
+          <DepthWeightPower value="4.000000" />
+          <Strength value="3.000000" />
+          <KernelType value="0" />
+        </Item>
+        <Item>
+          <Dim x="1920.000000" y="1080.000000" />
+          <FallOffRadius value="1.000000" />
+          <KernelSizePercentage value="1.000000" />
+          <MaxKernel_Lod0 value="1" />
+          <MaxKernel_Lod1 value="1" />
+          <LodToApply value="2" />
+          <BottomLod value="6" />
+          <NormalWeightPower value="4" />
+          <DepthWeightPower value="4.000000" />
+          <Strength value="1.500000" />
+          <KernelType value="0" />
+        </Item>
+      </Resolutions>
+    </Item>
+  </SceneType>
+</MR_SSAO_AllScenePresets>

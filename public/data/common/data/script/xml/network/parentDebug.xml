@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!-- 
+xml menu system - Parent / Child
+simon lashley
+-->
+
+<!-- root node must be called parent for scripts to recognise it -->
+<parent>
+
+	<!-- 
+	#######################################################
+	Menu Settings
+	#######################################################
+	-->
+
+    <settings>
+		<title string="General Debug" />
+		<colour r="0" g="0" b="0" a="200" />
+		<titleColour a="0" g="200" b="0" a="200" />
+		<textColour r="200" g="200" b="200" a="200" />
+		<barColour r="200" g="200" b="200" a="200" />
+		<barTextColour r="0" g="0" b="0" a="200" />
+	</settings>
+
+	<!-- 
+	#######################################################
+	Child XML files
+	#######################################################
+	-->
+
+	<child>
+		<title string="Player" />
+		<colour r="200" g="0" b="0" a="200" />
+		<textColour r="200" g="200" b="200" a="200" />
+		<xml string="network/childPlayer.xml" />
+	</child>
+
+	<child>
+		<title string="Warps" />
+		<colour r="0" g="200" b="0" a="200" />
+		<textColour r="200" g="0" b="200" a="255" />
+		<xml string="network/childWarps.xml" />
+	</child>
+
+	<child>
+		<title string="Scripts" />
+		<colour r="200" g="0" b="0" a="200" />
+		<textColour r="200" g="200" b="200" a="200" />
+		<xml string="network/childScripts.xml" />
+	</child>
+
+	<child>
+		<title string="Vehicles" />
+		<colour r="200" g="0" b="0" a="200" />
+		<textColour r="200" g="200" b="200" a="200" />
+		<xml string="network/childVehicles.xml" />
+	</child>
+	
+	<child>
+		<title string="Peds" />
+		<colour r="200" g="0" b="0" a="200" />
+		<textColour r="200" g="200" b="200" a="200" />
+		<xml string="network/childPeds.xml" />
+	</child>
+
+</parent>

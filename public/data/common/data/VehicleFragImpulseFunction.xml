@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<VehicleFragImpulseFunction>
+	<Ranges>
+		<Item>
+			<InputThreshold value="500.000000"/>
+			<OutputMin value="0.000000"/>
+			<OutputMax value="0.000000"/>
+		</Item>
+		<Item>
+			<InputThreshold value="2500.000000"/>
+			<OutputMin value="501.000000"/>
+			<OutputMax value="501.000000"/>
+		</Item>
+		<Item>
+			<InputThreshold value="10000.000000"/>
+			<OutputMin value="1001.000000"/>
+			<OutputMax value="1001.000000"/>
+		</Item>
+		<Item>
+			<InputThreshold value="20000.000000"/>
+			<OutputMin value="2001.000000"/>
+			<OutputMax value="2001.000000"/>
+		</Item>
+		<Item>
+			<InputThreshold value="30000.000000"/>
+			<OutputMin value="2501.000000"/>
+			<OutputMax value="2501.000000"/>
+		</Item>
+		<Item>
+			<InputThreshold value="50000.000000"/>
+			<OutputMin value="3001.000000"/>
+			<OutputMax value="3001.000000"/>
+		</Item>
+		<Item>
+			<InputThreshold value="100000.000000"/>
+			<OutputMin value="3501.000000"/>
+			<OutputMax value="3501.000000"/>
+		</Item>
+		<Item>
+			<InputThreshold value="250000.000000"/>
+			<OutputMin value="5001.000000"/>
+			<OutputMax value="5001.000000"/>
+		</Item>
+		<Item>
+			<InputThreshold value="250001.000000"/>
+			<OutputMin value="10001.000000"/>
+			<OutputMax value="10001.000000"/>
+		</Item>
+	</Ranges>
+</VehicleFragImpulseFunction>

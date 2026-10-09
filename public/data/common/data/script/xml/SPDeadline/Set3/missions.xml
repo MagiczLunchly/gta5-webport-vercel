@@ -1,0 +1,36 @@
+<?xml version='1.0'?>
+<DebugMenuItems>
+
+	<!-- Missions -->
+	<missionItem missionID="DH2B" file="docks_heistB.sc" preCodeID="SPCID_H_DOCKS_DEEP_SEA_CR" author="SI_AW" percentage="0" highlight="FALSE" info="DM_INFO_079" character="CHAR_TREVOR" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER"/>
+	<missionItem missionID="SOL3" file="Solomon3.sc" author="SI_BB" percentage="0" highlight="FALSE" info="DM_INFO_112" character="CHAR_TREVOR" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER"/>
+	<missionItem missionID="MAR1" file="martin1.sc" author="SI_BB" percentage="0" highlight="FALSE" info="DM_INFO_123" character="CHAR_MICHAEL" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER" />
+	<missionItem missionID="FHPRB" file="finale_heist_prepB.sc"  preCodeID="SPCID_H_FINALE_CHOPPER" author="SI_SK" percentage="0" highlight="FALSE" info="DM_INFO_136" character="CHAR_MICHAEL" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER"/>
+	<missionItem missionID="FIB1E" file="FBI1_End.sc" author="SI_BR" percentage="0" highlight="FALSE" info="DM_INFO_053" character="CHAR_FRANKLIN" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER" />
+	<missionItem missionID="DH2A" file="docks_heistA.sc" preCodeID="SPCID_H_DOCKS_BLOW_UP_BOAT_CR" author="SI_AW" percentage="0" highlight="FALSE" info="DM_INFO_079" character="CHAR_MICHAEL" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER"/>
+	<missionItem missionID="SOL1" file="Solomon1.sc" author="SI_SK" percentage="0" highlight="FALSE" x="-1155.5918" y="-523.2982" z="31.5893" heading="216.1872" info="DM_INFO_112" character="CHAR_MICHAEL" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER"/>
+	<missionItem missionID="FINC1"  file="finaleC1.sc"  author="SI_TBC" percentage="0" highlight="FALSE" character="CHAR_FRANKLIN" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER" />
+	<missionItem missionID="FINC2"  file="finaleC2.sc"  author="SI_TBC" percentage="0" highlight="FALSE" character="CHAR_FRANKLIN" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER" />
+	<missionItem missionID="ARM2" file="armenian2.sc" author="SI_KB" percentage="50" highlight="FALSE" info="DM_INFO_000" character="CHAR_FRANKLIN" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER" />
+	<missionItem missionID="FRA2" 	file="Franklin2.sc" author="SI_BR" percentage="0" highlight="FALSE" info="DM_INFO_128" character="CHAR_FRANKLIN" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER" />
+	<missionItem missionID="TRV4" file="Trevor4.sc" author="SI_BR" percentage="0" highlight="FALSE" info="DM_INFO_124" 	character="CHAR_TREVOR" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER"/>
+	<missionItem missionID="FIB1" file="FBI1.sc" author="SI_BR" percentage="0" highlight="FALSE" info="DM_INFO_053" character="CHAR_MICHAEL" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER" /> 
+	<missionItem missionID="FB4P4" file="FBI4_Prep4.sc" author="SI_SK" percentage="50" highlight="FALSE" info="DM_INFO_032" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER" />
+	<missionItem missionID="FB4P5" file="FBI4_Prep5.sc" author="SI_SK" percentage="50" highlight="FALSE" info="DM_INFO_032" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER" />	 
+	<missionItem missionID="CAR3" file="carsteal3.sc" author="SI_LKB" percentage="0" highlight="FALSE" info="DM_INFO_067" character="CHAR_FRANKLIN" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER" />
+	<missionItem missionID="CAR4" file="carsteal4.sc" author="SI_MB" percentage="0" highlight="FALSE" info="DM_INFO_062" character="CHAR_FRANKLIN" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER" />
+	<missionItem missionID="FH2B" file="finale_heist2B.sc" preCodeID="SPCID_H_FINALE_CHOPPER_CR" author="SI_TBC" percentage="0" highlight="FALSE" info="DM_INFO_137" character="CHAR_MICHAEL" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER"/>
+	<missionItem missionID="MIC3" file="Michael3.sc" author="SI_TBD" percentage="50" highlight="FALSE" info="DM_INFO_086" character="CHAR_MICHAEL" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER" /> 
+	<missionItem missionID="JHP2a" 	file="jewelry_prep2a.sc" preCodeID="SPCID_H_JEWEL_STEALTH" author="SI_MW" percentage="0" highlight="FALSE" character="CHAR_MICHAEL" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER"/>
+	<missionItem missionID="AHP1"  file="agency_prep1.sc"  preCodeID="SPCID_H_AGENCY_FIRETRUCK" author="SI_PD" percentage="0" highlight="FALSE" info="DM_INFO_135" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER"/>
+	<missionItem missionID="FINA"  file="finaleA.sc"  author="SI_TBC" percentage="0" highlight="FALSE" character="CHAR_FRANKLIN" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER" />
+	<missionItem missionID="MIC4" file="Michael4.sc" author="SI_RW" percentage="0" highlight="FALSE" info="DM_INFO_115" character="CHAR_MICHAEL" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER"/>
+	<missionItem missionID="FAM1" file="Family1.sc" author="SI_RW" percentage="25" highlight="FALSE" info="DM_INFO_076" character="CHAR_MICHAEL" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER" /> 
+	<missionItem missionID="FINC"  file="finale_credits.sc" author="SI_RW" percentage="0" highlight="FALSE" character="CHAR_FRANKLIN" codeID1="SPCID_LAUNCH_FLOW_AFTER" />
+	<missionItem missionID="JH2b"  	file="jewelry_heist.sc"  preCodeID="SPCID_H_JEWEL_HIGH_IMPACT_CR" author="SI_DG" percentage="50" highlight="FALSE" x="706.4884" y="-964.5811" z="29.4334" heading="45.0000" info="DM_INFO_014" character="CHAR_MICHAEL" interior="v_sweat" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER"/>
+	<missionItem missionID="FB4P1" file="FBI4_Prep1.sc" author="SI_SK" percentage="50" highlight="FALSE" info="DM_INFO_032" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER" />
+	<missionItem missionID="SOL2" file="Solomon2.sc" author="SI_TBD" percentage="0" highlight="FALSE" info="DM_INFO_112" character="CHAR_MICHAEL" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER"/>
+	<missionItem missionID="FB4PI" file="FBI4_Intro.sc" author="SI_SK" percentage="50" highlight="FALSE" info="DM_INFO_032" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER" />
+	<missionItem missionID="FHPRC" file="finale_heist_prepC.sc"  preCodeID="SPCID_H_FINALE_TRAFFIC_CR" author="SI_SK" percentage="0" highlight="FALSE" info="DM_INFO_136" character="CHAR_MICHAEL" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER"/>
+
+</DebugMenuItems>

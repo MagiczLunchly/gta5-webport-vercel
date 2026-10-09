@@ -1,0 +1,151 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<title>PSO Layout Mismatch Debugger</title>
+<meta name="description" content="">
+<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body id="psoMismatchApp">
+  
+  <div id="wrapper">
+	  <div id="menu">
+		<div id="mismatchingFiles">Loading...<!-- dynamic content goes here --></div>
+		<div id="schemasInFile"><!-- dynamic content goes here --></div>
+	  </div>
+  
+	  <div id="mainArea">
+		<button type="button" id="clearDrawingArea">Clear</button>
+		<a href="https://devstar.rockstargames.com/wiki/index.php/PSOLayout">Help [devstar]</a>
+		<div id="drawingArea"><!-- dynamic content goes here --></div>
+	  </div>
+  </div>
+
+  <!-- Comments and suggestions are from http://html5boilerplate.com/ -->
+  <!-- JavaScript at the bottom for fast page loading -->
+
+  <!-- Load some libraries from external sources -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.3.0/handlebars.min.js"></script>
+  <!-- Could fall back to a local verion if the CDN isn't available... no fallback for now 
+	<script>window.jQuery || document.write('<script src="js/libs/jquery-2.0.2.min.js"><\/script>')</script>
+	-->
+  <script src="js/common.js"></script>
+  <script src="js/psomismatch.js"></script>
+
+  <!-- These are some handlebars templates that are used to generate the HTML. -->
+  <script id="mismatchListTemplate" class="hbtemplate" type="text/x-handlebars-template">
+	<h3>1. Pick a mismatching file</h3>
+	<ul>
+	{{#each items}}
+	<li><a href="{{url}}" class="mismatchFileLink">{{filename}}</a></li>
+	{{/each}}
+	</ul>
+  </script>
+
+  <script id="schemasInPsoTemplate" class="hbtemplate" type="text/x-handlebars-template">
+	<h3>
+	<span id="initialStatus" class="status">Comparing...</span>
+	<span id="foundCppStatus" class="status" style="display: none">2. Pick a mismatched schema</span>
+	</h3>
+	<br>
+	Structs / Classes:
+		<ul id="schemaList">
+		{{#each structsSortedByName}}
+			<li><a href="#" data-namehash="{{nameHash}}" class="structSchemaName compareUnknown">{{name}}</a></li>
+		{{/each}}
+		</ul>
+	Enums:
+		<ul id="enumList">
+		{{#each enumsSortedByName}}
+			<li><a href="#" data-namehash="{{nameHash}}" class="enumSchemaName compareUnknown">{{name}}</a></li>
+		{{/each}}
+		</ul>
+  </script>
+  
+  <script id="structSchemaComparison" class="hbtemplate" type=text/x-handlebars-template">
+	<div class="structSchemaComparison">
+		<hr>
+		<h3>{{filename}} {{classname}}</h3>
+		<table>
+			<tr class="structSchemas">
+			</tr>
+		</table>
+	</div>
+  </script>
+  
+  <script id="structSchemaDetail" class="hbtemplate" type=text/x-handlebars-template">
+	<td>
+	<table class="structSchema {{class}}">
+		<caption>
+		{{source}}: {{name}} ({{toHex nameHash}}) 
+		Size: <span class="{{sizeMismatch}}">{{size}}</span> 
+		Align: <span class={{alignMismatch}}>{{align}}</span>
+		v: <span class="{{versionMismatch}}">{{version}}</span>
+		sig: <span class="{{sigMismatch}}">{{toHex signature}}</span>
+		flags: <span class="{{flagsMismatch}}">{{toHex flags}}</span>
+		</caption>
+		<thead>
+			<tr>
+				<th>#</th>
+				<th>Name</th>
+				<th>Type</th>
+				<th>Offset</th>
+				<th>Misc</th>
+			</tr>
+		</thead>
+		<tbody>
+			{{#each members}}
+				<tr>
+				<td><span class="{{indexMismatch}}">{{@index}}</span></td>
+				<td><span class="{{nameMismatch}}">{{name}} ({{toHex nameHash}})</span></td>
+				<td><span class="{{typeMismatch}}">{{typeName}}</span></td>
+				<td><span class="{{offsetMismatch}}">{{offset}}</span></td>
+				<td><span class="{{miscMismatch}}">
+				<!--  misc data here -->
+				{{#ifDefined referentStructureHash}}
+					<span class="{{referentStructureMismatch}}">Ref: <a href="#" data-namehash="{{referentStructureHash}}" class="structSchemaName">{{referentStructure}} ({{toHex referentStructureHash}})</a></span>
+				{{/ifDefined}}
+				{{#ifDefined referentEnumHash}}
+					<span class="{{referentEnumMismatch}}">Ref: <a href="#" data-namehash="{{referentStructureHash}}" class="enumSchemaName"{{referentEnum}} ({{toHex referentEnumHash}})</a></span>
+				{{/ifDefined}}
+				{{#ifDefined arrayContentsIndex}}
+					<span class="{{arrayContentsIdxMismatch}}">Contents: #{{arrayContentsIndex}}</span>, 
+					<span class="{{arrayContentsAlignMismatch}}">Align: {{arrayContentsAlignment}}</span>
+					{{#ifDefined maxArrayCount}}
+						, <span class="{{maxArrayCountMismatch}}">MaxCount: {{maxArrayCount}}</span>
+					{{/ifDefined}}
+					{{#ifDefined arrayCounterIndex}}
+						, <span class="{{arrayCounterMismatch}}">Counter: #{{arrayCounterIndex}}</span>
+					{{/ifDefined}}
+					{{#ifDefined arrayFlags}}
+						, <span class="{{arrayFlagsMismatch}}">Flags: {{toHex arrayFlags}}</span>
+					{{/ifDefined}}
+				{{/ifDefined}}
+				{{#ifDefined bitsetNamesEnumHash}}
+					<span class="{{bitsetNamesMismatch}}">Names: {{bitsetNamesEnum}} ({{toHex bitsetNamesEnumHash}})</span>
+					, <span class="{{bitsetCountMismatch}}">Count: {{bitsetCount}}</span>
+				{{/ifDefined}}
+				{{#ifDefined stringCount}}
+					<span class="{{stringCountMismatch}}">Count: {{stringCount}}</span>
+					{{#ifDefined stringNamespace}}
+					<span class="{{stringNamespaceMismatch}}">Namespace: {{stringNamespace}}</span>
+					{{/ifDefined}}
+				{{/ifDefined}}
+				{{#ifDefined keyIndex}}
+					<span class="{{keyIndexMismatch}}">Key: #{{keyIndex}}</span>
+					, <span class="{{valueIndexMismatch}}">Value: #{{valueIndex}}</span>
+				{{/ifDefined}}
+				</span>
+				</td>
+				</tr>
+			{{/each}}
+		</tbody>
+	</table>
+	</td>
+  </script>
+  
+</body>
+</html>

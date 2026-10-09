@@ -1,0 +1,14 @@
+<?xml version='1.0'?>
+<DebugMenuItems>
+
+	<!-- December Misc -->
+	
+	<codeItem title="Unlock all Chop tricks" codeID="SPCID_UNLOCK_CHOP_TRICKS" />
+	<warpItem title="Chop" x="-14.8330" y="-1424.2474" z="29.6676" heading="251.8593" character="CHAR_FRANKLIN" />
+	<warpItem title="CarApp" x="-823.8150" y="180.5595" z="70.5978" heading="301.1483" character="CHAR_MICHAEL" codeID="SPCID_CARAPP"/>
+	
+	<warpItem title="Ambient Prison" x="1872.8549" y="2601.1982" z="44.6724" heading="84.0095"/>
+	<warpItem title="Ambient Army Base" x="-1985.8921" y="2935.2786" z="31.8459" heading="335.8515"/>
+	
+	<warpItem missionID="PBPR" title="Prostitutes"  file="pb_prostitute"   author="SI_KW"	percentage="0"	highlight="FALSE"  x="-1234.9905" y="-1343.7012" z="2.8771" heading="22.2786"  info="DM_INFO_A22" vehicleWarp="TRUE" hour="22" />
+</DebugMenuItems>									  

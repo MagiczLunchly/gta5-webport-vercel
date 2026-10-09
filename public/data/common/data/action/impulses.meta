@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CImpulseTestContainer>
+  <aImpulseTests>
+    <Item type="CImpulseTest">
+      <Name>IT_weapon_fire</Name>
+      <ImpulseOp>IO_OR_IMPULSE_1</ImpulseOp>
+      <aImpulses>
+        <Item type="CSimpleImpulseTest">
+          <Impulse>I_FIRE</Impulse>
+          <State>IS_DOWN</State>
+          <AnalogRange x="0.000000" y="0.000000" />
+          <Duration value="0.200000" />
+        </Item>
+      </aImpulses>
+    </Item>
+    <Item type="CImpulseTest">
+      <Name>IT_heavy_any</Name>
+      <ImpulseOp>IO_OR_IMPULSE_1</ImpulseOp>
+      <aImpulses>
+        <Item type="CSimpleImpulseTest">
+          <Impulse>I_ATTACK_HEAVY</Impulse>
+          <State>IS_PRESSED</State>
+          <AnalogRange x="0.000000" y="0.000000" />
+          <Duration value="0.200000" />
+        </Item>
+        <Item type="CSimpleImpulseTest">
+          <Impulse>I_ATTACK_HEAVY</Impulse>
+          <State>IS_COMBO_ANY</State>
+          <AnalogRange x="0.000000" y="0.000000" />
+          <Duration value="0.200000" />
+        </Item>
+      </aImpulses>
+    </Item>
+    <Item type="CImpulseTest">
+      <Name>IT_light</Name>
+      <ImpulseOp>IO_OR_IMPULSE_1</ImpulseOp>
+      <aImpulses>
+        <Item type="CSimpleImpulseTest">
+          <Impulse>I_ATTACK_LIGHT</Impulse>
+          <State>IS_PRESSED</State>
+          <AnalogRange x="0.000000" y="0.000000" />
+          <Duration value="0.200000" />
+        </Item>
+        <Item type="CSimpleImpulseTest">
+          <Impulse>I_ATTACK_LIGHT</Impulse>
+          <State>IS_COMBO_ANY</State>
+          <AnalogRange x="0.000000" y="0.000000" />
+          <Duration value="0.200000" />
+        </Item>
+      </aImpulses>
+    </Item>
+    <Item type="CImpulseTest">
+      <Name>IT_light_any</Name>
+      <ImpulseOp>IO_OR_IMPULSE_1</ImpulseOp>
+      <aImpulses>
+        <Item type="CSimpleImpulseTest">
+          <Impulse>I_ATTACK_LIGHT</Impulse>
+          <State>IS_PRESSED</State>
+          <AnalogRange x="0.000000" y="0.000000" />
+          <Duration value="0.200000" />
+        </Item>
+        <Item type="CSimpleImpulseTest">
+          <Impulse>I_ATTACK_LIGHT</Impulse>
+          <State>IS_COMBO_ANY</State>
+          <AnalogRange x="0.000000" y="0.000000" />
+          <Duration value="0.200000" />
+        </Item>
+        <Item type="CSimpleImpulseTest">
+          <Impulse>I_ATTACK_ALTERNATE</Impulse>
+          <State>IS_DOWN</State>
+          <AnalogRange x="0.000000" y="0.000000" />
+          <Duration value="0.200000" />
+        </Item>
+      </aImpulses>
+    </Item>
+    <Item type="CImpulseTest">
+      <Name>IT_attack_any</Name>
+      <ImpulseOp>IO_OR_IMPULSE_1</ImpulseOp>
+      <aImpulses>
+        <Item type="CSimpleImpulseTest">
+          <Impulse>I_ATTACK_HEAVY</Impulse>
+          <State>IS_PRESSED</State>
+          <AnalogRange x="0.000000" y="0.000000" />
+          <Duration value="0.200000" />
+        </Item>
+        <Item type="CSimpleImpulseTest">
+          <Impulse>I_ATTACK_HEAVY</Impulse>
+          <State>IS_COMBO_ANY</State>
+          <AnalogRange x="0.000000" y="0.000000" />
+          <Duration value="0.200000" />
+        </Item>
+        <Item type="CSimpleImpulseTest">
+          <Impulse>I_ATTACK_LIGHT</Impulse>
+          <State>IS_PRESSED</State>
+          <AnalogRange x="0.000000" y="0.000000" />
+          <Duration value="0.200000" />
+        </Item>
+        <Item type="CSimpleImpulseTest">
+          <Impulse>I_ATTACK_LIGHT</Impulse>
+          <State>IS_COMBO_ANY</State>
+          <AnalogRange x="0.000000" y="0.000000" />
+          <Duration value="0.200000" />
+        </Item>
+        <Item type="CSimpleImpulseTest">
+          <Impulse>I_ATTACK_ALTERNATE</Impulse>
+          <State>IS_DOWN</State>
+          <AnalogRange x="0.000000" y="0.000000" />
+          <Duration value="0.200000" />
+        </Item>
+      </aImpulses>
+    </Item>
+    <Item type="CImpulseTest">
+      <Name>IT_light_initial</Name>
+      <ImpulseOp>IO_OR_IMPULSE_1</ImpulseOp>
+      <aImpulses>
+        <Item type="CSimpleImpulseTest">
+          <Impulse>I_ATTACK_LIGHT</Impulse>
+          <State>IS_PRESSED</State>
+          <AnalogRange x="0.000000" y="0.000000" />
+          <Duration value="0.200000" />
+        </Item>
+        <Item type="CSimpleImpulseTest">
+          <Impulse>I_ATTACK_ALTERNATE</Impulse>
+          <State>IS_DOWN</State>
+          <AnalogRange x="0.000000" y="0.000000" />
+          <Duration value="0.200000" />
+        </Item>
+      </aImpulses>
+    </Item>
+    <Item type="CImpulseTest">
+      <Name>IT_light_combo_2</Name>
+      <ImpulseOp>IO_OR_IMPULSE_1</ImpulseOp>
+      <aImpulses>
+        <Item type="CSimpleImpulseTest">
+          <Impulse>I_ATTACK_LIGHT</Impulse>
+          <State>IS_COMBO_2</State>
+          <AnalogRange x="0.000000" y="0.000000" />
+          <Duration value="0.200000" />
+        </Item>
+        <Item type="CSimpleImpulseTest">
+          <Impulse>I_ATTACK_ALTERNATE</Impulse>
+          <State>IS_COMBO_2</State>
+          <AnalogRange x="0.000000" y="0.000000" />
+          <Duration value="0.200000" />
+        </Item>
+      </aImpulses>
+    </Item>
+    <Item type="CImpulseTest">
+      <Name>IT_light_combo_3</Name>
+      <ImpulseOp>IO_OR_IMPULSE_1</ImpulseOp>
+      <aImpulses>
+        <Item type="CSimpleImpulseTest">
+          <Impulse>I_ATTACK_LIGHT</Impulse>
+          <State>IS_COMBO_3</State>
+          <AnalogRange x="0.000000" y="0.000000" />
+          <Duration value="0.200000" />
+        </Item>
+        <Item type="CSimpleImpulseTest">
+          <Impulse>I_ATTACK_ALTERNATE</Impulse>
+          <State>IS_COMBO_3</State>
+          <AnalogRange x="0.000000" y="0.000000" />
+          <Duration value="0.200000" />
+        </Item>
+      </aImpulses>
+    </Item>
+    <Item type="CImpulseTest">
+      <Name>IT_light_finish</Name>
+      <ImpulseOp>IO_OR_IMPULSE_1</ImpulseOp>
+      <aImpulses>
+        <Item type="CSimpleImpulseTest">
+          <Impulse>I_ATTACK_LIGHT</Impulse>
+          <State>IS_PRESSED</State>
+          <AnalogRange x="0.000000" y="0.000000" />
+          <Duration value="0.200000" />
+        </Item>
+        <Item type="CSimpleImpulseTest">
+          <Impulse>I_ATTACK_LIGHT</Impulse>
+          <State>IS_COMBO_3</State>
+          <AnalogRange x="0.000000" y="0.000000" />
+          <Duration value="0.200000" />
+        </Item>
+        <Item type="CSimpleImpulseTest">
+          <Impulse>I_ATTACK_ALTERNATE</Impulse>
+          <State>IS_COMBO_3</State>
+          <AnalogRange x="0.000000" y="0.000000" />
+          <Duration value="0.200000" />
+        </Item>
+      </aImpulses>
+    </Item>
+    <Item type="CImpulseTest">
+      <Name>IT_auto_dodge</Name>
+      <ImpulseOp>IO_OR_IMPULSE_1</ImpulseOp>
+      <aImpulses>
+        <Item type="CSimpleImpulseTest">
+          <Impulse>I_BLOCK</Impulse>
+          <State>IS_HELD_DOWN</State>
+          <AnalogRange x="0.000000" y="0.000000" />
+          <Duration value="0.001000" />
+        </Item>
+      </aImpulses>
+    </Item>
+    <Item type="CImpulseTest">
+      <Name>IT_special_ability</Name>
+      <ImpulseOp>IO_AND_IMPULSE_1</ImpulseOp>
+      <aImpulses>
+        <Item type="CSimpleImpulseTest">
+          <Impulse>I_SPECIAL_ABILITY</Impulse>
+          <State>IS_PRESSED_NO_HISTORY</State>
+          <AnalogRange x="0.000000" y="0.000000" />
+          <Duration value="0.200000" />
+        </Item>
+        <Item type="CSimpleImpulseTest">
+          <Impulse>I_SPECIAL_ABILITY_SECONDARY</Impulse>
+          <State>IS_PRESSED_NO_HISTORY</State>
+          <AnalogRange x="0.000000" y="0.000000" />
+          <Duration value="0.200000" />
+        </Item>
+      </aImpulses>
+    </Item>
+	<Item type="CImpulseTest">
+      <Name>IT_stealth_kill</Name>
+      <ImpulseOp>IO_OR_IMPULSE_1</ImpulseOp>
+      <aImpulses>
+        <Item type="CSimpleImpulseTest">
+          <Impulse>I_ATTACK_LIGHT</Impulse>
+          <State>IS_PRESSED</State>
+          <AnalogRange x="0.000000" y="0.000000" />
+          <Duration value="0.200000" />
+        </Item>
+		<Item type="CSimpleImpulseTest">
+          <Impulse>I_ATTACK_HEAVY</Impulse>
+          <State>IS_PRESSED</State>
+          <AnalogRange x="0.000000" y="0.000000" />
+          <Duration value="0.200000" />
+        </Item>
+        <Item type="CSimpleImpulseTest">
+          <Impulse>I_ATTACK_ALTERNATE</Impulse>
+          <State>IS_DOWN</State>
+          <AnalogRange x="0.000000" y="0.000000" />
+          <Duration value="0.200000" />
+        </Item>
+      </aImpulses>
+    </Item>
+  </aImpulseTests>
+</CImpulseTestContainer>

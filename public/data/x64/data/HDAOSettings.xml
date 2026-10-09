@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<HDAO_ScenePreset>
+  <QualityLevels>
+    <Item>
+      <Quality>Medium</Quality>
+      <Alternative value="true" />
+      <BlurType>Single-pass</BlurType>
+      <Strength value="1.000000" />
+      <RejectRadius value="0.5" />
+      <AcceptRadius value="0.03" />
+      <FadeoutDist value="3" />
+      <NormalScale value="0.1" />
+      <WorldSpace value="0.5" />
+      <TargetScale value="0.100000" />
+      <RadiusScale value="1.000000" />
+      <BaseWeight value="1.0" />
+    </Item>
+    <Item>
+      <Quality>Medium</Quality>
+      <Alternative value="true" />
+      <BlurType>Variable</BlurType>
+      <Strength value="1.000000" />
+      <RejectRadius value="0.5" />
+      <AcceptRadius value="0.03" />
+      <FadeoutDist value="3" />
+      <NormalScale value="0.1" />
+      <WorldSpace value="0.5" />
+      <TargetScale value="0.100000" />
+      <RadiusScale value="1.000000" />
+      <BaseWeight value="1.0" />
+    </Item>
+    <Item>
+      <Quality>Medium</Quality>
+      <Alternative value="true" />
+      <BlurType>Depth-aware</BlurType>
+      <Strength value="1.000000" />
+      <RejectRadius value="0.5" />
+      <AcceptRadius value="0.03" />
+      <FadeoutDist value="3" />
+      <NormalScale value="0.1" />
+      <WorldSpace value="0.5" />
+      <TargetScale value="0.100000" />
+      <RadiusScale value="1.000000" />
+      <BaseWeight value="1.0" />
+    </Item>
+  </QualityLevels>
+</HDAO_ScenePreset>

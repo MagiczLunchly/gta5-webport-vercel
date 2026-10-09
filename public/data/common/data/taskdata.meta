@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CTaskDataInfoManager>
+  <aTaskData>
+    <Item type="CTaskDataInfo">
+      <Name>STANDARD_PED</Name>
+      <TaskWanderConditionalAnimsGroup>WANDER</TaskWanderConditionalAnimsGroup>
+      <ScenarioAttractionDistance value="10.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <SwimmingWanderPointRange value="10.000000" />
+      <Flags>PreferFleeOnPavements CanScreamDuringFlee CanBeShoved CanBeTalkedTo CanShove</Flags>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>Animal</Name>
+      <TaskWanderConditionalAnimsGroup>WANDER_ANIMAL</TaskWanderConditionalAnimsGroup>
+      <ScenarioAttractionDistance value="30.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <SwimmingWanderPointRange value="10.000000" />
+      <Flags>DisableCover DisableCower DisableHandsUp DisableVehicleUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisableReactAndFleeAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DontInfluenceWantedLevel DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DiesInstantlyToFire DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle AlwaysSprintWhenFleeingInThreatResponse UseSimpleWander BlockIdleTurnsInSmartFleeWhileWaitingOnPath</Flags>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>Dog</Name>
+      <TaskWanderConditionalAnimsGroup>WANDER_ANIMAL</TaskWanderConditionalAnimsGroup>
+      <ScenarioAttractionDistance value="30.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <SwimmingWanderPointRange value="10.000000" />
+      <Flags>DependentAmbientFriend DisableCover DisableCower DisableHandsUp DisableVehicleUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisableReactAndFleeAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DontInfluenceWantedLevel DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DiesInstantlyToFire DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle AlwaysSprintWhenFleeingInThreatResponse UseSimpleWander BlockIdleTurnsInSmartFleeWhileWaitingOnPath UseLooseCrowdAroundMetrics UseLooseHeadingAdjustmentsInMelee</Flags>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>Cat</Name>
+      <TaskWanderConditionalAnimsGroup>WANDER_ANIMAL</TaskWanderConditionalAnimsGroup>
+      <ScenarioAttractionDistance value="30.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <SwimmingWanderPointRange value="10.000000" />
+      <Flags>DisableCover DisableCower DisableHandsUp DisableVehicleUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisableReactAndFleeAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DontInfluenceWantedLevel DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DiesInstantlyToFire DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle AlwaysSprintWhenFleeingInThreatResponse UseSimpleWander BlockIdleTurnsInSmartFleeWhileWaitingOnPath ForceSlowChaseInAnimalMelee</Flags>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>Fish</Name>
+      <TaskWanderConditionalAnimsGroup>WANDER_ANIMAL</TaskWanderConditionalAnimsGroup>
+      <ScenarioAttractionDistance value="10.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <SwimmingWanderPointRange value="10.000000" />
+      <Flags>ConsiderAsInWaterInLowLodPhysics DisableCover DisableCower DisableHandsUp DisableVehicleUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisableReactAndFleeAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DontInfluenceWantedLevel DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DiesInstantlyToFire UseAmbientScaling DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle ApplyExtraHeadingChangesInFishLocomotion UseSimplePitchingInFishLocomotion ForceSlowSwimWhenUnderPlayerControl</Flags>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>KillerWhale</Name>
+      <TaskWanderConditionalAnimsGroup>WANDER_ANIMAL</TaskWanderConditionalAnimsGroup>
+      <ScenarioAttractionDistance value="30.000000" />
+      <SurfaceSwimmingDepthOffset value="1.100000" />
+      <SwimmingWanderPointRange value="10.000000" />
+      <Flags>ConsiderAsInWaterInLowLodPhysics DisableCover DisableCower DisableHandsUp DisableVehicleUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisableReactAndFleeAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DontInfluenceWantedLevel DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DiesInstantlyToFire DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle UseAquaticRoamMode ProbeForCollisionsInScenarioFlee ExpandAvoidanceRadius UseLongerBlendsInFishLocomotion</Flags>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>LargeFish</Name>
+      <TaskWanderConditionalAnimsGroup>WANDER_ANIMAL</TaskWanderConditionalAnimsGroup>
+      <ScenarioAttractionDistance value="30.000000" />
+      <SurfaceSwimmingDepthOffset value="1.100000" />
+      <SwimmingWanderPointRange value="10.000000" />
+      <Flags>ConsiderAsInWaterInLowLodPhysics DisableCover DisableCower DisableHandsUp DisableVehicleUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisableReactAndFleeAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DontInfluenceWantedLevel DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DiesInstantlyToFire DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle UseAquaticRoamMode ProbeForCollisionsInScenarioFlee ExpandAvoidanceRadius</Flags>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>TigerShark</Name>
+      <TaskWanderConditionalAnimsGroup>WANDER_ANIMAL</TaskWanderConditionalAnimsGroup>
+      <ScenarioAttractionDistance value="30.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <SwimmingWanderPointRange value="10.000000" />
+      <Flags>DisableCover DisableCower DisableHandsUp DisableVehicleUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisableReactAndFleeAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DontInfluenceWantedLevel DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DiesInstantlyToFire DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle AlwaysSprintWhenFleeingInThreatResponse ApplyExtraHeadingChangesInFishLocomotion AlignPitchToWavesInFishLocomotion UseSimplePitchingInFishLocomotion</Flags>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>Whale</Name>
+      <TaskWanderConditionalAnimsGroup>WANDER_ANIMAL</TaskWanderConditionalAnimsGroup>
+      <ScenarioAttractionDistance value="30.000000" />
+      <SurfaceSwimmingDepthOffset value="1.100000" />
+      <SwimmingWanderPointRange value="30.000000" />
+      <Flags>ConsiderAsInWaterInLowLodPhysics DisableCover DisableCower DisableHandsUp DisableVehicleUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisableReactAndFleeAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DontInfluenceWantedLevel DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DiesInstantlyToFire DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle UseAquaticRoamMode ProbeForCollisionsInScenarioFlee SwimStraightInSwimmingWander ForceNoTurningInFishLocomotion</Flags>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>Stingray</Name>
+      <TaskWanderConditionalAnimsGroup>WANDER_ANIMAL</TaskWanderConditionalAnimsGroup>
+      <ScenarioAttractionDistance value="30.000000" />
+      <SurfaceSwimmingDepthOffset value="1.100000" />
+      <SwimmingWanderPointRange value="10.000000" />
+      <Flags>ConsiderAsInWaterInLowLodPhysics DisableCover DisableCower DisableHandsUp DisableVehicleUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisableReactAndFleeAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DontInfluenceWantedLevel DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DiesInstantlyToFire DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle UseAquaticRoamMode ProbeForCollisionsInScenarioFlee ExpandAvoidanceRadius BlockPlayerFishPitchingWhenSlow UseSlowPlayerFishPitchAcceleration</Flags>
+    </Item>
+  </aTaskData>
+  <DefaultSet ref="STANDARD_PED" />
+</CTaskDataInfoManager>

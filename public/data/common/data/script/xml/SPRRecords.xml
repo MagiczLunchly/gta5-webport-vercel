@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<SPRRecords_xml>
+	<SPR>
+		
+		<!--	SPR_STATUS_ENUM
+			FSS_LOCKED		= 0,
+			FSS_UNLOCKED	= 1,
+			
+			FSS_BRONZE		= 2,
+			FSS_SILVER		= 3,
+			FSS_GOLD		= 4,
+		-->
+		<!--	SPR_GOAL_BITS
+			FSG_0_timeTaken 			= (1)
+			FSG_1_damageTaken 			= (2)
+			FSG_2_distanceFromTarget	= (4)
+			FSG_3_checkpointsPassed		= (8)
+			FSG_4_racePosition			= (16)
+		-->
+		<RecordNode name = "AIRPORT" 			status = "1"	goals = "1"		preReq = "1"		timeGold = "90.0"	timeBronze = "140.0"	goalDamage = "100"  															/><!--  Inverted flight -->
+		<RecordNode name = "BRIDGEBINGE" 		status = "1"	goals = "1"		preReq = "1"		timeGold = "60.0"	timeBronze = "100.0"	goalDamage = "100"  															/><!--  Inverted flight -->
+		<RecordNode name = "VINEWOOD" 			status = "1"	goals = "1"		preReq = "1"		timeGold = "70.0"	timeBronze = "200.0"	goalDamage = "100"  															/><!--  Inverted flight -->
+		<RecordNode name = "BRIDGEWORK" 		status = "1"	goals = "1"		preReq = "1"		timeGold = "80.0"	timeBronze = "130.0"	goalDamage = "100"  															/><!--  Inverted flight -->
+		<RecordNode name = "ALTITUDE" 			status = "1"	goals = "1"		preReq = "1"		timeGold = "100.0"	timeBronze = "160.0"	goalDamage = "100"  															/><!--  Inverted flight -->
+
+	</SPR>
+	
+</SPRRecords_xml>

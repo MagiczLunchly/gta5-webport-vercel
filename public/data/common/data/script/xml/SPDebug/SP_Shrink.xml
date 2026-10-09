@@ -1,0 +1,45 @@
+<?xml version='1.0'?>
+<DebugMenuItems>
+
+	<missionItem missionID="DRF1" file="drf1.sc" author="SI_DJ" percentage="0" highlight="FALSE" info="Chaos"        codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER"/>
+	<missionItem missionID="DRF2" file="drf2.sc" author="SI_DJ" percentage="0" highlight="FALSE" info="Evil"         codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER"/>
+	<missionItem missionID="DRF3" file="drf3.sc" author="SI_DJ" percentage="0" highlight="FALSE" info="Negativity"   codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER" x="726.6361" y="1198.2161" z="325.2886" heading="163.8921"/>
+	<missionItem missionID="DRF4" file="drf4.sc" author="SI_DJ" percentage="0" highlight="FALSE" info="FuckedUp"     codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER" x="726.6361" y="1198.2161" z="325.2886" heading="163.8921"/>
+	<missionItem missionID="DRF5" file="drf5.sc" author="SI_DJ" percentage="0" highlight="FALSE" info="Abandonment"  codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER"/>
+	<breakItem/>
+
+	<!-- DRF1 -->
+	<launcherItem missionID="SH1S1"		title="Odd Job - Shrink 1 - Variation 1"	info="SH1S1_INFO"	file="not_needed.sc" author="SI_DJ" percentage="0" highlight="FALSE" character="CHAR_MICHAEL" x="-1903.07" y="-561.83" z="10.81" heading="302.38" enableID="SPEID_GAMEFLOW_ONLY" labelID="LABEL_MISS_SHRINK_1" labelID2="LABEL_MISS_LESTER_1" codeID="SPCID_SHRINK_VARIATION"/>
+	<launcherItem missionID="SH1S2"		title="Odd Job - Shrink 1 - Variation 2"	info="SH1S2_INFO"	file="not_needed.sc" author="SI_DJ" percentage="0" highlight="FALSE" character="CHAR_MICHAEL" x="-1903.07" y="-561.83" z="10.81" heading="302.38" enableID="SPEID_GAMEFLOW_ONLY" labelID="LABEL_MISS_SHRINK_1" labelID2="LABEL_HEIST_JEWEL_RUN_1" codeID="SPCID_SHRINK_VARIATION"/>
+	<breakItem/>
+	
+	<!-- DRF2 -->
+	<launcherItem missionID="SH2S3"		title="Odd Job - Shrink 2 - Variation 1"	info="SH2S3_INFO"	file="not_needed.sc" author="SI_DJ" percentage="0" highlight="FALSE" character="CHAR_MICHAEL" x="-1903.07" y="-561.83" z="10.81" heading="302.38" enableID="SPEID_GAMEFLOW_ONLY" labelID="LABEL_MISS_SHRINK_2" labelID2="LABEL_MISS_FBI_OFFICERS_1" codeID="SPCID_SHRINK_VARIATION"/>
+	<launcherItem missionID="SH2S4"		title="Odd Job - Shrink 2 - Variation 2"	info="SH2S4_INFO"	file="not_needed.sc" author="SI_DJ" percentage="0" highlight="FALSE" character="CHAR_MICHAEL" x="-1903.07" y="-561.83" z="10.81" heading="302.38" enableID="SPEID_GAMEFLOW_ONLY" labelID="LABEL_MISS_SHRINK_2" labelID2="LABEL_MISS_FAMILY_5" codeID="SPCID_SHRINK_VARIATION"/>
+	<launcherItem missionID="SH2S5"		title="Odd Job - Shrink 2 - Variation 3"	info="SH2S5_INFO"	file="not_needed.sc" author="SI_DJ" percentage="0" highlight="FALSE" character="CHAR_MICHAEL" x="-1903.07" y="-561.83" z="10.81" heading="302.38" enableID="SPEID_GAMEFLOW_ONLY" labelID="LABEL_MISS_SHRINK_2" labelID2="LABEL_MISS_SOLOMON_1" codeID="SPCID_SHRINK_VARIATION"/>
+	<breakItem/>
+	
+	<!-- DRF3 -->
+	<launcherItem missionID="SH3S6"		title="Odd Job - Shrink 3 - Variation 1"	info="SH3S6_INFO"	file="not_needed.sc" author="SI_DJ" percentage="0" highlight="FALSE" character="CHAR_MICHAEL" x="726.6361" y="1198.2161" z="325.2886" heading="163.8921" enableID="SPEID_GAMEFLOW_ONLY" labelID="LABEL_MISS_SHRINK_3" labelID2="LABEL_MISS_MARTIN_1" codeID="SPCID_SHRINK_VARIATION"/>
+	<launcherItem missionID="SH3S7"		title="Odd Job - Shrink 3 - Variation 2"	info="SH3S7_INFO"	file="not_needed.sc" author="SI_DJ" percentage="0" highlight="FALSE" character="CHAR_MICHAEL" x="726.6361" y="1198.2161" z="325.2886" heading="163.8921" enableID="SPEID_GAMEFLOW_ONLY" labelID="LABEL_MISS_SHRINK_3" labelID2="LABEL_MISS_EXILE_3" codeID="SPCID_SHRINK_VARIATION"/>
+	<launcherItem missionID="SH3S8"		title="Odd Job - Shrink 3 - Variation 3"	info="SH3S8_INFO"	file="not_needed.sc" author="SI_DJ" percentage="0" highlight="FALSE" character="CHAR_MICHAEL" x="726.6361" y="1198.2161" z="325.2886" heading="163.8921" enableID="SPEID_GAMEFLOW_ONLY" labelID="LABEL_MISS_SHRINK_3" labelID2="LABEL_MISS_FBI_OFFICERS_5" codeID="SPCID_SHRINK_VARIATION"/>
+	<launcherItem missionID="SH3S9"		title="Odd Job - Shrink 3 - Variation 4"	info="SH3S9_INFO"	file="not_needed.sc" author="SI_DJ" percentage="0" highlight="FALSE" character="CHAR_MICHAEL" x="726.6361" y="1198.2161" z="325.2886" heading="163.8921" enableID="SPEID_GAMEFLOW_ONLY" labelID="LABEL_MISS_SHRINK_3" labelID2="LABEL_MISS_MICHAEL_1" codeID="SPCID_SHRINK_VARIATION"/>
+	<launcherItem missionID="SH3S10"	title="Odd Job - Shrink 3 - Variation 5"	info="SH3S10_INFO"	file="not_needed.sc" author="SI_DJ" percentage="0" highlight="FALSE" character="CHAR_MICHAEL" x="726.6361" y="1198.2161" z="325.2886" heading="163.8921" enableID="SPEID_GAMEFLOW_ONLY" labelID="LABEL_MISS_SHRINK_3" labelID2="LABEL_MISS_FAMILY_6" codeID="SPCID_SHRINK_VARIATION"/>
+	<breakItem/>
+	
+	<!-- DRF4 -->
+	<launcherItem missionID="SH4S7"		title="Odd Job - Shrink 4 - Variation 1"	info="SH4S7_INFO"	file="not_needed.sc" author="SI_DJ" percentage="0" highlight="FALSE" character="CHAR_MICHAEL" x="726.6361" y="1198.2161" z="325.2886" heading="163.8921" enableID="SPEID_GAMEFLOW_ONLY" labelID="LABEL_MISS_SHRINK_4" labelID2="LABEL_MISS_EXILE_3" codeID="SPCID_SHRINK_VARIATION"/>
+	<launcherItem missionID="SH4S8"		title="Odd Job - Shrink 4 - Variation 2"	info="SH4S8_INFO"	file="not_needed.sc" author="SI_DJ" percentage="0" highlight="FALSE" character="CHAR_MICHAEL" x="726.6361" y="1198.2161" z="325.2886" heading="163.8921" enableID="SPEID_GAMEFLOW_ONLY" labelID="LABEL_MISS_SHRINK_4" labelID2="LABEL_MISS_FBI_OFFICERS_5" codeID="SPCID_SHRINK_VARIATION"/>
+	<launcherItem missionID="SH4S9"		title="Odd Job - Shrink 4 - Variation 3"	info="SH4S9_INFO"	file="not_needed.sc" author="SI_DJ" percentage="0" highlight="FALSE" character="CHAR_MICHAEL" x="726.6361" y="1198.2161" z="325.2886" heading="163.8921" enableID="SPEID_GAMEFLOW_ONLY" labelID="LABEL_MISS_SHRINK_4" labelID2="LABEL_MISS_MICHAEL_1" codeID="SPCID_SHRINK_VARIATION"/>
+	<launcherItem missionID="SH4S10"	title="Odd Job - Shrink 4 - Variation 4"	info="SH4S10_INFO"	file="not_needed.sc" author="SI_DJ" percentage="0" highlight="FALSE" character="CHAR_MICHAEL" x="726.6361" y="1198.2161" z="325.2886" heading="163.8921" enableID="SPEID_GAMEFLOW_ONLY" labelID="LABEL_MISS_SHRINK_4" labelID2="LABEL_MISS_FAMILY_6" codeID="SPCID_SHRINK_VARIATION"/>
+	<breakItem/>
+
+	<!-- DRF5 -->
+	<launcherItem missionID="SH5S11"	title="Odd Job - Shrink 5 - Variation 1"	info="SH5S11_INFO" 	file="not_needed.sc" author="SI_DJ" percentage="0" highlight="FALSE" character="CHAR_MICHAEL" x="-1903.07" y="-561.83" z="10.81" heading="302.38" enableID="SPEID_GAMEFLOW_ONLY" labelID="LABEL_MISS_SHRINK_5" labelID2="LABEL_MISS_MICHAEL_4" codeID="SPCID_SHRINK_VARIATION"/>	
+	<launcherItem missionID="SH5S12"	title="Odd Job - Shrink 5 - Trevor Dead"	info="SH5S12_INFO" 	file="not_needed.sc" author="SI_DJ" percentage="0" highlight="FALSE" character="CHAR_MICHAEL" x="-1903.07" y="-561.83" z="10.81" heading="302.38" enableID="SPEID_GAMEFLOW_ONLY" labelID="LABEL_MISS_SHRINK_5" labelID2="LABEL_RC_THELASTONE" codeID="SPCID_ENDGAME_TREVOR_DEAD"/>	
+	<launcherItem missionID="SH5S13"	title="Odd Job - Shrink 5 - Saved Michael and Trevor"	info="SH5S13_INFO" 	file="not_needed.sc" author="SI_DJ" percentage="0" highlight="FALSE" character="CHAR_MICHAEL" x="-1903.07" y="-561.83" z="10.81" heading="302.38" enableID="SPEID_GAMEFLOW_ONLY" labelID="LABEL_MISS_SHRINK_5" labelID2="LABEL_RC_THELASTONE" codeID="SPCID_ENDGAME_T_AND_M_ALIVE"/>	
+	<breakItem/>
+	
+	<warpItem file="not_needed.sc" 		title="Dr Friedlander's Office" author="SI_DJ" percentage="0" highlight="FALSE" info="DRFT" x="-1903.07" y="-561.83" z="10.81" heading="302.38"/>
+	
+</DebugMenuItems>

@@ -1,0 +1,9 @@
+<?xml version='1.0'?>
+<DebugMenuItems>
+
+	<missionItem missionID="MP11"	title="Steal Cop Vehicle" 		titleExtra="Normal"		file="CR_Steal_Vehicle.sc" 			author="RB"		info="CNC_MD_STEALVEH" 	extrainfo="DM_MP_CRIM1" 	rank="2" enableID="MPEID_CRIMINAL_ONLY"/>
+	<missionItem missionID="MP11"	title="Steal Cop Vehicle" 		titleExtra="VAN"		file="CR_Steal_Vehicle.sc" codeID="MPCID_SCV_VAN"		author="RB"		info="CNC_MD_STEALVEH" 		extrainfo="DM_MP_CRIM1" 	rank="2" enableID="MPEID_CRIMINAL_ONLY"/>
+	<missionItem missionID="MP11" 	title="Steal Cop Vehicle" 		titleExtra="BIKE"		file="CR_Steal_Vehicle.sc" codeID="MPCID_SCV_BIKE"		author="RB"		info="CNC_MD_STEALVEH" 		extrainfo="DM_MP_CRIM1" 	rank="2" enableID="MPEID_CRIMINAL_ONLY"/>
+	<missionItem missionID="MP11"	title="Steal Cop Vehicle" 		titleExtra="CAR 1"		file="CR_Steal_Vehicle.sc" codeID="MPCID_SCV_CAR_1"		author="RB"		info="CNC_MD_STEALVEH" 		extrainfo="DM_MP_CRIM1" 	rank="2" enableID="MPEID_CRIMINAL_ONLY"/>
+
+</DebugMenuItems>

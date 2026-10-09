@@ -1,0 +1,587 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<NodeMap>
+  <debugNames>
+    <names>__Restart_FireLoop</names>
+    <names>__Restart_UpperBodyAimIntro</names>
+    <names>AIEntry</names>
+    <names>AIEntryRate</names>
+    <names>Aim_FireRecoil</names>
+    <names>AIM_SM</names>
+    <names>AimDirectly</names>
+    <names>AimIntro</names>
+    <names>AimIntro_Default</names>
+    <names>AimIntro_OnEnter</names>
+    <names>AimIntro_SM</names>
+    <names>AimIntro_WeaponHolding_Anim</names>
+    <names>AimIntro_WeaponHolding_Initial</names>
+    <names>AimIntro_WeaponHolding_NoAnim</names>
+    <names>AimIntroBlend</names>
+    <names>AimIntroClip0</names>
+    <names>AimIntroClip0_000</names>
+    <names>AimIntroClip0_001</names>
+    <names>AimIntroClip0_002</names>
+    <names>AimIntroClip0_006</names>
+    <names>AimIntroClip0_007</names>
+    <names>AimIntroClip0_008</names>
+    <names>AimIntroClip0_009</names>
+    <names>AimIntroClip1</names>
+    <names>AimIntroClip1_000</names>
+    <names>AimIntroClip1_001</names>
+    <names>AimIntroClip1_002</names>
+    <names>AimIntroClip1_006</names>
+    <names>AimIntroClip1_007</names>
+    <names>AimIntroClip1_008</names>
+    <names>AimIntroClip1_009</names>
+    <names>AimIntroClipCurrentPhase</names>
+    <names>AimIntroClipFinished</names>
+    <names>AimIntroFilter</names>
+    <names>AimIntroNew</names>
+    <names>AimIntroRate</names>
+    <names>AimIntroWeaponHolding_SM</names>
+    <names>AimOutro</names>
+    <names>AimOutro_OnEnter</names>
+    <names>AimOutro_WeaponHolding_Anim</names>
+    <names>AimOutro_WeaponHolding_Initial_000</names>
+    <names>AimOutro_WeaponHolding_NoAnim</names>
+    <names>AimOutroBlend</names>
+    <names>AimOutroClip0</names>
+    <names>AimOutroClip0_004</names>
+    <names>AimOutroClip0_005</names>
+    <names>AimOutroClip0_006</names>
+    <names>AimOutroClip0CurrentPhase</names>
+    <names>AimOutroClip1</names>
+    <names>AimOutroClip1_004</names>
+    <names>AimOutroClip1_005</names>
+    <names>AimOutroClip1_006</names>
+    <names>AimOutroClip1CurrentPhase</names>
+    <names>AimOutroClipFinished</names>
+    <names>AimOutroLongClips</names>
+    <names>AimOutroLongClipsDefault</names>
+    <names>AimOutroLongFirstPerson</names>
+    <names>AimOutroLongThirdPerson</names>
+    <names>AimOutroRate</names>
+    <names>AimOutroShortClips</names>
+    <names>AimOutroShortClipsDefault</names>
+    <names>AimOutroShortFaceCover</names>
+    <names>AimOutroShortFaceCover_000</names>
+    <names>AimOutroShortFaceForward</names>
+    <names>AimOutroShortFaceForward_000</names>
+    <names>AimOutroShortFirstPerson</names>
+    <names>AimOutroShortThirdPerson</names>
+    <names>AimOutroWeaponHolding_SM</names>
+    <names>AimOutroWeaponHoldingDefault</names>
+    <names>AimOutroWeaponHoldingFirstPerson</names>
+    <names>AimOutroWeaponHoldingThirdPerson</names>
+    <names>AITransition</names>
+    <names>AngleToCover</names>
+    <names>BF_WeaponHolding_Anim_003</names>
+    <names>BF_WeaponHolding_Anim_004</names>
+    <names>BF_WeaponHolding_Anim_005</names>
+    <names>BF_WeaponHolding_Anim_006</names>
+    <names>BF_WeaponHolding_Initial_003</names>
+    <names>BF_WeaponHolding_Initial_004</names>
+    <names>BF_WeaponHolding_Initial_005</names>
+    <names>BF_WeaponHolding_Initial_006</names>
+    <names>BF_WeaponHolding_NoAnim_003</names>
+    <names>BF_WeaponHolding_NoAnim_004</names>
+    <names>BF_WeaponHolding_NoAnim_005</names>
+    <names>BF_WeaponHolding_NoAnim_006</names>
+    <names>BFWeaponHolding_SM_001</names>
+    <names>BFWeaponHolding_SM_002</names>
+    <names>BFWeaponHolding_SM_003</names>
+    <names>BFWeaponHolding_SM_004</names>
+    <names>Blend 2_005</names>
+    <names>Blend 2_011</names>
+    <names>Blend 2_012</names>
+    <names>Blend 2_013</names>
+    <names>Blend 2_014</names>
+    <names>Blend 2_015</names>
+    <names>Blend 2_016</names>
+    <names>Blend 2_017</names>
+    <names>Blend 2_018</names>
+    <names>Blend 2_019</names>
+    <names>Blend 2_020</names>
+    <names>Blend 2_021</names>
+    <names>Blend 2_022</names>
+    <names>Blend 2_023</names>
+    <names>Blend 2_024</names>
+    <names>Blend 2_025</names>
+    <names>Blend 2_026</names>
+    <names>Blend 2_028</names>
+    <names>Blend N</names>
+    <names>blend n_000</names>
+    <names>Blend N_003</names>
+    <names>Blend N_004</names>
+    <names>Blend N_005</names>
+    <names>Blend N_006</names>
+    <names>Blend N_007</names>
+    <names>Blend N_009</names>
+    <names>Blend N_010</names>
+    <names>Blend N_011</names>
+    <names>Blend N_012</names>
+    <names>Blend N_013</names>
+    <names>Blend N_014</names>
+    <names>Blend N_015</names>
+    <names>Blend N_016</names>
+    <names>Blend N_017</names>
+    <names>Blend N_018</names>
+    <names>Blend N_019</names>
+    <names>Blend N_021</names>
+    <names>Blend N_022</names>
+    <names>BlendInUpperBodyAim</names>
+    <names>BlendOutUpperBodyAim</names>
+    <names>Blind_Firing_SM</names>
+    <names>BlindFireAimBlendDuration</names>
+    <names>BlindFireClip0</names>
+    <names>BlindFireClip1</names>
+    <names>BlindFireIntro</names>
+    <names>BlindFireIntroBlend</names>
+    <names>BlindFireIntroClip</names>
+    <names>BlindFireIntroClipFinished</names>
+    <names>BlindFireIntroNew</names>
+    <names>BlindFireIntroPhase</names>
+    <names>BlindFireLoop</names>
+    <names>BlindFireLoop_SM</names>
+    <names>BlindFireLoopClip</names>
+    <names>BlindFireLoopClipFinished</names>
+    <names>BlindFireOutro</names>
+    <names>BlindfireOutro_SM</names>
+    <names>BlindFireOutroClip</names>
+    <names>BlindFireOutroClip1</names>
+    <names>BlindFireOutroClipFinished</names>
+    <names>BlindFireOutroDefault</names>
+    <names>BlindFireOutroFirstPerson</names>
+    <names>BlindFireOutroNew</names>
+    <names>BlindFireOutroThirdPerson</names>
+    <names>BlindFireSweep</names>
+    <names>BlindFireSweepBlend</names>
+    <names>BlindFireSweepClip0_003</names>
+    <names>BlindFireSweepClip1_003</names>
+    <names>BlindFireSweepClip2_003</names>
+    <names>BlindFireSweepPhase</names>
+    <names>BlindFiring</names>
+    <names>BlindFiring_OnEnter</names>
+    <names>BlindFiringIntro_OnEnter</names>
+    <names>BlindFiringLoop_OnEnter</names>
+    <names>BlindFiringOutro_OnEnter</names>
+    <names>CamHeading</names>
+    <names>ChooseExitCover</names>
+    <names>Clip</names>
+    <names>Clip_000</names>
+    <names>Clip_004</names>
+    <names>Clip_005</names>
+    <names>Clip_006</names>
+    <names>Clip_007</names>
+    <names>Clip_008</names>
+    <names>Clip_009</names>
+    <names>Clip_010</names>
+    <names>Clip_011</names>
+    <names>Clip_012</names>
+    <names>Clip_013</names>
+    <names>Clip_014</names>
+    <names>Clip_015</names>
+    <names>Clip_016</names>
+    <names>Clip_020</names>
+    <names>Clip_021</names>
+    <names>Clip_022</names>
+    <names>Clip0</names>
+    <names>Clip0BlendWeight</names>
+    <names>Clip0Finished</names>
+    <names>Clip0Phase</names>
+    <names>Clip1</names>
+    <names>Clip1Blend</names>
+    <names>Clip1BlendWeight</names>
+    <names>Clip1Finished</names>
+    <names>Clip1Phase</names>
+    <names>Clip2</names>
+    <names>Clip2BlendWeight</names>
+    <names>Clip2Phase</names>
+    <names>Clip3</names>
+    <names>Clip4</names>
+    <names>Clip5</names>
+    <names>CockGun</names>
+    <names>CockGun_OnEnter</names>
+    <names>CockGun_SM</names>
+    <names>CockGunClipFinished</names>
+    <names>CockGunDefault_000</names>
+    <names>CockGunFirstPerson_000</names>
+    <names>CockGunThirdPerson_000</names>
+    <names>Default</names>
+    <names>Default Enter Cover</names>
+    <names>Default0RotateExitClips_000</names>
+    <names>Default-180RotateExitClips</names>
+    <names>Default180RotateExitClips_001</names>
+    <names>DefaultBlindFire</names>
+    <names>Directional</names>
+    <names>Directional Exit</names>
+    <names>Enter Cover</names>
+    <names>Enter_WeaponHolding_Anim</names>
+    <names>Enter_WeaponHolding_Initial</names>
+    <names>Enter_WeaponHolding_NoAnim</names>
+    <names>Enter_WeaponHolding_SM</names>
+    <names>EnterClip_000</names>
+    <names>EnterClip_002</names>
+    <names>EnterClipFaceCover</names>
+    <names>EnterClipFaceCover_001</names>
+    <names>EnterClipFaceForward</names>
+    <names>EnterClipFaceForward_001</names>
+    <names>EnterCover</names>
+    <names>EnterCover_OnEnter</names>
+    <names>EnterCoverAIStand</names>
+    <names>EnterCoverAIWalk</names>
+    <names>EnterCoverClip</names>
+    <names>EnterCoverClipCurrentPhase</names>
+    <names>EnterCoverClipFinished</names>
+    <names>EnterCoverClipInitialPhase</names>
+    <names>EnterCoverClipRate</names>
+    <names>EnterCoverClips</names>
+    <names>EnterCoverNormal</names>
+    <names>EnterCoverNormalDefault</names>
+    <names>EnterCoverNormalDefault_001</names>
+    <names>EnterCoverNormalFirstPerson</names>
+    <names>EnterCoverNormalFirstPerson_001</names>
+    <names>EnterCoverNormalThirdPerson</names>
+    <names>EnterCoverNormalThirdPerson_001</names>
+    <names>EnterCoverPlayerStand</names>
+    <names>EnterCoverPlayerStand_SM</names>
+    <names>EnterCoverTransitionAI</names>
+    <names>EnterCoverTransitionClip</names>
+    <names>EnterCoverTransitionClipFinished</names>
+    <names>EnterCoverWeaponClip</names>
+    <names>EnterCoverWeaponClip0</names>
+    <names>EnterCoverWeaponClip1</names>
+    <names>EnterCoverWeaponClip2</names>
+    <names>EnterPlayer_WeaponHolding_Anim</names>
+    <names>EnterPlayer_WeaponHolding_Anim_000</names>
+    <names>EnterPlayer_WeaponHolding_Initial</names>
+    <names>EnterPlayer_WeaponHolding_Initial_000</names>
+    <names>EnterPlayer_WeaponHolding_NoAnim</names>
+    <names>EnterPlayer_WeaponHolding_NoAnim_000</names>
+    <names>Exit Cover</names>
+    <names>Exit_WeaponHolding_Anim_000</names>
+    <names>Exit_WeaponHolding_Initial_000</names>
+    <names>Exit_WeaponHolding_NoAnim_000</names>
+    <names>Exit_WeaponHolding_SM_000</names>
+    <names>ExitClip_000</names>
+    <names>ExitCover</names>
+    <names>ExitCover_OnEnter</names>
+    <names>ExitCoverClip</names>
+    <names>ExitCoverClipFinished</names>
+    <names>ExitCoverWeaponClip</names>
+    <names>ExitCoverWeaponClip0</names>
+    <names>ExitCoverWeaponClip1</names>
+    <names>ExitCoverWeaponClip2</names>
+    <names>ExitCoverWeaponHolding_SM</names>
+    <names>Filter_000</names>
+    <names>filter_001</names>
+    <names>Filter_002</names>
+    <names>Filter_003</names>
+    <names>Filter_004</names>
+    <names>Filter_005</names>
+    <names>Filter_006</names>
+    <names>Filter_007</names>
+    <names>Filter_008</names>
+    <names>Filter_009</names>
+    <names>Filter_010</names>
+    <names>Filter_013</names>
+    <names>Filter_014</names>
+    <names>Filter_015</names>
+    <names>Filter_016</names>
+    <names>Filter_017</names>
+    <names>Filter_018</names>
+    <names>Fire</names>
+    <names>FIRE_MED</names>
+    <names>FIRE_RECOIL</names>
+    <names>FireClipSet</names>
+    <names>FireFinished</names>
+    <names>FireLoop</names>
+    <names>FireLoop_OnEnter</names>
+    <names>FireLoop1</names>
+    <names>FireLoop1_OnExit</names>
+    <names>FireLoop1Clip</names>
+    <names>FireLoop1Filter</names>
+    <names>FireLoop1Merge</names>
+    <names>FireLoop2</names>
+    <names>FireLoop2_OnExit</names>
+    <names>FireLoop2Clip</names>
+    <names>FireLoop2Filter</names>
+    <names>FireLoop2Merge</names>
+    <names>FireRate</names>
+    <names>FireRecoil</names>
+    <names>FireRecoilSM</names>
+    <names>FireSM</names>
+    <names>Firing</names>
+    <names>FirstPerson0RotateExitClips_000</names>
+    <names>FirstPerson-180RotateExitClips</names>
+    <names>FirstPerson180RotateExitClips_001</names>
+    <names>FirstPersonAnimatedRecoil</names>
+    <names>FPSOutro</names>
+    <names>FromStand</names>
+    <names>GRIP_HIGH</names>
+    <names>GRIP_HIGH_002</names>
+    <names>GRIP_HIGH_003</names>
+    <names>GRIP_HIGH_004</names>
+    <names>Grip_L_Filter_000</names>
+    <names>Grip_L_Filter_001</names>
+    <names>Grip_L_Filter_002</names>
+    <names>grip_low</names>
+    <names>GRIP_LOW_002</names>
+    <names>GRIP_LOW_003</names>
+    <names>GRIP_LOW_004</names>
+    <names>GRIP_MED</names>
+    <names>GRIP_MED_002</names>
+    <names>GRIP_MED_003</names>
+    <names>GRIP_MED_004</names>
+    <names>GripAnim</names>
+    <names>GripAnim_000</names>
+    <names>GripAnim_001</names>
+    <names>GripAnim_002</names>
+    <names>GripAnim_003</names>
+    <names>GripAnim_006</names>
+    <names>GripAnim_007</names>
+    <names>GripAnim_008</names>
+    <names>GripAnim_009</names>
+    <names>GripClip</names>
+    <names>GripFilter</names>
+    <names>HasLeftAimBlindFireGrip</names>
+    <names>HasLeftAimGrip</names>
+    <names>HolsterInitialPhase</names>
+    <names>HolsterPhase</names>
+    <names>HolsterWeapon</names>
+    <names>HolsterWeapon_OnEnter</names>
+    <names>HolsterWeaponClip</names>
+    <names>HolsterWeaponClipFinished</names>
+    <names>Input</names>
+    <names>Input_000</names>
+    <names>input_001</names>
+    <names>input_002</names>
+    <names>input_003</names>
+    <names>input_004</names>
+    <names>input_005</names>
+    <names>input_006</names>
+    <names>input_007</names>
+    <names>Input_008</names>
+    <names>input_010</names>
+    <names>input_011</names>
+    <names>Input_012</names>
+    <names>input_013</names>
+    <names>Input_014</names>
+    <names>Input_015</names>
+    <names>Input_016</names>
+    <names>Input_017</names>
+    <names>input_018</names>
+    <names>input_019</names>
+    <names>input_020</names>
+    <names>Input_021</names>
+    <names>Input_022</names>
+    <names>Input_023</names>
+    <names>Input_024</names>
+    <names>input_025</names>
+    <names>Input_026</names>
+    <names>Input_027</names>
+    <names>Input_028</names>
+    <names>input_029</names>
+    <names>Input_030</names>
+    <names>input_031</names>
+    <names>Input_032</names>
+    <names>input_033</names>
+    <names>Input_034</names>
+    <names>input_035</names>
+    <names>Input_036</names>
+    <names>input_037</names>
+    <names>Input_038</names>
+    <names>input_039</names>
+    <names>Input_040</names>
+    <names>input_041</names>
+    <names>Input_042</names>
+    <names>input_043</names>
+    <names>Input_044</names>
+    <names>Input_045</names>
+    <names>Input_046</names>
+    <names>Input_047</names>
+    <names>Input_048</names>
+    <names>Input_049</names>
+    <names>Input_050</names>
+    <names>Input_051</names>
+    <names>Input_052</names>
+    <names>Input_053</names>
+    <names>Input_054</names>
+    <names>Input_055</names>
+    <names>Input_056</names>
+    <names>Invalid</names>
+    <names>invalid_000</names>
+    <names>Invalid_001</names>
+    <names>invalid_002</names>
+    <names>Invalid_003</names>
+    <names>Invalid_004</names>
+    <names>Invalid_005</names>
+    <names>Invalid_006</names>
+    <names>Invalid_007</names>
+    <names>Invalid_008</names>
+    <names>Invalid_009</names>
+    <names>Invalid_010</names>
+    <names>Invalid_011</names>
+    <names>Invalid_012</names>
+    <names>Invalid_013</names>
+    <names>Invalid_014</names>
+    <names>Invalid_015</names>
+    <names>Invalid_016</names>
+    <names>Invalid_017</names>
+    <names>Invalid_018</names>
+    <names>Invalid_020</names>
+    <names>Invalid_021</names>
+    <names>IsCrouched</names>
+    <names>IsFirstPerson</names>
+    <names>IsRightSide</names>
+    <names>LeftGrip_Initial_006</names>
+    <names>LeftGrip_Initial_007</names>
+    <names>LeftGrip_Initial_008</names>
+    <names>LeftGrip_On_FPS</names>
+    <names>LeftGrip_On_FPS_000</names>
+    <names>LeftGrip_On_FPS_001</names>
+    <names>LeftGrip_SM</names>
+    <names>LeftGrip_SM_000</names>
+    <names>LeftGrip_SM_001</names>
+    <names>LongAimOutro</names>
+    <names>Merge 2_000</names>
+    <names>Merge 2_001</names>
+    <names>Merge 2_002</names>
+    <names>Merge 2_003</names>
+    <names>Merge 2_004</names>
+    <names>Merge 2_005</names>
+    <names>Merge 2_006</names>
+    <names>Merge 2_007</names>
+    <names>Merge 2_008</names>
+    <names>Merge 2_009</names>
+    <names>Merge 2_011</names>
+    <names>Merge 2_012</names>
+    <names>Merge 2_013</names>
+    <names>Merge 2_014</names>
+    <names>Merge 2_015</names>
+    <names>Merge 2_016</names>
+    <names>Merge 2_017</names>
+    <names>Merge 2_018</names>
+    <names>Merge 2_019</names>
+    <names>Merge 2_020</names>
+    <names>Merge 2_021</names>
+    <names>Merge 2_022</names>
+    <names>Merge 2_023</names>
+    <names>Merge 2_024</names>
+    <names>Merge 2_025</names>
+    <names>Merge 2_026</names>
+    <names>NewBlindFireSolution</names>
+    <names>NoUpperBodyAimIntro</names>
+    <names>NoUpperBodyAimOutro</names>
+    <names>Output</names>
+    <names>OutroUpperBodyAimPitchBlend</names>
+    <names>Pitch</names>
+    <names>Recoil</names>
+    <names>RecoilFireLoop1Clip_000</names>
+    <names>RecoilFireLoop2_000</names>
+    <names>RecoilLoop1_000</names>
+    <names>RecoilLoop2_000</names>
+    <names>Reload</names>
+    <names>Reload_OnEnter</names>
+    <names>ReloadClip</names>
+    <names>ReloadClipCurrentPhase</names>
+    <names>ReloadClipFinished</names>
+    <names>ReloadWeapon</names>
+    <names>RestartFireLoop</names>
+    <names>Rotate_0_001</names>
+    <names>Rotate_0_004</names>
+    <names>Rotate_0_FaceCover</names>
+    <names>Rotate_0_FaceCover_001</names>
+    <names>Rotate_0_FaceCoverExit</names>
+    <names>Rotate_0_FaceForward</names>
+    <names>Rotate_0_FaceForward_001</names>
+    <names>Rotate_0_FaceForwardExit</names>
+    <names>Rotate_180</names>
+    <names>Rotate_-180_001</names>
+    <names>Rotate_-180_002</names>
+    <names>Rotate_-180_003</names>
+    <names>Rotate_-180_004</names>
+    <names>Rotate_180_FaceCover</names>
+    <names>Rotate_-180_FaceCover</names>
+    <names>Rotate_-180_FaceCover_000</names>
+    <names>Rotate_180_FaceCover_001</names>
+    <names>Rotate_180_FaceCoverExit</names>
+    <names>Rotate_-180_FaceCoverExit</names>
+    <names>Rotate_180_FaceForward</names>
+    <names>Rotate_-180_FaceForward</names>
+    <names>Rotate_-180_FaceForward_000</names>
+    <names>Rotate_180_FaceForward_001</names>
+    <names>Rotate_180_FaceForwardExit</names>
+    <names>Rotate_-180_FaceForwardExit</names>
+    <names>Rotate_180Exit</names>
+    <names>Rotate0</names>
+    <names>Rotate0_000</names>
+    <names>Rotate-0_WeaponClips_000</names>
+    <names>Rotate0Clips</names>
+    <names>Rotate0Default_000</names>
+    <names>Rotate-0Default_001</names>
+    <names>Rotate0ExitClips</names>
+    <names>Rotate0FirstPerson</names>
+    <names>Rotate-0FirstPerson_001</names>
+    <names>Rotate0ThirdPerson</names>
+    <names>Rotate-0ThirdPerson_001</names>
+    <names>Rotate180</names>
+    <names>Rotate-180_WeaponClips</names>
+    <names>Rotate180_WeaponClips_000</names>
+    <names>Rotate180Clips</names>
+    <names>Rotate-180Clips</names>
+    <names>Rotate180Default</names>
+    <names>Rotate-180Default</names>
+    <names>Rotate-180Default_000</names>
+    <names>Rotate180Default_001</names>
+    <names>Rotate180ExitClips</names>
+    <names>Rotate-180ExitClips</names>
+    <names>Rotate180FirstPerson</names>
+    <names>Rotate-180FirstPerson</names>
+    <names>Rotate-180FirstPerson_000</names>
+    <names>Rotate180FirstPerson_001</names>
+    <names>Rotate180ThirdPerson</names>
+    <names>Rotate-180ThirdPerson</names>
+    <names>Rotate-180ThirdPerson_000</names>
+    <names>Rotate180ThirdPerson_001</names>
+    <names>Rotate90</names>
+    <names>RotateLeft</names>
+    <names>ShortAimOutro</names>
+    <names>Standard Exit</names>
+    <names>StandBy</names>
+    <names>StandByRecoil</names>
+    <names>StateMachine</names>
+    <names>SwapWeapon</names>
+    <names>SwapWeapon_Initial</names>
+    <names>SwapWeapon_OnEnter</names>
+    <names>SwapWeapon_SM</names>
+    <names>SwapWeaponBlendDuration</names>
+    <names>ThirdPerson0RotateExitClips_000</names>
+    <names>ThirdPerson-180RotateExitClips</names>
+    <names>ThirdPerson180RotateExitClips_001</names>
+    <names>UnHolsterPhase</names>
+    <names>UnHolsterWeapon</names>
+    <names>UnHolsterWeapon_OnEnter</names>
+    <names>UnHolsterWeaponClip</names>
+    <names>UnHolsterWeaponClipFinished</names>
+    <names>UpperBodyAimIntro</names>
+    <names>UpperBodyAimNetwork</names>
+    <names>UpperBodyAimNetwork_000</names>
+    <names>UpperBodyAimOutro</names>
+    <names>UpperBodyAimPitchBlend</names>
+    <names>UpperBodyBlendInDuration</names>
+    <names>upperbodyshadow</names>
+    <names>UpperBodyShadow_000</names>
+    <names>UseGripClip</names>
+    <names>UseWeaponHolding</names>
+    <names>WeaponClip0</names>
+    <names>WeaponClip1</names>
+    <names>WeaponClip2</names>
+    <names>WeaponClip3</names>
+    <names>WeaponClip4</names>
+    <names>WeaponClip5</names>
+    <names>WeaponClipSet</names>
+    <names>WeaponEnterCoverClip_002</names>
+    <names>WeaponExitCoverClips</names>
+    <names>WeaponHoldingFilter</names>
+  </debugNames>
+</NodeMap>

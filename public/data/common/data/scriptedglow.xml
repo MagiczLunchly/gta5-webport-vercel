@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ScriptedGlowList>
+  <data>
+    <Item>
+      <color value="0xFFFF0000" />
+      <intensity value="1.000000" />
+      <range value="1.500000" />
+    </Item>
+    <Item>
+      <color value="0xFF00FF00" />
+      <intensity value="1.000000" />
+      <range value="1.500000" />
+    </Item>
+    <Item>
+      <color value="0xFF0000FF" />
+      <intensity value="1.000000" />
+      <range value="1.500000" />
+    </Item>
+    <Item>
+      <color value="0xFF00FF00" /> <!-- sonar pickup -->
+      <intensity value="1.000000" />
+      <range value="3.000000" />
+    </Item>
+   <Item>
+      <color value="0xFF00FF00" /> <!-- letter scrap pickup -->
+      <intensity value="0.200000" />
+      <range value="1.500000" />
+    </Item>
+	<Item>
+      <color value="0xFF00FF00" /> <!-- Less intense version of #1 for Nigel1D -->
+      <intensity value="0.500000" />
+      <range value="1.500000" />
+    </Item>
+  </data>
+</ScriptedGlowList>

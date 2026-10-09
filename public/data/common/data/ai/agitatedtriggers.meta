@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CAgitatedTriggers>
+	<Reactions>
+		<Item key="Intimidate">
+			<Type>AT_Intimidate</Type>
+			<TimeBeforeInitialReaction>
+				<Min value="0.3" />
+				<Max value="1.0" />
+			</TimeBeforeInitialReaction>
+			<TimeAfterLastSuccessfulReaction>
+				<Min value="15.0" />
+				<Max value="25.0" />
+			</TimeAfterLastSuccessfulReaction>
+			<TimeAfterInitialReactionFailure>
+				<Min value="15.0" />
+				<Max value="25.0" />
+			</TimeAfterInitialReactionFailure>
+			<MaxReactions value="1" />
+			<Flags>DisableWhenAgitated DisableWhenFriendlyIsAgitated MustBeUsingScenario MustBeStationary</Flags>
+		</Item>
+		<Item key="LoiteringOnFootFromFront">
+			<Type>AT_Loitering</Type>
+			<TimeBeforeInitialReaction>
+				<Min value="0.35" />
+				<Max value="0.6" />
+			</TimeBeforeInitialReaction>
+			<MinDotToTarget value="0.0" />
+			<MaxTargetSpeed value="0.5" />
+			<MaxReactions value="1" />
+			<Flags>DisableWhenAgitated DisableWhenFriendlyIsAgitated MustBeUsingScenarioBeforeInitialReaction NoLineOfSightNeeded MustBeOnFoot MustBeStationary</Flags>
+		</Item>
+		<Item key="LoiteringOnFootFromBehind">
+			<Type>AT_Loitering</Type>
+			<TimeBeforeInitialReaction>
+				<Min value="3.5" />
+				<Max value="5.0" />
+			</TimeBeforeInitialReaction>
+			<MaxDotToTarget value="0.0" />
+			<MaxTargetSpeed value="0.5" />
+			<MaxReactions value="1" />
+			<Flags>DisableWhenAgitated DisableWhenFriendlyIsAgitated MustBeUsingScenarioBeforeInitialReaction NoLineOfSightNeeded MustBeOnFoot MustBeStationary</Flags>
+		</Item>
+		<Item key="LoiteringInVehicle">
+			<Type>AT_Loitering</Type>
+			<TimeBeforeInitialReaction>
+				<Min value="4.5" />
+				<Max value="6.0" />
+			</TimeBeforeInitialReaction>
+			<MaxReactions value="1" />
+			<Flags>DisableWhenAgitated DisableWhenFriendlyIsAgitated TargetMustBeOnFoot MustBeInVehicle MustBeStationary</Flags>
+		</Item>
+		<Item key="Following">
+			<Type>AT_Following</Type>
+			<TimeBeforeInitialReaction>
+				<Min value="8.0" />
+				<Max value="12.0" />
+			</TimeBeforeInitialReaction>
+			<TimeBetweenEscalatingReactions>
+				<Min value="2.5" />
+				<Max value="3.5" />
+			</TimeBetweenEscalatingReactions>
+			<MaxDotToTarget value="0.707" />
+			<MaxReactions value="1" />
+			<Flags>MustBeWanderingBeforeInitialReaction NoLineOfSightNeeded DisableWhenStill</Flags>
+		</Item>
+		<Item key="TerritoryIntruded">
+			<Type>AT_TerritoryIntruded</Type>
+			<TimeBeforeInitialReaction>
+				<Min value="0.1" />
+				<Max value="1.5" />
+			</TimeBeforeInitialReaction>
+			<MaxReactions value="1" />
+			<Flags>MustBeUsingScenarioBeforeInitialReaction UseDistanceFromScenario MustBeUsingATerritorialScenario</Flags>
+		</Item>
+		<Item key="DogTerritoryIntruded">
+			<Type>AT_TerritoryIntruded</Type>
+			<TimeBeforeInitialReaction>
+				<Min value="0.1" />
+				<Max value="1.5" />
+			</TimeBeforeInitialReaction>
+			<MaxReactions value="1" />
+			<Flags>MustBeUsingScenarioBeforeInitialReaction UseDistanceFromScenario MustBeUsingATerritorialScenario NoLineOfSightNeeded</Flags>
+		</Item>
+	</Reactions>
+	<Sets>
+		<Item key="Default">
+			<Triggers>
+				<Item>
+					<PedTypes>
+						<Item>PLAYER_0</Item>
+						<Item>PLAYER_1</Item>
+						<Item>PLAYER_2</Item>
+					</PedTypes>
+					<Distance value="1.000000" />
+					<Reaction>LoiteringOnFootFromFront</Reaction>
+				</Item>
+				<Item>
+					<PedTypes>
+						<Item>PLAYER_0</Item>
+						<Item>PLAYER_1</Item>
+						<Item>PLAYER_2</Item>
+					</PedTypes>
+					<Distance value="1.000000" />
+					<Reaction>LoiteringOnFootFromBehind</Reaction>
+				</Item>
+				<Item>
+					<PedTypes>
+						<Item>PLAYER_0</Item>
+						<Item>PLAYER_1</Item>
+						<Item>PLAYER_2</Item>
+					</PedTypes>
+					<Distance value="3.000000" />
+					<Reaction>Following</Reaction>
+				</Item>
+				<Item>
+					<PedTypes>
+						<Item>PLAYER_0</Item>
+						<Item>PLAYER_1</Item>
+						<Item>PLAYER_2</Item>
+					</PedTypes>
+					<Reaction>TerritoryIntruded</Reaction>
+				</Item>
+			</Triggers>
+		</Item>
+		<Item key="Gang">
+			<Parent>Default</Parent>
+			<Triggers>
+				<Item>
+					<PedTypes>
+						<Item>PLAYER_0</Item>
+						<Item>PLAYER_1</Item>
+						<Item>PLAYER_2</Item>
+					</PedTypes>
+					<Distance value="1.500000" />
+					<Reaction>LoiteringInVehicle</Reaction>
+				</Item>
+				<Item>
+					<PedTypes>
+						<Item>PLAYER_0</Item>
+						<Item>PLAYER_1</Item>
+						<Item>PLAYER_2</Item>
+					</PedTypes>
+					<Chances value="0.25" />
+					<Distance value="10.0" />
+					<Reaction>Intimidate</Reaction>
+				</Item>
+			</Triggers>
+		</Item>
+		<Item key="Biker">
+			<Parent>Gang</Parent>
+			<Triggers>
+				<Item>
+					<PedTypes>
+						<Item>PLAYER_2</Item>
+					</PedTypes>
+					<Chances value="0.5" />
+					<Distance value="10.0" />
+					<Reaction>Intimidate</Reaction>
+				</Item>
+			</Triggers>
+		</Item>
+		<Item key="Family">
+			<Parent>Gang</Parent>
+			<Triggers>
+				<Item>
+					<PedTypes>
+						<Item>PLAYER_0</Item>
+						<Item>PLAYER_2</Item>
+					</PedTypes>
+					<Distance value="1.000000" />
+					<Reaction>LoiteringOnFootFromFront</Reaction>
+				</Item>
+				<Item>
+					<PedTypes>
+						<Item>PLAYER_0</Item>
+						<Item>PLAYER_2</Item>
+					</PedTypes>
+					<Distance value="1.000000" />
+					<Reaction>LoiteringOnFootFromBehind</Reaction>
+				</Item>
+				<Item>
+					<PedTypes>
+						<Item>PLAYER_0</Item>
+						<Item>PLAYER_2</Item>
+					</PedTypes>
+					<Distance value="1.500000" />
+					<Reaction>LoiteringInVehicle</Reaction>
+				</Item>
+				<Item>
+					<PedTypes>
+						<Item>PLAYER_0</Item>
+						<Item>PLAYER_2</Item>
+					</PedTypes>
+					<Distance value="3.000000" />
+					<Reaction>Following</Reaction>
+				</Item>
+				<Item>
+					<PedTypes>
+						<Item>PLAYER_0</Item>
+					</PedTypes>
+					<Chances value="0.5" />
+					<Distance value="10.0" />
+					<Reaction>Intimidate</Reaction>
+				</Item>
+			</Triggers>
+		</Item>
+		<Item key="Vagos">
+			<Parent>Gang</Parent>
+			<Triggers>
+				<Item>
+					<PedTypes>
+						<Item>PLAYER_0</Item>
+						<Item>PLAYER_1</Item>
+					</PedTypes>
+					<Chances value="0.5" />
+					<Distance value="10.0" />
+					<Reaction>Intimidate</Reaction>
+				</Item>
+			</Triggers>
+		</Item>
+		<Item key="LawEnforcement">
+			<Parent>Default</Parent>
+			<Triggers>
+				<Item>
+					<PedTypes>
+						<Item>PLAYER_0</Item>
+						<Item>PLAYER_1</Item>
+						<Item>PLAYER_2</Item>
+					</PedTypes>
+					<Distance value="1.500000" />
+					<Reaction>LoiteringInVehicle</Reaction>
+				</Item>
+			</Triggers>
+		</Item>
+		<Item key="Animal">
+			<Triggers />
+		</Item>
+		<Item key="GuardDog">
+			<Triggers>
+				<Item>
+					<PedTypes>
+						<Item>PLAYER_0</Item>
+						<Item>PLAYER_1</Item>
+						<Item>PLAYER_2</Item>
+					</PedTypes>
+					<Reaction>DogTerritoryIntruded</Reaction>
+				</Item>
+				<Item>
+					<PedTypes>
+						<Item>PLAYER_0</Item>
+						<Item>PLAYER_1</Item>
+						<Item>PLAYER_2</Item>
+					</PedTypes>
+					<Distance value="3.00000" />
+					<Reaction>LoiteringOnFootFromFront</Reaction>
+				</Item>
+				<Item>
+					<PedTypes>
+						<Item>PLAYER_0</Item>
+						<Item>PLAYER_1</Item>
+						<Item>PLAYER_2</Item>
+					</PedTypes>
+					<Distance value="3.00000" />
+					<Reaction>LoiteringOnFootFromBehind</Reaction>
+				</Item>
+			</Triggers>
+		</Item>
+		<Item key="Hooker">
+			<Parent>Default</Parent>
+			<Flags>IgnoreHonkedAt</Flags>
+		</Item>
+	</Sets>
+</CAgitatedTriggers>

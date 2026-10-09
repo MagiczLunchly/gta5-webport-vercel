@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<testbedCode title="Testbed Menu">
+
+	<!-- add some code options france"-->
+	<menuItem name="ActivateDeactivateCams" value="0" />
+	<menuItem name="CreateFixedCam" value="1" />
+	<menuItem name="AttachCams" value="2" />
+	<menuItem name="PointCams" value="3" />
+	<menuItem name="SplineCams" value="4" />
+	<menuItem name="InterpCams" value="5" />
+	<menuItem name="Shake cams" value="6" />
+	<menuItem name="Animate cams" value="7" />
+	<menuItem name="Fade cams" value="8" />
+	<menuItem name="Gameplay cams" value="9" />
+	<menuItem name="Debug cam" value="10" />
+	<menuItem name="follow ped cam" value="11" />
+	<menuItem name="follow vehicle cam" value="12" />
+	<menuItem name="Hint cam" value="13" />
+	<menuItem name="Simple interp" value="14" />
+	<menuItem name="Cinematic driveby" value="15" />
+	<menuItem name="Scene Transition" value="16" />
+	<menuItem name="High Dof Test" value="17" />
+	<menuItem name="interp to and from script" value="18" />
+	<menuItem name="Timed Spline" value="19" />
+	<menuItem name="Rounded Spline" value="20" />
+	<menuItem name="Smoothed Spline" value="21" />
+	<menuItem name="Look At Spline" value="22" />
+	<menuItem name="Camera focus ped" value="23" />
+	<menuItem name="Scripted fly camera" value="24" />
+	<menuItem name="Cinematic Formation Camera" value="25" />
+	<menuItem name="Fall out heli Camera" value="26" />
+	<menuItem name="interp to script catch up" value="27" />
+  <menuItem name="Third Person script limits" value="28" />
+  <menuItem name="Adaptive DOF test" value="29" />
+</testbedCode>

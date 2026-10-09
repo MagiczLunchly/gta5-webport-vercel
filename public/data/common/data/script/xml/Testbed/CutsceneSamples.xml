@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<testbedCode title="Testbed Menu">
+
+	<!--"Cutscene Sample Library"-->
+	<menuItem name="--Cutscene Blend Examples--" />
+	<menuItem name="Exit into Idle" value= "1" />
+	<menuItem name="Exit into Walk, ped off camera blend" value= "2" />
+	<menuItem name="Exit into Run, 1 ped blend on camera, 2 off camera." value= "3" />
+	<menuItem name="Exit into Vehicle Idle" value= "4" />
+	<menuItem name="Exit into Cover w/ Weapon" value= "5" />
+	<menuItem name="Exit into custom state" value= "6" />
+	<menuItem name="Exit prop static in world" value= "7" />
+	<menuItem name="Exit peds into vehicle in motion" value= "8" />
+	<menuItem name="Exit into vehicle idle w/ passengers" value= "9" />
+	<menuItem name="Exit into walk, ped into custom anim" value= "10" />
+	<menuItem name="Exit into idle w/ blendout cam and ped into custom state" value= "11" />
+	<menuItem name="TestBed vehicle blendout to car recording" value= "12" />
+
+</testbedCode>

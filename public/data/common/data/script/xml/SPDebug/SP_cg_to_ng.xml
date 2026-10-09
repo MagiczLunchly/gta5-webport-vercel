@@ -1,0 +1,73 @@
+<?xml version='1.0'?>
+<DebugMenuItems>
+
+	<codeItem	 title="Switch Last Gen Player on"  codeID="SPCID_LAST_GEN_PLAYER_ON" displayID="SPDID_LAST_GEN_PLAYER_ON" />
+	<codeItem	 title="Switch Last Gen Player off"  codeID="SPCID_LAST_GEN_PLAYER_OFF" displayID="SPDID_LAST_GEN_PLAYER_OFF" />
+	
+	<breakItem />
+
+	<warpItem missionID="RE45" title="RE Duel"  file="re_duel"   author="SI_HT" percentage="0"	highlight="FALSE"  x="840.0595" y="2696.1052" z="39.6168" heading="268.7955" info="DM_INFO_RE45" codeID="SPCID_RANDOM_EVENT" labelID="LABEL_RE_BATCH_POST_TONYA1"  vehicleWarp="TRUE"/>
+	<warpItem missionID="RE46" title="RE Seaplane"  file="re_seaplane"   author="SI_HT"	percentage="0"	highlight="FALSE" x="3191.3955" y="1925.6016" z="0.6489" heading="26.4413" info="DM_INFO_RE46" codeID="SPCID_RANDOM_EVENT" labelID="LABEL_RE_BATCH_POST_TREV2"  vehicleWarp="TRUE"/>
+	<warpItem title="Dukes reward city" x="1268.0238" y="-2562.5063" z="41.9169" heading="98.9542"  />
+	<warpItem title="Dukes reward country"  x="643.7280" y="3022.5010" z="42.2091" heading="177.1086"  />
+	<warpItem title="Dodo reward city" x="24.5313" y="864.5438" z="196.7443" heading="221.1507"  />
+	<warpItem title="Dodo reward country" x="1334.6785" y="4282.9653" z="30.9745" heading="169.4598"  />
+	
+	<breakItem />
+	
+	<launcherItem missionID="MGSRgf" 	x="15.6037" y="-1121.0293" z="27.8195" heading="337.2046"	file="not_needed.sc" 	author="SI_RP"	highlight="FALSE" 	labelID="LABEL_MINIGAME_SHOOTING_RANGE" enableID="SPEID_GAMEFLOW_ONLY" />
+	
+	<breakItem />
+	
+	<menuItem   title="Wildlife Photography"     file="SPDebug/SP_photography.xml" />
+
+	<breakItem />
+	
+	<codeItem	title="Photography Monkey - Jump to the previous mosaic"  	codeID="SPCID_LAST_MONKEY_MOSAIC" info="" />
+	<codeItem	title="Photography Monkey - Jump to the next mosaic"  		codeID="SPCID_NEXT_MONKEY_MOSAIC" info="" />
+	<warpItem missionID="RE47" title="RE Monkey"  file="re_monkey"   author="SI_SJB" percentage="0"	highlight="FALSE"  x="-383.5858" y="-68.6931" z="44.4105" heading="248.9069" info="" codeID="SPCID_UNLOCK_MONKEY_PHOTO_RE" labelID="LABEL_RE_YETARIAN" vehicleWarp="FALSE"/>
+	
+	<breakItem />
+
+	<warpItem title="Murder Mystery - Carving 1 Location" x="7.4407"	y="303.4680"	z="109.9194"	heading="33.7134" 	info=""  labelID="LABEL_MURDER_MYSTERY_P1" codeID="SPCID_LAUNCH_MURDER_MYSTERY"/>
+	<warpItem title="Murder Mystery - Carving 2 Location" x="187.0801"	y="-440.2917"	z="40.6563"		heading="339.2441" 	info=""  labelID="LABEL_MURDER_MYSTERY_P2" codeID="SPCID_LAUNCH_MURDER_MYSTERY"/>
+	<warpItem title="Murder Mystery - Carving 3 Location" x="288.8369"	y="202.6484"	z="103.3726"	heading="21.6816" 	info=""  labelID="LABEL_MURDER_MYSTERY_P3" codeID="SPCID_LAUNCH_MURDER_MYSTERY"/>
+	<warpItem title="Murder Mystery - Carving 4 Location" x="-416.6399"	y="1062.5173"	z="322.8411"	heading="79.4289" 	info=""  labelID="LABEL_MURDER_MYSTERY_P4" codeID="SPCID_LAUNCH_MURDER_MYSTERY"/>
+	<warpItem title="Murder Mystery - Sea Location" 	x="-3194.7625"	y="3049.5356"	z="-39.0939"	heading="210.3733" 	info="" labelID="LABEL_MURDER_MYSTERY_P5" codeID="SPCID_LAUNCH_MURDER_MYSTERY"/>
+	<warpItem title="Murder Mystery - Letter Location" 	x="-1021.4869"	y="-486.2855"	z="35.9949"		heading="306.5544" 	info="" labelID="LABEL_MURDER_MYSTERY_P6" codeID="SPCID_LAUNCH_MURDER_MYSTERY"/>
+	<warpItem title="Murder Mystery - Mine Location" 	x="-601.5818"	y="2101.1206"	z="128.3838"	heading="204.0706" 	info="" labelID="LABEL_MURDER_MYSTERY_P7" codeID="SPCID_LAUNCH_MURDER_MYSTERY"/>
+	
+	<breakItem />
+	
+	<menuItem   title="Peyote - Lowland"     file="SPDebug/SP_peyote_lowland.xml" />
+	<menuItem   title="Peyote - Highland"     file="SPDebug/SP_peyote_highland.xml" />
+	<menuItem   title="Peyote - Underwater"     file="SPDebug/SP_peyote_underwater.xml" />
+	<menuItem   title="Peyote - Secret"     file="SPDebug/SP_peyote_secret.xml" />
+	
+	<breakItem />
+
+	<codeItem	 title="Spawn Cheval Marshall"  codeID="SPCID_SPAWN_CHEV_MARHSALL" />
+	<codeItem	 title="Spawn Pisswasser Dominator"  codeID="SPCID_SPAWN_PISS_DOMIN" />
+	<codeItem	 title="Spawn Redwood Gauntlet"  codeID="SPCID_SPAWN_RED_GAUNT" />
+	<codeItem	 title="Spawn Sprunk Buffalo"  codeID="SPCID_SPAWN_SPRUNK_BUFF" />
+	<codeItem	 title="Spawn Xero Blimp"  codeID="SPCID_SPAWN_XERO_BLIMP" />
+	<codeItem	 title="Spawn Dukes"  codeID="SPCID_SPAWN_DUEL_CAR" />
+	<codeItem	 title="Spawn Bubble Sub"  codeID="SPCID_SPAWN_BUBBLE_SUB" />
+	<codeItem	 title="Spawn Dodo"  codeID="SPCID_SPAWN_DODO" />
+	<codeItem	 title="Spawn Blista Compact (Not in build)"  codeID="SPCID_SPAWN_BLISTA_COMACT" />
+	
+	<breakItem />
+	
+	<codeItem	 title="Equip Weapon Hatchet"  codeID="SPCID_EQUIP_NG_WEAPON_HATCHET" />
+	<codeItem	 title="Equip Weapon Railgun"  codeID="SPCID_EQUIP_NG_WEAPON_RAILGUN" />
+	
+	<breakItem />
+
+	<warpItem title="Warp to Stock Car Race 1" x="1967.0420"	y="3116.0051"	z="45.8901"	heading="0.0" 	info=""  labelID="LABEL_MINIGAME_COUNTRY_RACE" codeID="SPCID_COUNTRY_RACE_1_WARP"/>
+	<warpItem title="Warp to Stock Car Race 2" x="1967.0420"	y="3116.0051"	z="45.8901"	heading="0.0" 	info=""  labelID="LABEL_MINIGAME_COUNTRY_RACE" codeID="SPCID_COUNTRY_RACE_2_WARP"/>
+	<warpItem title="Warp to Stock Car Race 3" x="1967.0420"	y="3116.0051"	z="45.8901"	heading="0.0" 	info=""  labelID="LABEL_MINIGAME_COUNTRY_RACE" codeID="SPCID_COUNTRY_RACE_3_WARP"/>
+	<warpItem title="Warp to Stock Car Race 4" x="1967.0420"	y="3116.0051"	z="45.8901"	heading="0.0" 	info=""  labelID="LABEL_MINIGAME_COUNTRY_RACE" codeID="SPCID_COUNTRY_RACE_4_WARP"/>
+	<warpItem title="Warp to Stock Car Race 5" x="1967.0420"	y="3116.0051"	z="45.8901"	heading="0.0" 	info=""  labelID="LABEL_MINIGAME_COUNTRY_RACE" codeID="SPCID_COUNTRY_RACE_5_WARP"/>
+	<scriptItem title="Country Race Controller" file="Country_Race_Controller.sc" author="SI_JE" />
+		
+</DebugMenuItems>

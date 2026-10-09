@@ -1,0 +1,1 @@
+shader weapon_normal_spec_detail_palette

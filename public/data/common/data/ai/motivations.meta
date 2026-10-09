@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CPedMotivationInfoManager>
+	<aPedMotivation>
+		<Item>
+			<Name>PED_MOTIVATION_TYPE_DEFAULT</Name>
+			<Happy value="0.75"/>
+			<Anger value="0.0"/>
+			<Fear value="0.0"/>
+			<Hunger value="0.0"/>
+			<Tired value="0.0"/>
+			<HappyRate value="1"/>
+			<AngerRate value="1"/>
+			<FearRate value="1"/>
+			<HungerRate value="1"/>
+			<TiredRate value="1"/>
+		</Item>
+		<Item>
+			<Name>PED_MOTIVATION_TYPE_HAPPY</Name>
+			<Happy value="0.75"/>
+			<Anger value="0.0"/>
+			<Fear value="0.0"/>
+			<Hunger value="0.0"/>
+			<Tired value="0.0"/>
+			<HappyRate value="5"/>
+			<AngerRate value="1"/>
+			<FearRate value="1"/>
+			<HungerRate value="1"/>
+			<TiredRate value="1"/>
+		</Item>
+		<Item>
+			<Name>PED_MOTIVATION_TYPE_SAD</Name>
+			<Happy value="0.25"/>
+			<Anger value="0.0"/>
+			<Fear value="0.0"/>
+			<Hunger value="0.0"/>
+			<Tired value="0.0"/>
+			<HappyRate value="5"/>
+			<AngerRate value="1"/>
+			<FearRate value="1"/>
+			<HungerRate value="1"/>
+			<TiredRate value="1"/>
+		</Item>
+		<Item>
+			<Name>PED_MOTIVATION_TYPE_ANGRY</Name>
+			<Happy value="0.5"/>
+			<Anger value="0.5"/>
+			<Fear value="0.0"/>
+			<Hunger value="0.0"/>
+			<Tired value="0.0"/>
+			<HappyRate value="1"/>
+			<AngerRate value="10"/>
+			<FearRate value="1"/>
+			<HungerRate value="1"/>
+			<TiredRate value="1"/>
+		</Item>
+		<Item>
+			<Name>PED_MOTIVATION_TYPE_SCARED</Name>
+			<Happy value="0.5"/>
+			<Anger value="0.0"/>
+			<Fear value="0.4"/>
+			<Hunger value="0.0"/>
+			<Tired value="0.0"/>
+			<HappyRate value="1"/>
+			<AngerRate value="1"/>
+			<FearRate value="4"/>
+			<HungerRate value="1"/>
+			<TiredRate value="1"/>
+		</Item>
+	</aPedMotivation>
+</CPedMotivationInfoManager>

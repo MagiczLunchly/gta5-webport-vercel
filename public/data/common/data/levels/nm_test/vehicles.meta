@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CVehicleModelInfo__InitDataList>
+  <residentTxd>vehshare</residentTxd>
+  <InitDatas>
+	<Item>
+	  <modelName>barracks</modelName>
+	  <txdName>null</txdName>
+	  <handlingId>BARRACKS</handlingId>
+	  <gameName>BARRACKS</gameName>
+	  <expressionDictName>null</expressionDictName>
+	  <expressionName>null</expressionName>
+	  <animDictName>null</animDictName>
+	  <animConvRoofName>null</animConvRoofName>
+	  <layout>LAYOUT_TOURBUS</layout>
+	  <cameraName>DEFAULT_FOLLOW_VEHICLE_CAMERA</cameraName>
+      <aimCameraName>BOX_VEHICLE_AIM_CAMERA</aimCameraName>
+	  <bonnetCameraName>DEFAULT_VEHICLE_BONNET_CAMERA</bonnetCameraName>
+	  <vfxInfoName>VFXVEHICLEINFO_TRUCK_GENERIC</vfxInfoName>
+	  <shouldUseCinematicViewMode value="true" />
+	  <AllowPretendOccupants value="true" />
+	  <wheelScale value="0.297000" />
+	  <wheelScaleRear value="0.297000" />
+	  <dirtLevelMin value="0.900000" />
+	  <dirtLevelMax value="1.000000" />
+	  <envEffScaleMin value="0.000000" />
+	  <envEffScaleMax value="1.000000" />
+	  <envEffScaleMin2 value="0.000000" />
+	  <envEffScaleMax2 value="1.000000" />
+	  <damageMapScale value="1.000000" />
+	  <diffuseTint value="0x00FFFFFF" />
+	  <lodMult value="1.500000" />
+	  <steerWheelMult value="1.200000" />
+	  <lodDist value="300.000000" />
+	  <HDDist value="15.000000" />
+	  <frequency value="10" />
+	 <swankness>SWANKNESS_1</swankness>
+	  <maxNum value="999" />
+	  <flags>FLAG_BIG FLAG_NO_BOOT FLAG_AVOID_TURNS FLAG_DELIVERY</flags>
+	  <type>VEHICLE_TYPE_CAR</type>
+	  <trailers />
+	  <drivers />
+	  <scenarioPoints />
+	</Item>
+	<Item>
+	  <modelName>benson</modelName>
+	  <txdName>benson</txdName>
+	  <handlingId>BENSON</handlingId>
+	  <gameName>BENSON</gameName>
+	  <expressionDictName>null</expressionDictName>
+	  <expressionName>null</expressionName>
+	  <animDictName>null</animDictName>
+	  <animConvRoofName>null</animConvRoofName>
+	  <layout>LAYOUT_VAN</layout>
+	  <cameraName>DEFAULT_FOLLOW_VEHICLE_CAMERA</cameraName>
+      <aimCameraName>BOX_VEHICLE_AIM_CAMERA</aimCameraName>
+	  <bonnetCameraName>DEFAULT_VEHICLE_BONNET_CAMERA</bonnetCameraName>
+	  <vfxInfoName>VFXVEHICLEINFO_TRUCK_GENERIC</vfxInfoName>
+	  <shouldUseCinematicViewMode value="true" />
+	  <AllowPretendOccupants value="true" />
+	  <wheelScale value="0.297000" />
+	  <wheelScaleRear value="0.297000" />
+	  <dirtLevelMin value="0.000000" />
+	  <dirtLevelMax value="0.300000" />
+	  <envEffScaleMin value="0.000000" />
+	  <envEffScaleMax value="1.000000" />
+	  <envEffScaleMin2 value="0.000000" />
+	  <envEffScaleMax2 value="1.000000" />
+	  <damageMapScale value="1.000000" />
+	  <diffuseTint value="0x00FFFFFF" />
+	  <lodMult value="1.500000" />
+	  <steerWheelMult value="1.200000" />
+	  <lodDist value="300.000000" />
+	  <HDDist value="15.000000" />
+	  <frequency value="10" />
+	 <swankness>SWANKNESS_1</swankness>
+	  <maxNum value="999" />
+	  <flags>FLAG_BIG FLAG_NO_BOOT FLAG_AVOID_TURNS FLAG_DELIVERY FLAG_EXTRAS_REQUIRE</flags>
+	  <type>VEHICLE_TYPE_CAR</type>
+	  <trailers />
+	  <drivers />
+	  <scenarioPoints />
+	</Item>
+	<Item>
+      <modelName>buzzard</modelName>
+      <txdName>buzzard</txdName>
+      <handlingId>BUZZARD</handlingId>
+      <gameName>BUZZARD</gameName>
+      <expressionDictName>null</expressionDictName>
+      <expressionName>null</expressionName>
+      <animDictName>null</animDictName>
+      <animConvRoofName>null</animConvRoofName>
+      <layout>LAYOUT_HELI</layout>
+      <cameraName>FOLLOW_HELI_CAMERA</cameraName>
+      <aimCameraName>HELI_AIM_CAMERA</aimCameraName>
+      <bonnetCameraName>HELI_BONNET_CAMERA</bonnetCameraName>
+      <vfxInfoName>VFXVEHICLEINFO_HELI_GENERIC</vfxInfoName>
+      <shouldUseCinematicViewMode value="true" />
+      <AllowPretendOccupants value="false" />
+      <wheelScale value="0.200100" />
+      <wheelScaleRear value="0.117600" />
+      <dirtLevelMin value="0.000000" />
+      <dirtLevelMax value="0.300000" />
+      <envEffScaleMin value="0.000000" />
+      <envEffScaleMax value="1.000000" />
+      <envEffScaleMin2 value="0.000000" />
+      <envEffScaleMax2 value="1.000000" />
+      <damageMapScale value="1.000000" />
+      <diffuseTint value="0x00FFFFFF" />
+      <lodMult value="4.000000" />
+      <steerWheelMult value="1.200000" />
+      <lodDist value="300.000000" />
+      <HDDist value="15.000000" />
+      <frequency value="100" />
+     <swankness>SWANKNESS_4</swankness>
+      <maxNum value="999" />
+      <flags>FLAG_NO_BOOT FLAG_DRIVER_NO_DRIVE_BY FLAG_NO_RESPRAY</flags>
+      <type>VEHICLE_TYPE_HELI</type>
+      <trailers />
+      <drivers />
+      <scenarioPoints />
+    </Item>	
+	<Item>
+      <modelName>cuban800</modelName>
+      <txdName>cuban800</txdName>
+      <handlingId>CUBAN800</handlingId>
+      <gameName>CUBAN800</gameName>
+      <expressionDictName>null</expressionDictName>
+      <expressionName>null</expressionName>
+      <animDictName>va_cuban800</animDictName>
+      <animConvRoofName>drophatch</animConvRoofName>
+      <layout>LAYOUT_CUBAN_800</layout>
+      <cameraName>FOLLOW_PLANE2_CAMERA</cameraName>
+      <aimCameraName>PLANE_AIM_CAMERA</aimCameraName>
+      <bonnetCameraName>PLANE_BONNET_CAMERA</bonnetCameraName>
+      <vfxInfoName>VFXVEHICLEINFO_PLANE_GENERIC</vfxInfoName>
+      <shouldUseCinematicViewMode value="true" />
+      <AllowPretendOccupants value="false" />
+      <wheelScale value="0.200100" />
+      <wheelScaleRear value="0.117600" />
+      <dirtLevelMin value="0.000000" />
+      <dirtLevelMax value="0.300000" />
+      <envEffScaleMin value="0.000000" />
+      <envEffScaleMax value="1.000000" />
+      <envEffScaleMin2 value="0.000000" />
+      <envEffScaleMax2 value="1.000000" />
+      <damageMapScale value="1.000000" />
+      <diffuseTint value="0x00FFFFFF" />
+      <lodMult value="2.000000" />
+      <steerWheelMult value="1.200000" />
+      <lodDist value="300.000000" />
+      <HDDist value="15.000000" />
+      <frequency value="100" />
+     <swankness>SWANKNESS_4</swankness>
+      <maxNum value="999" />
+      <flags>FLAG_NO_BOOT FLAG_DRIVER_NO_DRIVE_BY</flags>
+      <type>VEHICLE_TYPE_PLANE</type>
+      <trailers />
+      <drivers />
+      <scenarioPoints />
+    </Item>  
+ 	<Item>
+	  <modelName>infernus</modelName>
+	  <txdName>infernus</txdName>
+	  <handlingId>INFERNUS</handlingId>
+	  <gameName>INFERNUS</gameName>
+	  <expressionDictName>null</expressionDictName>
+	  <expressionName>null</expressionName>
+	  <animDictName>null</animDictName>
+	  <animConvRoofName>null</animConvRoofName>
+	  <layout>LAYOUT_LOW</layout>
+	  <cameraName>DEFAULT_FOLLOW_VEHICLE_CAMERA</cameraName>
+      <aimCameraName>DEFAULT_THIRD_PERSON_VEHICLE_AIM_CAMERA</aimCameraName>
+	  <bonnetCameraName>DEFAULT_VEHICLE_BONNET_CAMERA</bonnetCameraName>
+	  <vfxInfoName>VFXVEHICLEINFO_CAR_GENERIC</vfxInfoName>
+	  <shouldUseCinematicViewMode value="true" />
+	  <AllowPretendOccupants value="true" />
+	  <wheelScale value="0.209400" />
+	  <wheelScaleRear value="0.209400" />
+	  <dirtLevelMin value="0.000000" />
+	  <dirtLevelMax value="0.300000" />
+	  <envEffScaleMin value="0.000000" />
+	  <envEffScaleMax value="1.000000" />
+	  <envEffScaleMin2 value="0.000000" />
+	  <envEffScaleMax2 value="1.000000" />
+	  <damageMapScale value="1.000000" />
+	  <diffuseTint value="0x00FFFFFF" />
+	  <lodMult value="1.000000" />
+	  <steerWheelMult value="1.200000" />
+	  <lodDist value="300.000000" />
+	  <HDDist value="15.000000" />
+	  <frequency value="20" />
+	 <swankness>SWANKNESS_2</swankness>
+	  <maxNum value="10" />
+      <flags>FLAG_SPAWN_ON_TRAILER</flags>
+	  <type>VEHICLE_TYPE_CAR</type>
+	  <trailers />
+	  <drivers />
+	  <scenarioPoints />
+	</Item> 
+	<Item>
+      <modelName>police</modelName>
+      <txdName>police</txdName>
+      <handlingId>POLICE</handlingId>
+      <gameName>POLICE</gameName>
+      <expressionDictName>null</expressionDictName>
+      <expressionName>null</expressionName>
+      <animDictName>null</animDictName>
+      <animConvRoofName>null</animConvRoofName>
+      <layout>LAYOUT_STANDARD</layout>
+      <cameraName>DEFAULT_FOLLOW_VEHICLE_CAMERA</cameraName>
+      <aimCameraName>DEFAULT_THIRD_PERSON_VEHICLE_AIM_CAMERA</aimCameraName>
+      <bonnetCameraName>DEFAULT_VEHICLE_BONNET_CAMERA</bonnetCameraName>
+      <vfxInfoName>VFXVEHICLEINFO_CAR_GENERIC</vfxInfoName>
+      <shouldUseCinematicViewMode value="true" />
+      <AllowPretendOccupants value="true" />
+      <wheelScale value="0.234500" />
+      <wheelScaleRear value="0.234500" />
+      <dirtLevelMin value="0.000000" />
+      <dirtLevelMax value="0.300000" />
+      <envEffScaleMin value="0.000000" />
+      <envEffScaleMax value="1.000000" />
+      <envEffScaleMin2 value="0.000000" />
+      <envEffScaleMax2 value="1.000000" />
+      <damageMapScale value="1.000000" />
+      <diffuseTint value="0x00FFFFFF" />
+      <lodMult value="1.000000" />
+      <steerWheelMult value="1.200000" />
+      <lodDist value="300.000000" />
+      <HDDist value="15.000000" />
+      <frequency value="100" />
+     <swankness>SWANKNESS_1</swankness>
+      <maxNum value="999" />
+      <flags>FLAG_HAS_LIVERY FLAG_EXTRAS_REQUIRE FLAG_LAW_ENFORCEMENT FLAG_EMERGENCY_SERVICE FLAG_NO_RESPRAY</flags>
+      <type>VEHICLE_TYPE_CAR</type>
+      <trailers />
+      <drivers>
+        <Item>S_M_Y_Cop_01</Item>
+      </drivers>
+      <scenarioPoints />
+    </Item>	
+  </InitDatas>
+  <txdRelationships>
+    <Item>
+      <parent>vehshare</parent>
+      <child>vehshare_truck</child>
+    </Item>
+    <Item>    
+      <parent>vehshare_truck</parent>
+      <child>barracks</child>
+    </Item>
+    <Item>
+      <parent>vehshare_truck</parent>
+      <child>barracks2</child>
+    </Item>
+    <Item>
+      <parent>vehshare_truck</parent>
+      <child>benson</child>
+    </Item>
+   </txdRelationships>
+</CVehicleModelInfo__InitDataList>

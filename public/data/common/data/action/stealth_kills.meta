@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CStealthKillTestContainer>
+  <aStealthKillTests>
+	<Item type="CStealthKillTest">
+      <Name>SKT_a</Name>
+      <ActionType>AT_MELEE</ActionType>
+      <StealthKillAction>ACT_stealth_kill_a</StealthKillAction>
+    </Item>
+    <Item type="CStealthKillTest">
+	  <Name>SKT_weapon</Name>
+	  <ActionType>AT_MELEE</ActionType>
+	  <StealthKillAction>ACT_stealth_kill_weapon</StealthKillAction>
+    </Item>
+    <Item type="CStealthKillTest">
+      <Name>SKT_b</Name>
+      <ActionType>AT_MELEE</ActionType>
+      <StealthKillAction>ACT_stealth_kill_b</StealthKillAction>
+    </Item>
+    <Item type="CStealthKillTest">
+      <Name>SKT_c</Name>
+      <ActionType>AT_MELEE</ActionType>
+      <StealthKillAction>ACT_stealth_kill_c</StealthKillAction>
+    </Item>
+    <Item type="CStealthKillTest">
+      <Name>SKT_d</Name>
+      <ActionType>AT_MELEE</ActionType>
+      <StealthKillAction>ACT_stealth_kill_d</StealthKillAction>
+    </Item>
+    <Item type="CStealthKillTest">
+      <Name>SKT_armed</Name>
+      <ActionType>AT_MELEE</ActionType>
+      <StealthKillAction>ACT_stealth_kill_a_gardener</StealthKillAction>
+    </Item>
+  </aStealthKillTests>
+</CStealthKillTestContainer>

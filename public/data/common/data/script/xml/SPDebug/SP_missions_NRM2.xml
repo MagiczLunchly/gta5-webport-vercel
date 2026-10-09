@@ -1,0 +1,12 @@
+<?xml version='1.0'?>
+<DebugMenuItems>
+	<codeItem	 title="Switch to Gameflow Mode"  codeID="SPCID_GAMEFLOW_ON" displayID="SPDID_GAMEFLOW_ON" />
+	<codeItem	 title="Switch to Debug Mode"  codeID="SPCID_GAMEFLOW_OFF" displayID="SPDID_GAMEFLOW_OFF" />
+	<breakItem />
+	
+	<menuItem	title="Survive Strand"				file="SPDebug/SP_NRM_Survive2.xml" 		/>
+	<menuItem	title="Rescue  Strand"				file="SPDebug/SP_NRM_Rescue2.xml" 		/>
+	<menuItem	title="Supplies Strand"				file="SPDebug/SP_NRM_Supplies2.xml" 		/>
+	<menuItem	title="Radio Strand"				file="SPDebug/SP_NRM_Radio2.xml" 		/>
+	
+</DebugMenuItems>

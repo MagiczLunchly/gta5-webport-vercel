@@ -1,0 +1,38 @@
+<!-- 
+	Use the toolItem node to start a script using the mission stack.
+	Make sure to add appropriate checks to your scripts so that they cleanup
+	as only one thread with the mission stack size is allowed.
+-->
+
+
+<?xml version='1.0'?>
+<DebugMenuItems>
+	<scriptItem title="STest FPS" file="fps_test.sc" author="SI_CF"/>
+	<scriptItem title="STest FPS MagDemo" file="fps_test_mag.sc" author="SI_CF"/>
+	<scriptItem title="STest Physics" file="AIcover_test.sc" author="SI_CF"/>
+	<scriptItem title="STest Streaming" file="streaming.sc" author="SI_CF"/>
+	<scriptItem title="Camera Coordinate Sender " file="cam_coord_sender" codeID="SPCID_ST_COORD_SENDER" author="SI_BW"	info="DM_INFO_VF"/>
+	<scriptItem title="Camera Coordinate Receiver " file="cam_coord_sender" codeID="SPCID_ST_COORD_RECEIVER" author="SI_BW"	info="DM_INFO_VF"/>
+	<scriptItem title="Component Checker" file="component_checker.sc" author="SI_KR" info="DM_INFO_CC"/>
+	<toolItem   title="Bugstar Mission Export" file="bugstar_mission_export.sc" author="SI_KR"/>
+	<missionItem   title="Generate Playthrough XML Files" file="playthrough_builderCLF.sc" info="DM_INFO_PB" codeID="SPCID_PLAYTHROUGH_BUILDERCLF"/>
+	<codeItem	title="Generate Playthrough XML Order"  codeID="SPCID_GENERATE_PLAYTHROUGHAGT" info="DM_INFO_094" />
+	<codeItem	title="Generate SP Rich-presence Order"  codeID="SPCID_GENERATE_RICH_PRESENCE" />
+	<codeItem	title="Generate SP Completion Order Stats XML"  codeID="SPCID_GENERATE_FLOW_CO_STAT_XML" />
+	<toolItem   title="Hud Creator Tool" file="hud_creator.sc"/>
+	<scriptItem title="Line Activation Test" file="line_activation_test.sc" author="SI_KR"/>
+	<scriptItem title="Live Recorder" file="liveRecorder.sc" author="SI_KB" info="DM_INFO_VP"/>
+	<scriptItem title="Node viewer script prototype" file="nodeViewer.sc" author="SI_RoB" info="DM_INFO_NV"/>
+	<scriptItem title="Re-record Recording" file="rerecord_recording.sc" author="SI_LK"	info="DM_INFO_RR"/>
+	<scriptItem title="Train Create Debug" file="train_create_widget.sc" author="SI_RoB" info="DM_INFO_TD"/>
+	<scriptItem title="Vehicle Force Widget" file="vehicle_force_widget.sc" author="SI_LK"	info="DM_INFO_VF"/>
+	<scriptItem title="Vehicle Number Plate Widget" file="vehicle_plate.sc" author="SI_BW"	info="DM_INFO_VF"/>
+	<scriptItem title="Vehicle recording playback" file="Veh_play_widget.sc" author="SI_DW" info="DM_INFO_VP"/>
+	<scriptitem title="Weapon Audio" file="weapon_audio_widget.sc"/>
+	<scriptItem title="Prop Drop" file="prop_drop.sc"/>
+	<scriptItem title="Train Tester" file="train_tester.sc"/>
+	<scriptItem title="Sexy Shooting Camera" file="shooting_camera.sc"/>
+	<scriptItem title="The Walking Ped" file="walking_ped.sc"/>
+	<scriptItem title="Speech Reverb Tracker" file="speech_reverb_tracker.sc"/>
+	<scriptItem title="Population Density Test" file="density_test.sc"/>
+</DebugMenuItems>

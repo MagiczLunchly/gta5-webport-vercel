@@ -1,0 +1,58 @@
+#
+# see default.ide for id ranges
+#
+# flags:
+# 0x01 gets streamed out after 1 car is generated (for dumpsters, MrWoopy etc)
+# 0x02 Don't use. Used by code internally.
+#
+# isvan - vehicle has van style rear doors.
+#
+# DefDirtLevel:
+# describes default level of dirt on newly created cars:
+# 0.0  -> dirt range is <0.0; 1.0> (full range - default)
+# 0.5  -> dirt range is <0.5; 1.0>
+# 0.75 -> dirt range is <0.75;1.0>
+# etc.
+#
+#
+
+# Texture dictionaries which are always resident
+# Must come before cars
+resident_txd
+
+vehshare
+
+end
+
+
+cars
+# Model name,   Txd name,	Type 		HandlingId	Game name, 	Layout			Frq	MaxNum		Wheel Radius 		DefDirtLevel	envEffScaleMin	envEffScaleMax	damageMapScale	Swankness	lodMult		HDdist	lodDist		CameraName	expressionDictName 		expressionName		MiscVar	flags (vehiclemodelinfo.h)
+#																Front	Rear
+# cars have two extra fields wheelmodelId and wheel scale
+# planes have one extra field model id of low level of detail
+
+barracks,	null,		car,		BARRACKS,	BARRACKS,	LAYOUT_TRUCK,		10,	999,		0.2970,	0.2970,		0.9,		0.0,		1.0,		1.0,		1,		1.5,		-1,	300,		DEFAULT_CAMERA		null			null			noboot+avoidturns+big+delivery+truckfirefx+truckexhaustfx+truckenginefx
+benson,		null,		car,		BENSON,		BENSON,		LAYOUT_TRUCK,		10,	999,		0.2970,	0.2970,		0.9,		0.0,		1.0,		1.0,		1,		1.5,		-1,	300,		DEFAULT_CAMERA		null			null			noboot+avoidturns+big+delivery+truckfirefx+truckexhaustfx+truckenginefx
+buzzard,	buzzard,	heli,		BUZZARD,	BUZZARD,	LAYOUT_HELI,		100,	999,		0.2001, 0.1176,	 	0.3,		0.0,		1.0,		1.0,		4,		4.0,		-1,	300,		FOLLOW_HELI_CAMERA	null			null			noboot
+cuban800,	cuban800,	plane,		CUBAN800,	CUBAN800,	LAYOUT_CUBAN_800,	100,	999,		0.2001, 0.1176,		0.3,		0.0,		1.0,		1.0,		4,		2.0,		-1,	300,		FOLLOW_HELI_CAMERA	null			null			noboot
+infernus,	infernus,	car,		INFERNUS,	INFERNUS,	LAYOUT_LOW,		100,	999,		0.2094,	0.2094,		1,		0.0,		1.0,		1.0,		2,		1.0,		-1,	300,		DEFAULT_CAMERA		null			null			-
+end
+
+# Set up streaming dependencies
+# child -> parent
+# child is dependent on parent
+# e.g. if car1 needs a the truck dictionary then use car1, vehshare_truck to load the truck textures with the car
+
+txdp
+
+vehshare_truck, vehshare
+
+end
+
+# Set up particle dependencies
+
+ptfx
+
+#sxr, sxr
+
+end

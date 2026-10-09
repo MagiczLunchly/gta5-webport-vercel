@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Settings>
+  <version value="9" />
+  <configSource>SMC_AUTO</configSource>
+  <graphics>
+    <Tessellation>High</Tessellation>
+    <LodScale value="1.000000" />
+    <PedLodBias value="0.200000" />
+    <VehicleLodBias value="0.150000" />
+    <ShadowQuality>High</ShadowQuality>
+    <ReflectionQuality>High</ReflectionQuality>
+    <SSAO value="true" />
+    <AnisotropicFiltering value="0" />
+    <MSAA value="0" />
+    <FXAA>High</FXAA>
+    <TextureQuality>High</TextureQuality>
+    <ParticleQuality>High</ParticleQuality>
+    <WaterQuality>High</WaterQuality>
+    <LightingQuality>High</LightingQuality>
+    <GrassQuality>High</GrassQuality>
+    <ChromaticAberration value="false" />
+    <ShaderQuality>High</ShaderQuality>
+    <MulticoreRendering value="false" />
+    <Shadow_SoftShadows>Medium</Shadow_SoftShadows>
+    <Shadow_ParticleShadows value="true" />
+    <Shadow_SceneLights value="true" />
+    <Shadow_Headlights value="false" />
+    <Shadow_Distance value="1.000000" />
+    <Shadow_LongShadows value="false" />
+    <Shadow_SplitZStart value="0.930000" />
+    <Shadow_SplitZEnd value="0.890000" />
+    <Shadow_aircraftExpWeight value="0.990000" />
+    <Reflection_MipBlur value="true" />
+    <Reflection_Resolution value="0" />
+    <FXAA_Enabled value="true" />
+    <FXAAPlaceholder2 value="4" />
+    <FXAAPlaceholder3 value="3.000000" />
+    <Texture_MipLodBias value="0" />
+    <TexturePlaceholder3 value="3.000000" />
+    <ParticlePlaceholder1 value="3" />
+    <ParticlePlaceholder2 value="true" />
+    <ParticlePlaceholder3 value="3.000000" />
+    <WaterPlaceholder1 value="3" />
+    <WaterPlaceholder2 value="true" />
+    <WaterPlaceholder3 value="3.000000" />
+    <Lighting_FogVolumes value="true" />
+    <LightingPlaceholder2 value="true" />
+    <LightingPlaceholder3 value="3.000000" />
+    <Shader_SSA value="false" />
+    <ShaderPlaceholder1 value="3" />
+    <ShaderPlaceholder3 value="3.000000" />
+  </graphics>
+  <system>
+    <numBytesPerReplayBlock value="9000000" />
+    <numReplayBlocks value="9" />
+    <maxSizeOfStreamingReplay value="1024" />
+  </system>
+  <audio>
+    <Audio3d value="false" />
+  </audio>
+  <video>
+    <AdapterIndex value="0" />
+    <OutputIndex value="0" />
+    <ScreenWidth value="1280" />
+    <ScreenHeight value="720" />
+    <RefreshRate value="60" />
+    <Windowed value="false" />
+    <VSync value="false" />
+  </video>
+</Settings>

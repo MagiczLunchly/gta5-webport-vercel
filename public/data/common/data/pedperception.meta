@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CPedPerceptionInfoManager>
+  <aPedPerceptionInfoData>
+    <Item>
+      <Name>DEFAULT_PERCEPTION</Name>
+      <EncroachmentRange value="25.0f" />
+      <EncroachmentCloseRange value="4.0f" />
+      <SeeingRange value="60.0f" />
+      <HearingRange value="60.0f" />
+      <SeeingRangePeripheral value="5.0f" />
+      <VisualFieldMinAzimuthAngle value="-90.0f" />
+      <VisualFieldMaxAzimuthAngle value="90.0f" />
+      <VisualFieldMinElevationAngle value="-75.0f" />
+      <VisualFieldMaxElevationAngle value="60.0f" />
+      <CentreFieldOfGazeMaxAngle value="60.0f" />
+      <CanAlwaysSenseEncroachingPlayers value="false"/>
+      <PerformEncroachmentChecksIn3D value="false" />
+    </Item>
+    <Item>
+      <Name>BARNYARD_PERCEPTION</Name>
+      <EncroachmentRange value="3.0f" />
+      <EncroachmentCloseRange value="1.5f" />
+      <SeeingRange value="70.0f" />
+      <HearingRange value="60.0f" />
+      <SeeingRangePeripheral value="10.0f" />
+      <VisualFieldMinAzimuthAngle value="-90.0f" />
+      <VisualFieldMaxAzimuthAngle value="90.0f" />
+      <VisualFieldMinElevationAngle value="-75.0f" />
+      <VisualFieldMaxElevationAngle value="60.0f" />
+      <CentreFieldOfGazeMaxAngle value="60.0f" />
+      <CanAlwaysSenseEncroachingPlayers value="false"/>
+      <PerformEncroachmentChecksIn3D value="false" />
+    </Item>
+    <Item>
+      <Name>BIRD_PERCEPTION</Name>
+      <EncroachmentRange value="25.0f" />
+      <EncroachmentCloseRange value="4.0f" />
+      <SeeingRange value="70.0f" />
+      <HearingRange value="60.0f" />
+      <SeeingRangePeripheral value="10.0f" />
+      <VisualFieldMinAzimuthAngle value="-90.0f" />
+      <VisualFieldMaxAzimuthAngle value="90.0f" />
+      <VisualFieldMinElevationAngle value="-75.0f" />
+      <VisualFieldMaxElevationAngle value="60.0f" />
+      <CentreFieldOfGazeMaxAngle value="60.0f" />
+      <CanAlwaysSenseEncroachingPlayers value="false"/>
+      <PerformEncroachmentChecksIn3D value="false" />
+    </Item>
+    <Item>
+      <Name>SHARK_PERCEPTION</Name>
+      <EncroachmentRange value="25.0f" />
+      <EncroachmentCloseRange value="4.0f" />
+      <SeeingRange value="70.0f" />
+      <HearingRange value="60.0f" />
+      <SeeingRangePeripheral value="10.0f" />
+      <VisualFieldMinAzimuthAngle value="-90.0f" />
+      <VisualFieldMaxAzimuthAngle value="90.0f" />
+      <VisualFieldMinElevationAngle value="-75.0f" />
+      <VisualFieldMaxElevationAngle value="60.0f" />
+      <CentreFieldOfGazeMaxAngle value="60.0f" />
+      <CanAlwaysSenseEncroachingPlayers value="true"/>
+      <PerformEncroachmentChecksIn3D value="false" />
+    </Item>
+    <Item>
+      <Name>FISH_PERCEPTION</Name>
+      <EncroachmentRange value="5.0f" />
+      <EncroachmentCloseRange value="4.0f" />
+      <SeeingRange value="60.0f" />
+      <HearingRange value="60.0f" />
+      <SeeingRangePeripheral value="5.0f" />
+      <VisualFieldMinAzimuthAngle value="-90.0f" />
+      <VisualFieldMaxAzimuthAngle value="90.0f" />
+      <VisualFieldMinElevationAngle value="-75.0f" />
+      <VisualFieldMaxElevationAngle value="60.0f" />
+      <CentreFieldOfGazeMaxAngle value="60.0f" />
+      <CanAlwaysSenseEncroachingPlayers value="false"/>
+      <PerformEncroachmentChecksIn3D value="false" />
+    </Item>
+    <Item>
+      <Name>LARGE_FISH_PERCEPTION</Name>
+      <EncroachmentRange value="10.0f" />
+      <EncroachmentCloseRange value="8.0f" />
+      <SeeingRange value="60.0f" />
+      <HearingRange value="60.0f" />
+      <SeeingRangePeripheral value="5.0f" />
+      <VisualFieldMinAzimuthAngle value="-90.0f" />
+      <VisualFieldMaxAzimuthAngle value="90.0f" />
+      <VisualFieldMinElevationAngle value="-75.0f" />
+      <VisualFieldMaxElevationAngle value="60.0f" />
+      <CentreFieldOfGazeMaxAngle value="60.0f" />
+      <CanAlwaysSenseEncroachingPlayers value="true"/>
+      <PerformEncroachmentChecksIn3D value="true" />
+    </Item>
+  </aPedPerceptionInfoData>
+</CPedPerceptionInfoManager>

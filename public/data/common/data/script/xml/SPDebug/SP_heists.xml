@@ -1,0 +1,11 @@
+<?xml version='1.0'?>
+<DebugMenuItems>
+	<codeItem	 title="Switch to Gameflow Mode"  codeID="SPCID_GAMEFLOW_ON" displayID="SPDID_GAMEFLOW_ON" />
+	<codeItem	 title="Switch to Debug Mode"  codeID="SPCID_GAMEFLOW_OFF" displayID="SPDID_GAMEFLOW_OFF" />
+	<breakItem />
+	<menuItem	title="DM_JEWL_H" 	file="SPDebug/SP_jewl_heist.xml" />
+	<menuItem	title="DM_PORT_H" 	file="SPDebug/SP_dock_heist.xml" />
+	<menuItem	title="DM_PALE_H" 	file="SPDebug/SP_rurl_heist.xml" />
+  	<menuItem	title="DM_AGN_H"  	file="SPDebug/SP_agency_heist.xml" />
+	<menuItem	title="DM_BIG_H"  	file="SPDebug/SP_finale_heist.xml" />
+</DebugMenuItems>

@@ -1,0 +1,33 @@
+// For each schedule (Northwood, North Holland etc) we have a set of numbers that controls the ped densities.
+// There is a set of values for each time of the day in 2 hour increments (midnight, 2am, 4 am etc)
+// There are 2 sets of values: Weekday & Weekend.
+// #Peds is the maximum number of ambient peds you can ever have.
+// #Scenario is the maximum number of scenario peds you can ever have.
+// #Cars is the maximum number of cars you can ever have.
+// #prkdcrs is the maximum number of parked cars you can ever have.
+// #lowprkdcrs is the maximum number of low priority parked cars you can ever have.
+// #PercCopCars is percentage of cars that are cop cars.
+// #PercCopPed is percentage of peds that are cops.
+// #MaxScenPeds is the max number of ped models that may be streamed in for scenarios.
+
+
+
+////////////////////////////////////////////////////////////////////
+POP_SCHEDULE:
+POP_Group_A
+// Weekday
+//
+//  #Peds  #Scenario #Cars  #prkdcrs #lowprkdcrs    PercCopCars PercCopPed  MaxScenPeds MaxScenVehs MaxPreAssignedParked
+      15     15         4      25         00           3           0           2           8                  1           peds  TESTPEDS 100  cars  TESTVEH 100
+      15     15         4      25         00           3           0           2           8                  1           peds  TESTPEDS 100  cars  TESTVEH 100
+      15     15         4      25         00           3           0           2           8                  1           peds  TESTPEDS 100  cars  TESTVEH 100
+      15     15         6      25         00           3           0           2           8                  1           peds  TESTPEDS 100  cars  TESTVEH 100
+      20     20         8      20         00           3           0           2           8                  1           peds  TESTPEDS 100  cars  TESTVEH 100
+      25     25         8      20         00           3           0           2           8                  1           peds  TESTPEDS 100  cars  TESTVEH 100
+      30     25         6      20         00           3           0           2           8                  1           peds  TESTPEDS 100  cars  TESTVEH 100
+      30     25         6      20         00           3           0           2           8                  1           peds  TESTPEDS 100  cars  TESTVEH 100
+      30     25         6      20         00           3           0           2           8                  1           peds  TESTPEDS 100  cars  TESTVEH 100
+      30     20         8      20         00           3           0           2           8                  1           peds  TESTPEDS 100  cars  TESTVEH 100
+      25     20         8      20         00           3           0           2           8                  1           peds  TESTPEDS 100  cars  TESTVEH 100
+      20     20         8      20         00           3           0           2           8                  1           peds  TESTPEDS 100  cars  TESTVEH 100
+END_POP_SCHEDULE

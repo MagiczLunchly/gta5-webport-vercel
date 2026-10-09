@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rage__ControlInput__ControlSettings>
+	<Mappings>
+		<!-- Plane/Heli -->
+		<Item>
+			<Input>INPUT_VEH_FLY_ROLL_LEFT_ONLY</Input>
+			<Source>IOMS_MOUSE_CENTEREDAXIS</Source>
+			<Parameters>
+				<Item>IOM_AXIS_X_LEFT</Item>
+			</Parameters>
+		</Item>
+		<Item>
+			<Input>INPUT_VEH_FLY_ROLL_RIGHT_ONLY</Input>
+			<Source>IOMS_MOUSE_CENTEREDAXIS</Source>
+			<Parameters>
+				<Item>IOM_AXIS_X_RIGHT</Item>
+			</Parameters>
+		</Item>
+		<Item>
+			<Input>INPUT_VEH_FLY_PITCH_UD</Input>
+			<Source>IOMS_MOUSE_CENTEREDAXIS</Source>
+			<Parameters>
+				<Item>IOM_AXIS_Y</Item>
+			</Parameters>
+		</Item>
+	</Mappings>
+</rage__ControlInput__ControlSettings>

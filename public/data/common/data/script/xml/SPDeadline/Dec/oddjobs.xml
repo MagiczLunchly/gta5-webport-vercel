@@ -1,0 +1,70 @@
+<?xml version='1.0'?>
+<DebugMenuItems>
+
+	<!-- December Oddjobs -->
+	
+	<warpItem missionID="OJHU1" title="Hunting1" file="Hunting1.sc" author="SI_RT" percentage="0" highlight="FALSE"  x="1783.0165" y="3929.4199" z="33.2229" heading="306.6864" codeID="SPCID_RANDOM_CHAR" character="CHAR_TREVOR"/>
+	
+	<missionItem  missionID="MGGF"   	info="MG_INFO_GF"     	file="Golf.sc" 		  	author="SI_AB"  percentage="0" 		highlight="FALSE" />
+	
+	<missionItem missionID="MGDT"  	file="Darts.sc" 		author="SI_LM"  	percentage="0" highlight="FALSE" info="MG_INFO_DT" />
+	
+	<missionItem missionID="MGAW" />
+	
+	<missionItem missionID="MGSRm" 	file="Range_Modern.sc" 	author="SI_RP"  percentage="0" highlight="FALSE" info="MG_INFO_SRm" />
+	
+	<warpItem missionID="MGSC" title="Strip Club" x="127.4747"  y="-1314.5795" z="28.1418" heading="1.00" />
+	
+	<warpItem 	 missionID="MGPS" 	title="Pilot School" 		file="PilotSchool.sc"	   author="SI_AR" 	 percentage="0" highlight="FALSE" info="DM_INFO_055" x="-1005.8986" y="-2420.9868" z="12.9446" heading="340.3800" codeID="SPCID_ALLOW_PILOT_SCHOOL" />	
+	
+	<warpItem 	 missionID="MGSP"  	author="SI_CB"  			percentage="0" 	highlight="FALSE" info="MG_INFO_SP" x="1735.4342" y="3299.8730" z="40.2261" heading="187.4690" codeID="SPCID_STUNT_RACE" />
+	
+	<warpItem missionID="MGOR1" 	author="SI_TS" 	highlight="FALSE"	x="-1939.4829" 	y="4443.9526" 	z="37.3474" 	heading="224.9652" 	codeID="SPCID_OFFROAD_RACES" />
+	<warpItem missionID="MGOR2" 	author="SI_TS" 	highlight="FALSE"	x="-1151.1224" 	y="2615.9690"	z="15.0706"		heading="299.6328" 	codeID="SPCID_OFFROAD_RACES" />
+	<warpItem missionID="MGOR3" 	author="SI_TS" 	highlight="FALSE"	x="-223.6755" 	y="4224.6436" 	z="43.7304" 	heading="89.8323" 	codeID="SPCID_OFFROAD_RACES" />
+	<warpItem missionID="MGOR4" 	author="SI_TS" 	highlight="FALSE"	x="1604.6387" 	y="3849.4060" 	z="31.7359" 	heading="279.36" 	codeID="SPCID_OFFROAD_RACES" />
+	<warpItem missionID="MGOR5" 	author="SI_TS" 	highlight="FALSE"	x="2037.6644" 	y="2137.3862" 	z="92.7095" 	heading="104.9267" 	codeID="SPCID_OFFROAD_RACES" />
+	
+	<launcherItem missionID="MGTR1"		author="SI_CarM"	highlight="FALSE" x="2454.2014" 	y="4139.3086" 	z="36.12" 	heading="117.2732" 	codeID="SPCID_TRIATHLON" />
+	<launcherItem missionID="MGTR2" 	author="SI_CarM"	highlight="FALSE" x="-1195.3547" 	y="-1997.6160" 	z="12.0445" heading="309.1299"	codeID="SPCID_TRIATHLON" />
+	<launcherItem missionID="MGTR3" 	author="SI_CarM"	highlight="FALSE" x="-59.7403" 		y="3685.3342" 	z="38.2275" heading="76.8876"	codeID="SPCID_TRIATHLON" />
+	
+	<missionItem missionID="TXm1" 	file="Taxi_TakeItEasy.sc" 		author="SI_JD" 	percentage="0" 	highlight="FALSE" 	info="OJ_INFO_TX1" />
+	<missionItem missionID="TXm2" 	file="Taxi_NeedExcitement.sc" 	author="SI_JD" 	percentage="0" 	highlight="FALSE" 	info="OJ_INFO_TX2" />
+	<missionItem missionID="TXm3" 	file="Taxi_Deadline.sc" 		author="SI_JD" 	percentage="0" 	highlight="FALSE" 	info="OJ_INFO_TX3" />
+	<missionItem missionID="TXm4" 	file="Taxi_FollowCar.sc" 		author="SI_JD" 	percentage="0" 	highlight="FALSE" 	info="OJ_INFO_TX4" />
+	<missionItem missionID="TXm6" 	file="Taxi_TakeToBest.sc" 		author="SI_JD" 	percentage="0" 	highlight="FALSE" 	info="OJ_INFO_TX6" />
+	<missionItem missionID="TXm7" 	file="Taxi_IKnowWay.sc" 		author="SI_JD" 	percentage="0" 	highlight="FALSE" 	info="OJ_INFO_TX7" />
+	<missionItem missionID="TXm8" 	file="Taxi_CutYouIn.sc" 		author="SI_JD" 	percentage="0" 	highlight="FALSE" 	info="OJ_INFO_TX8" />
+	<missionItem missionID="TXm9" 	file="Taxi_GotYouNow.sc" 		author="SI_JD" 	percentage="0" 	highlight="FALSE" 	info="OJ_INFO_TX9" />
+	<missionItem missionID="TXm10" 	file="Taxi_ClownCar.sc" 		author="SI_JD" 	percentage="0" 	highlight="FALSE" 	info="OJ_INFO_TX10" />
+	<missionItem missionID="TXm12" 	file="Taxi_GotYourBack.sc" 		author="SI_JD" 	percentage="0" 	highlight="FALSE" 	info="OJ_INFO_TX12" />
+	
+	<missionItem missionID="OJBJ1" file="bj.sc" codeID="SPCID_BASEJUMP"/>
+	<missionItem missionID="OJBJ2" file="bj.sc" codeID="SPCID_BASEJUMP"/>
+	<missionItem missionID="OJBJ3" file="bj.sc" codeID="SPCID_BASEJUMP"/>
+	<missionItem missionID="OJBJ4" file="bj.sc" codeID="SPCID_BASEJUMP"/>
+	<missionItem missionID="OJBJ5" file="bj.sc" codeID="SPCID_BASEJUMP"/>
+	<missionItem missionID="OJBJ6" file="bj.sc" codeID="SPCID_BASEJUMP"/>
+	<missionItem missionID="OJBJ7" file="bj.sc" codeID="SPCID_BASEJUMP"/>
+	
+	<warpItem missionID="OJDG1" 	author="SI_STM"	percentage="0" 	highlight="FALSE" info="" x="2120.63" y="4802.57" z="40.99" heading="222.39" codeID="SPCID_GROUND_TRAFFIC"/>
+	<warpItem missionID="OJDG2" 	author="SI_STM"	percentage="0"	highlight="FALSE" info="" x="2120.63" y="4802.57" z="40.99" heading="222.39" codeID="SPCID_GROUND_TRAFFIC"/>
+	<warpItem missionID="OJDG3" 	author="SI_STM"	percentage="0"	highlight="FALSE" info="" x="2120.63" y="4802.57" z="40.99" heading="222.39" codeID="SPCID_GROUND_TRAFFIC"/>
+	<warpItem missionID="OJDG4" 	author="SI_STM"	percentage="0"	highlight="FALSE" info="" x="2120.63" y="4802.57" z="40.99" heading="222.39" codeID="SPCID_GROUND_TRAFFIC"/>
+	
+	<warpItem missionID="OJDA1" 	author="SI_STM"	percentage="0" 	highlight="FALSE" info="" x="2120.63" y="4802.57" z="40.99" heading="222.39" codeID="SPCID_AIR_TRAFFIC"/>
+	<warpItem missionID="OJDA2" 	author="SI_STM"	percentage="0" 	highlight="FALSE" info="" x="2120.63" y="4802.57" z="40.99" heading="222.39" codeID="SPCID_AIR_TRAFFIC"/>
+	<warpItem missionID="OJDA3" 	author="SI_STM"	percentage="0" 	highlight="FALSE" info="" x="2120.63" y="4802.57" z="40.99" heading="222.39" codeID="SPCID_AIR_TRAFFIC"/>
+	<warpItem missionID="OJDA4" 	author="SI_STM"	percentage="0" 	highlight="FALSE" info="" x="2120.63" y="4802.57" z="40.99" heading="222.39" codeID="SPCID_AIR_TRAFFIC"/>
+
+	<missionItem missionID="OJTWB" file="debug_towing_brokendown.sc" 	author="SI_STM" percentage="0" highlight="FALSE" info="OJ_INFO_TOW" />
+	<missionItem missionID="OJTWT" file="debug_towing_train.sc" 	author="SI_STM" percentage="0" highlight="FALSE" info="OJ_INFO_TOW" />
+	<missionItem missionID="OJTWH" file="debug_towing_handicap.sc" 	author="SI_STM" percentage="0" highlight="FALSE" info="OJ_INFO_TOW" />
+	<missionItem missionID="OJTWA" file="debug_towing_abandoned.sc" 	author="SI_STM" percentage="0" highlight="FALSE" info="OJ_INFO_TOW" />
+	
+	<missionItem missionID="OJAhk" 	file="Assassin_Hooker.sc"		author="SI_MB"  percentage="0" highlight="FALSE" info="OJ_INFO_AShk" character="CHAR_TREVOR" />
+	<missionItem missionID="OJAva" 	file="Assassin_Valet.sc" 		author="SI_MB" 	percentage="0" highlight="FALSE" info="OJ_INFO_ASva" character="CHAR_TREVOR" />
+	<missionItem missionID="OJAcs" 	file="Assassin_Construction.sc" author="SI_MB" 	percentage="0" highlight="FALSE" info="OJ_INFO_AScs" character="CHAR_TREVOR" />
+	
+</DebugMenuItems>									  

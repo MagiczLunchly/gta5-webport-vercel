@@ -1,0 +1,20 @@
+<!-- 	
+	This is the file we use to specify which files to search through when generating the playthrough mission list.					
+	The node and attribute names are specifically for the playthrough_builder.sc script, not the debug menu. 						
+		menuFile:  		This will be the playthrough order menu that lists the playthrough pages we generate.						
+		pageFile:  		The mission pages that we generate - The playthrough builder will replace XXX with the actual page number.	
+		orederFile:  	The file that stores the order of missions by file name. This is the file that is generated using the mid-flow launcher tool.
+		file0-file22: 	The files that we grab the missions from.																	
+		listSize:	 	The amount of missions we can have in each playthrough page.												
+-->		
+
+<?xml version='1.0'?>
+<DebugMenuItems>
+	<listItem	listSize="1"
+				
+				menuFile="SPPlaythrough/SP_playthroughZMB.xml"
+				pageFile="SPPlaythrough/SP_playthroughZMB_XXX.xml"
+				orderFile="SPPlaythrough/SP_playthroughZMB_order.xml"
+				
+				file0="SPDebug/SP_ZMB_START.xml"  />
+</DebugMenuItems>

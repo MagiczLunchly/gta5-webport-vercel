@@ -1,0 +1,1 @@
+shader grass_camera_aligned

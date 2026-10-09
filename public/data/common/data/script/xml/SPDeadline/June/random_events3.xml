@@ -1,0 +1,79 @@
+<?xml version='1.0'?>
+<DebugMenuItems>
+
+	<!-- June Random Events 3/3 -->
+	<warpItem missionID="RE36" title="Mountain Dancer" file="re_mountdance"   author="SI_VE"	percentage="0"	highlight="FALSE" 
+	x="177.1405" y="2247.0100" z="89.4985" heading="93.0541"  
+	x1="222.7636" y1="2285.5522" z1="80.9026" heading1="156.9852"
+	x2="47.1829" y2="2286.9351" z2="105.8773" heading2="277.5339"
+	info="DM_INFO_A66" codeID="SPCID_RANDOM_EVENT" labelID="LABEL_RE_BATCH_POST_TREV3" vehicleWarp="TRUE"/>
+
+	<warpItem missionID="RE37A" title="Mugging1" file="re_muggings"   author="SI_VE"	percentage="0"	highlight="FALSE"
+	x="-43.3955" y="-1574.3843" z="28.3317" heading="49.9883"
+	x1="-145.7675" y1="-1714.6014" z1="29.0104" heading1="49.5806"
+	info="DM_INFO_A16" codeID="SPCID_RANDOM_EVENT" labelID="LABEL_RE_BATCH_POST_ARM1" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE37B" title="Mugging2" file="re_muggings"   author="SI_VE"	percentage="0"	highlight="FALSE"
+	x="374.9528" y="-171.1843" z="61.1262" heading="163.8236"
+	x1="190.7858" y1="-220.0871" z1="52.8302" heading1="251.6712"
+	info="DM_INFO_A16" codeID="SPCID_RANDOM_EVENT" labelID="LABEL_RE_BATCH_POST_ARM1" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE37C" title="Mugging3" file="re_muggings"   author="SI_VE"	percentage="0"	highlight="FALSE"
+	x="-413.9024" y="-830.3554" z="30.3330" heading="263.5457"
+	info="DM_INFO_A16" codeID="SPCID_RANDOM_EVENT" labelID="LABEL_RE_BATCH_POST_ARM1" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE37D" title="Mugging4" file="re_muggings"   author="SI_VE"	percentage="0"	highlight="FALSE" 
+	x="-77.9899" y="-1108.6609" z="24.8228" heading="341.2845"
+	x1="-14.5246" y1="-963.4518" z1="28.2634" heading1="251.4291"
+	codeID="SPCID_RANDOM_EVENT" labelID="LABEL_RE_BATCH_POST_ARM1" vehicleWarp="TRUE"/>
+		
+	<warpItem missionID="RE37E" title="Mugging5" file="re_muggings"   author="SI_VE"	percentage="0"	highlight="FALSE"
+	x="327.0698" y="-773.2176" z="28.2990" heading="337.3379"
+	x1="363.7940" y1="-623.6365" z1="27.8147" heading1="152.2135"
+	codeID="SPCID_RANDOM_EVENT" labelID="LABEL_RE_BATCH_POST_ARM1" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE44A" title="Prisoner Lift1" file="re_prisonerlift"  author="SI_VE"	percentage="0"	highlight="FALSE" character="CHAR_TREVOR"
+	x="1497.2091" y="1949.0706" z="103.4079" heading="344.3534"
+	info="DM_INFO_A54" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TREV3" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE44B" title="Prisoner Lift2" file="re_prisonerlift"  author="SI_VE"	percentage="0"	highlight="FALSE" character="CHAR_TREVOR"
+	x="1270.8925" y="2637.0723" z="36.6391" heading="210.5237"
+	x1="1407.8574" y1="2332.5771" z1="73.5784" heading1="27.6345"
+	info="DM_INFO_A54" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TREV3" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE47" title="RC Challenge Mode" file="re_rc_challenge"  author="SI_ChM"	percentage="0"	highlight="FALSE" 
+	x="-1103.7147" y="-932.8749" z="1.5887" heading="178.2628"
+	info="DM_INFO_A49" codeID="SPCID_RANDOM_EVENT" labelID="LABEL_RE_BATCH_POST_FBI5" character="CHAR_MICHAEL"/>
+
+	<warpItem missionID="RE48" title="Rescue Hostage" file="re_rescuehostage"  author="SI_ChM"	percentage="0"	highlight="FALSE" 
+	x="-180.7292" y="6345.0483" z="30.2821" heading="314.6517"
+	x1="-51.0990" y1="6490.3174" z1="30.3168" heading1="137.6918" 
+	x2="-165.1188" y2="6465.1729" z2="29.7342" heading2="224.2024"
+	info="DM_INFO_A50" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_NICEH" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE56" title="Tow Truck" file="re_towtruck.sc" author="SI_ChM" percentage="0" highlight="FALSE" 
+	x="185.3759" y="-809.9130" z="30.1547" heading="72.4646"
+	info="DM_INFO_A40" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TREV3" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE59" title="Wanderer" file="re_wanderer.sc" author="SI_BC" percentage="0" highlight="FALSE" 
+	x="582.1641" y="288.0886" z="102.8168" heading="187.0640"
+	x1="679.6877" y1="215.2952" z1="92.1647" heading1="68.0335"
+	info="DM_INFO_A46" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_FBI5" vehicleWarp="TRUE"/>	
+
+	<warpItem missionID="RE51A" title="Shop Robbery1" file="re_shoprobbery.sc" author="SI_VE" percentage="0" highlight="FALSE" 
+	x="-821.3705" y="-206.4492" z="36.3263" heading="31.1336"
+	info="DM_INFO_A31" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_ARM1" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE51B" title="Shop Robbery2" file="re_shoprobbery.sc" author="SI_VE" percentage="0" highlight="FALSE" 
+	x="-1203.4989" y="-795.2637" z="15.2566" heading="37.4466"
+	info="DM_INFO_A31" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_ARM1" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE52" title="Stag Do Running Man" file="re_stag_do.sc"	author="SI_KW"	percentage="0"	highlight="FALSE"	
+	x="-1228.7178" y="2559.3855" z="15.5370" heading="315.4558"
+	info="DM_INFO_A02" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TREV1" vehicleWarp="TRUE" hour="6"/>
+	
+	<warpItem missionID="RE58" title="Ungrateful Whore" file="re_ungratefulwhore.sc"   author="SI_KW"	percentage="0"	highlight="FALSE" character="CHAR_TREVOR"
+	x="512.9659" y="-2541.9822" z="5.0797" heading="252.6692"
+	info="DM_INFO_A20" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_FBI5"/>
+	
+</DebugMenuItems>									  

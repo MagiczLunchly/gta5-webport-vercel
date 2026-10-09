@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<DebugMenuItems>
+
+	<!-- Oddjobs -->
+	<launcherItem missionID="OJBJ1" file="not_needed.sc" x="-972.1300" y="-1474.2400" z="4.0400" codeID="SPCID_BASEJUMP" labelID="LABEL_MINIGAME_BASEJUMPING" enableID="SPEID_GAMEFLOW_ONLY" />
+	<launcherItem missionID="OJBJ2" file="not_needed.sc" x="1048.7888" y="0.9192" z="80.8247" codeID="SPCID_BASEJUMP" labelID="LABEL_MINIGAME_BASEJUMPING" enableID="SPEID_GAMEFLOW_ONLY" />
+	<launcherItem missionID="OJBJ3" file="not_needed.sc" x="2500.9700" y="1600.9300" z="32.5583" codeID="SPCID_BASEJUMP" labelID="LABEL_MINIGAME_BASEJUMPING" enableID="SPEID_GAMEFLOW_ONLY" />
+	<launcherItem missionID="OJBJ4" file="not_needed.sc" x="-272.8936" y="6632.8672" z="6.4235" codeID="SPCID_BASEJUMP" labelID="LABEL_MINIGAME_BASEJUMPING" enableID="SPEID_GAMEFLOW_ONLY" />
+	<launcherItem missionID="OJBJ5" file="not_needed.sc" x="-152.0392" y="-875.2369" z="28.4876" codeID="SPCID_BASEJUMP" labelID="LABEL_MINIGAME_BASEJUMPING" enableID="SPEID_GAMEFLOW_ONLY" />
+	<launcherItem missionID="OJBJ6" file="not_needed.sc" x="-109.0655" y="-950.3270" z="27.4154" codeID="SPCID_BASEJUMP" labelID="LABEL_MINIGAME_BASEJUMPING" enableID="SPEID_GAMEFLOW_ONLY" />
+	<launcherItem missionID="OJBJ7" file="not_needed.sc" x="-1319.2898" y="4479.5210" z="21.7673" codeID="SPCID_BASEJUMP" labelID="LABEL_MINIGAME_BASEJUMPING" enableID="SPEID_GAMEFLOW_ONLY" />
+	<launcherItem missionID="OJBJ8" file="not_needed.sc" x="-456.5309" y="4538.7437" z="96.9054" codeID="SPCID_BASEJUMP" labelID="LABEL_MINIGAME_BASEJUMPING" enableID="SPEID_GAMEFLOW_ONLY" />
+	<launcherItem missionID="OJBJ9" file="not_needed.sc" x="-773.9359" y="305.3507" z="84.6992" codeID="SPCID_BASEJUMP" labelID="LABEL_MINIGAME_BASEJUMPING" enableID="SPEID_GAMEFLOW_ONLY" />
+	<launcherItem missionID="OJBJ10" file="not_needed.sc" x="-776.5998" y="4413.8945" z="15.7615" codeID="SPCID_BASEJUMP" labelID="LABEL_MINIGAME_BASEJUMPING" enableID="SPEID_GAMEFLOW_ONLY" />
+	<launcherItem missionID="OJBJ11" file="not_needed.sc" x="2475.5400" y="4992.8500" z="45.3161" codeID="SPCID_BASEJUMP" labelID="LABEL_MINIGAME_BASEJUMPING" enableID="SPEID_GAMEFLOW_ONLY" />
+	<launcherItem missionID="OJBJ12" file="not_needed.sc" x="1052.0800" y="-179.1000" z="69.1700" codeID="SPCID_BASEJUMP" labelID="LABEL_MINIGAME_BASEJUMPING" enableID="SPEID_GAMEFLOW_ONLY" />
+	<launcherItem missionID="OJBJ13" file="not_needed.sc" x="-771.9196" y="4400.4526" z="17.5786" codeID="SPCID_BASEJUMP" labelID="LABEL_MINIGAME_BASEJUMPING" enableID="SPEID_GAMEFLOW_ONLY" />
+	
+	<breakItem/>
+	<launcherItem 	missionID="MGPSgf" 		file="not_needed.sc" 	author="SI_AR"  percentage="0" 		highlight="FALSE" info="DM_INFO_055" x="-1154.11" y="-2715.203" z="18.8824" heading="340.3800" enableID="SPEID_GAMEFLOW_ONLY" labelID="LABEL_MINIGAME_PILOT_SCHOOL"/>
+	<breakItem/>
+	<warpItem 	 	missionID="MGSP"  		author="SI_CB"  		percentage="0" 	highlight="FALSE" 	info="MG_INFO_SP" x="1735.43" y="3299.87" z="40.23" heading="187.47" codeID="SPCID_STUNT_RACE" labelID="LABEL_MINIGAME_STUNT_PLANE" enableID="SPEID_GAMEFLOW_ONLY" />
+	<breakItem/>
+	<launcherItem missionID="OJTCgf" 	x="-3.0874" y="-1464.0110" z="29.5709" heading="138.7922"	file="not_needed.sc" 	author="SI_RP"	highlight="FALSE" character="CHAR_FRANKLIN"	codeID="SPCID_TOWING" labelID="LABEL_MINIGAME_TOWING" enableID="SPEID_GAMEFLOW_ONLY"/>
+	
+	<launcherItem missionID="OJTWA" file="not_needed.sc" 	author="SI_STM" percentage="0" highlight="FALSE" info="OJ_INFO_TOW" character="CHAR_FRANKLIN"	codeID="SPCID_TOWING" enableID="SPEID_GAMEFLOW_ONLY" labelID="LABEL_MINIGAME_TOWING"/>
+	<launcherItem missionID="OJTWB" file="not_needed.sc" 	author="SI_STM" percentage="0" highlight="FALSE" info="OJ_INFO_TOW" character="CHAR_FRANKLIN"	codeID="SPCID_TOWING" enableID="SPEID_GAMEFLOW_ONLY" labelID="LABEL_MINIGAME_TOWING"/>
+	<launcherItem missionID="OJTWH" file="not_needed.sc" 	author="SI_STM" percentage="0" highlight="FALSE" info="OJ_INFO_TOW" character="CHAR_FRANKLIN"	codeID="SPCID_TOWING" enableID="SPEID_GAMEFLOW_ONLY" labelID="LABEL_MINIGAME_TOWING"/>	
+	<launcherItem missionID="OJTWT" file="not_needed.sc" 	author="SI_STM" percentage="0" highlight="FALSE" info="OJ_INFO_TOW" character="CHAR_FRANKLIN"	codeID="SPCID_TOWING" enableID="SPEID_GAMEFLOW_ONLY" labelID="LABEL_MINIGAME_TOWING"/>
+	<launcherItem missionID="OJTWN" file="not_needed.sc" 	author="SI_STM" percentage="0" highlight="FALSE" info="OJ_INFO_TOW" character="CHAR_FRANKLIN"	codeID="SPCID_TOWING" enableID="SPEID_GAMEFLOW_ONLY" labelID="LABEL_MINIGAME_TOWING"/>
+	
+	<breakItem/>
+	<missionItem missionID="DRF2" file="drf2.sc" author="SI_DJ" percentage="0" highlight="FALSE" info="Evil"         codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER"/>
+	<missionItem missionID="DRF3" file="drf3.sc" author="SI_DJ" percentage="0" highlight="FALSE" info="Negativity"   codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER"/>
+	
+	<breakItem/>
+	<warpItem missionID="OJTX1"		title = "Taxi - Need Excitement"  				file="taxi_needexcitement.sc" 	author="SI_JD" 		highlight="FALSE"	x="-374.87173"	y="-378.19510"	z="30.34074"	heading="75.8"		vehicleWarp="TRUE"	codeID="SPCID_PROPERTY_MANAGEMENT"/>	 	
+	<warpItem missionID="OJTX2"		title = "Taxi - Take It Easy"  					file="taxi_takeiteasy.sc" 		author="SI_JD" 		highlight="FALSE"	x="151.07526"	y="366.33109"	z="109.87239"	heading="106.5"		vehicleWarp="TRUE"	codeID="SPCID_PROPERTY_MANAGEMENT"/>
+	<warpItem missionID="OJTX3"		title = "Taxi - Deadline"  						file="taxi_deadline.sc" 		author="SI_JD" 		highlight="FALSE"	x="2095.38428"	y="3742.78467"	z="31.99674"	heading="118.2"		vehicleWarp="TRUE"	codeID="SPCID_PROPERTY_MANAGEMENT"/>
+	<warpItem missionID="OJTX4"		title = "Taxi - Got Your Back"  				file="Taxi_GotYourBack.sc" 		author="SI_JD" 		highlight="FALSE"	x="137.15361"	y="-1127.22656"	z="28.29832"	heading="88.1"		vehicleWarp="TRUE"	codeID="SPCID_PROPERTY_MANAGEMENT"/>	
+	<warpItem missionID="OJTX5"		title = "Taxi - Take To Best"  					file="Taxi_taketobest.sc" 		author="SI_JD" 		highlight="FALSE"	x="-320.40778"	y="1197.29187"	z="320.77994"	heading="126.7"		vehicleWarp="TRUE"	codeID="SPCID_PROPERTY_MANAGEMENT"/>	
+	<warpItem missionID="OJTX7"		title = "Taxi - Cut You In"  					file="taxi_cutyouin.sc" 		author="SI_JD" 		highlight="FALSE"	x="-1077.89636"	y="-2619.84985"	z="12.81731"	heading="166.9"		vehicleWarp="TRUE"	codeID="SPCID_PROPERTY_MANAGEMENT"/>
+	<warpItem missionID="OJTX8"		title = "Taxi - Got You Now"  					file="taxi_gotyounow.sc" 		author="SI_JD" 		highlight="FALSE"	x="-1499.24182"	y="223.33727"	z="59.00932"	heading="138.4"		vehicleWarp="TRUE"	codeID="SPCID_PROPERTY_MANAGEMENT"/>	
+	<warpItem missionID="OJTX9"		title = "Taxi - Clown Car"  					file="taxi_clowncar.sc" 		author="SI_JD" 		highlight="FALSE"	x="-1187.56494"	y="254.78500"	z="66.86243"	heading="99.2"		vehicleWarp="TRUE"	codeID="SPCID_PROPERTY_MANAGEMENT"/>
+	<warpItem missionID="OJTX10"	title = "Taxi - Follow Car" 					file="taxi_followcar.sc" 		author="SI_JD" 		highlight="FALSE"	x="1484.72888"	y="-1492.71179"	z="65.95081"	heading="125.4"		vehicleWarp="TRUE"	codeID="SPCID_PROPERTY_MANAGEMENT"/>
+	
+</DebugMenuItems>

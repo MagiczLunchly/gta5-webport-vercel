@@ -1,0 +1,54 @@
+<?xml version='1.0'?>
+<DebugMenuItems>
+
+	<!-- March Missions -->
+	
+	<missionItem missionID="ARM3" file="armenian3.sc" author="SI_AL" percentage="50" highlight="FALSE" info="DM_INFO_074" character="CHAR_FRANKLIN" />
+	<missionItem missionID="TRV5" 	file="Trevor5.sc" 			author="SI_BR" percentage="0" highlight="FALSE" info="DM_INFO_124" 	character="CHAR_TREVOR"/>
+	
+	<missionItem missionID="DH2A" file="docks_heistA.sc" codeID="SPCID_HEIST_DOCKS_BUY_SUB" author="SI_AW" percentage="0" highlight="FALSE" info="DM_INFO_079" character="CHAR_MICHAEL"/>
+	<missionItem missionID="DH2B" file="docks_heistB.sc" codeID="SPCID_HEIST_DOCKS_STEAL_SUB" author="SI_AW" percentage="0" highlight="FALSE" info="DM_INFO_079" character="CHAR_TREVOR"/>
+	<missionItem missionID="TRV1" 	file="Trevor1.sc" 			author="SI_BW" percentage="0" highlight="FALSE" x="1979.7394" y="3817.1116" z="31.4333" heading="329.4789" info="DM_INFO_098" 	character="CHAR_TREVOR"/>
+	<missionItem missionID="TRV2" 	file="Trevor2.sc" 			author="SI_RC" percentage="0" highlight="FALSE" info="DM_INFO_099" 	character="CHAR_TREVOR"/>
+	
+	<missionItem missionID="SOL1" file="Solomon1.sc" author="SI_DG" percentage="0" highlight="FALSE" x="-1155.5918" y="-523.2982" z="31.5893" heading="216.1872" info="DM_INFO_112" character="CHAR_MICHAEL"/>
+	<missionItem missionID="SOL3B" file="Solomon3b.sc" author="SI_BB" percentage="0" highlight="FALSE" info="DM_INFO_114" character="CHAR_MICHAEL"/>
+	<missionItem missionID="TRV4" 	file="Trevor4.sc" 			author="SI_BR" percentage="0" highlight="FALSE" info="DM_INFO_089" 	character="CHAR_TREVOR"/>
+	
+	<missionItem missionID="FIN1"  file="finale1.sc"  author="SI_TBC" percentage="0" highlight="FALSE" character="CHAR_FRANKLIN"/>
+	<missionItem missionID="FIN2"  file="finale2.sc"  author="SI_TBC" percentage="0" highlight="FALSE" character="CHAR_FRANKLIN"/>
+	<missionItem missionID="RH1" file="rural_bank_setup.sc" codeID="SPCID_HEIST" author="SI_BR" percentage="0" highlight="FALSE" info="DM_INFO_138" character="CHAR_MICHAEL"/>
+	
+	<missionItem missionID="CHN2" file="chinese2.sc" author="SI_DW" percentage="0" highlight="FALSE" info="DM_INFO_088" character="CHAR_TREVOR" x="1981.2803" y="3816.9885" z="31.3819"/>
+	<missionItem missionID="TRV3" 	file="Trevor3.sc" 			author="SI_BW" percentage="0" highlight="FALSE" info="DM_INFO_088" 	character="CHAR_TREVOR"/>
+	
+	<missionItem missionID="CHN1" file="chinese1.sc" author="SI_LK" percentage="0" highlight="FALSE" info="DM_INFO_087" character="CHAR_TREVOR"/>
+	<missionItem missionID="EXL2" file="Exile2.sc" author="SI_MB" percentage="0" highlight="FALSE" info="DM_INFO_084" character="CHAR_MICHAEL"/>
+	<missionItem missionID="FBI1" file="FBI1.sc" author="SI_BR" percentage="0" highlight="FALSE" info="DM_INFO_053" character="CHAR_MICHAEL"/>
+	
+	<missionItem missionID="FRA1" 	file="Franklin1.sc" author="SI_BR" percentage="0" highlight="FALSE" info="DM_INFO_127" 	character="CHAR_FRANKLIN"/>
+	<missionItem missionID="MIC1" file="Michael1.sc" author="SI_BR" percentage="0" highlight="FALSE" info="DM_INFO_123" character="CHAR_MICHAEL"/>
+	<missionItem missionID="FAM3" file="Family3.sc" author="SI_JM" percentage="25" highlight="FALSE" info="DM_INFO_075" character="CHAR_MICHAEL"/>
+	
+	<missionItem missionID="FH1"  file="finale_heist1.sc"  codeID="SPCID_HEIST" author="SI_TBC" percentage="0" highlight="FALSE" info="DM_INFO_135" character="CHAR_MICHAEL"/>
+	<missionItem missionID="FH2A"  file="finale_heist2A.sc"  codeID="SPCID_HEIST_FINALE_TRAFFIC" author="SI_TBC" percentage="0" highlight="FALSE" info="DM_INFO_136" character="CHAR_MICHAEL"/>
+  	<missionItem missionID="FH2B" file="finale_heist2B.sc" codeID="SPCID_HEIST_FINALE_CHOPPER" author="SI_TBC" percentage="0" highlight="FALSE" info="DM_INFO_137" character="CHAR_MICHAEL"/>
+	<missionItem missionID="LM1" file="Lamar1.sc" author="SI_MB" percentage="0" highlight="FALSE" info="DM_INFO_100" character="CHAR_FRANKLIN"/>
+	<missionItem missionID="ARM1" file="armenian1.sc" author="SI_MB" percentage="50" highlight="FALSE" info="DM_INFO_072" character="CHAR_FRANKLIN"/>
+	
+	<missionItem missionID="LS1A" file="Lester1A.sc" author="SI_JM" percentage="0" highlight="FALSE" info="DM_INFO_108" character="CHAR_MICHAEL"/>
+	<missionItem missionID="MIC3" file="Michael3.sc" author="SI_TBD" percentage="50" highlight="FALSE" info="DM_INFO_086" character="CHAR_MICHAEL"/>
+	<missionItem missionID="AH3b"  file="agency_heist3B.sc" codeID="SPCID_HEIST_AGENCY_HELICOPTER" author="SI_MW" percentage="0" highlight="FALSE" x="97.6772" y="-1290.7390" z="28.2688" heading="300.0000" interior="v_strip3" character="CHAR_MICHAEL" info="DM_INFO_154"/>
+	
+	<missionItem missionID="AH1"  file="agency_heist1.sc"  codeID="SPCID_HEIST" author="SI_PD" percentage="0" highlight="FALSE" info="DM_INFO_001" x="97.6772" y="-1290.7390" z="28.2688" heading="300.0000" interior="v_strip3" character="CHAR_MICHAEL"/>
+	<missionItem missionID="AH2a" file="agency_heist2A.sc" codeID="SPCID_HEIST" author="SI_PD" percentage="0" highlight="FALSE" info="DM_INFO_003"/>
+  	<missionItem missionID="AH2b" file="agency_heist2B.sc" codeID="SPCID_HEIST" author="SI_LK" percentage="0" highlight="FALSE" info="DM_INFO_004"/>
+	<missionItem missionID="AH2c" file="agency_heist2C.sc" codeID="SPCID_HEIST" author="SI_PD" percentage="0" highlight="FALSE" info="DM_INFO_005"/>
+	
+	<missionItem missionID="FIN3A" file="finale3A.sc" author="SI_TBC" percentage="0" highlight="FALSE" character="CHAR_FRANKLIN"/>
+  	<missionItem missionID="FIN3B" file="finale3B.sc" author="SI_TBC" percentage="0" highlight="FALSE" character="CHAR_FRANKLIN"/>
+	<missionItem missionID="FRA0" 	file="Franklin0.sc" author="SI_BR" percentage="0" highlight="FALSE" info="DM_INFO_127" 	character="CHAR_FRANKLIN"/>
+	
+	<missionItem missionID="MIC2" file="Michael2.sc" author="SI_DW" percentage="50" highlight="FALSE" info="DM_INFO_086" character="CHAR_FRANKLIN"/>
+	
+	</DebugMenuItems>									  

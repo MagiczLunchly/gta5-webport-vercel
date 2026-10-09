@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<testbedCode title="Testbed Vehicle Menu">
+	<menuItem name="TEST_SET_PED_IN_VEHICLE" value= "0" />
+	<menuItem name="TEST_TASK_WARP_PED_INTO_VEHICLE" value= "1" />
+	<menuItem name="TEST_MOVING_ALIGN" value= "2" />
+	<menuItem name="BUG_LEAVE_ANY_VEHICLE" value= "3" />
+	<menuItem name="TEST_ENTER_VEHICLE_NORMAL" value= "4" />
+	<menuItem name="TEST_ENTER_VEHICLE_JACK" value= "5" />
+	<menuItem name="TEST_ENTER_VEHICLE_FORCED" value= "6" />
+	<menuItem name="BRING_VEHICLE_TO_HALT test" value="7" />
+	<menuItem name="TEST_ENTER_VEHICLE_ON_SIDE" value= "8" />
+	<menuItem name="TEST_PLANE_HOMING_MISSILES" value= "9" />
+	<menuItem name="TEST_STREAM_VEHICLE_ANIMS" value= "10" />
+	<menuItem name="TEST_SET_VEHICLE_FORWARD_SPEED" value= "11" />
+	<menuItem name="TEST_IN_VEHICLE_CONTEXT" value= "12" />
+	<menuItem name="TEST_STOCKADE_WITH_STICKY_GRENADES" value= "13" />
+	<menuItem name="TEST_DEATH_WHILST_EXITING" value= "14" />
+	<menuItem name="TEST_COLLISION_WHILE_ENTERING" value= "15" />
+	<menuItem name="TEST_COLLISION_WHILE_EXITING" value= "16" />
+	<menuItem name="TEST_DEATH_WHILE_ENTERING" value= "17" />
+	<menuItem name="TEST_DEATH_WHILE_EXITING" value= "18" />
+	<menuItem name="TEST_THROUGH_WINDSCREEN" value= "19" />
+	<menuItem name="TEST_JUMP_OUT" value= "20" />
+	<menuItem name="TEST_COLLISION_WHILE_JACKING_PED" value= "21" />
+	<menuItem name="TEST_DEATH_WHILE_JACKING_PED" value= "22" />
+	<menuItem name="TEST_OVERRIDE_ENTRY_CLIPSET" value= "23" />
+	<menuItem name="TEST_FLEE_EXIT" value= "24" />
+</testbedCode>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="iso-8859-1" ?> 
+<ActionSequence>
+  <!-- ***** ACTION REC ARRAY - TriggerArray -->
+  <TriggerArray id = "1" parentId = "0" iType = "1" ModelName = "z75" iRecNo = "452" iStartTime = "0" iEndTime = "76644" iAlreadyExistsAs = "1" iFollowsOnFrom = "0" fPlaybackSpeed = "1.0000" StartX = "2460.9792" StartY = "389.3212" StartZ = "42.4172" StartHeading = "323.9623" StartQuatX = "-0.0021" StartQuatY = "-0.0024" StartQuatZ = "-0.3093" StartQuatW = "0.9509" />
+  
+  <!-- ***** ACTION REC ARRAY - TrafficArray -->
+  
+  <!-- ***** ACTION REC ARRAY - SetPieceArray -->
+  <SetPieceArray id = "2" parentId = "1" iType = "4" ModelName = "hauler" iRecNo = "459" iStartTime = "1499" iEndTime = "25017" iAlreadyExistsAs = "0" iFollowsOnFrom = "0" fPlaybackSpeed = "1.0000" StartX = "2509.1860" StartY = "481.4351" StartZ = "53.4295" StartHeading = "195.5836" StartQuatX = "0.0042" StartQuatY = "-0.0292" StartQuatZ = "0.9903" StartQuatW = "-0.1355" />
+  <SetPieceArray id = "3" parentId = "1" iType = "4" ModelName = "hauler" iRecNo = "460" iStartTime = "17999" iEndTime = "30212" iAlreadyExistsAs = "0" iFollowsOnFrom = "0" fPlaybackSpeed = "1.0000" StartX = "2370.5608" StartY = "394.1660" StartZ = "53.0209" StartHeading = "185.4374" StartQuatX = "0.0289" StartQuatY = "-0.0001" StartQuatZ = "0.9985" StartQuatW = "-0.0475" />
+  <SetPieceArray id = "4" parentId = "1" iType = "4" ModelName = "ranger" iRecNo = "457" iStartTime = "39999" iEndTime = "85635" iAlreadyExistsAs = "0" iFollowsOnFrom = "0" fPlaybackSpeed = "1.0000" StartX = "2216.9919" StartY = "714.7416" StartZ = "9.1281" StartHeading = "252.4405" StartQuatX = "0.0000" StartQuatY = "-0.0000" StartQuatZ = "0.8068" StartQuatW = "-0.5909" />
+  <SetPieceArray id = "5" parentId = "1" iType = "4" ModelName = "ranger" iRecNo = "461" iStartTime = "69999" iEndTime = "86390" iAlreadyExistsAs = "0" iFollowsOnFrom = "0" fPlaybackSpeed = "1.0000" StartX = "2201.8323" StartY = "760.9113" StartZ = "9.4554" StartHeading = "103.5927" StartQuatX = "-0.0048" StartQuatY = "0.0055" StartQuatZ = "0.7858" StartQuatW = "0.6184" />
+  
+<SetPieceArray id = "6" parentId = "1" iType = "4" ModelName = "enduro" iRecNo = "458" iStartTime = "0" iEndTime = "28767" iAlreadyExistsAs = "0" iFollowsOnFrom = "0" fPlaybackSpeed = "1.0000" StartX = "2438.5068" StartY = "362.4064" StartZ = "49.2915" StartHeading = "325.2144" StartQuatX = "0.0310" StartQuatY = "-0.0226" StartQuatZ = "-0.2991" StartQuatW = "0.9534" />
+<SetPieceArray id = "7" parentId = "1" iType = "4" ModelName = "enduro" iRecNo = "456" iStartTime = "15000" iEndTime = "52295" iAlreadyExistsAs = "0" iFollowsOnFrom = "0" fPlaybackSpeed = "1.0000" StartX = "2475.2957" StartY = "360.2651" StartZ = "47.3520" StartHeading = "264.2557" StartQuatX = "-0.0401" StartQuatY = "0.0213" StartQuatZ = "0.7404" StartQuatW = "-0.6706" />
+<SetPieceArray id = "8" parentId = "5" iType = "4" ModelName = "scamp" iRecNo = "451" iStartTime = "40000" iEndTime = "80358" iAlreadyExistsAs = "0" iFollowsOnFrom = "0" fPlaybackSpeed = "1.0000" StartX = "2497.3442" StartY = "981.0575" StartZ = "46.0888" StartHeading = "132.7223" StartQuatX = "0.0426" StartQuatY = "-0.0121" StartQuatZ = "0.9151" StartQuatW = "0.4008" />
+  
+  <!-- ***** ACTION REC ARRAY - ParkedArray -->
+  <ParkedArray id = "9" parentId = "0" iType = "2" ModelName = "ranger" iAlreadyExistsAs = "0" iFollowsOnFrom = "0" StartX = "2395.1606" StartY = "379.6271" StartZ = "52.1675" StartHeading = "155.4967" StartQuatX = "0.0147" StartQuatY = "-0.0370" StartQuatZ = "0.7337" StartQuatW = "-0.6783" />
+  <ParkedArray id = "10" parentId = "0" iType = "2" ModelName = "ranger" iAlreadyExistsAs = "0" iFollowsOnFrom = "0" StartX = "2424.1934" StartY = "490.5352" StartZ = "53.8259" StartHeading = "44.3995" StartQuatX = "-0.0011" StartQuatY = "0.0001" StartQuatZ = "0.9752" StartQuatW = "0.2212" />
+  <ParkedArray id = "11" parentId = "0" iType = "2" ModelName = "ranger" iAlreadyExistsAs = "0" iFollowsOnFrom = "0" StartX = "2438.1052" StartY = "506.3646" StartZ = "55.1259" StartHeading = "221.0544" StartQuatX = "0.0047" StartQuatY = "0.0227" StartQuatZ = "-0.2495" StartQuatW = "0.9681" />
+  
+</ActionSequence>
+
+
+

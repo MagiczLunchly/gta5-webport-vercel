@@ -1,0 +1,13 @@
+<?xml version='1.0'?>
+<DebugMenuItems>
+	<missionItem missionID="T1" title="Trailer 1" file="Paradise.sc" codeID="SPCID_GAMEFLOW_OFF"/>
+	<toolItem missionID="T2" title="Trailer 2" file="Paradise2.sc" codeID="SPCID_GAMEFLOW_OFF"/>
+	<!-- <toolItem missionID="M1" title="MAGDEMO" file="magdemo.sc"/> -->
+	<breakItem/>
+	<toolItem missionID="M2A" title="MAGDEMO 2 - LAMAR DOWN" file="magdemo2.sc" preCodeID="SPCID_MAGDEMO_2a"/>
+	<toolItem missionID="M2B" title="MAGDEMO 2 - BLITZ PLAY" file="magdemo2.sc" preCodeID="SPCID_MAGDEMO_2b"/>
+	<breakItem/>
+	<scriptItem missionID="SHOT1" title="Screenshot Scene - Bike Jump" file="Shot_BikeJump.sc"/>
+	<scriptItem title="Fame Or Shame Set" file="fame_or_shame_set.sc"/>
+	<scriptItem title="Race Test" file="raceTest.sc" x="221.0128" y="-247.0535" z="52.7424" heading="341.6877"/>
+</DebugMenuItems>

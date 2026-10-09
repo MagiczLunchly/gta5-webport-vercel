@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CMotionTaskDataManager>
+  <aMotionTaskData>
+    <Item type="CMotionTaskDataSet">
+      <Name>STANDARD_PED</Name>
+      <onFoot type="sMotionTaskData">
+        <Type>PED_ON_FOOT</Type>
+        <JumpClipSetHash>ANIM_GROUP_NEW_PED_JUMP</JumpClipSetHash>
+        <JumpNetworkName>TaskJump</JumpNetworkName>
+        <UseQuadrupedJump value="false" />
+        <FallClipSetHash>ANIM_GROUP_NEW_PED_FALL</FallClipSetHash>
+        <SlopeScrambleClipSetHash>ANIM_GROUP_SLOPE_SCRAMBLE</SlopeScrambleClipSetHash>
+        <WalkTurnRate value="3.141593" />
+        <RunTurnRate value="2.356194" />
+        <SprintTurnRate value="1.570796" />
+        <MotionAnimRateScale value="1.000000" />
+        <QuadWalkRunTransitionTime value="0.250000" />
+        <QuadRunWalkTransitionTime value="0.250000" />
+        <QuadRunSprintTransitionTime value="0.250000" />
+        <QuadSprintRunTransitionTime value="0.250000" />
+        <QuadWalkTurnScaleFactor value="1.000000" />
+        <QuadRunTurnScaleFactor value="1.000000" />
+        <QuadSprintTurnScaleFactor value="1.000000" />
+        <HasWalkStarts value="true" />
+        <HasRunStarts value="true" />
+        <HasQuickStops value="false" />
+        <CanTrot value="false" />
+      </onFoot>
+      <inWater type="sMotionTaskData">
+        <Type>PED_IN_WATER</Type>
+        <JumpClipSetHash />
+        <JumpNetworkName>TaskJump</JumpNetworkName>
+        <UseQuadrupedJump value="false" />
+        <FallClipSetHash />
+        <SlopeScrambleClipSetHash>CLIP_SET_SLOPE_SCAMBLE</SlopeScrambleClipSetHash>
+        <WalkTurnRate value="3.141593" />
+        <RunTurnRate value="2.356194" />
+        <SprintTurnRate value="1.570796" />
+        <MotionAnimRateScale value="1.000000" />
+        <QuadWalkRunTransitionTime value="0.250000" />
+        <QuadRunWalkTransitionTime value="0.250000" />
+        <QuadRunSprintTransitionTime value="0.250000" />
+        <QuadSprintRunTransitionTime value="0.250000" />
+        <QuadWalkTurnScaleFactor value="1.000000" />
+        <QuadRunTurnScaleFactor value="1.000000" />
+        <QuadSprintTurnScaleFactor value="1.000000" />
+        <HasWalkStarts value="true" />
+        <HasRunStarts value="true" />
+        <HasQuickStops value="false" />
+        <CanTrot value="false" />
+      </inWater>
+      <HasLowLodMotionTask value="true" />
+    </Item>
+    <Item type="CMotionTaskDataSet">
+      <Name>Player_Zero</Name>
+      <onFoot type="sMotionTaskData">
+        <Type>PED_ON_FOOT</Type>
+        <JumpClipSetHash>ANIM_GROUP_NEW_PED_JUMP</JumpClipSetHash>
+        <JumpNetworkName>TaskJump</JumpNetworkName>
+        <UseQuadrupedJump value="false" />
+        <FallClipSetHash>ANIM_GROUP_NEW_PED_FALL</FallClipSetHash>
+        <SlopeScrambleClipSetHash>ANIM_GROUP_SLOPE_SCRAMBLE</SlopeScrambleClipSetHash>
+        <WalkTurnRate value="3.141593" />
+        <RunTurnRate value="2.356194" />
+        <SprintTurnRate value="1.570796" />
+        <MotionAnimRateScale value="1.000000" />
+        <QuadWalkRunTransitionTime value="0.250000" />
+        <QuadRunWalkTransitionTime value="0.250000" />
+        <QuadRunSprintTransitionTime value="0.250000" />
+        <QuadSprintRunTransitionTime value="0.250000" />
+        <QuadWalkTurnScaleFactor value="1.000000" />
+        <QuadRunTurnScaleFactor value="1.000000" />
+        <QuadSprintTurnScaleFactor value="1.000000" />
+        <HasWalkStarts value="true" />
+        <HasRunStarts value="true" />
+        <HasQuickStops value="false" />
+        <CanTrot value="false" />
+      </onFoot>
+      <inWater type="sMotionTaskData">
+        <Type>PED_IN_WATER</Type>
+        <JumpClipSetHash />
+        <JumpNetworkName>TaskJump</JumpNetworkName>
+        <UseQuadrupedJump value="false" />
+        <FallClipSetHash />
+        <SlopeScrambleClipSetHash>CLIP_SET_SLOPE_SCAMBLE</SlopeScrambleClipSetHash>
+        <WalkTurnRate value="3.141593" />
+        <RunTurnRate value="2.356194" />
+        <SprintTurnRate value="1.570796" />
+        <MotionAnimRateScale value="1.000000" />
+        <QuadWalkRunTransitionTime value="0.250000" />
+        <QuadRunWalkTransitionTime value="0.250000" />
+        <QuadRunSprintTransitionTime value="0.250000" />
+        <QuadSprintRunTransitionTime value="0.250000" />
+        <QuadWalkTurnScaleFactor value="1.000000" />
+        <QuadRunTurnScaleFactor value="1.000000" />
+        <QuadSprintTurnScaleFactor value="1.000000" />
+        <HasWalkStarts value="true" />
+        <HasRunStarts value="true" />
+        <HasQuickStops value="false" />
+        <CanTrot value="false" />
+      </inWater>
+      <HasLowLodMotionTask value="true" />
+    </Item>
+    <Item type="CMotionTaskDataSet">
+      <Name>Player_One</Name>
+      <onFoot type="sMotionTaskData">
+        <Type>PED_ON_FOOT</Type>
+        <JumpClipSetHash>ANIM_GROUP_NEW_PED_JUMP</JumpClipSetHash>
+        <JumpNetworkName>TaskJump</JumpNetworkName>
+        <UseQuadrupedJump value="false" />
+        <FallClipSetHash>ANIM_GROUP_NEW_PED_FALL</FallClipSetHash>
+        <SlopeScrambleClipSetHash>ANIM_GROUP_SLOPE_SCRAMBLE</SlopeScrambleClipSetHash>
+        <WalkTurnRate value="3.141593" />
+        <RunTurnRate value="2.356194" />
+        <SprintTurnRate value="1.570796" />
+        <MotionAnimRateScale value="1.000000" />
+        <QuadWalkRunTransitionTime value="0.250000" />
+        <QuadRunWalkTransitionTime value="0.250000" />
+        <QuadRunSprintTransitionTime value="0.250000" />
+        <QuadSprintRunTransitionTime value="0.250000" />
+        <QuadWalkTurnScaleFactor value="1.000000" />
+        <QuadRunTurnScaleFactor value="1.000000" />
+        <QuadSprintTurnScaleFactor value="1.000000" />
+        <HasWalkStarts value="true" />
+        <HasRunStarts value="true" />
+        <HasQuickStops value="false" />
+        <CanTrot value="false" />
+      </onFoot>
+      <inWater type="sMotionTaskData">
+        <Type>PED_IN_WATER</Type>
+        <JumpClipSetHash />
+        <JumpNetworkName>TaskJump</JumpNetworkName>
+        <UseQuadrupedJump value="false" />
+        <FallClipSetHash />
+        <SlopeScrambleClipSetHash>CLIP_SET_SLOPE_SCAMBLE</SlopeScrambleClipSetHash>
+        <WalkTurnRate value="3.141593" />
+        <RunTurnRate value="2.356194" />
+        <SprintTurnRate value="1.570796" />
+        <MotionAnimRateScale value="0.900000" />
+        <QuadWalkRunTransitionTime value="0.250000" />
+        <QuadRunWalkTransitionTime value="0.250000" />
+        <QuadRunSprintTransitionTime value="0.250000" />
+        <QuadSprintRunTransitionTime value="0.250000" />
+        <QuadWalkTurnScaleFactor value="1.000000" />
+        <QuadRunTurnScaleFactor value="1.000000" />
+        <QuadSprintTurnScaleFactor value="1.000000" />
+        <HasWalkStarts value="true" />
+        <HasRunStarts value="true" />
+        <HasQuickStops value="false" />
+        <CanTrot value="false" />
+      </inWater>
+      <HasLowLodMotionTask value="true" />
+    </Item>
+    <Item type="CMotionTaskDataSet">
+      <Name>Player_Two</Name>
+      <onFoot type="sMotionTaskData">
+        <Type>PED_ON_FOOT</Type>
+        <JumpClipSetHash>ANIM_GROUP_NEW_PED_JUMP</JumpClipSetHash>
+        <JumpNetworkName>TaskJump</JumpNetworkName>
+        <UseQuadrupedJump value="false" />
+        <FallClipSetHash>ANIM_GROUP_NEW_PED_FALL</FallClipSetHash>
+        <SlopeScrambleClipSetHash>ANIM_GROUP_SLOPE_SCRAMBLE</SlopeScrambleClipSetHash>
+        <WalkTurnRate value="3.141593" />
+        <RunTurnRate value="2.356194" />
+        <SprintTurnRate value="1.570796" />
+        <MotionAnimRateScale value="1.000000" />
+        <QuadWalkRunTransitionTime value="0.250000" />
+        <QuadRunWalkTransitionTime value="0.250000" />
+        <QuadRunSprintTransitionTime value="0.250000" />
+        <QuadSprintRunTransitionTime value="0.250000" />
+        <QuadWalkTurnScaleFactor value="1.000000" />
+        <QuadRunTurnScaleFactor value="1.000000" />
+        <QuadSprintTurnScaleFactor value="1.000000" />
+        <HasWalkStarts value="true" />
+        <HasRunStarts value="true" />
+        <HasQuickStops value="false" />
+        <CanTrot value="false" />
+      </onFoot>
+      <inWater type="sMotionTaskData">
+        <Type>PED_IN_WATER</Type>
+        <JumpClipSetHash />
+        <JumpNetworkName>TaskJump</JumpNetworkName>
+        <UseQuadrupedJump value="false" />
+        <FallClipSetHash />
+        <SlopeScrambleClipSetHash>CLIP_SET_SLOPE_SCAMBLE</SlopeScrambleClipSetHash>
+        <WalkTurnRate value="3.141593" />
+        <RunTurnRate value="2.356194" />
+        <SprintTurnRate value="1.570796" />
+        <MotionAnimRateScale value="0.950000" />
+        <QuadWalkRunTransitionTime value="0.250000" />
+        <QuadRunWalkTransitionTime value="0.250000" />
+        <QuadRunSprintTransitionTime value="0.250000" />
+        <QuadSprintRunTransitionTime value="0.250000" />
+        <QuadWalkTurnScaleFactor value="1.000000" />
+        <QuadRunTurnScaleFactor value="1.000000" />
+        <QuadSprintTurnScaleFactor value="1.000000" />
+        <HasWalkStarts value="true" />
+        <HasRunStarts value="true" />
+        <HasQuickStops value="false" />
+        <CanTrot value="false" />
+      </inWater>
+      <HasLowLodMotionTask value="true" />
+    </Item>
+    <Item type="CMotionTaskDataSet">
+      <Name>Chickenhawk</Name>
+      <onFoot type="sMotionTaskData">
+        <Type>BIRD_ON_FOOT</Type>
+        <JumpClipSetHash />
+        <JumpNetworkName>TaskJump</JumpNetworkName>
+        <UseQuadrupedJump value="false" />
+        <FallClipSetHash />
+        <SlopeScrambleClipSetHash>CLIP_SET_SLOPE_SCAMBLE</SlopeScrambleClipSetHash>
+        <WalkTurnRate value="3.141593" />
+        <RunTurnRate value="2.356194" />
+        <SprintTurnRate value="1.570796" />
+        <MotionAnimRateScale value="1.000000" />
+        <QuadWalkRunTransitionTime value="0.250000" />
+        <QuadRunWalkTransitionTime value="0.250000" />
+        <QuadRunSprintTransitionTime value="0.250000" />
+        <QuadSprintRunTransitionTime value="0.250000" />
+        <QuadWalkTurnScaleFactor value="1.000000" />
+        <QuadRunTurnScaleFactor value="1.000000" />
+        <QuadSprintTurnScaleFactor value="1.000000" />
+        <QuadWalkTurnScaleFactorPlayer value="1.000000" />
+        <QuadRunTurnScaleFactorPlayer value="1.000000" />
+        <QuadSprintTurnScaleFactorPlayer value="1.000000" />
+        <PlayerBirdFlappingSpeedMultiplier value="2.08f" />
+        <PlayerBirdGlidingSpeedMultiplier value="2.73f" />
+        <HasWalkStarts value="true" />
+        <HasRunStarts value="true" />
+        <HasQuickStops value="false" />
+        <CanTrot value="false" />
+      </onFoot>
+      <inWater type="NULL" />
+      <HasLowLodMotionTask value="false" />
+    </Item>
+    <Item type="CMotionTaskDataSet">
+      <Name>Cormorant</Name>
+      <onFoot type="sMotionTaskData">
+        <Type>BIRD_ON_FOOT</Type>
+        <JumpClipSetHash />
+        <JumpNetworkName>TaskJump</JumpNetworkName>
+        <UseQuadrupedJump value="false" />
+        <FallClipSetHash />
+        <SlopeScrambleClipSetHash>CLIP_SET_SLOPE_SCAMBLE</SlopeScrambleClipSetHash>
+        <WalkTurnRate value="3.141593" />
+        <RunTurnRate value="2.356194" />
+        <SprintTurnRate value="1.570796" />
+        <MotionAnimRateScale value="1.000000" />
+        <QuadWalkRunTransitionTime value="0.250000" />
+        <QuadRunWalkTransitionTime value="0.250000" />
+        <QuadRunSprintTransitionTime value="0.250000" />
+        <QuadSprintRunTransitionTime value="0.250000" />
+        <QuadWalkTurnScaleFactor value="1.000000" />
+        <QuadRunTurnScaleFactor value="1.000000" />
+        <QuadSprintTurnScaleFactor value="1.000000" />
+        <QuadWalkTurnScaleFactorPlayer value="1.000000" />
+        <QuadRunTurnScaleFactorPlayer value="1.000000" />
+        <QuadSprintTurnScaleFactorPlayer value="1.000000" />
+        <PlayerBirdFlappingSpeedMultiplier value="1.08f" />
+        <PlayerBirdGlidingSpeedMultiplier value="1.42f" />
+        <HasWalkStarts value="true" />
+        <HasRunStarts value="true" />
+        <HasQuickStops value="false" />
+        <CanTrot value="false" />
+      </onFoot>
+      <inWater type="NULL" />
+      <HasLowLodMotionTask value="false" />
+    </Item>
+    <Item type="CMotionTaskDataSet">
+      <Name>Crow</Name>
+      <onFoot type="sMotionTaskData">
+        <Type>BIRD_ON_FOOT</Type>
+        <JumpClipSetHash />
+        <JumpNetworkName>TaskJump</JumpNetworkName>
+        <UseQuadrupedJump value="false" />
+        <FallClipSetHash />
+        <SlopeScrambleClipSetHash>CLIP_SET_SLOPE_SCAMBLE</SlopeScrambleClipSetHash>
+        <WalkTurnRate value="3.141593" />
+        <RunTurnRate value="2.356194" />
+        <SprintTurnRate value="1.570796" />
+        <MotionAnimRateScale value="1.000000" />
+        <QuadWalkRunTransitionTime value="0.250000" />
+        <QuadRunWalkTransitionTime value="0.250000" />
+        <QuadRunSprintTransitionTime value="0.250000" />
+        <QuadSprintRunTransitionTime value="0.250000" />
+        <QuadWalkTurnScaleFactor value="1.000000" />
+        <QuadRunTurnScaleFactor value="1.000000" />
+        <QuadSprintTurnScaleFactor value="1.000000" />
+        <QuadWalkTurnScaleFactorPlayer value="1.000000" />
+        <QuadRunTurnScaleFactorPlayer value="1.000000" />
+        <QuadSprintTurnScaleFactorPlayer value="1.000000" />
+        <PlayerBirdFlappingSpeedMultiplier value="1.72f" />
+        <PlayerBirdGlidingSpeedMultiplier value="2.25f" />
+        <HasWalkStarts value="true" />
+        <HasRunStarts value="true" />
+        <HasQuickStops value="false" />
+        <CanTrot value="false" />
+      </onFoot>
+      <inWater type="NULL" />
+      <HasLowLodMotionTask value="false" />
+    </Item>
+    <Item type="CMotionTaskDataSet">
+      <Name>Pigeon</Name>
+      <onFoot type="sMotionTaskData">
+        <Type>BIRD_ON_FOOT</Type>
+        <JumpClipSetHash />
+        <JumpNetworkName>TaskJump</JumpNetworkName>
+        <UseQuadrupedJump value="false" />
+        <FallClipSetHash />
+        <SlopeScrambleClipSetHash>CLIP_SET_SLOPE_SCAMBLE</SlopeScrambleClipSetHash>
+        <WalkTurnRate value="3.141593" />
+        <RunTurnRate value="2.356194" />
+        <SprintTurnRate value="1.570796" />
+        <MotionAnimRateScale value="1.000000" />
+        <QuadWalkRunTransitionTime value="0.250000" />
+        <QuadRunWalkTransitionTime value="0.250000" />
+        <QuadRunSprintTransitionTime value="0.250000" />
+        <QuadSprintRunTransitionTime value="0.250000" />
+        <QuadWalkTurnScaleFactor value="1.000000" />
+        <QuadRunTurnScaleFactor value="1.000000" />
+        <QuadSprintTurnScaleFactor value="1.000000" />
+        <QuadWalkTurnScaleFactorPlayer value="1.000000" />
+        <QuadRunTurnScaleFactorPlayer value="1.000000" />
+        <QuadSprintTurnScaleFactorPlayer value="1.000000" />
+        <PlayerBirdFlappingSpeedMultiplier value="2.85f" />
+        <PlayerBirdGlidingSpeedMultiplier value="2.07f" />
+        <HasWalkStarts value="true" />
+        <HasRunStarts value="true" />
+        <HasQuickStops value="false" />
+        <CanTrot value="false" />
+      </onFoot>
+      <inWater type="NULL" />
+      <HasLowLodMotionTask value="false" />
+    </Item>
+    <Item type="CMotionTaskDataSet">
+      <Name>Seagull</Name>
+      <onFoot type="sMotionTaskData">
+        <Type>BIRD_ON_FOOT</Type>
+        <JumpClipSetHash />
+        <JumpNetworkName>TaskJump</JumpNetworkName>
+        <UseQuadrupedJump value="false" />
+        <FallClipSetHash />
+        <SlopeScrambleClipSetHash>CLIP_SET_SLOPE_SCAMBLE</SlopeScrambleClipSetHash>
+        <WalkTurnRate value="3.141593" />
+        <RunTurnRate value="2.356194" />
+        <SprintTurnRate value="1.570796" />
+        <MotionAnimRateScale value="1.000000" />
+        <QuadWalkRunTransitionTime value="0.250000" />
+        <QuadRunWalkTransitionTime value="0.250000" />
+        <QuadRunSprintTransitionTime value="0.250000" />
+        <QuadSprintRunTransitionTime value="0.250000" />
+        <QuadWalkTurnScaleFactor value="1.000000" />
+        <QuadRunTurnScaleFactor value="1.000000" />
+        <QuadSprintTurnScaleFactor value="1.000000" />
+        <QuadWalkTurnScaleFactorPlayer value="1.000000" />
+        <QuadRunTurnScaleFactorPlayer value="1.000000" />
+        <QuadSprintTurnScaleFactorPlayer value="1.000000" />
+        <PlayerBirdFlappingSpeedMultiplier value="2.53f" />
+        <PlayerBirdGlidingSpeedMultiplier value="1.67f" />
+        <HasWalkStarts value="true" />
+        <HasRunStarts value="true" />
+        <HasQuickStops value="false" />
+        <CanTrot value="false" />
+      </onFoot>
+      <inWater type="NULL" />
+      <HasLowLodMotionTask value="false" />
+    </Item>
+    <Item type="CMotionTaskDataSet">
+      <Name>FLIGHTLESS_BIRD</Name>
+      <onFoot type="sMotionTaskData">
+        <Type>FLIGHTLESS_BIRD_ON_FOOT</Type>
+        <JumpClipSetHash />
+        <JumpNetworkName>TaskJump</JumpNetworkName>
+        <UseQuadrupedJump value="false" />
+        <FallClipSetHash />
+        <SlopeScrambleClipSetHash>CLIP_SET_SLOPE_SCAMBLE</SlopeScrambleClipSetHash>
+        <WalkTurnRate value="3.141593" />
+        <RunTurnRate value="2.356194" />
+        <SprintTurnRate value="1.570796" />
+        <MotionAnimRateScale value="1.000000" />
+        <QuadWalkRunTransitionTime value="0.250000" />
+        <QuadRunWalkTransitionTime value="0.250000" />
+        <QuadRunSprintTransitionTime value="0.250000" />
+        <QuadSprintRunTransitionTime value="0.250000" />
+        <QuadWalkTurnScaleFactor value="1.000000" />
+        <QuadRunTurnScaleFactor value="1.000000" />
+        <QuadSprintTurnScaleFactor value="1.000000" />
+        <QuadWalkTurnScaleFactorPlayer value="1.000000" />
+        <QuadRunTurnScaleFactorPlayer value="1.000000" />
+        <QuadSprintTurnScaleFactorPlayer value="1.000000" />
+        <HasWalkStarts value="true" />
+        <HasRunStarts value="true" />
+        <HasQuickStops value="false" />
+        <CanTrot value="false" />
+      </onFoot>
+      <inWater type="NULL" />
+      <HasLowLodMotionTask value="false" />
+    </Item>
+    <Item type="CMotionTaskDataSet">
+      <Name>horse</Name>
+      <onFoot type="sMotionTaskData">
+        <Type>HORSE_ON_FOOT</Type>
+        <JumpClipSetHash>HORSE_JUMP</JumpClipSetHash>
+        <JumpNetworkName>TaskJumpHorse</JumpNetworkName>
+        <UseQuadrupedJump value="true" />
+        <FallClipSetHash />
+        <SlopeScrambleClipSetHash>ANIM_GROUP_SLOPE_SCRAMBLE</SlopeScrambleClipSetHash>
+        <WalkTurnRate value="3.141593" />
+        <RunTurnRate value="2.356194" />
+        <SprintTurnRate value="1.570796" />
+        <MotionAnimRateScale value="1.000000" />
+        <QuadWalkRunTransitionTime value="0.250000" />
+        <QuadRunWalkTransitionTime value="0.250000" />
+        <QuadRunSprintTransitionTime value="0.250000" />
+        <QuadSprintRunTransitionTime value="0.250000" />
+        <QuadWalkTurnScaleFactor value="1.000000" />
+        <QuadRunTurnScaleFactor value="1.000000" />
+        <QuadSprintTurnScaleFactor value="1.000000" />
+        <QuadWalkTurnScaleFactorPlayer value="1.000000" />
+        <QuadRunTurnScaleFactorPlayer value="1.000000" />
+        <QuadSprintTurnScaleFactorPlayer value="1.000000" />
+        <HasWalkStarts value="true" />
+        <HasRunStarts value="true" />
+        <HasQuickStops value="false" />
+        <CanTrot value="false" />
+      </onFoot>
+      <inWater type="NULL" />
+      <HasLowLodMotionTask value="false" />
+    </Item>
+    <Item type="CMotionTaskDataSet">
+      <Name>rottweiler</Name>
+      <onFoot type="sMotionTaskData">
+        <Type>ROTTWEILER_ON_FOOT</Type>
+        <JumpClipSetHash />
+        <JumpNetworkName>TaskJump</JumpNetworkName>
+        <UseQuadrupedJump value="false" />
+        <FallClipSetHash />
+        <SlopeScrambleClipSetHash>CLIP_SET_SLOPE_SCAMBLE</SlopeScrambleClipSetHash>
+        <WalkTurnRate value="3.142000" />
+        <RunTurnRate value="2.156000" />
+        <SprintTurnRate value="1.271000" />
+        <MotionAnimRateScale value="0.800000" />
+        <QuadWalkRunTransitionTime value="0.200000" />
+        <QuadRunWalkTransitionTime value="0.250000" />
+        <QuadRunSprintTransitionTime value="0.250000" />
+        <QuadSprintRunTransitionTime value="0.250000" />
+        <QuadWalkTurnScaleFactor value="1.000000" />
+        <QuadRunTurnScaleFactor value="1.000000" />
+        <QuadSprintTurnScaleFactor value="1.000000" />
+        <QuadWalkTurnScaleFactorPlayer value="1.000000" />
+        <QuadRunTurnScaleFactorPlayer value="1.000000" />
+        <QuadSprintTurnScaleFactorPlayer value="1.000000" />
+        <HasWalkStarts value="true" />
+        <HasRunStarts value="true" />
+        <HasQuickStops value="true" />
+        <CanTrot value="false" />
+      </onFoot>
+      <inWater type="NULL" />
+      <HasLowLodMotionTask value="false" />
+    </Item>
+    <Item type="CMotionTaskDataSet">
+      <Name>retriever</Name>
+      <onFoot type="sMotionTaskData">
+        <Type>RETRIEVER_ON_FOOT</Type>
+        <JumpClipSetHash />
+        <JumpNetworkName>TaskJump</JumpNetworkName>
+        <UseQuadrupedJump value="false" />
+        <FallClipSetHash />
+        <SlopeScrambleClipSetHash>CLIP_SET_SLOPE_SCAMBLE</SlopeScrambleClipSetHash>
+        <WalkTurnRate value="3.141593" />
+        <RunTurnRate value="2.356194" />
+        <SprintTurnRate value="1.570796" />
+        <MotionAnimRateScale value="1.000000" />
+        <QuadWalkRunTransitionTime value="0.250000" />
+        <QuadRunWalkTransitionTime value="0.250000" />
+        <QuadRunSprintTransitionTime value="0.250000" />
+        <QuadSprintRunTransitionTime value="0.250000" />
+        <QuadWalkTurnScaleFactor value="1.000000" />
+        <QuadRunTurnScaleFactor value="1.000000" />
+        <QuadSprintTurnScaleFactor value="1.000000" />
+        <QuadWalkTurnScaleFactorPlayer value="1.000000" />
+        <QuadRunTurnScaleFactorPlayer value="1.000000" />
+        <QuadSprintTurnScaleFactorPlayer value="1.000000" />
+        <HasWalkStarts value="true" />
+        <HasRunStarts value="true" />
+        <HasQuickStops value="false" />
+        <CanTrot value="false" />
+      </onFoot>
+      <inWater type="NULL" />
+      <HasLowLodMotionTask value="false" />
+    </Item>
+    <Item type="CMotionTaskDataSet">
+      <Name>BOAR</Name>
+      <onFoot type="sMotionTaskData">
+        <Type>BOAR_ON_FOOT</Type>
+        <JumpClipSetHash />
+        <JumpNetworkName>TaskJump</JumpNetworkName>
+        <UseQuadrupedJump value="false" />
+        <FallClipSetHash />
+        <SlopeScrambleClipSetHash>CLIP_SET_SLOPE_SCAMBLE</SlopeScrambleClipSetHash>
+        <WalkTurnRate value="3.141593" />
+        <RunTurnRate value="2.356194" />
+        <SprintTurnRate value="1.570796" />
+        <MotionAnimRateScale value="1.000000" />
+        <QuadWalkRunTransitionTime value="0.250000" />
+        <QuadRunWalkTransitionTime value="0.250000" />
+        <QuadRunSprintTransitionTime value="0.250000" />
+        <QuadSprintRunTransitionTime value="0.250000" />
+        <QuadWalkTurnScaleFactor value="1.000000" />
+        <QuadRunTurnScaleFactor value="1.000000" />
+        <QuadSprintTurnScaleFactor value="1.000000" />
+        <QuadWalkTurnScaleFactorPlayer value="1.000000" />
+        <QuadRunTurnScaleFactorPlayer value="1.000000" />
+        <QuadSprintTurnScaleFactorPlayer value="1.000000" />
+        <HasWalkStarts value="true" />
+        <HasRunStarts value="true" />
+        <HasQuickStops value="false" />
+        <CanTrot value="false" />
+      </onFoot>
+      <inWater type="NULL" />
+      <HasLowLodMotionTask value="false" />
+    </Item>
+    <Item type="CMotionTaskDataSet">
+      <Name>COW</Name>
+      <onFoot type="sMotionTaskData">
+        <Type>COW_ON_FOOT</Type>
+        <JumpClipSetHash />
+        <JumpNetworkName>TaskJump</JumpNetworkName>
+        <UseQuadrupedJump value="false" />
+        <FallClipSetHash />
+        <SlopeScrambleClipSetHash>CLIP_SET_SLOPE_SCAMBLE</SlopeScrambleClipSetHash>
+        <WalkTurnRate value="3.141593" />
+        <RunTurnRate value="2.356194" />
+        <SprintTurnRate value="1.570796" />
+        <MotionAnimRateScale value="1.000000" />
+        <QuadWalkRunTransitionTime value="0.250000" />
+        <QuadRunWalkTransitionTime value="0.250000" />
+        <QuadRunSprintTransitionTime value="0.250000" />
+        <QuadSprintRunTransitionTime value="0.250000" />
+        <QuadWalkTurnScaleFactor value="1.000000" />
+        <QuadRunTurnScaleFactor value="1.000000" />
+        <QuadSprintTurnScaleFactor value="1.000000" />
+        <QuadWalkTurnScaleFactorPlayer value="1.000000" />
+        <QuadRunTurnScaleFactorPlayer value="1.000000" />
+        <QuadSprintTurnScaleFactorPlayer value="1.000000" />
+        <HasWalkStarts value="true" />
+        <HasRunStarts value="true" />
+        <HasQuickStops value="false" />
+        <CanTrot value="false" />
+      </onFoot>
+      <inWater type="NULL" />
+      <HasLowLodMotionTask value="false" />
+    </Item>
+    <Item type="CMotionTaskDataSet">
+      <Name>COUGAR</Name>
+      <onFoot type="sMotionTaskData">
+        <Type>COUGAR_ON_FOOT</Type>
+        <JumpClipSetHash />
+        <JumpNetworkName>TaskJump</JumpNetworkName>
+        <UseQuadrupedJump value="false" />
+        <FallClipSetHash />
+        <SlopeScrambleClipSetHash>CLIP_SET_SLOPE_SCAMBLE</SlopeScrambleClipSetHash>
+        <WalkTurnRate value="3.141593" />
+        <RunTurnRate value="2.256194" />
+        <SprintTurnRate value="1.270796" />
+        <MotionAnimRateScale value="1.000000" />
+        <QuadWalkRunTransitionTime value="0.250000" />
+        <QuadRunWalkTransitionTime value="0.250000" />
+        <QuadRunSprintTransitionTime value="0.250000" />
+        <QuadSprintRunTransitionTime value="0.250000" />
+        <QuadWalkTurnScaleFactor value="1.000000" />
+        <QuadRunTurnScaleFactor value="1.000000" />
+        <QuadSprintTurnScaleFactor value="1.500000" />
+        <QuadWalkTurnScaleFactorPlayer value="2.500000" />
+        <QuadRunTurnScaleFactorPlayer value="1.500000" />
+        <QuadSprintTurnScaleFactorPlayer value="1.500000" />
+        <HasWalkStarts value="true" />
+        <HasRunStarts value="true" />
+        <HasQuickStops value="false" />
+        <CanTrot value="false" />
+      </onFoot>
+      <inWater type="NULL" />
+      <HasLowLodMotionTask value="false" />
+    </Item>
+    <Item type="CMotionTaskDataSet">
+      <Name>COYOTE</Name>
+      <onFoot type="sMotionTaskData">
+        <Type>COYOTE_ON_FOOT</Type>
+        <JumpClipSetHash />
+        <JumpNetworkName>TaskJump</JumpNetworkName>
+        <UseQuadrupedJump value="false" />
+        <FallClipSetHash />
+        <SlopeScrambleClipSetHash>CLIP_SET_SLOPE_SCAMBLE</SlopeScrambleClipSetHash>
+        <WalkTurnRate value="3.141593" />
+        <RunTurnRate value="2.356194" />
+        <SprintTurnRate value="1.570796" />
+        <MotionAnimRateScale value="1.000000" />
+        <QuadWalkRunTransitionTime value="0.250000" />
+        <QuadRunWalkTransitionTime value="0.250000" />
+        <QuadRunSprintTransitionTime value="0.250000" />
+        <QuadSprintRunTransitionTime value="0.250000" />
+        <QuadWalkTurnScaleFactor value="1.000000" />
+        <QuadRunTurnScaleFactor value="1.700000" />
+        <QuadSprintTurnScaleFactor value="2.000000" />
+        <QuadWalkTurnScaleFactorPlayer value="1.000000" />
+        <QuadRunTurnScaleFactorPlayer value="1.700000" />
+        <QuadSprintTurnScaleFactorPlayer value="2.000000" />
+        <HasWalkStarts value="true" />
+        <HasRunStarts value="true" />
+        <HasQuickStops value="false" />
+        <CanTrot value="false" />
+      </onFoot>
+      <inWater type="NULL" />
+      <HasLowLodMotionTask value="false" />
+    </Item>
+    <Item type="CMotionTaskDataSet">
+      <Name>PIG</Name>
+      <onFoot type="sMotionTaskData">
+        <Type>PIG_ON_FOOT</Type>
+        <JumpClipSetHash />
+        <JumpNetworkName>TaskJump</JumpNetworkName>
+        <UseQuadrupedJump value="false" />
+        <FallClipSetHash />
+        <SlopeScrambleClipSetHash>CLIP_SET_SLOPE_SCAMBLE</SlopeScrambleClipSetHash>
+        <WalkTurnRate value="3.141593" />
+        <RunTurnRate value="2.356194" />
+        <SprintTurnRate value="1.570796" />
+        <MotionAnimRateScale value="1.000000" />
+        <QuadWalkRunTransitionTime value="0.250000" />
+        <QuadRunWalkTransitionTime value="0.250000" />
+        <QuadRunSprintTransitionTime value="0.250000" />
+        <QuadSprintRunTransitionTime value="0.250000" />
+        <QuadWalkTurnScaleFactor value="1.000000" />
+        <QuadRunTurnScaleFactor value="1.000000" />
+        <QuadSprintTurnScaleFactor value="1.000000" />
+        <QuadWalkTurnScaleFactorPlayer value="1.000000" />
+        <QuadRunTurnScaleFactorPlayer value="1.000000" />
+        <QuadSprintTurnScaleFactorPlayer value="1.000000" />
+        <HasWalkStarts value="true" />
+        <HasRunStarts value="true" />
+        <HasQuickStops value="false" />
+        <CanTrot value="false" />
+      </onFoot>
+      <inWater type="NULL" />
+      <HasLowLodMotionTask value="false" />
+    </Item>
+    <Item type="CMotionTaskDataSet">
+      <Name>RAT</Name>
+      <onFoot type="sMotionTaskData">
+        <Type>RAT_ON_FOOT</Type>
+        <JumpClipSetHash />
+        <JumpNetworkName>TaskJump</JumpNetworkName>
+        <UseQuadrupedJump value="false" />
+        <FallClipSetHash />
+        <SlopeScrambleClipSetHash>CLIP_SET_SLOPE_SCAMBLE</SlopeScrambleClipSetHash>
+        <WalkTurnRate value="3.141593" />
+        <RunTurnRate value="2.356194" />
+        <SprintTurnRate value="1.570796" />
+        <MotionAnimRateScale value="1.000000" />
+        <QuadWalkRunTransitionTime value="0.250000" />
+        <QuadRunWalkTransitionTime value="0.250000" />
+        <QuadRunSprintTransitionTime value="0.250000" />
+        <QuadSprintRunTransitionTime value="0.250000" />
+        <QuadWalkTurnScaleFactor value="1.000000" />
+        <QuadRunTurnScaleFactor value="1.000000" />
+        <QuadSprintTurnScaleFactor value="1.000000" />
+        <QuadWalkTurnScaleFactorPlayer value="1.000000" />
+        <QuadRunTurnScaleFactorPlayer value="1.000000" />
+        <QuadSprintTurnScaleFactorPlayer value="1.000000" />
+        <HasWalkStarts value="false" />
+        <HasRunStarts value="false" />
+        <HasQuickStops value="false" />
+        <CanTrot value="false" />
+      </onFoot>
+      <inWater type="NULL" />
+      <HasLowLodMotionTask value="false" />
+    </Item>
+    <Item type="CMotionTaskDataSet">
+      <Name>Fish</Name>
+      <onFoot type="sMotionTaskData">
+        <Type>FISH_IN_WATER</Type>
+        <JumpClipSetHash />
+        <JumpNetworkName>TaskJump</JumpNetworkName>
+        <UseQuadrupedJump value="false" />
+        <FallClipSetHash />
+        <SlopeScrambleClipSetHash>CLIP_SET_SLOPE_SCAMBLE</SlopeScrambleClipSetHash>
+        <WalkTurnRate value="3.141593" />
+        <RunTurnRate value="2.356194" />
+        <SprintTurnRate value="1.570796" />
+        <MotionAnimRateScale value="1.000000" />
+        <QuadWalkRunTransitionTime value="0.250000" />
+        <QuadRunWalkTransitionTime value="0.250000" />
+        <QuadRunSprintTransitionTime value="0.250000" />
+        <QuadSprintRunTransitionTime value="0.250000" />
+        <QuadWalkTurnScaleFactor value="1.000000" />
+        <QuadRunTurnScaleFactor value="1.000000" />
+        <QuadSprintTurnScaleFactor value="1.000000" />
+        <QuadWalkTurnScaleFactorPlayer value="1.000000" />
+        <QuadRunTurnScaleFactorPlayer value="1.000000" />
+        <QuadSprintTurnScaleFactorPlayer value="1.000000" />
+        <HasWalkStarts value="true" />
+        <HasRunStarts value="true" />
+        <HasQuickStops value="false" />
+        <CanTrot value="false" />
+      </onFoot>
+      <inWater type="NULL" />
+      <HasLowLodMotionTask value="false" />
+    </Item>
+    <Item type="CMotionTaskDataSet">
+      <Name>DEER</Name>
+      <onFoot type="sMotionTaskData">
+        <Type>DEER_ON_FOOT</Type>
+        <JumpClipSetHash />
+        <JumpNetworkName>TaskJump</JumpNetworkName>
+        <UseQuadrupedJump value="false" />
+        <FallClipSetHash />
+        <SlopeScrambleClipSetHash>CLIP_SET_SLOPE_SCAMBLE</SlopeScrambleClipSetHash>
+        <WalkTurnRate value="3.241593" />
+        <RunTurnRate value="3.241593" />
+        <SprintTurnRate value="3.241593" />
+        <MotionAnimRateScale value="1.000000" />
+        <QuadWalkRunTransitionTime value="0.200000" />
+        <QuadRunWalkTransitionTime value="0.250000" />
+        <QuadRunSprintTransitionTime value="0.250000" />
+        <QuadSprintRunTransitionTime value="0.500000" />
+        <QuadWalkTurnScaleFactor value="1.000000" />
+        <QuadRunTurnScaleFactor value="1.600000" />
+        <QuadSprintTurnScaleFactor value="2.400000" />
+        <QuadWalkTurnScaleFactorPlayer value="1.000000" />
+        <QuadRunTurnScaleFactorPlayer value="1.000000" />
+        <QuadSprintTurnScaleFactorPlayer value="1.000000" />
+        <HasWalkStarts value="true" />
+        <HasRunStarts value="true" />
+        <HasQuickStops value="false" />
+        <CanTrot value="false" />
+      </onFoot>
+      <inWater type="NULL" />
+      <HasLowLodMotionTask value="false" />
+    </Item>
+    <Item type="CMotionTaskDataSet">
+      <Name>CAT</Name>
+      <onFoot type="sMotionTaskData">
+        <Type>CAT_ON_FOOT</Type>
+        <JumpClipSetHash />
+        <JumpNetworkName>TaskJump</JumpNetworkName>
+        <UseQuadrupedJump value="false" />
+        <FallClipSetHash />
+        <SlopeScrambleClipSetHash>CLIP_SET_SLOPE_SCAMBLE</SlopeScrambleClipSetHash>
+        <WalkTurnRate value="3.141593" />
+        <RunTurnRate value="2.530727" />
+        <SprintTurnRate value="1.745329" />
+        <MotionAnimRateScale value="1.000000" />
+        <QuadWalkRunTransitionTime value="0.250000" />
+        <QuadRunWalkTransitionTime value="0.250000" />
+        <QuadRunSprintTransitionTime value="0.250000" />
+        <QuadSprintRunTransitionTime value="0.250000" />
+        <QuadWalkTurnScaleFactor value="1.000000" />
+        <QuadRunTurnScaleFactor value="1.700000" />
+        <QuadSprintTurnScaleFactor value="2.000000" />
+        <QuadWalkTurnScaleFactorPlayer value="1.500000" />
+        <QuadRunTurnScaleFactorPlayer value="1.700000" />
+        <QuadSprintTurnScaleFactorPlayer value="2.000000" />
+        <HasWalkStarts value="true" />
+        <HasRunStarts value="true" />
+        <HasQuickStops value="false" />
+        <CanTrot value="false" />
+      </onFoot>
+      <inWater type="NULL" />
+      <HasLowLodMotionTask value="false" />
+    </Item>
+    <Item type="CMotionTaskDataSet">
+      <Name>RABBIT</Name>
+      <onFoot type="sMotionTaskData">
+        <Type>RABBIT_ON_FOOT</Type>
+        <JumpClipSetHash />
+        <JumpNetworkName>TaskJump</JumpNetworkName>
+        <UseQuadrupedJump value="false" />
+        <FallClipSetHash />
+        <SlopeScrambleClipSetHash>CLIP_SET_SLOPE_SCAMBLE</SlopeScrambleClipSetHash>
+        <WalkTurnRate value="3.141593" />
+        <RunTurnRate value="2.356194" />
+        <SprintTurnRate value="1.570796" />
+        <MotionAnimRateScale value="1.000000" />
+        <QuadWalkRunTransitionTime value="0.250000" />
+        <QuadRunWalkTransitionTime value="0.250000" />
+        <QuadRunSprintTransitionTime value="0.250000" />
+        <QuadSprintRunTransitionTime value="0.250000" />
+        <QuadWalkTurnScaleFactor value="1.000000" />
+        <QuadRunTurnScaleFactor value="1.250000" />
+        <QuadSprintTurnScaleFactor value="1.500000" />
+        <QuadWalkTurnScaleFactorPlayer value="1.000000" />
+        <QuadRunTurnScaleFactorPlayer value="1.250000" />
+        <QuadSprintTurnScaleFactorPlayer value="1.500000" />
+        <HasWalkStarts value="true" />
+        <HasRunStarts value="true" />
+        <HasQuickStops value="false" />
+        <CanTrot value="false" />
+      </onFoot>
+      <inWater type="NULL" />
+      <HasLowLodMotionTask value="false" />
+    </Item>
+  </aMotionTaskData>
+</CMotionTaskDataManager>

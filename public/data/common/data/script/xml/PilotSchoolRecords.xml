@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<PilotSchoolRecords_xml>
+	<PilotSchool>
+		
+		<!--	FLIGHT_SCHOOL_STATUS_ENUM
+			FSS_LOCKED		= 0,
+			FSS_UNLOCKED	= 1,
+			
+			FSS_BRONZE		= 2,
+			FSS_SILVER		= 3,
+			FSS_GOLD		= 4,
+		-->
+		<!--	FLIGHT_SCHOOL_GOAL_BITS
+			FSG_0_timeTaken 			= (1)
+			FSG_1_damageTaken 			= (2)
+			FSG_2_distanceFromTarget	= (4)
+			FSG_3_checkpointsPassed		= (8)
+			FSG_4_racePosition			= (16)
+		-->
+		<RecordNode name = "PS_Inverted" 			status = "1"	goals = "1"		preReq = "0"		timeGold = "65.0"	timeBronze = "120.0"	goalDamage = "100"  															/><!--  Inverted flight -->
+		<RecordNode name = "PS_Knifing" 			status = "1"	goals = "1"		preReq = "0"		timeGold = "50.0"	timeBronze = "90.0"		goalDamage = "100"  															/><!--  Knife flight -->
+		<RecordNode name = "PS_loopTheloop" 		status = "1"	goals = "1"		preReq = "0"		timeGold = "75.0"	timeBronze = "150.0"	goalDamage = "100"  															/><!--  Loop the Loop -->
+		<RecordNode name = "PS_FlyLow"	 			status = "1"	goals = "9"		preReq = "0"		timeGold = "120.0"	timeBronze = "210.0"	goalDamage = "100"	 										checkTotal = "20"	/><!--  Fly Low -->
+		<RecordNode name = "PS_Landing"	 			status = "1"	goals = "4"		preReq = "0"													goalDamage = "100" 	distGold = "20.0" 	distBronze = "75.0"  						/><!--  Daring Landing -->		
+		<RecordNode name = "PS_heliCourse"	 		status = "1"	goals = "13"	preReq = "0"		timeGold = "170.0"	timeBronze = "285.0"	goalDamage = "100" 	distGold = "10.0" 	distBronze = "30.0" checkTotal = "18"	/><!-- heli obsticale course-->
+		<RecordNode name = "PS_heliSpeedRun"	 	status = "1"	goals = "13"	preReq = "0"		timeGold = "160.0"	timeBronze = "275.0"	goalDamage = "100" 	distGold = "10.0" 	distBronze = "30.0" checkTotal = "17"	/><!-- heli speed run course-->
+		<RecordNode name = "PS_chute" 				status = "1"	goals = "4"		preReq = "0"												 						distGold = "15.0"	distBronze = "50.0"  					/><!--  Parachute onto Target -->
+		<RecordNode name = "PS_movingchute" 		status = "1"	goals = "4"		preReq = "0"																		distGold = "30.0"	distBronze = "75.0" 					/><!--  Parachute onto moving target -->
+		<RecordNode name = "PS_planeCourse"	 		status = "1"	goals = "9"		preReq = "0"		timeGold = "170.0"	timeBronze = "285.0"	goalDamage = "100" 											checkTotal = "22" 	/><!-- plane obsticale course-->
+		<RecordNode name = "PS_formation" 			status = "1"	goals = "9"		preReq = "0" 		timeGold = "110.0"	timeBronze = "150.0"	goalDamage = "100"	goalPlace = "0"  						checkTotal = "12"	/><!--  Formation Display -->
+		<!-- <RecordNode name = "PS_buzzTheTower" 		status = "1"	goals = "13"	preReq = "0"		timeGold = "35.0"	timeBronze = "45.0"		goalDamage = "100"	distGold = "5.0"	distBronze = "10.0"	checkTotal = "4"	/>  Buzz the Tower -->
+
+	</PilotSchool>
+	
+</PilotSchoolRecords_xml>

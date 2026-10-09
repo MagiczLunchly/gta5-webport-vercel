@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CActionFacialAnimSetContainer>
+  <aActionFacialAnimSets>
+    <Item type="CActionFacialAnimSet">
+      <Name>AFAS_pain</Name>
+      <aFacialAnimClipIds>
+        <Item>pain_1</Item>
+        <Item>pain_2</Item>
+        <Item>pain_3</Item>
+      </aFacialAnimClipIds>
+    </Item>
+    <Item type="CActionFacialAnimSet">
+      <Name>AFAS_effort</Name>
+      <aFacialAnimClipIds>
+        <Item>melee_effort_1</Item>
+      </aFacialAnimClipIds>
+    </Item>
+    <Item type="CActionFacialAnimSet">
+      <Name>AFAS_knockout</Name>
+      <aFacialAnimClipIds>
+        <Item>mood_knockout_1</Item>
+      </aFacialAnimClipIds>
+    </Item>
+  </aActionFacialAnimSets>
+</CActionFacialAnimSetContainer>

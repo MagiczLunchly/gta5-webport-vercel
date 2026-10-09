@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rage__ControlInput__ControlSettings>
+	<Mappings>
+		<!-- Subs -->
+		<Item>
+			<Input>INPUT_VEH_SUB_TURN_LEFT_ONLY</Input>
+			<Source>IOMS_MOUSE_CENTEREDAXIS</Source>
+			<Parameters>
+				<Item>IOM_AXIS_X_LEFT</Item>
+			</Parameters>
+		</Item>
+		<Item>
+			<Input>INPUT_VEH_SUB_TURN_RIGHT_ONLY</Input>
+			<Source>IOMS_MOUSE_CENTEREDAXIS</Source>
+			<Parameters>
+				<Item>IOM_AXIS_X_RIGHT</Item>
+			</Parameters>
+		</Item>
+		<Item>
+			<Input>INPUT_VEH_SUB_PITCH_UP_ONLY</Input>
+			<Source>IOMS_MOUSE_CENTEREDAXIS</Source>
+			<Parameters>
+				<Item>IOM_AXIS_Y_UP</Item>
+			</Parameters>
+		</Item>
+		<Item>
+			<Input>INPUT_VEH_SUB_PITCH_DOWN_ONLY</Input>
+			<Source>IOMS_MOUSE_CENTEREDAXIS</Source>
+			<Parameters>
+				<Item>IOM_AXIS_Y_DOWN</Item>
+			</Parameters>
+		</Item>
+	</Mappings>
+</rage__ControlInput__ControlSettings>

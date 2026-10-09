@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CAgitatedPersonalities>
+	<Personalities>
+		<Item key="Default">
+			<Contexts>
+				<Item key="Default">
+					<Situations>
+						<Item>
+							<Condition type="CAgitatedConditionAnd">
+								<Conditions>
+									<Condition type="CAgitatedConditionOr">
+										<Conditions>
+											<Condition type="CAgitatedConditionIsTerritoryIntruded" />
+											<Condition type="CAgitatedConditionIsUsingTerritoryScenario" />
+										</Conditions>
+									</Condition>
+									<Condition type="CAgitatedConditionCanFight" />
+									<Condition type="CAgitatedConditionCheckBraveryFlags">
+										<Flags>BF_ALLOW_CONFRONT_FOR_TERRITORY_REACTIONS</Flags>
+									</Condition>
+								</Conditions>
+							</Condition>
+							<Response>Confront</Response>
+						</Item>
+						<Item>
+							<Condition type="CAgitatedConditionAnd">
+								<Conditions>
+									<Condition type="CAgitatedConditionIsProvoked" />
+									<Condition type="CAgitatedConditionCanFight" />
+									<Condition type="CAgitatedConditionCheckBraveryFlags">
+										<Flags>BF_BOOST_BRAVERY_IN_GROUP</Flags>
+									</Condition>
+									<Condition type="CAgitatedConditionHasFriendsNearby">
+										<Min value="2" />
+									</Condition>
+								</Conditions>
+							</Condition>
+							<Response>Confront</Response>
+						</Item>
+						<Item>
+							<Condition type="CAgitatedConditionIsRanting" />
+							<Response>Rant</Response>
+						</Item>
+						<Item>
+							<Response>Coward</Response>
+						</Item>
+					</Situations>
+				</Item>
+				<Item key="Help">
+					<Situations>
+						<Item>
+							<Condition type="CAgitatedConditionAnd">
+								<Conditions>
+									<Condition type="CAgitatedConditionIsLeaderUsingResponse">
+										<Name>Confront</Name>
+									</Condition>
+									<Condition type="CAgitatedConditionCanFight" />
+									<Condition type="CAgitatedConditionCheckBraveryFlags">
+										<Flags>BF_BOOST_BRAVERY_IN_GROUP</Flags>
+									</Condition>
+								</Conditions>
+							</Condition>
+							<Response>HelpWithConfront</Response>
+						</Item>
+						<Item>
+							<Condition type="CAgitatedConditionAnd">
+								<Conditions>
+									<Condition type="CAgitatedConditionIsIntervene" />
+									<Condition type="CAgitatedConditionCanFight" />
+								</Conditions>
+							</Condition>
+							<Response>Confront</Response>
+						</Item>
+						<Item>
+							<Response>Coward</Response>
+						</Item>
+					</Situations>
+				</Item>
+			</Contexts>
+		</Item>
+		<Item key="Confront">
+			<Flags>IsAggressive</Flags>
+			<Contexts>
+				<Item key="Default">
+					<Situations>
+						<Item>
+							<Condition type="CAgitatedConditionCanFight" />
+							<Response>Confront</Response>
+						</Item>
+						<Item>
+							<Response>Coward</Response>
+						</Item>
+					</Situations>
+				</Item>
+				<Item key="Help">
+					<Situations>
+						<Item>
+							<Condition type="CAgitatedConditionIsLeaderUsingResponse">
+								<Name>Confront</Name>
+							</Condition>
+							<Response>HelpWithConfront</Response>
+						</Item>
+						<Item>
+							<Response>Confront</Response>
+						</Item>
+					</Situations>
+				</Item>
+			</Contexts>
+		</Item>
+		<Item key="GuardDog">
+			<Contexts>
+				<Item key="Default">
+					<Situations>
+						<Item>
+							<Condition type="CAgitatedConditionIsTerritoryIntruded" />
+							<Response>Fight</Response>
+						</Item>
+						<Item>
+							<Response>DogConfront</Response>
+						</Item>
+					</Situations>
+				</Item>
+			</Contexts>
+		</Item>
+    <Item key="None">
+      <Contexts />
+    </Item>
+	</Personalities>
+</CAgitatedPersonalities>

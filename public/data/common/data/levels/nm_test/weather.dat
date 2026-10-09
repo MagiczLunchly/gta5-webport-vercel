@@ -1,0 +1,77 @@
+1.0
+
+
+#########################################
+# GPU EFFECTS
+#########################################
+#
+#  System 0 - gpu drop particle system
+#  System 1 - gpu mist particle system
+#  System 2 - gpu ground particle system
+#
+#  Drive Type 0 - driven by the rain variable
+#  Drive Type 1 - driven by the snow variable
+#  Drive Type 2 - driven by the sandstorm variable
+#  Drive Type 9 - driven by no variable
+#
+#########################################
+
+WEATHER_GPUFX_START
+
+# NAME		    	SYSTEM	TEXTURE_A	TEXTURE_B	TYPE	WINDSCALE	GRAVITYZ    EMITTER							RENDER				
+												    
+RAINSTORM_DROP  	0	rain		rain_anim	0	4.0		-0.98	    platform:/data/effects/weather/rainstorm_emitter_drop	platform:/data/effects/weather/rainstorm_render_drop		
+RAINSTORM_MIST  	1	mist		mist		0	4.0		-0.98	    platform:/data/effects/weather/rainstorm_emitter_mist	platform:/data/effects/weather/rainstorm_render_mist		
+RAINSTORM_GROUND  	2	rain_anim	rain_anim	0	0.0		0.0	    platform:/data/effects/weather/rainstorm_emitter_ground	platform:/data/effects/weather/rainstorm_render_ground		
+												    
+VFX_SNOW_HEAVY_DROP 	0	snow		mist		1	0.4		-0.80	    platform:/data/effects/weather/snowheavy_emitter_drop	platform:/data/effects/weather/snowheavy_render_drop	
+VFX_SNOW_HEAVY_MIST 	1	mist		mist		1	0.4		-0.80	    platform:/data/effects/weather/snowheavy_emitter_mist	platform:/data/effects/weather/snowheavy_render_mist	
+VFX_SNOW_HEAVY_GROUND 	2	mist		mist		1	0.4		-0.80	    platform:/data/effects/weather/snowheavy_emitter_ground	platform:/data/effects/weather/snowheavy_render_ground	
+
+UNDERWATER_DROP		0	plankton	plankton	9	0.1		0.0	    platform:/data/effects/weather/underwater_emitter_drop	platform:/data/effects/weather/underwater_render_drop		
+UNDERWATER_MIST		1	mist		mist		9	0.1		0.0	    platform:/data/effects/weather/underwater_emitter_mist	platform:/data/effects/weather/underwater_render_mist		
+
+WEATHER_GPUFX_END
+
+
+#########################################
+# WEATHER TYPES
+#########################################
+
+WEATHER_TYPES_START
+
+# NAME			SUN	CLOUD	WIND	WIND	RAIN	SNOW	FOG	LIGHTNING   SANDSTORM	GPUFX_DROP		GPUFX_MIST		GPUFX_GROUND		TIMECYCLE
+#					MIN	MAX				
+																		    																			    
+EXTRASUNNY		1.00	0.00	0.75	0.75	0.00	0.00	0.00	0	    0		-			-			-			COMMON:/DATA/TIMECYCLE/W_EXTRASUNNY.XML
+CLEAR			1.00	0.00	0.20	0.20	0.00	0.00	0.00	0	    0		-			-			-			COMMON:/DATA/TIMECYCLE/W_CLEAR.XML
+SMOG			1.00	0.00	0.20	0.20	0.00	0.00	0.00	0	    0		-			-			-			COMMON:/DATA/TIMECYCLE/W_SMOG.XML
+CLOUDY			1.00	0.00	0.50	0.50	0.00	0.00	0.00	0	    0		-			-			-			COMMON:/DATA/TIMECYCLE/W_CLOUDY.XML
+RAIN			1.00	0.00	0.25	0.25	1.00	0.00	0.00	0	    0		RAINSTORM_DROP		RAINSTORM_MIST		RAINSTORM_GROUND	COMMON:/DATA/TIMECYCLE/W_RAIN.XML
+test			1.00	0.00	0.00	0.00	0.50	0.00	0.00	0	    0		-			-			-			COMMON:/DATA/TIMECYCLE/W_test.XML
+NEUTRAL			1.00	0.00	0.10	0.10	0.00	0.00	0.00	0	    0		-			-			-			COMMON:/DATA/TIMECYCLE/W_neutral.XML
+SNOW			0.00	0.90	0.50	0.50	0.00	0.90	0.50	0	    0		VFX_SNOW_HEAVY_DROP	VFX_SNOW_HEAVY_MIST	VFX_SNOW_HEAVY_GROUND   COMMON:/DATA/TIMECYCLE/W_snow.XML
+WEATHER_TYPES_END
+
+
+#########################################
+# WEATHER CYCLE 
+#########################################
+#
+# TYPES MUST EXIST IN THE WEATHER TYPES
+# SECTION ABOVE (128 MAX)
+#
+#########################################
+
+WEATHER_CYCLE_START
+
+EXTRASUNNY
+EXTRASUNNY
+SMOG	
+SMOG	
+SMOG	
+
+WEATHER_CYCLE_END
+
+
+

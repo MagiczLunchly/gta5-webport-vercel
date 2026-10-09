@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rage__ControlInput__ControlSettings>
+    <Mappings>
+        <Item>
+            <Input>INPUT_SPRINT</Input>
+            <Source>IOMS_PAD_DIGITALBUTTON</Source>
+            <Parameters>
+                <Item>R1</Item>
+            </Parameters>
+        </Item>
+        <Item>
+            <Input>INPUT_JUMP</Input>
+            <Source>IOMS_PAD_DIGITALBUTTON</Source>
+            <Parameters>
+                <Item>RDOWN</Item>
+            </Parameters>
+        </Item>
+        <Item>
+            <Input>INPUT_COVER</Input>
+            <Source>IOMS_PAD_DIGITALBUTTON</Source>
+            <Parameters>
+                <Item>RLEFT</Item>
+            </Parameters>
+        </Item>
+        <Item>
+            <Input>INPUT_DUCK</Input>
+            <Source>IOMS_PAD_DIGITALBUTTON</Source>
+            <Parameters>
+                <Item>R3</Item>
+            </Parameters>
+        </Item>
+    </Mappings>
+</rage__ControlInput__ControlSettings>

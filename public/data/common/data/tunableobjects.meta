@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CTunableObjectManager>
+  <TunableObjects>
+    
+    <!--
+    Here is sample tuning for "prop_wheel_tyre".
+    Not specifying a field means the non-tuned value will be used. All three components of a vector must be supplied. 
+    All values must be greater than or equal to zero or else they
+    won't be used, with the exception of the centre of mass offset and
+    the low LOD buoyancy height offset.
+    -->
+    <!--
+    <Item key="prop_wheel_tyre">
+      <objectName>prop_wheel_tyre</objectName>
+      <objectMass value="1000.0" />
+      <objectLinearSpeedDamping x="0.0" y="5.0" z="1.0" />
+      <objectAngularVelocityDamping x="1.0" y="2.0" z="3.0" />
+      <objectAngularVelocitySquaredDamping x="1.0" y="0.0" z="0.0" />
+    </Item>
+    -->
+
+    <Item key="prop_dock_bouy_1">
+      <objectName>prop_dock_bouy_1</objectName>
+      <objectLinearSpeedDamping x="0.5" y="0.5" z="0.5" />
+      <objectAngularVelocityDamping x="2.5" y="2.5" z="2.5" />
+      <objectAngularVelocitySquaredDamping x="1.0" y="1.0" z="1.0" />
+      <objectCentreOfMassOffset x="0.0" y="0.0" z="-2.0" />
+      <lowLodBuoyancyDistance value="30.0" />
+      <objectMass value="1000.0" />
+      <lowLodBuoyancyHeightOffset value="0.19352233" />
+    </Item>
+
+    <Item key="prop_dock_bouy_2">
+      <objectName>prop_dock_bouy_2</objectName>
+      <objectLinearSpeedDamping x="0.5" y="0.5" z="0.5" />
+      <objectAngularVelocityDamping x="2.5" y="2.5" z="2.5" />
+      <objectAngularVelocitySquaredDamping x="1.0" y="1.0" z="1.0" />
+      <objectCentreOfMassOffset x="0.0" y="0.0" z="-2.0" />
+      <lowLodBuoyancyDistance value="30.0" />
+      <objectMass value="1000.0" />
+      <lowLodBuoyancyHeightOffset value="0.10488534" />
+    </Item>
+
+    <Item key="prop_dock_bouy_3">
+      <objectName>prop_dock_bouy_3</objectName>
+      <objectLinearSpeedDamping x="0.5" y="0.5" z="0.5" />
+      <objectAngularVelocityDamping x="2.5" y="2.5" z="2.5" />
+      <objectAngularVelocitySquaredDamping x="1.0" y="1.0" z="1.0" />
+      <objectCentreOfMassOffset x="0.0" y="0.0" z="-2.0" />
+      <lowLodBuoyancyDistance value="30.0" />
+      <objectMass value="1000.0" />
+      <lowLodBuoyancyHeightOffset value="0.16221094" />
+    </Item>
+
+    <Item key="prop_dock_bouy_5">
+      <objectName>prop_dock_bouy_5</objectName>
+      <objectLinearSpeedDamping x="0.5" y="0.5" z="0.5" />
+      <objectAngularVelocityDamping x="2.5" y="2.5" z="2.5" />
+      <objectAngularVelocitySquaredDamping x="1.0" y="1.0" z="1.0" />
+      <objectCentreOfMassOffset x="0.0" y="0.0" z="-1.2" />
+      <lowLodBuoyancyDistance value="30.0" />
+      <objectMass value="500.0" />
+      <lowLodBuoyancyHeightOffset value="-0.55401903" />
+    </Item>
+
+    <Item key="prop_dock_float_1">
+      <objectName>prop_dock_float_1</objectName>
+      <objectLinearSpeedDamping x="0.3" y="0.3" z="0.3" />
+      <objectLinearVelocityDamping x="0.1" y="0.1" z="0.1" />
+      <objectLinearVelocitySquaredDamping x="0.05" y="0.05" z="0.05" />
+      <objectAngularSpeedDamping x="0.02" y="0.2" z="0.2" />
+      <objectAngularVelocityDamping x="0.0" y="0.0" z="0.0" />
+      <objectAngularVelocitySquaredDamping x="0.05" y="0.05" z="0.05" />
+      <objectCentreOfMassOffset x="0.0" y="0.0" z="0.03" />
+      <objectMass value="10.0" />
+      <lowLodBuoyancyDistance value="5.0" />
+      <lowLodBuoyancyHeightOffset value="-0.32336103" />
+      <lowLodBuoyancyNoCollision value="true" />
+    </Item>
+
+    <Item key="prop_jetski_ramp_01">
+      <objectName>prop_jetski_ramp_01</objectName>
+      <objectLinearSpeedDamping x="0.3" y="0.3" z="0.3" />
+      <objectLinearVelocityDamping x="0.1" y="0.1" z="0.1" />
+      <objectLinearVelocitySquaredDamping x="0.05" y="0.05" z="0.05" />
+      <objectAngularSpeedDamping x="0.02" y="0.2" z="0.2" />
+      <objectAngularVelocityDamping x="0.0" y="0.0" z="0.0" />
+      <objectAngularVelocitySquaredDamping x="0.05" y="0.05" z="0.05" />
+      <objectCentreOfMassOffset x="0.0" y="0.0" z="0.03" />
+      <lowLodBuoyancyDistance value="0.0" />
+      <lowLodBuoyancyHeightOffset value="0.5" />
+      <knockOffBikeImpulseScalar value="0.8" />
+    </Item>
+
+    <Item key="prop_cablespool_01a">
+      <objectName>prop_cablespool_01a</objectName>
+      <objectMass value="7000.0" />
+      <objectLinearSpeedDamping x="0.5" y="0.5" z="0.5" />
+      <objectLinearVelocityDamping x="0.2" y="0.2" z="0.2" />
+      <objectLinearVelocitySquaredDamping x="0.05" y="0.05" z="0.05" />
+      <objectAngularSpeedDamping x="0.02" y="0.2" z="0.2" />
+      <objectAngularVelocityDamping x="0.0" y="0.0" z="0.0" />
+      <objectAngularVelocitySquaredDamping x="0.05" y="0.05" z="0.05" />
+    </Item>
+
+    <Item key="prop_cablespool_01b">
+      <objectName>prop_cablespool_01b</objectName>
+      <objectMass value="12000.0" />
+      <objectLinearSpeedDamping x="0.5" y="0.5" z="0.5" />
+      <objectLinearVelocityDamping x="0.2" y="0.2" z="0.2" />
+      <objectLinearVelocitySquaredDamping x="0.05" y="0.05" z="0.05" />
+      <objectAngularSpeedDamping x="0.02" y="0.2" z="0.2" />
+      <objectAngularVelocityDamping x="0.0" y="0.0" z="0.0" />
+      <objectAngularVelocitySquaredDamping x="0.05" y="0.05" z="0.05" />
+    </Item>
+
+    <Item key="Prop_beach_volball01">
+      <objectName>Prop_beach_volball01</objectName>
+      <objectLinearSpeedDamping x="0.3" y="0.3" z="0.3" />
+      <objectLinearVelocityDamping x="0.1" y="0.1" z="0.1" />
+      <objectLinearVelocitySquaredDamping x="0.05" y="0.05" z="0.05" />
+      <objectAngularSpeedDamping x="0.02" y="0.2" z="0.2" />
+      <objectAngularVelocityDamping x="0.0" y="0.0" z="0.0" />
+      <objectAngularVelocitySquaredDamping x="0.05" y="0.05" z="0.05" />
+    </Item>
+
+    <Item key="Prop_beach_volball02">
+      <objectName>Prop_beach_volball02</objectName>
+      <objectLinearSpeedDamping x="0.3" y="0.3" z="0.3" />
+      <objectLinearVelocityDamping x="0.1" y="0.1" z="0.1" />
+      <objectLinearVelocitySquaredDamping x="0.05" y="0.05" z="0.05" />
+      <objectAngularSpeedDamping x="0.02" y="0.2" z="0.2" />
+      <objectAngularVelocityDamping x="0.0" y="0.0" z="0.0" />
+      <objectAngularVelocitySquaredDamping x="0.05" y="0.05" z="0.05" />
+    </Item>
+
+    <Item key="prop_beachball_01">
+      <objectName>prop_beachball_01</objectName>
+      <objectLinearSpeedDamping x="0.3" y="0.3" z="0.3" />
+      <objectLinearVelocityDamping x="0.1" y="0.1" z="0.1" />
+      <objectLinearVelocitySquaredDamping x="0.05" y="0.05" z="0.05" />
+      <objectAngularSpeedDamping x="0.02" y="0.2" z="0.2" />
+      <objectAngularVelocityDamping x="0.0" y="0.0" z="0.0" />
+      <objectAngularVelocitySquaredDamping x="0.05" y="0.05" z="0.05" />
+      <buoyancyFactor value="6.0" />
+    </Item>
+
+    <Item key="prop_golf_ball">
+      <objectName>prop_golf_ball</objectName>
+      <lowLodBuoyancyDistance value="1000.0" />
+      <buoyancyFactor value="0.0" />
+    </Item>
+
+    <Item key="prop_tennis_ball">
+      <objectName>prop_tennis_ball</objectName>
+      <objectLinearSpeedDamping x="0.3" y="0.3" z="0.3" />
+      <objectLinearVelocityDamping x="0.1" y="0.1" z="0.1" />
+      <objectLinearVelocitySquaredDamping x="0.05" y="0.05" z="0.05" />
+      <objectAngularSpeedDamping x="0.02" y="0.2" z="0.2" />
+      <objectAngularVelocityDamping x="0.0" y="0.0" z="0.0" />
+      <objectAngularVelocitySquaredDamping x="0.05" y="0.05" z="0.05" />
+    </Item>
+
+    <Item key="prop_hacky_sack_01">
+      <objectName>prop_hacky_sack_01</objectName>
+      <objectLinearSpeedDamping x="0.3" y="0.3" z="0.3" />
+      <objectLinearVelocityDamping x="0.1" y="0.1" z="0.1" />
+      <objectLinearVelocitySquaredDamping x="0.05" y="0.05" z="0.05" />
+      <objectAngularSpeedDamping x="0.02" y="0.2" z="0.2" />
+      <objectAngularVelocityDamping x="0.0" y="0.0" z="0.0" />
+      <objectAngularVelocitySquaredDamping x="0.05" y="0.05" z="0.05" />
+    </Item>
+
+    <Item key="prop_bskball_01">
+      <objectName>prop_bskball_01</objectName>
+      <objectLinearSpeedDamping x="0.3" y="0.3" z="0.3" />
+      <objectLinearVelocityDamping x="0.1" y="0.1" z="0.1" />
+      <objectLinearVelocitySquaredDamping x="0.05" y="0.05" z="0.05" />
+      <objectAngularSpeedDamping x="0.02" y="0.2" z="0.2" />
+      <objectAngularVelocityDamping x="0.0" y="0.0" z="0.0" />
+      <objectAngularVelocitySquaredDamping x="0.05" y="0.05" z="0.05" />
+    </Item>
+
+    <Item key="p_ld_am_ball_01">
+      <objectName>p_ld_am_ball_01</objectName>
+      <objectLinearSpeedDamping x="0.3" y="0.3" z="0.3" />
+      <objectLinearVelocityDamping x="0.1" y="0.1" z="0.1" />
+      <objectLinearVelocitySquaredDamping x="0.05" y="0.05" z="0.05" />
+      <objectAngularSpeedDamping x="0.02" y="0.2" z="0.2" />
+      <objectAngularVelocityDamping x="0.0" y="0.0" z="0.0" />
+      <objectAngularVelocitySquaredDamping x="0.05" y="0.05" z="0.05" />
+    </Item>
+
+    <Item key="v_ind_cs_gascanister">
+      <objectName>v_ind_cs_gascanister</objectName>
+      <objectLinearSpeedDamping x="0.5" y="0.5" z="0.5" />
+      <objectLinearVelocityDamping x="0.2" y="0.2" z="0.2" />
+      <objectLinearVelocitySquaredDamping x="0.05" y="0.05" z="0.05" />
+      <objectAngularSpeedDamping x="0.2" y="0.2" z="0.2" />
+      <objectAngularVelocityDamping x="0.0" y="0.0" z="0.0" />
+      <objectAngularVelocitySquaredDamping x="0.05" y="0.05" z="0.05" />
+    </Item>
+
+    <Item key="prop_barrel_01a">
+      <objectName>prop_barrel_01a</objectName>
+      <objectMass value="50.0" />
+      <objectLinearSpeedDamping x="0.5" y="0.5" z="0.5" />
+      <objectLinearVelocityDamping x="0.2" y="0.2" z="0.2" />
+      <objectLinearVelocitySquaredDamping x="0.05" y="0.05" z="0.05" />
+      <objectAngularSpeedDamping x="0.2" y="0.2" z="0.2" />
+      <objectAngularVelocityDamping x="0.0" y="0.0" z="0.0" />
+      <objectAngularVelocitySquaredDamping x="0.05" y="0.05" z="0.05" />
+      <buoyancyFactor value="1.7" />
+    </Item>
+
+    <Item key="prop_bin_12a">
+      <objectName>prop_bin_12a</objectName>
+      <objectLinearSpeedDamping x="0.5" y="0.5" z="0.5" />
+      <objectLinearVelocityDamping x="0.2" y="0.2" z="0.2" />
+      <objectLinearVelocitySquaredDamping x="0.05" y="0.05" z="0.05" />
+      <objectAngularSpeedDamping x="0.2" y="0.2" z="0.2" />
+      <objectAngularVelocityDamping x="0.0" y="0.0" z="0.0" />
+      <objectAngularVelocitySquaredDamping x="0.05" y="0.05" z="0.05" />
+    </Item>
+
+    <Item key="Prop_CS_Ciggy_01">
+      <objectName>Prop_CS_Ciggy_01</objectName>
+      <objectLinearSpeedDamping x="0.0" y="0.0" z="0.0" />
+      <objectLinearVelocityDamping x="0.02" y="0.02" z="0.02" />
+      <objectLinearVelocitySquaredDamping x="0.05" y="0.05" z="0.05" />
+      <objectAngularSpeedDamping x="0.0" y="0.0" z="0.0" />
+      <objectAngularVelocityDamping x="0.02" y="0.02" z="0.02" />
+      <objectAngularVelocitySquaredDamping x="0.05" y="0.05" z="0.05" />
+    </Item>
+
+    <Item key="prop_cs_fertilizer">
+      <objectName>prop_cs_fertilizer</objectName>
+      <objectLinearSpeedDamping x="0.5" y="0.5" z="0.5" />
+      <objectLinearVelocityDamping x="0.2" y="0.2" z="0.2" />
+      <objectLinearVelocitySquaredDamping x="0.05" y="0.05" z="0.05" />
+      <objectAngularSpeedDamping x="0.2" y="0.2" z="0.2" />
+      <objectAngularVelocityDamping x="0.0" y="0.0" z="0.0" />
+      <objectAngularVelocitySquaredDamping x="0.05" y="0.05" z="0.05" />
+    </Item>
+
+    <Item key="physics_hat">
+      <objectName>physics_hat</objectName>
+      <objectLinearSpeedDamping x="0.3" y="0.3" z="0.3" />
+      <objectLinearVelocityDamping x="0.1" y="0.1" z="0.1" />
+      <objectLinearVelocitySquaredDamping x="0.05" y="0.05" z="0.05" />
+      <objectAngularSpeedDamping x="0.02" y="0.2" z="0.2" />
+      <objectAngularVelocityDamping x="0.0" y="0.0" z="0.0" />
+      <objectAngularVelocitySquaredDamping x="0.05" y="0.05" z="0.05" />
+    </Item>
+
+    <Item key="prop_byard_rowboat2">
+      <objectName>prop_byard_rowboat2</objectName>
+      <objectLinearSpeedDamping x="0.5" y="0.5" z="0.5" />
+      <objectAngularVelocityDamping x="1.5" y="1.5" z="1.5" />
+      <objectAngularVelocitySquaredDamping x="0.5" y="0.5" z="0.5" />
+      <objectCentreOfMassOffset x="0.0" y="0.5" z="-1.0" />
+      <lowLodBuoyancyDistance value="30.0" />
+      <lowLodBuoyancyHeightOffset value="0.0" />
+      <buoyancyFactor value="2.2" />
+    </Item>
+
+    <Item key="prop_byard_rowboat4">
+      <objectName>prop_byard_rowboat4</objectName>
+      <objectLinearSpeedDamping x="0.5" y="0.5" z="0.5" />
+      <objectAngularVelocityDamping x="1.5" y="1.5" z="1.5" />
+      <objectAngularVelocitySquaredDamping x="0.5" y="0.5" z="0.5" />
+      <objectCentreOfMassOffset x="0.0" y="0.0" z="0.0" />
+      <lowLodBuoyancyDistance value="30.0" />
+      <lowLodBuoyancyHeightOffset value="0.0" />
+      <buoyancyFactor value="2.2" />
+    </Item>
+
+    <Item key="prop_byard_dingy">
+      <objectName>prop_byard_dingy</objectName>
+      <objectLinearSpeedDamping x="0.5" y="0.5" z="0.5" />
+      <objectAngularVelocityDamping x="1.5" y="1.5" z="1.5" />
+      <objectAngularVelocitySquaredDamping x="0.5" y="0.5" z="0.5" />
+      <objectCentreOfMassOffset x="0.0" y="-0.5" z="-0.00" />
+      <lowLodBuoyancyDistance value="30.0" />
+      <lowLodBuoyancyHeightOffset value="0.0" />
+      <buoyancyFactor value="5.0" />
+      <boundIndexForWaterSamples value="0" />
+    </Item>
+
+    <Item key="prop_coffin_01">
+      <objectName>prop_coffin_01</objectName>
+      <objectMass value="100.0" />
+    </Item>
+
+    <Item key="Prop_TankTrailer_01A">
+      <objectName>Prop_TankTrailer_01A</objectName>
+      <maxHealth value="1000.0f" />
+    </Item>
+
+    <!-- Here is an example of a pallet type prop which is meant to be
+      -- used with the forklift. -->
+    <Item key="p_pallet_02a_s">
+      <objectName>p_pallet_02a_s</objectName>
+      <objectMass value="500" />
+      <forkliftAttachAngledAreaDims x="1.8" y="1.5" z="0.175" />
+      <forkliftAttachAngledAreaOrigin x="0.0" y="0.0" z="0.125" />
+    </Item>
+
+    <Item key="Prop_Crate_10A">
+      <objectName>Prop_Crate_10A</objectName>
+      <objectMass value="500" />
+      <forkliftAttachAngledAreaDims x="1.3" y="1.3" z="0.1" />
+      <forkliftAttachAngledAreaOrigin x="0.0" y="0.0" z="0.07" />
+    </Item>
+
+    <Item key="Prop_Pallet_01A">
+      <objectName>Prop_Pallet_01A</objectName>
+      <objectMass value="500" />
+      <forkliftAttachAngledAreaDims x="1.8" y="1.5" z="0.175" />
+      <forkliftAttachAngledAreaOrigin x="0.0" y="0.0" z="0.125" />
+    </Item>
+
+    <Item key="Prop_Pallet_02A">
+      <objectName>Prop_Pallet_02A</objectName>
+      <objectMass value="500" />
+      <forkliftAttachAngledAreaDims x="1.8" y="1.5" z="0.175" />
+      <forkliftAttachAngledAreaOrigin x="0.0" y="0.0" z="0.0" />
+      <forkliftCanAttachWhenFragBroken value="false" />
+    </Item>
+
+    <Item key="Prop_Pallet_03A">
+      <objectName>Prop_Pallet_03A</objectName>
+      <objectMass value="500" />
+      <forkliftAttachAngledAreaDims x="1.8" y="1.5" z="0.175" />
+      <forkliftAttachAngledAreaOrigin x="0.0" y="0.0" z="0.0" />
+    </Item>
+
+    <Item key="Prop_Pallet_03B">
+      <objectName>Prop_Pallet_03B</objectName>
+      <objectMass value="500" />
+      <forkliftAttachAngledAreaDims x="1.8" y="1.5" z="0.175" />
+      <forkliftAttachAngledAreaOrigin x="0.0" y="0.0" z="0.0" />
+    </Item>
+
+    <Item key="Prop_Pallet_pile_01">
+      <objectName>Prop_Pallet_pile_01</objectName>
+      <objectMass value="500" />
+      <forkliftAttachAngledAreaDims x="1.8" y="1.5" z="0.175" />
+      <forkliftAttachAngledAreaOrigin x="0.0" y="0.0" z="0.0" />
+    </Item>
+
+    <Item key="Prop_Pallet_pile_02">
+      <objectName>Prop_Pallet_pile_02</objectName>
+      <objectMass value="500" />
+      <forkliftAttachAngledAreaDims x="1.8" y="1.5" z="0.175" />
+      <forkliftAttachAngledAreaOrigin x="0.0" y="0.0" z="0.0" />
+    </Item>
+
+    <Item key="Prop_BoxPile_02B">
+      <objectName>Prop_BoxPile_02B</objectName>
+      <objectMass value="500" />
+      <forkliftAttachAngledAreaDims x="1.8" y="1.5" z="0.175" />
+      <forkliftAttachAngledAreaOrigin x="0.0" y="0.0" z="0.0" />
+      <forkliftCanAttachWhenFragBroken value="true" />
+    </Item>
+
+    <Item key="Prop_BoxPile_02C">
+      <objectName>Prop_BoxPile_02C</objectName>
+      <objectMass value="500" />
+      <forkliftAttachAngledAreaDims x="1.8" y="1.5" z="0.175" />
+      <forkliftAttachAngledAreaOrigin x="0.0" y="0.0" z="0.125" />
+      <forkliftCanAttachWhenFragBroken value="true" />
+    </Item>
+
+    <Item key="Prop_BoxPile_06A">
+      <objectName>Prop_BoxPile_06A</objectName>
+      <objectMass value="500" />
+      <forkliftAttachAngledAreaDims x="1.8" y="1.5" z="0.175" />
+      <forkliftAttachAngledAreaOrigin x="0.0" y="0.0" z="0.125" />
+      <forkliftCanAttachWhenFragBroken value="true" />
+    </Item>
+
+    <Item key="prop_boxpile_06b">
+      <objectName>prop_boxpile_06b</objectName>
+      <objectMass value="500" />
+      <forkliftAttachAngledAreaDims x="1.8" y="1.5" z="0.175" />
+      <forkliftAttachAngledAreaOrigin x="0.0" y="0.0" z="0.125" />
+      <forkliftCanAttachWhenFragBroken value="true" />
+    </Item>
+
+    <Item key="Prop_BoxPile_07A">
+      <objectName>Prop_BoxPile_07A</objectName>
+      <objectMass value="500" />
+      <forkliftAttachAngledAreaDims x="1.8" y="1.5" z="0.175" />
+      <forkliftAttachAngledAreaOrigin x="0.0" y="0.0" z="0.125" />
+      <forkliftCanAttachWhenFragBroken value="true" />
+    </Item>
+
+    <Item key="Prop_BoxPile_07d">
+      <objectName>Prop_BoxPile_07d</objectName>
+      <objectMass value="500" />
+      <forkliftAttachAngledAreaDims x="1.8" y="1.5" z="0.175" />
+      <forkliftAttachAngledAreaOrigin x="0.0" y="0.0" z="0.125" />
+      <forkliftCanAttachWhenFragBroken value="true" />
+    </Item>
+
+    <Item key="Prop_conc_Blocks01A">
+      <objectName>Prop_conc_Blocks01A</objectName>
+      <objectMass value="500" />
+      <forkliftAttachAngledAreaDims x="1.8" y="1.5" z="0.175" />
+      <forkliftAttachAngledAreaOrigin x="0.0" y="0.0" z="0.125" />
+      <forkliftCanAttachWhenFragBroken value="true" />
+    </Item>
+
+    <Item key="Prop_conc_Blocks01B">
+      <objectName>Prop_conc_Blocks01B</objectName>
+      <objectMass value="500" />
+      <forkliftAttachAngledAreaDims x="1.8" y="1.5" z="0.175" />
+      <forkliftAttachAngledAreaOrigin x="0.0" y="0.0" z="0.125" />
+      <forkliftCanAttachWhenFragBroken value="true" />
+    </Item>
+
+    <Item key="Prop_conc_Blocks01C">
+      <objectName>Prop_conc_Blocks01C</objectName>
+      <objectMass value="500" />
+      <forkliftAttachAngledAreaDims x="1.8" y="1.5" z="0.175" />
+      <forkliftAttachAngledAreaOrigin x="0.0" y="0.0" z="0.125" />
+      <forkliftCanAttachWhenFragBroken value="true" />
+    </Item>
+
+    <Item key="Prop_CementBags01">
+      <objectName>Prop_CementBags01</objectName>
+      <objectMass value="500" />
+      <forkliftAttachAngledAreaDims x="1.3" y="1.18" z="0.120" />
+      <forkliftAttachAngledAreaOrigin x="0.0" y="0.0" z="0.087" />
+      <forkliftCanAttachWhenFragBroken value="true" />
+    </Item>
+
+    <Item key="Prop_cons_cements01">
+      <objectName>Prop_cons_cements01</objectName>
+      <objectMass value="500" />
+      <forkliftAttachAngledAreaDims x="1.3" y="1.18" z="0.120" />
+      <forkliftAttachAngledAreaOrigin x="0.0" y="0.0" z="0.0" />
+      <forkliftCanAttachWhenFragBroken value="true" />
+    </Item>
+
+    <Item key="Prop_Box_Wood01A">
+      <objectName>Prop_Box_Wood01A</objectName>
+      <objectMass value="1000.0" />
+      <objectLinearSpeedDamping x="0.5" y="0.5" z="0.5" />
+      <objectAngularVelocityDamping x="1.5" y="1.5" z="1.5" />
+      <objectAngularVelocitySquaredDamping x="0.5" y="0.5" z="0.5" />
+      <objectCentreOfMassOffset x="0.0" y="0.0" z="0.0" />
+      <lowLodBuoyancyDistance value="30.0" />
+      <lowLodBuoyancyHeightOffset value="0.0" />
+      <buoyancyFactor value="1.2" />
+    </Item>
+
+    <Item key="Prop_Box_Wood02A_Pu">
+      <objectName>Prop_Box_Wood02A_Pu</objectName>
+      <bCanBePickedUpByCargobob value="false" />
+    </Item>
+
+    <Item key="Prop_Box_Wood03A">
+      <objectName>Prop_Box_Wood03A</objectName>
+      <objectMass value="1500.0" />
+      <objectLinearSpeedDamping x="0.5" y="0.5" z="0.5" />
+      <objectAngularVelocityDamping x="1.5" y="1.5" z="1.5" />
+      <objectAngularVelocitySquaredDamping x="0.5" y="0.5" z="0.5" />
+      <objectCentreOfMassOffset x="0.0" y="0.0" z="0.0" />
+      <lowLodBuoyancyDistance value="30.0" />
+      <lowLodBuoyancyHeightOffset value="0.0" />
+      <buoyancyFactor value="1.2" />
+    </Item>
+
+    <Item key="Prop_Box_Wood04A">
+      <objectName>Prop_Box_Wood04A</objectName>
+      <objectMass value="2000.0" />
+      <objectLinearSpeedDamping x="0.5" y="0.5" z="0.5" />
+      <objectAngularVelocityDamping x="1.5" y="1.5" z="1.5" />
+      <objectAngularVelocitySquaredDamping x="0.5" y="0.5" z="0.5" />
+      <objectCentreOfMassOffset x="0.0" y="0.0" z="0.0" />
+      <lowLodBuoyancyDistance value="30.0" />
+      <lowLodBuoyancyHeightOffset value="0.0" />
+      <buoyancyFactor value="1.2" />
+    </Item>
+
+    <Item key="Prop_Box_Wood06A">
+      <objectName>Prop_Box_Wood06A</objectName>
+      <objectMass value="1800.0" />
+      <objectLinearSpeedDamping x="0.5" y="0.5" z="0.5" />
+      <objectAngularVelocityDamping x="1.5" y="1.5" z="1.5" />
+      <objectAngularVelocitySquaredDamping x="0.5" y="0.5" z="0.5" />
+      <objectCentreOfMassOffset x="0.0" y="0.0" z="0.0" />
+      <lowLodBuoyancyDistance value="30.0" />
+      <lowLodBuoyancyHeightOffset value="0.0" />
+      <buoyancyFactor value="1.2" />
+    </Item>
+
+    <Item key="Prop_Box_Wood07A">
+      <objectName>Prop_Box_Wood07A</objectName>
+      <objectMass value="1700.0" />
+      <objectLinearSpeedDamping x="0.5" y="0.5" z="0.5" />
+      <objectAngularVelocityDamping x="1.5" y="1.5" z="1.5" />
+      <objectAngularVelocitySquaredDamping x="0.5" y="0.5" z="0.5" />
+      <objectCentreOfMassOffset x="0.0" y="0.0" z="0.0" />
+      <lowLodBuoyancyDistance value="30.0" />
+      <lowLodBuoyancyHeightOffset value="0.0" />
+      <buoyancyFactor value="1.2" />
+    </Item>
+
+   <Item key="prop_barriercrash_01">
+      <objectName>prop_barriercrash_01</objectName>
+      <knockOffBikeImpulseScalar value="0.6" />
+    </Item>
+
+    <Item key="prop_drug_package">
+      <objectName>prop_drug_package</objectName>
+      <buoyancyFactor value="1.7" />
+      <bCanBePickedUpByCargobob value="false" />
+    </Item>
+
+    <Item key="prop_drug_package_02">
+      <objectName>prop_drug_package_02</objectName>
+      <objectMass value="50.0" />
+      <objectLinearSpeedDamping x="0.5" y="0.5" z="0.5" />
+      <objectAngularVelocityDamping x="1.5" y="1.5" z="1.5" />
+      <objectAngularVelocitySquaredDamping x="0.5" y="0.5" z="0.5" />
+      <objectCentreOfMassOffset x="0.0" y="0.0" z="0.0" />
+      <buoyancyFactor value="1.7" />
+    </Item>
+
+    <Item key="w_lr_rpg_rocket">
+      <objectName>w_lr_rpg_rocket</objectName>
+      <buoyancyFactor value="0.0" />
+    </Item>
+	
+	<Item key="Prop_Byard_float_01">
+      <objectName>Prop_Byard_float_01</objectName>
+      <lowLodBuoyancyDistance value="0.0" />
+      <lowLodBuoyancyHeightOffset value="0.0" />
+    </Item>
+	
+    <Item key="Prop_Byard_float_02">
+      <objectName>Prop_Byard_float_02</objectName>
+      <lowLodBuoyancyDistance value="0.0" />
+      <lowLodBuoyancyHeightOffset value="0.0" />
+    </Item>
+
+    <Item key="v_med_cor_divider">
+      <objectName>v_med_cor_divider</objectName>
+      <glassFrameFlags value="3" />
+    </Item>
+
+    <Item key="prop_cash_pile_01">
+      <objectName>prop_cash_pile_01</objectName>
+      <objectLinearSpeedDamping x="0.1" y="0.1" z="0.1" />
+      <objectLinearVelocityDamping x="0.5" y="0.5" z="0.5" />
+      <objectLinearVelocitySquaredDamping x="0.5" y="0.5" z="0.5" />
+    </Item>
+
+    <Item key="prop_flare_01">
+      <objectName>prop_flare_01</objectName>
+      <objectMass value="15.0" />
+      <buoyancyFactor value="0.1" />
+    </Item>
+
+    <Item key="prop_bar_stool_01">
+      <objectName>prop_bar_stool_01</objectName>
+      <objectMass value="50" />
+    </Item>
+
+    <Item key="prop_patio_lounger1">
+      <objectName>prop_patio_lounger1</objectName>
+      <objectMass value="80" />
+    </Item>
+
+    <Item key="prop_bin_beach_01d">
+      <objectName>prop_bin_beach_01d</objectName>
+      <objectMass value="50" />
+    </Item>
+
+    <Item key="prop_patio_lounger_3">
+      <objectName>prop_patio_lounger_3</objectName>
+      <objectAngularVelocitySquaredDamping x="1.0" y="1.0" z="1.0" />
+      <objectCentreOfMassOffset x="0.0" y="-0.2" z="0.4" />
+    </Item>
+
+    <Item key="w_am_baseball">
+      <objectName>w_am_baseball</objectName>
+      <objectMass value="1.0" />
+      <objectLinearSpeedDamping x="0.3" y="0.3" z="0.3" />
+      <objectLinearVelocityDamping x="0.0" y="0.0" z="0.0" />
+      <objectLinearVelocitySquaredDamping x="0.0" y="0.0" z="0.0" />
+      <objectAngularSpeedDamping x="40.0" y="40.0" z="40.0" />
+      <objectAngularVelocityDamping x="0.0" y="0.0" z="0.0" />
+      <objectAngularVelocitySquaredDamping x="0.0" y="0.0" z="0.0" />
+    </Item>
+
+    <Item key="prop_beach_ring_01">
+      <objectName>prop_beach_ring_01</objectName>
+      <buoyancyDragFactor value="0.1" />
+    </Item>
+
+    <Item key="P_Parachute1_SP_S">
+      <objectName>P_Parachute1_SP_S</objectName>
+      <buoyancyDragFactor value="0.1" />
+    </Item>
+
+    <Item key="P_Parachute1_MP_S">
+      <objectName>P_Parachute1_MP_S</objectName>
+      <buoyancyDragFactor value="0.1" />
+    </Item>
+
+    <Item key="prop_skip_01a">
+      <objectName>prop_skip_01a</objectName>
+      <objectMass value="10000.0" />
+      <bUnreachableByMeleeNavigation value="true" />
+    </Item>
+
+    <Item key="prop_plant_int_01a">
+      <objectName>prop_plant_int_01a</objectName>
+      <boundIndexForWaterSamples value="0" />
+    </Item>
+
+    <Item key="prop_aircon_m_02">
+      <objectName>prop_aircon_m_02</objectName>
+      <notDamagedByFlames value="true" />
+    </Item>
+    
+    <Item key="prop_aircon_l_01">
+      <objectName>prop_aircon_l_01</objectName>
+      <notDamagedByFlames value="true" />
+    </Item>
+
+    <Item key="prop_aircon_l_02">
+      <objectName>prop_aircon_l_02</objectName>
+      <notDamagedByFlames value="true" />
+    </Item>
+
+    <Item key="prop_aircon_l_03">
+      <objectName>prop_aircon_l_03</objectName>
+      <notDamagedByFlames value="true" />
+    </Item>
+
+    <Item key="prop_aircon_l_04">
+      <objectName>prop_aircon_l_04</objectName>
+      <notDamagedByFlames value="true" />
+    </Item>
+
+    <Item key="prop_fnccorgm_02a">
+      <objectName>prop_fnccorgm_02a</objectName>
+      <collidesWithLowLodVehicleChassis value="true" />
+    </Item>
+
+    <Item key="prop_fnccorgm_02b">
+      <objectName>prop_fnccorgm_02b</objectName>
+      <collidesWithLowLodVehicleChassis value="true" />
+    </Item>
+
+    <Item key="prop_fnccorgm_02c">
+      <objectName>prop_fnccorgm_02c</objectName>
+      <collidesWithLowLodVehicleChassis value="true" />
+    </Item>
+
+    <Item key="prop_fnccorgm_02d">
+      <objectName>prop_fnccorgm_02d</objectName>
+      <collidesWithLowLodVehicleChassis value="true" />
+    </Item>
+
+    <Item key="prop_fnccorgm_02e">
+      <objectName>prop_fnccorgm_02e</objectName>
+      <collidesWithLowLodVehicleChassis value="true" />
+    </Item>
+
+    <Item key="prop_fnc_omesh_01a">
+      <objectName>prop_fnc_omesh_02a</objectName>
+      <collidesWithLowLodVehicleChassis value="true" />
+    </Item>
+
+    <Item key="prop_fnc_omesh_02a">
+      <objectName>prop_fnc_omesh_02a</objectName>
+      <collidesWithLowLodVehicleChassis value="true" />
+    </Item>
+    
+    <Item key="prop_ld_case_01">
+      <objectName>prop_ld_case_01</objectName>
+      <buoyancyFactor value="1.700000" />
+    </Item>
+
+    <Item key="prop_security_case_01">
+      <objectName>prop_security_case_01</objectName>
+      <buoyancyFactor value="1.700000" />
+    </Item>
+
+    <Item key="prop_toolchest_05">
+      <objectName>prop_toolchest_05</objectName>
+      <objectMass value="150.000000" />
+    </Item>
+
+  </TunableObjects>
+</CTunableObjectManager>

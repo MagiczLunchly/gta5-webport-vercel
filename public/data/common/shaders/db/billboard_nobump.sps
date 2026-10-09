@@ -1,0 +1,1 @@
+shader billboard_nobump 

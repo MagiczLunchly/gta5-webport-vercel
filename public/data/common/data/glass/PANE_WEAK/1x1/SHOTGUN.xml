@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 1x1 -->
+<rage__bgCrackType>
+	<crackArray>
+    <item>
+      <cracks>HiRes.txt</cracks>
+      <textureVars>
+        <item>
+          <varName>DecalTex</varName>
+          <textureName>HiResDecal</textureName>
+        </item>
+      </textureVars>
+    </item>
+  </crackArray>
+  <initialImpactKillRadius1 value="1.00000"/>
+  <initialImpactKillRadius2 value="1.00000"/>
+  <subsequentImpactKillRadiusMin value="0.00250000"/>
+  <subsequentImpactKillRadiusMax value="0.0500000"/>
+  <decalRadiusImpactShowValueMin value="0.1325"/>
+  <decalRadiusImpactShowValueMax value="0.1325"/>
+  <crackRadiusImpactShowValueMin value="0.1325"/>
+  <crackRadiusImpactShowValueMax value="0.1325"/>
+  <breakPieceSizeMin value="0.0001"/>
+  <breakPieceSizeMax value="0.0001"/>
+  <crackInBetweenPiecesSizeMax value="0.000001"/>
+  <bevelSizeMax value="0.001"/>
+  <minThickness value="0.0125"/>
+  <decalTextureScale value="1.5"/>
+  <decalTextureChannel>red</decalTextureChannel>
+  <crackMapRotationType>0_to_360</crackMapRotationType>
+</rage__bgCrackType>

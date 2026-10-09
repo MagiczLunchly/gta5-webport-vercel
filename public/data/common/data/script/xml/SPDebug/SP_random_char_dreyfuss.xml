@@ -1,0 +1,11 @@
+<?xml version='1.0'?>
+<DebugMenuItems>
+	<scriptItem title="Ambient Script: Letter Scraps" file="letterScraps.sc" author="SI_JW" codeID="SPCID_RESET_LETTER_FLAGS" labelID="LABEL_RC_DREYFUSS_1"/>
+	<breakItem/>
+
+	<warpItem missionID="DRE1" title="Dreyfuss 1" file="Dreyfuss1.sc" author="SI_JW" percentage="0" highlight="FALSE"
+	x="-1531.5356"  y="439.6095" z="107.6110" heading="289.4781"
+	x1="-1399.3680" y1="470.9296" z1="105.8406" heading1="66.8837"
+	x2="-1422.2521" y2="596.6983" z2="127.0982" heading2="164.0892"
+	codeID="SPCID_DREYFUSS1_COMPLETE_LETTER_SCRAPS" preCodeID="SPCID_RANDOM_CHAR_PRE_LAUNCH" labelID="LABEL_RC_DREYFUSS_1" character="CHAR_FRANKLIN" vehicleWarp="TRUE"/>
+</DebugMenuItems>

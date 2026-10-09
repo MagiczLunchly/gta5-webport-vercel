@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CPedComponentSetManager>
+	<Infos>
+		<Item type = "CPedComponentSetInfo" >
+			<Name>PLAYER</Name>
+			<HasFacial value="true"/>
+            <HasRagdollConstraints value="true"/>
+			<HasInventory value="true"/>
+			<HasVfx value="true"/>
+			<HasSpeech value="true"/>
+			<HasPhone value="true"/>
+			<HasHelmet value="true"/>
+			<HasShockingEventReponse value="true"/>
+			<IsRidable value="false"/>
+		</Item>
+		<Item type = "CPedComponentSetInfo">
+			<Name>STANDARD_PED</Name>
+            <HasRagdollConstraints value="true"/>
+		</Item>
+		<Item type = "CPedComponentSetInfo">
+			<Name>HIPPIE</Name>
+            <HasRagdollConstraints value="true"/>
+			<HasPhone value="false"/>
+		</Item>
+		<Item type = "CPedComponentSetInfo">
+			<Name>HEN</Name>
+			<HasFacial value="false"/>
+            <HasRagdollConstraints value="false"/>
+			<HasInventory value="true"/>
+			<HasVfx value="true"/>
+			<HasSpeech value="true"/>
+			<HasPhone value="false"/>
+			<HasHelmet value="false"/>
+			<HasShockingEventReponse value="true"/>
+			<IsRidable value="false"/>
+		</Item>
+		<Item type = "CPedComponentSetInfo">
+			<Name>ANIMAL</Name>
+			<HasFacial value="false"/>
+            <HasRagdollConstraints value="false"/>
+			<HasInventory value="true"/>
+			<HasVfx value="true"/>
+			<HasSpeech value="true"/>
+			<HasPhone value="false"/>
+			<HasHelmet value="false"/>
+			<HasShockingEventReponse value="true"/>
+			<IsRidable value="false"/>
+		</Item>
+	</Infos>
+	<DefaultSet ref="STANDARD_PED"/>
+</CPedComponentSetManager>

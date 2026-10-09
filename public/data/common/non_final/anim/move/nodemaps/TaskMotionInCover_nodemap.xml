@@ -1,0 +1,710 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<NodeMap>
+  <debugNames>
+    <names>__Restart_AtEdge</names>
+    <names>__Restart_AtEdge_WeaponHolding_Anim_001</names>
+    <names>__Restart_AtEdgeHigh_WeaponHolding_Anim_002</names>
+    <names>__Restart_EdgeTurn</names>
+    <names>__Restart_HighWalkFast_WeaponHolding_Anim</names>
+    <names>__Restart_Idle_WeaponHolding_Anim</names>
+    <names>__Restart_Idle_WeaponHolding_Anim_001</names>
+    <names>__Restart_LowWalkFast_WeaponHolding_Anim</names>
+    <names>__Restart_Settle</names>
+    <names>__Restart_Still</names>
+    <names>AtEdge</names>
+    <names>AtEdge_OnEnter</names>
+    <names>AtEdge_WeaponHolding_Anim_001</names>
+    <names>AtEdge_WeaponHolding_Anim_SM</names>
+    <names>AtEdge_WeaponHolding_Initial</names>
+    <names>AtEdge_WeaponHolding_Initial_000</names>
+    <names>AtEdge_WeaponHolding_NoAnim</names>
+    <names>AtEdge_WeaponHolding_NoAnim_000</names>
+    <names>AtEdgeHigh_WeaponHolding_Anim_002</names>
+    <names>AtEdgeHigh_WeaponHolding_Anim_SM</names>
+    <names>AtEdgeHighWeaponHoldingAnimFirstPerson_001</names>
+    <names>AtEdgeHighWeaponHoldingAnimThirdPerson_001</names>
+    <names>AtEdgeHighWeaponHoldingDefault_001</names>
+    <names>AtEdgeWeaponHoldingAnimFirstPerson_001</names>
+    <names>AtEdgeWeaponHoldingAnimThirdPerson_001</names>
+    <names>AtEdgeWeaponHoldingDefault_001</names>
+    <names>Blend 2_000</names>
+    <names>blend 2_001</names>
+    <names>Blend 2_002</names>
+    <names>Blend 2_003</names>
+    <names>blend 2_006</names>
+    <names>blend 2_007</names>
+    <names>Blend 2_008</names>
+    <names>Blend 2_009</names>
+    <names>Blend 2_010</names>
+    <names>Blend 2_011</names>
+    <names>Blend 2_012</names>
+    <names>Blend 2_013</names>
+    <names>Blend 2_014</names>
+    <names>Blend 2_015</names>
+    <names>Blend 2_016</names>
+    <names>Blend 2_017</names>
+    <names>Blend 2_018</names>
+    <names>Blend 2_019</names>
+    <names>Blend 2_020</names>
+    <names>Blend 2_021</names>
+    <names>Blend 2_022</names>
+    <names>Blend 2_023</names>
+    <names>Blend 2_024</names>
+    <names>Blend 2_025</names>
+    <names>Blend 2_026</names>
+    <names>Blend 2_027</names>
+    <names>Blend 2_028</names>
+    <names>Blend 2_029</names>
+    <names>Blend 2_030</names>
+    <names>Blend 2_031</names>
+    <names>Blend 2_032</names>
+    <names>Blend 2_033</names>
+    <names>Blend 2_034</names>
+    <names>Blend 2_035</names>
+    <names>Blend 2_036</names>
+    <names>Blend 2_037</names>
+    <names>Blend 2_038</names>
+    <names>Blend 2_039</names>
+    <names>Blend 2_040</names>
+    <names>Blend 2_041</names>
+    <names>Blend 2_042</names>
+    <names>CamHeading</names>
+    <names>Clip</names>
+    <names>Clip_001</names>
+    <names>Clip_002</names>
+    <names>Clip_003</names>
+    <names>Clip_004</names>
+    <names>Clip_005</names>
+    <names>Clip_006</names>
+    <names>Clip_007</names>
+    <names>Clip_008</names>
+    <names>Clip_009</names>
+    <names>Clip_010</names>
+    <names>Clip_011</names>
+    <names>Clip_012</names>
+    <names>Clip_013</names>
+    <names>Clip_014</names>
+    <names>Clip_015</names>
+    <names>Clip_016</names>
+    <names>Clip_017</names>
+    <names>Clip_018</names>
+    <names>Clip_019</names>
+    <names>Clip_020</names>
+    <names>Clip_021</names>
+    <names>Clip_022</names>
+    <names>Clip_023</names>
+    <names>Clip_024</names>
+    <names>Clip_025</names>
+    <names>Clip_026</names>
+    <names>Clip_027</names>
+    <names>Clip_028</names>
+    <names>Clip_029</names>
+    <names>Clip_030</names>
+    <names>Clip_031</names>
+    <names>Clip_032</names>
+    <names>Clip_033</names>
+    <names>Clip_034</names>
+    <names>Clip_035</names>
+    <names>Clip_036</names>
+    <names>Clip_037</names>
+    <names>Clip_038</names>
+    <names>Clip_039</names>
+    <names>Clip_040</names>
+    <names>Clip_041</names>
+    <names>Clip_042</names>
+    <names>Clip_043</names>
+    <names>Clip_044</names>
+    <names>Clip_045</names>
+    <names>Clip_046</names>
+    <names>Clip_047</names>
+    <names>Clip_048</names>
+    <names>Clip_049</names>
+    <names>Clip_050</names>
+    <names>Clip_051</names>
+    <names>Clip_052</names>
+    <names>Clip_053</names>
+    <names>Clip_054</names>
+    <names>Clip_055</names>
+    <names>Clip_056</names>
+    <names>Clip_057</names>
+    <names>Clip_058</names>
+    <names>Clip_059</names>
+    <names>Clip_060</names>
+    <names>Clip_061</names>
+    <names>Clip_062</names>
+    <names>Clip_063</names>
+    <names>Clip_064</names>
+    <names>Clip0</names>
+    <names>Clip1</names>
+    <names>Clip2</names>
+    <names>Clip3</names>
+    <names>CoverToCover</names>
+    <names>CoverToCover_OnEnter</names>
+    <names>CoverToCover_SM</names>
+    <names>CoverToCover_WeaponHolding_Anim</names>
+    <names>CoverToCover_WeaponHolding_Initial</names>
+    <names>CoverToCover_WeaponHolding_NoAnim</names>
+    <names>CoverToCover_WeaponHolding_SM</names>
+    <names>CoverToCoverClip</names>
+    <names>CoverToCoverClip_000</names>
+    <names>CoverToCoverClip_001</names>
+    <names>CoverToCoverClip_002</names>
+    <names>CoverToCoverClipCurrentPhase</names>
+    <names>CoverToCoverClipFinished</names>
+    <names>CoverToCoverClipRate</names>
+    <names>CoverToCoverDefault</names>
+    <names>CoverToCoverFirstPerson</names>
+    <names>CoverToCoverThirdPerson</names>
+    <names>CoverToCoverWeaponHoldingAnimFirstPerson_003</names>
+    <names>CoverToCoverWeaponHoldingAnimThirdPerson_003</names>
+    <names>CoverToCoverWeaponHoldingDefault_003</names>
+    <names>CovToCov_GripAnim_001</names>
+    <names>Curve</names>
+    <names>Curve_000</names>
+    <names>Curve_003</names>
+    <names>Curve_004</names>
+    <names>Curve_005</names>
+    <names>Curve_007</names>
+    <names>Default_MotionState</names>
+    <names>EdgeClip</names>
+    <names>EdgeHighClips</names>
+    <names>EdgeHighClipsDefault</names>
+    <names>EdgeHighFirstPerson</names>
+    <names>EdgeHighThirdPerson</names>
+    <names>EdgeLowClips</names>
+    <names>EdgeLowClipsDefault</names>
+    <names>EdgeLowFirstPerson</names>
+    <names>EdgeLowThirdPerson</names>
+    <names>EdgeTurn</names>
+    <names>EdgeTurn_GripAnim_001</names>
+    <names>EdgeTurn_OnEnter</names>
+    <names>EdgeTurn_WeaponHolding_Anim</names>
+    <names>edgeturn_weaponholding_anim_000</names>
+    <names>EdgeTurn_WeaponHolding_Initial</names>
+    <names>EdgeTurn_WeaponHolding_NoAnim</names>
+    <names>EdgeTurn_WeaponHolding_SM</names>
+    <names>EdgeTurnClip</names>
+    <names>EdgeTurnClipFinished</names>
+    <names>Filter_000</names>
+    <names>Filter_002</names>
+    <names>Filter_006</names>
+    <names>Filter_007</names>
+    <names>filter_008</names>
+    <names>filter_010</names>
+    <names>Filter_011</names>
+    <names>Filter_012</names>
+    <names>Filter_013</names>
+    <names>Filter_014</names>
+    <names>Filter_015</names>
+    <names>Filter_016</names>
+    <names>Filter_017</names>
+    <names>Filter_018</names>
+    <names>Filter_019</names>
+    <names>Filter_020</names>
+    <names>Filter_021</names>
+    <names>Filter_022</names>
+    <names>Filter_023</names>
+    <names>Filter_024</names>
+    <names>Filter_025</names>
+    <names>Filter_026</names>
+    <names>Filter_027</names>
+    <names>Filter_028</names>
+    <names>Filter_029</names>
+    <names>Filter_030</names>
+    <names>Filter_031</names>
+    <names>Filter_032</names>
+    <names>Filter_033</names>
+    <names>Filter_034</names>
+    <names>Filter_035</names>
+    <names>Filter_036</names>
+    <names>Filter_037</names>
+    <names>Filter_038</names>
+    <names>Filter_039</names>
+    <names>Filter_040</names>
+    <names>Filter_041</names>
+    <names>Filter_042</names>
+    <names>Filter_043</names>
+    <names>Filter_044</names>
+    <names>Filter_045</names>
+    <names>Filter_046</names>
+    <names>Filter_047</names>
+    <names>Filter_048</names>
+    <names>Filter_049</names>
+    <names>Filter_050</names>
+    <names>Filter_051</names>
+    <names>GripAnim_005</names>
+    <names>GripAnim_006</names>
+    <names>GripAnim_007</names>
+    <names>GripClip</names>
+    <names>GripFilter</names>
+    <names>Height</names>
+    <names>HighEdgeClip</names>
+    <names>HighEdgeClipFaceCover</names>
+    <names>HighEdgeClipFaceForward</names>
+    <names>HighIdleClip_000</names>
+    <names>HighIdleClipFaceCover</names>
+    <names>HighIdleClipFaceForward</names>
+    <names>HighWalkFast_Initial</names>
+    <names>HighWalkFast_WeaponHolding_Anim</names>
+    <names>HighWalkFast_WeaponHolding_NoAnim</names>
+    <names>HighWalkFastWeaponHoldingAnimFirstPerson_002</names>
+    <names>HighWalkFastWeaponHoldingAnimThirdPerson_002</names>
+    <names>HighWalkFastWeaponHoldingDefault_002</names>
+    <names>HWF_GripAnim_006</names>
+    <names>Idle</names>
+    <names>Idle_GripAnim</names>
+    <names>Idle_GripAnim_000</names>
+    <names>Idle_GripAnim_001</names>
+    <names>Idle_GripAnim_002</names>
+    <names>Idle_GripAnim_003</names>
+    <names>Idle_Initial</names>
+    <names>Idle_OnEnter</names>
+    <names>idle_variation_clip</names>
+    <names>Idle_WeaponHolding_Anim</names>
+    <names>Idle_WeaponHolding_Anim_001</names>
+    <names>Idle_WeaponHolding_Initial</names>
+    <names>Idle_WeaponHolding_Initial_000</names>
+    <names>Idle_WeaponHolding_Initial_001</names>
+    <names>Idle_WeaponHolding_NoAnim</names>
+    <names>Idle_WeaponHolding_NoAnim_000</names>
+    <names>Idle_WeaponHolding_NoAnim_001</names>
+    <names>Idle_WeaponHolding_SM</names>
+    <names>Idle_WeaponHolding_SM_000</names>
+    <names>IdleClip</names>
+    <names>IdleHigh_WeaponHolding_SM</names>
+    <names>IdleHighClips</names>
+    <names>IdleHighClipsDefault</names>
+    <names>IdleHighFirstPerson</names>
+    <names>IdleHighThirdPerson</names>
+    <names>IdleLowClips</names>
+    <names>IdleLowClipsDefault</names>
+    <names>IdleLowFirstPerson</names>
+    <names>IdleLowThirdPerson</names>
+    <names>IdleStepClip_001</names>
+    <names>IdleStepClips</names>
+    <names>IdleStepClipsDefault_000</names>
+    <names>IdleStepFaceCoverClip</names>
+    <names>IdleStepFaceForwardsClip</names>
+    <names>IdleStepFirstPerson_000</names>
+    <names>IdleStepThirdPerson_000</names>
+    <names>IdleVariation</names>
+    <names>IdleVariation_OnEnter</names>
+    <names>IdleVariationClipFinished</names>
+    <names>IdleVariationCurrentPhase</names>
+    <names>IdleWeaponHoldingAnimFirstPerson</names>
+    <names>IdleWeaponHoldingAnimFirstPerson_000</names>
+    <names>IdleWeaponHoldingAnimThirdPerson</names>
+    <names>IdleWeaponHoldingAnimThirdPerson_000</names>
+    <names>IdleWeaponHoldingDefault</names>
+    <names>IdleWeaponHoldingDefault_000</names>
+    <names>Idling</names>
+    <names>Input</names>
+    <names>Input_000</names>
+    <names>input_001</names>
+    <names>input_002</names>
+    <names>Input_003</names>
+    <names>Input_004</names>
+    <names>input_005</names>
+    <names>Input_006</names>
+    <names>input_007</names>
+    <names>input_008</names>
+    <names>input_009</names>
+    <names>input_010</names>
+    <names>input_011</names>
+    <names>Input_012</names>
+    <names>input_013</names>
+    <names>input_014</names>
+    <names>Input_015</names>
+    <names>input_016</names>
+    <names>input_017</names>
+    <names>Input_018</names>
+    <names>input_019</names>
+    <names>Input_020</names>
+    <names>Input_021</names>
+    <names>input_022</names>
+    <names>input_023</names>
+    <names>input_024</names>
+    <names>Input_025</names>
+    <names>input_026</names>
+    <names>input_027</names>
+    <names>input_028</names>
+    <names>input_029</names>
+    <names>input_031</names>
+    <names>input_032</names>
+    <names>input_033</names>
+    <names>input_034</names>
+    <names>input_035</names>
+    <names>input_036</names>
+    <names>input_037</names>
+    <names>input_038</names>
+    <names>Input_039</names>
+    <names>input_040</names>
+    <names>Input_041</names>
+    <names>input_042</names>
+    <names>input_043</names>
+    <names>Input_044</names>
+    <names>input_045</names>
+    <names>input_046</names>
+    <names>Input_047</names>
+    <names>input_048</names>
+    <names>input_049</names>
+    <names>Input_050</names>
+    <names>input_051</names>
+    <names>input_052</names>
+    <names>Input_053</names>
+    <names>input_054</names>
+    <names>input_055</names>
+    <names>input_056</names>
+    <names>input_057</names>
+    <names>input_058</names>
+    <names>input_059</names>
+    <names>input_060</names>
+    <names>input_061</names>
+    <names>input_062</names>
+    <names>input_063</names>
+    <names>input_064</names>
+    <names>input_065</names>
+    <names>input_066</names>
+    <names>input_067</names>
+    <names>input_068</names>
+    <names>input_069</names>
+    <names>input_070</names>
+    <names>Input_071</names>
+    <names>input_072</names>
+    <names>input_073</names>
+    <names>Input_074</names>
+    <names>Input_075</names>
+    <names>Input_076</names>
+    <names>Input_077</names>
+    <names>Input_078</names>
+    <names>Input_079</names>
+    <names>Input_080</names>
+    <names>Input_081</names>
+    <names>Input_082</names>
+    <names>Input_083</names>
+    <names>Input_084</names>
+    <names>Input_085</names>
+    <names>Input_086</names>
+    <names>Input_087</names>
+    <names>Input_088</names>
+    <names>Input_089</names>
+    <names>Input_090</names>
+    <names>Input_091</names>
+    <names>Input_092</names>
+    <names>Input_093</names>
+    <names>Input_094</names>
+    <names>Input_095</names>
+    <names>Input_096</names>
+    <names>Input_097</names>
+    <names>Input_098</names>
+    <names>Input_61</names>
+    <names>Input_61_000</names>
+    <names>Intro</names>
+    <names>Invalid</names>
+    <names>invalid_000</names>
+    <names>invalid_001</names>
+    <names>invalid_002</names>
+    <names>invalid_003</names>
+    <names>Invalid_004</names>
+    <names>invalid_005</names>
+    <names>Invalid_006</names>
+    <names>Invalid_007</names>
+    <names>Invalid_008</names>
+    <names>Invalid_009</names>
+    <names>Invalid_010</names>
+    <names>Invalid_011</names>
+    <names>Invalid_012</names>
+    <names>Invalid_013</names>
+    <names>Invalid_014</names>
+    <names>Invalid_015</names>
+    <names>Invalid_016</names>
+    <names>Invalid_017</names>
+    <names>Invalid_018</names>
+    <names>Invalid_019</names>
+    <names>Invalid_020</names>
+    <names>Invalid_021</names>
+    <names>Invalid_022</names>
+    <names>Invalid_023</names>
+    <names>IsFirstPerson</names>
+    <names>LoopPeekClip</names>
+    <names>LoopPinnedIdle</names>
+    <names>LowEdgeClip</names>
+    <names>LowEdgeClipFaceCover</names>
+    <names>LowEdgeClipFaceForward</names>
+    <names>LowIdleClip</names>
+    <names>LowIdleClipFaceCover</names>
+    <names>LowIdleClipFaceForward</names>
+    <names>LowWalkFast_Initial</names>
+    <names>LowWalkFast_WeaponHolding_Anim</names>
+    <names>LowWalkFast_WeaponHolding_NoAnim</names>
+    <names>LowWalkFastWeaponHoldingAnimFirstPerson_001</names>
+    <names>LowWalkFastWeaponHoldingAnimThirdPerson_001</names>
+    <names>LowWalkFastWeaponHoldingDefault_001</names>
+    <names>LWF_GripAnim_005</names>
+    <names>Merge 2_000</names>
+    <names>Merge 2_002</names>
+    <names>merge 2_007</names>
+    <names>merge 2_009</names>
+    <names>Merge 2_014</names>
+    <names>Merge 2_015</names>
+    <names>Merge 2_016</names>
+    <names>Merge 2_017</names>
+    <names>Merge 2_018</names>
+    <names>Merge 2_019</names>
+    <names>Merge 2_020</names>
+    <names>Merge 2_021</names>
+    <names>Merge 2_022</names>
+    <names>Merge 2_023</names>
+    <names>Merge 2_024</names>
+    <names>Merge 2_025</names>
+    <names>Merge 2_026</names>
+    <names>Merge 2_027</names>
+    <names>Merge 2_028</names>
+    <names>Merge 2_029</names>
+    <names>Merge 2_030</names>
+    <names>Merge 2_031</names>
+    <names>Merge 2_032</names>
+    <names>Merge 2_033</names>
+    <names>Merge 2_034</names>
+    <names>Merge 2_035</names>
+    <names>Merge 2_036</names>
+    <names>Merge 2_037</names>
+    <names>Merge 2_038</names>
+    <names>Merge 2_039</names>
+    <names>Merge 2_040</names>
+    <names>Merge 2_041</names>
+    <names>Merge 2_042</names>
+    <names>Merge 2_043</names>
+    <names>Merge 2_044</names>
+    <names>Merge 2_045</names>
+    <names>Merge 2_046</names>
+    <names>Merge 2_047</names>
+    <names>Merge 2_048</names>
+    <names>Merge 2_049</names>
+    <names>Merge 2_050</names>
+    <names>Merge 2_051</names>
+    <names>Merge 2_052</names>
+    <names>Merge 2_053</names>
+    <names>Merge 2_054</names>
+    <names>Merge 2_055</names>
+    <names>Merge 2_056</names>
+    <names>MovementClipRate</names>
+    <names>Moving</names>
+    <names>Moving_Initial</names>
+    <names>Moving_OnEnter</names>
+    <names>Moving_Walk</names>
+    <names>MovingHighFirstPerson_000</names>
+    <names>MovingHighThirdPerson_000</names>
+    <names>MovingHighWalkClips</names>
+    <names>MovingHighWalkClipsDefault</names>
+    <names>MovingHighWalkFastClip</names>
+    <names>MovingHighWalkFastClip_000</names>
+    <names>MovingHighWalkFastClip_001</names>
+    <names>MovingHighWalkFastClip_002</names>
+    <names>MovingHighWalkFastClipCurrentPhase</names>
+    <names>MovingHighWalkSlowClip</names>
+    <names>MovingHighWalkSlowClipCurrentPhase</names>
+    <names>MovingLowFirstPerson_001</names>
+    <names>MovingLowThirdPerson_001</names>
+    <names>MovingLowWalkClips</names>
+    <names>MovingLowWalkClipsDefault_000</names>
+    <names>MovingLowWalkFastClip</names>
+    <names>MovingLowWalkFastClip_003</names>
+    <names>MovingLowWalkFastClipCurrentPhase</names>
+    <names>MovingLowWalkFastClipFaceCover</names>
+    <names>MovingLowWalkFastClipFaceForward</names>
+    <names>MovingLowWalkSlowClip</names>
+    <names>MovingLowWalkSlowClipCurrentPhase</names>
+    <names>NormalTurn_OnEnter</names>
+    <names>NormalTurnClipFinished</names>
+    <names>Output</names>
+    <names>Outro</names>
+    <names>Peek_GripAnim</names>
+    <names>Peeking</names>
+    <names>Peeking_OnEnter</names>
+    <names>Peeking_WeaponHolding_Anim</names>
+    <names>peeking_weaponholding_anim_000</names>
+    <names>Peeking_WeaponHolding_Initial</names>
+    <names>Peeking_WeaponHolding_NoAnim</names>
+    <names>Peeking_WeaponHolding_SM</names>
+    <names>PeekingClip</names>
+    <names>PeekingClipFinished</names>
+    <names>Pinned</names>
+    <names>pinned_idle_clip</names>
+    <names>pinned_intro_clip</names>
+    <names>pinned_outro_clip</names>
+    <names>Pinned_SM</names>
+    <names>PinnedIdle</names>
+    <names>PinnedIdle_OnEnter</names>
+    <names>PinnedIdleClipFinished</names>
+    <names>PinnedIntro_OnEnter</names>
+    <names>PinnedIntroClipFinished</names>
+    <names>PinnedOutro</names>
+    <names>PinnedOutro_OnEnter</names>
+    <names>PinnedOutroClipFinished</names>
+    <names>RestartEdgeTurn</names>
+    <names>RestartNormalTurn</names>
+    <names>RestartStillBlendDuration</names>
+    <names>RestartWeaponHolding</names>
+    <names>Settle</names>
+    <names>Settle_GripAnim_000</names>
+    <names>Settle_OnEnter</names>
+    <names>Settle_WeaponHolding_Anim</names>
+    <names>Settle_WeaponHolding_Initial</names>
+    <names>Settle_WeaponHolding_NoAnim</names>
+    <names>Settle_WeaponHolding_SM</names>
+    <names>SettleBlendDuration</names>
+    <names>SettleClip</names>
+    <names>SettleClipFaceCover</names>
+    <names>SettleClipFaceForwards</names>
+    <names>SettleClipFinished</names>
+    <names>SettleClips</names>
+    <names>SettleClipsDefault</names>
+    <names>SettleFirstPerson</names>
+    <names>SettleThirdPerson</names>
+    <names>SettleWeaponHoldingAnimFirstPerson_001</names>
+    <names>SettleWeaponHoldingAnimFirstPerson_002</names>
+    <names>SettleWeaponHoldingAnimThirdPerson_001</names>
+    <names>SettleWeaponHoldingAnimThirdPerson_002</names>
+    <names>SettleWeaponHoldingDefault_001</names>
+    <names>SettleWeaponHoldingDefault_002</names>
+    <names>Speed</names>
+    <names>StateMachine</names>
+    <names>StepClip_000</names>
+    <names>StepClipFaceCover</names>
+    <names>StepClipFaceForwards</names>
+    <names>StepClipFinished</names>
+    <names>StepDistance</names>
+    <names>Steppin_GripAnim_007</names>
+    <names>Stepping</names>
+    <names>Stepping_OnEnter</names>
+    <names>Stepping_WeaponHolding_Anim</names>
+    <names>Stepping_WeaponHolding_Initial</names>
+    <names>Stepping_WeaponHolding_NoAnim</names>
+    <names>Stepping_WeaponHolding_SM</names>
+    <names>SteppingClipCurrentPhaseId</names>
+    <names>SteppingClips</names>
+    <names>SteppingClipsDefault</names>
+    <names>SteppingFirstPerson</names>
+    <names>SteppingThirdPerson</names>
+    <names>SteppingWeaponHoldingAnimFirstPerson_001</names>
+    <names>SteppingWeaponHoldingAnimThirdPerson</names>
+    <names>SteppingWeaponHoldingDefault_001</names>
+    <names>StepRate</names>
+    <names>Still</names>
+    <names>StillToTurnBlendDuration</names>
+    <names>Stop</names>
+    <names>Stop_Initial</names>
+    <names>Stop_OnEnter</names>
+    <names>Stop_Walk_Left_Foot_Plant</names>
+    <names>Stop_Walk_Right_Foot_Plant</names>
+    <names>StopClipFinished</names>
+    <names>StoppingToTurnEnterBlendDuration</names>
+    <names>StopWalkLeft_Initial</names>
+    <names>StopWalkLeft_WeaponHolding_Anim</names>
+    <names>StopWalkLeft_WeaponHolding_NoAnim</names>
+    <names>StopWalkLeft_WeaponHolding_SM</names>
+    <names>StopWalkLeftClip_000</names>
+    <names>StopWalkLeftClip_001</names>
+    <names>StopWalkLeftClipCurrentPhase</names>
+    <names>StopWalkLeftClipFaceCover</names>
+    <names>StopWalkLeftClipFaceForwards</names>
+    <names>StopWalkLeftClips</names>
+    <names>StopWalkLeftClipsDefault_000</names>
+    <names>StopWalkLeftFirstPerson_000</names>
+    <names>StopWalkLeftThirdPerson_000</names>
+    <names>StopWalkLeftWeaponHoldingAnimFirstPerson_003</names>
+    <names>StopWalkLeftWeaponHoldingAnimThirdPerson_003</names>
+    <names>StopWalkLeftWeaponHoldingDefault_003</names>
+    <names>StopWalkRight_Initial</names>
+    <names>StopWalkRight_WeaponHolding_Anim</names>
+    <names>StopWalkRight_WeaponHolding_NoAnim</names>
+    <names>StopWalkRight_WeaponHolding_SM</names>
+    <names>StopWalkRightClipCurrentPhase</names>
+    <names>StopWalkRightClipFaceCover</names>
+    <names>StopWalkRightClipFaceForwards</names>
+    <names>StopWalkRightClips</names>
+    <names>StopWalkRightClipsDefault_001</names>
+    <names>StopWalkRightFirstPerson_001</names>
+    <names>StopWalkRightThirdPerson_001</names>
+    <names>StopWalkRightWeaponHoldingAnimFirstPerson_004</names>
+    <names>StopWalkRightWeaponHoldingAnimThirdPerson_004</names>
+    <names>StopWalkRightWeaponHoldingDefault_004</names>
+    <names>Turn</names>
+    <names>Turn_GripAnim_003</names>
+    <names>Turn_GripAnim_004</names>
+    <names>Turn_Initial</names>
+    <names>TurnClip</names>
+    <names>TurnClipCurrentPhase</names>
+    <names>TurnEnd</names>
+    <names>TurnEnd_OnEnter</names>
+    <names>TurnEnd_WeaponHolding_Anim_00</names>
+    <names>TurnEnd_WeaponHolding_Initial_001</names>
+    <names>TurnEnd_WeaponHolding_NoAnim_001</names>
+    <names>TurnEnd_WeaponHolding_SM_001</names>
+    <names>TurnEndClip_000</names>
+    <names>TurnEndClipFaceCover</names>
+    <names>TurnEndClipFaceForwards</names>
+    <names>TurnEndClipFinished</names>
+    <names>TurnEndClips</names>
+    <names>TurnEndClipsDefault</names>
+    <names>TurnEndFirstPerson</names>
+    <names>TurnEndThirdPerson</names>
+    <names>TurnEndToTurnEnterBlendDuration</names>
+    <names>TurnEndWeaponHoldingAnimFirstPerson_002</names>
+    <names>TurnEndWeaponHoldingAnimThirdPerson_000</names>
+    <names>TurnEndWeaponHoldingDefault_002</names>
+    <names>TurnEnter</names>
+    <names>TurnEnter_OnEnter</names>
+    <names>TurnEnter_WeaponHolding_Anim_000</names>
+    <names>TurnEnter_WeaponHolding_Initial_000</names>
+    <names>TurnEnter_WeaponHolding_NoAnim_000</names>
+    <names>TurnEnter_WeaponHolding_SM_000</names>
+    <names>TurnEnterAnimFinished</names>
+    <names>TurnEnterClip_000</names>
+    <names>TurnEnterClipFaceCover</names>
+    <names>TurnEnterClipFaceForwards</names>
+    <names>TurnEnterClips</names>
+    <names>TurnEnterClipsDefault</names>
+    <names>TurnEnterFirstPerson</names>
+    <names>TurnEnterThirdPerson</names>
+    <names>TurnEnterToTurnEndBlendDuration</names>
+    <names>TurnEnterWeaponHoldingAnimFirstPerson_003</names>
+    <names>TurnEnterWeaponHoldingAnimThirdPerson_003</names>
+    <names>TurnEnterWeaponHoldingDefault_003</names>
+    <names>TurnRate</names>
+    <names>TurnStepClip_000</names>
+    <names>TurnStepClipFaceCover</names>
+    <names>TurnStepClipFaceForwards</names>
+    <names>TurnStepClips</names>
+    <names>TurnStepClipsDefault</names>
+    <names>TurnStepFirstPerson</names>
+    <names>TurnStepRate</names>
+    <names>TurnStepThirdPerson</names>
+    <names>USE_LEFT_FOOT_TRANSITION</names>
+    <names>UseGripClip</names>
+    <names>UseWeaponHolding</names>
+    <names>WalkStart</names>
+    <names>WalkStart_OnEnter</names>
+    <names>WalkStart_WeaponHolding_Anim_000</names>
+    <names>WalkStart_WeaponHolding_Initial_000</names>
+    <names>WalkStart_WeaponHolding_NoAnim_000</names>
+    <names>WalkStart_WeaponHolding_SM</names>
+    <names>WalkStartClip_000</names>
+    <names>WalkStartClipFaceCover</names>
+    <names>WalkStartClipFaceForwards</names>
+    <names>WalkStartClipFinished</names>
+    <names>WalkStartClips</names>
+    <names>WalkStartClipsDefault</names>
+    <names>WalkStartFirstPerson</names>
+    <names>WalkStartRate</names>
+    <names>WalkStartThirdPerson</names>
+    <names>WeaponClip0</names>
+    <names>WeaponClip1</names>
+    <names>WeaponClip2</names>
+    <names>WeaponClip3</names>
+    <names>WeaponHoldingFilter</names>
+    <names>WeaponHoldingHighWalkFast_SM</names>
+    <names>WeaponHoldingLowWalkFast_SM</names>
+  </debugNames>
+</NodeMap>

@@ -1,0 +1,6 @@
+shader vehicle_vehglass
+__rage_drawbucket {
+	int 1
+}
+
+

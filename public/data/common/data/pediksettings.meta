@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CPedIKSettingsInfoManager>
+  <aPedIKSettings>
+    
+    <Item>
+      <Name>STANDARD_PED_IK</Name>
+      <IKSolversDisabled />
+      <TorsoDeltaLimits>
+        <DeltaLimits>
+          <Item content="vector3_array">
+            0.0 	0.0 	0.0
+            0.0 	0.0 	0.0
+          </Item>
+          <Item content="vector3_array">
+            -10.0	-2.5	-3.75
+            10.0	2.0		1.25
+          </Item>
+          <Item content="vector3_array">
+            -13.0	-5.0	-7.50
+            13.0	5.0		2.50
+          </Item>
+          <Item content="vector3_array">
+            -17.5	-7.5	-11.25
+            17.5	7.5		3.75
+          </Item>
+          <Item content="vector3_array">
+            -20.0	-10.0	-15.00
+            20.0	10.0	5.00
+          </Item>
+        </DeltaLimits>
+      </TorsoDeltaLimits>
+      <HeadDeltaLimits>
+        <DeltaLimits>
+          <Item content="vector3_array">
+            0.0 0.0 0.0
+            0.0 0.0 0.0
+          </Item>
+          <Item content="vector3_array">
+            -5.00	-2.00	-5.00
+            5.00	2.00	5.00
+          </Item>
+          <Item content="vector3_array">
+            -15.00	-5.00	-15.00
+            15.00	5.00	15.00
+          </Item>
+          <Item content="vector3_array">
+            -30.00	-10.00	-30.00
+            30.00	10.00	30.00
+          </Item>
+          <Item content="vector3_array">
+            -45.00	-15.00	-45.00
+            45.00	15.00	45.00
+          </Item>
+        </DeltaLimits>
+      </HeadDeltaLimits>
+      <NeckDeltaLimits>
+        <DeltaLimits>
+          <Item content="vector3_array">
+            0.0 0.0 0.0
+            0.0 0.0 0.0
+          </Item>
+          <Item content="vector3_array">
+            -5.00	-3.00	-5.00
+            5.00	3.00	5.00
+          </Item>
+          <Item content="vector3_array">
+            -10.00	-6.00	-8.00
+            10.00	6.00	8.00
+          </Item>
+          <Item content="vector3_array">
+            -15.00	-10.00	-15.00
+            15.00	10.00	15.00
+          </Item>
+          <Item content="vector3_array">
+            -20.00	-15.00	-20.00
+            20.00	15.00	20.00
+          </Item>
+        </DeltaLimits>
+      </NeckDeltaLimits>
+    </Item>
+
+    <Item>
+      <Name>STANDARD_QUADRUPED_IK</Name>
+      <IKSolversDisabled>ikSolverTypeArm ikSolverTypeBodyRecoil ikSolverTypeLeg ikSolverTypeTorso ikSolverTypeTorsoReact ikSolverTypeTorsoVehicle ikSolverTypeRootSlopeFixup</IKSolversDisabled>
+      <TorsoDeltaLimits>
+        <DeltaLimits>
+          <Item content="vector3_array">
+            0.0 	0.0 	0.0
+            0.0 	0.0 	0.0
+          </Item>
+          <Item content="vector3_array">
+            -10.0	-2.5	-3.75
+            10.0	2.0		1.25
+          </Item>
+          <Item content="vector3_array">
+            -13.0	-5.0	-7.50
+            13.0	5.0		2.50
+          </Item>
+          <Item content="vector3_array">
+            -17.5	-7.5	-11.25
+            17.5	7.5		3.75
+          </Item>
+          <Item content="vector3_array">
+            -20.0	-10.0	-15.00
+            20.0	10.0	5.00
+          </Item>
+        </DeltaLimits>
+      </TorsoDeltaLimits>
+      <HeadDeltaLimits>
+        <DeltaLimits>
+          <Item content="vector3_array">
+            0.0 0.0 0.0
+            0.0 0.0 0.0
+          </Item>
+          <Item content="vector3_array">
+            -10.00	-2.00	-10.00
+            10.00	2.00	10.00
+          </Item>
+          <Item content="vector3_array">
+            -20.00	-5.00	-20.00
+            20.00	5.00	20.00
+          </Item>
+          <Item content="vector3_array">
+            -30.00	-10.00	-30.00
+            30.00	10.00	30.00
+          </Item>
+          <Item content="vector3_array">
+            -40.00	-15.00	-35.00
+            40.00	15.00	35.00
+          </Item>
+        </DeltaLimits>
+      </HeadDeltaLimits>
+      <NeckDeltaLimits>
+        <DeltaLimits>
+          <Item content="vector3_array">
+            0.0 0.0 0.0
+            0.0 0.0 0.0
+          </Item>
+          <Item content="vector3_array">
+            -50.00	-3.00	-30.00
+            50.00	3.00	30.00
+          </Item>
+          <Item content="vector3_array">
+            -60.00	-6.00	-40.00
+            60.00	6.00	40.00
+          </Item>
+          <Item content="vector3_array">
+            -70.00	-10.00	-50.00
+            70.00	10.00	50.00
+          </Item>
+          <Item content="vector3_array">
+            -80.00	-15.00	-60.00
+            80.00	15.00	60.00
+          </Item>
+        </DeltaLimits>
+      </NeckDeltaLimits>
+    </Item>
+    
+    <Item>
+      <Name>STANDARD_DOG_IK</Name>
+      <IKSolversDisabled>ikSolverTypeArm ikSolverTypeBodyRecoil ikSolverTypeLeg ikSolverTypeTorso ikSolverTypeTorsoReact ikSolverTypeTorsoVehicle ikSolverTypeRootSlopeFixup</IKSolversDisabled>
+      <TorsoDeltaLimits>
+        <DeltaLimits>
+          <Item content="vector3_array">
+            0.0 0.0 0.0
+            0.0 0.0 0.0
+          </Item>
+          <Item content="vector3_array">
+            0.0 0.0 0.0
+            0.0 0.0 0.0
+          </Item>
+          <Item content="vector3_array">
+            0.0 0.0 0.0
+            0.0 0.0 0.0
+          </Item>
+          <Item content="vector3_array">
+            0.0 0.0 0.0
+            0.0 0.0 0.0
+          </Item>
+          <Item content="vector3_array">
+            0.0 0.0 0.0
+            0.0 0.0 0.0
+          </Item>
+        </DeltaLimits>
+      </TorsoDeltaLimits>
+      <HeadDeltaLimits>
+        <DeltaLimits>
+          <Item content="vector3_array">
+            0.0		0.0		0.0
+            0.0		0.0		0.0
+          </Item>
+          <Item content="vector3_array">
+            -10.00	-2.00	0.0
+            10.00	2.00	0.0
+          </Item>
+          <Item content="vector3_array">
+            -10.00	-5.00	0.0
+            10.00	5.00	0.0
+          </Item>
+          <Item content="vector3_array">
+            -10.00	-10.00	0.0
+            10.00	10.00	0.0
+          </Item>
+          <Item content="vector3_array">
+            -10.00	-15.00	0.0
+            10.00	15.00	0.0
+          </Item>
+        </DeltaLimits>
+      </HeadDeltaLimits>
+      <NeckDeltaLimits>
+        <DeltaLimits>
+          <Item content="vector3_array">
+            0.0		0.0		0.0
+            0.0		0.0		0.0
+          </Item>
+          <Item content="vector3_array">
+            -50.00	-3.00	-30.00
+            50.00	3.00	30.00
+          </Item>
+          <Item content="vector3_array">
+            -50.00	-6.00	-30.00
+            50.00	6.00	30.00
+          </Item>
+          <Item content="vector3_array">
+            -50.00	-10.00	-30.00
+            50.00	10.00	30.00
+          </Item>
+          <Item content="vector3_array">
+            -50.00	-15.00	-30.00
+            50.00	15.00	30.00
+          </Item>
+        </DeltaLimits>
+      </NeckDeltaLimits>
+    </Item>
+    
+    <Item>
+      <Name>NO_IK</Name>
+      <IKSolversDisabled>ikSolverTypeArm ikSolverTypeBodyLook ikSolverTypeBodyRecoil ikSolverTypeHead ikSolverTypeLeg ikSolverTypeTorso ikSolverTypeTorsoReact ikSolverTypeTorsoVehicle ikSolverTypeRootSlopeFixup</IKSolversDisabled>
+      <TorsoDeltaLimits>
+        <DeltaLimits>
+          <Item content="vector3_array">
+            0.0 0.0 0.0
+            0.0 0.0 0.0
+          </Item>
+          <Item content="vector3_array">
+            0.0 0.0 0.0
+            0.0 0.0 0.0
+          </Item>
+          <Item content="vector3_array">
+            0.0 0.0 0.0
+            0.0 0.0 0.0
+          </Item>
+          <Item content="vector3_array">
+            0.0 0.0 0.0
+            0.0 0.0 0.0
+          </Item>
+          <Item content="vector3_array">
+            0.0 0.0 0.0
+            0.0 0.0 0.0
+          </Item>
+        </DeltaLimits>
+      </TorsoDeltaLimits>
+      <HeadDeltaLimits>
+        <DeltaLimits>
+          <Item content="vector3_array">
+            0.0 0.0 0.0
+            0.0 0.0 0.0
+          </Item>
+          <Item content="vector3_array">
+            0.0 0.0 0.0
+            0.0 0.0 0.0
+          </Item>
+          <Item content="vector3_array">
+            0.0 0.0 0.0
+            0.0 0.0 0.0
+          </Item>
+          <Item content="vector3_array">
+            0.0 0.0 0.0
+            0.0 0.0 0.0
+          </Item>
+          <Item content="vector3_array">
+            0.0 0.0 0.0
+            0.0 0.0 0.0
+          </Item>
+        </DeltaLimits>
+      </HeadDeltaLimits>
+      <NeckDeltaLimits>
+        <DeltaLimits>
+          <Item content="vector3_array">
+            0.0 0.0 0.0
+            0.0 0.0 0.0
+          </Item>
+          <Item content="vector3_array">
+            0.0 0.0 0.0
+            0.0 0.0 0.0
+          </Item>
+          <Item content="vector3_array">
+            0.0 0.0 0.0
+            0.0 0.0 0.0
+          </Item>
+          <Item content="vector3_array">
+            0.0 0.0 0.0
+            0.0 0.0 0.0
+          </Item>
+          <Item content="vector3_array">
+            0.0 0.0 0.0
+            0.0 0.0 0.0
+          </Item>
+        </DeltaLimits>
+      </NeckDeltaLimits>
+    </Item>
+  </aPedIKSettings>
+  <DefaultSet ref="STANDARD_PED_IK" />
+</CPedIKSettingsInfoManager>

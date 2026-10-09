@@ -1,0 +1,1586 @@
+<!------------------------------------------------------------------------------------->
+<!--                                                                                   -->
+<!-- Name:    ScaleformValidMethods.xml                                                -->
+<!-- Purpose: list of all Scaleform movies and valid methods associated with them      -->
+<!--                                                                                   -->
+<!------------------------------------------------------------------------------------->
+
+<ValidMethods>
+
+    <movie name="-GENERIC-">
+        <method name="SET_CASH"/>
+        <method name="SHUTDOWN_MOVIE"/>
+        <method name="ADD_PROGRAM"/>
+        <method name="RUN_PROGRAM"/>
+        <method name="OPEN_POPUP"/>
+		<method name="CLOSE_POPUP"/>
+        <method name="IS_PC_NEEDED"/>
+		<method name="SET_SCAN_BAR"/>
+		<method name="PLAY_SCAN_ANIM"/>
+        <method name="GET_CURRENT_SELECTION"/>
+        <method name="SET_DATA_SLOT"/>
+        <method name="SET_HEADER"/>
+        <method name="SET_INPUT_EVENT"/>
+        <method name="DISPLAY_VIEW"/>
+        <method name="SET_POSITIVE_BUTTON"/>
+        <method name="SET_NEGATIVE_BUTTON"/>
+        <method name="SET_OTHER_BUTTON"/>
+        <method name="SET_THEME"/> <!-- Used in CELLPHONES only -->
+        <method name="CREATE_ALERT"/>
+        <method name="CLEAR_ALL"/>
+        <method name="SET_SLEEP_MODE"/>
+        <method name="OPEN_SHUTTER"/>
+        <method name="CLOSE_SHUTTER"/>
+        <method name="CLOSE_THEN_OPEN_SHUTTER"/>
+        <method name="SET_TITLEBAR_TIME"/> <!-- Used in CELLPHONES only -->
+        <method name="SET_LAYOUT"/>
+        <method name="SET_WIND"/>
+        <method name="SET_ZOOM_LEVEL"/>
+        <method name="SET_COMPASS"/>
+        <method name="DISPLAY_STAT"/>
+        <method name="SET_TEXT"/>
+        <method name="PROXY_FUNCTION"/>
+        <method name="SET_POPUP"/>
+        <method name="SET_WIDESCREEN"/>
+        <method name="SHOW"/>
+        <method name="HIDE"/>
+        <method name="SET_SOFT_KEYS"/> <!-- Used in CELLPHONES only -->
+        <method name="SET_SOFT_KEYS_COLOUR"/> <!-- Used in CELLPHONES only -->
+        <method name="DISPLAY_STAT_LIST"/>
+        <method name="SET_DATA_SLOT_EMPTY"/>
+        <method name="SHOW_STATIC"/>
+        <method name="SET_PROGRESS_BAR"/>
+        <method name="SET_POLICE_NUMBER"/>
+        <method name="SET_UI_COLOUR"/>
+        <method name="SET_DISPLAY"/>
+        <method name="SET_BACKGROUND_VISIBILITY"/>
+        <method name="SET_ANALOG_STICK_INPUT"/>
+        <method name="SET_BAR_VALUE"/>
+        <method name="FLASH_BAR"/>
+        <method name="SET_COLOUR"/>
+        <method name="CREATE_VIEW"/>
+        <method name="SET_ECG_HEALTH"/>
+        <method name="SET_HEALTH"/>
+        <method name="SET_HEART_RATE"/>
+        <method name="QUIT"/>
+        <method name="SET_COUNTER"/>
+        <method name="SET_LABELS"/>
+        <method name="SET_CAR_FIX_PERCENT"/>
+        <method name="SET_CARFIX_COLOUR"/>
+        <method name="SET_RANK_BAR"/>
+        <method name="SET_HEART_BEAT"/>
+        <method name="SET_TODO"/>
+        <method name="SET_MISSION_TITLE"/>
+        <method name="ADD_BUTTON_TO_LIST"/>
+        <method name="SET_TOTAL"/>
+        <method name="DRAW_BUTTONS"/>
+        <method name="SET_MEDAL"/>
+        <method name="SET_SOCIAL_CLUB_INFO"/>
+        <method name="BUTTON_DEPRESSED"/>
+        <method name="REMOVE_BUTTONS"/>
+        <method name="BUTTON_PRESSED"/>
+        <method name="SET_MISSION_TITLE_COLOUR"/>
+        <method name="SET_MOVIECLIP_IS_VISIBLE"/>
+        <method name="SET_CHARGE_VALUE"/>
+        <method name="START_METER_FLASHING"/>
+        <method name="STOP_METER_FLASHING"/>
+        <method name="SHOW_RACE_MODULE"/>
+        <method name="UPDATE_DATA_SLOT"/>
+        <method name="APPEND_DATA_SLOT"/> <!-- Used in WEB_BROWSER only -->
+        <method name="SET_BROWSER_CURSOR_SPEED_MODIFIER"/> <!-- Used in WEB_BROWSER only -->
+        <method name="INITIALISE_WEBSITE"/> <!-- Used in WEB_BROWSER only -->
+        <method name="IS_SITE_DYNAMIC"/> <!-- Used in WEB_BROWSER only -->
+        <method name="GET_SITE_ID"/> <!-- Used in WEB_BROWSER only -->
+        <method name="GET_PAGE_ID"/> <!-- Used in WEB_BROWSER only -->
+        <method name="UPDATE_TEXT"/> <!-- Used in WEB_BROWSER only -->
+        <method name="GO_TO_WEBPAGE"/> <!-- Used in WEB_BROWSER only -->
+        <method name="GET_CURRENT_OBJECT_TYPE"/> <!-- Used in WEB_BROWSER only -->
+        <method name="CAN_I_CLOSE_THE_BROWSER"/> <!-- Used in WEB_BROWSER only -->
+        <method name="DRAW_MENU_LIST"/>
+        <method name="SET_LOGO"/>
+        <method name="SET_CLEAR_SPACE"/>
+        <method name="SET_BACKGROUND_COLOUR"/>
+        <method name="DRAW_INSTRUCTIONAL_BUTTONS"/>
+        <method name="CREATE_VIEW"/>
+        <method name="SET_GAMEPLAY_LABELS"/>
+        <method name="FOCUS_VIEW"/>
+        <method name="SHOW_HEIST_ASSET"/>
+		<method name="SHOW_VIEW"/>
+		<method name="SHOW_CREW_MEMBER_VIEW"/>
+		<method name="REPOSITION_VIEW"/>
+        <method name="DRAW_LIST"/>
+        <method name="SET_ROW_A"/>
+        <method name="SET_ROW_B"/>
+        <method name="SET_SPIN_DIRECTION"/>
+        <method name="SET_CONCAT_MESSAGE"/>
+        <method name="SET_TIME"/>
+        <method name="SET_MESSAGE"/>
+        <method name="SET_SHOT_DISPLAY"/>
+        <method name="SET_SPLASH"/>
+        <method name="SET_HOLE_DISPLAY"/>
+        <method name="SET_WIND_DIRECTION"/>
+        <method name="TINT_WIND_POINTER"/>
+        <method name="SET_COMPASS_DIRECTION"/>
+        <method name="SET_PUTTMETER"/>
+        <method name="SET_DISTANCE"/>
+        <method name="SET_SCOREPANEL"/>
+        <method name="SET_SCOREBOARD"/>
+        <method name="SET_HEADER_A"/>
+        <method name="SET_HEADER_B"/>
+        <method name="SET_SCORES_A"/>
+        <method name="SET_SCORES_B"/>
+        <method name="SHOW_RAMPAGE_TITLE"/>
+        <method name="HIDE_RAMPAGE_TITLE"/>
+        <method name="SHOW_RAMPAGE_COUNTERS"/>
+        <method name="HIDE_RAMPAGE_COUNTERS"/>
+        <method name="SET_RAMPAGE_TITLE"/>
+        <method name="SET_COUNTER"/>
+        <method name="SET_TIME"/>
+        <method name="CLEAR_TAXI_DISPLAY"/>
+        <method name="SET_TAXI_PRICE"/>
+        <method name="SHOW_TAXI_DESTINATION"/>
+        <method name="ADD_TAXI_DESTINATION"/>
+        <method name="SET_RACE_LABELS"/>
+        <method name="SET_RACE_POSITION"/>
+        <method name="SET_GATES_POSITION"/>
+        <method name="SET_RACE_TIME"/>
+        <method name="SET_RACE_RESULTS"/>
+        <method name="SHOW_RACE_RESULTS"/>
+        <method name="SET_TEETH_BRITTLE"/>
+        <method name="SET_TEETH_ANGLE"/>
+        <method name="SET_TEETH_DEPTH"/>
+        <method name="SET_SCROLL_TEXT"/>
+        <method name="DISPLAY_SCROLL_TEXT"/>
+        <method name="CLEAR_SCROLL_TEXT"/>
+        <method name="SET_CAM_HEADING"/>
+        <method name="SET_CAM_FOV"/>
+        <method name="SET_CAM_ALT"/>
+        <method name="SET_CAM_HEADING"/>
+        <method name="SET_CAM_FOV"/>
+        <method name="SET_CAM_ALT"/>
+        <method name="INIT_GAME"/>
+        <method name="COURSE_PAR"/>
+        <method name="SET_WAITING_TEXT"/>
+        <method name="MOVE_CURSOR"/>
+        <method name="SET_MISSION_BG_COLOUR"/>
+        <method name="COURSE_PAR_TOTAL"/>
+        <method name="SET_LABELS"/>
+        <method name="SHOW_ASSASSINATIONS_TITLE"/>
+        <method name="HIDE_ASSASSINATIONS_TITLE"/>
+        <method name="SET_ASSASSINATIONS_TITLE"/>
+        <method name="SET_STICK_POINTER_RGB"/>
+        <method name="SET_STICK_POINTER_ANGLE"/>
+        <method name="SET_SECTION"/>
+        <method name="SET_DATE"/>
+        <method name="TRIGGER_CAM_FLASH"/>
+        <method name="TRIGGER_WARNING"/>
+		<method name="SET_BUTTON_ACTIVE"/>
+        <method name="REPOSITION_WORD"/>
+        <method name="CROSS_WORD"/>
+        <method name="DELETE_WORD"/>
+        <method name="SET_BACKGROUND_IMAGE"/>
+        <method name="DISPLAY_PHOTO"/>
+		<method name="SET_IP_OUTCOME"/>
+        <method name="SET_ROULETTE_OUTCOME"/>
+        <method name="SET_COUNTDOWN"/>
+		<method name="SET_SPEED"/>
+        <method name="SET_LIVES"/>
+		<method name="CLOSE_APP"/>
+		<method name="OPEN_ERROR_POPUP"/>
+		<method name="OPEN_APP"/>
+		<method name="SHOW_SOCIAL_CLUB_MESSAGE"/>
+		<method name="HIDE_SOCIAL_CLUB_MESSAGE"/>
+		<method name="SET_HOTSWAP_PHONE"/>
+		<method name="SET_COLUMN_SPEED"/>
+		<method name="SET_HEADINGS"/>
+		<method name="SET_ROULETTE_WORD"/>
+		<method name="SET_HOTSWAP_MESSAGE"/>
+		<method name="SET_SATNAV_DIRECTION"/> <!-- Used in MINIMAP satnav -->
+		<method name="SET_SATNAV_DISTANCE"/> <!-- Used in MINIMAP satnav -->
+		<method name="HIDE_SATNAV"/> <!-- Used in MINIMAP satnav -->
+		<method name="SHOW_RAMPAGE_INTRO"/>
+		<method name="SHOW_RAMPAGE_COUNTDOWN"/>
+		<method name="SHOW_RAMPAGE_OUTRO"/>
+		<method name="SHOW_RAMPAGE"/>
+		<method name="HIDE_RAMPAGE"/>
+		<method name="OPEN_LOADING_PROGRESS"/>
+		<method name="SET_LOADING_PROGRESS"/>
+		<method name="SET_LOADING_MESSAGE"/>
+		<method name="CREATE_CELLPHONE_PREVIEW"/>
+		<method name="CLEAR_ALL"/>
+		<method name="REMOVE_DRUG_PURSE"/> <!-- Scripted HUD drugs purse -->
+		<method name="SET_DRUG_AMOUNT_AND_TYPE"/>
+		<method name="SET_FEED_DLC"/> <!-- Scripted HUD Social feed -->
+		<method name="REMOVE_FEED_DLC"/>
+		<method name="SET_FEED_FRIENDS"/>
+		<method name="REMOVE_FEED_FRIENDS"/>
+		<method name="SET_FEED_MESSAGE_PICTURE"/>
+		<method name="REMOVE_FEED_MESSAGE_PICTURE"/>
+		<method name="SET_FEED_MESSAGE_TEXT"/>
+		<method name="REMOVE_FEED_MESSAGE_TEXT"/>
+		<method name="SET_FEED_SOCIALCLUB"/>
+		<method name="REMOVE_FEED_SOCIALCLUB"/>
+		<method name="SET_FEED_STATS"/>
+		<method name="REMOVE_FEED_STATS"/>
+		<method name="SET_INPUT_EVENT_SELECT"/>
+		<method name="SET_INPUT_EVENT_BACK"/>
+		<method name="SHOW_MP_INVENTORY_ITEM_WITH_TEXT"/>
+		<method name="SET_HEADER_ITEM_COLOUR"/>
+		<method name="SET_MENU_HEADER_TEXT"/>
+		<method name="SET_ABILITY_BAR_GLOW"/> <!-- Used in MINIMAP -->
+		<method name="debug"/>
+		<method name="SHOW_PHOTO_FRAME"/>
+		<method name="FLASH_PHOTO_FRAME"/>
+		<method name="SET_REMAINING_PHOTOS"/>
+		<method name="SHOW_REMAINING_PHOTOS"/>
+		<method name="SET_FOCUS_LOCK"/>
+		<method name="SET_PLAYER_NAME"/>
+    </movie>
+    
+	 <movie name="HUD">
+        <method name="SHOW_MP_INVENTORY_ITEM_WITH_TEXT"/>
+        <method name="SHOW_MP_INVENTORY_ITEM"/>
+        <method name="REMOVE_MP_INVENTORY_ITEM"/>
+		<method name="SET_PLAYER_SWITCH"/>
+		<method name="SET_PLAYER_SWITCH_WITH_HINT_AND_CHARACTER"/>
+		<method name="CLEANUP_PLAYER_SWITCH_ALERT"/>
+		<method name="DESTROY"/>
+		<method name="ADD_PLAYER_TO_SWITCH"/>
+		<method name="START_PLAYER_SWITCH_LOOP"/>
+		<method name="LOAD_PLAYER_SWITCH_ALERT"/>
+		
+		<!-- Used in MP_RANK_BAR -->
+		<method name="SET_COLOUR"/>
+		<method name="OVERRIDE_ANIMATION_SPEED"/>
+		<method name="OVERRIDE_ONSCREEN_DURATION"/>
+		<method name="SET_BAR_TEXT"/>
+		<method name="RESET_BAR_TEXT"/>
+		<method name="FADE_BAR_OUT"/>
+		<method name="SET_RANK_SCORES"/>
+		<method name="REMOVE"/>
+		<method name="RESET_MOVIE"/>
+    </movie>
+    
+	<movie name="CELLPHONE_B">
+        <method name="GET_CURRENT_SELECTION"/>
+        <method name="SET_UI_COLOUR"/>
+        <method name="COLOUR_INFOBAR"/>
+        <method name="SET_THEME"/>
+        <method name="SET_DATA_SLOT_EMPTY"/>
+        <method name="SET_DATA_SLOT"/>
+        <method name="DISPLAY_VIEW"/>
+        <method name="SET_NUMBERPAD_DISPLAY"/>
+        <method name="SET_SLEEP_MODE"/>
+        <method name="SET_HEADER"/>
+        <method name="HOME_MENU"/>
+        <method name="CAMERA_SHUTTER"/>
+        <method name="CONTACT_LIST"/>
+        <method name="SIMPLE_LIST"/>
+        <method name="TODO_LIST"/>
+        <method name="TODO_VIEW"/>
+        <method name="SIDE_TASKS"/>
+        <method name="RECENT_CONTACTS_LIST"/>
+        <method name="CALENDAR_LIST"/>
+        <method name="TEXT_MESSAGE_LIST"/>
+        <method name="TEXT_MESSAGE_VIEW"/>
+        <method name="EMAIL_LIST"/>
+        <method name="EMAIL_VIEW"/>
+        <method name="CALL_SCREEN"/>
+        <method name="ALERT_DIALOG"/>
+        <method name="HIDE_ALERT_DIALOG"/>
+        <method name="SHOW_KEYBOARD"/>
+        <method name="HIDE_KEYBOARD"/>
+        <method name="HIDE_NUMBERPAD"/>
+        <method name="SHOW_NUMBERPAD"/>
+        <method name="SET_INPUT_EVENT"/>
+    </movie>
+	
+	<movie name="CELLPHONE_POLICE">
+		<method name="SET_BACKGROUND_IMAGE"/>
+		<method name="SET_TITLEBAR_TIME"/>
+        <method name="GET_CURRENT_SELECTION"/>
+        <method name="SET_UI_COLOUR"/>
+        <method name="SET_THEME"/>
+        <method name="SET_DATA_SLOT_EMPTY"/>
+        <method name="SET_DATA_SLOT"/>
+		<method name="SET_SOFT_KEYS"/>
+        <method name="SET_SOFT_KEYS_COLOUR"/>
+		<method name="GET_DATA"/>
+        <method name="DISPLAY_VIEW"/>
+        <method name="SET_NUMBERPAD_DISPLAY"/>
+        <method name="SET_SLEEP_MODE"/>
+        <method name="SET_HEADER"/>
+		<method name="CALL_SCREEN"/>
+        <method name="ALERT_DIALOG"/>
+        <method name="HIDE_ALERT_DIALOG"/>
+        <method name="SHOW_KEYBOARD"/>
+        <method name="HIDE_KEYBOARD"/>
+        <method name="HIDE_NUMBERPAD"/>
+        <method name="SHOW_NUMBERPAD"/>
+        <method name="SET_INPUT_EVENT"/>
+		<method name="SET_PROVIDER_ICON"/>
+		<method name="APP_FUNCTION"/>
+    </movie>
+	
+	<movie name="CELLPHONE_BADGER">
+		<method name="SET_BACKGROUND_IMAGE"/>
+		<method name="SET_TITLEBAR_TIME"/>
+        <method name="GET_CURRENT_SELECTION"/>
+        <method name="SET_UI_COLOUR"/>
+        <method name="SET_THEME"/>
+        <method name="SET_DATA_SLOT_EMPTY"/>
+        <method name="SET_DATA_SLOT"/>
+		<method name="SET_SOFT_KEYS"/>
+        <method name="SET_SOFT_KEYS_COLOUR"/>
+		<method name="GET_DATA"/>
+        <method name="DISPLAY_VIEW"/>
+        <method name="SET_NUMBERPAD_DISPLAY"/>
+        <method name="SET_SLEEP_MODE"/>
+        <method name="SET_HEADER"/>
+		<method name="CALL_SCREEN"/>
+        <method name="ALERT_DIALOG"/>
+        <method name="HIDE_ALERT_DIALOG"/>
+        <method name="SHOW_KEYBOARD"/>
+        <method name="HIDE_KEYBOARD"/>
+        <method name="HIDE_NUMBERPAD"/>
+        <method name="SHOW_NUMBERPAD"/>
+        <method name="SET_INPUT_EVENT"/>
+		<method name="SET_PROVIDER_ICON"/>
+		<method name="APP_FUNCTION"/>
+    </movie>
+	
+	<movie name="CELLPHONE_FACADE">
+		<method name="SET_BACKGROUND_IMAGE"/>
+		<method name="SET_TITLEBAR_TIME"/>
+        <method name="GET_CURRENT_SELECTION"/>
+        <method name="SET_UI_COLOUR"/>
+        <method name="SET_THEME"/>
+        <method name="SET_DATA_SLOT_EMPTY"/>
+        <method name="SET_DATA_SLOT"/>
+		<method name="SET_SOFT_KEYS"/>
+        <method name="SET_SOFT_KEYS_COLOUR"/>
+		<method name="GET_DATA"/>
+        <method name="DISPLAY_VIEW"/>
+        <method name="SET_NUMBERPAD_DISPLAY"/>
+        <method name="SET_SLEEP_MODE"/>
+        <method name="SET_HEADER"/>
+		<method name="CALL_SCREEN"/>
+        <method name="ALERT_DIALOG"/>
+        <method name="HIDE_ALERT_DIALOG"/>
+        <method name="SHOW_KEYBOARD"/>
+        <method name="HIDE_KEYBOARD"/>
+        <method name="HIDE_NUMBERPAD"/>
+        <method name="SHOW_NUMBERPAD"/>
+        <method name="SET_INPUT_EVENT"/>
+		<method name="SET_PROVIDER_ICON"/>
+		<method name="APP_FUNCTION"/>
+    </movie>
+	
+	<movie name="CELLPHONE_IFRUIT">
+		<method name="SET_BACKGROUND_IMAGE"/>
+		<method name="SET_TITLEBAR_TIME"/>
+        <method name="GET_CURRENT_SELECTION"/>
+        <method name="SET_UI_COLOUR"/>
+        <method name="SET_THEME"/>
+        <method name="SET_DATA_SLOT_EMPTY"/>
+        <method name="SET_DATA_SLOT"/>
+		<method name="SET_SOFT_KEYS"/>
+        <method name="SET_SOFT_KEYS_COLOUR"/>
+		<method name="GET_DATA"/>
+        <method name="DISPLAY_VIEW"/>
+        <method name="SET_NUMBERPAD_DISPLAY"/>
+        <method name="SET_SLEEP_MODE"/>
+        <method name="SET_HEADER"/>
+		<method name="CALL_SCREEN"/>
+        <method name="ALERT_DIALOG"/>
+        <method name="HIDE_ALERT_DIALOG"/>
+        <method name="SHOW_KEYBOARD"/>
+        <method name="HIDE_KEYBOARD"/>
+        <method name="HIDE_NUMBERPAD"/>
+        <method name="SHOW_NUMBERPAD"/>
+        <method name="SET_INPUT_EVENT"/>
+		<method name="SET_PROVIDER_ICON"/>
+		<method name="APP_FUNCTION"/>
+		<method name="SET_BACKGROUND_CREW_IMAGE"/>
+    </movie>
+	
+	<movie name="CELLPHONE_PROLOGUE">
+		<method name="SET_TITLEBAR_TIME"/>
+        <method name="GET_CURRENT_SELECTION"/>
+        <method name="SET_UI_COLOUR"/>
+        <method name="SET_DATA_SLOT_EMPTY"/>
+        <method name="SET_DATA_SLOT"/>
+		<method name="SET_SOFT_KEYS"/>
+        <method name="SET_SOFT_KEYS_COLOUR"/>
+		<method name="GET_DATA"/>
+        <method name="DISPLAY_VIEW"/>
+        <method name="SET_NUMBERPAD_DISPLAY"/>
+        <method name="SET_SLEEP_MODE"/>
+        <method name="SET_HEADER"/>
+		<method name="CALL_SCREEN"/>
+        <method name="ALERT_DIALOG"/>
+        <method name="HIDE_ALERT_DIALOG"/>
+        <method name="SHOW_KEYBOARD"/>
+        <method name="HIDE_KEYBOARD"/>
+        <method name="HIDE_NUMBERPAD"/>
+        <method name="SHOW_NUMBERPAD"/>
+        <method name="SET_INPUT_EVENT"/>
+		<method name="SET_PROVIDER_ICON"/>
+    </movie>
+    
+    <movie name="HELI_CAM">
+        <method name="SET_CAM_HEADING"/>
+        <method name="SET_CAM_FOV"/>
+        <method name="SET_CAM_ALT"/>
+		<method name="SET_CAM_LOGO"/>
+        <method name="SET_AUDIO_STATES"/>
+        <method name="SET_ALT_FOV_HEADING"/>
+    </movie>
+        
+    <movie name="SAVING_FOOTER">
+        <method name="SET_TEXT"/>
+        <method name="SET_WAITING_TEXT"/>
+    </movie>
+    
+    <movie name="RACE_POSITION">
+        <method name="SET_RACE_LABELS"/>
+        <method name="SHOW_RACE_MODULE"/>
+        <method name="SET_RACE_POSITION"/>
+        <method name="SET_GATES_POSITION"/>
+        <method name="SET_RACE_TIME"/>
+        <method name="SET_BEST_TIME"/>
+        <method name="SET_RACE_RESULTS"/>
+        <method name="SHOW_RACE_RESULTS"/>
+    </movie>
+    
+    <movie name="MISSION_COMPLETE">
+        <method name="SET_DATA_SLOT"/>
+        <method name="UPDATE_DATA_SLOT"/>
+        <method name="DRAW_MENU_LIST"/>
+        <method name="HIGHLIGHT_ITEM"/>
+        <method name="SET_MISSION_TITLE_COLOUR"/>
+        <method name="SET_MISSION_SUBTITLE_COLOUR"/>
+        <method name="SET_MISSION_BG_COLOUR"/>
+        <method name="SET_MISSION_TITLE"/>
+        <method name="SET_TOTAL"/>
+        <method name="SET_MEDAL"/>
+        <method name="SET_DATA_SLOT_EMPTY"/>
+        <method name="SET_DATA_SLOT_EMPTY"/>
+        <method name="SET_INPUT_EVENT"/>
+        <method name="FOCUS_VIEW"/>
+    </movie>
+    
+    <movie name="MISSION_QUIT">
+        <method name="SET_TEXT"/>
+        <method name="TRANSITION_IN"/>
+        <method name="TRANSITION_OUT"/>
+    </movie>
+	
+	<movie name="COUNTDOWN">
+        <method name="SET_MESSAGE"/>
+		<method name="FADE"/>
+		<method name="OVERRIDE_FADE_DURATION"/>
+		<method name="IS_COUNTDOWN_VISIBLE"/>
+    </movie>
+	
+    <movie name="SPLASH_TEXT">
+        <method name="SET_SPLASH_TEXT"/>
+		<method name="SPLASH_TEXT_LABEL"/>
+		<method name="SPLASH_TEXT_COLOR"/>
+		<method name="SPLASH_TEXT_TRANSITION_IN"/>
+		<method name="SPLASH_TEXT_TRANSITION_OUT"/>
+		<method name="IS_SPLASH_TEXT_VISIBLE"/>
+    </movie>
+    
+	<movie name="SC_LEADERBOARD">
+		<method name="SET_DISPLAY_TYPE"/>
+		<method name="SET_MULTIPLAYER_TITLE"/>
+		<method name="SET_TITLE"/>
+		<method name="SET_SLOT"/>
+		<method name="SET_SLOT_STATE"/>
+		<method name="CLEAR_SLOT"/>
+		<method name="CLEAR_ALL_SLOTS"/>
+	</movie>
+	
+	<movie name="MP_RESULTS_PANEL">
+		<method name="SET_TITLE"/>
+		<method name="SET_SUBTITLE"/>
+		<method name="SET_SLOT"/>
+		<method name="SET_SLOT_STATE"/>
+		<method name="CLEAR_SLOT"/>
+		<method name="CLEAR_ALL_SLOTS"/>
+	</movie>
+	
+	<movie name="GOLF">
+		<method name="SET_DISPLAY"/>
+		<method name="SET_HOLE_DISPLAY"/>
+		<method name="SET_SWING_DISPLAY"/>
+		<method name="SET_PLAYERCARD_SLOT"/>
+		<method name="CLEAR_PLAYERCARD_SLOT"/>
+		<method name="SET_PLAYERCARD_HEADSET"/>
+		<method name="SET_SCOREBOARD_TITLE"/>
+		<method name="COURSE_PAR"/>
+		<method name="SET_SCOREBOARD_SLOT"/>
+		<method name="CLEAR_SCOREBOARD_SLOT"/>
+		<method name="SWING_METER_SET_MARKER"/>
+		<method name="SWING_METER_SET_APEX_MARKER"/>
+		<method name="SWING_METER_SET_TARGET"/>
+		<method name="SWING_METER_SET_TARGET_COLOR"/>
+		<method name="SWING_METER_SET_FILL"/>
+		<method name="SWING_METER_POSITION"/>
+		<method name="SWING_METER_SCALE"/>
+		<method name="SWING_METER_IS_TRANSITIOING"/>
+		<method name="SWING_METER_TRANSITION_IN"/>
+		<method name="SWING_METER_TRANSITION_OUT"/>
+	</movie>
+    
+    <movie name="GOLF_FLOATING_UI">
+        <method name="SET_STRENGTH"/>
+        <method name="SET_SWING_DISTANCE"/>
+        <method name="SET_PIN_DISTANCE"/>
+        <method name="SET_HEIGHT"/>
+        <method name="TRANSITION_IN"/>
+        <method name="TRANSITION_OUT"/>
+    </movie>
+    
+	<movie name="TENNIS">
+		<method name="DISPLAY_SCOREBOARD"/>
+		<method name="DISPLAY_PLAYER_CARD"/>
+		<method name="SET_SCOREBOARD_TITLE"/>
+		<method name="SET_SCOREBOARD_SLOT"/>
+		<method name="SET_PLAYERCARD_TITLE"/>
+		<method name="SET_PLAYERCARD_SLOT"/>
+		<method name="SET_PLAYERCARD_HEADSET"/>
+		<method name="SWING_METER_SET_MARKER"/>
+		<method name="SWING_METER_SET_APEX_MARKER"/>
+		<method name="SWING_METER_SET_TARGET"/>
+		<method name="SWING_METER_SET_TARGET_COLOR"/>
+		<method name="SWING_METER_SET_FILL"/>
+		<method name="SWING_METER_POSITION"/>
+		<method name="SWING_METER_SCALE"/>
+		<method name="SWING_METER_IS_TRANSITIOING"/>
+		<method name="SWING_METER_TRANSITION_IN"/>
+		<method name="SWING_METER_TRANSITION_OUT"/>
+	</movie>
+    
+    <movie name="ALIEN_RUNES_OVERLAY">
+        <method name="FADE_FOR_DURATION"/>
+    </movie>
+    
+    <movie name="WEB_BROWSER">
+        <method name="CREATE_HIGHLIGHT"/>
+        <method name="CLEAR_HIGHLIGHTS"/>
+        <method name="DISABLE_BUTTON"/>
+        <method name="SET_TICKERTAPE"/>
+        <method name="GET_BROWSER_FAVORITES_SIZE"/>
+        <method name="SET_BROWSER_FAVORITES_SIZE"/>
+        <method name="GET_BROWSER_FAVORITES"/>
+        <method name="SET_BROWSER_FAVORITES"/>
+        <method name="GET_BROWSER_HISTORY_SIZE"/>
+        <method name="SET_BROWSER_HISTORY_SIZE"/>
+        <method name="GET_BROWSER_HISTORY"/>
+        <method name="SET_BROWSER_HISTORY"/>
+        <method name="SET_BROWSER_SKIN"/>
+        <method name="SET_ERROR_TEXT"/>
+        <method name="SET_TITLEBAR_TEXT"/>
+		<method name="APPEND_DATA_SLOT"/>
+        <method name="SET_BROWSER_CURSOR_SPEED_MODIFIER"/>
+        <method name="INITIALISE_WEBSITE"/>
+        <method name="IS_SITE_DYNAMIC"/>
+        <method name="GET_SITE_ID"/>
+        <method name="GET_PAGE_ID"/>
+        <method name="UPDATE_TEXT"/>
+        <method name="GO_TO_WEBPAGE"/>
+        <method name="GET_CURRENT_OBJECT_TYPE"/>
+        <method name="CAN_I_CLOSE_THE_BROWSER"/>
+		<method name="SET_INPUT_SELECT"/>
+		<method name="HIDE_KEYBOARD"/>
+		<method name="SET_PC_KEY"/>
+		<method name="GO_BACK"/>
+		<method name="GO_FORWARD"/>
+		<method name="IS_KEYBOARD_ACTIVE"/>
+		<method name="SHOW_CURSOR"/>
+		<method name="SHOW_BACKGROUND"/>
+		<method name="GET_CURRENT_WEBSITE"/>
+		<method name="IS_JAPANESE"/>
+		<method name="SET_PRICES"/>
+		<method name="DISABLE_VIDEO"/>
+		<method name="SUPRESS_HISTORY"/>
+		<method name="SET_RANKS"/>
+		<method name="SET_MOUSE_INPUT"/>
+    </movie>    
+    
+    <movie name="YOGA_BUTTONS">
+        <method name="ADD_BUTTON_TO_LIST"/>
+        <method name="REMOVE_BUTTONS"/>
+        <method name="DRAW_BUTTONS"/>
+        <method name="SET_HOLD_TIMER"/>
+		<method name="SET_INFO_TIMER"/>
+        <method name="BUTTON_PRESSED"/>
+        <method name="BUTTON_STATE"/>
+        <method name="BUTTON_DEPRESSED"/>
+        <method name="SET_STICK_POINTER_RGB"/>
+        <method name="SET_STICK_POINTER_ANGLE"/>
+        <method name="TOGGLE_INPUT_FILL"/>
+        <method name="SET_BUTTON_TARGET"/>
+        <method name="SET_OUT_RING_TIMER_COLOUR"/>
+        <method name="SET_OUT_RING_TIMER"/>
+		<method name="SET_PLAYER_INPUT_COLOUR"/>
+        <method name="SET_STICK_POINTER_HIGHLIGHT_ANGLE"/>
+        <method name="HIDE_STICK_POINTER"/>
+    </movie>    
+
+    <movie name="DESKTOP_PC">
+        <method name="ADD_PROGRAM"/>
+        <method name="SET_DATA_SLOT"/>
+        <method name="OPEN_POPUP"/>
+		<method name="CLOSE_POPUP"/>
+		<method name="OPEN_ANTIVIRUS"/>
+        <method name="RUN_PROGRAM"/>
+        <method name="LAST_POPUP_CLOSED"/>
+        <method name="MOVE_CURSOR"/>
+        <method name="SET_INPUT_EVENT"/>
+		<method name="SET_SCAN_BAR"/>
+		<method name="PLAY_SCAN_ANIM"/>
+		<method name="SET_CURSOR"/>
+		<method name="SET_SNAP_SPEED"/>
+    </movie> 
+	
+    <movie name="TAXI_DISPLAY">
+        <method name="ADD_TAXI_DESTINATION"/>
+        <method name="SHOW_TAXI_DESTINATION"/>
+        <method name="HIGHLIGHT_DESTINATION"/>
+        <method name="SET_TAXI_PRICE"/>
+        <method name="CLEAR_TAXI_DISPLAY"/>
+        <method name="SET_DATA_SLOT"/>
+        <method name="UPDATE_DATA_SLOT"/>
+        <method name="SET_DATA_SLOT_EMPTY"/>
+        <method name="GET_CURRENT_SELECTION"/>
+        <method name="SET_INPUT_EVENT"/>
+    </movie>
+
+    <movie name="WIND_METER">
+        <method name="SET_WIND_DIRECTION"/>
+        <method name="SET_COMPASS_DIRECTION"/>
+        <method name="TINT_WIND_POINTER"/>
+    </movie>
+
+    <movie name="ASSASSINATIONS">
+        <method name="SHOW_ASSASSINATIONS_TITLE"/>
+        <method name="HIDE_ASSASSINATIONS_TITLE"/>
+        <method name="SET_ASSASSINATIONS_TITLE"/>
+    </movie>
+
+    <movie name="SUB_PC">
+        <method name="RUN_PROGRAM"/>
+        <method name="MOVE_CURSOR"/>
+        <method name="SET_INPUT_EVENT"/>
+        <method name="SET_SECTION"/>
+        <method name="SET_LABELS"/>
+        <method name="SET_DATE"/>
+        <method name="SET_TIME"/>
+		<method name="SET_BUTTON_ACTIVE"/>
+        <method name="TRIGGER_CAM_FLASH"/>
+        <method name="TRIGGER_WARNING"/>
+    </movie>  
+	
+    <movie name="UV_CARSLIST">
+        <method name="SET_DATA_SLOT"/>
+        <method name="REPOSITION_WORD"/>
+        <method name="CROSS_WORD"/>
+        <method name="DELETE_WORD"/>
+        <method name="SET_COLOUR"/>
+    </movie>  
+	
+	<movie name="TRAFFIC_CAM">
+		<method name="SET_LAT_LONG"/>
+        <method name="SET_CAM_DATE"/>
+		<method name="PLAY_CAM_MOVIE"/>
+    </movie>  
+	
+	<movie name="DARTS_SCOREBOARD">
+        <method name="SET_DARTS_PLAYER_NAMES"/>
+        <method name="ADD_DARTS_SCORE"/>
+        <method name="CLEAR_DARTBOARD"/>
+        <method name="CLEAR_SCORES"/>
+        <method name="SET_PLAYER_SETS_AND_LEGS"/>
+        <method name="SET_PLAYER_HIGHLIGHT"/>
+        <method name="SET_CREW_TAG"/>
+    </movie>
+
+	 <movie name="HACKING_PC">
+        <method name="ADD_PROGRAM"/>
+        <method name="RUN_PROGRAM"/>
+        <method name="MOVE_CURSOR"/>
+        <method name="SET_INPUT_EVENT"/>
+		<method name="OPEN_APP"/>
+		<method name="CLOSE_APP"/>
+		<method name="OPEN_ERROR_POPUP"/>
+        <method name="SET_IP_OUTCOME"/>
+        <method name="SET_ROULETTE_OUTCOME"/>
+        <method name="SET_COUNTDOWN"/>
+		<method name="SET_SPEED"/>
+        <method name="SET_LIVES"/>
+		<method name="SHOW_LIVES"/>
+		<method name="SET_COLUMN_SPEED"/>
+		<method name="SET_ROULETTE_WORD"/>
+		<method name="STOP_ROULETTE"/>
+		<method name="RESET_ROULETTE"/>
+		<method name="OPEN_LOADING_PROGRESS"/>
+		<method name="SET_LOADING_PROGRESS"/>
+		<method name="SET_LOADING_MESSAGE"/>
+		<method name="SET_KEY_REPEAT_DELAY"/>
+		<method name="SET_LOADING_TIME"/>
+		<method name="OPEN_DOWNLOAD"/>
+		<method name="RESTART_MOVIE"/>
+		<method name="SET_BACKGROUND"/>
+		<method name="SET_LABELS"/>		
+		<method name="SET_CURSOR"/>
+    </movie>
+
+	<movie name="SOCIAL_CLUB_MESSAGE">
+		<method name="SHOW_SOCIAL_CLUB_MESSAGE"/>
+		<method name="HIDE_SOCIAL_CLUB_MESSAGE"/>
+	</movie>
+	
+	<movie name="HEIST_MP">
+		<method name="SET_LABELS"/>
+		<method name="REPOSITION_VIEW"/>
+		<method name="SHOW_VIEW"/>
+		<method name="ADD_LAUNCH_BUTTON"/>
+		<method name="UPDATE_LAUNCH_BUTTON"/>
+		<method name="SHOW_LAUNCH_BUTTON"/>
+		<method name="REQUEST_PLAYER_TXD"/>
+		<method name="REMOVE_PLAYER_TXD"/>
+		<method name="HAS_PLAYER_TXD_LOADED"/>
+		<method name="SET_HEIST_NAME"/>
+		<method name="UPDATE_HEIST_NAME"/>
+		<method name="ADD_CREW_MEMBER"/>
+		<method name="UPDATE_CREW_MEMBER"/>
+		<method name="BLANK_CREW_MEMBER"/>
+		<method name="ADD_TEAM_LIST"/>
+		<method name="UPDATE_TEAM_LIST"/>
+		<method name="ADD_PIECHART"/>
+		<method name="UPDATE_PIECHART"/>
+		<method name="ADD_TODO_LIST"/>
+		<method name="UPDATE_TODO_LIST"/>
+		<method name="ADD_PLAYERCARD"/>
+		<method name="UPDATE_PLAYERCARD"/>
+		<method name="BLANK_PLAYERCARD"/>
+		<method name="ADD_PLANNING_CHOICES"/>
+		<method name="UPDATE_PLANNING_CHOICES"/>
+		<method name="BLANK_PLANNING_CHOICES"/>
+		<method name="UPDATE_PREVIEW"/>
+		<method name="BLANK_PREVIEW"/>
+		<method name="ADD_PLANNING_SLOT"/>
+		<method name="UPDATE_PLANNING_SLOT"/>
+		<method name="BLANK_PLANNING_SLOT"/>
+		<method name="INITIALISE_HEISTBOARD"/>
+		<method name="INITIALISE_PLANNINGBOARD"/>
+		<method name="HIGHLIGHT_ITEM"/>
+		<method name="SHOW_HEISTBOARD"/>
+		<method name="SHOW_PLANNINGBOARD"/>
+		<method name="UPDATE_PLANNING_SLOT_LEFT"/>
+		<method name="UPDATE_PLANNING_SLOT_RIGHT"/>
+		<method name="LAUNCH_BUTTON_VISIBLE"/>
+		<method name="LAUNCH_BUTTON_ENABLED"/>
+		<method name="LAUNCH_BUTTON_HIGHLIGHTED"/>
+		<method name="ADD_PLAYERCARD_MEDALS"/>
+		<method name="PREPLAN_LAUNCH_BUTTON_VISIBLE"/>
+		<method name="PREPLAN_LAUNCH_BUTTON_ENABLED"/>
+		<method name="PREPLAN_LAUNCH_BUTTON_HIGHLIGHTED"/>
+		<method name="SHOW_PLANNING_IMAGES"/>
+		<method name="SHOW_ALL_TEXT"/>
+		<method name="HIDE_ALL_TEXT"/>
+	</movie>
+	
+	<movie name="HEIST_ENDSCREEN">
+		<method name="SET_PIECHART_COLOURS"/>
+		<method name="SET_PIE_CHART"/>
+		<method name="SHOW_PIECHART_NUMBERS"/>
+	</movie>
+
+	<movie name="PAUSE_MENU_HEADER">
+		<method name="SET_HEADER_TITLE"/>
+		<method name="SET_CREW_TAG"/>
+		<method name="SET_CREW_IMG"/>
+		<method name="SET_CHAR_IMG"/>
+		<method name="SET_HEADING_DETAILS"/>
+		<method name="SET_MENU_ITEM_COLOUR"/>
+		<method name="LOCK_MENU_ITEM"/>
+		<method name="SCROLL_MENU_IN_DIR"/>
+		<method name="HIGHLIGHT_MENU"/>
+		<method name="BUILD_MENU"/>
+		<method name="REMOVE_MENU"/>
+		<method name="SET_INPUT_EVENT"/>
+		<method name="SET_MENU_HEADER_TEXT"/>
+	</movie>
+
+	<movie name="PAUSE_MP_MENU_GALLERY">
+		<method name="ADD_GALLERY_ITEM"/>
+		<method name="DRAW_GALLERY"/>
+		<method name="CLEAR_GALLERY"/>
+		<method name="SET_HIGHLIGHT"/>
+		<method name="UPDATE_DATA_SLOT"/>
+	</movie>
+
+	<movie name="MP_RANKUP">
+		<method name="SHOW_RANKUP_ANIMATION"/>
+		<method name="HIDE_RANKUP_ANIMATION"/>
+	</movie>
+
+	<movie name="CELLPHONE_ALERT_PREVIEW">
+		<method name="CREATE_CELLPHONE_PREVIEW"/>
+		<method name="CLEAR_ALL"/>
+	</movie>
+
+	<movie name="PAUSE_MP_MENU_WEAPONS">
+		<method name="ADD_WEAPON_ITEM"/>
+		<method name="DRAW_WEAPONS"/>
+		<method name="CLEAR_WEAPONS"/>
+		<method name="SET_HIGHLIGHT"/>
+		<method name="UPDATE_DATA_SLOT"/>
+		<method name="ADD_ATTACHMENT"/>
+	</movie>
+
+	<movie name="PAUSE_MP_MENU_PLAYER_COMPARISON">
+		<method name="SET_DATA_SLOT"/>
+		<method name="SET_PARTNER_UP"/>
+	</movie>
+	
+	<!-- DEPRECATED, PLEASE USE MOVIE MP_PLAYER_CARD -->
+	<movie name="PAUSE_MP_MENU_PLAYER_CARD">
+		<method name="SET_DATA_SLOT"/>
+		<method name="STATS_LOCKED"/>
+		<method name="SET_DESCRIPTION"/>
+		<method name="SET_TITLE"/>
+		<method name="SET_HEADINGS"/>
+		<method name="SET_RELIABILITY"/>
+		<method name="SET_FREEMODE"/>
+	</movie>
+	
+	<!-- UPDATED VERSION OF PAUSE_MP_MENU_PLAYER_CARD, PLEASE USE THIS INSTEAD -->
+	<movie name="MP_PLAYER_CARD">
+		<method name="SET_TITLE"/>
+		<method name="SET_DESCRIPTION"/>
+		<method name="STATS_LOCKED"/>
+		<method name="SET_DATA_SLOT"/>
+		<method name="SET_DATA_SLOT_EMPTY"/>
+	</movie>	
+	
+	<movie name="MP_PLAYER_COMPARISON">
+		<method name="SET_COLUMN_TITLE"/>
+		<method name="SET_DESCRIPTION"/>
+		<method name="SET_DATA_SLOT"/>
+		<method name="SET_DATA_SLOT_EMPTY"/>
+	</movie>	
+
+	<movie name="PAUSE_MP_MENU_VERTICAL_LIST">
+		<method name="SET_DATA_SLOT"/>
+		<method name="SET_INPUT_EVENT"/>
+		<method name="GET_CURRENT_SELECTION"/>
+		<method name="UPDATE_DATA_SLOT"/>
+		<method name="DISPLAY_VIEW"/>
+		<method name="SET_HIGHLIGHT"/>
+		<method name="SET_DATA_SLOT_EMPTY"/>
+	</movie>
+
+	<movie name="PAUSE_MP_MENU_SIMPLE_LIST">
+		<method name="SET_DATA_SLOT"/>
+		<method name="DISPLAY_VIEW"/>
+		<method name="SET_DATA_SLOT_EMPTY"/>
+	</movie>
+
+	
+	
+	<movie name="MP_STAT_FRIEND_LIST">
+		<method name="SET_COLOUR"/>
+		<method name="SET_TITLE"/>
+		<method name="SET_STAT"/>
+		<method name="DISPLAY_STATS"/>
+		<method name="CLEAR_STATS"/>
+		<method name="UPDATE_STAT"/>
+		<method name="SET_FRIEND"/>
+		<method name="DISPLAY_FRIENDS"/>
+		<method name="CLEAR_FRIENDS"/>
+		<method name="UPDATE_FRIEND"/>
+	</movie>
+	
+	<movie name="MP_CREW_TAG">
+		<method name="SET_CREW_TAG"/>
+	</movie>
+
+	<movie name="POPUP_WARNING">
+		<method name="SHOW_POPUP_WARNING"/>
+		<method name="HIDE_POPUP_WARNING"/>
+		<method name="SET_ALERT_IMAGE_WITH_GANG_HIGHLIGHT"/>
+		<method name="SET_ALERT_IMAGE"/>
+		<method name="SET_LIST_ITEMS"/>
+		<method name="SET_LIST_HIGHLIGHT"/>
+	</movie>
+
+	<movie name="DIGISCANNER">
+		<method name="SET_DISTANCE"/>
+		<method name="SET_COLOUR"/>
+	</movie>
+
+	<movie name="REMOTE_SNIPER_HUD">
+		<method name="START_INTRO_ANIMATION"/>
+		<method name="SET_ZOOM_LEVEL"/>
+		<method name="SET_WIND"/>
+		<method name="SET_COMPASS"/>
+	</movie>
+
+	<movie name="SECURITY_CAM">
+		<method name="SET_LOCATION"/>
+		<method name="SET_DETAILS"/>
+		<method name="SET_TIME"/>
+	</movie>
+
+	<movie name="REMOTE_SNIPER_LOADING">
+		<method name="START_LOADING"/>
+		<method name="IS_LOAD_ANIM_FINISHED"/>
+	</movie>
+	
+	
+	<movie name="STUNT_JUMPS">
+		<method name="SET_STUNT_JUMP_TITLE_AND_DESCRIPTION"/>
+	</movie>
+		
+	<movie name="PLAYER_SWITCH">
+        <method name="SET_SWITCH_VISIBLE"/>
+		<method name="SET_SWITCH_SLOT"/>
+        <method name="SET_SWITCH_HINTED"/>
+		<method name="SET_SWITCH_ACTIVITY"/>
+		<method name="SET_SWITCH_COUNTER"/>
+        <method name="SET_SP_RING"/>
+        <method name="SET_MP_RING"/>
+		<method name="SET_POINTER_ANGLE"/>
+		<method name="SET_PLAYER_HIGHLIGHT"/>
+        <method name="SET_PLAYER_SELECTED"/>
+		<method name="GET_SWITCH_SELECTED"/>
+		<method name="SET_MULTIPLAYER_HEAD"/>
+		<method name="SET_MP_LABEL"/>
+		<method name="SET_PLAYER_DAMAGE"/>
+		<method name="SET_SWITCH_HINTED_ALL"/>
+		<method name="SET_SWITCH_COUNTER_ALL"/>
+    </movie>
+	
+	<movie name="PAUSE_MENU_PAGES_FRIENDS">
+		<method name="SET_FRIEND_LIST_SIZE"/>
+		<method name="SET_FRIEND_SLOT"/>
+		<method name="REFRESH_PLAYER_CARD_NAME_AND_COLOUR"/>
+		<method name="SET_PLAYER_CARD_GANG_STANDING"/>
+		<method name="SET_PLAYER_CARD_RANK"/>
+		<method name="SET_PLAYER_CARD_KILL_DEATH"/>
+		<method name="SET_PLAYER_CARD_DRIVING"/>
+		<method name="SET_PLAYER_CARD_PASSENGER"/>
+		<method name="SET_PLAYER_CARD_RELIABILITY"/>
+		<method name="SET_PLAYER_CARD_SHOOTING"/>
+		<method name="SET_PLAYER_CARD_SNIPER"/>
+	</movie>
+	
+	<movie name="MP_UNLOCK_FREEMODE">
+		<method name="SHOW_UNLOCK_AND_MESSAGE"/>
+		<method name="SHOW_BRIDGES_KNIVES_PROGRESS"/>
+		<method name="SHOW_COLLECTION_PROGRESS"/>
+		<method name="RESET_AWARDS_MOVIE"/>
+	</movie>
+	
+	<movie name="MP_MEDAL_FREEMODE">
+		<method name="SHOW_AWARD_AND_MESSAGE"/>
+		<method name="RESET_AWARDS_MOVIE"/>
+	</movie>
+	
+	<movie name="MP_AWARD_FREEMODE">
+		<method name="SHOW_AWARD_AND_MESSAGE"/>
+		<method name="RESET_AWARDS_MOVIE"/>
+	</movie>
+	
+	<movie name="MP_BIG_MESSAGE_FREEMODE">
+		<method name="SHOW_BIG_MP_MESSAGE"/>
+		<method name="SHOW_BIG_MP_MESSAGE_WITH_STRAP"/>
+		<method name="SHOW_BIG_MP_MESSAGE_WITH_STRAP_AND_RANK"/>
+		<method name="SHOW_BUSTED_MP_MESSAGE"/>
+		<method name="SHOW_WASTED_MP_MESSAGE"/>
+		<method name="SHOW_RANKUP_MP_MESSAGE"/>
+		<method name="SHOW_CREW_RANKUP_MP_MESSAGE"/>
+		<method name="CLEAR_CREW_RANKUP_MP_MESSAGE"/>
+		<method name="SHOW_LOCKED_UP_MP_MESSAGE"/>
+		<method name="SHOW_MISSION_END_MP_MESSAGE"/>
+		<method name="SHOW_TERRITORY_CHANGE_MP_MESSAGE"/>
+		<method name="SHOW_MP_MESSAGE_TOP"/>
+		<method name="UPDATE_STRAP_MESSAGE"/>
+		<method name="RESET_MOVIE"/>
+		<method name="SHOW_CENTERED_MP_MESSAGE"/>
+		<method name="SHOW_CENTERED_MP_MESSAGE_LARGE"/>
+		<method name="SHOW_CENTERED_TOP_MP_MESSAGE"/>
+		<method name="TRANSITION_IN" />
+		<method name="TRANSITION_UP" />
+		<method name="TRANSITION_DOWN" />
+		<method name="TRANSITION_OUT"/>
+		<method name="SHOW_MISSION_FAILED_MP_MESSAGE"/>
+		<method name="SET_RANK_ICON_RGB"/>
+		<method name="SHOW_MISSION_PASSED_MESSAGE"/>
+		<method name="SHOW_WEAPON_PURCHASED"/>
+		<method name="SET_RESPAWN_BAR_PERCENTAGE"/>
+		<method name="FLASH_RESPAWN_BAR"/>
+		<method name="SHOW_SHARD_CENTERED_MP_MESSAGE"/>
+		<method name="SHOW_SHARD_CENTERED_MP_MESSAGE_LARGE"/>
+		<method name="SHOW_SHARD_WASTED_MP_MESSAGE"/>
+		<method name="SHOW_SHARD_CENTERED_TOP_MP_MESSAGE"/>
+		<method name="SHOW_SHARD_RANKUP_MP_MESSAGE"/>
+		<method name="SHOW_SHARD_CREW_RANKUP_MP_MESSAGE "/>
+		<method name="SHARD_ANIM_OUT"/>
+		<method name="SET_SHARD_BACKGROUND_TARGET_HEIGHT"/>
+		<method name="SET_SHARD_BACKGROUND_HEIGHT"/>
+		<method name="ROLL_DOWN_BACKGROUND"/>
+		<method name="ROLL_UP_BACKGROUND"/>
+		<method name="UPDATE_MESSAGE"/>
+	</movie>
+	
+	<movie name="MP_KILLSTRIP_FREEMODE">
+		<method name="SHOW_CREW_INFO_PANEL"/>
+		<method name="SHOW_KILLSTRIP_SCORE_PANEL"/>
+		<method name="ADD_CREW_INFO_FOR_VICTIM"/>
+		<method name="ADD_CREW_INFO_FOR_KILLER"/>
+		<method name="SET_RANK_OF_KILLER"/>
+		<method name="SET_PLAYERS_HEADSHOT"/>
+		<method name="ADD_PLAYERS_GANG_SCORE_AND_MURDER_WEAPON"/>
+		<method name="ADD_DAMAGE_TO_VICTIM"/>	
+		<method name="SHOW_STAT_PANEL"/>	
+		<method name="ADD_STAT_INFO_FOR_VICTIM"/>	
+		<method name="ADD_STAT_INFO_FOR_KILLER"/>	
+		<method name="SET_FREEMODE_KILLER_COLOUR"/>
+		<method name="SET_PAGE_INDICATORS"/>
+		<method name="SET_NUMBER_OF_PAGES"/>
+		<method name="ADD_PLAYERS_GANG_SCORE_AND_MURDER_DESCRIPTION"/>
+		<method name="SET_KILLER_AND_VICTIM_COLOURS"/>
+		<method name="SET_PLAYER_INFO"/>
+		<method name="SET_CREW_TAG"/>
+		<method name="ADD_DAMAGE_TO_VICTIM"/>
+		<method name="SET_KILLERS_CREW_EMBLEM"/>
+		<method name="UPDATE_PLAYER_SCORES"/>
+	</movie>
+	
+	<movie name="TATTOO_BUTTONS">
+		<method name="ADD_BUTTON"/>
+		<method name="SET_STICK_POINTER_ANGLE"/>
+		<method name="SET_STICK_POINTER_HIGHLIGHT_ANGLE"/>
+        <method name="HIDE_STICK_POINTER"/>
+	</movie>
+	
+	<movie name="VOTING">
+		<method name="SHOW_VOTING_MESSAGE"/>
+		<method name="HIDE_VOTING_MESSAGE"/>
+		<method name="SET_THUMB_HIGHLIGHT"/>
+		<method name="SET_CREW_TAG"/>
+		<method name="SHOW_VOTING_RESULTS"/>
+		<method name="SHOW_VOTING_MESSAGE_NEW"/>
+	</movie>
+	
+	<movie name="MP_MISSION_NAME_FREEMODE">
+		<method name="SET_MISSION_INFO"/>
+	</movie>
+	
+	<movie name="MP_MISSION_NAME_FREEMODE_1">
+		<method name="SET_MISSION_INFO"/>
+	</movie>
+	
+	<movie name="MP_MISSION_NAME_FREEMODE_2">
+		<method name="SET_MISSION_INFO"/>
+	</movie>
+	
+	<movie name="INSTRUCTIONAL_BUTTONS">
+		<method name="CLEAR_ALL"/>
+		<method name="OVERRIDE_POSITION"/>
+		<method name="SET_CLEAR_SPACE"/>
+		<method name="SET_LEADING"/>
+		<method name="SET_DATA_SLOT"/>
+		<method name="SET_DATA_SLOT_EMPTY"/>
+		<method name="DRAW_INSTRUCTIONAL_BUTTONS"/>
+		<method name="SET_PADDING"/>
+		<method name="SET_TEXT_COLOUR"/>
+		<method name="SET_BACKGROUND_COLOUR"/>
+		<method name="OUTPUT_TEXTFIELD"/>
+		<method name="OVERRIDE_RESPAWN_TEXT"/>
+		<method name="SET_MAX_WIDTH"/>
+		<method name="FLASH_BUTTON_BY_ID"/>
+		<method name="TOGGLE_MOUSE_BUTTONS"/>
+	</movie>
+	
+	<movie name="HUD_PLAYER_SWITCH_ALERT">
+		<method name="SET_PLAYER_SWITCH"/>
+		<method name="SET_PLAYER_SWITCH_WITH_HINT_AND_CHARACTER"/>
+		<method name="DESTROY"/>	
+		<method name="SET_PLAYER_SWITCH_VISIBLE_STATE"/>
+	</movie>
+	
+	<movie name="PLAYER_SWITCH_ALERT">
+		<method name="SET_PLAYER_SWITCH"/>
+		<method name="SET_PLAYER_SWITCH_WITH_HINT_AND_CHARACTER"/>
+		<method name="DESTROY"/>
+		<method name="SET_PLAYER_SWITCH_VISIBLE_STATE"/>
+	</movie>
+	
+	<movie name="MP_MISSION_DETAILS_CARD">
+		<method name="SET_TITLE"/>
+		<method name="SET_DATA_SLOT"/>
+		<method name="SET_DATA_SLOT_EMPTY"/>
+		<method name="SET_ALPHA"/>
+		<method name="DISPLAY_VIEW"/>
+	</movie>
+	
+	<movie name="PLAYER_SWITCH_STATS_PANEL">
+		<method name="SET_STATS_LABELS"/>
+		<method name="SHOW"/>
+		<method name="HIDE"/>
+	</movie>
+	
+	<movie name="MP_FREEMODE_CHECKPOINT_1">
+		<method name="SET_CHECKPOINT_TEXT"/>
+	</movie>
+	
+	<movie name="MP_FREEMODE_CHECKPOINT_2">
+		<method name="SET_CHECKPOINT_TEXT"/>
+	</movie>
+	
+	<movie name="MP_FREEMODE_CHECKPOINT_3">
+		<method name="SET_CHECKPOINT_TEXT"/>
+	</movie>
+
+	<movie name="MP_FREEMODE_CHECKPOINT_4">
+		<method name="SET_CHECKPOINT_TEXT"/>
+	</movie>
+
+	<movie name="MP_FREEMODE_CHECKPOINT_5">
+		<method name="SET_CHECKPOINT_TEXT"/>
+	</movie>
+
+	<movie name="MP_FREEMODE_CHECKPOINT_6">
+		<method name="SET_CHECKPOINT_TEXT"/>
+	</movie>
+
+	<movie name="MP_FREEMODE_CHECKPOINT_7">
+		<method name="SET_CHECKPOINT_TEXT"/>
+	</movie>
+
+	<movie name="MP_FREEMODE_CHECKPOINT_8">
+		<method name="SET_CHECKPOINT_TEXT"/>
+	</movie>
+
+	<movie name="MP_FREEMODE_CHECKPOINT_9">
+		<method name="SET_CHECKPOINT_TEXT"/>
+	</movie>
+
+	<movie name="MP_FREEMODE_CHECKPOINT_10">
+		<method name="SET_CHECKPOINT_TEXT"/>
+	</movie>
+
+	<movie name="MP_RANK_BAR">
+		<method name="SET_COLOUR"/>
+		<method name="OVERRIDE_ANIMATION_SPEED"/>
+		<method name="OVERRIDE_ONSCREEN_DURATION"/>
+		<method name="SET_BAR_TEXT"/>
+		<method name="RESET_BAR_TEXT"/>
+		<method name="FADE_BAR_OUT"/>
+		<method name="SET_RANK_SCORES"/>
+	</movie>
+	
+	<movie name="PLAYER_SWITCH_PROLOGUE">
+        <method name="SET_SWITCH_VISIBLE"/>
+		<method name="SET_SWITCH_SLOT"/>
+        <method name="SET_SWITCH_HINTED"/>
+		<method name="SET_SWITCH_ACTIVITY"/>
+		<method name="SET_SWITCH_COUNTER"/>
+        <method name="SET_SP_RING"/>
+        <method name="SET_MP_RING"/>
+		<method name="SET_POINTER_ANGLE"/>
+		<method name="SET_PLAYER_HIGHLIGHT"/>
+        <method name="SET_PLAYER_SELECTED"/>
+		<method name="GET_SWITCH_SELECTED"/>
+		<method name="SET_MULTIPLAYER_HEAD"/>
+		<method name="SET_MP_LABEL"/>
+		<method name="SET_PLAYER_DAMAGE"/>
+		<method name="SET_SWITCH_HINTED_ALL"/>
+		<method name="SET_SWITCH_COUNTER_ALL"/>
+    </movie>
+	
+	<movie name="MP_MATCHMAKING_VEHICLE_CARD">
+		<method name="SET_TITLE" />
+		<method name="SET_DATA_SLOT" />
+		<method name="UPDATE_SLOT" />
+		<method name="DISPLAY_VIEW" />
+		<method name="SET_HIGHLIGHT" />
+		<method name="SET_INPUT_EVENT" />
+		<method name="ON_DESTROY" />
+	</movie>
+	
+	<movie name="MP_MATCHMAKING_CARD">
+		<method name="SET_TITLE" />
+		<method name="SET_DATA_SLOT" />
+		<method name="UPDATE_SLOT" />
+		<method name="DISPLAY_VIEW" />
+		<method name="SET_HIGHLIGHT" />
+		<method name="SET_INPUT_EVENT" />
+		<method name="ON_DESTROY" />
+		<method name="SET_DESCRIPTION" />
+		<method name="SET_ROW_SPACING" />
+		<method name="COLLAPSE" />
+		<method name="SET_DATA_SLOT_EMPTY" />
+		<method name="DISPLAY_MIC"/>
+   		<method name="REORDER"/>
+		<method name="REMOVE_FROM_SESSION_BY_ID"/>
+		<method name="SET_TIME_BY_ID"/>
+		<method name="SET_ICON"/>
+	</movie>
+
+	<movie name="MP_MATCHMAKING_SELECTOR">
+		<method name="SHOW_GAMER_INFO" />
+		<method name="SHOW_BET_SELECTOR" />
+		<method name="SET_BETS_ON_PLAYER" />
+		<method name="SET_ODDS" />
+		<method name="SET_MY_BET" />
+		<method name="LOCK_BETTING" />
+		<method name="SHOW_VEHICLE_SELECTOR" />
+		<method name="SHOW_QUESTION_MARK" />
+		<method name="SET_VEHICLE_NAME" />
+		<method name="SET_VEHICLE_TYPE" />
+		<method name="SET_COLOUR" />
+		<method name="SET_COLOUR_TYPE" />
+		<method name="SHOW_CENTER_CONTENT" />
+		<method name="SHOW_BOTTOM_SELECTOR" />
+		<method name="SHOW_UP_DOWN_ARROWS" />
+		<method name="SHOW_LEFT_ARROW" />
+		<method name="SHOW_RIGHT_ARROW" />
+	</movie>		
+	
+	<movie name="LETTER_SCRAPS">
+		<method name="SET_LETTER_TEXT"/>
+		<method name="ADD_TO_LETTER_TEXT"/>
+		<method name="SET_BG_VISIBILITY"/>
+	</movie>
+	
+	<movie name="PSYCHOLOGY_REPORT">
+		<method name="SET_PLAYER_NAME"/>
+		<method name="SET_LETTER_TEXT"/>
+		<method name="ADD_TO_LETTER_TEXT"/>
+		<method name="SET_BG_VISIBILITY"/>
+	</movie>
+
+	<movie name="ATM">
+		<method name="UPDATE_TEXT"/>
+		<method name="SET_DATA_SLOT"/>
+		<method name="SET_DATA_SLOT_EMPTY"/>
+		<method name="SET_ANALOG_STICK_INPUT"/>
+		<method name="SET_BROWSER_CURSOR_SPEED_MODIFIER"/>
+		<method name="GET_CURRENT_SELECTION"/>
+		<method name="SET_INPUT_EVENT"/>
+		<method name="SET_INPUT_SELECT"/>
+		<method name="DISPLAY_BALANCE"/>
+		<method name="DISPLAY_MENU"/>
+		<method name="DISPLAY_CASH_OPTIONS"/>
+		<method name="DISPLAY_MESSAGE"/>
+		<method name="DISPLAY_TRANSACTIONS"/>
+	</movie>
+
+	<movie name="BREAKING_NEWS">
+		<method name="SET_TEXT"/>
+		<method name="SET_SCROLL_TEXT"/>
+		<method name="DISPLAY_SCROLL_TEXT"/>
+		<method name="CLEAR_SCROLL_TEXT"/>
+		<method name="SHOW_STATIC"/>
+	</movie>
+	
+	<movie name="SOCIAL_CLUB_TV">
+		<method name="SHOW_LIVE_PANEL"/>
+		<method name="SET_LIVE_PANEL"/>
+		<method name="SHOW_TICKER"/>
+		<method name="SET_TICKER_TITLE"/>
+		<method name="ADD_TICKER_TEXT"/>
+	</movie>
+	
+	
+	<movie name="GTAV_ONLINE">
+		<method name="SET_TITLE"/>
+		<method name="SET_BIG_LOGO_VISIBLE"/>
+		<method name="SET_BIGFEED_INFO" />
+		<method name="SET_BIGFEED_BODY_TEXT" />	
+		<method name="SET_NEWS_CONTEXT" />
+		<method name="HIDE_ONLINE_LOGO"/>
+	</movie>
+	
+	
+	<movie name="MIDSIZED_MESSAGE">
+		<method name="SHOW_MIDSIZED_MESSAGE"/>
+		<method name="SHOW_BRIDGES_KNIVES_PROGRESS"/>
+		<method name="SHOW_SHARD_MIDSIZED_MESSAGE"/>
+		<method name="SHARD_ANIM_OUT"/>
+	</movie>
+
+	<movie name="LOADINGSCREEN_STARTUP">
+		<method name="SET_BUTTONS"/>
+		<method name="HIDE_BUTTONS"/>
+	</movie>
+
+	<movie name="OPENING_CREDITS">
+		<method name="ADD_NAMES_TO_CREDIT_BLOCK"/>
+		<method name="ADD_ROLE_TO_CREDIT_BLOCK"/>
+		<method name="ADD_TEXT_TO_SINGLE_LINE"/>
+		<method name="SHOW_SINGLE_LINE"/>
+		<method name="SETUP_CREDIT_BLOCK"/>
+		<method name="SETUP_SINGLE_LINE"/>
+		<method name="SHOW_CREDIT_BLOCK"/>
+		<method name="SHOW_SINGLE_LINE"/>
+		<method name="SHOW_LOGO"/>
+		<method name="HIDE_LOGO"/>
+		<method name="REMOVE"/>
+		<method name="REMOVE_ALL"/>
+		<method name="HIDE"/>
+	</movie>
+	
+	<movie name="mp_car_stats_01">
+		<method name="SET_VEHICLE_INFOR_AND_STATS"/>
+	</movie>
+	<movie name="mp_car_stats_02">
+		<method name="SET_VEHICLE_INFOR_AND_STATS"/>
+	</movie>
+	<movie name="mp_car_stats_03">
+		<method name="SET_VEHICLE_INFOR_AND_STATS"/>
+	</movie>
+	<movie name="mp_car_stats_04">
+		<method name="SET_VEHICLE_INFOR_AND_STATS"/>
+	</movie>
+	<movie name="mp_car_stats_05">
+		<method name="SET_VEHICLE_INFOR_AND_STATS"/>
+	</movie>
+	<movie name="mp_car_stats_06">
+		<method name="SET_VEHICLE_INFOR_AND_STATS"/>
+	</movie>
+	<movie name="mp_car_stats_07">
+		<method name="SET_VEHICLE_INFOR_AND_STATS"/>
+	</movie>
+	<movie name="mp_car_stats_08">
+		<method name="SET_VEHICLE_INFOR_AND_STATS"/>
+	</movie>
+	<movie name="mp_car_stats_09">
+		<method name="SET_VEHICLE_INFOR_AND_STATS"/>
+	</movie>
+	<movie name="mp_car_stats_10">
+		<method name="SET_VEHICLE_INFOR_AND_STATS"/>
+	</movie>
+	
+	<movie name="mp_next_job_selection">
+		<method name="SET_TITLE"/>
+		<method name="SHOW_PLAYER_VOTE"/>
+		<method name="SET_GRID_ITEM" />
+		<method name="SET_GRID_ITEM_VOTE"/>
+		<method name="SET_SELECTION"/>
+		<method name="SET_DETAILS_ITEM"/>
+		<method name="SET_LOBBY_LIST_VISIBILITY"/>
+		<method name="SET_LOBBY_LIST_DATA_SLOT"/>
+		<method name="UPDATE_LOBBY_LIST_DATA_SLOT"/>
+		<method name="DISPLAY_LOBBY_LIST_VIEW"/>
+		<method name="SET_LOBBY_LIST_DATA_SLOT_EMPTY"/>
+		<method name="SET_LOBBY_LIST_HIGHLIGHT"/>
+		<method name="INIT_LOBBY_LIST_SCROLL"/>
+		<method name="SET_LOBBY_LIST_SCROLL"/>
+		<method name="CLEANUP_MOVIE"/>
+	</movie>
+
+	<movie name="mp_celebration">
+		<method name="ADD_BACKGROUND_TO_WALL"/>
+		<method name="ADD_CASH_TO_WALL"/>
+		<method name="ADD_CHALLENGE_PART_TO_WALL"/>
+		<method name="ADD_CHALLENGE_SET_TO_WALL"/>
+		<method name="ADD_CHALLENGE_WINNER_TO_WALL"/>
+		<method name="ADD_CASH_WON_TO_WALL"/>
+		<method name="ADD_GAMES_WON_TO_WALL"/>
+		<method name="ADD_INTRO_TO_WALL"/>
+		<method name="ADD_JOB_POINTS_TO_WALL"/>
+		<method name="ADD_MISSION_RESULT_TO_WALL"/>
+		<method name="ADD_OBJECTIVE_TO_WALL"/>
+		<method name="ADD_POINTS_TO_WALL"/>
+		<method name="ADD_POSITION_TO_WALL"/>
+		<method name="ADD_READY_TO_WALL"/>
+		<method name="ADD_REP_POINTS_AND_RANK_BAR_TO_WALL"/>
+		<method name="ADD_SCORE_TO_WALL"/>
+		<method name="ADD_STAT_NUMERIC_TO_WALL"/>
+		<method name="ADD_STAT_TABLE_TO_WALL"/>
+		<method name="ADD_STAT_TO_TABLE"/>
+		<method name="ADD_TIME_TO_WALL"/>
+		<method name="ADD_TOURNAMENT_TO_WALL"/>
+		<method name="ADD_WAVE_REACHED_TO_WALL"/>
+		<method name="ADD_WINNER_TO_WALL"/>
+		<method name="ADD_WORLD_RECORD_TO_WALL"/>
+		<method name="CLEANUP"/>
+		<method name="CREATE_STAT_TABLE"/>
+		<method name="CREATE_STAT_WALL"/>
+		<method name="GET_TOTAL_WALL_DURATION"/>
+		<method name="OVERRIDE_PAUSES"/>
+		<method name="PAUSE"/>
+		<method name="PAUSE_BEFORE_PREVIOUS_LAYOUT"/>
+		<method name="SET_CELEBRATION_GFX_TYPE"/>
+		<method name="SET_GFX_TYPE"/>
+		<method name="SET_PAUSE_DURATION"/>
+		<method name="SHOW_FLASH"/>
+		<method name="SHOW_STAT_WALL"/>
+		<method name="UNPAUSE"/>
+	</movie>
+	<movie name="mp_celebration_fg">
+		<method name="ADD_BACKGROUND_TO_WALL"/>
+		<method name="ADD_CASH_TO_WALL"/>
+		<method name="ADD_CHALLENGE_PART_TO_WALL"/>
+		<method name="ADD_CHALLENGE_SET_TO_WALL"/>
+		<method name="ADD_CHALLENGE_WINNER_TO_WALL"/>
+		<method name="ADD_CASH_WON_TO_WALL"/>
+		<method name="ADD_GAMES_WON_TO_WALL"/>
+		<method name="ADD_INTRO_TO_WALL"/>
+		<method name="ADD_JOB_POINTS_TO_WALL"/>
+		<method name="ADD_MISSION_RESULT_TO_WALL"/>
+		<method name="ADD_OBJECTIVE_TO_WALL"/>
+		<method name="ADD_POINTS_TO_WALL"/>
+		<method name="ADD_POSITION_TO_WALL"/>
+		<method name="ADD_READY_TO_WALL"/>
+		<method name="ADD_REP_POINTS_AND_RANK_BAR_TO_WALL"/>
+		<method name="ADD_SCORE_TO_WALL"/>
+		<method name="ADD_STAT_NUMERIC_TO_WALL"/>
+		<method name="ADD_STAT_TABLE_TO_WALL"/>
+		<method name="ADD_STAT_TO_TABLE"/>
+		<method name="ADD_TIME_TO_WALL"/>
+		<method name="ADD_TOURNAMENT_TO_WALL"/>
+		<method name="ADD_WAVE_REACHED_TO_WALL"/>
+		<method name="ADD_WINNER_TO_WALL"/>
+		<method name="ADD_WORLD_RECORD_TO_WALL"/>
+		<method name="CLEANUP"/>
+		<method name="CREATE_STAT_TABLE"/>
+		<method name="CREATE_STAT_WALL"/>
+		<method name="GET_TOTAL_WALL_DURATION"/>
+		<method name="OVERRIDE_PAUSES"/>
+		<method name="PAUSE"/>
+		<method name="PAUSE_BEFORE_PREVIOUS_LAYOUT"/>
+		<method name="SET_CELEBRATION_GFX_TYPE"/>
+		<method name="SET_GFX_TYPE"/>
+		<method name="SET_PAUSE_DURATION"/>
+		<method name="SHOW_FLASH"/>
+		<method name="SHOW_STAT_WALL"/>
+		<method name="UNPAUSE"/>
+	</movie>
+	<movie name="mp_celebration_bg">
+		<method name="ADD_BACKGROUND_TO_WALL"/>
+		<method name="ADD_CASH_TO_WALL"/>
+		<method name="ADD_CHALLENGE_PART_TO_WALL"/>
+		<method name="ADD_CHALLENGE_SET_TO_WALL"/>
+		<method name="ADD_CHALLENGE_WINNER_TO_WALL"/>
+		<method name="ADD_CASH_WON_TO_WALL"/>
+		<method name="ADD_GAMES_WON_TO_WALL"/>
+		<method name="ADD_INTRO_TO_WALL"/>
+		<method name="ADD_JOB_POINTS_TO_WALL"/>
+		<method name="ADD_MISSION_RESULT_TO_WALL"/>
+		<method name="ADD_OBJECTIVE_TO_WALL"/>
+		<method name="ADD_POINTS_TO_WALL"/>
+		<method name="ADD_POSITION_TO_WALL"/>
+		<method name="ADD_READY_TO_WALL"/>
+		<method name="ADD_REP_POINTS_AND_RANK_BAR_TO_WALL"/>
+		<method name="ADD_SCORE_TO_WALL"/>
+		<method name="ADD_STAT_NUMERIC_TO_WALL"/>
+		<method name="ADD_STAT_TABLE_TO_WALL"/>
+		<method name="ADD_STAT_TO_TABLE"/>
+		<method name="ADD_TIME_TO_WALL"/>
+		<method name="ADD_TOURNAMENT_TO_WALL"/>
+		<method name="ADD_WAVE_REACHED_TO_WALL"/>
+		<method name="ADD_WINNER_TO_WALL"/>
+		<method name="ADD_WORLD_RECORD_TO_WALL"/>
+		<method name="CLEANUP"/>
+		<method name="CREATE_STAT_TABLE"/>
+		<method name="CREATE_STAT_WALL"/>
+		<method name="GET_TOTAL_WALL_DURATION"/>
+		<method name="OVERRIDE_PAUSES"/>
+		<method name="PAUSE"/>
+		<method name="PAUSE_BEFORE_PREVIOUS_LAYOUT"/>
+		<method name="SET_CELEBRATION_GFX_TYPE"/>
+		<method name="SET_GFX_TYPE"/>
+		<method name="SET_PAUSE_DURATION"/>
+		<method name="SHOW_FLASH"/>
+		<method name="SHOW_STAT_WALL"/>
+		<method name="UNPAUSE"/>
+	</movie>
+	<movie name="MP_MM_CARD_FREEMODE">
+		<method name="SET_TITLE"/>
+		<method name="SET_DATA_SLOT"/>
+		<method name="DISPLAY_VIEW"/>
+		<method name="SET_DATA_SLOT_EMPTY"/>
+		<method name="COLLAPSE"/>
+		<method name="DISPLAY_MIC"/>
+		<method name="SET_ICON"/>
+	</movie>
+	<movie name="SLOT_MACHINE">
+		<method name="SET_SLOT_MACHINE_TEXT"/>
+	</movie>
+	<movie name="MP_SPECTATOR_OVERLAY">
+		<method name="SHOW_TICKER"/>
+		<method name="SHOW_POSITIONS"/>
+		<method name="SET_TITLE"/>
+		<method name="ADD_FEED_TEXT"/>
+		<method name="ADD_JOB_TEXT"/>
+		<method name="SET_PLAYER_SCORE"/>
+	</movie>
+	
+	 <movie name="YOGA_KEYS">
+        <method name="ADD_BUTTON_TO_LIST"/>
+        <method name="REMOVE_BUTTONS"/>
+        <method name="DRAW_BUTTONS"/>
+        <method name="SET_HOLD_TIMER"/>
+		<method name="SET_INFO_TIMER"/>
+        <method name="BUTTON_PRESSED"/>
+        <method name="BUTTON_STATE"/>
+        <method name="BUTTON_DEPRESSED"/>
+        <method name="SET_STICK_POINTER_RGB"/>
+        <method name="SET_STICK_POINTER_ANGLE"/>
+        <method name="TOGGLE_INPUT_FILL"/>
+        <method name="SET_BUTTON_TARGET"/>
+        <method name="SET_OUT_RING_TIMER_COLOUR"/>
+        <method name="SET_OUT_RING_TIMER"/>
+		<method name="SET_PLAYER_INPUT_COLOUR"/>
+        <method name="SET_STICK_POINTER_HIGHLIGHT_ANGLE"/>
+        <method name="HIDE_STICK_POINTER"/>
+        <method name="REPLACE_STICK_WITH_KEYS"/>
+		<method name="REPLACE_KEYS_WITH_STICK"/>
+    </movie>    
+	
+	<movie name="TATTOO_KEYS">
+		<method name="ADD_BUTTON"/>
+		<method name="SET_STICK_POINTER_ANGLE"/>
+		<method name="SET_STICK_POINTER_HIGHLIGHT_ANGLE"/>
+        	<method name="HIDE_STICK_POINTER"/>
+	</movie>
+	
+	<movie name="DRILLING">
+		<method name="SET_SPEED"/>
+		<method name="SET_HOLE_DEPTH"/>
+		<method name="SET_DRILL_POSITION"/>
+        <method name="SET_TEMPERATURE"/>
+	</movie>
+
+	<movie name="MUGSHOT_BOARD_01">
+		<method name="SET_BOARD"/>
+	</movie>
+
+	<movie name="MUGSHOT_BOARD_02">
+		<method name="SET_BOARD"/>
+	</movie>
+
+	<movie name="DIGITAL_CAMERA">
+		<method name="SHOW_REMAINING_PHOTOS"/>
+		<method name="SET_REMAINING_PHOTOS"/>
+		<method name="SHOW_PHOTO_FRAME"/>
+		<method name="SHOW_FOCUS_LOCK"/>
+		<method name="OPEN_SHUTTER"/>
+		<method name="CLOSE_SHUTTER"/>
+		<method name="CLOSE_THEN_OPEN_SHUTTER"/>
+		<method name="SHOW_PHOTO_BORDER"/>
+	</movie>
+	
+</ValidMethods>
+
+<!-- eof -->

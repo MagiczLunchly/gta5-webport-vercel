@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CScriptedGunTaskMetadataMgr>
+  <ScriptedGunTaskInfos>
+    <Item type="CScriptedGunTaskInfo">
+      <Name>SCRIPTED_GUN_TASK_ON_CRATE</Name>
+      <MinAimSweepHeadingAngleDegs value="-180.000000" />
+      <MaxAimSweepHeadingAngleDegs value="180.000000" />
+      <MinAimSweepPitchAngleDegs value="-45.000000" />
+      <MaxAimSweepPitchAngleDegs value="45.000000" />
+      <fHeadingOffset value="0.000000" />
+      <ClipSet>aim_gun_on_crate</ClipSet>
+      <IdleCamera />
+      <Camera>RIFLE_PRONE_AIM_CAMERA</Camera>
+      <Flags>AllowWrapping</Flags>
+    </Item>
+    <Item type="CScriptedGunTaskInfo">
+      <Name>SCRIPTED_GUN_TASK_HANGING_UPSIDE_DOWN</Name>
+      <MinAimSweepHeadingAngleDegs value="-90.000000" />
+      <MaxAimSweepHeadingAngleDegs value="90.000000" />
+      <MinAimSweepPitchAngleDegs value="-45.000000" />
+      <MaxAimSweepPitchAngleDegs value="55.000000" />
+      <fHeadingOffset value="0.000000" />
+      <ClipSet>aim_gun_hanging_upside_down</ClipSet>
+      <IdleCamera>FOLLOW_PED_HANGING_UPSIDE_DOWN_CAMERA</IdleCamera>
+      <Camera>HANGING_UPSIDE_DOWN_AIM_CAMERA</Camera>
+      <Flags>ForcedAiming</Flags>
+    </Item>
+    <Item type="CScriptedGunTaskInfo">
+      <Name>SCRIPTED_GUN_TASK_ON_ROPE</Name>
+      <MinAimSweepHeadingAngleDegs value="-180.000000" />
+      <MaxAimSweepHeadingAngleDegs value="180.000000" />
+      <MinAimSweepPitchAngleDegs value="-20.000000" />
+      <MaxAimSweepPitchAngleDegs value="30.000000" />
+      <fHeadingOffset value="0.300000" />
+      <ClipSet>aim_gun_on_rope</ClipSet>
+      <IdleCamera>FOLLOW_PED_ATTACHED_TO_ROPE_CAMERA</IdleCamera>
+      <Camera>ATTACHED_TO_ROPE_AIM_CAMERA</Camera>
+      <Flags>UseAdditiveFiring TrackRopeOrientation ForceFireFromCamera</Flags>
+    </Item>
+    <Item type="CScriptedGunTaskInfo">
+      <Name>SCRIPTED_GUN_TASK_PRONE_BACK</Name>
+      <MinAimSweepHeadingAngleDegs value="-135.000000" />
+      <MaxAimSweepHeadingAngleDegs value="135.000000" />
+      <MinAimSweepPitchAngleDegs value="-35.000000" />
+      <MaxAimSweepPitchAngleDegs value="35.000000" />
+      <fHeadingOffset value="0.000000" />
+      <ClipSet>get_up@aim_from_ground@pistol@back</ClipSet>
+      <IdleCamera />
+      <Camera />
+      <Flags>AbortOnIdle UseAdditiveFiring</Flags>
+    </Item>
+    <Item type="CScriptedGunTaskInfo">
+      <Name>SCRIPTED_GUN_TASK_DINGY_RPG</Name>
+      <MinAimSweepHeadingAngleDegs value="-180.000000" />
+      <MaxAimSweepHeadingAngleDegs value="180.000000" />
+      <MinAimSweepPitchAngleDegs value="-15.000000" />
+      <MaxAimSweepPitchAngleDegs value="45.000000" />
+      <fHeadingOffset value="0.000000" />
+      <ClipSet>aim_rpg_dingy_rear</ClipSet>
+      <IdleCamera />
+      <Camera>EXILE_THREE_DINGHY_AIM_CAMERA</Camera>
+      <Flags>AllowWrapping</Flags>
+    </Item>
+    <Item type="CScriptedGunTaskInfo">
+      <Name>SCRIPTED_GUN_TASK_CRATE_RPG</Name>
+      <MinAimSweepHeadingAngleDegs value="-135.000000" />
+      <MaxAimSweepHeadingAngleDegs value="135.000000" />
+      <MinAimSweepPitchAngleDegs value="-45.000000" />
+      <MaxAimSweepPitchAngleDegs value="45.000000" />
+      <fHeadingOffset value="0.000000" />
+      <ClipSet>aim_rpg_on_crate</ClipSet>
+      <IdleCamera />
+      <Camera>RIFLE_PRONE_AIM_CAMERA</Camera>
+      <Flags>AllowWrapping</Flags>
+    </Item>
+    <Item type="CScriptedGunTaskInfo">
+      <Name>SCRIPTED_GUN_TASK_CRATE_BUDDY</Name>
+      <MinAimSweepHeadingAngleDegs value="-135.000000" />
+      <MaxAimSweepHeadingAngleDegs value="135.000000" />
+      <MinAimSweepPitchAngleDegs value="-45.000000" />
+      <MaxAimSweepPitchAngleDegs value="45.000000" />
+      <fHeadingOffset value="0.000000" />
+      <ClipSet>aim_gun_on_crate_buddy</ClipSet>
+      <IdleCamera />
+      <Camera>RIFLE_PRONE_AIM_CAMERA</Camera>
+      <Flags>AllowWrapping</Flags>
+    </Item>
+    <Item type="CScriptedGunTaskInfo">
+      <Name>SCRIPTED_GUN_TASK_PRONE_BACK_RIFLE</Name>
+      <MinAimSweepHeadingAngleDegs value="-135.000000" />
+      <MaxAimSweepHeadingAngleDegs value="135.000000" />
+      <MinAimSweepPitchAngleDegs value="-35.000000" />
+      <MaxAimSweepPitchAngleDegs value="35.000000" />
+      <fHeadingOffset value="0.000000" />
+      <ClipSet>get_up@aim_from_ground@rifle@back</ClipSet>
+      <IdleCamera />
+      <Camera />
+      <Flags>AbortOnIdle UseAdditiveFiring</Flags>
+    </Item>
+    <Item type="CScriptedGunTaskInfo">
+      <Name>SCRIPTED_GUN_TASK_PLANE_WING</Name>
+      <MinAimSweepHeadingAngleDegs value="-180.000000" />
+      <MaxAimSweepHeadingAngleDegs value="180.000000" />
+      <MinAimSweepPitchAngleDegs value="-30.000000" />
+      <MaxAimSweepPitchAngleDegs value="25.000000" />
+      <fHeadingOffset value="0.000000" />
+      <ClipSet>aim_gun_on_wing</ClipSet>
+      <IdleCamera>FOLLOW_PED_PRONE_CAMERA</IdleCamera>
+      <Camera>RIFLE_PRONE_AIM_CAMERA</Camera>
+      <Flags>AllowWrapping UseDirectionalBreatheAdditives</Flags>
+    </Item>
+    <Item type="CScriptedGunTaskInfo">
+      <Name>SCRIPTED_GUN_TASK_WRITHE</Name>
+      <MinAimSweepHeadingAngleDegs value="-135.000000" />
+      <MaxAimSweepHeadingAngleDegs value="135.000000" />
+      <MinAimSweepPitchAngleDegs value="-35.000000" />
+      <MaxAimSweepPitchAngleDegs value="35.000000" />
+      <fHeadingOffset value="0.000000" />
+      <ClipSet>get_up@aim_from_ground@pistol@back</ClipSet>
+      <IdleCamera />
+      <Camera />
+      <Flags>AbortOnIdle UseAdditiveFiring</Flags>
+    </Item>
+    <Item type="CScriptedGunTaskInfo">
+      <Name>SCRIPTED_GUN_TASK_BIKE</Name>
+      <MinAimSweepHeadingAngleDegs value="-180.000000" />
+      <MaxAimSweepHeadingAngleDegs value="180.000000" />
+      <MinAimSweepPitchAngleDegs value="-45.000000" />
+      <MaxAimSweepPitchAngleDegs value="45.000000" />
+      <fHeadingOffset value="0.000000" />
+      <ClipSet>aim_camera_on_bike</ClipSet>
+      <IdleCamera />
+      <Camera />
+      <Flags>AbortOnIdle UseAdditiveFiring</Flags>
+    </Item>
+  </ScriptedGunTaskInfos>
+</CScriptedGunTaskMetadataMgr>

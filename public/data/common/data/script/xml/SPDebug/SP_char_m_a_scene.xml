@@ -1,0 +1,36 @@
+<?xml version='1.0'?>
+<DebugMenuItems>
+	<!-- michael PART A -->
+	<scriptItem title="PRM_DEFAULT" 		highlight="TRUE" info="PSM_INFO_00" author="SI_AR" codeID="SPCID_PRM_DEFAULT" displayID="SPDID_PRM_DEFAULT"/>
+	<breakItem displayID="SPDID_PRM_DEFAULT"/>
+	
+	<scriptItem title="PRM_MD_FBI2" 		highlight="TRUE" info="PSM_INFO_02" author="SI_AR" codeID="SPCID_PRM_MD_FBI2" />
+	
+	<scriptItem title="PRM_S_FAMILY4"		info="PSM_INFO_25" author="SI_AR" codeID="SPCID_PRM_S_FAMILY4" />
+	<breakItem/>
+	
+<!--	<scriptItem title="PRM_BAR_a"					 		info="PSM_INFO_20a" author="SI_AR" codeID="SPCID_PRM_BAR_a" /> -->
+<!--	<scriptItem title="PRM_BAR_b"					 		info="PSM_INFO_20b" author="SI_AR" codeID="SPCID_PRM_BAR_b" /> -->
+	<scriptItem title="PRM_BENCHCALL_a"				 		info="PSM_INFO_12a" author="SI_AR" codeID="SPCID_PRM_BENCHCALL_a" />
+	<scriptItem title="PRM_BENCHCALL_b"				 		info="PSM_INFO_12b" author="SI_AR" codeID="SPCID_PRM_BENCHCALL_b" />
+	<scriptItem title="PRM_CANAL_a"				 			info="PSM_INFO_6a" author="SI_AR" codeID="SPCID_PRM_CANAL_a" />
+	<scriptItem title="PRM_CANAL_b"				 			info="PSM_INFO_6b" author="SI_AR" codeID="SPCID_PRM_CANAL_b" />
+	<scriptItem title="PRM_CANAL_c"				 			info="PSM_INFO_6c" author="SI_AR" codeID="SPCID_PRM_CANAL_c" />
+	<missionItem percentage="80" title="PRM_COFFEE_a"		info="PSM_INFO_17a" author="SI_AR" codeID="SPCID_PRM_COFFEE_a" />
+	<scriptItem title="PRM_COFFEE_b"				 		info="PSM_INFO_17b" author="SI_AR" codeID="SPCID_PRM_COFFEE_b" />
+	<scriptItem title="PRM_COFFEE_c"				 		info="PSM_INFO_17c" author="SI_AR" codeID="SPCID_PRM_COFFEE_c" />
+<!--	<scriptItem title="PRM_HOOKERCAR"				 		highlight="TRUE" info="PSM_INFO_27" author="SI_AR" codeID="SPCID_PRM_HOOKERCAR" /> -->
+	<scriptItem title="PRM_HOOKERMOTEL"				 		highlight="TRUE" info="PSM_INFO_26" author="SI_AR" codeID="SPCID_PRM_HOOKERMOTEL" />
+	<scriptItem title="PRM_PARKEDHILLS_a"			 		info="PSM_INFO_14a" author="SI_AR" codeID="SPCID_PRM_PARKEDHILLS_a" />
+	<scriptItem title="PRM_PARKEDHILLS_b"			 		info="PSM_INFO_14b" author="SI_AR" codeID="SPCID_PRM_PARKEDHILLS_b" />
+	<scriptItem title="PRM_PIER_a"				 			info="PSM_INFO_9a" author="SI_AR" codeID="SPCID_PRM_PIER_a" />
+	<scriptItem title="PRM_PIER_b" 			 				info="PSM_INFO_9b" author="SI_AR" codeID="SPCID_PRM_PIER_b" />
+	<scriptItem title="PRM_POOLSIDE_a" 		 		 		info="PSM_INFO_5a" author="SI_AR" codeID="SPCID_PRM_POOLSIDE_a" />
+	<scriptItem title="PRM_POOLSIDE_b" 		 		 		info="PSM_INFO_5b" author="SI_AR" codeID="SPCID_PRM_POOLSIDE_b" />
+	<missionItem percentage="00" title="PRM_TRAFFIC_a" 		info="PSM_INFO_10a" author="SI_AR" codeID="SPCID_PRM_TRAFFIC_a" />
+	<scriptItem title="PRM_TRAFFIC_b" 		 		 		info="PSM_INFO_10b" author="SI_AR" codeID="SPCID_PRM_TRAFFIC_b" />
+	<scriptItem title="PRM_TRAFFIC_c" 		 		 		info="PSM_INFO_10c" author="SI_AR" codeID="SPCID_PRM_TRAFFIC_c" />
+	<scriptItem title="PRM_VWOODPARK_a" 		 		 	info="PSM_INFO_11a" author="SI_AR" codeID="SPCID_PRM_VWOODPARK_a" />
+	<scriptItem title="PRM_VWOODPARK_b" 		 		 	info="PSM_INFO_11b" author="SI_AR" codeID="SPCID_PRM_VWOODPARK_b" />
+	
+</DebugMenuItems>

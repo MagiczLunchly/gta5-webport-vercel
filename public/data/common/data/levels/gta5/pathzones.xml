@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CPathZoneData>
+	<PathZones>
+		<Entries>
+			<Item>
+				<vMin x="1500.0" y="-8192.0" />
+				<vMax x="8192.0" y="-3600.0" />
+				<ZoneKey value="0" />
+			</Item>
+			<Item>
+				<vMin x="-8192.0" y="2500.0" />
+				<vMax x="0.0" y="8192.0" />
+				<ZoneKey value="1" />
+			</Item>
+			<Item>
+				<vMin x="0.0" y="2500.0" />
+				<vMax x="4200.0" y="8291.0" />
+				<ZoneKey value="2" />
+			</Item>
+			<Item>
+				<vMin x="-8192.0" y="-3600.0" />
+				<vMax x="4200.0" y="2500.0" />
+				<ZoneKey value="3" />
+			</Item>
+		</Entries>
+	</PathZones>
+	<PathZoneMappings>
+		<Entries>
+			<Item>
+				<vDestination x="4000.0" y="-5000.0" z="0.0" />
+				<SrcKey value="0" />
+				<DestKey value="0" />
+				<LoadEntireExtents value="false" />
+			</Item>
+			<Item>
+				<vDestination x="-3003.9" y="1478.9" z="27.1" />
+				<SrcKey value="1" />
+				<DestKey value="3" />
+				<LoadEntireExtents value="false" />
+			</Item>
+			<Item>
+				<vDestination x="1130.0" y="6479.6" z="20.7" />
+				<SrcKey value="1" />
+				<DestKey value="2" />
+				<LoadEntireExtents value="true" />
+			</Item>
+			<Item>
+				<vDestination x="-53.3" y="6332.7" z="30.5" />
+				<SrcKey value="2" />
+				<DestKey value="1" />
+				<LoadEntireExtents value="true" />
+			</Item>
+			<Item>
+				<vDestination x="1647.1" y="1232.5" z="84.8" />
+				<SrcKey value="2" />
+				<DestKey value="3" />
+				<LoadEntireExtents value="false" />
+			</Item>
+			<Item>
+				<vDestination x="-2625.57" y="2834.59" z="16.1" />
+				<SrcKey value="3" />
+				<DestKey value="1" />
+				<LoadEntireExtents value="false" />
+			</Item>
+			<Item>
+				<vDestination x="2047.3" y="2600.6" z="53.1" />
+				<SrcKey value="3" />
+				<DestKey value="2" />
+				<LoadEntireExtents value="false" />
+			</Item>
+		</Entries>
+	</PathZoneMappings>
+</CPathZoneData>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 2x2 -->
+<rage__bgCrackType>
+	<crackArray>
+    <item>
+      <cracks>HiRes_shatter.txt</cracks>
+      <textureVars>
+        <item>
+          <varName>DecalTex</varName>
+          <textureName>HiResDecal</textureName>
+        </item>
+      </textureVars>
+    </item>
+  </crackArray>
+  <initialImpactKillRadius1 value="1.0"/>
+  <initialImpactKillRadius2 value="1.0"/>
+  <subsequentImpactKillRadiusMin value="1"/>
+  <subsequentImpactKillRadiusMax value="1"/>
+  <decalRadiusImpactShowValueMin value="0.1325"/>
+  <decalRadiusImpactShowValueMax value="0.1325"/>
+  <crackRadiusImpactShowValueMin value="0.1325"/>
+  <crackRadiusImpactShowValueMax value="0.1325"/>
+  <breakPieceSizeMin value="0.00013"/>
+  <breakPieceSizeMax value="0.00013"/>
+  <crackInBetweenPiecesSizeMax value="0.0005"/>
+  <bevelSizeMax value="0.001"/>
+  <minThickness value="0.0125"/>
+  <decalTextureScaleMin value="1.50"/>
+  <decalTextureScaleMax value="2.50"/>
+  <decalTextureChannel>green</decalTextureChannel>
+  <crackMapRotationType>0_to_360</crackMapRotationType>
+  <enableSequentialHit value="false"/>
+  <crackMapScalingType>automatic</crackMapScalingType>
+</rage__bgCrackType>

@@ -1,0 +1,46 @@
+//
+// file: pedgrp.dat
+// description: contains the list of peds for each group type. Please dont use 'male01' in any of the popgroups.
+//
+//
+POP_GROUP:
+GROUP_A
+empty
+END_POP_GROUP
+
+POP_GROUP:
+VEH_BOATS
+empty
+END_POP_GROUP
+
+POP_GROUP:
+VEH_BORING
+empty
+END_POP_GROUP
+
+// These peds will only appear in the zones that they belong in.
+POP_GROUP:
+NATIVE_ZON_ONLY
+empty
+END_POP_GROUP
+
+POP_GROUP:
+COPS keepMemberOrder
+empty
+END_POP_GROUP
+
+POP_GROUP:
+NET_COMMON keepMemberOrder
+A_M_Y_GenAsian01	
+A_M_Y_GenBlack01	
+A_F_O_GenWhite01	
+A_F_Y_GenAsian01
+END_POP_GROUP
+
+POP_GROUP:
+NET_UNCOMMON keepMemberOrder
+S_F_Y_Hooker_01
+A_F_M_Business01	
+A_F_Y_ShopAssLo_01
+A_F_Y_ShopAssHi_01
+END_POP_GROUP

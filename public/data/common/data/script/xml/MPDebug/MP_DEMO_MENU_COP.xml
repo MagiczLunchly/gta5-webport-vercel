@@ -1,0 +1,7 @@
+<?xml version='1.0'?>
+<DebugMenuItems>
+	<!--<missionItem missionID="MP9"	title="Bomb Disposal" file="AM_CP_BombDisposal.sc" author="CS"	info="CNC_MD_BOMB" extrainfo="DM_MP_COP1" rank="2"/>-->
+	<missionItem missionID="MP9"	title="Bomb Disposal" file="AM_CP_BombDisposal.sc" author="CS"	info="CNC_MD_BOMB" extrainfo="DM_MP_COP1" rank="2" enableID="MPEID_COP_ONLY"/>
+	<missionItem missionID="MP5"	title="Delivery" codeID="MPCID_DELIVERY" author="CM" info="CNC_MD_DELIV" extrainfo="DM_MP_COP1" rank="1" enableID="MPEID_COP_ONLY"/>
+	<missionItem missionID="MP44" title="Tow Truck" codeID="MPCID_TOWTRK" author="CM"	info="CNC_MD_TOWTRK"  extrainfo="DM_MP_COP1" rank="6" enableID="MPEID_COP_ONLY"/>
+</DebugMenuItems>

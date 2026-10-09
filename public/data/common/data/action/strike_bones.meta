@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CStrikeBoneSetContainer>
+  <aStrikeBoneSets>
+    <Item type="CStrikeBoneSet">
+      <Name>SB_left_arm</Name>
+      <aStrikeBones>
+        <Item type="CStrikeBone">
+          <StrikeBoneTag>BONETAG_L_HAND</StrikeBoneTag>
+          <Radius value="0.075000" />
+        </Item>
+        <Item type="CStrikeBone">
+          <StrikeBoneTag>BONETAG_L_FOREARM</StrikeBoneTag>
+          <Radius value="0.075000" />
+        </Item>
+      </aStrikeBones>
+    </Item>
+    <Item type="CStrikeBoneSet">
+      <Name>SB_left_arm_large</Name>
+      <aStrikeBones>
+        <Item type="CStrikeBone">
+          <StrikeBoneTag>BONETAG_L_HAND</StrikeBoneTag>
+          <Radius value="0.115000" />
+        </Item>
+        <Item type="CStrikeBone">
+          <StrikeBoneTag>BONETAG_L_FOREARM</StrikeBoneTag>
+          <Radius value="0.115000" />
+        </Item>
+      </aStrikeBones>
+    </Item>
+    <Item type="CStrikeBoneSet">
+      <Name>SB_right_arm</Name>
+      <aStrikeBones>
+        <Item type="CStrikeBone">
+          <StrikeBoneTag>BONETAG_R_HAND</StrikeBoneTag>
+          <Radius value="0.075000" />
+        </Item>
+        <Item type="CStrikeBone">
+          <StrikeBoneTag>BONETAG_R_FOREARM</StrikeBoneTag>
+          <Radius value="0.075000" />
+        </Item>
+      </aStrikeBones>
+    </Item>
+    <Item type="CStrikeBoneSet">
+      <Name>SB_right_arm_large</Name>
+      <aStrikeBones>
+        <Item type="CStrikeBone">
+          <StrikeBoneTag>BONETAG_R_HAND</StrikeBoneTag>
+          <Radius value="0.115000" />
+        </Item>
+        <Item type="CStrikeBone">
+          <StrikeBoneTag>BONETAG_R_FOREARM</StrikeBoneTag>
+          <Radius value="0.115000" />
+        </Item>
+      </aStrikeBones>
+    </Item>
+	<Item type="CStrikeBoneSet">
+      <Name>SB_right_arm_very_large</Name>
+      <aStrikeBones>
+        <Item type="CStrikeBone">
+          <StrikeBoneTag>BONETAG_R_HAND</StrikeBoneTag>
+          <Radius value="0.25000" />
+        </Item>
+        <Item type="CStrikeBone">
+          <StrikeBoneTag>BONETAG_R_FOREARM</StrikeBoneTag>
+          <Radius value="0.25000" />
+        </Item>
+		 <Item type="CStrikeBone">
+          <StrikeBoneTag>BONETAG_R_UPPERARM</StrikeBoneTag>
+          <Radius value="0.250000" />
+        </Item>
+      </aStrikeBones>
+    </Item>
+    <Item type="CStrikeBoneSet">
+      <Name>SB_right_elbow</Name>
+      <aStrikeBones>
+        <Item type="CStrikeBone">
+          <StrikeBoneTag>BONETAG_R_FOREARM</StrikeBoneTag>
+          <Radius value="0.075000" />
+        </Item>
+        <Item type="CStrikeBone">
+          <StrikeBoneTag>BONETAG_R_UPPERARM</StrikeBoneTag>
+          <Radius value="0.075000" />
+        </Item>
+      </aStrikeBones>
+    </Item>
+    <Item type="CStrikeBoneSet">
+      <Name>SB_right_arm_weapon</Name>
+      <aStrikeBones>
+        <Item type="CStrikeBone">
+          <StrikeBoneTag>BONETAG_R_HAND</StrikeBoneTag>
+          <Radius value="0.250000" />
+        </Item>
+      </aStrikeBones>
+    </Item>
+    <Item type="CStrikeBoneSet">
+      <Name>SB_right_arm_melee_weapon</Name>
+      <aStrikeBones>
+        <Item type="CStrikeBone">
+          <StrikeBoneTag>BONETAG_R_HAND</StrikeBoneTag>
+          <Radius value="0.200000" />
+        </Item>
+      </aStrikeBones>
+    </Item>
+    <Item type="CStrikeBoneSet">
+      <Name>SB_right_arm_swimming_knife</Name>
+      <aStrikeBones>
+        <Item type="CStrikeBone">
+          <StrikeBoneTag>BONETAG_R_HAND</StrikeBoneTag>
+          <Radius value="0.400000" />
+        </Item>
+      </aStrikeBones>
+    </Item>
+    <Item type="CStrikeBoneSet">
+      <Name>SB_right_leg</Name>
+      <aStrikeBones>
+        <Item type="CStrikeBone">
+          <StrikeBoneTag>BONETAG_R_FOOT</StrikeBoneTag>
+          <Radius value="0.115000" />
+        </Item>
+        <Item type="CStrikeBone">
+          <StrikeBoneTag>BONETAG_R_CALF</StrikeBoneTag>
+          <Radius value="0.075000" />
+        </Item>
+      </aStrikeBones>
+    </Item>
+    <Item type="CStrikeBoneSet">
+      <Name>SB_left_leg</Name>
+      <aStrikeBones>
+        <Item type="CStrikeBone">
+          <StrikeBoneTag>BONETAG_L_FOOT</StrikeBoneTag>
+          <Radius value="0.115000" />
+        </Item>
+        <Item type="CStrikeBone">
+          <StrikeBoneTag>BONETAG_L_CALF</StrikeBoneTag>
+          <Radius value="0.075000" />
+        </Item>
+      </aStrikeBones>
+    </Item>
+    <Item type="CStrikeBoneSet">
+      <Name>SB_animal_paws</Name>
+      <aStrikeBones>
+        <Item type="CStrikeBone">
+          <StrikeBoneTag>BONETAG_L_HAND</StrikeBoneTag>
+          <Radius value="0.200000" />
+        </Item>
+        <Item type="CStrikeBone">
+          <StrikeBoneTag>BONETAG_R_HAND</StrikeBoneTag>
+          <Radius value="0.200000" />
+        </Item>
+      </aStrikeBones>
+    </Item>
+    <Item type="CStrikeBoneSet">
+      <Name>SB_deer_paws</Name>
+      <aStrikeBones>
+        <Item type="CStrikeBone">
+          <StrikeBoneTag>BONETAG_L_HAND</StrikeBoneTag>
+          <Radius value="0.300000" />
+        </Item>
+        <Item type="CStrikeBone">
+          <StrikeBoneTag>BONETAG_R_HAND</StrikeBoneTag>
+          <Radius value="0.300000" />
+        </Item>
+      </aStrikeBones>
+    </Item>
+    <Item type="CStrikeBoneSet">
+      <Name>SB_cougar_paws</Name>
+      <aStrikeBones>
+        <Item type="CStrikeBone">
+          <StrikeBoneTag>BONETAG_L_HAND</StrikeBoneTag>
+          <Radius value="0.300000" />
+        </Item>
+        <Item type="CStrikeBone">
+          <StrikeBoneTag>BONETAG_R_HAND</StrikeBoneTag>
+          <Radius value="0.300000" />
+        </Item>
+      </aStrikeBones>
+    </Item>
+    <Item type="CStrikeBoneSet">
+      <Name>SB_animal_head</Name>
+      <aStrikeBones>
+        <Item type="CStrikeBone">
+          <StrikeBoneTag>BONETAG_HEAD</StrikeBoneTag>
+          <Radius value="0.200000" />
+        </Item>
+      </aStrikeBones>
+    </Item>
+    <Item type="CStrikeBoneSet">
+      <Name>SB_shark_head</Name>
+      <aStrikeBones>
+        <Item type="CStrikeBone">
+          <StrikeBoneTag>BONETAG_HEAD</StrikeBoneTag>
+          <Radius value="0.400000" />
+        </Item>
+      </aStrikeBones>
+    </Item>
+    <Item type="CStrikeBoneSet">
+      <Name>SB_boar_head</Name>
+      <aStrikeBones>
+        <Item type="CStrikeBone">
+          <StrikeBoneTag>BONETAG_NECK2</StrikeBoneTag>
+          <Radius value="0.500000" />
+        </Item>
+      </aStrikeBones>
+    </Item>
+  </aStrikeBoneSets>
+</CStrikeBoneSetContainer>

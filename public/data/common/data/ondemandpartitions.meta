@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rage__fiDeviceInstaller__InitDataList>
+	<initDatas>
+		<Item>
+			<sourceFile>part0.rpf</sourceFile>
+			<partitionName>part0</partitionName>
+			<partitionDesc>Partition 0</partitionDesc>
+			<mount>platform:/</mount>
+			<readOnly value="true"/>
+		</Item>
+		<item>
+			<sourceFile>part1.rpf</sourceFile>
+			<partitionName>part1</partitionName>
+			<partitionDesc>partition 1</partitionDesc>
+			<mount>platform:/</mount>
+			<readOnly value="true"/>
+		</item>
+		<item>
+			<sourceFile>part2.rpf</sourceFile>
+			<partitionName>part2</partitionName>
+			<partitionDesc>partition 2</partitionDesc>
+			<mount>platform:/</mount>
+			<readOnly value="true"/>
+		</item>
+		<item>
+			<sourceFile>part3.rpf</sourceFile>
+			<partitionName>part3</partitionName>
+			<partitionDesc>partition 3</partitionDesc>
+			<mount>platform:/</mount>
+			<readOnly value="true"/>
+		</item>
+	</initDatas>
+</rage__fiDeviceInstaller__InitDataList>
+
+

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CLadderMetadataManager>
+  <LadderData>
+    <Item>
+      <Name>DEFAULT</Name>
+      <ClipSet>ANIM_GROUP_LADDERS</ClipSet>
+      <RungSpacing value="0.250000" />
+      <Width value="0.600000" />
+      <CanSlide value="true" />
+      <CanMountBehind value="true" />
+    </Item>
+    <Item>
+      <Name>DEFAULT_NOSLIDE</Name>
+      <ClipSet>ANIM_GROUP_LADDERS</ClipSet>
+      <RungSpacing value="0.250000" />
+      <Width value="0.600000" />
+      <CanSlide value="false" />
+      <CanMountBehind value="true" />
+    </Item>
+    <Item>
+      <Name>DEFAULT_NOBEHIND</Name>
+      <ClipSet>ANIM_GROUP_LADDERS</ClipSet>
+      <RungSpacing value="0.250000" />
+      <Width value="0.600000" />
+      <CanSlide value="true" />
+      <CanMountBehind value="false" />
+    </Item>
+  </LadderData>
+</CLadderMetadataManager>

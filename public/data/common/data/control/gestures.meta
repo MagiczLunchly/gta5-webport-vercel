@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rage__ControlInput__ControlSettings>
+    <Mappings>
+		<Item>
+			<Input>INPUT_NEXT_CAMERA</Input>
+			<Source>IOMS_PAD_DIGITALBUTTON</Source>
+			<Parameters>
+				<Item>TOUCH</Item>
+			</Parameters>
+		</Item>
+	
+		<Item>
+			<Input>INPUT_INTERACTION_MENU</Input>
+			<Source>IOMS_PAD_DIGITALBUTTON</Source>
+			<Parameters>
+				<Item>TOUCH</Item>
+			</Parameters>
+		</Item>
+		
+		<Item>
+			<Input>INPUT_CURSOR_Y</Input>
+			<Source>IOMS_TOUCHPAD_ABSOLUTE_AXIS</Source>
+			<Parameters>
+				<Item>IOM_AXIS_Y</Item>
+			</Parameters>
+		</Item>
+		<Item>
+			<Input>INPUT_CURSOR_X</Input>
+			<Source>IOMS_TOUCHPAD_ABSOLUTE_AXIS</Source>
+			<Parameters>
+				<Item>IOM_AXIS_X</Item>
+			</Parameters>
+		</Item>
+		<Item>
+			<Input>INPUT_CURSOR_ACCEPT</Input>
+			<Source>IOMS_PAD_DIGITALBUTTON</Source>
+			<Parameters>
+				<Item>TOUCH</Item>
+			</Parameters>
+		</Item>
+		
+		<Item>
+			<Input>INPUT_WEAPON_WHEEL_UD</Input>
+			<Source>IOMS_TOUCHPAD_CENTERED_AXIS</Source>
+			<Parameters>
+				<Item>IOM_AXIS_Y</Item>
+			</Parameters>
+		</Item>
+		<Item>
+			<Input>INPUT_WEAPON_WHEEL_LR</Input>
+			<Source>IOMS_TOUCHPAD_CENTERED_AXIS</Source>
+			<Parameters>
+				<Item>IOM_AXIS_X</Item>
+			</Parameters>
+		</Item>
+		
+		
+		<Item>
+			<Input>INPUT_FRONTEND_SELECT</Input>
+			<Source>IOMS_PAD_DIGITALBUTTON</Source>
+			<Parameters>
+				<Item>TOUCH</Item>
+			</Parameters>
+		</Item>
+		
+    </Mappings>
+</rage__ControlInput__ControlSettings>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<WaterData>
+  <WaterQuads>
+    <Item>
+      <minX value="-380" />
+      <maxX value="-140" />
+      <minY value="-66" />
+      <maxY value="162" />
+      <Type value="0" />
+      <IsInvisible value="false" />
+      <HasLimitedDepth value="false" />
+      <z value="1.0" />
+      <a1 value="212" />
+      <a2 value="255" />
+      <a3 value="88" />
+      <a4 value="160" />
+    </Item>
+    <Item>
+      <minX value="232" />
+      <maxX value="316" />
+      <minY value="239" />
+      <maxY value="319" />
+      <Type value="0" />
+      <IsInvisible value="false" />
+      <HasLimitedDepth value="false" />
+      <z value="1.0" />
+      <a1 value="212" />
+      <a2 value="255" />
+      <a3 value="88" />
+      <a4 value="160" />
+    </Item>
+  </WaterQuads>
+  <CalmingQuads>
+    <Item>
+      <minX value="-380" />
+      <maxX value="-140" />
+      <minY value="-66" />
+      <maxY value="162" />
+      <fDampening value="0.05" />
+    </Item>
+    <Item>
+      <minX value="232" />
+      <maxX value="316" />
+      <minY value="239" />
+      <maxY value="319" />
+      <fDampening value="0.05" />
+    </Item>
+  </CalmingQuads>
+  <WaveQuads>
+    <Item>
+      <minX value="-380" />
+      <maxX value="-140" />
+      <minY value="-66" />
+      <maxY value="162" />
+      <Amplitude value="0.5" />
+      <XDirection value="-0.603208" />
+      <YDirection value="-0.797584" />
+    </Item>
+    <Item>
+      <minX value="232" />
+      <maxX value="316" />
+      <minY value="239" />
+      <maxY value="319" />
+      <Amplitude value="0.5" />
+      <XDirection value="-0.6" />
+      <YDirection value="-0.7" />
+    </Item>
+  </WaveQuads>
+</WaterData>

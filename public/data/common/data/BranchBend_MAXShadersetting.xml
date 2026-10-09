@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CCustomShaderEffectTree__BRANCH_BEND_AND_TRI_WAVE_MICRO_MOVEMENTS_LOCALS>
+  <PivotHeight value="3.150000" />
+  <TrunkStiffnessAdjustLow value="2.000000" />
+  <TrunkStiffnessAdjustHigh value="9.060000" />
+  <PhaseStiffnessAdjustLow value="3.000000" />
+  <PhaseStiffnessAdjustHigh value="15.000000" />
+  <BasisWaves>
+    <Item>
+      <lowWind>
+        <freqAndAmp x="0.053000" y="0.020000" />
+      </lowWind>
+      <highWind>
+        <freqAndAmp x="0.043000" y="0.110000" />
+      </highWind>
+    </Item>
+    <Item>
+      <lowWind>
+        <freqAndAmp x="0.046000" y="0.019000" />
+      </lowWind>
+      <highWind>
+        <freqAndAmp x="0.028000" y="0.048000" />
+      </highWind>
+    </Item>
+    <Item>
+      <lowWind>
+        <freqAndAmp x="0.079000" y="0.012000" />
+      </lowWind>
+      <highWind>
+        <freqAndAmp x="0.010000" y="0.029000" />
+      </highWind>
+    </Item>
+  </BasisWaves>
+</CCustomShaderEffectTree__BRANCH_BEND_AND_TRI_WAVE_MICRO_MOVEMENTS_LOCALS>

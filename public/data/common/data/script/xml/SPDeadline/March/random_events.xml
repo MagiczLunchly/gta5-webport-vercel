@@ -1,0 +1,190 @@
+<?xml version='1.0'?>
+<DebugMenuItems>
+
+	<!-- March Random Events -->
+	
+	<warpItem missionID="RE66" title="Countryside Gang Fight" file="re_gangfight.sc" author="SI_TSS" percentage="0" highlight="FALSE" 
+	x="1153.7574" y="3627.1550" z="32.8333" heading="89.6296"
+	x1="800.4419" y1="3528.8171" z1="33.2163" heading1="275.0445"
+	codeID="SPCID_RANDOM_EVENT" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE8A" title="Abandoned Vehicle Attack 1"	file="re_abandonedcar.sc"	author="SI_KW"	percentage="0"	highlight="FALSE" character="CHAR_FRANKLIN"
+	x="1578.3907" y="3105.4678" z="39.9703" heading="114.7514"
+	info="DM_INFO_A51"	codeID="SPCID_RANDOM_EVENT" hour="22"vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE14A" title="Construction accident1"	file="re_accident.sc"	author="SI_CF"	percentage="0"	highlight="FALSE"	
+	x="-582.6345" y="-962.0540" z="21.7314" heading="269.8936"
+	x1="-509.1255" y1="-868.7087" z1="28.4342" heading1="172.6552"
+	info="DM_INFO_A44"	codeID="SPCID_RANDOM_EVENT" hour="19" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE1A" title="Arrests1"	file="re_arrests.sc"	author="SI_CF"	percentage="0"	highlight="FALSE"
+	x="2379.9473" y="4867.1768" z="40.0002" heading="322.6556"
+	x1="2501.9187" y1="4920.0791" z1="39.4974" heading1="37.6335"
+	info="DM_INFO_A01"	codeID="SPCID_RANDOM_EVENT" vehicleWarp="TRUE"/>
+
+	<warpItem missionID="RE1B" title="Arrests2"	file="re_arrests.sc"	author="SI_ChM"	percentage="0"	highlight="FALSE"	
+	x="2614.9180" y="2473.9182" z="25.7142" heading="2.9804"
+	x1="2569.4063" y1="2619.1169" z1="35.8747" heading1="200.1235"
+	info="DM_INFO_A01"	codeID="SPCID_RANDOM_EVENT" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE3A" title="Bike Thief (City) 1"  file="re_bikethief"   author="SI_KW"	percentage="0"	highlight="FALSE" 
+	x="363.3952" y="-1968.3660" z="23.4228" heading="289.1453"
+	x1="477.3195" y1="-1912.0701" z1="24.0756" heading1="117.5877"  
+	info="DM_INFO_A75" codeID="SPCID_RANDOM_EVENT" vehicleWarp="TRUE" />
+	
+	<warpItem missionID="RE3B" title="Bike Thief (City) 2"  file="re_bikethief"   author="SI_KW"	percentage="0"	highlight="FALSE" 
+	x="720.0248" y="-142.0129" z="73.7672" heading="239.1590" 
+	x1="812.68" y1="-200.43" z1="71.85" heading1="45.82" 
+	info="DM_INFO_A75" codeID="SPCID_RANDOM_EVENT" vehicleWarp="TRUE" />
+	
+	<warpItem missionID="RE6" title="Burial"   file="re_burials"   author="SI_VE"	percentage="0"	 highlight="FALSE"  
+	x="0.7094" y="6731.1812" z="19.7074" heading="313.2816"
+	x1="296.5550" y1="6738.3276" z1="14.2897" heading1="74.9337"
+	info="DM_INFO_A13"  codeID="SPCID_RANDOM_EVENT" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE11A" title="Car Thief 1"	file="re_carTheft.sc" 	author="SI_BC"	percentage="0"	highlight="FALSE"	
+	x="-2210.8381" y="4357.5283" z="50.8314" heading="161.5587"
+	x1="-2284.2075" y1="4186.5552" z1="39.2614" heading1="327.4470"	
+	info="DM_INFO_A39" codeID="SPCID_RANDOM_EVENT" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE11B" title="Car Thief 2"	file="re_carTheft.sc" 	author="SI_BC"	percentage="0"	highlight="FALSE"	
+	x="-535.8928" y="-2105.2729" z="7.6405" heading="222.6958"
+	info="DM_INFO_A39" codeID="SPCID_RANDOM_EVENT" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE18" title="Crash Rescue"	file="re_crashrescue.sc" 	author="SI_CF"	percentage="0"	highlight="FALSE" 
+	x="2117.8982" y="6027.9077" z="50.1397" heading="235.0490" 
+	x1="2367.8342" y1="5776.1211" z1="45.0993" heading1="31.9105" 
+	info="DM_INFO_A71" codeID="SPCID_RANDOM_EVENT" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE20" title="Cult Shootout"	file="re_cultshootout.sc" 	author="SI_CF"	percentage="0"	highlight="FALSE"	
+	x="2289.3049" y="5534.3633" z="50.0388" heading="71.8174"
+	info="DM_INFO_A73" codeID="SPCID_RANDOM_EVENT" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE4A" title="Dirt Bike Thief (Country) 1"  file="re_bikethief"   author="SI_KW"	percentage="0"	highlight="FALSE" 
+	x="-1910.5306" y="198.1735" z="83.3273" heading="35.8891" 
+	x1="-1967.1068" y1="320.2729" z1="88.6039" heading1="190.3940"
+	info="DM_INFO_A75" codeID="SPCID_RANDOM_EVENT"vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE22" title="Domestic"  file="re_domestic"   author="SI_VE"	percentage="0"	highlight="FALSE"  
+	x="-398.0299" y="534.5197" z="121.2284" heading="54.4887"
+	info="DM_INFO_A14" codeID="SPCID_RANDOM_EVENT" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE24A" title="Drunk Driver1" file="re_drunkdriver.sc"   author="SI_VE"	percentage="0"	highlight="FALSE"     
+	x="-1085.4520" y="-1421.9751" z="4.0397" heading="352.4845"
+	x1="-1023.6124" y1="-1262.2498" z1="5.2487" heading1="122.3251"
+	info="DM_INFO_A30" codeID="SPCID_RANDOM_EVENT" vehicleWarp="TRUE"/>
+
+	<warpItem missionID="RE24B" title="Drunk Driver2" file="re_drunkdriver.sc"   author="SI_VE"	percentage="0"	highlight="FALSE" 
+	x="2100.8633" y="3053.6133" z="44.7125" heading="67.2858"
+	x1="1943.8237" y1="3142.0540" z1="45.8179" heading1="231.1358"
+	x2="1928.3381" y2="3009.2200" z2="44.6643" heading2="10.1545"
+	info="DM_INFO_A30" codeID="SPCID_RANDOM_EVENT" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE25" title="Escape Paparazzi" file="re_paparazzi.sc"   author="SI_VE"	percentage="0"	highlight="FALSE" character="CHAR_FRANKLIN" 
+	x="-13.9211" y="-1458.1957" z="29.4705" heading="98.9496"
+	x1="-39.5700" y1="-1515.8049" z1="29.6766" heading1="49.7612"
+	info="DM_INFO_A66" codeID="SPCID_RANDOM_EVENT" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE32A" title="Homeland Security1" file="re_Homeland_Security.sc" author="SI_BC" percentage="0" highlight="FALSE" character="CHAR_TREVOR"
+	x="505.5970" y="-1421.5551" z="28.2171" heading="85.0174"
+	x1="330.4083" y1="-1343.3137" z1="31.4103" heading1="320.4142"
+	info="DM_INFO_A62" codeID="SPCID_RANDOM_EVENT" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE35" title="Luring Girl In Alley" file="re_lured.sc" author="SI_KW" percentage="0" highlight="FALSE" character="CHAR_MICHAEL"
+	x="-741.3530" y="-822.0449" z="21.8298" heading="359.8814"
+	x1="-747.7697" y1="-628.5289" z1="29.1871" heading1="179.2931"
+	info="DM_INFO_A58" codeID="SPCID_RANDOM_EVENT" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE41" title="Pick Pocket"  file="re_PickPocket"   author="SI_BC"	percentage="0"	highlight="FALSE" character="CHAR_FRANKLIN"
+	x="70.2165" y="222.8130" z="107.8996" heading="251.3448"
+	x1="317.1009" y1="198.4954" z1="103.3168" heading1="109.2458"
+	x2="-1813.4905" y2="-1190.0203" z2="13.0271" heading2="309.3584"
+	x3="-1221.7401" y3="-1522.5793" z3="3.2976" heading3="16.3055"
+	x4="-1360.6868" y4="-1226.4692" z4="3.6355" heading4="202.2207"
+	x5="-255.6691" y5="-297.4773" z5="19.0881" heading5="37.0097"
+	info="DM_INFO_A59" codeID="SPCID_RANDOM_EVENT"/>
+	
+	<warpItem missionID="RE44A" title="Prisoner Lift1" file="re_prisonerlift"  author="SI_VE"	percentage="0"	highlight="FALSE" character="CHAR_TREVOR"
+	x="1497.2091" y="1949.0706" z="103.4079" heading="344.3534"
+	info="DM_INFO_A54" codeID="SPCID_RANDOM_EVENT" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE44B" title="Prisoner Lift2" file="re_prisonerlift"  author="SI_VE"	percentage="0"	highlight="FALSE" character="CHAR_TREVOR"
+	x="1270.8925" y="2637.0723" z="36.6391" heading="210.5237"
+	x1="1407.8574" y1="2332.5771" z1="73.5784" heading1="27.6345"
+	info="DM_INFO_A54" codeID="SPCID_RANDOM_EVENT" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE47" title="RC Challenge Mode" file="re_rc_challenge"  author="SI_ChM"	percentage="0"	highlight="FALSE" 
+	x="-1121.1702" y="-940.1579" z="1.5495" heading="196.4110" 
+	info="DM_INFO_A49" codeID="SPCID_RANDOM_EVENT" character="CHAR_MICHAEL"/>
+	
+	
+	<warpItem missionID="RE49A" title="Security Van 1 - Strict" file="re_SecurityVan.sc"	author="SI_BC"	percentage="0"	highlight="FALSE"
+	x="-287.7144" y="-1397.6774" z="30.2408" heading="181.1660"
+	x1="-420.3612" y1="-1437.0085" z1="28.2551" heading1="260.4219"
+	x2="-248.5742" y2="-1424.8011" z2="30.3223" heading2="93.4790"
+	info="DM_INFO_A60" codeID="SPCID_RANDOM_EVENT" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE49B" title="Security Van 2 - Strict" file="re_SecurityVan.sc"	author="SI_BC"	percentage="0"	highlight="FALSE"
+	x="-726.4417" y="-1270.7614" z="6.5152" heading="322.3124"
+	x1="-580.3226" y1="-1171.5344" z1="17.0606" heading1="90.1113"
+	x2="-744.2601" y2="-1168.1118" z2="9.6750" heading2="217.0723"
+	info="DM_INFO_A60" codeID="SPCID_RANDOM_EVENT" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE51A" title="Shop Robbery1" file="re_shoprobbery.sc" author="SI_VE" percentage="0" highlight="FALSE" 
+	x="-821.3705" y="-206.4492" z="36.3263" heading="31.1336"
+	info="DM_INFO_A31" codeID="SPCID_RANDOM_EVENT" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE51B" title="Shop Robbery2" file="re_shoprobbery.sc" author="SI_VE" percentage="0" highlight="FALSE" 
+	x="-1203.4989" y="-795.2637" z="15.2566" heading="37.4466"
+	info="DM_INFO_A31" codeID="SPCID_RANDOM_EVENT" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE52" title="Stag Do Running Man" file="re_stag_do.sc"	author="SI_KW"	percentage="0"	highlight="FALSE"	
+	x="-1228.7178" y="2559.3855" z="15.5370" heading="315.4558"
+	info="DM_INFO_A02" codeID="SPCID_RANDOM_EVENT" vehicleWarp="TRUE" hour="6"/>
+	
+	<warpItem missionID="RE56" title="Tow Truck" file="re_towtruck.sc" author="SI_ChM" percentage="0" highlight="FALSE" 
+	x="185.3759" y="-809.9130" z="30.1547" heading="72.4646"
+	info="DM_INFO_A40" codeID="SPCID_RANDOM_EVENT" vehicleWarp="TRUE"/>
+
+	<warpItem missionID="RE58" title="Ungrateful Whore" file="re_ungratefulwhore.sc"   author="SI_KW"	percentage="0"	highlight="FALSE" character="CHAR_TREVOR"
+	x="512.9659" y="-2541.9822" z="5.0797" heading="252.6692"
+	info="DM_INFO_A20" codeID="SPCID_RANDOM_EVENT" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE59" title="Wanderer" file="re_wanderer.sc" author="SI_BC" percentage="0" highlight="FALSE" 
+	x="592.6437" y="274.6623" z="102.3159" heading="202.7518"
+	x1="679.6877" y1="215.2952" z1="92.1647" heading1="68.0335"
+	info="DM_INFO_A46" codeID="SPCID_RANDOM_EVENT" vehicleWarp="TRUE"/>	
+	
+	<warpItem missionID="RE2A" title="ATM Robbery 1"	file="re_atmrobbery.sc"	author="SI_CHM"	percentage="0"	highlight="FALSE"	
+	x="-115.3077" y="-905.3080" z="28.2104" heading="70.4063"
+   	x1="-158.5052" y1="-778.4098" z1="31.2681" heading1="159.5933"
+	info="DM_INFO_A51"	codeID="SPCID_RANDOM_EVENT" vehicleWarp="TRUE"/>
+
+	<warpItem missionID="RE2B" title="ATM Robbery 2"	file="re_atmrobbery.sc"	author="SI_CHM"	percentage="0"	highlight="FALSE"
+	x="231.0404" y="-1179.9613" z="28.1979" heading="184.5132"	
+	x1="223.7907" y1="-1328.0717" z1="28.2148" heading1="309.4376"
+	info="DM_INFO_A51"	codeID="SPCID_RANDOM_EVENT" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE5A" title="Broken Down 1" file="re_broken_down.sc" author="SI_BC" percentage="0" highlight="FALSE" 
+	x="-113.7813" y="-1195.5886" z=" 26.6" heading="180.6404"
+	x1="-90.9285" y1="-1341.2407" z1="28.2664" heading1="22.9054"
+	x2="-125.3381" y2="-1296.4493" z2="28.3750" heading2="274.5569"
+	info="DM_INFO_A06"  codeID="SPCID_RANDOM_EVENT" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE5B" title="Broken Down 2 - Hot Chick" file="re_broken_down.sc" author="SI_BC" percentage="0" highlight="FALSE" 
+	x="-3105.4231" y="1262.1960" z="19.2409" heading="171.2437"
+	x1="-3105.4231" y1="1262.1960" z1="19.2409" heading1="171.2437"
+	x2="-3105.4231" y2="1262.1960" z2="19.2409" heading2="171.2437"
+	info="DM_INFO_A06"  codeID="SPCID_RANDOM_EVENT" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE37A" title="Mugging1"  file="re_muggings"   author="SI_VE"	percentage="0"	highlight="FALSE"
+	x="-43.3955" y="-1574.3843" z="28.3317" heading="49.9883"
+	x1="-145.7675" y1="-1714.6014" z1="29.0104" heading1="49.5806"
+	info="DM_INFO_A16" codeID="SPCID_RANDOM_EVENT" vehicleWarp="TRUE"/>
+		
+	<warpItem missionID="RE37B" title="Mugging2"  file="re_muggings"   author="SI_VE"	percentage="0"	highlight="FALSE"
+	x="374.9528" y="-171.1843" z="61.1262" heading="163.8236"
+	x1="190.7858" y1="-220.0871" z1="52.8302" heading1="251.6712"
+	info="DM_INFO_A16" codeID="SPCID_RANDOM_EVENT" vehicleWarp="TRUE"/>	
+	
+	</DebugMenuItems>									  

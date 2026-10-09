@@ -1,0 +1,16 @@
+<?xml version='1.0'?>
+<DebugMenuItems>
+	<scriptItem title="Ambient Script: Spaceship Parts" file="spaceshipParts.sc" author="SI_JW" 
+	codeID="SPCID_RESET_SPACESHIP_FLAGS" labelID="LABEL_RC_OMEGA_1"/>
+	<breakItem/>
+	
+	<warpItem missionID="OME1" title="Omega 1" file="Omega1.sc" author="SI_JW" percentage="0" highlight="FALSE"
+	x="2553.0493" y="3361.2175" z="51.8207" heading="85.5443"
+	x1="2397.4714" y1="3512.3621" z1="68.5765" heading1="208.0732"
+	preCodeID="SPCID_RANDOM_CHAR_PRE_LAUNCH" codeID="SPCID_RANDOM_CHAR" character="CHAR_FRANKLIN" vehicleWarp="TRUE" labelID="LABEL_RC_OMEGA_1"/>
+
+	<warpItem missionID="OME2" title="Omega 2" file="Omega2.sc" author="SI_JW" percentage="0" highlight="FALSE"
+	x="2345.1045"  y="2642.8276"  z="45.6819"  heading="117.5815"
+	x1="2396.3840" y1="2522.1985" z1="45.6775" heading1="70.8874"
+	preCodeID="SPCID_RANDOM_CHAR_PRE_LAUNCH" codeID="SPCID_OMEGA1_COMPLETE_SPACESHIP_PARTS" character="CHAR_FRANKLIN" vehicleWarp="TRUE" labelID="LABEL_RC_OMEGA_1"/>
+</DebugMenuItems> 

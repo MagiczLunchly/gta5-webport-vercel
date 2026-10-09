@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rage__ControlInput__ControlSettings>
+	<Mappings>
+		<!-- Car/Bike -->
+		<Item>
+			<Input>INPUT_VEH_MOVE_LEFT_ONLY</Input>
+			<Source>IOMS_MOUSE_CENTEREDAXIS</Source>
+			<Parameters>
+				<Item>IOM_AXIS_X_LEFT</Item>
+			</Parameters>
+		</Item>
+		<Item>
+			<Input>INPUT_VEH_MOVE_RIGHT_ONLY</Input>
+			<Source>IOMS_MOUSE_CENTEREDAXIS</Source>
+			<Parameters>
+				<Item>IOM_AXIS_X_RIGHT</Item>
+			</Parameters>
+		</Item>
+	</Mappings>
+</rage__ControlInput__ControlSettings>

@@ -1,0 +1,83 @@
+<!-- This file has been generated using Single Player Races widget -->
+<!-- Feel free to edit this file by hand or by using the widget -->
+<?xml version='1.0'?>
+<Race>
+	<Gates>
+		<Gate>
+			<Position X = "-1223.0400" Y = "-1920.3199" Z = "1.8000" />
+			<Checkpoint Radius = "7.0000" Type = "4" />
+		</Gate>
+		<Gate>
+			<Position X = "-1041.3000" Y = "-1747.8101" Z = "1.8000" />
+			<Checkpoint Radius = "7.0000" Type = "4" />
+		</Gate>
+		<Gate>
+			<Position X = "-840.3600" Y = "-1532.5800" Z = "1.8000" />
+			<Checkpoint Radius = "7.0000" Type = "4" />
+		</Gate>
+		<Gate>
+			<Position X = "-748.0000" Y = "-1478.0000" Z = "6.3700" />
+			<Checkpoint Radius = "7.0000" Type = "0" />
+		</Gate>
+		<Gate>
+			<Position X = "-709.0000" Y = "-1383.0000" Z = "7.3200" />
+			<Checkpoint Radius = "7.0000" Type = "0" />
+		</Gate>
+		<Gate>
+			<Position X = "-650.0000" Y = "-1356.0000" Z = "13.0000" />
+			<Checkpoint Radius = "7.0000" Type = "0" />
+		</Gate>
+		<Gate>
+			<Position X = "-755.0000" Y = "-1118.0000" Z = "12.7000" />
+			<Checkpoint Radius = "7.0000" Type = "0" />
+		</Gate>
+		<Gate>
+			<Position X = "-651.0000" Y = "-958.0000" Z = "23.7000" />
+			<Checkpoint Radius = "7.0000" Type = "0" />
+		</Gate>
+		<Gate>
+			<Position X = "-754.0000" Y = "-836.0000" Z = "24.7000" />
+			<Checkpoint Radius = "7.0000" Type = "0" />
+		</Gate>
+		<Gate>
+			<Position X = "-888.0000" Y = "-853.0000" Z = "22.5000" />
+			<Checkpoint Radius = "7.0000" Type = "3" />
+		</Gate>
+		<Gate>
+			<Position X = "-560.6900" Y = "-1174.2200" Z = "18.6100" />
+			<Checkpoint Radius = "7.0000" Type = "0" />
+		</Gate>
+		<Gate>
+			<Position X = "-537.1800" Y = "-945.3100" Z = "23.6700" />
+			<Checkpoint Radius = "7.0000" Type = "0" />
+		</Gate>
+		<Gate>
+			<Position X = "-483.6300" Y = "-841.7000" Z = "30.2300" />
+			<Checkpoint Radius = "7.0000" Type = "0" />
+		</Gate>
+		<Gate>
+			<Position X = "-277.2100" Y = "-866.0000" Z = "31.9700" />
+			<Checkpoint Radius = "7.0000" Type = "2" />
+		</Gate>
+		<Gate>
+			<Position X = "27.2900" Y = "-974.8700" Z = "28.0250" />
+			<Checkpoint Radius = "7.0000" Type = "0" />
+		</Gate>
+		<Gate>
+			<Position X = "182.0200" Y = "-971.4000" Z = "32.0000" />
+			<Checkpoint Radius = "7.0000" Type = "1" />
+		</Gate>
+	</Gates>
+	<Racers>
+		<Racer Name = "Player" >
+			<Location X = "-1264.3400" Y = "-1959.7200" Z = "-0.3300" H = "306.9000" />
+			<Driver Type = "0" Model = "0" />
+			<Vehicle Model = "59" />
+		</Racer>
+		<Racer Name = "Racer" >
+			<Location X = "-1263.3400" Y = "-1963.1200" Z = "-0.3300" H = "306.0000" />
+			<Driver Type = "1" Model = "1" />
+			<Vehicle Model = "59" />
+		</Racer>
+	</Racers>
+</Race>

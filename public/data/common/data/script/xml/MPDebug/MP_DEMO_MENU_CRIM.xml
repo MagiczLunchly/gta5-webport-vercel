@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<DebugMenuItems>
+	<missionItem missionID="MP101"	title="Convoy Steal" 			file="CR_Convoy_Steal.sc" 	author="RC"		info="CNC_MD_101" 	extrainfo="DM_MP_101" 	rank="25" enableID="MPEID_CRIMINAL_ONLY"/>
+	<missionItem missionID="MP98"	title="Defend Safe House" 	file="cr_defendBase.sc" 			author="DW"		info="CNC_MD_NULL" 	extrainfo="DM_MP_CRIM1" 	rank="0" enableID="MPEID_CRIMINAL_ONLY"/>
+	<missionItem missionID="MP3"	title="Dispose of Vehicle" 	file="CR_DisposeOfVehicle.sc"	 	author="JSR"	info="CNC_MD_DVEH" 	extrainfo="DM_MP_CRIM1" 	rank="1" enableID="MPEID_CRIMINAL_ONLY"/>
+	<missionItem missionID="MP29"	title="Drop in the ocean" 	file="CR_oceandrop.sc" 				author="RC"		info="CNC_MD_OCEAN" 	extrainfo="DM_MP_CRIM1" 	rank="2" enableID="MPEID_CRIMINAL_ONLY"/>
+	<missionItem missionID="MP48"	title="FIB Grab" 			file="CR_FBI_grab.sc" 				author="WK"		info="CNC_MD_FIBGRAB"	extrainfo="DM_MP_CRIM1" 	rank="5" enableID="MPEID_CRIMINAL_ONLY"/>
+	<missionItem missionID="MP16"	title="FIB Heist" 			file="CR_FBI_HEIST_1.sc" 			author="RB"		info="CNC_MD_FBIH" 		extrainfo="DM_MP_CRIM1" 	rank="10" enableID="MPEID_CRIMINAL_ONLY"/>
+	<missionItem missionID="MP67"	title="Get vehicle(TRUCK)" 	codeID="MPCID_GETVEH_1"			file="CR_GET_VEHICLE.sc" 				author="CM"					info="CNC_MD_GETVEH" 	extrainfo="DM_MP_CRIM1"  	rank="3" enableID="MPEID_CRIMINAL_ONLY"/>
+	<missionItem missionID="MP15"	title="Ornate Bank Heist" 	file="CR_BANK_HEIST_2.sc" 			author="DW"		info="CNC_MD_BANKH2" 	extrainfo="DM_MP_CRIM1" 	rank="4" enableID="MPEID_CRIMINAL_ONLY"/>
+	<missionItem missionID="MP13"	title="Packer" 				file="CR_PACKER.sc" 				author="RB"		info="CNC_MD_PACKER" 	extrainfo="DM_MP_CRIM1" 	rank="2" enableID="MPEID_CRIMINAL_ONLY"/>
+	<missionItem missionID="MP7" 	title="Races" 				file="CR_RACES.sc" 					codeID="MPCID_RACE"					author="CM"		info="CNC_MD_RACE" 		extrainfo="DM_MP_CRIM1" 	rank="0" enableID="MPEID_CRIMINAL_ONLY"/>
+	<missionItem missionID="MP86"	title="Races - GTA" 		file="CR_RACES.sc" 					codeID="MPCID_GTARACE"				author="CM"		info="CNC_MD_RACE" 		extrainfo="DM_MP_CRIM1" 	rank="0" enableID="MPEID_CRIMINAL_ONLY"/>
+	<missionItem missionID="MP11"	title="Steal Noose van" 	file="CR_Steal_Vehicle.sc" 			author="RB"		info="CNC_MD_STEALVEH" 	extrainfo="DM_MP_CRIM1" 	rank="2" enableID="MPEID_CRIMINAL_ONLY"/>
+	<scriptItem title="Stripper" codeID="MPCID_MPSTRIP" author="CM" extrainfo="DM_MP_CRIM1" rank="0"/>
+	<warpItem title="Warp- Planning Board(MP)" x="708.0166" y="-965.4189" z="29.4334" heading="57.4468" info="DM_MP_CRIM1" enableID="MPEID_CRIMINAL_ONLY"/>
+</DebugMenuItems>

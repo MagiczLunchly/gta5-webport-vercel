@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<TestScripts>
+	<!-- Quicj debug is reserved from 0 to 99 -->
+	<menuItem name="set ped skiing" value="0" />
+	<menuItem name="stop ped skiing" value="1" />
+	
+	<!-- Launching code scripts is reseverved from 100 -->
+	<menuItem name="Launch Nav script" value="100" />
+	<menuItem name="Launch Combat script" value="101" />
+	<menuItem name="Launch General script" value="102" />
+	<menuItem name="Launch Camera script" value="103" />
+	<menuItem name="Launch Warps script" value="104" />
+	<menuItem name="Launch Vehicle Ai script" value="105" />
+	<menuItem name="Launch CutScene script" value="106" />
+	<menuItem name="Launch DynaMix script" value="108" />
+	<menuItem name="Launch Physics script" value="109" />
+	<menuItem name="Launch Physics Performance script" value="110" />
+	<menuItem name="Launch Horse script" value="111" />
+	<menuItem name="Launch Vehicle script" value="112" />
+	<menuItem name="Launch Scripted Render Target script" value="114" />
+	<menuItem name="Launch Prop Drop script" value="115" />
+	<menuItem name="Launch Scenario script" value="116" />
+	<menuItem name="Launch NewEnglandAI script" value="117" />
+	<menuItem name="Launch Walking Ped script" value="118" />
+	<menuItem name="Launch Cover script" value="119" />
+	<menuItem name="Launch Targetting script" value="120" />
+	<menuItem name="Launch Switch script" value="121" />
+	<menuItem name="Launch Cutscene Samples" value="122" />
+</TestScripts>

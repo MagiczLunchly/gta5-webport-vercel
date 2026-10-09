@@ -1,0 +1,1 @@
+shader normal_spec_detail_dpm_texdecal_tnt

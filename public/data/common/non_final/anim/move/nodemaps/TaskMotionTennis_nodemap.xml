@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<NodeMap>
+  <debugNames>
+    <names>AEF_FOOT_HEEL_L</names>
+    <names>AEF_FOOT_HEEL_R</names>
+    <names>Backwards</names>
+    <names>BackwardsBlend</names>
+    <names>BackwardsStrafeDirection</names>
+    <names>Blend 2_000</names>
+    <names>blend FL_003</names>
+    <names>blend FL_004</names>
+    <names>blend FL_005</names>
+    <names>blend FL_006</names>
+    <names>blend FL_007</names>
+    <names>blend FL_008</names>
+    <names>blend FL_009</names>
+    <names>blend FL_010</names>
+    <names>blend FL_011</names>
+    <names>blend FL_012</names>
+    <names>blend n_014</names>
+    <names>blend n_018</names>
+    <names>blend n_021</names>
+    <names>blend n_022</names>
+    <names>Blend N_026</names>
+    <names>Blend N_027</names>
+    <names>Blend N_028</names>
+    <names>Blend N_029</names>
+    <names>Blend N_030</names>
+    <names>Blend N_031</names>
+    <names>BLOCK_CCW_STOP</names>
+    <names>BLOCK_CW_STOP</names>
+    <names>Default</names>
+    <names>DesiredStrafeDirection</names>
+    <names>DesiredStrafeSpeed</names>
+    <names>Dive_BH_long_Hi</names>
+    <names>Dive_BH_Long_Lo</names>
+    <names>Dive_BH_Short_Hi</names>
+    <names>Dive_BH_Short_Lo</names>
+    <names>Dive_FH_long_Hi</names>
+    <names>Dive_FH_Long_Lo</names>
+    <names>Dive_FH_Short_Hi</names>
+    <names>Dive_FH_Short_Lo</names>
+    <names>DiveBH</names>
+    <names>DiveBH_HorizBlend</names>
+    <names>DiveBH_VertBlend_Long</names>
+    <names>DiveBH_VertBlend_Short</names>
+    <names>DiveBHBlender</names>
+    <names>DiveFH</names>
+    <names>DiveFH_HorizBlend</names>
+    <names>DiveFH_VertBlend_Long</names>
+    <names>DiveFH_VertBlend_Short</names>
+    <names>DiveFHBlender</names>
+    <names>DiveHorizontal</names>
+    <names>DiveVertical</names>
+    <names>Expression_000</names>
+    <names>Filter</names>
+    <names>Filter_000</names>
+    <names>Filter_001</names>
+    <names>Filter_002</names>
+    <names>Filter_003</names>
+    <names>Filter_004</names>
+    <names>Filter_005</names>
+    <names>ForcedStopDirection</names>
+    <names>Forwards</names>
+    <names>ForwardsStrafeDirection</names>
+    <names>HasDesiredVelocity</names>
+    <names>Idle</names>
+    <names>idle_clip</names>
+    <names>idle_clip_000</names>
+    <names>idle_clip_001</names>
+    <names>IdleVisible</names>
+    <names>Input</names>
+    <names>Input_000</names>
+    <names>Input_003</names>
+    <names>Input_004</names>
+    <names>Input_005</names>
+    <names>Input_006</names>
+    <names>InterruptMove</names>
+    <names>InterruptStop</names>
+    <names>InterruptSwing</names>
+    <names>Invalid</names>
+    <names>Invalid_000</names>
+    <names>Invalid_001</names>
+    <names>Invalid_004</names>
+    <names>Invalid_006</names>
+    <names>Invalid_007</names>
+    <names>Invalid_008</names>
+    <names>KeepRunningCCW</names>
+    <names>KeepRunningCW</names>
+    <names>LocoMoving</names>
+    <names>LocoStart</names>
+    <names>LocoStart_CCW</names>
+    <names>LocoStart_CW</names>
+    <names>LocoStart_invalid</names>
+    <names>LocoStartAbort</names>
+    <names>LocoStop</names>
+    <names>Merge 2</names>
+    <names>Merge 2_000</names>
+    <names>Merge 2_001</names>
+    <names>Merge 2_002</names>
+    <names>Merge 2_003</names>
+    <names>Merge 2_004</names>
+    <names>Merge 2_005</names>
+    <names>Motiontree_001</names>
+    <names>mover_override</names>
+    <names>mover_override_000</names>
+    <names>mover_stop_ccw</names>
+    <names>mover_stop_cw</names>
+    <names>MovingVisible</names>
+    <names>NOT</names>
+    <names>OnEnterIdle</names>
+    <names>OnEnterMoving</names>
+    <names>OnEnterStart</names>
+    <names>OnEnterStop</names>
+    <names>OnEnterSwing</names>
+    <names>OnExitIdle</names>
+    <names>OnExitMoving</names>
+    <names>OnExitStop</names>
+    <names>OnExitSwing</names>
+    <names>Output</names>
+    <names>RegularSwing</names>
+    <names>Run_Bwd_135_Loop</names>
+    <names>Run_Bwd_-135_Loop</names>
+    <names>Run_Bwd_135_Loop_BL_000</names>
+    <names>Run_Bwd_-135_Loop_BL_000</names>
+    <names>Run_Bwd_135_Loop_BL_001</names>
+    <names>Run_Bwd_-135_Loop_BL_001</names>
+    <names>Run_Bwd_135_Loop_BR_000</names>
+    <names>Run_Bwd_-135_Loop_BR_000</names>
+    <names>Run_Bwd_135_Loop_BR_001</names>
+    <names>Run_Bwd_-135_Loop_BR_001</names>
+    <names>Run_Bwd_135_Loop_BR_002</names>
+    <names>Run_Bwd_-135_Loop_BR_002</names>
+    <names>Run_Bwd_135_Loop_BR_003</names>
+    <names>Run_Bwd_-135_Loop_BR_003</names>
+    <names>Run_Bwd_135_Loop_BR_004</names>
+    <names>Run_Bwd_-135_Loop_BR_004</names>
+    <names>Run_Bwd_135_Loop_BR_005</names>
+    <names>Run_Bwd_-135_Loop_BR_005</names>
+    <names>Run_Bwd_135_Loop_FL_000</names>
+    <names>Run_Bwd_-135_Loop_FL_000</names>
+    <names>Run_Bwd_135_Loop_FR_000</names>
+    <names>Run_Bwd_-135_Loop_FR_000</names>
+    <names>Run_Bwd_180L_Loop</names>
+    <names>Run_Bwd_180R_Loop</names>
+    <names>Run_Bwd_180R_Loop_BL_000</names>
+    <names>Run_Bwd_180R_Loop_BL_001</names>
+    <names>Run_Bwd_180R_Loop_BR_000</names>
+    <names>Run_Bwd_180R_Loop_BR_001</names>
+    <names>Run_Bwd_180R_Loop_BR_002</names>
+    <names>Run_Bwd_180R_Loop_BR_003</names>
+    <names>Run_Bwd_180R_Loop_BR_004</names>
+    <names>Run_Bwd_180R_Loop_BR_005</names>
+    <names>Run_Bwd_180R_Loop_FL_000</names>
+    <names>Run_Bwd_180R_Loop_FR_000</names>
+    <names>Run_Bwd_-90_Loop</names>
+    <names>Run_Bwd_-90_Loop_BL_000</names>
+    <names>Run_Bwd_-90_Loop_BL_001</names>
+    <names>Run_Bwd_-90_Loop_BR_000</names>
+    <names>Run_Bwd_-90_Loop_BR_001</names>
+    <names>Run_Bwd_-90_Loop_BR_002</names>
+    <names>Run_Bwd_-90_Loop_BR_003</names>
+    <names>Run_Bwd_-90_Loop_BR_004</names>
+    <names>Run_Bwd_-90_Loop_BR_005</names>
+    <names>Run_Bwd_-90_Loop_FL_000</names>
+    <names>Run_Bwd_-90_Loop_FR_000</names>
+    <names>Run_Fwd_0_Loop</names>
+    <names>Run_Fwd_0_Loop_BL_000</names>
+    <names>Run_Fwd_0_Loop_BL_001</names>
+    <names>Run_Fwd_0_Loop_BR_000</names>
+    <names>Run_Fwd_0_Loop_BR_001</names>
+    <names>Run_Fwd_0_Loop_BR_002</names>
+    <names>Run_Fwd_0_Loop_BR_003</names>
+    <names>Run_Fwd_0_Loop_BR_004</names>
+    <names>Run_Fwd_0_Loop_BR_005</names>
+    <names>Run_Fwd_0_Loop_FL_000</names>
+    <names>Run_Fwd_0_Loop_FR_000</names>
+    <names>Run_Fwd_45_Loop</names>
+    <names>Run_Fwd_-45_Loop</names>
+    <names>Run_Fwd_45_Loop_BL_000</names>
+    <names>Run_Fwd_-45_Loop_BL_000</names>
+    <names>Run_Fwd_45_Loop_BL_001</names>
+    <names>Run_Fwd_-45_Loop_BL_001</names>
+    <names>Run_Fwd_45_Loop_BR_000</names>
+    <names>Run_Fwd_-45_Loop_BR_000</names>
+    <names>Run_Fwd_45_Loop_BR_001</names>
+    <names>Run_Fwd_-45_Loop_BR_001</names>
+    <names>Run_Fwd_45_Loop_BR_002</names>
+    <names>Run_Fwd_-45_Loop_BR_002</names>
+    <names>Run_Fwd_45_Loop_BR_003</names>
+    <names>Run_Fwd_-45_Loop_BR_003</names>
+    <names>Run_Fwd_45_Loop_BR_004</names>
+    <names>Run_Fwd_-45_Loop_BR_004</names>
+    <names>Run_Fwd_45_Loop_BR_005</names>
+    <names>Run_Fwd_-45_Loop_BR_005</names>
+    <names>Run_Fwd_45_Loop_FL_000</names>
+    <names>Run_Fwd_-45_Loop_FL_000</names>
+    <names>Run_Fwd_45_Loop_FR_000</names>
+    <names>Run_Fwd_-45_Loop_FR_000</names>
+    <names>Run_Fwd_90_Loop</names>
+    <names>Run_Fwd_90_Loop_BL_000</names>
+    <names>Run_Fwd_90_Loop_BL_001</names>
+    <names>Run_Fwd_90_Loop_BR_000</names>
+    <names>Run_Fwd_90_Loop_BR_001</names>
+    <names>Run_Fwd_90_Loop_BR_002</names>
+    <names>Run_Fwd_90_Loop_BR_003</names>
+    <names>Run_Fwd_90_Loop_BR_004</names>
+    <names>Run_Fwd_90_Loop_BR_005</names>
+    <names>Run_Fwd_90_Loop_FL_000</names>
+    <names>Run_Fwd_90_Loop_FR_000</names>
+    <names>RunInvalid</names>
+    <names>RunMover</names>
+    <names>RunMover_000</names>
+    <names>RunMover_RAW</names>
+    <names>RunMover_RAW_000</names>
+    <names>Running</names>
+    <names>RunningBackLeft</names>
+    <names>RunningBackRight</names>
+    <names>RunningForwardLeft</names>
+    <names>RunningForwardRight</names>
+    <names>RunStart_CCW_0</names>
+    <names>RunStart_CCW_180</names>
+    <names>RunStart_CCW_90</names>
+    <names>RunStart_CW_0</names>
+    <names>RunStart_CW_180</names>
+    <names>RunStart_CW_90</names>
+    <names>RunStop</names>
+    <names>RunStop_002</names>
+    <names>RunStop_CCW_0</names>
+    <names>RunStop_CCW_0_000</names>
+    <names>RunStop_CCW_0_002</names>
+    <names>RunStop_CCW_000</names>
+    <names>RunStop_CCW_002</names>
+    <names>RunStop_CCW_180</names>
+    <names>RunStop_CCW_181</names>
+    <names>RunStop_CCW_184</names>
+    <names>RunStop_CCW_90</names>
+    <names>RunStop_CCW_90_000</names>
+    <names>RunStop_CCW_90_002</names>
+    <names>RunStop_CW_0</names>
+    <names>RunStop_CW_0_000</names>
+    <names>RunStop_CW_0_002</names>
+    <names>RunStop_CW_000</names>
+    <names>RunStop_CW_002</names>
+    <names>RunStop_CW_180</names>
+    <names>RunStop_CW_181</names>
+    <names>RunStop_CW_183</names>
+    <names>RunStop_CW_90</names>
+    <names>RunStop_CW_90_000</names>
+    <names>RunStop_CW_90_002</names>
+    <names>RunStop_Invalid_000</names>
+    <names>RunStop_Invalid_002</names>
+    <names>RunStopPhase</names>
+    <names>RunStopSwing</names>
+    <names>RunStopSwingMT_000</names>
+    <names>ShotAnimClip</names>
+    <names>ShotFullBody_000</names>
+    <names>ShotPlayRate</names>
+    <names>ShotStartPhase</names>
+    <names>ShotUpperBody_000</names>
+    <names>SlowBlend</names>
+    <names>Start</names>
+    <names>StartAnimComplete</names>
+    <names>StateMachine</names>
+    <names>stop_mover_ccw</names>
+    <names>stop_mover_cw</names>
+    <names>StopAnimComplete</names>
+    <names>StrafeBackwardVisible</names>
+    <names>StrafeDirection</names>
+    <names>StrafeForwardVisible</names>
+    <names>StrafeSpeed</names>
+    <names>StrafeStartDirection</names>
+    <names>StrafeStopDirection</names>
+    <names>Strafing</names>
+    <names>StrafingRate</names>
+    <names>Swing</names>
+    <names>Swing_Initial</names>
+    <names>SwingAnimComplete</names>
+    <names>SwingClip</names>
+    <names>TurnRate</names>
+    <names>Walk_Bwd_135_Loop</names>
+    <names>Walk_Bwd_-135_Loop</names>
+    <names>Walk_Bwd_135_Loop_001</names>
+    <names>walk_bwd_-135_loop_003</names>
+    <names>Walk_Bwd_-135_Loop_004</names>
+    <names>Walk_Bwd_180_Loop</names>
+    <names>Walk_Bwd_180_Loop_003</names>
+    <names>walk_bwd_180_loop_004</names>
+    <names>Walk_Bwd_-45_Loop</names>
+    <names>Walk_Bwd_-45_Loop_001</names>
+    <names>Walk_Bwd_-90_Loop</names>
+    <names>Walk_Bwd_-90_Loop_003</names>
+    <names>walk_bwd_-90_loop_004</names>
+    <names>Walk_Fwd_0_Loop</names>
+    <names>Walk_Fwd_0_Loop_003</names>
+    <names>walk_fwd_0_loop_004</names>
+    <names>Walk_Fwd_135_Loop</names>
+    <names>Walk_Fwd_135_Loop_001</names>
+    <names>Walk_Fwd_45_Loop</names>
+    <names>Walk_Fwd_-45_Loop</names>
+    <names>Walk_Fwd_-45_Loop_001</names>
+    <names>Walk_Fwd_45_Loop_003</names>
+    <names>walk_fwd_45_loop_004</names>
+    <names>Walk_Fwd_90_Loop</names>
+    <names>Walk_Fwd_90_Loop_003</names>
+    <names>walk_fwd_90_loop_004</names>
+    <names>Walking</names>
+    <names>Walking Bwd</names>
+    <names>Walking Fwd</names>
+    <names>Walking Left</names>
+    <names>Walking Right</names>
+    <names>WalkStop</names>
+  </debugNames>
+</NodeMap>

@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<DebugMenuItems>
+
+	<codeItem title="Unlock All Chop Tricks" codeID="SPCID_UNLOCK_CHOP_TRICKS"/>
+	<breakItem/>
+	
+	<launcherItem title="Unlock Chop in Gameflow (SAVEHOUSE_FRANKLIN_SC)" 
+	x="-14.8330" y="-1424.2474" z="29.6676"  heading="251.8593"
+	character="CHAR_FRANKLIN" labelID="LABEL_CHOP_UNLOCK_SC"/>
+	
+	<launcherItem title="Unlock Chop in Gameflow (SAVEHOUSE_FRANKLIN_VH)"
+	x="19.9952"  y="523.9680"   z="169.2277" heading="23.9614"
+	character="CHAR_FRANKLIN" labelID="LABEL_CHOP_UNLOCK_VH"/>
+	<breakItem/>
+
+	<warpItem title="Warp to Chop (SAVEHOUSE_FRANKLIN_SC)" x="-14.8330" y="-1424.2474" z="29.6676"  heading="251.8593" character="CHAR_FRANKLIN"/>
+	<warpItem title="Warp to Chop (SAVEHOUSE_FRANKLIN_VH)" x="19.9952"  y="523.9680"   z="169.2277" heading="23.9614"  character="CHAR_FRANKLIN"/>
+</DebugMenuItems>
+
+
+

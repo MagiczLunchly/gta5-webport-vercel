@@ -1,0 +1,69 @@
+<?xml version='1.0'?>
+<DebugMenuItems>
+
+	<!-- Minigames -->
+	<warpItem title="Rampage 1: Rednecks" file="Rampage1.sc" author="SI_AG" x="913.8231" y="3624.5627" z="31.4043" heading="9.7130" character="CHAR_TREVOR" labelID="LABEL_RC_RAMPAGE_1" codeID="SPCID_RANDOM_CHAR" preCodeID="SPCID_RANDOM_CHAR_PRE_LAUNCH"/>
+	<warpItem title="Rampage 2: Hipsters" file="Rampage2.sc" author="SI_AG" x="1214.1486" y="-413.1099" z="66.8088" heading="66.7618" character="CHAR_TREVOR" labelID="LABEL_RC_RAMPAGE_1" codeID="SPCID_RANDOM_CHAR" preCodeID="SPCID_RANDOM_CHAR_PRE_LAUNCH"/>
+	<warpItem title="Rampage 3: Vagos" file="Rampage3.sc" author="SI_AG" x="478.6472" y="-1829.1476" z="26.8873" heading="172.6864" character="CHAR_TREVOR" labelID="LABEL_RC_RAMPAGE_1" codeID="SPCID_RANDOM_CHAR" preCodeID="SPCID_RANDOM_CHAR_PRE_LAUNCH"/>
+	<warpItem title="Rampage 4: Ballas" file="Rampage4.sc" author="SI_AG" x="-186.6762" y="-1693.9655" z="32.1397" heading="315.2473" character="CHAR_TREVOR" labelID="LABEL_RC_RAMPAGE_1" codeID="SPCID_RANDOM_CHAR" preCodeID="SPCID_RANDOM_CHAR_PRE_LAUNCH"/>
+	<warpItem title="Rampage 5: Military" file="Rampage5.sc" author="SI_AG" x="-1266.1896" y="2508.7715" z="19.2258" heading="60.5824" character="CHAR_TREVOR" labelID="LABEL_RC_RAMPAGE_1" codeID="SPCID_RANDOM_CHAR" preCodeID="SPCID_RANDOM_CHAR_PRE_LAUNCH"/>
+	
+	<warpItem missionID="MGOR1" 	file="offroad_races.sc"	author="SI_TS" 	highlight="FALSE"	x="-1939.4829" 	y="4443.9526" 	z="37.3474" 	heading="224.9652" 	codeID="SPCID_OFFROAD_RACES" enableID="SPEID_DEBUG_ONLY" />
+	<warpItem missionID="MGOR1gf" 	file="not_needed.sc" author="SI_TS" 	highlight="FALSE"	x="-1939.4829" 	y="4443.9526" 	z="37.3474" 	heading="224.9652" 	codeID="SPCID_OFFROAD_RACES" enableID="SPEID_GAMEFLOW_ONLY" labelID="LABEL_MINIGAME_OFFROAD_RACES_ALL"/>
+	<warpItem missionID="MGOR2" 	file="offroad_races.sc"	author="SI_TS" 	highlight="FALSE"	x="-1151.1224" 	y="2615.9690"	z="15.0706"		heading="299.6328" 	codeID="SPCID_OFFROAD_RACES" enableID="SPEID_DEBUG_ONLY" />
+	<warpItem missionID="MGOR2gf" 	file="not_needed.sc" author="SI_TS" 	highlight="FALSE"	x="-1151.1224" 	y="2615.9690"	z="15.0706"		heading="299.6328" 	codeID="SPCID_OFFROAD_RACES" enableID="SPEID_GAMEFLOW_ONLY" labelID="LABEL_MINIGAME_OFFROAD_RACES_ALL"/>
+	<warpItem missionID="MGOR3" 	file="offroad_races.sc"	author="SI_TS" 	highlight="FALSE"	x="-223.6755" 	y="4224.6436" 	z="43.7304" 	heading="89.8323" 	codeID="SPCID_OFFROAD_RACES" enableID="SPEID_DEBUG_ONLY" />
+	<warpItem missionID="MGOR3gf" 	file="not_needed.sc" author="SI_TS" 	highlight="FALSE"	x="-223.6755" 	y="4224.6436" 	z="43.7304" 	heading="89.8323" 	codeID="SPCID_OFFROAD_RACES" enableID="SPEID_GAMEFLOW_ONLY" labelID="LABEL_MINIGAME_OFFROAD_RACES_ALL"/>
+	<warpItem missionID="MGOR4" 	file="offroad_races.sc"	author="SI_TS" 	highlight="FALSE"	x="1604.6387" 	y="3849.4060" 	z="31.7359" 	heading="279.36" 	codeID="SPCID_OFFROAD_RACES" enableID="SPEID_DEBUG_ONLY" />
+	<warpItem missionID="MGOR4gf" 	file="not_needed.sc" author="SI_TS" 	highlight="FALSE"	x="1604.6387" 	y="3849.4060" 	z="31.7359" 	heading="279.36" 	codeID="SPCID_OFFROAD_RACES" enableID="SPEID_GAMEFLOW_ONLY" labelID="LABEL_MINIGAME_OFFROAD_RACES_ALL"/>
+	<warpItem missionID="MGOR5" 	file="offroad_races.sc"	author="SI_TS" 	highlight="FALSE"	x="2037.6644" 	y="2137.3862" 	z="92.7095" 	heading="104.9267" 	codeID="SPCID_OFFROAD_RACES" enableID="SPEID_DEBUG_ONLY" />
+	<warpItem missionID="MGOR5gf" 	file="not_needed.sc" author="SI_TS" 	highlight="FALSE"	x="2037.6644" 	y="2137.3862" 	z="92.7095" 	heading="104.9267" 	codeID="SPCID_OFFROAD_RACES" enableID="SPEID_GAMEFLOW_ONLY" labelID="LABEL_MINIGAME_OFFROAD_RACES_ALL"/>
+	<warpItem missionID="MGOR6" 	file="offroad_races.sc"	author="SI_TS" 	highlight="FALSE"	x="2996.7759" 	y="2774.0850" 	z="43.2600" 	heading="183.9" 	codeID="SPCID_OFFROAD_RACES" enableID="SPEID_DEBUG_ONLY" />
+	<warpItem missionID="MGOR6gf" 	file="not_needed.sc" author="SI_TS" 	highlight="FALSE"	x="2996.7759" 	y="2774.0850" 	z="43.2600" 	heading="183.9" 	codeID="SPCID_OFFROAD_RACES" enableID="SPEID_GAMEFLOW_ONLY" labelID="LABEL_MINIGAME_OFFROAD_RACES_ALL"/>
+	
+	<warpItem missionID="OJDA1" 	author="SI_STM"	percentage="0" 	highlight="FALSE" info="" x="2116.96" y="4791.51" z="40.21" heading="33.34" codeID="SPCID_AIR_TRAFFIC" labelID="LABEL_MINIGAME_DRUG_TRAFFICKING"character="CHAR_TREVOR" enableID="SPEID_GAMEFLOW_ONLY"/>
+	<warpItem missionID="OJDA2" 	author="SI_STM"	percentage="0" 	highlight="FALSE" info="" x="2116.96" y="4791.51" z="40.21" heading="33.34" codeID="SPCID_AIR_TRAFFIC" labelID="LABEL_MINIGAME_DRUG_TRAFFICKING"character="CHAR_TREVOR" enableID="SPEID_GAMEFLOW_ONLY"/>
+	<warpItem missionID="OJDA3" 	author="SI_STM"	percentage="0" 	highlight="FALSE" info="" x="2116.96" y="4791.51" z="40.21" heading="33.34" codeID="SPCID_AIR_TRAFFIC" labelID="LABEL_MINIGAME_DRUG_TRAFFICKING"character="CHAR_TREVOR" enableID="SPEID_GAMEFLOW_ONLY"/>
+	<warpItem missionID="OJDA4" 	author="SI_STM"	percentage="0" 	highlight="FALSE" info="" x="2116.96" y="4791.51" z="40.21" heading="33.34" codeID="SPCID_AIR_TRAFFIC" labelID="LABEL_MINIGAME_DRUG_TRAFFICKING"character="CHAR_TREVOR" enableID="SPEID_GAMEFLOW_ONLY"/>
+	<warpItem missionID="OJDA5"		author="SI_STM"	percentage="0" 	highlight="FALSE" info="" x="2116.96" y="4791.51" z="40.21" heading="33.34" codeID="SPCID_AIR_TRAFFIC" labelID="LABEL_MINIGAME_DRUG_TRAFFICKING"character="CHAR_TREVOR" enableID="SPEID_GAMEFLOW_ONLY"/>
+	
+	<warpItem missionID="OJDG1" 	rank="0"	author="SI_STM"	percentage="0" 	highlight="FALSE" info="" x="2116.96" y="4791.51" z="40.21" heading="33.34" codeID="SPCID_GROUND_TRAFFIC" labelID="LABEL_MINIGAME_DRUG_TRAFFICKING"character="CHAR_TREVOR" enableID="SPEID_GAMEFLOW_ONLY"/>
+	<warpItem missionID="OJDG2" 	rank="1"	author="SI_STM"	percentage="0"	highlight="FALSE" info="" x="2116.96" y="4791.51" z="40.21" heading="33.34" codeID="SPCID_GROUND_TRAFFIC" labelID="LABEL_MINIGAME_DRUG_TRAFFICKING"character="CHAR_TREVOR" enableID="SPEID_GAMEFLOW_ONLY"/>
+	<warpItem missionID="OJDG3" 	rank="2"	author="SI_STM"	percentage="0"	highlight="FALSE" info="" x="2116.96" y="4791.51" z="40.21" heading="33.34" codeID="SPCID_GROUND_TRAFFIC" labelID="LABEL_MINIGAME_DRUG_TRAFFICKING"character="CHAR_TREVOR" enableID="SPEID_GAMEFLOW_ONLY"/>
+	<warpItem missionID="OJDG4" 	rank="3"	author="SI_STM"	percentage="0"	highlight="FALSE" info="" x="2116.96" y="4791.51" z="40.21" heading="33.34" codeID="SPCID_GROUND_TRAFFIC" labelID="LABEL_MINIGAME_DRUG_TRAFFICKING"character="CHAR_TREVOR" enableID="SPEID_GAMEFLOW_ONLY"/>
+	<warpItem missionID="OJDG5" 	rank="4"	author="SI_STM"	percentage="0"	highlight="FALSE" info="" x="2116.96" y="4791.51" z="40.21" heading="33.34" codeID="SPCID_GROUND_TRAFFIC" labelID="LABEL_MINIGAME_DRUG_TRAFFICKING" character="CHAR_TREVOR" enableID="SPEID_GAMEFLOW_ONLY"/>
+	<warpItem missionID="OJDG6" 	rank="5"	author="SI_STM"	percentage="0"	highlight="FALSE" info="" x="2116.96" y="4791.51" z="40.21" heading="33.34" codeID="SPCID_GROUND_TRAFFIC" labelID="LABEL_MINIGAME_DRUG_TRAFFICKING" character="CHAR_TREVOR" enableID="SPEID_GAMEFLOW_ONLY"/>
+	<warpItem missionID="OJDG7" 	rank="6"	author="SI_STM"	percentage="0"	highlight="FALSE" info="" x="2116.96" y="4791.51" z="40.21" heading="33.34" codeID="SPCID_GROUND_TRAFFIC" labelID="LABEL_MINIGAME_DRUG_TRAFFICKING" character="CHAR_TREVOR" enableID="SPEID_GAMEFLOW_ONLY"/>
+	<warpItem missionID="OJDG8" 	rank="7"	author="SI_STM"	percentage="0"	highlight="FALSE" info="" x="2116.96" y="4791.51" z="40.21" heading="33.34" codeID="SPCID_GROUND_TRAFFIC" labelID="LABEL_MINIGAME_DRUG_TRAFFICKING" character="CHAR_TREVOR" enableID="SPEID_GAMEFLOW_ONLY"/>
+	<warpItem missionID="OJDG9" 	rank="8"	author="SI_STM"	percentage="0"	highlight="FALSE" info="" x="2116.96" y="4791.51" z="40.21" heading="33.34" codeID="SPCID_GROUND_TRAFFIC" labelID="LABEL_MINIGAME_DRUG_TRAFFICKING" character="CHAR_TREVOR" enableID="SPEID_GAMEFLOW_ONLY"/>
+	<warpItem missionID="OJDG10" 	rank="9"	author="SI_STM"	percentage="0"	highlight="FALSE" info="" x="2116.96" y="4791.51" z="40.21" heading="33.34" codeID="SPCID_GROUND_TRAFFIC" labelID="LABEL_MINIGAME_DRUG_TRAFFICKING" character="CHAR_TREVOR" enableID="SPEID_GAMEFLOW_ONLY"/>
+	<warpItem missionID="OJDG11" 	rank="10"	author="SI_STM"	percentage="0" 	highlight="FALSE" info="" x="2116.96" y="4791.51" z="40.21" heading="33.34" codeID="SPCID_GROUND_TRAFFIC" labelID="LABEL_MINIGAME_DRUG_TRAFFICKING"character="CHAR_TREVOR" enableID="SPEID_GAMEFLOW_ONLY"/>
+	<warpItem missionID="OJDG12" 	rank="11"	author="SI_STM"	percentage="0"	highlight="FALSE" info="" x="2116.96" y="4791.51" z="40.21" heading="33.34" codeID="SPCID_GROUND_TRAFFIC" labelID="LABEL_MINIGAME_DRUG_TRAFFICKING"character="CHAR_TREVOR" enableID="SPEID_GAMEFLOW_ONLY"/>
+	<warpItem missionID="OJDG13" 	rank="12"	author="SI_STM"	percentage="0"	highlight="FALSE" info="" x="2116.96" y="4791.51" z="40.21" heading="33.34" codeID="SPCID_GROUND_TRAFFIC" labelID="LABEL_MINIGAME_DRUG_TRAFFICKING"character="CHAR_TREVOR" enableID="SPEID_GAMEFLOW_ONLY"/>
+	<warpItem missionID="OJDG14" 	rank="13"	author="SI_STM"	percentage="0"	highlight="FALSE" info="" x="2116.96" y="4791.51" z="40.21" heading="33.34" codeID="SPCID_GROUND_TRAFFIC" labelID="LABEL_MINIGAME_DRUG_TRAFFICKING"character="CHAR_TREVOR" enableID="SPEID_GAMEFLOW_ONLY"/>
+	<warpItem missionID="OJDG15" 	rank="14"	author="SI_STM"	percentage="0"	highlight="FALSE" info="" x="2116.96" y="4791.51" z="40.21" heading="33.34" codeID="SPCID_GROUND_TRAFFIC" labelID="LABEL_MINIGAME_DRUG_TRAFFICKING" character="CHAR_TREVOR" enableID="SPEID_GAMEFLOW_ONLY"/>
+	<warpItem missionID="OJDG16" 	rank="15"	author="SI_STM"	percentage="0"	highlight="FALSE" info="" x="2116.96" y="4791.51" z="40.21" heading="33.34" codeID="SPCID_GROUND_TRAFFIC" labelID="LABEL_MINIGAME_DRUG_TRAFFICKING" character="CHAR_TREVOR" enableID="SPEID_GAMEFLOW_ONLY"/>
+	<warpItem missionID="OJDG17" 	rank="16"	author="SI_STM"	percentage="0"	highlight="FALSE" info="" x="2116.96" y="4791.51" z="40.21" heading="33.34" codeID="SPCID_GROUND_TRAFFIC" labelID="LABEL_MINIGAME_DRUG_TRAFFICKING" character="CHAR_TREVOR" enableID="SPEID_GAMEFLOW_ONLY"/>
+	<warpItem missionID="OJDG18" 	rank="17"	author="SI_STM"	percentage="0"	highlight="FALSE" info="" x="2116.96" y="4791.51" z="40.21" heading="33.34" codeID="SPCID_GROUND_TRAFFIC" labelID="LABEL_MINIGAME_DRUG_TRAFFICKING" character="CHAR_TREVOR" enableID="SPEID_GAMEFLOW_ONLY"/>
+	<warpItem missionID="OJDG19" 	rank="18"	author="SI_STM"	percentage="0"	highlight="FALSE" info="" x="2116.96" y="4791.51" z="40.21" heading="33.34" codeID="SPCID_GROUND_TRAFFIC" labelID="LABEL_MINIGAME_DRUG_TRAFFICKING" character="CHAR_TREVOR" enableID="SPEID_GAMEFLOW_ONLY"/>
+	<warpItem missionID="OJDG20" 	rank="19"	author="SI_STM"	percentage="0"	highlight="FALSE" info="" x="2116.96" y="4791.51" z="40.21" heading="33.34" codeID="SPCID_GROUND_TRAFFIC" labelID="LABEL_MINIGAME_DRUG_TRAFFICKING" character="CHAR_TREVOR" enableID="SPEID_GAMEFLOW_ONLY"/>
+	
+	<missionItem missionID="ASS4" file="Assassin_Bus.sc" 			author="SI_DS" percentage="0" highlight="FALSE" info="OJ_INFO_ASbs" character="CHAR_FRANKLIN" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER" />
+	<missionItem missionID="ASS5" file="Assassin_Construction.sc" 	author="SI_DS" percentage="0" highlight="FALSE" info="OJ_INFO_AScs" character="CHAR_FRANKLIN" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER" />
+	<missionItem missionID="ASS1" file="Assassin_Valet.sc" 			author="SI_DS" percentage="0" highlight="FALSE" info="OJ_INFO_ASva" character="CHAR_FRANKLIN" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER" />
+	<missionItem missionID="ASS3" file="Assassin_Hooker.sc" 		author="SI_DS" percentage="0" highlight="FALSE" info="OJ_INFO_AShk" character="CHAR_FRANKLIN" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER" />
+	
+	
+	
+	
+	
+	<launcherItem title="Strip Club" x="127.4747"  y="-1314.5795" z="28.1418" heading="1.00" codeID="SPCID_ACTIVITY_STRIPCLUB" />
+	
+	
+	
+	
+	
+	
+	
+	
+</DebugMenuItems>

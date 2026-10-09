@@ -1,0 +1,72 @@
+<?xml version='1.0'?>
+<DebugMenuItems>
+
+	<!-- July Random Events 4/4 -->
+	
+	<warpItem missionID="RE48" title="Rescue Hostage" file="re_rescuehostage"  author="SI_ChM"	percentage="0"	highlight="FALSE" 
+	x="-180.7292" y="6345.0483" z="30.2821" heading="314.6517"
+	x1="-51.0990" y1="6490.3174" z1="30.3168" heading1="137.6918" 
+	x2="-165.1188" y2="6465.1729" z2="29.7342" heading2="224.2024"
+	info="DM_INFO_A50" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_NICEH" vehicleWarp="TRUE"/>
+
+	<warpItem missionID="RE49A" title="Security Van 1 - Strict" file="re_SecurityVan.sc"	author="SI_BC"	percentage="0"	highlight="FALSE"
+	x="-287.7144" y="-1397.6774" z="30.2408" heading="181.1660"
+	x1="-420.3612" y1="-1437.0085" z1="28.2551" heading1="260.4219"
+	x2="-248.5742" y2="-1424.8011" z2="30.3223" heading2="93.4790"
+	info="DM_INFO_A60" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TREV3"  vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE49B" title="Security Van 2 - Strict" file="re_SecurityVan.sc"	author="SI_BC"	percentage="0"	highlight="FALSE"
+	x="-726.4417" y="-1270.7614" z="6.5152" heading="322.3124"
+	x1="-580.3226" y1="-1171.5344" z1="17.0606" heading1="90.1113"
+	x2="-744.2601" y2="-1168.1118" z2="9.6750" heading2="217.0723"
+	info="DM_INFO_A60" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TREV3" vehicleWarp="TRUE"/>
+	 
+	<!--<warpItem missionID="RE49C" title="Security Van 3 - Lax" file="re_SecurityVan.sc"	author="SI_BC"	percentage="0"	highlight="FALSE"
+	x="-120.4565" y="6459.7988" z="30.4304" heading="205.4899"
+	x1="-66.3681" y1="6453.5659" z1="30.4907" heading1="132.4495"
+	x2="-143.5307" y2="6372.8428" z2="30.4911" heading2="315.0848"
+	info="DM_INFO_A60" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TREV3" vehicleWarp="TRUE"/> -->
+	
+	<warpItem missionID="RE49D" title="Security Van 4 - Lax" file="re_SecurityVan.sc"	author="SI_BC"	percentage="0"	highlight="FALSE"
+	x="-387.9284" y="5985.9722" z="30.5445" heading="317.3816"
+	x1="-487.1832" y1="6060.9043" z1="28.0771" heading1="287.1489"
+	info="DM_INFO_A60" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TREV3" vehicleWarp="TRUE"/> 
+	
+	<warpItem missionID="RE49E" title="Security Van 5 - Strict" file="re_SecurityVan.sc"	author="SI_BC"	percentage="0"	highlight="FALSE"
+	x="-498.4301" y="-1087.0216" z="22.8734" heading="64.8397"
+	info="DM_INFO_A60" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TREV3" vehicleWarp="TRUE"/> 
+	
+	<warpItem missionID="RE49F" title="Security Van 6 - In Van" file="re_SecurityVan.sc"	author="SI_BC"	percentage="0"	highlight="FALSE"
+	x="-959.7734" y="-1191.8604" z="3.3932" heading="27.0708"
+	info="DM_INFO_A60" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TREV3" vehicleWarp="TRUE"/> 
+	
+	<warpItem missionID="RE49G" title="Security Van 7 - In Van" file="re_SecurityVan.sc"	author="SI_BC"	percentage="0"	highlight="FALSE"
+	x="-490.1459" y="-816.4809" z="29.3198" heading="1.8316"
+	info="DM_INFO_A60" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TREV3" vehicleWarp="TRUE"/> 
+	
+	<warpItem missionID="RE51A" title="Shop Robbery1" file="re_shoprobbery.sc" author="SI_VE" percentage="0" highlight="FALSE" 
+	x="-821.3705" y="-206.4492" z="36.3263" heading="31.1336"
+	info="DM_INFO_A31" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_ARM1" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE51B" title="Shop Robbery2" file="re_shoprobbery.sc" author="SI_VE" percentage="0" highlight="FALSE" 
+	x="-1203.4989" y="-795.2637" z="15.2566" heading="37.4466"
+	info="DM_INFO_A31" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_ARM1" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE52" title="Stag Do Running Man" file="re_stag_do.sc"	author="SI_KW"	percentage="0"	highlight="FALSE"	
+	x="-1228.7178" y="2559.3855" z="15.5370" heading="315.4558"
+	info="DM_INFO_A02" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TREV1" vehicleWarp="TRUE" hour="6"/>
+	
+	
+	<warpItem missionID="RE56" title="Tow Truck" file="re_towtruck.sc" author="SI_ChM" percentage="0" highlight="FALSE" 
+	x="185.3759" y="-809.9130" z="30.1547" heading="72.4646"
+	info="DM_INFO_A40" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TREV3" vehicleWarp="TRUE"/>
+
+	<warpItem missionID="RE58" title="Ungrateful Whore" file="re_ungratefulwhore.sc"   author="SI_KW"	percentage="0"	highlight="FALSE" character="CHAR_TREVOR"
+	x="512.9659" y="-2541.9822" z="5.0797" heading="252.6692"
+	info="DM_INFO_A20" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_FBI5"/>
+	
+	<warpItem missionID="RE59" title="Wanderer" file="re_wanderer.sc" author="SI_BC" percentage="0" highlight="FALSE" 
+	x="582.1641" y="288.0886" z="102.8168" heading="187.0640"
+	x1="679.6877" y1="215.2952" z1="92.1647" heading1="68.0335"
+	info="DM_INFO_A46" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_FBI5" vehicleWarp="TRUE"/>	
+</DebugMenuItems>									  

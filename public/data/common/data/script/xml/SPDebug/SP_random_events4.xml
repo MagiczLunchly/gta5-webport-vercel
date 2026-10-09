@@ -1,0 +1,83 @@
+<?xml version='1.0'?>
+<DebugMenuItems>
+
+	<!--
+	<warpItem missionID="RE48" title="Rescue Hostage" file="re_rescuehostage"  author="SI_ChM"	percentage="0"	highlight="FALSE" 
+	x="-180.7292" y="6345.0483" z="30.2821" heading="314.6517"
+	x1="-51.0990" y1="6490.3174" z1="30.3168" heading1="137.6918" 
+	x2="-165.1188" y2="6465.1729" z2="29.7342" heading2="224.2024"
+	info="DM_INFO_A50" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TREV1" vehicleWarp="TRUE"/>
+	-->
+
+	<warpItem missionID="RE49A" title="Security Van 1 - Strict" file="re_SecurityVan.sc"	author="SI_PD"	percentage="0"	highlight="FALSE"
+	x="-287.7144" y="-1397.6774" z="30.2408" heading="181.1660"
+	x1="-420.3612" y1="-1437.0085" z1="28.2551" heading1="260.4219"
+	x2="-248.5742" y2="-1424.8011" z2="30.3223" heading2="93.4790"
+	info="DM_INFO_A60" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TONYA1"  vehicleWarp="TRUE" Rank="1"/>
+	
+	<warpItem missionID="RE49B" title="Security Van 2 - Strict" file="re_SecurityVan.sc"	author="SI_PD"	percentage="0"	highlight="FALSE"
+	x="-630.1180" y="-968.2990" z="20.3385" heading="359.2009"
+	info="DM_INFO_A60" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TONYA1" vehicleWarp="TRUE" Rank="2"/>
+	
+	<warpItem missionID="RE49D" title="Security Van 4 - Lax" file="re_SecurityVan.sc"	author="SI_PD"	percentage="0"	highlight="FALSE"
+	x="-387.9284" y="5985.9722" z="30.5445" heading="317.3816"
+	x1="-487.1832" y1="6060.9043" z1="28.0771" heading1="287.1489"
+	info="DM_INFO_A60" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TONYA1" vehicleWarp="TRUE" Rank="3"/> 
+	
+	<warpItem missionID="RE49E" title="Security Van 5 - Strict" file="re_SecurityVan.sc"	author="SI_PD"	percentage="0"	highlight="FALSE"
+	x="-498.4301" y="-1087.0216" z="22.8734" heading="64.8397"
+	info="DM_INFO_A60" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TONYA1" vehicleWarp="TRUE" Rank="4"/> 
+	
+	<warpItem missionID="RE49F" title="Security Van 6 - In Van" file="re_SecurityVan.sc"	author="SI_PD"	percentage="0"	highlight="FALSE"
+	x="-959.7734" y="-1191.8604" z="3.3932" heading="27.0708"
+	info="DM_INFO_A60" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TONYA1" vehicleWarp="TRUE" Rank="5"/> 
+	
+	<warpItem missionID="RE49G" title="Security Van 7 - In Van" file="re_SecurityVan.sc"	author="SI_PD"	percentage="0"	highlight="FALSE"
+	x="-490.1459" y="-816.4809" z="29.3198" heading="1.8316"
+	info="DM_INFO_A60" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TONYA1" vehicleWarp="TRUE" Rank="6"/> 
+	
+	<warpItem missionID="RE49H" title="Security Van 8 - In Van" file="re_SecurityVan.sc"	author="SI_PD"	percentage="0"	highlight="FALSE"
+	x="3079.5281" y="3867.2041" z="74.8327" heading="174.5817"
+	info="DM_INFO_A60" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TONYA1" vehicleWarp="TRUE" Rank="7"/> 
+	
+	<warpItem missionID="RE49I" title="Security Van 9 - In Van" file="re_SecurityVan.sc"	author="SI_PD"	percentage="0"	highlight="FALSE"
+	x="-2565.6899" y="2288.9531" z="30.4588" heading="91.2050"
+	info="DM_INFO_A60" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TONYA1" vehicleWarp="TRUE" Rank="8"/> 
+	
+	<warpItem missionID="RE49J" title="Security Van 10 - In Van" file="re_SecurityVan.sc"	author="SI_PD"	percentage="0"	highlight="FALSE"
+	x="785.2940" y="-2130.6768" z="28.2550" heading="356.9021"
+	info="DM_INFO_A60" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TONYA1" vehicleWarp="TRUE" Rank="9"/> 
+	
+	<warpItem missionID="RE49K" title="Security Van 11 - In Van" file="re_SecurityVan.sc"	author="SI_PD"	percentage="0"	highlight="FALSE"
+	x="778.9777" y="-860.6795" z="24.4724" heading="0.3089"
+	info="DM_INFO_A60" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TONYA1" vehicleWarp="TRUE" Rank="10"/>
+	
+	<warpItem missionID="RE51A" title="Shop Robbery1" file="re_shoprobbery.sc" author="SI_VE" percentage="0" highlight="FALSE" 
+	x="-783.2199" y="-273.6428" z="35.9811" heading="30.8849"
+	info="DM_INFO_A31" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TONYA1" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE51B" title="Shop Robbery2" file="re_shoprobbery.sc" author="SI_VE" percentage="0" highlight="FALSE" 
+	x="-1267.8325" y="-718.5929" z="21.5263" heading="216.9806"
+	info="DM_INFO_A31" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_SHOP_CLOTHES_MID" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE52" title="Stag Do Running Man" file="re_stag_do.sc"	author="SI_KW"	percentage="0"	highlight="FALSE"	
+	x="-1104.6466" y="2672.2249" z="17.7715" heading="311.6266"
+	info="DM_INFO_A02" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TREV1" vehicleWarp="TRUE" hour="6"/>
+
+	<!--<warpItem missionID="RE58" title="Ungrateful Whore" file="re_ungratefulwhore.sc"   author="SI_KW"	percentage="0"	highlight="FALSE" character="CHAR_TREVOR"
+	x="512.9659" y="-2541.9822" z="5.0797" heading="252.6692"
+	info="DM_INFO_A20" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TREV1"/>
+	
+	<warpItem missionID="RE59" title="Wanderer" file="re_wanderer.sc" author="SI_BC" percentage="0" highlight="FALSE" 
+	x="-2342.9307" y="1032.6802" z="194.0659" heading="85.2820"
+	x1="-2494.2510" y1="1041.1929" z1="187.6109" heading1="255.8603"
+	info="DM_INFO_A46" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TREV1" vehicleWarp="TRUE"/>-->	
+
+	<warpItem missionID="RE9" title="Yetarian Beat (Franklin)" file="re_yetarian.sc" author="SI_DR" percentage="0" highlight="FALSE" character="CHAR_FRANKLIN"
+	x="-191.4498" y="-1148.6865" z="22.0026" heading="273.4302"
+	x1="-93.9709" y1="-1244.0764" z1="28.1091" heading1="0.3156"
+	x2="85.4832" y2="-1126.4072" z2="28.2944" heading2="92.4602"
+	codeID="SPCID_RANDOM_EVENT" labelID="LABEL_RE_YETARIAN"  vehicleWarp="TRUE"/>
+	
+</DebugMenuItems>
+

@@ -1,0 +1,128 @@
+		<?xml version='1.0'?>
+<DebugMenuItems>
+
+	<warpItem missionID="RE12A" title="Chase Thieves (City1)"	file="re_chasethieves.sc" 	author="SI_VE"	percentage="0"	highlight="FALSE"	
+	x="6.2315" y="-151.8366" z="55.1180" heading="235.0912"
+	info="DM_INFO_A64" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TREV1" vehicleWarp="TRUE" Rank="1"/>
+
+	<warpItem missionID="RE12B" title="Chase Thieves (City2)"	file="re_chasethieves.sc" 	author="SI_VE"	percentage="0"	highlight="FALSE"	
+	x="470.5003" y="-841.5408" z="35.2276" heading="87.7837"
+	x1="199.3054" y1="-845.3895" z1="29.6393" heading1="250.5151"
+	info="DM_INFO_A64" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TREV1" vehicleWarp="TRUE" Rank="2"/>
+
+	<warpItem missionID="RE13A" title="Chase Thieves (Country1)"	file="re_chasethieves.sc" 	author="SI_VE"	percentage="0"	highlight="FALSE"	
+	x="1683.8153" y="4960.6699" z="41.7955" heading="118.9428"
+	x1="1702.5234" y1="4711.6904" z1="41.4241" heading1="12.4825"
+	info="DM_INFO_A64" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TREV1" vehicleWarp="TRUE" Rank="3"/>
+	
+    <warpItem missionID="RE13B" title="Chase Thieves (Country2)" file="re_chasethieves.sc" author="SI_VE" percentage="0" highlight="FALSE" 
+	x="1075.1995" y="2681.5752" z="37.8935" heading="263.6979"
+	info="DM_INFO_A64" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TREV1" vehicleWarp="TRUE" Rank="4"/> 
+	
+	<warpItem missionID="RE18" title="Crash Rescue"	file="re_crashrescue.sc" 	author="SI_CF"	percentage="0"	highlight="FALSE" 
+	x="1789.8086" y="6330.0610" z="36.5893" heading="265.1296" 
+	x1="2052.0798" y1="6152.0825" z1="47.9848" heading1="40.3594"
+	info="DM_INFO_A71" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TREV1" vehicleWarp="TRUE"/>
+
+	<warpItem missionID="RE14A" title="Construction accident1"	file="re_accident.sc"	author="SI_CF"	percentage="0"	highlight="FALSE"	
+	x="-582.6345" y="-962.0540" z="21.7314" heading="269.8936"
+	x1="-509.1255" y1="-868.7087" z1="28.4342" heading1="172.6552"
+	info="DM_INFO_A44"	codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TONYA1" hour="6" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE66" title="Countryside Gang Fight" file="re_gangfight.sc" author="SI_TSS" percentage="0" highlight="FALSE" 
+	x="1153.7574" y="3627.1550" z="32.8333" heading="89.6296"
+	x1="800.4419" y1="3528.8171" z1="33.2163" heading1="275.0445"
+	codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TREV3" vehicleWarp="TRUE" character="CHAR_FRANKLIN"/>
+	
+	<warpItem missionID="RE16" title="Countryside Robbery" file="re_prisonvanbreak"  author="SI_KW"	percentage="0"	highlight="FALSE" 
+	x="248.8593" y="2801.7214" z="42.7742" heading="189.6698"
+	x1="490.2020" y1="2684.3401" z1="42.0109" heading1="94.4968"
+	info="DM_INFO_A56" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TREV1" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE21" title="Deal Gone Wrong"  file="re_DealGoneWrong"   author="SI_CF"	percentage="0"	highlight="TRUE" 
+	x="-1547.8811" y="4884.0005" z="61.6610" heading="136.3627"
+	x1="-1452.6687" y1="4705.7485" z1="39.5113" heading1="112.2318"
+	info="DM_INFO_A70" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TREV1" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE4A" title="Dirt Bike Thief (Country) 1"  file="re_bikethief"   author="SI_KW"	percentage="0"	highlight="FALSE" 
+	x="-1813.9844" y="120.2395" z="74.1246" heading="50.1634"
+	x1="-1979.3778" y1="416.0378" z1="96.7573" heading1="191.3607"
+	info="DM_INFO_A75" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TONYA1" vehicleWarp="TRUE"/>
+
+	<warpItem missionID="RE22" title="Domestic"  file="re_domestic"   author="SI_VE"	percentage="0"	highlight="FALSE"  
+	x="-351.0459" y="489.6705" z="113.1205" heading="46.7358"
+	info="DM_INFO_A14" codeID="SPCID_RANDOM_EVENT" labelID="LABEL_RE_BATCH_POST_TONYA1" vehicleWarp="TRUE" character="CHAR_TREVOR"/>
+
+<!--	<warpItem missionID="RE64" title="Drug Deal" file="re_drug_deal.sc"   author="SI_CF"	percentage="0"	highlight="FALSE"     
+	x="313.6231" y="-2019.3248" z="19.2626" heading="48.9552"
+	info="DM_INFO_A82" codeID="SPCID_RANDOM_EVENT" vehicleWarp="TRUE"/> -->
+	
+	<warpItem missionID="RE20" title="Drug Shootout"	file="re_cultshootout.sc" 	author="SI_CF"	percentage="0"	highlight="FALSE"	
+	x="2289.3049" y="5534.3633" z="50.0388" heading="71.8174"
+	info="DM_INFO_A73" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TREV1" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE24A" title="Drunk Driver1" file="re_drunkdriver.sc"   author="SI_VE"	percentage="0"	highlight="FALSE"     
+	x="-1085.4520" y="-1421.9751" z="4.0397" heading="352.4845"
+	x1="-978.9546" y1="-1232.5775" z1="4.3886" heading1="119.3114"
+	info="DM_INFO_A30" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TREV1" vehicleWarp="TRUE"/>
+
+	<warpItem missionID="RE24B" title="Drunk Driver2" file="re_drunkdriver.sc"   author="SI_VE"	percentage="0"	highlight="FALSE" 
+	x="1776.9010" y="3615.0649" z="33.5849" heading="301.5270"
+	x1="1805.6451" y1="3810.4158" z1="32.6093" heading1="212.5506"
+	info="DM_INFO_A30" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TREV1"  vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE25" title="Escape Paparazzi" file="re_paparazzi.sc"   author="SI_VE"	percentage="0"	highlight="FALSE"
+	x="381.7508" y="134.5844" z="102.0965" heading="70.1408"
+	info="DM_INFO_A66" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TONYA1" vehicleWarp="TRUE"/>
+
+<!--	<warpItem title="Gang Intimidation" file="re_Gang_shootout.sc" author="SI_BC" percentage="0"	highlight="FALSE" 
+	x="-1193.9148" y="-1446.3445" z="3.3402" heading="223" 
+	info="DM_INFO_A08" codeID="SPCID_RANDOM_EVENT"/> -->
+
+	<warpItem missionID="RE28" title="Gang Intimidation" file="re_Gang_Intimidation.sc" author="SI_BC" percentage="0" highlight="FALSE" character="CHAR_TREVOR"
+	x="1355.0490" y="-1587.2616" z="51.6515" heading="127.8524"
+	x1="1269.6730" y1="-1497.2966" z1="37.8864" heading1="198.2027"
+	info="DM_INFO_A61" codeID="SPCID_RANDOM_EVENT"  	labelID="LABEL_RE_BATCH_POST_TONYA1" vehicleWarp="TRUE"/> 
+	
+	<warpItem missionID="RE29" title="Getaway Driver" file="re_getaway_driver.sc" author="SI_BC" percentage="0" highlight="FALSE" character="CHAR_TREVOR"
+	x="53.1745" y="-1657.2786" z="28.1695" heading="52.0984"
+	x1="15.9796" y1="-1470.4043" z1="29.5023" heading1="233.4603"
+	x2="165.4670" y2="-1584.3514" z2="28.2451" heading2="76.2406"
+	info="DM_INFO_A09" codeID="SPCID_RANDOM_EVENT"		labelID="LABEL_RE_BATCH_POST_TONYA1" vehicleWarp="TRUE"/>
+	
+	<warpItem missionID="RE31A" title="Hitch Lift1" file="re_hitch_lift.sc" author="SI_VE" percentage="0" highlight="FALSE"   
+	x="-3000.4141" y="647.8108" z="20.5321" heading="15.5133"
+	x1="-3136.3320" y1="829.9268" z1="15.5721" heading1="211.3377"
+	x2="-3055.5566" y2="664.2918" z2="9.2067" heading2="37.7770"
+	info="DM_INFO_A10" codeID="SPCID_RANDOM_EVENT"		labelID="LABEL_RE_BATCH_POST_TREV1" vehicleWarp="TRUE" hour="5"/>
+	
+	<warpItem missionID="RE31B" title="Hitch Lift2" file="re_hitch_lift.sc" author="SI_VE" percentage="0" highlight="FALSE" character="CHAR_FRANKLIN"
+	x="60.4187" y="4450.5146" z="62.9044" heading="258.0865"
+	x1="286.8151" y1="4516.4253" z1="62.3315" heading1="91.5795"
+	info="DM_INFO_A10" codeID="SPCID_RANDOM_EVENT"		labelID="LABEL_RE_BATCH_POST_TREV1"  vehicleWarp="TRUE" hour="10"/>
+	
+	<warpItem missionID="RE31C" title="Hitch Lift3" file="re_hitch_lift.sc" author="SI_VE" percentage="0" highlight="FALSE"   
+	x="2646.8352" y="4327.9805" z="43.6775" heading="316.8309"
+	x1="2749.5454" y1="4468.5073" z1="46.5967" heading1="195.2192"
+	info="DM_INFO_A10" codeID="SPCID_RANDOM_EVENT"		labelID="LABEL_RE_BATCH_POST_TREV1"  vehicleWarp="TRUE" hour="10"/>
+	
+	<!--
+	<warpItem missionID="RE31D" title="Hitch Lift4" file="re_hitch_lift.sc" author="SI_VE" percentage="0" highlight="FALSE"   
+	x="1888.9255" y="3202.8096" z="44.7997" heading="43.2978"
+	x1="1915.2246" y1="3319.9565" z1="43.4235" heading1="91.0346"
+	x2="1781.8304" y2="3352.9209" z2="39.5337" heading2="208.0666"
+	info="DM_INFO_A10" codeID="SPCID_RANDOM_EVENT"		labelID="LABEL_RE_BATCH_POST_TREV1"  vehicleWarp="TRUE" hour="15"/>
+	-->
+	
+	<warpItem missionID="RE31E" title="Hitch Lift5" file="re_hitch_lift.sc" author="SI_VE" percentage="0" highlight="FALSE"   
+	x="-460.3391" y="2714.2915" z="48.9971" heading="330.1519"
+	x1="-479.3615" y1="2844.4219" z1="32.8380" heading1="278.2484"
+	info="DM_INFO_A10" codeID="SPCID_RANDOM_EVENT"		labelID="LABEL_RE_BATCH_POST_TREV1"  vehicleWarp="TRUE" hour="15"/>
+	
+	<warpItem missionID="RE32A" title="Homeland Security1" file="re_Homeland_Security.sc" author="SI_BC" percentage="0" highlight="FALSE" character="CHAR_TREVOR"
+	x="-76.0503" y="2000.2892" z="179.3793" heading="113.6577"
+	x1="-59.0099" y1="1852.7142" z1="199.9625" heading1="78.7294"
+	info="DM_INFO_A62" codeID="SPCID_RANDOM_EVENT"		labelID="LABEL_RE_BATCH_POST_TREV1"  vehicleWarp="TRUE"/>
+	
+</DebugMenuItems>
+

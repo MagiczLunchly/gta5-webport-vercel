@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<testbedCode title="Testbed Menu">
+
+	<!-- add some code options france"-->
+	<menuItem name="- - Scenes that dont stream well " />
+	<menuItem name="Family 4 streaming issues" value= "42" />
+	<menuItem name="- - crash test -- " />
+	<menuItem name="Off screen vehicle" value= "41" />
+	<menuItem name="- - Standard And Seamless Scenes -- " />
+	<menuItem name="Standard Cutscene" value= "0" />
+	<menuItem name="JanSeamlessTest" value= "1" />
+	<menuItem name="JanSeamlessTestNonPed" value= "18" />
+	<menuItem name="- - Loading Tests -- " />
+	<menuItem name="Fail to Stream Assets in time" value= "31" />
+	<menuItem name="Fail to Stream Cutfile in time" value= "32" />
+	<menuItem name="Stopping cutscene through script" value= "34" />
+	<menuItem name="Load unload test" value= "37" />
+	<menuItem name="- - Seamless Player Tests -- " />
+	<menuItem name="SCSPlayerTest1" value= "2" />
+	<menuItem name="SCSPlayerTest2" value= "3" />
+	<menuItem name="SCSPlayerTest3" value= "4" />
+	<menuItem name="- - Seamless Player Meets Ped Tests -- " />
+	<menuItem name="SCSPMP1 script ped to be animated by CS" value= "5" />
+	<menuItem name="SCSPMP2 script ped to be created by CS" value= "6" />
+	<menuItem name="SCSPMP3 script ped deleted by CS" value= "7" />
+	<menuItem name="Ped registered dead, same scene as SCSPMP1" value= "33" />
+	<menuItem name="- - Seamless Trigger Tests -- " />
+	<menuItem name="SCSPlayerMeetTriggerTest" value= "8" />
+	<menuItem name="- - Vehicle Tests -- " />
+	<menuItem name="SCSVehicleTest1" value= "9" />
+	<menuItem name="SCSVehicleTest2" value= "10" />
+	<menuItem name="SCSVehicleTest3" value= "11" />
+	<menuItem name="SCSLowVehicle" value= "19" />
+	<menuItem name="Tailgater test" value= "28" />
+	<menuItem name="- - Prop Tests -- " />
+	<menuItem name="SCSPropTest1" value= "12" />
+	<menuItem name="SCSPropTest2" value= "13" />
+	<menuItem name="SCSPropTest3" value= "14" />
+	<menuItem name="- - Skinned Prop Tests -- " />
+	<menuItem name="SCSSkinPropTest1" value= "15" />
+	<menuItem name="SCSSkinPropTest2" value= "16" />
+	<menuItem name="SCSSkinPropTest3" value= "17" />
+	<menuItem name="- - Exit Ped State Tests -- " />
+	<menuItem name="SCS_PedExitWalkState" value= "20" />
+	<menuItem name="SCS_PedExitWalkStateIntoTask" value= "30" />
+	<menuItem name="SCS_PedExitRunState" value= "21" />
+	<menuItem name="SCS_PedExitIntoFreeFall" value= "22" />
+	<menuItem name="SCS_PedExitCoverState" value= "23" />
+	<menuItem name="SCS_PedExitInVehicle" value= "35" />
+	<menuItem name="SCS_PedExitHoldingWeapon" value= "36" />
+	<menuItem name="-- Check for Dropping Frames Of Anim-- " />
+	<menuItem name="Walk" value= "26" />
+	<menuItem name="WalkSec" value= "27" />
+	<menuItem name="-- Expressions -- " />
+	<menuItem name="Expression test" value= "29" />
+	<menuItem name="-- Missions Specific -- " />
+	<menuItem name="Helibox" value= "25" />
+	<menuItem name="CBH Rayfire" value= "38" />
+	<menuItem name="-- Overlays -- " />
+	<menuItem name="Breaking News Overlay" value= "39" />
+	<menuItem name="Loading Un Loading" value= "40" />
+	<menuItem name="-- Branching -- " />
+	<menuItem name="FIB parts 2345" value= "43" />
+	<menuItem name="FIB parts 1345" value= "44" />
+</testbedCode>

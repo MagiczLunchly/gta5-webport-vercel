@@ -1,0 +1,10 @@
+<?xml version='1.0'?>
+<DebugMenuItems>
+  	<missionItem missionID="RH1" file="rural_bank_setup.sc" codeID="SPCID_HEIST" author="SI_BR" percentage="0" highlight="FALSE" info="DM_INFO_138" character="CHAR_MICHAEL" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER"/>
+	<!--<warpItem title="Paleto Score Planning Board" x="1391.7867" y="3614.4548" z="37.9704" heading="243.1685" interior="v_methlab" file="not_needed.sc" labelID="LABEL_HEIST_RURAL_SELECT_CREW" codeID="SPCID_SET_ROOM_FOR_GAME_VIEWPORT" enableID="SPEID_GAMEFLOW_ONLY" character="CHAR_MICHAEL" author="SI_BR"/>-->
+	<missionItem missionID="RHP1" file="rural_bank_prep1.sc" preCodeID="SPCID_H_RURAL_NO_TANK" author="SI_KB" percentage="0" highlight="FALSE" info="DM_INFO_033" character="CHAR_MICHAEL" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER"/>
+	<missionItem missionID="RH2" file="rural_bank_heist.sc" preCodeID="SPCID_H_RURAL_NO_TANK_CR" author="SI_RW" percentage="0" highlight="FALSE" info="DM_INFO_033" character="CHAR_MICHAEL" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER"/>
+	<breakItem/>
+	<missionItem title="Full Crew Selection - RH1 - Setup" file="rural_bank_setup.sc" preCodeID="SPCID_H_RURAL_NO_TANK_ALL_CR" author="SI_BR" percentage="0" highlight="FALSE" info="DM_INFO_138" character="CHAR_MICHAEL" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER"/>
+	<missionItem title="Full Crew Selection - RH2 - Finale" file="rural_bank_heist.sc" preCodeID="SPCID_H_RURAL_NO_TANK_ALL_CR" author="SI_RW" percentage="0" highlight="FALSE" info="DM_INFO_033" character="CHAR_MICHAEL" codeID1="SPCID_LAUNCH_FLOW_PRIOR" codeID2="SPCID_LAUNCH_FLOW_AFTER"/>
+</DebugMenuItems>

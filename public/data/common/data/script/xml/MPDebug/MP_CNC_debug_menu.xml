@@ -1,0 +1,14 @@
+<?xml version='1.0'?>
+<DebugMenuItems>
+	<menuTitle	title="DM_MP"/>
+	<bugstarFile file="SPDebug/bugstar.xml"/>
+	<!--<menuItem	title="DM_SEPT"  file="MPDebug/MP_DEMO_MENU.xml" highlight="TRUE"/>-->
+	<menuItem	title="Cops- Ambient"   file="MPDebug/MP_Cop_Ambient.xml" enableID="MPEID_COP_ONLY" info="DM_MP_COP1"/>
+	<menuItem	title="Cops- Bad Cop"   file="MPDebug/MP_Cop_BadCop.xml" enableID="MPEID_COP_ONLY" info="DM_MP_COP1"/>
+	<menuItem	title="Cops- Missions"   file="MPDebug/MP_Cop_Missions.xml" enableID="MPEID_COP_ONLY" info="DM_MP_COP1"/>
+	<menuItem	title="Crooks- Ambient"   file="MPDebug/MP_Crim_Ambient.xml" enableID="MPEID_CRIMINAL_ONLY" info="DM_MP_CRIM1"/>
+	<menuItem	title="Crooks- Missions"   file="MPDebug/MP_Crim_Missions.xml" enableID="MPEID_CRIMINAL_ONLY" info="DM_MP_CRIM1"/>
+	<!--<menuItem	title="Flow"	file="MPDebug/MP_FLOW.xml"/>-->
+	<!--<menuItem	title="Local"  file="MPDebug/local.xml" highlight="FALSE"/>-->
+	<menuItem	title="World Points"   file="MPDebug/MP_world_points.xml" />
+</DebugMenuItems>

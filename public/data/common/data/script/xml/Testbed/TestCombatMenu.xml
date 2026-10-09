@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<testbedCode title="Testbed Menu">
+
+	<!-- add some code options france"-->
+	<menuItem name="TASK_COMBAT_PED" value= "0" />
+	<menuItem name="TASK_COMBAT_HATED_TARGETS_AROUND_PED" value= "1" />
+	<menuItem name="TASK_COMBAT_HATED_TARGETS_AROUND_PED_TIMED" value= "2" />
+	<menuItem name="TASK_COMBAT_TIMED" value= "3" />
+	<menuItem name="TASK_COMBAT_HATED_PED_IN_AREA" value= "4" />
+	<menuItem name="TASK_AIM_GUN_AT_COORD" value= "5" />
+	<menuItem name="TASK_AIM_GUN_AT_ENTITY" value= "6" />
+	<menuItem name="TASK_SHOOT_AT_COORD" value= "7" />
+	<menuItem name="TASK_GOTO_X_WHILE_AIMING_AT_X" value= "8" />
+	<menuItem name="TASK_SEEK_COVER_FROM_POS" value= "9" />
+	<menuItem name="TASK_SEEK_COVER_FROM_PED" value= "10" />
+	<menuItem name="TASK_SEEK_COVER_TO_COVER_POINT" value= "11" />
+	<menuItem name="TASK_SEEK_COVER_TO_COVER_COORD" value= "12" />
+	<menuItem name="TASK_PUT_PED_DIRECTLY_INTO_COVER" value= "13" />
+	<menuItem name="TASK_GUARD_ASSIGNED_DEFENSIVE_AREA" value= "14" />
+	<menuItem name="TASK_GUARD_ANGLED_DEFENSIVE_AREA" value= "15" />
+	<menuItem name="TASK_GUARD_SPHERE_DEFENSIVE_AREA" value= "16" />
+	<menuItem name="TASK_GUARD_CURRENT_POS" value= "17" />
+	<menuItem name="TASK_STAND_GUARD" value= "18" />
+	<menuItem name="SET_PED_PREFERRED_COVER" value= "19" />
+	<menuItem name="TASK_PATROL" value= "20" />
+	<menuItem name="IS_PED_RESPONDING_TO_EVENT" value= "21" />
+	<menuItem name="HAS_PED_RECEIVED_EVENT" value = "22" />
+	<menuItem name="One ped in cover one out: advantage of cover" value= "23" />
+	<menuItem name="close quater combat" value= "24" />
+	<menuItem name="Look at peds combat out of cover" value= "25" />
+	<menuItem name="Bug: Guy with ak47: wierd sliding and popping" value= "26" />
+	<menuItem name="Squad Of Peds Moving Between Vehicles" value= "27" />
+	<menuItem name="Defensive Behind Vehicle: sliding and warping" value= "28" />
+	<menuItem name="Squad Defending Pos: examine cover selection " value= "29" />
+	<menuItem name="Bug 850: Ped Does Weird pops seeking cover" value= "30" />
+	<menuItem name="Combat range test" value= "31" />
+	<menuItem name="Shoot at coord" value= "32" />
+	<menuItem name="Patrol route tests" value= "33" />
+	<menuItem name="Bug: ped glitch when behind friend " value= "34" />
+	<menuItem name="Peds use random paths to cover" value= "35" />
+	<menuItem name="Bug: AI tank issues" value= "36" />
+	<menuItem name="Target Dummy" value= "37" />
+	<menuItem name="SWAT_VAN_DRIVE_BY" value = "38" />
+	<menuItem name="TASK_RAPPEL_DOWN_WALL (player test)" value = "39" />
+	<menuItem name="TASK_RAPPEL_DOWN_WALL (AI test)" value = "40" />
+	<menuItem name="TASK_MELEE_COMBAT_ONE" value = "41" />
+	<menuItem name="TASK_MELEE_COMBAT_MANY" value = "42" />
+	<menuItem name="TASK_DRAG_INJURED_PED" value = "43" />
+	<menuItem name="TEST_TASK_SHOOT_AT_PLAYER" value = "44" />
+	<menuItem name="TEST_TASK_SHOOT_AT_VEHICLE" value = "45" />
+	<menuItem name="TEST_TASK_AI_STEALTH_KILL" value = "46" />
+	<menuItem name="TEST_TASK_ANIMAL_MELEE" value = "47" />
+	<menuItem name="TEST_TASK_ARMED_MELEE_IN_COVER" value = "48" />
+</testbedCode>

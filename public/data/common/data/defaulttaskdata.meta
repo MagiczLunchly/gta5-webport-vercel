@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CDefaultTaskDataManager>
+	<aDefaultTaskData>
+		<Item type="CDefaultTaskDataSet">
+			<Name>STANDARD_PED</Name>
+			<onFoot type="sDefaultTaskData">
+				<Type>WANDER</Type>
+      </onFoot>
+		</Item>
+		<Item type="CDefaultTaskDataSet">
+			<Name>ANIMAL</Name>
+			<onFoot type="sDefaultTaskData">
+				<Type>DO_NOTHING</Type>
+			</onFoot>
+		</Item>	
+	</aDefaultTaskData>
+  <DefaultSet ref="STANDARD_PED"/>
+</CDefaultTaskDataManager>

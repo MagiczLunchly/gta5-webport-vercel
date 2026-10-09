@@ -1,0 +1,70 @@
+<!-- This file has been generated using Single Player Races widget -->
+<!-- Feel free to edit this file by hand or by using the widget -->
+<?xml version='1.0'?>
+<Race>
+	<Gates>
+		<Gate>
+			<Position X = "2320.6460" Y = "3514.9529" Z = "47.8363" />
+			<Checkpoint Radius = "15.0000" Type = "0" />
+		</Gate>
+		<Gate>
+			<Position X = "2433.1650" Y = "3598.3110" Z = "47.0896" />
+			<Checkpoint Radius = "15.0000" Type = "0" />
+		</Gate>
+		<Gate>
+			<Position X = "2610.5229" Y = "3791.4529" Z = "46.0480" />
+			<Checkpoint Radius = "15.0000" Type = "0" />
+		</Gate>
+		<Gate>
+			<Position X = "2664.0210" Y = "3899.3181" Z = "44.8158" />
+			<Checkpoint Radius = "15.0000" Type = "0" />
+		</Gate>
+		<Gate>
+			<Position X = "2465.6589" Y = "3845.1069" Z = "41.7976" />
+			<Checkpoint Radius = "15.0000" Type = "0" />
+		</Gate>
+		<Gate>
+			<Position X = "2304.5549" Y = "3736.1135" Z = "42.4175" />
+			<Checkpoint Radius = "15.0000" Type = "0" />
+		</Gate>
+		<Gate>
+			<Position X = "2159.2690" Y = "3675.9441" Z = "39.5505" />
+			<Checkpoint Radius = "15.0000" Type = "0" />
+		</Gate>
+		<Gate>
+			<Position X = "2110.8340" Y = "3609.2144" Z = "41.7565" />
+			<Checkpoint Radius = "15.0000" Type = "0" />
+		</Gate>
+		<Gate>
+			<Position X = "2159.1721" Y = "3516.6521" Z = "48.1379" />
+			<Checkpoint Radius = "15.0000" Type = "1" />
+		</Gate>
+	</Gates>
+	<Racers>
+		<Racer Name = "Player" >
+			<Location X = "2183.4617" Y = "3365.0320" Z = "44.7024" H = "305.5551" />
+			<Driver Type = "0" Model = "0" />
+			<Vehicle Model = "47" />
+		</Racer>
+		<Racer Name = "Racer" >
+			<Location X = "2181.9031" Y = "3367.6760" Z = "45.1782" H = "303.7556" />
+			<Driver Type = "1" Model = "1" />
+			<Vehicle Model = "47" />
+		</Racer>
+		<Racer Name = "Racer" >
+			<Location X = "2179.3579" Y = "3362.0259" Z = "45.2247" H = "309.6937" />
+			<Driver Type = "1" Model = "1" />
+			<Vehicle Model = "47" />
+		</Racer>
+		<Racer Name = "Racer" >
+			<Location X = "2177.2581" Y = "3364.4260" Z = "45.2247" H = "306.6937" />
+			<Driver Type = "1" Model = "1" />
+			<Vehicle Model = "47" />
+		</Racer>
+		<Racer Name = "AI4" >
+			<Location X = "2174.2581" Y = "3360.5259" Z = "45.2247" H = "307.3546" />
+			<Driver Type = "1" Model = "1" />
+			<Vehicle Model = "47" />
+		</Racer>
+	</Racers>
+</Race>

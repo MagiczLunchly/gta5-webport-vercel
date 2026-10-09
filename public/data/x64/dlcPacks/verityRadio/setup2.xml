@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SSetupData>
+  <deviceName>dlc_verityRadio</deviceName>
+  <datFile>content.xml</datFile>
+  <nameHash>verityRadio</nameHash>
+  <contentChangeSetGroups>
+    <Item>
+      <NameHash>GROUP_STARTUP</NameHash>
+      <ContentChangeSets>
+        <Item>VERITY_RADIO_AUTOGEN</Item>
+      </ContentChangeSets>
+    </Item>
+  </contentChangeSetGroups>
+  <type>EXTRACONTENT_COMPAT_PACK</type>
+  <order value="20" />
+</SSetupData>

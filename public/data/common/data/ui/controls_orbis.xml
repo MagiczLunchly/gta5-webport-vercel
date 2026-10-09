@@ -1,0 +1,1400 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- time, in ms to determine how long a control screen is displayed -->
+<!-- other screen settings could go here too if we needed them -->
+<controls display_duration="4500">
+
+	<context scheme="INPUT_TYPE_ON_FOOT">
+
+		<!-- labelgroups keep the control functions together -->
+		<!-- the label elements should match up to the total number of screens required
+			 (though this should be handled gracefully if not) -->
+	<labelgroups>
+			<labelgroup id="0">
+				<label>INPUT_LOCKON_DISPLAYONLY</label>
+				<label>INPUT_AIM</label>
+			</labelgroup>
+			<labelgroup id="1">
+				<label>INPUT_SELECT_WEAPON</label>
+			</labelgroup>
+			<labelgroup id="2">
+				<label>INPUT_CHANGE_CAMERA_DISPLAYONLY</label>
+				<label>INPUTGROUP_INTMENU</label>
+			</labelgroup>
+			<labelgroup id="3">
+				<label>INPUTGROUP_MOVE</label>
+				<label context="NO_MOVE_WHEN_ZOOMED">INPUT_SNIPER_ZOOM</label>
+			</labelgroup>
+			<labelgroup id="4">
+				<label>INPUT_DUCK</label>
+			</labelgroup>
+			<labelgroup id="5">
+				<label>INPUT_PHONE</label>
+				<label>INPUT_CELLPHONE_UP</label>
+				<label context="ALLOW_MOVE_WHEN_ZOOMED">INPUT_SNIPER_ZOOM</label>
+			</labelgroup>
+			<labelgroup id="6">
+				<label>INPUT_CELLPHONE_LEFT</label>
+			</labelgroup>
+			<labelgroup id="7">
+				<label>INPUT_CHARACTER_WHEEL</label>
+				<label context="ALLOW_MOVE_WHEN_ZOOMED">INPUT_SNIPER_ZOOM</label>
+				<label>INPUT_CELLPHONE_DOWN</label>
+				<label>INPUT_SKIP_PHONE_CONV_DISPLAYONLY</label>
+			</labelgroup>
+			<labelgroup id="8">
+				<label>INPUT_CELLPHONE_RIGHT</label>
+			</labelgroup>
+			<labelgroup id="9">
+				<label>INPUT_ATTACK</label>
+			</labelgroup>
+			<labelgroup id="10">
+				<label>INPUT_COVER</label>
+			</labelgroup>
+			<labelgroup id="11">
+				<label>INPUT_PAUSE</label>
+			</labelgroup>
+			<labelgroup id="12">
+				<label>INPUT_ENTER</label>
+			</labelgroup>
+			<labelgroup id="13">
+				<label>INPUT_RELOAD</label>
+				<label>INPUT_HANGUP_PHONE_DISPLAYONLY</label>
+				<label>INPUT_MELEE_ATTACK_LIGHT</label>
+				<label>INPUT_CELLPHONE_CANCEL</label>
+			</labelgroup>
+			<labelgroup id="14">
+				<label>INPUT_SPRINT</label>
+				<label>INPUT_ANSWER_PHONE_DISPLAYONLY</label>
+				<label>INPUT_MELEE_ATTACK_HEAVY</label>
+				<label>INPUT_CELLPHONE_SELECT</label>
+			</labelgroup>
+			<labelgroup id="15">
+				<label>INPUT_JUMP</label>
+				<label>INPUT_CLIMB_DISPLAYONLY</label>
+				<label>INPUT_MELEE_BLOCK</label>
+			</labelgroup>
+			<labelgroup id="16">
+				<label>INPUTGROUP_LOOK</label>
+			</labelgroup>
+			<labelgroup id="17">
+				<label>INPUT_LOOK_BEHIND</label>
+				<label>INPUT_ZOOM_AIM_DISPLAYONLY</label>
+			</labelgroup>
+
+      <!-- NEW ID's = Standard FPS formerly ALTERNATE FPS -->
+	  
+      <labelgroup id="21">
+        <label>INPUT_DUCK</label>
+        <label>INPUT_MELEE_ATTACK_HEAVY</label>
+        <label>INPUT_ANSWER_PHONE_DISPLAYONLY</label>
+        <label>INPUT_CELLPHONE_SELECT</label>
+      </labelgroup>
+      
+      <!-- NEW ID's = Alternate FPS formerly STANDARD FPS-->
+
+      <labelgroup id="18">
+        <label>INPUT_SPRINT</label>
+        <label>INPUT_SPRINT</label>
+        <label>INPUT_SPRINT</label>
+        <label>INPUT_SPRINT</label>
+      </labelgroup>
+
+      <labelgroup id="19">
+        <label>INPUT_JUMP</label>
+        <label>INPUT_MELEE_ATTACK_HEAVY</label>
+        <label>INPUT_ANSWER_PHONE_DISPLAYONLY</label>
+        <label>INPUT_CELLPHONE_SELECT</label>
+      </labelgroup>
+
+      <labelgroup id="20">
+        <label>INPUT_COVER</label>
+        <label>INPUT_MELEE_BLOCK</label>
+        <label>INPUT_CLIMB_DISPLAYONLY</label>
+        <label>INPUT_COVER</label>
+      </labelgroup>
+
+		</labelgroups>
+
+		<!-- input mappings define the layout of the labels in the
+			 order of the buttons shown on the settings screen -->
+		<controlgroups>
+			<!-- type 0 = Standard -->
+			<control type="0">
+				<input labelgroup_id="0" />
+				<input labelgroup_id="1" />
+				<input labelgroup_id="2" />
+				<input labelgroup_id="5" />
+				<input labelgroup_id="6" />
+				<input labelgroup_id="7" />
+				<input labelgroup_id="8" />
+				<input labelgroup_id="3" />
+				<input labelgroup_id="4" />				
+				<input labelgroup_id="9" />
+				<input labelgroup_id="10" />
+				<input labelgroup_id="11" />
+				<input labelgroup_id="12" />
+				<input labelgroup_id="13" />
+				<input labelgroup_id="14" />
+				<input labelgroup_id="15" />
+				<input labelgroup_id="17" />
+				<input labelgroup_id="16" />
+			</control>
+
+			<!-- type 1 = Alternate -->
+			<control type="1">
+				<input labelgroup_id="1" />
+				<input labelgroup_id="0" />
+				<input labelgroup_id="2" />
+				<input labelgroup_id="5" />
+				<input labelgroup_id="6" />
+				<input labelgroup_id="7" />
+				<input labelgroup_id="8" />
+				<input labelgroup_id="3" />
+				<input labelgroup_id="4" />				
+				<input labelgroup_id="10" />
+				<input labelgroup_id="9" />
+				<input labelgroup_id="11" />
+				<input labelgroup_id="12" />
+				<input labelgroup_id="13" />
+				<input labelgroup_id="14" />
+				<input labelgroup_id="15" />
+				<input labelgroup_id="17" />
+				<input labelgroup_id="16" />
+			</control>
+
+			<!-- type 2 = Southpaw -->
+			<control type="2">
+				<input labelgroup_id="0" />
+				<input labelgroup_id="1" />
+				<input labelgroup_id="2" />
+				<input labelgroup_id="5" />
+				<input labelgroup_id="6" />
+				<input labelgroup_id="7" />
+				<input labelgroup_id="8" />
+				<input labelgroup_id="17" />
+				<input labelgroup_id="16" />
+				<input labelgroup_id="9" />
+				<input labelgroup_id="10" />
+				<input labelgroup_id="11" />
+				<input labelgroup_id="12" />
+				<input labelgroup_id="13" />
+				<input labelgroup_id="14" />
+				<input labelgroup_id="15" />
+				<input labelgroup_id="4" />
+				<input labelgroup_id="3" />
+			</control>
+
+			<!-- type 3 = Southpaw+Alternate -->
+			<control type="3">
+				<input labelgroup_id="1" />
+				<input labelgroup_id="0" />
+				<input labelgroup_id="2" />
+				<input labelgroup_id="5" />
+				<input labelgroup_id="6" />
+				<input labelgroup_id="7" />
+				<input labelgroup_id="8" />
+				<input labelgroup_id="16" />
+				<input labelgroup_id="17" />
+				<input labelgroup_id="10" />
+				<input labelgroup_id="9" />
+				<input labelgroup_id="11" />
+				<input labelgroup_id="12" />
+				<input labelgroup_id="13" />
+				<input labelgroup_id="19" />
+				<input labelgroup_id="20" />
+				<input labelgroup_id="4" />
+				<input labelgroup_id="3" />
+			</control>
+
+      <!-- type 4 = Standard FPS formerly Alternate FPS-->
+      <control type="4">
+		<input labelgroup_id="0" />
+        <input labelgroup_id="1" />
+        <input labelgroup_id="2" />
+        <input labelgroup_id="5" />
+        <input labelgroup_id="6" />
+        <input labelgroup_id="7" />
+        <input labelgroup_id="8" />
+        <input labelgroup_id="3" />
+        <input labelgroup_id="18" />
+        <input labelgroup_id="9" />
+        <input labelgroup_id="10" />
+        <input labelgroup_id="11" />
+        <input labelgroup_id="12" />
+        <input labelgroup_id="13" />
+        <input labelgroup_id="21" />
+        <input labelgroup_id="15" />
+        <input labelgroup_id="17" />
+        <input labelgroup_id="16" />
+      </control>
+
+      <!-- type 5 = Alternate FPS formerly Standard FPS-->
+      <control type="5">
+	    <input labelgroup_id="1" />
+        <input labelgroup_id="0" />
+        <input labelgroup_id="2" />
+        <input labelgroup_id="5" />
+        <input labelgroup_id="6" />
+        <input labelgroup_id="7" />
+        <input labelgroup_id="8" />
+        <input labelgroup_id="3" />
+        <input labelgroup_id="4" />
+        <input labelgroup_id="18" />
+        <input labelgroup_id="9" />
+        <input labelgroup_id="11" />
+        <input labelgroup_id="12" />
+        <input labelgroup_id="13" />
+        <input labelgroup_id="19" />
+        <input labelgroup_id="20" />
+        <input labelgroup_id="17" />
+        <input labelgroup_id="16" />
+      </control>
+
+      <!-- type 6 = Southpaw FPS -->
+      <control type="6">
+        <input labelgroup_id="0" />
+        <input labelgroup_id="1" />
+        <input labelgroup_id="2" />
+        <input labelgroup_id="5" />
+        <input labelgroup_id="6" />
+        <input labelgroup_id="7" />
+        <input labelgroup_id="8" />
+		<input labelgroup_id="16" />
+        <input labelgroup_id="17" />
+        <input labelgroup_id="9" />
+        <input labelgroup_id="18" />
+        <input labelgroup_id="11" />
+        <input labelgroup_id="12" />
+        <input labelgroup_id="13" />
+        <input labelgroup_id="19" />
+        <input labelgroup_id="20" />
+        <input labelgroup_id="4" />
+        <input labelgroup_id="3" />
+      </control>
+
+      <!-- type 7 = Southpaw FPS + Alternative -->
+      <control type="7">
+        <input labelgroup_id="1" />
+        <input labelgroup_id="0" />
+        <input labelgroup_id="2" />
+        <input labelgroup_id="5" />
+        <input labelgroup_id="6" />
+        <input labelgroup_id="7" />
+        <input labelgroup_id="8" />
+		<input labelgroup_id="16" />
+        <input labelgroup_id="17" />
+        <input labelgroup_id="9" />
+        <input labelgroup_id="10" />
+        <input labelgroup_id="11" />
+        <input labelgroup_id="12" />
+        <input labelgroup_id="13" />
+        <input labelgroup_id="21" />
+        <input labelgroup_id="15" />
+        <input labelgroup_id="18" />
+        <input labelgroup_id="3" />
+      </control>
+      <!-- type 8 = Standard FPS2 -->
+      <control type="8">
+        <input labelgroup_id="0" />
+        <input labelgroup_id="1" />
+        <input labelgroup_id="2" />
+        <input labelgroup_id="5" />
+        <input labelgroup_id="6" />
+        <input labelgroup_id="7" />
+        <input labelgroup_id="8" />
+		<input labelgroup_id="3" />
+        <input labelgroup_id="4" />
+        <input labelgroup_id="9" />
+        <input labelgroup_id="18" />
+        <input labelgroup_id="11" />
+        <input labelgroup_id="12" />
+        <input labelgroup_id="13" />
+        <input labelgroup_id="19" />
+        <input labelgroup_id="20" />
+        <input labelgroup_id="17" />
+        <input labelgroup_id="16" />
+      </control>
+
+      <!-- type 9 = Alternate FPS2 -->
+      <control type="9">
+        <input labelgroup_id="1" />
+        <input labelgroup_id="0" />
+        <input labelgroup_id="2" />
+        <input labelgroup_id="5" />
+        <input labelgroup_id="6" />
+        <input labelgroup_id="7" />
+        <input labelgroup_id="8" />
+		<input labelgroup_id="3" />
+        <input labelgroup_id="18" />
+        <input labelgroup_id="10" />
+        <input labelgroup_id="9" />
+        <input labelgroup_id="11" />
+        <input labelgroup_id="12" />
+        <input labelgroup_id="13" />
+        <input labelgroup_id="21" />
+        <input labelgroup_id="15" />
+        <input labelgroup_id="17" />
+        <input labelgroup_id="16" />
+      </control>
+
+      <!-- type 10 = Southpaw FPS2 -->
+      <control type="10">
+        <input labelgroup_id="0" />
+        <input labelgroup_id="1" />
+        <input labelgroup_id="2" />
+        <input labelgroup_id="5" />
+        <input labelgroup_id="6" />
+        <input labelgroup_id="7" />
+        <input labelgroup_id="8" />
+		<input labelgroup_id="16" />
+        <input labelgroup_id="17" />
+        <input labelgroup_id="9" />
+        <input labelgroup_id="10" />
+        <input labelgroup_id="11" />
+        <input labelgroup_id="12" />
+        <input labelgroup_id="13" />
+        <input labelgroup_id="21" />
+        <input labelgroup_id="15" />
+        <input labelgroup_id="18" />
+        <input labelgroup_id="3" />
+      </control>
+
+      <!-- type 11 = Southpaw FPS2 + Alternative -->
+      <control type="11">
+        <input labelgroup_id="1" />
+        <input labelgroup_id="0" />
+        <input labelgroup_id="2" />
+        <input labelgroup_id="5" />
+        <input labelgroup_id="6" />
+        <input labelgroup_id="7" />
+        <input labelgroup_id="8" />
+		<input labelgroup_id="16" />
+        <input labelgroup_id="17" />
+        <input labelgroup_id="10" />
+        <input labelgroup_id="9" />
+        <input labelgroup_id="11" />
+        <input labelgroup_id="12" />
+        <input labelgroup_id="13" />
+        <input labelgroup_id="21" />
+        <input labelgroup_id="15" />
+        <input labelgroup_id="18" />
+        <input labelgroup_id="3" />
+      </control>
+		</controlgroups>
+
+	</context>
+
+	<context scheme="INPUT_TYPE_IN_VEHICLE">
+
+		<labelgroups>
+			<labelgroup id="0">
+				<label>INPUT_VEH_BRAKE</label>
+				<label>INPUT_VEH_REVERSE_DISPLAYONLY</label>
+			</labelgroup>
+			<labelgroup id="1">
+				<label>INPUT_VEH_AIM</label>
+			</labelgroup>
+			<labelgroup id="2">
+				<label>INPUT_CHANGE_CAMERA_DISPLAYONLY</label>
+				<label>INPUTGROUP_INTMENU</label>
+			</labelgroup>
+			<labelgroup id="3">
+				<label>INPUT_VEH_MOVE_LR</label>
+			</labelgroup>
+			<labelgroup id="4">
+				<label>INPUT_VEH_HORN</label>
+			</labelgroup>
+			<labelgroup id="5">
+				<label>INPUT_PHONE</label>
+				<label>INPUT_CELLPHONE_UP</label>
+			</labelgroup>
+			<labelgroup id="6">
+				<label>INPUT_VEH_RADIO_WHEEL</label>
+				<label>INPUT_CELLPHONE_LEFT</label>
+			</labelgroup>
+			<labelgroup id="7">
+				<label>INPUT_CHARACTER_WHEEL</label>
+				<label>INPUT_CELLPHONE_DOWN</label>
+			</labelgroup>
+			<labelgroup id="8">
+				<label>INPUT_VEH_HEADLIGHT</label>
+				<label>INPUT_CELLPHONE_RIGHT</label>
+			</labelgroup>
+			<labelgroup id="9">
+				<label>INPUT_VEH_ACCELERATE</label>
+			</labelgroup>
+			<labelgroup id="10">
+				<label context="USING_ALTERNATE_HANDBRAKE">INPUT_VEH_DUCK</label>
+				<label context="NOT_USING_ALTERNATE_HANDBRAKE">INPUT_VEH_HANDBRAKE</label>
+				<label>INPUT_VEH_ATTACK</label>
+			</labelgroup>
+			<labelgroup id="11">
+				<label>INPUT_PAUSE</label>
+			</labelgroup>			
+			<labelgroup id="12">
+				<label>INPUT_VEH_EXIT</label>
+			</labelgroup>
+			<labelgroup id="13">
+				<label>INPUT_VEH_CIN_CAM</label>
+				<label>INPUT_HANGUP_PHONE_DISPLAYONLY</label>
+				<label>INPUT_CELLPHONE_CANCEL</label>
+				<label>INPUT_VEH_FOCUS_CAMERA_DISPLAYONLY</label>
+			</labelgroup>
+			<labelgroup id="14">
+				<label context="NOT_USING_ALTERNATE_HANDBRAKE">INPUT_VEH_DUCK</label>
+				<label context="USING_ALTERNATE_HANDBRAKE">INPUT_VEH_HANDBRAKE</label>
+				<label>INPUT_ANSWER_PHONE_DISPLAYONLY</label>
+				<label>INPUT_CELLPHONE_SELECT</label>
+			</labelgroup>
+			<labelgroup id="15">
+				<label>INPUT_VEH_SELECT_NEXT_WEAPON</label>
+			</labelgroup>
+			<labelgroup id="16">
+				<label>INPUTGROUP_LOOK</label>
+			</labelgroup>
+			<labelgroup id="17">
+				<label>INPUT_LOOK_BEHIND</label>
+			</labelgroup>
+		</labelgroups>
+
+		<!-- input mappings define the layout of the labels in the
+			 order of the buttons shown on the settings screen -->
+		<controlgroups>
+			<!-- type 0 = Standard in vehicle -->
+			<control type="0">
+				<input labelgroup_id="0" />
+				<input labelgroup_id="1" />
+				<input labelgroup_id="2" />
+				<input labelgroup_id="5" />
+				<input labelgroup_id="6" />
+				<input labelgroup_id="7" />
+				<input labelgroup_id="8" />
+				<input labelgroup_id="3" />
+				<input labelgroup_id="4" />
+				<input labelgroup_id="9" />
+				<input labelgroup_id="10" />
+				<input labelgroup_id="11" />
+				<input labelgroup_id="12" />
+				<input labelgroup_id="13" />
+				<input labelgroup_id="14" />
+				<input labelgroup_id="15" />
+				<input labelgroup_id="17" />
+				<input labelgroup_id="16" />
+			</control>
+
+		<!-- type 1 = Alternate in vehicle -->
+			<control type="1">
+				<input labelgroup_id="0" />
+				<input labelgroup_id="1" />
+				<input labelgroup_id="2" />
+				<input labelgroup_id="5" />
+				<input labelgroup_id="6" />
+				<input labelgroup_id="7" />
+				<input labelgroup_id="8" />
+				<input labelgroup_id="3" />
+				<input labelgroup_id="4" />
+				<input labelgroup_id="9" />
+				<input labelgroup_id="10" />
+				<input labelgroup_id="11" />
+				<input labelgroup_id="12" />
+				<input labelgroup_id="13" />
+				<input labelgroup_id="14" />
+				<input labelgroup_id="15" />
+				<input labelgroup_id="17" />
+				<input labelgroup_id="16" />
+			</control>
+
+			<!-- type 2 = Southpaw in vehicle -->
+			<control type="2">
+				<input labelgroup_id="0" />
+				<input labelgroup_id="1" />
+				<input labelgroup_id="2" />
+				<input labelgroup_id="5" />
+				<input labelgroup_id="6" />
+				<input labelgroup_id="7" />
+				<input labelgroup_id="8" />
+				<input labelgroup_id="16" />
+				<input labelgroup_id="17" />
+				<input labelgroup_id="9" />
+				<input labelgroup_id="10" />
+				<input labelgroup_id="11" />
+				<input labelgroup_id="12" />
+				<input labelgroup_id="13" />
+				<input labelgroup_id="14" />
+				<input labelgroup_id="15" />
+				<input labelgroup_id="4" />
+				<input labelgroup_id="3" />
+			</control>
+
+            <!-- type 3 = Southpaw+Alternate in vehicle -->
+			<control type="3">
+				<input labelgroup_id="0" />
+				<input labelgroup_id="1" />
+				<input labelgroup_id="2" />
+				<input labelgroup_id="5" />
+				<input labelgroup_id="6" />
+				<input labelgroup_id="7" />
+				<input labelgroup_id="8" />
+				<input labelgroup_id="16" />
+				<input labelgroup_id="17" />
+				<input labelgroup_id="9" />
+				<input labelgroup_id="10" />
+				<input labelgroup_id="11" />
+				<input labelgroup_id="12" />
+				<input labelgroup_id="13" />
+				<input labelgroup_id="14" />
+				<input labelgroup_id="15" />
+				<input labelgroup_id="4" />
+				<input labelgroup_id="3" />
+			</control>
+			
+			<!-- type 4 = Standard FPS in vehicle -->
+			<control type="4">
+				<input labelgroup_id="0" />
+				<input labelgroup_id="1" />
+				<input labelgroup_id="2" />
+				<input labelgroup_id="5" />
+				<input labelgroup_id="6" />
+				<input labelgroup_id="7" />
+				<input labelgroup_id="8" />
+				<input labelgroup_id="3" />
+				<input labelgroup_id="4" />
+				<input labelgroup_id="9" />
+				<input labelgroup_id="10" />
+				<input labelgroup_id="11" />
+				<input labelgroup_id="12" />
+				<input labelgroup_id="13" />
+				<input labelgroup_id="14" />
+				<input labelgroup_id="15" />
+				<input labelgroup_id="17" />
+				<input labelgroup_id="16" />
+			</control>
+
+			<!-- type 5 = Alternate FPS in vehicle -->
+			<control type="5">
+				<input labelgroup_id="0" />
+				<input labelgroup_id="1" />
+				<input labelgroup_id="2" />
+				<input labelgroup_id="5" />
+				<input labelgroup_id="6" />
+				<input labelgroup_id="7" />
+				<input labelgroup_id="8" />
+				<input labelgroup_id="3" />
+				<input labelgroup_id="4" />
+				<input labelgroup_id="9" />
+				<input labelgroup_id="10" />
+				<input labelgroup_id="11" />
+				<input labelgroup_id="12" />
+				<input labelgroup_id="13" />
+				<input labelgroup_id="14" />
+				<input labelgroup_id="15" />
+				<input labelgroup_id="17" />
+				<input labelgroup_id="16" />
+			</control>
+			
+			<!-- type 6 = Southpaw FPS in vehicle -->
+			<control type="6">
+				<input labelgroup_id="0" />
+				<input labelgroup_id="1" />
+				<input labelgroup_id="2" />
+				<input labelgroup_id="5" />
+				<input labelgroup_id="6" />
+				<input labelgroup_id="7" />
+				<input labelgroup_id="8" />
+				<input labelgroup_id="16" />
+				<input labelgroup_id="17" />
+				<input labelgroup_id="9" />
+				<input labelgroup_id="10" />
+				<input labelgroup_id="11" />
+				<input labelgroup_id="12" />
+				<input labelgroup_id="13" />
+				<input labelgroup_id="14" />
+				<input labelgroup_id="15" />
+				<input labelgroup_id="4" />
+				<input labelgroup_id="3" />
+			</control>
+			
+			<!-- type 7 = Southpaw FPS+Alternate in vehicle -->
+			<control type="7">
+				<input labelgroup_id="0" />
+				<input labelgroup_id="1" />
+				<input labelgroup_id="2" />
+				<input labelgroup_id="5" />
+				<input labelgroup_id="6" />
+				<input labelgroup_id="7" />
+				<input labelgroup_id="8" />
+				<input labelgroup_id="16" />
+				<input labelgroup_id="17" />
+				<input labelgroup_id="9" />
+				<input labelgroup_id="10" />
+				<input labelgroup_id="11" />
+				<input labelgroup_id="12" />
+				<input labelgroup_id="13" />
+				<input labelgroup_id="14" />
+				<input labelgroup_id="15" />
+				<input labelgroup_id="4" />
+				<input labelgroup_id="3" />
+			</control>
+			
+			<!-- type 8 = Standard FPS2 in vehicle -->
+			<control type="8">
+				<input labelgroup_id="0" />
+				<input labelgroup_id="1" />
+				<input labelgroup_id="2" />
+				<input labelgroup_id="5" />
+				<input labelgroup_id="6" />
+				<input labelgroup_id="7" />
+				<input labelgroup_id="8" />
+				<input labelgroup_id="3" />
+				<input labelgroup_id="4" />
+				<input labelgroup_id="9" />
+				<input labelgroup_id="10" />
+				<input labelgroup_id="11" />
+				<input labelgroup_id="12" />
+				<input labelgroup_id="13" />
+				<input labelgroup_id="14" />
+				<input labelgroup_id="15" />
+				<input labelgroup_id="17" />
+				<input labelgroup_id="16" />
+			</control>
+			
+			<!-- type 9 = Alternate FPS2 in vehicle -->
+			<control type="9">
+				<input labelgroup_id="0" />
+				<input labelgroup_id="1" />
+				<input labelgroup_id="2" />
+				<input labelgroup_id="5" />
+				<input labelgroup_id="6" />
+				<input labelgroup_id="7" />
+				<input labelgroup_id="8" />
+				<input labelgroup_id="3" />
+				<input labelgroup_id="4" />
+				<input labelgroup_id="9" />
+				<input labelgroup_id="10" />
+				<input labelgroup_id="11" />
+				<input labelgroup_id="12" />
+				<input labelgroup_id="13" />
+				<input labelgroup_id="14" />
+				<input labelgroup_id="15" />
+				<input labelgroup_id="17" />
+				<input labelgroup_id="16" />
+			</control>
+			
+			<!-- type 10 = Southpaw FPS2 in vehicle -->
+			<control type="10">
+				<input labelgroup_id="0" />
+				<input labelgroup_id="1" />
+				<input labelgroup_id="2" />
+				<input labelgroup_id="5" />
+				<input labelgroup_id="6" />
+				<input labelgroup_id="7" />
+				<input labelgroup_id="8" />
+				<input labelgroup_id="16" />
+				<input labelgroup_id="17" />
+				<input labelgroup_id="9" />
+				<input labelgroup_id="10" />
+				<input labelgroup_id="11" />
+				<input labelgroup_id="12" />
+				<input labelgroup_id="13" />
+				<input labelgroup_id="14" />
+				<input labelgroup_id="15" />
+				<input labelgroup_id="4" />
+				<input labelgroup_id="3" />
+			</control>
+			
+			<!-- type 11 = Southpaw FPS2+Alternative in vehicle -->
+			<control type="11">
+				<input labelgroup_id="0" />
+				<input labelgroup_id="1" />
+				<input labelgroup_id="2" />
+				<input labelgroup_id="5" />
+				<input labelgroup_id="6" />
+				<input labelgroup_id="7" />
+				<input labelgroup_id="8" />
+				<input labelgroup_id="16" />
+				<input labelgroup_id="17" />
+				<input labelgroup_id="9" />
+				<input labelgroup_id="10" />
+				<input labelgroup_id="11" />
+				<input labelgroup_id="12" />
+				<input labelgroup_id="13" />
+				<input labelgroup_id="14" />
+				<input labelgroup_id="15" />
+				<input labelgroup_id="4" />
+				<input labelgroup_id="3" />
+			</control>
+			
+		</controlgroups>
+
+	</context>
+
+	<context scheme="INPUT_TYPE_IN_PLANE">
+
+		<labelgroups>
+			<labelgroup id="0">
+				<label>INPUT_VEH_FLY_THROTTLE_DOWN</label>
+				<label>INPUT_VEH_FLY_HELI_DESCEND_DISPLAYONLY</label>
+			</labelgroup>
+			<labelgroup id="1">
+				<label>INPUT_VEH_FLY_YAW_LEFT</label>
+			</labelgroup>
+			<labelgroup id="2">
+				<label>INPUT_CHANGE_CAMERA_DISPLAYONLY</label>
+				<label>INPUTGROUP_INTMENU</label>
+			</labelgroup>
+			<labelgroup id="3">
+				<label>INPUT_VEH_FLY_PITCH_ROLL_DISPLAYONLY</label>
+			</labelgroup>
+			<labelgroup id="4">
+				<label>INPUT_VEH_FLY_UNDERCARRIAGE</label>
+			</labelgroup>
+			<labelgroup id="5">
+				<label>INPUT_PHONE</label>
+				<label>INPUT_CELLPHONE_UP</label>
+			</labelgroup>
+			<labelgroup id="6">
+				<label>INPUT_VEH_RADIO_WHEEL</label>
+				<label>INPUT_CELLPHONE_LEFT</label>
+			</labelgroup>
+			<labelgroup id="7">
+				<label>INPUT_CELLPHONE_DOWN</label>
+			</labelgroup>
+			<labelgroup id="8">
+				<label>INPUT_VEH_HEADLIGHT</label>
+				<label>INPUT_CELLPHONE_RIGHT</label>
+			</labelgroup>
+			<labelgroup id="9">
+				<label>INPUT_VEH_FLY_THROTTLE_UP</label>
+				<label>INPUT_VEH_FLY_HELI_ASCEND_DISPLAYONLY</label>
+			</labelgroup>
+			<labelgroup id="10">
+				<label>INPUT_VEH_FLY_YAW_RIGHT</label>
+			</labelgroup>
+			<labelgroup id="11">
+				<label>INPUT_PAUSE</label>
+			</labelgroup>
+			<labelgroup id="12">
+				<label>INPUT_VEH_EXIT</label>
+			</labelgroup>
+			<labelgroup id="13">
+				<label>INPUT_VEH_CIN_CAM</label>
+				<label>INPUT_CELLPHONE_CANCEL</label>
+			</labelgroup>
+			<labelgroup id="14">
+				<label>INPUT_VEH_FLY_ATTACK</label>
+				<label>INPUT_CELLPHONE_SELECT</label>
+			</labelgroup>
+			<labelgroup id="15">
+				<label>INPUT_VEH_FLY_SELECT_NEXT_WEAPON</label>
+			</labelgroup>
+			<labelgroup id="16">
+				<label>INPUTGROUP_LOOK</label>
+			</labelgroup>
+			<labelgroup id="17">
+				<label>INPUT_LOOK_BEHIND</label>
+			</labelgroup>
+		</labelgroups>
+
+		<controlgroups>
+		
+			<!-- type 0 = Standard -->
+			<control type="0">
+				<input labelgroup_id="0" />
+				<input labelgroup_id="1" />
+				<input labelgroup_id="2" />
+				<input labelgroup_id="5" />
+				<input labelgroup_id="6" />
+				<input labelgroup_id="7" />
+				<input labelgroup_id="8" />
+				<input labelgroup_id="3" />
+				<input labelgroup_id="4" />
+				<input labelgroup_id="9" />
+				<input labelgroup_id="10" />
+				<input labelgroup_id="11" />
+				<input labelgroup_id="12" />
+				<input labelgroup_id="13" />
+				<input labelgroup_id="14" />
+				<input labelgroup_id="15" />
+				<input labelgroup_id="17" />
+				<input labelgroup_id="16" />
+			</control>
+
+			<!-- type 1 = Alternate -->
+			<control type="1">
+				<input labelgroup_id="0" />
+				<input labelgroup_id="1" />
+				<input labelgroup_id="2" />
+				<input labelgroup_id="5" />
+				<input labelgroup_id="6" />
+				<input labelgroup_id="7" />
+				<input labelgroup_id="8" />
+				<input labelgroup_id="3" />
+				<input labelgroup_id="4" />
+				<input labelgroup_id="9" />
+				<input labelgroup_id="10" />
+				<input labelgroup_id="11" />
+				<input labelgroup_id="12" />
+				<input labelgroup_id="13" />
+				<input labelgroup_id="14" />
+				<input labelgroup_id="15" />
+				<input labelgroup_id="17" />
+				<input labelgroup_id="16" />
+			</control>
+
+			<!-- type 2 = Southpaw -->
+			<control type="2">
+				<input labelgroup_id="0" />
+				<input labelgroup_id="1" />
+				<input labelgroup_id="2" />
+				<input labelgroup_id="5" />
+				<input labelgroup_id="6" />
+				<input labelgroup_id="7" />
+				<input labelgroup_id="8" />
+				<input labelgroup_id="16" />
+				<input labelgroup_id="17" />
+				<input labelgroup_id="9" />
+				<input labelgroup_id="10" />
+				<input labelgroup_id="11" />
+				<input labelgroup_id="12" />
+				<input labelgroup_id="13" />
+				<input labelgroup_id="14" />
+				<input labelgroup_id="15" />
+				<input labelgroup_id="4" />
+				<input labelgroup_id="3" />
+			</control>
+
+			<!-- type 3 = Southpaw+Alternate -->
+			<control type="3">
+				<input labelgroup_id="0" />
+				<input labelgroup_id="1" />
+				<input labelgroup_id="2" />
+				<input labelgroup_id="5" />
+				<input labelgroup_id="6" />
+				<input labelgroup_id="7" />
+				<input labelgroup_id="8" />
+				<input labelgroup_id="16" />
+				<input labelgroup_id="17" />
+				<input labelgroup_id="9" />
+				<input labelgroup_id="10" />
+				<input labelgroup_id="11" />
+				<input labelgroup_id="12" />
+				<input labelgroup_id="13" />
+				<input labelgroup_id="14" />
+				<input labelgroup_id="15" />
+				<input labelgroup_id="4" />
+				<input labelgroup_id="3" />
+			</control>
+						
+			<!-- type 4 = Standard FPS formerly Alternate FPS-->
+				<control type="4">
+				<input labelgroup_id="0" />
+				<input labelgroup_id="1" />
+				<input labelgroup_id="2" />
+				<input labelgroup_id="5" />
+				<input labelgroup_id="6" />
+				<input labelgroup_id="7" />
+				<input labelgroup_id="8" />
+				<input labelgroup_id="3" />
+				<input labelgroup_id="4" />
+				<input labelgroup_id="9" />
+				<input labelgroup_id="10" />
+				<input labelgroup_id="11" />
+				<input labelgroup_id="12" />
+				<input labelgroup_id="13" />
+				<input labelgroup_id="14" />
+				<input labelgroup_id="15" />
+				<input labelgroup_id="17" />
+				<input labelgroup_id="16" />
+			</control>
+			
+			<!-- type 5 = Alternate FPS formerly Standard FPS-->
+				<control type="5">
+				<input labelgroup_id="0" />
+				<input labelgroup_id="1" />
+				<input labelgroup_id="2" />
+				<input labelgroup_id="5" />
+				<input labelgroup_id="6" />
+				<input labelgroup_id="7" />
+				<input labelgroup_id="8" />
+				<input labelgroup_id="3" />
+				<input labelgroup_id="4" />
+				<input labelgroup_id="9" />
+				<input labelgroup_id="10" />
+				<input labelgroup_id="11" />
+				<input labelgroup_id="12" />
+				<input labelgroup_id="13" />
+				<input labelgroup_id="14" />
+				<input labelgroup_id="15" />
+				<input labelgroup_id="17" />
+				<input labelgroup_id="16" />
+			</control>
+			
+			<!-- type 6 = Southpaw FPS -->
+				<control type="6">
+				<input labelgroup_id="0" />
+				<input labelgroup_id="1" />
+				<input labelgroup_id="2" />
+				<input labelgroup_id="5" />
+				<input labelgroup_id="6" />
+				<input labelgroup_id="7" />
+				<input labelgroup_id="8" />
+				<input labelgroup_id="16" />
+				<input labelgroup_id="17" />
+				<input labelgroup_id="9" />
+				<input labelgroup_id="10" />
+				<input labelgroup_id="11" />
+				<input labelgroup_id="12" />
+				<input labelgroup_id="13" />
+				<input labelgroup_id="14" />
+				<input labelgroup_id="15" />
+				<input labelgroup_id="4" />
+				<input labelgroup_id="3" />
+			</control>
+			
+			<!-- type 7 = Southpaw FPS + Alternative -->
+				<control type="7">
+				<input labelgroup_id="0" />
+				<input labelgroup_id="1" />
+				<input labelgroup_id="2" />
+				<input labelgroup_id="5" />
+				<input labelgroup_id="6" />
+				<input labelgroup_id="7" />
+				<input labelgroup_id="8" />
+				<input labelgroup_id="16" />
+				<input labelgroup_id="17" />
+				<input labelgroup_id="9" />
+				<input labelgroup_id="10" />
+				<input labelgroup_id="11" />
+				<input labelgroup_id="12" />
+				<input labelgroup_id="13" />
+				<input labelgroup_id="14" />
+				<input labelgroup_id="15" />
+				<input labelgroup_id="4" />
+				<input labelgroup_id="3" />
+			</control>
+						
+			
+			<!-- type 8 = Standard FPS2 -->
+				<control type="8">
+				<input labelgroup_id="0" />
+				<input labelgroup_id="1" />
+				<input labelgroup_id="2" />
+				<input labelgroup_id="5" />
+				<input labelgroup_id="6" />
+				<input labelgroup_id="7" />
+				<input labelgroup_id="8" />
+				<input labelgroup_id="3" />
+				<input labelgroup_id="4" />
+				<input labelgroup_id="9" />
+				<input labelgroup_id="10" />
+				<input labelgroup_id="11" />
+				<input labelgroup_id="12" />
+				<input labelgroup_id="13" />
+				<input labelgroup_id="14" />
+				<input labelgroup_id="15" />
+				<input labelgroup_id="17" />
+				<input labelgroup_id="16" />
+			</control>
+			
+			<!-- type 9 = Alternate FPS2 -->
+				<control type="9">
+				<input labelgroup_id="0" />
+				<input labelgroup_id="1" />
+				<input labelgroup_id="2" />
+				<input labelgroup_id="5" />
+				<input labelgroup_id="6" />
+				<input labelgroup_id="7" />
+				<input labelgroup_id="8" />
+				<input labelgroup_id="16" />
+				<input labelgroup_id="17" />
+				<input labelgroup_id="9" />
+				<input labelgroup_id="10" />
+				<input labelgroup_id="11" />
+				<input labelgroup_id="12" />
+				<input labelgroup_id="13" />
+				<input labelgroup_id="14" />
+				<input labelgroup_id="15" />
+				<input labelgroup_id="4" />
+				<input labelgroup_id="3" />
+			</control>
+			
+			<!-- type 10 = Southpaw FPS2 -->
+				<control type="10">
+				<input labelgroup_id="0" />
+				<input labelgroup_id="1" />
+				<input labelgroup_id="2" />
+				<input labelgroup_id="5" />
+				<input labelgroup_id="6" />
+				<input labelgroup_id="7" />
+				<input labelgroup_id="8" />
+				<input labelgroup_id="16" />
+				<input labelgroup_id="17" />
+				<input labelgroup_id="9" />
+				<input labelgroup_id="10" />
+				<input labelgroup_id="11" />
+				<input labelgroup_id="12" />
+				<input labelgroup_id="13" />
+				<input labelgroup_id="14" />
+				<input labelgroup_id="15" />
+				<input labelgroup_id="4" />
+				<input labelgroup_id="3" />
+			</control>
+			
+			<!-- type 11 = Southpaw FPS2 + Alternative -->
+				<control type="11">
+				<input labelgroup_id="0" />
+				<input labelgroup_id="1" />
+				<input labelgroup_id="2" />
+				<input labelgroup_id="5" />
+				<input labelgroup_id="6" />
+				<input labelgroup_id="7" />
+				<input labelgroup_id="8" />
+				<input labelgroup_id="16" />
+				<input labelgroup_id="17" />
+				<input labelgroup_id="9" />
+				<input labelgroup_id="10" />
+				<input labelgroup_id="11" />
+				<input labelgroup_id="12" />
+				<input labelgroup_id="13" />
+				<input labelgroup_id="14" />
+				<input labelgroup_id="15" />
+				<input labelgroup_id="4" />
+				<input labelgroup_id="3" />
+			</control>
+			
+		</controlgroups>
+
+	</context>
+
+	<context scheme="INPUT_TYPE_CREATOR">
+
+		<labelgroups>
+			<labelgroup id="0">
+				<label>INPUT_CREATOR_ZOOM_OUT_DISPLAYONLY</label>
+			</labelgroup>
+			<labelgroup id="1">
+				<label>INPUT_CREATOR_ROTATE_LEFT_DISPLAYONLY</label>
+			</labelgroup>
+			<labelgroup id="2">
+				<label>INPUT_CHANGE_CAMERA_DISPLAYONLY</label>
+			</labelgroup>
+			<labelgroup id="3">
+				<label>INPUT_CREATOR_MOVE_CAMERA_DISPLAYONLY</label>
+			</labelgroup>
+			<labelgroup id="4">
+				<label>INPUT_NO_FUNCTION_DISPLAYONLY</label>
+			</labelgroup>
+			<labelgroup id="5">
+				<label>INPUT_CREATOR_BROWSE_DISPLAYONLY</label>
+			</labelgroup>
+			<labelgroup id="6">
+				<label>INPUT_CREATOR_ADJUST_DISPLAYONLY</label>
+			</labelgroup>
+			<labelgroup id="7">
+				<label>INPUT_CREATOR_BROWSE_DISPLAYONLY</label>
+			</labelgroup>
+			<labelgroup id="8">
+				<label>INPUT_CREATOR_ADJUST_DISPLAYONLY</label>
+			</labelgroup>
+			<labelgroup id="9">
+				<label>INPUT_CREATOR_ZOOM_IN_DISPLAYONLY</label>
+			</labelgroup>
+			<labelgroup id="10">
+				<label>INPUT_CREATOR_ROTATE_RIGHT_DISPLAYONLY</label>
+			</labelgroup>
+			<labelgroup id="11">
+				<label>INPUT_PAUSE</label>
+			</labelgroup>
+			<labelgroup id="12">
+				<label>INPUT_NO_FUNCTION_DISPLAYONLY</label>
+			</labelgroup>
+			<labelgroup id="13">
+				<label>INPUT_CREATOR_CANCEL_DISPLAYONLY</label>
+			</labelgroup>
+			<labelgroup id="14">
+				<label>INPUT_CREATOR_SELECT_DISPLAYONLY</label>
+				<label>INPUT_CREATOR_PLACE_DISPLAYONLY</label>
+			</labelgroup>
+			<labelgroup id="15">
+				<label>INPUT_CREATOR_DELETE_DISPLAYONLY</label>
+			</labelgroup>
+			<labelgroup id="16">
+				<label>INPUT_CREATOR_CAMERA_DISPLAYONLY</label>
+			</labelgroup>
+			<labelgroup id="17">
+				<label>INPUT_NO_FUNCTION_DISPLAYONLY</label>
+			</labelgroup>
+		</labelgroups>
+
+		<controlgroups>
+
+			<control type="0">
+				<!-- type 0 = Standard -->
+				<input labelgroup_id="0" />
+				<input labelgroup_id="1" />
+				<input labelgroup_id="2" />
+				<input labelgroup_id="5" />
+				<input labelgroup_id="6" />
+				<input labelgroup_id="7" />
+				<input labelgroup_id="8" />
+				<input labelgroup_id="3" />
+				<input labelgroup_id="4" />
+				<input labelgroup_id="9" />
+				<input labelgroup_id="10" />
+				<input labelgroup_id="11" />
+				<input labelgroup_id="12" />
+				<input labelgroup_id="13" />
+				<input labelgroup_id="14" />
+				<input labelgroup_id="15" />
+				<input labelgroup_id="17" />
+				<input labelgroup_id="16" />
+			</control>
+
+			<control type="1">
+			<!-- type 1 = Alternate -->
+				<input labelgroup_id="0" />
+				<input labelgroup_id="1" />
+				<input labelgroup_id="2" />
+				<input labelgroup_id="5" />
+				<input labelgroup_id="6" />
+				<input labelgroup_id="7" />
+				<input labelgroup_id="8" />
+				<input labelgroup_id="3" />
+				<input labelgroup_id="4" />
+				<input labelgroup_id="9" />
+				<input labelgroup_id="10" />
+				<input labelgroup_id="11" />
+				<input labelgroup_id="12" />
+				<input labelgroup_id="13" />
+				<input labelgroup_id="14" />
+				<input labelgroup_id="15" />
+				<input labelgroup_id="17" />
+				<input labelgroup_id="16" />
+			</control>
+
+			<control type="2">
+			<!-- type 2 = Southpaw -->
+				<input labelgroup_id="0" />
+				<input labelgroup_id="1" />
+				<input labelgroup_id="2" />
+				<input labelgroup_id="5" />
+				<input labelgroup_id="6" />
+				<input labelgroup_id="7" />
+				<input labelgroup_id="8" />
+				<input labelgroup_id="16" />
+				<input labelgroup_id="17" />
+				<input labelgroup_id="9" />
+				<input labelgroup_id="10" />
+				<input labelgroup_id="11" />
+				<input labelgroup_id="12" />
+				<input labelgroup_id="13" />
+				<input labelgroup_id="14" />
+				<input labelgroup_id="15" />
+				<input labelgroup_id="4" />
+				<input labelgroup_id="3" />
+			</control>
+
+			<control type="3">
+			<!-- type 3 = Alternate + Southpaw -->
+				<input labelgroup_id="0" />
+				<input labelgroup_id="1" />
+				<input labelgroup_id="2" />
+				<input labelgroup_id="5" />
+				<input labelgroup_id="6" />
+				<input labelgroup_id="7" />
+				<input labelgroup_id="8" />
+				<input labelgroup_id="16" />
+				<input labelgroup_id="17" />
+				<input labelgroup_id="9" />
+				<input labelgroup_id="10" />
+				<input labelgroup_id="11" />
+				<input labelgroup_id="12" />
+				<input labelgroup_id="13" />
+				<input labelgroup_id="14" />
+				<input labelgroup_id="15" />
+				<input labelgroup_id="4" />
+				<input labelgroup_id="3" />
+			</control>
+
+			<control type="4">
+				<!-- type 4 = Standard FPS -->
+				<input labelgroup_id="0" />
+				<input labelgroup_id="1" />
+				<input labelgroup_id="2" />
+				<input labelgroup_id="5" />
+				<input labelgroup_id="6" />
+				<input labelgroup_id="7" />
+				<input labelgroup_id="8" />
+				<input labelgroup_id="3" />
+				<input labelgroup_id="4" />
+				<input labelgroup_id="9" />
+				<input labelgroup_id="10" />
+				<input labelgroup_id="11" />
+				<input labelgroup_id="12" />
+				<input labelgroup_id="13" />
+				<input labelgroup_id="14" />
+				<input labelgroup_id="15" />
+				<input labelgroup_id="17" />
+				<input labelgroup_id="16" />
+			</control>
+
+			<control type="5">
+			<!-- type 5 = Alternate FPS -->
+				<input labelgroup_id="0" />
+				<input labelgroup_id="1" />
+				<input labelgroup_id="2" />
+				<input labelgroup_id="5" />
+				<input labelgroup_id="6" />
+				<input labelgroup_id="7" />
+				<input labelgroup_id="8" />
+				<input labelgroup_id="3" />
+				<input labelgroup_id="4" />
+				<input labelgroup_id="9" />
+				<input labelgroup_id="10" />
+				<input labelgroup_id="11" />
+				<input labelgroup_id="12" />
+				<input labelgroup_id="13" />
+				<input labelgroup_id="14" />
+				<input labelgroup_id="15" />
+				<input labelgroup_id="17" />
+				<input labelgroup_id="16" />
+			</control>
+
+			<control type="6">
+			<!-- type 6 = Southpaw FPS -->
+				<input labelgroup_id="0" />
+				<input labelgroup_id="1" />
+				<input labelgroup_id="2" />
+				<input labelgroup_id="5" />
+				<input labelgroup_id="6" />
+				<input labelgroup_id="7" />
+				<input labelgroup_id="8" />
+				<input labelgroup_id="16" />
+				<input labelgroup_id="17" />
+				<input labelgroup_id="9" />
+				<input labelgroup_id="10" />
+				<input labelgroup_id="11" />
+				<input labelgroup_id="12" />
+				<input labelgroup_id="13" />
+				<input labelgroup_id="14" />
+				<input labelgroup_id="15" />
+				<input labelgroup_id="4" />
+				<input labelgroup_id="3" />
+			</control>
+
+			<control type="7">
+			<!-- type 7 = Alternate + Southpaw FPS -->
+				<input labelgroup_id="0" />
+				<input labelgroup_id="1" />
+				<input labelgroup_id="2" />
+				<input labelgroup_id="5" />
+				<input labelgroup_id="6" />
+				<input labelgroup_id="7" />
+				<input labelgroup_id="8" />
+				<input labelgroup_id="16" />
+				<input labelgroup_id="17" />
+				<input labelgroup_id="9" />
+				<input labelgroup_id="10" />
+				<input labelgroup_id="11" />
+				<input labelgroup_id="12" />
+				<input labelgroup_id="13" />
+				<input labelgroup_id="14" />
+				<input labelgroup_id="15" />
+				<input labelgroup_id="4" />
+				<input labelgroup_id="3" />
+			</control>
+
+			<control type="8">
+				<!-- type 8 = Standard FPS2 -->
+				<input labelgroup_id="0" />
+				<input labelgroup_id="1" />
+				<input labelgroup_id="2" />
+				<input labelgroup_id="5" />
+				<input labelgroup_id="6" />
+				<input labelgroup_id="7" />
+				<input labelgroup_id="8" />
+				<input labelgroup_id="3" />
+				<input labelgroup_id="4" />
+				<input labelgroup_id="9" />
+				<input labelgroup_id="10" />
+				<input labelgroup_id="11" />
+				<input labelgroup_id="12" />
+				<input labelgroup_id="13" />
+				<input labelgroup_id="14" />
+				<input labelgroup_id="15" />
+				<input labelgroup_id="17" />
+				<input labelgroup_id="16" />
+			</control>
+
+			<control type="9">
+			<!-- type 9 = Alternate FPS2-->
+				<input labelgroup_id="0" />
+				<input labelgroup_id="1" />
+				<input labelgroup_id="2" />
+				<input labelgroup_id="5" />
+				<input labelgroup_id="6" />
+				<input labelgroup_id="7" />
+				<input labelgroup_id="8" />
+				<input labelgroup_id="3" />
+				<input labelgroup_id="4" />
+				<input labelgroup_id="9" />
+				<input labelgroup_id="10" />
+				<input labelgroup_id="11" />
+				<input labelgroup_id="12" />
+				<input labelgroup_id="13" />
+				<input labelgroup_id="14" />
+				<input labelgroup_id="15" />
+				<input labelgroup_id="17" />
+				<input labelgroup_id="16" />
+			</control>
+
+			<control type="10">
+			<!-- type 10 = Southpaw FPS2 -->
+				<input labelgroup_id="0" />
+				<input labelgroup_id="1" />
+				<input labelgroup_id="2" />
+				<input labelgroup_id="5" />
+				<input labelgroup_id="6" />
+				<input labelgroup_id="7" />
+				<input labelgroup_id="8" />
+				<input labelgroup_id="16" />
+				<input labelgroup_id="17" />
+				<input labelgroup_id="9" />
+				<input labelgroup_id="10" />
+				<input labelgroup_id="11" />
+				<input labelgroup_id="12" />
+				<input labelgroup_id="13" />
+				<input labelgroup_id="14" />
+				<input labelgroup_id="15" />
+				<input labelgroup_id="4" />
+				<input labelgroup_id="3" />
+			</control>
+
+			<control type="11">
+			<!-- type 11 = Alternate + Southpaw FPS2 -->
+				<input labelgroup_id="0" />
+				<input labelgroup_id="1" />
+				<input labelgroup_id="2" />
+				<input labelgroup_id="5" />
+				<input labelgroup_id="6" />
+				<input labelgroup_id="7" />
+				<input labelgroup_id="8" />
+				<input labelgroup_id="16" />
+				<input labelgroup_id="17" />
+				<input labelgroup_id="9" />
+				<input labelgroup_id="10" />
+				<input labelgroup_id="11" />
+				<input labelgroup_id="12" />
+				<input labelgroup_id="13" />
+				<input labelgroup_id="14" />
+				<input labelgroup_id="15" />
+				<input labelgroup_id="4" />
+				<input labelgroup_id="3" />
+			</control>
+
+		</controlgroups>
+
+	</context>
+
+</controls>
