@@ -1,4 +1,4 @@
-const RELEASE = 'https://github.com/MagiczLunchly/gta5-webport-vercel/releases/download/game-data-v1/';
+const RELEASE = 'https://github.com/MagiczLunchly/gta5-webport-vercel/releases/download/game-data-v2/';
 const MiB = 1024 * 1024;
 const BASE_HEADERS = {'Cross-Origin-Resource-Policy':'same-origin','Accept-Ranges':'bytes'};
 const TYPES = {json:'application/json',html:'text/html; charset=utf-8',xml:'application/xml',txt:'text/plain; charset=utf-8'};
