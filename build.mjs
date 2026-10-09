@@ -10,6 +10,7 @@ const config = {version:3,routes:[
   {src:'/b/(.*)',headers:{'Cache-Control':'public, max-age=31536000, immutable'},continue:true},
   {src:'/data/batchc/(.*)',headers:{'Cache-Control':'public, max-age=31536000, immutable'},continue:true},
   {src:'/data/(?:manifest|bootset|bootset_low)\\.json',headers:{'Cache-Control':'no-cache'},continue:true},
+  {src:'/deployment-status\\.json',headers:{'Cache-Control':'no-store'},continue:true},
   {handle:'filesystem'},
   {src:'/data/(.*)',dest:'/data?file=$1'},
   {src:'/log',status:204},

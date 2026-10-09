@@ -51,6 +51,20 @@
 // main() run and which may block); the page only owns the canvas, which is transferred to that worker and on to the GPU worker.
 // Query string: ?args=-flag1,-flag2=value (added to the engine command line), ?shot=N (screenshot of every N-th present to the dev server).
 const q = new URLSearchParams(location.search);
+// Do not start the engine against a partially uploaded release.
+for (;;) {
+	try {
+		const status = await fetch('/deployment-status.json', {cache:'no-store'});
+		if (status.ok && (await status.json()).ready === true) break;
+	} catch { /* The next check also handles a brief deployment outage. */ }
+	document.getElementById('label').textContent = 'Preparing game files';
+	document.getElementById('pct').textContent = '';
+	document.getElementById('data').textContent = 'The game files are still uploading. This page will start automatically when they are ready.';
+	await new Promise(resolve => setTimeout(resolve, 30000));
+}
+document.getElementById('label').textContent = 'Starting...';
+document.getElementById('pct').textContent = '0%';
+document.getElementById('data').textContent = '';
 // URL prefix of everything this page loads (loader, workers, engine, shaders, title art): empty on the dev server; on the PHP host (phase3/host/index.php) it puts the page's own
 // text `/b/8b0b5899ed` through str_replace to `/b/<build id>`, so those files are cached for ever under URLs that change when the build does.
 const BASE = '/b/8b0b5899ed'.charAt(0) === '_' ? '' : '/b/8b0b5899ed';
